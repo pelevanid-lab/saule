@@ -62,7 +62,7 @@
             "decisionArea": "Saklama Modeli",
             "answeredInChapters": [
               "Bölüm 22 — Unutma",
-              "Bölüm 25 — Uyarlanabilir Bellek"
+              "Bölüm 25 — Uyumlanabilir Bellek"
             ]
           },
           {
@@ -82,7 +82,7 @@
             "decisionArea": "Bellek Güveni",
             "answeredInChapters": [
               "Bölüm 20 — Güven",
-              "Bölüm 25 — Uyarlanabilir Bellek"
+              "Bölüm 25 — Uyumlanabilir Bellek"
             ]
           },
           {
@@ -219,7 +219,7 @@
             "status": "open",
             "decisionArea": "Kimlik Çıkarımı",
             "answeredInChapters": [
-              "Bölüm 19 — Uyarlanabilir Zekâ",
+              "Bölüm 19 — Uyumlanabilir Zekâ",
               "Bölüm 20 — Güven"
             ]
           },
@@ -260,7 +260,7 @@
             "decisionArea": "Kimlik Sona Ermesi",
             "answeredInChapters": [
               "Bölüm 22 — Unutma",
-              "Bölüm 25 — Uyarlanabilir Bellek"
+              "Bölüm 25 — Uyumlanabilir Bellek"
             ]
           },
           {
@@ -377,7 +377,7 @@
             "status": "open",
             "decisionArea": "Duygu Sinyalleri",
             "answeredInChapters": [
-              "Bölüm 19 — Uyarlanabilir Zekâ",
+              "Bölüm 19 — Uyumlanabilir Zekâ",
               "Bölüm 27 — Yansıtma Motoru"
             ]
           },
@@ -447,7 +447,7 @@
             "status": "open",
             "decisionArea": "Toparlanma Sinyalleri",
             "answeredInChapters": [
-              "Bölüm 19 — Uyarlanabilir Zekâ",
+              "Bölüm 19 — Uyumlanabilir Zekâ",
               "Bölüm 39 — İş Modeli"
             ]
           }
@@ -546,7 +546,7 @@
             "status": "open",
             "decisionArea": "Motivasyon Modeli",
             "answeredInChapters": [
-              "Bölüm 19 — Uyarlanabilir Zekâ",
+              "Bölüm 19 — Uyumlanabilir Zekâ",
               "Bölüm 20 — Güven"
             ]
           },
@@ -564,7 +564,7 @@
             "id": "mo-4",
             "question": "Bir görev ne zaman küçültülmeli, ertelenmeli, devredilmeli ya da bırakılmalıdır?",
             "status": "open",
-            "decisionArea": "Uyarlanabilir Eylem",
+            "decisionArea": "Uyumlanabilir Eylem",
             "answeredInChapters": [
               "Bölüm 24 — İrade",
               "Bölüm 31 — Planlama Zekâsı"
@@ -694,7 +694,7 @@
             "status": "open",
             "decisionArea": "Alışkanlık Temsili",
             "answeredInChapters": [
-              "Bölüm 25 — Uyarlanabilir Bellek",
+              "Bölüm 25 — Uyumlanabilir Bellek",
               "Bölüm 31 — Planlama Zekâsı"
             ]
           },
@@ -764,7 +764,7 @@
             "status": "open",
             "decisionArea": "Alışkanlık İlerlemesi",
             "answeredInChapters": [
-              "Bölüm 19 — Uyarlanabilir Zekâ",
+              "Bölüm 19 — Uyumlanabilir Zekâ",
               "Bölüm 20 — Güven"
             ]
           }
@@ -778,7 +778,7 @@
           "Bir rutini bırakmak, onu güçlendirmek kadar sağlıklı olabilir.",
           "Tutarlılık asla değer göstergesi sayılmamalıdır."
         ],
-        "future_evolution": "Bu bölüm ileride alışkanlık ipuçlarını, onarım akışlarını, uyarlanabilir rutin katmanlarını ve değer duyarlı alışkanlık desteğini tanımlayacaktır.",
+        "future_evolution": "Bu bölüm ileride alışkanlık ipuçlarını, onarım akışlarını, uyumlanabilir rutin katmanlarını ve değer duyarlı alışkanlık desteğini tanımlayacaktır.",
         "references": [
           "Alışkanlık oluşumu araştırmaları",
           "İpucu-rutin-ödül döngüleri",
@@ -883,7 +883,7 @@
             "status": "open",
             "decisionArea": "Ödünleşim Modeli",
             "answeredInChapters": [
-              "Bölüm 19 — Uyarlanabilir Zekâ",
+              "Bölüm 19 — Uyumlanabilir Zekâ",
               "Bölüm 20 — Güven"
             ]
           },
@@ -923,7 +923,7 @@
             "status": "open",
             "decisionArea": "Karar Gözden Geçirme",
             "answeredInChapters": [
-              "Bölüm 25 — Uyarlanabilir Bellek",
+              "Bölüm 25 — Uyumlanabilir Bellek",
               "Bölüm 27 — Yansıtma Motoru"
             ]
           }
@@ -1011,7 +1011,7 @@
             "status": "open",
             "decisionArea": "İlişkisel Bellek",
             "answeredInChapters": [
-              "Bölüm 25 — Uyarlanabilir Bellek",
+              "Bölüm 25 — Uyumlanabilir Bellek",
               "Bölüm 37 — Gizlilik"
             ]
           },
@@ -1180,7 +1180,7 @@
             "status": "open",
             "decisionArea": "Örüntü Dili",
             "answeredInChapters": [
-              "Bölüm 19 — Uyarlanabilir Zekâ",
+              "Bölüm 19 — Uyumlanabilir Zekâ",
               "Bölüm 33 — Ses"
             ]
           },
@@ -1200,7 +1200,7 @@
             "status": "open",
             "decisionArea": "Yansıtıcı Özetler",
             "answeredInChapters": [
-              "Bölüm 25 — Uyarlanabilir Bellek",
+              "Bölüm 25 — Uyumlanabilir Bellek",
               "Bölüm 27 — Yansıtma Motoru"
             ]
           },
@@ -1230,7 +1230,7 @@
             "status": "open",
             "decisionArea": "Yansıtma Geri Çağırma",
             "answeredInChapters": [
-              "Bölüm 25 — Uyarlanabilir Bellek",
+              "Bölüm 25 — Uyumlanabilir Bellek",
               "Bölüm 26 — Bağlam Motoru"
             ]
           },
@@ -1348,7 +1348,7 @@
             "status": "open",
             "decisionArea": "Anlam Kayması",
             "answeredInChapters": [
-              "Bölüm 25 — Uyarlanabilir Bellek",
+              "Bölüm 25 — Uyumlanabilir Bellek",
               "Bölüm 27 — Yansıtma Motoru"
             ]
           },
@@ -1358,7 +1358,7 @@
             "status": "open",
             "decisionArea": "Değer Uyumlu Tutarlılık",
             "answeredInChapters": [
-              "Bölüm 19 — Uyarlanabilir Zekâ",
+              "Bölüm 19 — Uyumlanabilir Zekâ",
               "Bölüm 24 — İrade"
             ]
           },
@@ -1534,7 +1534,7 @@
             "status": "open",
             "decisionArea": "Ayrım Mantığı",
             "answeredInChapters": [
-              "Bölüm 19 — Uyarlanabilir Zekâ",
+              "Bölüm 19 — Uyumlanabilir Zekâ",
               "Bölüm 26 — Bağlam Motoru"
             ]
           },

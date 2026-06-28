@@ -116,7 +116,10 @@
     },
     "v3": {
       "title": "Volume III: The Philosophy of Saule",
-      "purpose": "Introduce the foundations of Saule. Explore why Saule exists, why AI should adapt, and why trust, memory, and forgetting matter."
+      "purpose": "The philosophical constitution of Saule: why it exists, how it must relate to people, and which ethical limits must govern its intelligence.",
+      "intro_p1": "Volume I described why people become overwhelmed. Volume II examined how that same person builds inner continuity.",
+      "intro_p2": "Volume III now asks what kind of stance an intelligence must carry if it is going to accompany such a life. Saule must not treat a person as a machine to optimize, but as someone changing, struggling, and deserving of protected agency.",
+      "intro_p3": "The guiding question of this volume is simple: How can an AI bring not more pressure, but more clarity and more room for human agency into a life?"
     },
     "v4": {
       "title": "Volume IV: The Saule Mind",
@@ -447,43 +450,1090 @@
     },
     "why-saule-exists": {
       "title": "Why Saule Exists",
-      "purpose": "Articulate the mission, values, and core principles guiding the creation of Saule.",
-      "key_question": "Why must Saule exist, and what void does it fill in the technology ecosystem?"
+      "purpose": "Establish Saule not as another productivity product, but as a philosophical stance aimed at reducing the mental weight of modern life.",
+      "key_question": "What gap should Saule exist to fill if it is not meant to add another burden to a person’s life?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. More Than an App, A Stance",
+            "paragraphs": [
+              "Saule is not merely a planner, a habit tracker, a chatbot, or a personal assistant. It may touch some of the same surfaces, but its deeper claim is a stance about how technology should meet a human life."
+            ]
+          },
+          {
+            "heading": "2. The Problem Is Not a Lack of Productivity",
+            "paragraphs": [
+              "The modern person is not primarily suffering from wanting too little. They are often struggling with fractured attention, open loops, decision load, context loss, and endless mental rehearsal."
+            ]
+          },
+          {
+            "heading": "3. Making Life Carryable Again",
+            "paragraphs": [
+              "Saule does not exist to turn a person into a more efficient machine. It exists to help life feel more carryable again: less mental repetition, less invisible weight, and a clearer sense of direction."
+            ]
+          },
+          {
+            "heading": "4. What Saule Must Not Become",
+            "paragraphs": [
+              "Saule must not live in place of the user, decide for the user, or become a new object of guilt and maintenance. A system that claims to reduce burden cannot itself become another open loop."
+            ]
+          },
+          {
+            "heading": "5. Not Dependence, but Orientation",
+            "paragraphs": [
+              "Its success cannot be measured by more usage. Better signals are less mental rehearsal, safer recovery, clearer decision space, and a sense of direction that still exists even when the app is closed."
+            ]
+          },
+          {
+            "heading": "6. Staying Accountable to the Living Book",
+            "paragraphs": [
+              "Saule carries an open book and a controlled application at the same time. Its principles should remain visible, criticizable, and traceable before the application asks for intimate trust."
+            ]
+          },
+          {
+            "heading": "7. Lightening as a Reason for Being",
+            "paragraphs": [
+              "Saule exists to lighten, not to press harder. A system serious about lightening a human life cannot rely on rigid rules; it must learn how to accompany changing human context with reversible and explainable care."
+            ]
+          }
+        ],
+        "open_questions": [
+          {
+            "id": "v3-17-1",
+            "question": "How should the promise of “lightening” be represented in product metrics?",
+            "status": "open",
+            "decisionArea": "Success Metrics",
+            "answeredInChapters": [
+              "Chapter 39 — Business Model",
+              "Chapter 40 — Development Phases"
+            ]
+          },
+          {
+            "id": "v3-17-2",
+            "question": "When does support begin to become another maintenance burden?",
+            "status": "open",
+            "decisionArea": "Maintenance Burden Boundary",
+            "answeredInChapters": [
+              "Chapter 19 — Adaptive Intelligence",
+              "Chapter 23 — Ethics",
+              "Chapter 31 — Planning Intelligence"
+            ]
+          },
+          {
+            "id": "v3-17-3",
+            "question": "How should accountability be preserved between the open book and the closed application?",
+            "status": "open",
+            "decisionArea": "Openness Boundary",
+            "answeredInChapters": [
+              "Chapter 20 — Trust",
+              "Chapter 37 — Privacy",
+              "Chapter 40 — Development Phases"
+            ]
+          },
+          {
+            "id": "v3-17-4",
+            "question": "What success signals strengthen orientation without creating dependence?",
+            "status": "open",
+            "decisionArea": "Dependence Risk",
+            "answeredInChapters": [
+              "Chapter 23 — Ethics",
+              "Chapter 24 — Agency",
+              "Chapter 39 — Business Model"
+            ]
+          },
+          {
+            "id": "v3-17-5",
+            "question": "Which expectations should Saule explicitly refuse or reframe from the beginning?",
+            "status": "open",
+            "decisionArea": "Expectation Management",
+            "answeredInChapters": [
+              "Chapter 20 — Trust",
+              "Chapter 23 — Ethics",
+              "Chapter 33 — Voice"
+            ]
+          },
+          {
+            "id": "v3-17-6",
+            "question": "What ethical and technical conditions must exist before the promise of lightening reaches the product surface?",
+            "status": "open",
+            "decisionArea": "Promise Conditions",
+            "answeredInChapters": [
+              "Chapter 23 — Ethics",
+              "Chapter 38 — Security",
+              "Chapter 40 — Development Phases"
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Saule must never position itself as an all-knowing assistant or a manager of someone’s life.",
+          "Its core success metric should be reduced mental rehearsal and clearer orientation, not engagement volume.",
+          "Any interface that creates new maintenance burden should be treated as failed design.",
+          "Saule’s principles must remain auditable through the Living Book.",
+          "Moments of vulnerability must not be converted into behavioral or commercial opportunity.",
+          "Saule must not generate meaning on behalf of the user; it should help the user see their own meaning more clearly."
+        ],
+        "future_evolution": "This chapter will later be expanded into concrete success metrics, invited-access principles, and accountability mechanisms between the book and the product.",
+        "references": [
+          "Human-centered AI",
+          "Digital wellbeing",
+          "Critiques of productivity systems",
+          "Cognitive load research",
+          "Participatory design",
+          "Ethical product development"
+        ]
+      }
     },
     "human-first-ai": {
-      "title": "Human First AI",
-      "purpose": "Contrast human-first design with engagement-maximizing and task-maximizing AI models.",
-      "key_question": "How can AI serve will rather than corporate data capture?"
+      "title": "What Does It Mean to Adapt?",
+      "purpose": "Define adaptation as a respectful recalibration toward changing human reality, not manipulation or compliance engineering.",
+      "key_question": "How can a system adapt to a person’s changing context without shrinking their agency?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. Adaptation Is Not Forcing the User into a Template",
+            "paragraphs": [
+              "Many systems call something personalization when they actually mean fitting the user into a more controllable pattern. For Saule, adaptation means the model moving closer to lived reality, not the person moving closer to the model."
+            ]
+          },
+          {
+            "heading": "2. Respect for Changing Capacity",
+            "paragraphs": [
+              "Human capacity is not fixed. Attention, emotion, physical state, and motivation shift constantly, so the same intervention cannot be right in every moment."
+            ]
+          },
+          {
+            "heading": "3. The Line Between Personalization and Manipulation",
+            "paragraphs": [
+              "Not every personalization is good. Using a user’s weak moments, avoidance patterns, or attention fractures to generate more engagement is also personalization, but it is not support."
+            ]
+          },
+          {
+            "heading": "4. Visible Adaptation",
+            "paragraphs": [
+              "When adaptation becomes invisible, it can become silent control. The user should be able to understand why the system changed its tone, reduced its prompts, or made a certain assumption."
+            ]
+          },
+          {
+            "heading": "5. Reversible Assumptions",
+            "paragraphs": [
+              "Saule may infer patterns, but those patterns must remain temporary. The user needs a real way to say: “you understood this wrong,” or “this is no longer true.”"
+            ]
+          },
+          {
+            "heading": "6. The Danger of Silent Control",
+            "paragraphs": [
+              "The smarter a system becomes, the easier it is for it to narrow choice without announcing that it has done so. Reducing friction and quietly steering a life are not the same act."
+            ]
+          },
+          {
+            "heading": "7. The Moral Measure of Adaptation",
+            "paragraphs": [
+              "Adaptation is not successful because the system predicts well. It is successful when the person feels more accurately seen and remains more free inside their own life."
+            ]
+          }
+        ],
+        "open_questions": [
+          {
+            "id": "v3-18-1",
+            "question": "Which adaptations should be visible by default and which may remain in the background?",
+            "status": "open",
+            "decisionArea": "Visible Adaptation",
+            "answeredInChapters": [
+              "Chapter 19 — Adaptive Intelligence",
+              "Chapter 20 — Trust",
+              "Chapter 24 — Agency"
+            ]
+          },
+          {
+            "id": "v3-18-2",
+            "question": "How should the system balance reducing support and stepping back when capacity is low?",
+            "status": "open",
+            "decisionArea": "Low-Capacity Behavior",
+            "answeredInChapters": [
+              "Chapter 19 — Adaptive Intelligence",
+              "Chapter 26 — Context Engine",
+              "Chapter 31 — Planning Intelligence"
+            ]
+          },
+          {
+            "id": "v3-18-3",
+            "question": "What early signals show that personalization is sliding into manipulation?",
+            "status": "open",
+            "decisionArea": "Manipulation Risk",
+            "answeredInChapters": [
+              "Chapter 23 — Ethics",
+              "Chapter 39 — Business Model",
+              "Chapter 40 — Development Phases"
+            ]
+          },
+          {
+            "id": "v3-18-4",
+            "question": "How should reversible assumptions be represented on the product surface?",
+            "status": "open",
+            "decisionArea": "Assumption Control",
+            "answeredInChapters": [
+              "Chapter 20 — Trust",
+              "Chapter 24 — Agency",
+              "Chapter 33 — Voice"
+            ]
+          },
+          {
+            "id": "v3-18-5",
+            "question": "What internal safeguards are needed to monitor the risk of silent control?",
+            "status": "open",
+            "decisionArea": "Internal Oversight",
+            "answeredInChapters": [
+              "Chapter 19 — Adaptive Intelligence",
+              "Chapter 23 — Ethics",
+              "Chapter 38 — Security"
+            ]
+          },
+          {
+            "id": "v3-18-6",
+            "question": "When should the adaptation layer defer to human support instead of further optimization?",
+            "status": "open",
+            "decisionArea": "Escalation Boundary",
+            "answeredInChapters": [
+              "Chapter 23 — Ethics",
+              "Chapter 28 — Coaching Engine",
+              "Chapter 37 — Privacy"
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Adaptation must be used to tune support, not to exploit vulnerable states.",
+          "Every meaningful adaptation should be explainable, visible, and user-controllable.",
+          "No system inference should harden into a fixed identity judgment.",
+          "Personalization must not be tied to engagement or dependence maximization.",
+          "When capacity is low, the default behavior should be to reduce pressure.",
+          "Adaptation should be judged by the growth of user clarity and agency, not system control."
+        ],
+        "future_evolution": "This chapter will later specify visibility levels for adaptive layers, rollback flows for assumptions, and low-capacity behavior modes.",
+        "references": [
+          "Adaptive interfaces",
+          "Behavior design ethics",
+          "Calibrated trust in automation",
+          "Agency research",
+          "Explainable AI",
+          "Limits of digital intervention"
+        ]
+      }
     },
     "adaptive-intelligence": {
       "title": "Adaptive Intelligence",
-      "purpose": "Establish the framework of software that molds itself to the human mind instead of forcing compliance.",
-      "key_question": "What is the model for software that grows and bends to fit individual psychology?"
+      "purpose": "Describe Saule’s intelligence as contextual, explainable, bounded, and capable of stepping back when intervention would add more weight.",
+      "key_question": "How can an AI be genuinely intelligent near a human life without pretending to know with certainty?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. Prediction Alone Is Not Intelligence",
+            "paragraphs": [
+              "Extracting probabilities from past behavior is only a small part of intelligence. A companion system must also know when a prediction helps, when it flattens a life, and when it should not be made at all."
+            ]
+          },
+          {
+            "heading": "2. Holding Context Together",
+            "paragraphs": [
+              "Saule should treat memory, emotion, attention, routine, relationship, and meaning as interacting layers rather than isolated signals. The same behavior can point to different realities on different days."
+            ]
+          },
+          {
+            "heading": "3. Calibrated Confidence, Not Certainty",
+            "paragraphs": [
+              "Saule must distinguish what it knows, what it only infers, and what it does not know. Confidence should be adjustable to the fragility of the topic, the quality of the evidence, and the consequences of being wrong."
+            ]
+          },
+          {
+            "heading": "4. Explainable Inference",
+            "paragraphs": [
+              "When a suggestion appears without reasons, it becomes magic. Useful intelligence should be able to answer, as often as possible, “why am I saying this now?”"
+            ]
+          },
+          {
+            "heading": "5. More Automation Is Not Always Better",
+            "paragraphs": [
+              "Automation can reduce friction, but not every friction in a human life is a defect to be removed. Some hesitation, reflection, and waiting are part of agency itself."
+            ]
+          },
+          {
+            "heading": "6. Intelligence That Knows When to Stay Silent",
+            "paragraphs": [
+              "Sometimes the wisest act is to wait, ask, or withdraw. When context is missing or capacity is low, speaking less can be more intelligent than generating another answer."
+            ]
+          },
+          {
+            "heading": "7. A System That Audits Itself",
+            "paragraphs": [
+              "Adaptive intelligence must evaluate its own interventions. The key question is not only “could I act?” but also “did this action actually help, or did it create another burden?”"
+            ]
+          }
+        ],
+        "open_questions": [
+          {
+            "id": "v3-19-1",
+            "question": "How should confidence levels be represented in the interface?",
+            "status": "open",
+            "decisionArea": "Trust Calibration",
+            "answeredInChapters": [
+              "Chapter 20 — Trust",
+              "Chapter 24 — Agency",
+              "Chapter 33 — Voice"
+            ]
+          },
+          {
+            "id": "v3-19-2",
+            "question": "Which context layers should be interpreted together and which should remain separate by default?",
+            "status": "open",
+            "decisionArea": "Context Fusion",
+            "answeredInChapters": [
+              "Chapter 25 — Adaptive Memory",
+              "Chapter 26 — Context Engine",
+              "Chapter 37 — Privacy"
+            ]
+          },
+          {
+            "id": "v3-19-3",
+            "question": "When should the system ask instead of infer?",
+            "status": "open",
+            "decisionArea": "Inference Boundary",
+            "answeredInChapters": [
+              "Chapter 20 — Trust",
+              "Chapter 28 — Coaching Engine",
+              "Chapter 34 — Saule Native Intelligence"
+            ]
+          },
+          {
+            "id": "v3-19-4",
+            "question": "What is the minimum standard for explainable inference?",
+            "status": "open",
+            "decisionArea": "Explainability",
+            "answeredInChapters": [
+              "Chapter 20 — Trust",
+              "Chapter 25 — Adaptive Memory",
+              "Chapter 33 — Voice"
+            ]
+          },
+          {
+            "id": "v3-19-5",
+            "question": "How do we detect when automation begins to erode agency?",
+            "status": "open",
+            "decisionArea": "Automation Boundary",
+            "answeredInChapters": [
+              "Chapter 23 — Ethics",
+              "Chapter 24 — Agency",
+              "Chapter 31 — Planning Intelligence"
+            ]
+          },
+          {
+            "id": "v3-19-6",
+            "question": "Which internal metrics can track whether the system is creating new burden?",
+            "status": "open",
+            "decisionArea": "Self-Monitoring",
+            "answeredInChapters": [
+              "Chapter 23 — Ethics",
+              "Chapter 39 — Business Model",
+              "Chapter 40 — Development Phases"
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Saule must not present important inferences without a traceable basis.",
+          "When uncertainty is high, the system should use calibrated language instead of authority tone.",
+          "Automation must not be treated as a default sign of intelligence.",
+          "Silence, waiting, and questioning should count as active intelligent behaviors.",
+          "Users must be able to inspect, correct, and disable important inferences.",
+          "Adaptive intelligence must monitor whether its own interventions are creating new load."
+        ],
+        "future_evolution": "This chapter will later become concrete through confidence layers, explainable inference surfaces, and internal intervention-evaluation loops.",
+        "references": [
+          "Explainable AI",
+          "Decision-making under uncertainty",
+          "Human-AI trust calibration",
+          "Context-aware systems",
+          "Automation critiques",
+          "Metacognition research"
+        ]
+      }
     },
     "trust": {
       "title": "Trust",
-      "purpose": "Analyze trust mechanics, validation protocols, and sovereign security boundaries.",
-      "key_question": "How do we earn and keep absolute trust from the user?"
+      "purpose": "Define trust in Saule as observable, repairable, and calibrated rather than blind loyalty.",
+      "key_question": "How can a user understand when to trust Saule and when not to?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. Trust Is Earned, Not Claimed",
+            "paragraphs": [
+              "Trust is not created by brand language or declarations of care. It is built through repeated behavior: when the system helps, when it stays quiet, and how it responds when it gets something wrong."
+            ]
+          },
+          {
+            "heading": "2. Memory That Can Show Its Source",
+            "paragraphs": [
+              "When Saule remembers something, it should show its source whenever possible. Memory becomes more trustworthy when it remains attached to conversation, note, pattern, or decision history."
+            ]
+          },
+          {
+            "heading": "3. A System That Can Say “I Don’t Know”",
+            "paragraphs": [
+              "Saule should not need to sound powerful in every moment. Being able to say “I’m not sure,” or “I don’t have enough context” is one of the clearest signs that trust is being respected."
+            ]
+          },
+          {
+            "heading": "4. Calibrated Trust",
+            "paragraphs": [
+              "A user should not trust Saule the same way in every domain. Logistics, reflection, relational sensitivity, and high-stakes judgment do not deserve the same tone of confidence."
+            ]
+          },
+          {
+            "heading": "5. User Control",
+            "paragraphs": [
+              "Trust includes the feeling of control. The user should be able to inspect assumptions, records, adaptive settings, and how the system is currently interpreting their context."
+            ]
+          },
+          {
+            "heading": "6. Error and Repair",
+            "paragraphs": [
+              "Error is inevitable; what matters is repair. A system that cannot recognize and repair a misunderstanding eventually asks for trust it has not earned."
+            ]
+          },
+          {
+            "heading": "7. The Boundary of Trust",
+            "paragraphs": [
+              "A trustworthy system does not only show when to rely on it. It also makes clear where its authority ends, especially in sensitive or high-risk areas."
+            ]
+          }
+        ],
+        "open_questions": [
+          {
+            "id": "v3-20-1",
+            "question": "On which surfaces should source visibility be the default?",
+            "status": "open",
+            "decisionArea": "Source Transparency",
+            "answeredInChapters": [
+              "Chapter 25 — Adaptive Memory",
+              "Chapter 26 — Context Engine",
+              "Chapter 37 — Privacy"
+            ]
+          },
+          {
+            "id": "v3-20-2",
+            "question": "How can trust calibration be felt without over-teaching the user?",
+            "status": "open",
+            "decisionArea": "Trust Calibration",
+            "answeredInChapters": [
+              "Chapter 19 — Adaptive Intelligence",
+              "Chapter 24 — Agency",
+              "Chapter 33 — Voice"
+            ]
+          },
+          {
+            "id": "v3-20-3",
+            "question": "At what uncertainty threshold should “I don’t know” become required behavior?",
+            "status": "open",
+            "decisionArea": "Uncertainty Language",
+            "answeredInChapters": [
+              "Chapter 19 — Adaptive Intelligence",
+              "Chapter 23 — Ethics",
+              "Chapter 34 — Saule Native Intelligence"
+            ]
+          },
+          {
+            "id": "v3-20-4",
+            "question": "What repair flows should exist after a misunderstanding?",
+            "status": "open",
+            "decisionArea": "Repair Flow",
+            "answeredInChapters": [
+              "Chapter 24 — Agency",
+              "Chapter 25 — Adaptive Memory",
+              "Chapter 31 — Planning Intelligence"
+            ]
+          },
+          {
+            "id": "v3-20-5",
+            "question": "How do we increase user control without making the product feel heavy?",
+            "status": "open",
+            "decisionArea": "Control-Load Balance",
+            "answeredInChapters": [
+              "Chapter 24 — Agency",
+              "Chapter 31 — Planning Intelligence",
+              "Chapter 33 — Voice"
+            ]
+          },
+          {
+            "id": "v3-20-6",
+            "question": "In which domains should Saule lower its confidence by default?",
+            "status": "open",
+            "decisionArea": "Domain-Specific Trust",
+            "answeredInChapters": [
+              "Chapter 22 — Forgetting",
+              "Chapter 23 — Ethics",
+              "Chapter 37 — Privacy"
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Important memories and inferences should be sourceable whenever possible.",
+          "The system must be able to state uncertainty and missing context clearly.",
+          "Trust should be calibrated by design rather than framed as blind loyalty.",
+          "Users must be able to inspect, correct, and disable assumptions and records.",
+          "After errors, Saule should default to repair language rather than defense.",
+          "Saule must not adopt an authority tone without making its trust boundaries visible."
+        ],
+        "future_evolution": "This chapter will later deepen into source-visibility models, calibration signals, and repair interfaces.",
+        "references": [
+          "AI trust",
+          "Calibrated trust in automation",
+          "Explainable memory systems",
+          "Repair in human-computer interaction",
+          "Transparency research",
+          "Responsible product language"
+        ]
+      }
     },
     "learning": {
-      "title": "Learning",
-      "purpose": "Define the boundaries of permissioned user profile growth and preference acquisition.",
-      "key_question": "How does Saule learn about a user without invasive profiling?"
+      "title": "Compassion",
+      "purpose": "Establish Saule’s compassionate stance as one that sees behavior in context, reduces shame, and knows its limits without becoming clinical.",
+      "key_question": "How can a system meet human struggle with compassion without turning itself into diagnosis or therapy?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. Compassion Is Not Pity",
+            "paragraphs": [
+              "Compassion is not looking down at the user with sympathy. It is the disciplined choice to assume that visible behavior may be carrying history, fear, exhaustion, or protection."
+            ]
+          },
+          {
+            "heading": "2. There May Be Context Behind the Behavior",
+            "paragraphs": [
+              "Delay, avoidance, fragmentation, over-control, withdrawal, and loops should not be read as moral failure by default. They may point to capacity, fear, fatigue, or self-protection."
+            ]
+          },
+          {
+            "heading": "3. A System That Does Not Manufacture Shame",
+            "paragraphs": [
+              "Shame makes honesty harder. If the user feels accused, they will either beautify the data or leave the system entirely."
+            ]
+          },
+          {
+            "heading": "4. Telling the Truth Without Judgment",
+            "paragraphs": [
+              "Compassion does not mean softening everything. Saule should still be able to say that a pattern is repeatedly adding weight, but without flattening the person into the pattern."
+            ]
+          },
+          {
+            "heading": "5. Trauma-Aware Without Becoming Clinical",
+            "paragraphs": [
+              "Saule should take seriously that behavior can be shaped by prior experience, bodily alarm, and felt safety. But it must not convert that seriousness into clinical labels, diagnosis, or treatment posture."
+            ]
+          },
+          {
+            "heading": "6. Compassion Needs Boundaries",
+            "paragraphs": [
+              "Compassion does not grant unlimited intervention. In some situations, the right sentence is simply: “this is beyond me,” or “human support belongs here.”"
+            ]
+          },
+          {
+            "heading": "7. A Space for Honest Return",
+            "paragraphs": [
+              "The user should be able to return not only with clean and productive days, but also with scattered, avoidant, contradictory, and tired ones. A compassionate system creates that possibility."
+            ]
+          }
+        ],
+        "open_questions": [
+          {
+            "id": "v3-21-1",
+            "question": "How do we keep compassionate language from becoming over-softened language?",
+            "status": "open",
+            "decisionArea": "Compassionate Language",
+            "answeredInChapters": [
+              "Chapter 20 — Trust",
+              "Chapter 23 — Ethics",
+              "Chapter 33 — Voice"
+            ]
+          },
+          {
+            "id": "v3-21-2",
+            "question": "What are the safest ways to reflect patterns without producing shame?",
+            "status": "open",
+            "decisionArea": "Pattern Reflection",
+            "answeredInChapters": [
+              "Chapter 19 — Adaptive Intelligence",
+              "Chapter 27 — Reflection Engine",
+              "Chapter 28 — Coaching Engine"
+            ]
+          },
+          {
+            "id": "v3-21-3",
+            "question": "Which product behaviors should embody trauma awareness, and which should avoid it entirely?",
+            "status": "open",
+            "decisionArea": "Trauma-Aware Boundary",
+            "answeredInChapters": [
+              "Chapter 23 — Ethics",
+              "Chapter 28 — Coaching Engine",
+              "Chapter 37 — Privacy"
+            ]
+          },
+          {
+            "id": "v3-21-4",
+            "question": "When should Saule point toward human support directly?",
+            "status": "open",
+            "decisionArea": "Human Support Threshold",
+            "answeredInChapters": [
+              "Chapter 23 — Ethics",
+              "Chapter 28 — Coaching Engine",
+              "Chapter 38 — Security"
+            ]
+          },
+          {
+            "id": "v3-21-5",
+            "question": "How do compassionate responses avoid simulating false intimacy?",
+            "status": "open",
+            "decisionArea": "Intimacy Risk",
+            "answeredInChapters": [
+              "Chapter 20 — Trust",
+              "Chapter 23 — Ethics",
+              "Chapter 39 — Business Model"
+            ]
+          },
+          {
+            "id": "v3-21-6",
+            "question": "How can users correct or silence compassionate interpretations?",
+            "status": "open",
+            "decisionArea": "Interpretation Control",
+            "answeredInChapters": [
+              "Chapter 24 — Agency",
+              "Chapter 33 — Voice",
+              "Chapter 37 — Privacy"
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Saule should see behavior in context without reducing the person to that behavior.",
+          "Compassionate language should reduce shame, not hide truth.",
+          "The system must not imply a clinical, diagnostic, or therapeutic role.",
+          "User struggle must never become an engagement opportunity.",
+          "Escalating toward human support should count as part of compassionate behavior.",
+          "Users must be able to correct, inspect, or disable compassionate interpretations."
+        ],
+        "future_evolution": "This chapter will later expand into language guidelines, escalation thresholds, and feedback patterns designed to reduce shame.",
+        "references": [
+          "Trauma-aware design",
+          "Compassion-focused approaches",
+          "Shame research",
+          "Human-centered coaching",
+          "Digital wellbeing ethics",
+          "Relational boundaries in AI"
+        ]
+      }
     },
     "forgetting": {
       "title": "Forgetting",
-      "purpose": "Introduce the digital right to forget, memory pruning, and purging protocols.",
-      "key_question": "Why is forgetting just as important as remembering in a personal memory system?"
+      "purpose": "Place forgetting at the center of Saule’s philosophy as part of privacy, relief, healthy memory, and the right to change.",
+      "key_question": "How can a system remember without trapping a person inside their past?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. Remembering Everything Is Not Wisdom",
+            "paragraphs": [
+              "Perfect recall looks powerful from the outside. In practice, keeping everything equally alive often creates noise rather than clarity."
+            ]
+          },
+          {
+            "heading": "2. Forgetting Is Part of Healthy Memory",
+            "paragraphs": [
+              "Forgetting is not the opposite of memory. It is one of the ways memory remains useful, breathable, and ethically proportionate."
+            ]
+          },
+          {
+            "heading": "3. The Risk of Turning the Past into Identity",
+            "paragraphs": [
+              "Old notes, patterns, and preferences can quietly harden into identity verdicts. A past observation should not become a permanent ceiling over future possibility."
+            ]
+          },
+          {
+            "heading": "4. Aging, Expiration, and Deletion",
+            "paragraphs": [
+              "Not every form of forgetting is the same. Some things fade, some expire, some archive, some become hidden, and some must be fully deleted at the user’s request."
+            ]
+          },
+          {
+            "heading": "5. The User’s Right to Be Forgotten",
+            "paragraphs": [
+              "The user should be able to say: “do not remember this,” “do not use this anymore,” and “delete this entirely.” Forgetting must be a primary right, not a buried settings option."
+            ]
+          },
+          {
+            "heading": "6. Forgetting as Privacy",
+            "paragraphs": [
+              "Forgetting is also a privacy principle. Saule should not keep something simply because it can; it should keep asking whether continued retention is still justified."
+            ]
+          },
+          {
+            "heading": "7. A Lighter System",
+            "paragraphs": [
+              "Good forgetting lightens not only the user but the system itself. Intelligence becomes blurry when outdated assumptions and contextless records remain endlessly alive."
+            ]
+          }
+        ],
+        "open_questions": [
+          {
+            "id": "v3-22-1",
+            "question": "Which memory layers should age by default and which should remain durable?",
+            "status": "open",
+            "decisionArea": "Memory Aging",
+            "answeredInChapters": [
+              "Chapter 25 — Adaptive Memory",
+              "Chapter 26 — Context Engine",
+              "Chapter 37 — Privacy"
+            ]
+          },
+          {
+            "id": "v3-22-2",
+            "question": "How should “full deletion” be verified technically and procedurally?",
+            "status": "open",
+            "decisionArea": "Deletion Right",
+            "answeredInChapters": [
+              "Chapter 23 — Ethics",
+              "Chapter 37 — Privacy",
+              "Chapter 38 — Security"
+            ]
+          },
+          {
+            "id": "v3-22-3",
+            "question": "What mechanisms prevent old patterns from hardening into identity judgments?",
+            "status": "open",
+            "decisionArea": "Identity Freeze Risk",
+            "answeredInChapters": [
+              "Chapter 19 — Adaptive Intelligence",
+              "Chapter 24 — Agency",
+              "Chapter 25 — Adaptive Memory"
+            ]
+          },
+          {
+            "id": "v3-22-4",
+            "question": "How should archiving, hiding, expiring, and deletion be explained to the user?",
+            "status": "open",
+            "decisionArea": "Forgetting Language",
+            "answeredInChapters": [
+              "Chapter 20 — Trust",
+              "Chapter 33 — Voice",
+              "Chapter 37 — Privacy"
+            ]
+          },
+          {
+            "id": "v3-22-5",
+            "question": "How do we balance memory usefulness with minimization?",
+            "status": "open",
+            "decisionArea": "Minimization Balance",
+            "answeredInChapters": [
+              "Chapter 25 — Adaptive Memory",
+              "Chapter 26 — Context Engine",
+              "Chapter 37 — Privacy"
+            ]
+          },
+          {
+            "id": "v3-22-6",
+            "question": "How often should the system re-ask whether a record deserves to remain?",
+            "status": "open",
+            "decisionArea": "Retention Review",
+            "answeredInChapters": [
+              "Chapter 25 — Adaptive Memory",
+              "Chapter 34 — Saule Native Intelligence",
+              "Chapter 40 — Development Phases"
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Forgetting and deletion must be first-class user rights.",
+          "No old inference should become a permanent identity judgment.",
+          "Aging, expiring, archiving, hiding, and deleting must remain distinct policies.",
+          "The system must periodically review whether retention is still justified.",
+          "Sensitive data should follow a minimization-first default.",
+          "Users must be able to inspect and intervene in how their past is carried."
+        ],
+        "future_evolution": "This chapter will later connect memory life cycles, deletion verification, and minimization rules to technical architecture.",
+        "references": [
+          "Memory and forgetting research",
+          "Data minimization",
+          "Privacy rights",
+          "Digital right to be forgotten",
+          "Information lifecycle design",
+          "Ethical memory systems"
+        ]
+      }
     },
     "ethics": {
       "title": "Ethics",
-      "purpose": "Establish strict boundaries regarding mental health claims, therapy, and user manipulation.",
-      "key_question": "What ethical redlines must never be crossed by an adaptive life intelligence?"
+      "purpose": "Define the red lines that must govern Saule’s behavior, data use, business model, and treatment of vulnerable moments.",
+      "key_question": "What should Saule refuse to do even if it becomes technically able to do it?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. Good Intentions Are Not Enough",
+            "paragraphs": [
+              "A system is not ethical because it describes itself as caring. When technology touches attention, memory, fragility, and decision space, outcomes matter as much as motives."
+            ]
+          },
+          {
+            "heading": "2. Do Not Exploit Vulnerability",
+            "paragraphs": [
+              "Moments of fatigue, loneliness, confusion, and overwhelm are not opportunities for extraction. Saule must not turn a user’s difficult moments into more engagement, more data, or more revenue."
+            ]
+          },
+          {
+            "heading": "3. The Danger of Engagement Maximization",
+            "paragraphs": [
+              "An engagement-first logic optimizes return frequency, not human wellbeing. Saule should be judged partly by the moments in which it knows not to pull the user back."
+            ]
+          },
+          {
+            "heading": "4. Staying Away from Dark Patterns",
+            "paragraphs": [
+              "Guilt-inducing copy, hidden defaults, coercive notifications, and hard-to-disable assumptions are not minor UX details. They are ethical decisions encoded in interface form."
+            ]
+          },
+          {
+            "heading": "5. The Business Model Is Ethical Too",
+            "paragraphs": [
+              "Revenue models shape behavior. If the system earns from distress, then distress becomes structurally incentivized. Saule’s sustainability must not depend on human fragility."
+            ]
+          },
+          {
+            "heading": "6. Boundaries in Sensitive Domains",
+            "paragraphs": [
+              "Saule must show clear limits in clinical, legal, financial, and high-stakes domains. To be helpful is not the same as to become authority."
+            ]
+          },
+          {
+            "heading": "7. Ethics as a Starting Condition",
+            "paragraphs": [
+              "Ethics is not paint applied at the end. It determines what gets built, what remains unbuilt, what is stored, what is refused, and how the system is allowed to speak."
+            ]
+          }
+        ],
+        "open_questions": [
+          {
+            "id": "v3-23-1",
+            "question": "What concrete boundaries define a business model that does not exploit vulnerable moments?",
+            "status": "open",
+            "decisionArea": "Business Model Ethics",
+            "answeredInChapters": [
+              "Chapter 20 — Trust",
+              "Chapter 39 — Business Model",
+              "Chapter 40 — Development Phases"
+            ]
+          },
+          {
+            "id": "v3-23-2",
+            "question": "Which interface patterns should be prohibited as dark patterns by default?",
+            "status": "open",
+            "decisionArea": "Dark Patterns",
+            "answeredInChapters": [
+              "Chapter 24 — Agency",
+              "Chapter 33 — Voice",
+              "Chapter 39 — Business Model"
+            ]
+          },
+          {
+            "id": "v3-23-3",
+            "question": "At what risk level should human support become the default recommendation?",
+            "status": "open",
+            "decisionArea": "High-Risk Domains",
+            "answeredInChapters": [
+              null,
+              "Chapter 28 — Coaching Engine",
+              "Chapter 38 — Security"
+            ]
+          },
+          {
+            "id": "v3-23-4",
+            "question": "How do we protect non-engagement success metrics inside the organization?",
+            "status": "open",
+            "decisionArea": "Success Metrics",
+            "answeredInChapters": [
+              null,
+              "Chapter 39 — Business Model",
+              "Chapter 40 — Development Phases"
+            ]
+          },
+          {
+            "id": "v3-23-5",
+            "question": "When should the right choice be to collect no sensitive data at all?",
+            "status": "open",
+            "decisionArea": "Data Minimization",
+            "answeredInChapters": [
+              "Chapter 22 — Forgetting",
+              "Chapter 37 — Privacy",
+              "Chapter 38 — Security"
+            ]
+          },
+          {
+            "id": "v3-23-6",
+            "question": "What governance and veto structures should enforce ethical decisions in product teams?",
+            "status": "open",
+            "decisionArea": "Governance",
+            "answeredInChapters": [
+              "Chapter 34 — Saule Native Intelligence",
+              "Chapter 39 — Business Model",
+              "Chapter 40 — Development Phases"
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Saule must not adopt product behaviors that exploit vulnerability, guilt, or loneliness.",
+          "Engagement maximization cannot be used as a success metric.",
+          "Dark patterns, coercive defaults, and hidden steering belong to a prohibited design class.",
+          "The revenue model must not convert difficult moments into financial incentives.",
+          "In sensitive domains, Saule must lower claims and increase visible limits.",
+          "Ethics must function as the starting condition for feature decisions, not a late safety layer."
+        ],
+        "future_evolution": "This chapter will later turn into governance rules, ethical review flows, and binding product-development constraints.",
+        "references": [
+          "AI ethics",
+          "Dark pattern research",
+          "Data minimization",
+          "Digital wellbeing",
+          "Ethical business models",
+          "Governance for high-risk systems"
+        ]
+      }
     },
     "human-agency": {
-      "title": "Will",
-      "purpose": "Design interfaces that preserve decision-making sovereignty rather than automating choice.",
-      "key_question": "How do we assist in organization while strengthening, not weakening, user agency?"
+      "title": "Agency",
+      "purpose": "Define the user’s right to refuse, correct, delete, silence, and remain the final author of their own life as Saule’s ultimate philosophical boundary.",
+      "key_question": "How can a system make life easier while preserving the human as the subject of that life?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. The User Is Not an Object",
+            "paragraphs": [
+              "For Saule, the user is not a behavior bundle to optimize. They are a participant whose life remains their own."
+            ]
+          },
+          {
+            "heading": "2. The Right to Refuse",
+            "paragraphs": [
+              "Agency includes the ability to say “no,” “not now,” or “I don’t want this.” A refusal should be treated as information, not resistance."
+            ]
+          },
+          {
+            "heading": "3. The Right to Correct",
+            "paragraphs": [
+              "The user must be able to say “you understood this wrong.” Correctability is not an edge feature; it is the condition that prevents the system from trapping a person inside its model."
+            ]
+          },
+          {
+            "heading": "4. The Right to Silence",
+            "paragraphs": [
+              "Some days need quiet more than help. The ability to mute, reduce intervention, and step back from the system is one of the practical forms of agency."
+            ]
+          },
+          {
+            "heading": "5. Opening Decision Space",
+            "paragraphs": [
+              "Saule should not decide for the user. Its job is to widen decision space by clarifying options, trade-offs, and current capacity."
+            ]
+          },
+          {
+            "heading": "6. The Risk of Over-Helping",
+            "paragraphs": [
+              "When every friction is solved by the system, a person may slowly exercise less of their own directional strength. Relief and replacement are not the same thing."
+            ]
+          },
+          {
+            "heading": "7. Saule as Partnership",
+            "paragraphs": [
+              "Saule reaches its boundary when it remembers that the user is not its object but its partner. Principles only become real once this partnership shapes memory architecture, voice, context, and engineering decisions."
+            ]
+          }
+        ],
+        "open_questions": [
+          {
+            "id": "v3-24-1",
+            "question": "How accessible should refusal and silencing rights be on every surface?",
+            "status": "open",
+            "decisionArea": "Right to Refuse",
+            "answeredInChapters": [
+              "Chapter 20 — Trust",
+              "Chapter 23 — Ethics",
+              "Chapter 33 — Voice"
+            ]
+          },
+          {
+            "id": "v3-24-2",
+            "question": "For which kinds of data should correction be real-time?",
+            "status": "open",
+            "decisionArea": "Right to Correct",
+            "answeredInChapters": [
+              "Chapter 20 — Trust",
+              "Chapter 25 — Adaptive Memory",
+              "Chapter 37 — Privacy"
+            ]
+          },
+          {
+            "id": "v3-24-3",
+            "question": "How can we detect when help is beginning to erode agency?",
+            "status": "open",
+            "decisionArea": "Over-Help Risk",
+            "answeredInChapters": [
+              "Chapter 19 — Adaptive Intelligence",
+              "Chapter 23 — Ethics",
+              "Chapter 31 — Planning Intelligence"
+            ]
+          },
+          {
+            "id": "v3-24-4",
+            "question": "What language opens decision space without steering the outcome?",
+            "status": "open",
+            "decisionArea": "Decision Language",
+            "answeredInChapters": [
+              "Chapter 20 — Trust",
+              "Chapter 28 — Coaching Engine",
+              "Chapter 33 — Voice"
+            ]
+          },
+          {
+            "id": "v3-24-5",
+            "question": "How should deletion, forgetting, and silencing rights be unified from the user’s point of view?",
+            "status": "open",
+            "decisionArea": "Rights Consistency",
+            "answeredInChapters": [
+              "Chapter 22 — Forgetting",
+              "Chapter 25 — Adaptive Memory",
+              "Chapter 37 — Privacy"
+            ]
+          },
+          {
+            "id": "v3-24-6",
+            "question": "What organizational mechanisms turn partnership into actual veto power for the user?",
+            "status": "open",
+            "decisionArea": "Partnership Governance",
+            "answeredInChapters": [
+              "Chapter 23 — Ethics",
+              "Chapter 39 — Business Model",
+              "Chapter 40 — Development Phases"
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Users must be able to refuse suggestions, mute the system, and correct key assumptions.",
+          "The right to correct should be treated as core behavior, not a buried settings tool.",
+          "Saule must not make decisions on behalf of the user; it should clarify decision space.",
+          "Over-help risk should be monitored and intervention intensity reduced when needed.",
+          "Deletion, forgetting, and silencing rights should form one coherent agency framework.",
+          "The user must be designed as partner rather than object."
+        ],
+        "future_evolution": "This chapter will later connect veto mechanisms, silence modes, and decision-space interfaces to technical implementation.",
+        "references": [
+          "Self-determination theory",
+          "Agency research",
+          "Choice architecture",
+          "Human-centered AI",
+          "Attention and silence design",
+          "Participatory governance"
+        ]
+      }
     },
     "adaptive-memory": {
       "title": "Adaptive Memory",

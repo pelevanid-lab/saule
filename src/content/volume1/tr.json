@@ -63,7 +63,7 @@
             "status": "open",
             "decisionArea": "Anlamsal Sınıflandırma",
             "answeredInChapters": [
-              "Bölüm 25 — Uyarlanabilir Bellek",
+              "Bölüm 25 — Uyumlanabilir Bellek",
               "Bölüm 26 — Bağlam Motoru"
             ]
           },
@@ -103,7 +103,7 @@
             "status": "open",
             "decisionArea": "İyi Oluş Sinyalleri",
             "answeredInChapters": [
-              "Bölüm 19 — Uyarlanabilir Zekâ",
+              "Bölüm 19 — Uyumlanabilir Zekâ",
               "Bölüm 37 — Gizlilik"
             ]
           },
@@ -291,10 +291,10 @@
             "id": "ac-2",
             "question": "Dikkat kalıpları kimlik etiketlerine dönüşmeden nasıl öğrenilebilir?",
             "status": "open",
-            "decisionArea": "Uyarlanabilir Profilleme",
+            "decisionArea": "Uyumlanabilir Profilleme",
             "answeredInChapters": [
-              "Bölüm 19 — Uyarlanabilir Zekâ",
-              "Bölüm 25 — Uyarlanabilir Bellek",
+              "Bölüm 19 — Uyumlanabilir Zekâ",
+              "Bölüm 25 — Uyumlanabilir Bellek",
               "Bölüm 24 — İrade"
             ]
           },
@@ -348,7 +348,7 @@
             "status": "open",
             "decisionArea": "Dikkat Sonuçları",
             "answeredInChapters": [
-              "Bölüm 19 — Uyarlanabilir Zekâ",
+              "Bölüm 19 — Uyumlanabilir Zekâ",
               "Bölüm 31 — Planlama Zekâsı",
               "Bölüm 40 — Geliştirme Aşamaları"
             ]
@@ -454,7 +454,7 @@
             "status": "open",
             "decisionArea": "Bayatlık Algılama",
             "answeredInChapters": [
-              "Bölüm 25 — Uyarlanabilir Bellek",
+              "Bölüm 25 — Uyumlanabilir Bellek",
               "Bölüm 31 — Planlama Zekâsı"
             ]
           },
@@ -513,7 +513,7 @@
             "decisionArea": "Sona Erme Kuralları",
             "answeredInChapters": [
               "Bölüm 22 — Unutma",
-              "Bölüm 25 — Uyarlanabilir Bellek"
+              "Bölüm 25 — Uyumlanabilir Bellek"
             ]
           },
           {
@@ -589,7 +589,7 @@
             "paragraphs": [
               "İnsan merkezli bir sistem destek alabilmek için kullanıcıdan önce tutarlılık performansı istemez. Kişinin bağlamını geri kazanmasına, karar sayısını azaltmasına ve mevcut koşullar altında en küçük yararlı sonraki adımı bulmasına yardım etmelidir.",
               "Bazen bu sonraki adım eylemdir. Bazen dinlenme, netleştirme, devretme ya da bırakmadır. Uyum standart düşürmek değildir; desteği gerçeğe uydurmaktır ki çaba gerçekten etkili olabileceği yere harcansın.",
-              "Saule bu yüzden başka bir to-do app ya da planner gibi davranmamalıdır. Onun görevi kullanıcıyı şablona uydurmak değil, düşük kapasite anlarında yeniden yön bulmayı mümkün kılan uyarlanabilir bir yaşam zekâsı olmaktır."
+              "Saule bu yüzden başka bir to-do app ya da planner gibi davranmamalıdır. Onun görevi kullanıcıyı şablona uydurmak değil, düşük kapasite anlarında yeniden yön bulmayı mümkün kılan uyumlanabilir bir yaşam zekâsı olmaktır."
             ]
           },
           {
@@ -626,7 +626,7 @@
             "status": "open",
             "decisionArea": "Kapasite Sinyalleri",
             "answeredInChapters": [
-              "Bölüm 19 — Uyarlanabilir Zekâ",
+              "Bölüm 19 — Uyumlanabilir Zekâ",
               "Bölüm 20 — Güven"
             ]
           },
@@ -654,7 +654,7 @@
             "id": "pf-5",
             "question": "Bir sonraki öneriyi en çok hangi bağlamsal etkenler biçimlendirmelidir?",
             "status": "open",
-            "decisionArea": "Uyarlanabilir Bağlam",
+            "decisionArea": "Uyumlanabilir Bağlam",
             "answeredInChapters": [
               "Bölüm 26 — Bağlam Motoru",
               "Bölüm 31 — Planlama Zekâsı"
@@ -666,7 +666,7 @@
             "status": "open",
             "decisionArea": "Kademeli Bozulma",
             "answeredInChapters": [
-              "Bölüm 25 — Uyarlanabilir Bellek",
+              "Bölüm 25 — Uyumlanabilir Bellek",
               "Bölüm 36 — Mühendislik İlkeleri"
             ]
           },
@@ -700,7 +700,7 @@
           "Destek görülebilir, geri alınabilir ve kullanıcı tarafından düzeltilebilir kalmalıdır.",
           "Başarı yeniden kazanılan yön duygusu ve azalan bakım ihtiyacıyla ölçülmelidir."
         ],
-        "future_evolution": "Sonraki taslaklar uyarlanabilir planlama durumlarını, düşük bakımlı toparlanma akışlarını, bakım borcunun nasıl temsil edileceğini ve sistemin neyi koruyup neyi eskimiş sayacağına dair bellek ilkelerini tanımlayacaktır.",
+        "future_evolution": "Sonraki taslaklar uyumlanabilir planlama durumlarını, düşük bakımlı toparlanma akışlarını, bakım borcunun nasıl temsil edileceğini ve sistemin neyi koruyup neyi eskimiş sayacağına dair bellek ilkelerini tanımlayacaktır.",
         "references": [
           "Kişisel bilgi yönetimi",
           "Uygulama niyetleri",
@@ -828,7 +828,7 @@
             "status": "open",
             "decisionArea": "Toparlanma Modeli",
             "answeredInChapters": [
-              "Bölüm 19 — Uyarlanabilir Zekâ",
+              "Bölüm 19 — Uyumlanabilir Zekâ",
               "Bölüm 26 — Bağlam Motoru"
             ]
           },
@@ -936,7 +936,7 @@
             "status": "open",
             "decisionArea": "Örüntü Tespiti",
             "answeredInChapters": [
-              "Bölüm 19 — Uyarlanabilir Zekâ",
+              "Bölüm 19 — Uyumlanabilir Zekâ",
               "Bölüm 26 — Bağlam Motoru"
             ]
           },
@@ -1299,7 +1299,7 @@
             "status": "open",
             "decisionArea": "Katılımcı Geri Bildirimi",
             "answeredInChapters": [
-              "Bölüm 19 — Uyarlanabilir Zekâ",
+              "Bölüm 19 — Uyumlanabilir Zekâ",
               "Bölüm 20 — Güven",
               "Bölüm 40 — Geliştirme Aşamaları"
             ]
@@ -1328,7 +1328,7 @@
           "Saule’nin topluluk dili kesinlik değil, tevazu ve açık öğrenme üzerine kurulmalıdır.",
           "Saule büyümeyi değil, güvenilirliği öncelemelidir."
         ],
-        "future_evolution": "Sonraki taslaklar uyarlanabilir planlama durumlarını, düşük bakımlı toparlanma akışlarını, bakım borcunun nasıl temsil edileceğini ve sistemin neyi koruyup neyi eskimiş sayacağına dair bellek ilkelerini tanımlayacaktır.",
+        "future_evolution": "Sonraki taslaklar uyumlanabilir planlama durumlarını, düşük bakımlı toparlanma akışlarını, bakım borcunun nasıl temsil edileceğini ve sistemin neyi koruyup neyi eskimiş sayacağına dair bellek ilkelerini tanımlayacaktır.",
         "references": [
           "Kişisel bilgi yönetimi",
           "Dijital iyi oluş",
