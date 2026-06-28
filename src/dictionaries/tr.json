@@ -11,7 +11,14 @@
     "chapter": "Bölüm",
     "none": "Yok",
     "dashboard": "Kitap Ana Sayfası",
-    "minutes": "dk"
+    "minutes": "dk",
+    "open_navigation": "Bölüm içindekilerini aç",
+    "close_navigation": "Bölüm içindekilerini kapat",
+    "volume": "Cilt",
+    "chapters_directory": "Bölümler Dizini",
+    "previous_volume": "Önceki Cilt",
+    "next_volume": "Sonraki Cilt",
+    "research_workspace": "Araştırma Çalışma Alanı"
   },
   "header": {
     "logo": "Saule",

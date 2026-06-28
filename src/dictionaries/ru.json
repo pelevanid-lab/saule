@@ -11,7 +11,14 @@
     "chapter": "Глава",
     "none": "Нет",
     "dashboard": "Главная",
-    "minutes": "мин"
+    "minutes": "мин",
+    "open_navigation": "Открыть навигацию по главам",
+    "close_navigation": "Закрыть навигацию по главам",
+    "volume": "Том",
+    "chapters_directory": "Список глав",
+    "previous_volume": "Предыдущий том",
+    "next_volume": "Следующий том",
+    "research_workspace": "Исследовательское пространство"
   },
   "header": {
     "logo": "Saule",

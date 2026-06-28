@@ -11,7 +11,14 @@
     "chapter": "Capítulo",
     "none": "Ninguno",
     "dashboard": "Inicio",
-    "minutes": "min"
+    "minutes": "min",
+    "open_navigation": "Abrir navegación de capítulos",
+    "close_navigation": "Cerrar navegación de capítulos",
+    "volume": "Volumen",
+    "chapters_directory": "Directorio de capítulos",
+    "previous_volume": "Volumen anterior",
+    "next_volume": "Siguiente volumen",
+    "research_workspace": "Espacio de investigación"
   },
   "header": {
     "logo": "Saule",

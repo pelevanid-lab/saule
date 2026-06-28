@@ -11,7 +11,14 @@
     "chapter": "Chapter",
     "none": "None",
     "dashboard": "Dashboard",
-    "minutes": "min"
+    "minutes": "min",
+    "open_navigation": "Open chapters navigation",
+    "close_navigation": "Close chapters navigation",
+    "volume": "Volume",
+    "chapters_directory": "Chapters Directory",
+    "previous_volume": "Previous Volume",
+    "next_volume": "Next Volume",
+    "research_workspace": "Research Workspace"
   },
   "header": {
     "logo": "Saule",

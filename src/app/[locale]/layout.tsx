@@ -1,27 +1,57 @@
-import { getDictionary } from '@/lib/dictionaries';
+import { getDictionary, hasLocale, locales } from '@/lib/dictionaries';
 import { volumes } from '@/lib/book';
+import { getLocalizedAlternates, SITE_URL } from '@/lib/seo';
+import { getTranslationValue } from '@/lib/translation';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import MobileNav from '@/components/MobileNav';
-import EarlyAccessForm from '@/components/EarlyAccessForm';
 import SauleLogo from '@/components/SauleLogo';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import SidebarLinkClient from './SidebarLinkClient';
+import { notFound } from 'next/navigation';
+import { Inter, Lora } from 'next/font/google';
+import '../globals.css';
+
+const inter = Inter({
+  subsets: ['latin', 'latin-ext'],
+  variable: '--font-sans',
+  display: 'swap',
+});
+
+const lora = Lora({
+  subsets: ['latin', 'latin-ext'],
+  variable: '--font-serif',
+  display: 'swap',
+});
+
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }));
+}
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
+  if (!hasLocale(locale)) notFound();
   const dict = await getDictionary(locale);
   
   return {
-    title: dict.meta.title,
+    metadataBase: new URL(SITE_URL),
+    title: {
+      default: dict.meta.title,
+      template: `%s — ${dict.header.logo}`,
+    },
     description: dict.meta.description,
     alternates: {
-      languages: {
-        en: '/en',
-        tr: '/tr',
-        es: '/es',
-        ru: '/ru',
-      },
+      canonical: `/${locale}`,
+      languages: getLocalizedAlternates(),
+    },
+    openGraph: {
+      type: 'website',
+      url: `/${locale}`,
+      siteName: dict.header.logo,
+      title: dict.meta.title,
+      description: dict.meta.description,
     },
   };
 }
@@ -34,6 +64,7 @@ export default async function LocaleLayout({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  if (!hasLocale(locale)) notFound();
   const dict = await getDictionary(locale);
 
   // Prepare navigation tree for mobile selector mapping
@@ -54,7 +85,9 @@ export default async function LocaleLayout({
   });
 
   return (
-    <div className="flex flex-col min-h-screen bg-sand-100 selection:bg-sage/15 selection:text-sage-dark">
+    <html lang={locale} className={`${inter.variable} ${lora.variable} h-full antialiased`}>
+      <body className="min-h-full bg-sand-100 text-charcoal">
+        <div className="flex flex-col min-h-screen bg-sand-100 selection:bg-sage/15 selection:text-sage-dark">
       {/* Header */}
       <header className="sticky top-0 z-40 bg-sand-100/90 backdrop-blur-sm border-b border-sand-300/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
@@ -64,6 +97,8 @@ export default async function LocaleLayout({
               navItems={navItems}
               tocLabel={dict.common.toc}
               logo={dict.header.logo}
+              openLabel={dict.common.open_navigation}
+              closeLabel={dict.common.close_navigation}
             />
             <Link
               href={`/${locale}`}
@@ -132,12 +167,7 @@ export default async function LocaleLayout({
             {children}
           </div>
 
-          {/* Page Footer containing the waitlist form */}
-          <div className="mt-24 max-w-3xl w-full space-y-12">
-            <section id="early-access" className="border-t border-sand-300/40 pt-12">
-              <EarlyAccessForm dict={dict.early_access} />
-            </section>
-            
+          <div className="mt-24 max-w-3xl w-full">
             <footer className="pt-8 border-t border-sand-300/40">
               <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 text-xs font-sans text-charcoal-muted/65">
                 <p className="font-semibold tracking-wide uppercase">
@@ -151,20 +181,8 @@ export default async function LocaleLayout({
           </div>
         </main>
       </div>
-    </div>
+        </div>
+      </body>
+    </html>
   );
-}
-
-// Helper to resolve nested translations using path keys dynamically
-function getTranslationValue(obj: unknown, path: string): string | undefined {
-  if (!obj || typeof obj !== 'object') return undefined;
-  
-  const value = path.split('.').reduce((acc: unknown, part) => {
-    if (acc && typeof acc === 'object') {
-      return (acc as Record<string, unknown>)[part];
-    }
-    return undefined;
-  }, obj);
-
-  return typeof value === 'string' ? value : undefined;
 }

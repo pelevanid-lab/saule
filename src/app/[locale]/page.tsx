@@ -1,5 +1,6 @@
 import { getDictionary } from '@/lib/dictionaries';
 import { volumes, bookConfig } from '@/lib/book';
+import { getTranslationMember, getTranslationValue } from '@/lib/translation';
 import Link from 'next/link';
 
 export default async function Page({
@@ -65,7 +66,7 @@ export default async function Page({
             {dict.dashboard.last_updated_label}
           </span>
           <span className="font-serif text-sm font-bold text-charcoal block mt-1">
-            2026-06-28
+            {bookConfig.lastUpdated}
           </span>
         </div>
         <div>
@@ -73,7 +74,7 @@ export default async function Page({
             {dict.dashboard.metric_volumes}
           </span>
           <span className="font-serif text-2xl font-bold text-charcoal block mt-0.5">
-            5
+            {bookConfig.volumeCount}
           </span>
         </div>
         <div>
@@ -81,7 +82,7 @@ export default async function Page({
             {dict.dashboard.metric_chapters}
           </span>
           <span className="font-serif text-2xl font-bold text-charcoal block mt-0.5">
-            42
+            {bookConfig.chapterCount}
           </span>
         </div>
         <div>
@@ -89,7 +90,7 @@ export default async function Page({
             {dict.dashboard.metric_written}
           </span>
           <span className="font-serif text-2xl font-bold text-charcoal block mt-0.5">
-            {bookConfig.writtenChaptersCount} / 42
+            {bookConfig.writtenChaptersCount} / {bookConfig.chapterCount}
           </span>
         </div>
         <div>
@@ -142,17 +143,22 @@ export default async function Page({
             const volTitle = getTranslationValue(dict, vol.titleKey) || '';
             const volPurpose = getTranslationValue(dict, vol.purposeKey) || '';
             return (
-              <div key={vol.id} className="space-y-4">
-                <div className="space-y-1.5 pb-2 border-b border-sand-300/30">
-                  <h3 className="font-serif text-lg font-bold text-sage-dark">
-                    {volTitle}
-                  </h3>
-                  <p className="text-xs sm:text-sm font-sans text-charcoal-muted italic">
+              <details key={vol.id} className="group space-y-4" open={vol.id === 1}>
+                <summary className="list-none cursor-pointer space-y-1.5 pb-3 border-b border-sand-300/30">
+                  <div className="flex items-center justify-between gap-4">
+                    <h3 className="font-serif text-lg font-bold text-sage-dark">
+                      {volTitle}
+                    </h3>
+                    <span className="text-charcoal-muted transition-transform group-open:rotate-180" aria-hidden="true">
+                      ↓
+                    </span>
+                  </div>
+                  <p className="text-xs sm:text-sm font-sans text-charcoal-muted italic pr-8">
                     {volPurpose}
                   </p>
-                </div>
+                </summary>
                 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4">
                   {vol.chapters.map((ch) => {
                     const chTitle = getTranslationValue(dict, ch.purposeKey.replace('.purpose', '.title')) || '';
                     const numStr = ch.chapterNumber.toString().padStart(2, '0');
@@ -171,31 +177,17 @@ export default async function Page({
                           </span>
                         </div>
                         <span className={`px-2 py-0.5 rounded text-[9px] font-sans font-semibold border ${getStatusColorClass(ch.status)}`}>
-                          {dict.workspace[`status_${ch.status.toLowerCase()}`] || ch.status}
+                          {getTranslationMember(dict.workspace, `status_${ch.status.toLowerCase()}`, ch.status)}
                         </span>
                       </Link>
                     );
                   })}
                 </div>
-              </div>
+              </details>
             );
           })}
         </div>
       </section>
     </div>
   );
-}
-
-// Helper to resolve nested translation keys dynamically
-function getTranslationValue(obj: unknown, path: string): string | undefined {
-  if (!obj || typeof obj !== 'object') return undefined;
-  
-  const value = path.split('.').reduce((acc: unknown, part) => {
-    if (acc && typeof acc === 'object') {
-      return (acc as Record<string, unknown>)[part];
-    }
-    return undefined;
-  }, obj);
-
-  return typeof value === 'string' ? value : undefined;
 }

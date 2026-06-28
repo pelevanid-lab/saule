@@ -1,10 +1,12 @@
-import { getDictionary } from '@/lib/dictionaries';
+import { getDictionary, locales } from '@/lib/dictionaries';
 import { volumes } from '@/lib/book';
+import { getLocalizedAlternates } from '@/lib/seo';
+import { getTranslationMember, getTranslationValue } from '@/lib/translation';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import type { Metadata } from 'next';
 
 export async function generateStaticParams() {
-  const locales = ['en', 'tr', 'es', 'ru'];
   const volumeIds = ['1', '2', '3', '4', '5'];
   
   return locales.flatMap((locale) => 
@@ -13,6 +15,31 @@ export async function generateStaticParams() {
       id,
     }))
   );
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string; id: string }>;
+}): Promise<Metadata> {
+  const { locale, id } = await params;
+  const volume = volumes.find((item) => item.id === Number(id));
+  if (!volume) return {};
+
+  const dict = await getDictionary(locale);
+  const title = getTranslationValue(dict, volume.titleKey) || dict.meta.title;
+  const description = getTranslationValue(dict, volume.purposeKey) || dict.meta.description;
+  const path = `/volume/${volume.id}`;
+
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: `/${locale}${path}`,
+      languages: getLocalizedAlternates(path),
+    },
+    openGraph: { title, description, url: `/${locale}${path}` },
+  };
 }
 
 export default async function Page({
@@ -48,10 +75,10 @@ export default async function Page({
       {/* Volume Cover Heading */}
       <header className="space-y-4 text-center max-w-2xl mx-auto pb-8 border-b border-sand-300/30">
         <span className="text-xs font-sans font-bold tracking-[0.25em] text-clay uppercase">
-          Volume {volume.romanId}
+          {dict.common.volume} {volume.romanId}
         </span>
         <h1 className="font-serif text-3xl sm:text-5xl font-bold tracking-tight text-charcoal leading-tight">
-          {volTitle.replace(`Volume ${volume.romanId}: `, '')}
+          {volTitle.replace(/^[^:]+:\s*/, '')}
         </h1>
         <p className="font-serif text-lg italic text-sage-dark leading-relaxed">
           {volPurpose}
@@ -70,7 +97,7 @@ export default async function Page({
       {/* Chapters Index under this Volume */}
       <section className="space-y-6 max-w-2xl mx-auto pt-8 border-t border-sand-300/30">
         <h2 className="font-serif text-xl font-bold text-charcoal uppercase tracking-wider">
-          Chapters Directory
+          {dict.common.chapters_directory}
         </h2>
         <div className="space-y-3">
           {volume.chapters.map((ch) => {
@@ -91,7 +118,7 @@ export default async function Page({
                   </span>
                 </div>
                 <span className="px-2 py-0.5 rounded text-[9px] font-sans font-semibold border bg-sand-200 text-charcoal-muted border-sand-300/40">
-                  {dict.workspace[`status_${ch.status.toLowerCase()}`] || ch.status}
+                  {getTranslationMember(dict.workspace, `status_${ch.status.toLowerCase()}`, ch.status)}
                 </span>
               </Link>
             );
@@ -106,7 +133,7 @@ export default async function Page({
             href={`/${locale}/volume/${prevVol.id}`}
             className="text-xs font-sans font-bold uppercase tracking-wider text-charcoal-muted hover:text-charcoal flex flex-col items-start gap-1 cursor-pointer"
           >
-            <span className="text-[10px] text-charcoal-muted/40 font-normal uppercase">&larr; Previous Volume</span>
+            <span className="text-[10px] text-charcoal-muted/40 font-normal uppercase">&larr; {dict.common.previous_volume}</span>
             <span className="font-serif text-xs font-bold">{prevTitle}</span>
           </Link>
         ) : (
@@ -124,7 +151,7 @@ export default async function Page({
             href={`/${locale}/volume/${nextVol.id}`}
             className="text-xs font-sans font-bold uppercase tracking-wider text-sage hover:text-sage-dark flex flex-col items-end gap-1 text-right cursor-pointer"
           >
-            <span className="text-[10px] text-sage-light/60 font-normal uppercase">Next Volume &rarr;</span>
+            <span className="text-[10px] text-sage-light/60 font-normal uppercase">{dict.common.next_volume} &rarr;</span>
             <span className="font-serif text-xs font-bold">{nextTitle}</span>
           </Link>
         ) : (
@@ -139,18 +166,4 @@ export default async function Page({
       </div>
     </div>
   );
-}
-
-// Helper to resolve nested translation keys dynamically
-function getTranslationValue(obj: unknown, path: string): string | undefined {
-  if (!obj || typeof obj !== 'object') return undefined;
-  
-  const value = path.split('.').reduce((acc: unknown, part) => {
-    if (acc && typeof acc === 'object') {
-      return (acc as Record<string, unknown>)[part];
-    }
-    return undefined;
-  }, obj);
-
-  return typeof value === 'string' ? value : undefined;
 }

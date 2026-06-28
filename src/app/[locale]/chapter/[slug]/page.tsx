@@ -1,7 +1,10 @@
-import { getDictionary } from '@/lib/dictionaries';
+import { getDictionary, locales } from '@/lib/dictionaries';
 import { getChapterBySlug, getAllChapters, getVolumeByChapterSlug } from '@/lib/book';
+import { getLocalizedAlternates } from '@/lib/seo';
+import { getTranslationMember, getTranslationObject, getTranslationValue } from '@/lib/translation';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import type { Metadata } from 'next';
 
 interface OpenQuestion {
   id: string;
@@ -28,7 +31,6 @@ interface ChapterDraft {
 
 export async function generateStaticParams() {
   const chapters = getAllChapters();
-  const locales = ['en', 'tr', 'es', 'ru'];
   
   return locales.flatMap((locale) => 
     chapters.map((ch) => ({
@@ -36,6 +38,31 @@ export async function generateStaticParams() {
       slug: ch.slug,
     }))
   );
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string; slug: string }>;
+}): Promise<Metadata> {
+  const { locale, slug } = await params;
+  const chapter = getChapterBySlug(slug);
+  if (!chapter) return {};
+
+  const dict = await getDictionary(locale);
+  const title = getTranslationValue(dict, chapter.purposeKey.replace('.purpose', '.title')) || dict.meta.title;
+  const description = getTranslationValue(dict, chapter.purposeKey) || dict.meta.description;
+  const path = `/chapter/${slug}`;
+
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: `/${locale}${path}`,
+      languages: getLocalizedAlternates(path),
+    },
+    openGraph: { title, description, url: `/${locale}${path}`, type: 'article' },
+  };
 }
 
 function getQuestionStatusBadgeClass(status: string) {
@@ -169,7 +196,7 @@ export default async function Page({
               {dict.workspace.status}:
             </span>
             <span className={`px-2 py-0.5 rounded text-[10px] font-sans font-bold border ${getStatusColorClass(chapter.status)}`}>
-              {dict.workspace[`status_${chapter.status.toLowerCase()}`] || chapter.status}
+              {getTranslationMember(dict.workspace, `status_${chapter.status.toLowerCase()}`, chapter.status)}
             </span>
           </div>
         </section>
@@ -190,7 +217,7 @@ export default async function Page({
               {dict.workspace.status}:
             </span>
             <span className={`px-2 py-0.5 rounded text-[10px] font-sans font-bold border ${getStatusColorClass(chapter.status)}`}>
-              {dict.workspace[`status_${chapter.status.toLowerCase()}`] || chapter.status}
+              {getTranslationMember(dict.workspace, `status_${chapter.status.toLowerCase()}`, chapter.status)}
             </span>
           </div>
         </section>
@@ -260,7 +287,7 @@ export default async function Page({
                 {dict.workspace.research_confidence}
               </span>
               <span className={`inline-block px-2 py-0.5 rounded text-[10px] font-sans font-bold border mt-1 ${getConfidenceColorClass(chapter.researchConfidence)}`}>
-                {dict.workspace[`confidence_${chapter.researchConfidence.toLowerCase()}`] || chapter.researchConfidence}
+                {getTranslationMember(dict.workspace, `confidence_${chapter.researchConfidence.toLowerCase()}`, chapter.researchConfidence)}
               </span>
             </div>
             <div>
@@ -348,7 +375,7 @@ export default async function Page({
                                 {item.question}
                               </span>
                               <span className={`text-[9px] font-sans font-bold uppercase tracking-wider px-1.5 py-0.5 rounded border flex-shrink-0 ${getQuestionStatusBadgeClass(item.status)}`}>
-                                {dict.workspace[`status_${item.status}`] || item.status}
+                                {getTranslationMember(dict.workspace, `status_${item.status}`, item.status)}
                               </span>
                             </div>
                             
@@ -425,7 +452,7 @@ export default async function Page({
         return (
           <section className="space-y-8">
             <h2 className="font-serif text-xl sm:text-2xl font-semibold text-charcoal pb-2 border-b border-sand-300/20">
-              Research Workspace
+              {dict.common.research_workspace}
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -549,30 +576,4 @@ export default async function Page({
       </div>
     </div>
   );
-}
-
-// Helper to resolve nested translation keys dynamically
-function getTranslationValue(obj: unknown, path: string): string | undefined {
-  if (!obj || typeof obj !== 'object') return undefined;
-  
-  const value = path.split('.').reduce((acc: unknown, part) => {
-    if (acc && typeof acc === 'object') {
-      return (acc as Record<string, unknown>)[part];
-    }
-    return undefined;
-  }, obj);
-
-  return typeof value === 'string' ? value : undefined;
-}
-
-// Helper to resolve nested object translation keys dynamically (e.g. drafts)
-function getTranslationObject(obj: unknown, path: string): unknown {
-  if (!obj || typeof obj !== 'object') return undefined;
-  
-  return path.split('.').reduce((acc: unknown, part) => {
-    if (acc && typeof acc === 'object') {
-      return (acc as Record<string, unknown>)[part];
-    }
-    return undefined;
-  }, obj);
 }

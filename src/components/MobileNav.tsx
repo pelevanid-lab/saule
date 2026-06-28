@@ -1,6 +1,7 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
+import { createPortal } from 'react-dom';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
@@ -15,31 +16,59 @@ interface MobileNavProps {
   navItems: NavItem[];
   tocLabel: string;
   logo: string;
+  openLabel: string;
+  closeLabel: string;
 }
 
-export default function MobileNav({ locale, navItems, tocLabel, logo }: MobileNavProps) {
+export default function MobileNav({
+  locale,
+  navItems,
+  tocLabel,
+  logo,
+  openLabel,
+  closeLabel,
+}: MobileNavProps) {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
+  const triggerRef = useRef<HTMLButtonElement>(null);
+  const closeRef = useRef<HTMLButtonElement>(null);
 
-  // Disable body scroll when menu is open
   useEffect(() => {
-    if (isOpen) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = 'unset';
-    }
+    if (!isOpen) return;
+
+    const previousOverflow = document.body.style.overflow;
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        setIsOpen(false);
+        requestAnimationFrame(() => triggerRef.current?.focus());
+      }
+    };
+
+    document.body.style.overflow = 'hidden';
+    document.addEventListener('keydown', handleKeyDown);
+    requestAnimationFrame(() => closeRef.current?.focus());
+
     return () => {
-      document.body.style.overflow = 'unset';
+      document.body.style.overflow = previousOverflow;
+      document.removeEventListener('keydown', handleKeyDown);
     };
   }, [isOpen]);
+
+  const closeMenu = () => {
+    setIsOpen(false);
+    requestAnimationFrame(() => triggerRef.current?.focus());
+  };
 
   return (
     <div className="lg:hidden">
       {/* Trigger Button */}
       <button
+        ref={triggerRef}
         onClick={() => setIsOpen(true)}
-        className="flex items-center space-x-1.5 px-3 py-1.5 rounded border border-sand-300 bg-sand-50 hover:bg-sand-200/50 text-charcoal text-xs sm:text-sm font-medium tracking-wide transition-all cursor-pointer"
-        aria-label="Open Chapters Navigation"
+        className="flex items-center space-x-1.5 px-2 sm:px-3 py-1.5 rounded border border-sand-300 bg-sand-50 hover:bg-sand-200/50 text-charcoal text-xs sm:text-sm font-medium tracking-wide transition-all cursor-pointer"
+        aria-label={openLabel}
+        aria-expanded={isOpen}
+        aria-controls="mobile-chapter-navigation"
       >
         <svg
           className="w-4 h-4 text-charcoal-muted"
@@ -54,23 +83,30 @@ export default function MobileNav({ locale, navItems, tocLabel, logo }: MobileNa
             d="M4 6h16M4 12h16M4 18h16"
           />
         </svg>
-        <span className="font-sans font-medium uppercase text-[10px] sm:text-xs">
+        <span className="hidden sm:inline font-sans font-medium uppercase text-xs">
           {tocLabel}
         </span>
       </button>
 
       {/* Drawer Overlay */}
-      {isOpen && (
-        <div className="fixed inset-0 z-50 flex flex-col bg-sand-100 animate-fade-in">
+      {isOpen && createPortal(
+        <div
+          id="mobile-chapter-navigation"
+          className="fixed inset-0 z-[100] flex flex-col bg-sand-100 animate-fade-in"
+          role="dialog"
+          aria-modal="true"
+          aria-label={tocLabel}
+        >
           {/* Header */}
           <div className="flex items-center justify-between px-6 py-4 border-b border-sand-300 bg-sand-50">
             <span className="font-serif text-lg tracking-wider font-semibold text-sage-dark">
               {logo}
             </span>
             <button
-              onClick={() => setIsOpen(false)}
+              ref={closeRef}
+              onClick={closeMenu}
               className="p-1.5 text-charcoal hover:bg-sand-200 rounded transition-all cursor-pointer"
-              aria-label="Close Chapters Navigation"
+              aria-label={closeLabel}
             >
               <svg
                 className="w-6 h-6"
@@ -126,7 +162,8 @@ export default function MobileNav({ locale, navItems, tocLabel, logo }: MobileNa
               })}
             </ul>
           </nav>
-        </div>
+        </div>,
+        document.body,
       )}
     </div>
   );

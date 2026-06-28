@@ -1,11 +1,20 @@
 import 'server-only';
 
-const dictionaries: Record<string, () => Promise<unknown>> = {
+export const locales = ['en', 'tr', 'es', 'ru'] as const;
+export type Locale = (typeof locales)[number];
+
+const dictionaries = {
   en: () => import('../dictionaries/en.json').then((module) => module.default),
   tr: () => import('../dictionaries/tr.json').then((module) => module.default),
   es: () => import('../dictionaries/es.json').then((module) => module.default),
   ru: () => import('../dictionaries/ru.json').then((module) => module.default),
-};
+} as const;
+
+export type Dictionary = typeof import('../dictionaries/en.json');
+
+export function hasLocale(locale: string): locale is Locale {
+  return locales.includes(locale as Locale);
+}
 
 function mergeDictionaries(fallback: unknown, target: unknown): unknown {
   if (typeof fallback !== 'object' || fallback === null) {
@@ -45,18 +54,16 @@ function mergeDictionaries(fallback: unknown, target: unknown): unknown {
   return result;
 }
 
-// Return type is cast to any so that consumers can access properties without deep type checking.
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-export const getDictionary = async (locale: string): Promise<any> => {
+export const getDictionary = async (locale: string): Promise<Dictionary> => {
   const enDict = await dictionaries.en();
   if (locale === 'en') return enDict;
 
-  const loadDictionary = dictionaries[locale];
+  const loadDictionary = hasLocale(locale) ? dictionaries[locale] : undefined;
   if (!loadDictionary) return enDict;
 
   try {
     const localeDict = await loadDictionary();
-    return mergeDictionaries(enDict, localeDict);
+    return mergeDictionaries(enDict, localeDict) as Dictionary;
   } catch {
     return enDict;
   }

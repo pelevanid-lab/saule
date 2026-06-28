@@ -21,15 +21,6 @@ export interface Volume {
   chapters: ChapterMetadata[];
 }
 
-export const bookConfig = {
-  version: '0.1',
-  currentStatusKey: 'dashboard.status_desc',
-  writtenChaptersCount: 1,
-  researchSourcesCount: 28,
-  designDecisionsCount: 15,
-  openQuestionsCount: 34,
-};
-
 export const volumes: Volume[] = [
   {
     id: 1,
@@ -672,3 +663,21 @@ export function getChapterBySlug(slug: string): ChapterMetadata | undefined {
 export function getVolumeByChapterSlug(slug: string): Volume | undefined {
   return volumes.find((v) => v.chapters.some((c) => c.slug === slug));
 }
+
+const allChapters = getAllChapters();
+
+export const bookConfig = {
+  version: '0.1',
+  currentStatusKey: 'dashboard.status_desc',
+  volumeCount: volumes.length,
+  chapterCount: allChapters.length,
+  writtenChaptersCount: allChapters.filter((chapter) => chapter.status !== 'Researching').length,
+  lastUpdated: allChapters.reduce(
+    (latest, chapter) => (chapter.lastUpdated > latest ? chapter.lastUpdated : latest),
+    '',
+  ),
+  // These are editorial research totals that are not represented one-to-one in chapter metadata.
+  researchSourcesCount: 28,
+  designDecisionsCount: 15,
+  openQuestionsCount: 34,
+};
