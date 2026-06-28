@@ -1,0 +1,567 @@
+{
+  "meta": {
+    "title": "The Living Book of Saule — Adaptive Intelligence for Life",
+    "description": "The Living Book of Saule documents the philosophy, research, architecture, psychology, and engineering behind Saule. The source of truth for the application."
+  },
+  "common": {
+    "toc": "Table of Contents",
+    "back_to_top": "Back to top",
+    "next_chapter": "Next Chapter",
+    "prev_chapter": "Previous Chapter",
+    "chapter": "Chapter",
+    "none": "None",
+    "dashboard": "Dashboard",
+    "minutes": "min"
+  },
+  "header": {
+    "logo": "Saule",
+    "badge": "The Living Book"
+  },
+  "footer": {
+    "owner": "Pool IQ",
+    "warning": "The Living Book of Saule is currently in early definition. This public document evolves as research progress is recorded."
+  },
+  "early_access": {
+    "title": "Subscribe to the build log",
+    "description": "We document our thinking, research notes, and design decisions here. Subscribe to be notified when new chapters are locked or interactive sandboxes open.",
+    "placeholder": "Enter your email address...",
+    "button": "Subscribe",
+    "success_title": "Subscribed",
+    "success_desc": "Thank you for subscribing. We will reach out when the initial interactive sandbox is ready."
+  },
+  "dashboard": {
+    "title": "The Living Book of Saule",
+    "subtitle": "Adaptive Intelligence for Life",
+    "living_book_badge": "Living Book",
+    "status_label": "Current Status",
+    "status_desc": "Mapping core research nodes and structuring volume layouts",
+    "version_label": "Edition",
+    "last_updated_label": "Last Updated",
+    "metric_volumes": "Volumes",
+    "metric_chapters": "Core Chapters",
+    "metric_written": "Drafted Chapters",
+    "metric_sources": "Research Nodes",
+    "metric_questions": "Open Questions",
+    "metric_decisions": "Design Decisions",
+    "preface_title": "The Preface",
+    "preface_body_1": "“The Saule application will be written and developed alongside The Living Book of Saule.”",
+    "preface_body_2": "Every feature, every AI behavior, every memory system, and every engineering decision must be grounded in this book before taking place in the application. The book is Saule’s binding source of truth. The application is the living proof of the book.",
+    "preface_body_3": "This is not product documentation. It contains no marketing language. It is a living record of the thinking process, cognitive research, and technical design decisions behind a human-first adaptive intelligence.",
+    "volumes_and_chapters": "Volumes & Chapters"
+  },
+  "workspace": {
+    "not_written": "This chapter has not been written yet.",
+    "status": "Status",
+    "reading_time": "Reading Time",
+    "version": "Version",
+    "last_updated": "Last Updated",
+    "purpose": "Purpose",
+    "key_question": "Key Question",
+    "dependencies": "Dependencies",
+    "related_chapters": "Related Chapters",
+    "research_confidence": "Research Confidence",
+    "notes": "Research Notes",
+    "books": "Books to Read",
+    "academic_papers": "Academic Papers",
+    "experiments": "Experiments",
+    "insights": "Insights",
+    "rejected_ideas": "Rejected Ideas",
+    "open_questions": "Open Questions",
+    "design_decisions": "Design Decisions",
+    "future_evolution": "Future Evolution",
+    "references": "References",
+    "no_data": "No entries recorded yet. Research workspace initialized.",
+    "will_be_answered_in": "Will be answered in:",
+    "decision_area": "Decision Area",
+    "open_questions_intro": "These questions are intentionally left open at this stage. They define the research paths that later chapters must answer before Saule is implemented.",
+    "draft_mode_desc": "This chapter is currently in draft mode.",
+    "status_drafting": "Drafting",
+    "status_researching": "Researching",
+    "status_open": "Open",
+    "status_in_research": "In Research",
+    "status_answered": "Answered",
+    "status_deprecated": "Deprecated",
+    "confidence_high": "High",
+    "confidence_medium": "Medium",
+    "confidence_experimental": "Experimental"
+  },
+  "volumes": {
+    "v1": {
+      "title": "Volume I: The Human Condition",
+      "purpose": "Understand the modern human problem before introducing Saule.",
+      "intro_p1": "Saule begins not with features, screens, AI models, or productivity tools, but with a study of the modern person.",
+      "intro_p2": "The central question of Volume I: Why do people who know what they want still struggle to move forward? Why are we overwhelmed, distracted, emotionally loaded, and pulled between too many open loops?",
+      "intro_p3": "Volume I does not yet design Saule. It defines the problem Saule must be worthy of solving."
+    },
+    "v2": {
+      "title": "Volume II: Understanding the Human Mind",
+      "purpose": "Understand how people actually think before attempting to build an adaptive intelligence."
+    },
+    "v3": {
+      "title": "Volume III: The Philosophy of Saule",
+      "purpose": "Introduce the foundations of Saule. Explore why Saule exists, why AI should adapt, and why trust, memory, and forgetting matter."
+    },
+    "v4": {
+      "title": "Volume IV: The Saule Mind",
+      "purpose": "Explain how Saule thinks conceptually (conceptual intelligence, not implementation)."
+    },
+    "v5": {
+      "title": "Volume V: Building Saule",
+      "purpose": "Apply engineering, AI architecture, security, and research methodologies to realize the book's specifications."
+    }
+  },
+  "chapters": {
+    "why-we-are-overwhelmed": {
+      "title": "Why We Are Overwhelmed",
+      "purpose": "To analyze the systemic, environmental, and technological factors triggering modern mental overload.",
+      "key_question": "Why does the modern individual experience historically unprecedented levels of mental overwhelm?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. Silent Overload",
+            "paragraphs": [
+              "The modern person is often struggling not because they don't know what they want, but because they are exposed to too many stimuli at the same time.",
+              "On one hand, there is work to be done. Unanswered messages, unfinished projects, pending applications, postponed health decisions, neglected relationships, unresolved financial anxieties, appointments not to be forgotten, family responsibilities to tend to, and the inner desire to build a better life.",
+              "From the outside, this picture can look like simple disorganization. People wonder, 'Why aren't they taking action?' Yet from the inside, the situation is rarely laziness; it is a mental load that has become too heavy to carry.",
+              "There are invisible tabs constantly left open in the modern person's mind. A message has not been replied to. A decision has not been made. A conversation has been postponed. A goal is important but remains untouched. A responsibility is known but cannot be started.",
+              "These open tabs may seem small individually. But when combined, they turn into a background noise that constantly runs in the person's inner world.",
+              "This is exactly the starting point of Saule: People do not need more pressure, they need more clarity."
+            ]
+          },
+          {
+            "heading": "2. Modern Paradox",
+            "paragraphs": [
+              "Throughout history, humans have never had this many tools.",
+              "We have calendars. We have reminders. We have note apps. We have task lists. We have email inboxes. We have messaging apps. We have search engines. We have AI assistants. We have cloud storage, digital notebooks, project boards, in-app notifications, and access to infinite information.",
+              "Despite this, many people feel more fragmented rather than clearer.",
+              "Because every new tool doesn't just bring a solution; it also creates a new area of maintenance. The calendar must be updated. The task list must be cleaned. Notes must be organized. Messages must be returned. Emails must be sorted. Reminders must be snoozed. Apps must be checked.",
+              "The paradox of modern life is this: Tools produced to make life easier can, over time, turn into additional systems that need to be managed as much as life itself.",
+              "A person no longer just lives their life. They must also manage the systems they set up to manage their life.",
+              "Therefore, 'more tools' does not always mean 'more clarity'. Sometimes more tools just means more places for the mind to maintain."
+            ]
+          },
+          {
+            "heading": "3. The Invisible Load",
+            "paragraphs": [
+              "One of the most exhausting aspects of feeling overwhelmed is that it is often invisible.",
+              "A person does not have a heavy bag on their shoulders. They don't carry a physical weight. From the outside, they might just look like they are sitting, looking at their phone, drinking coffee, or doing nothing.",
+              "But mental load is not visible like physical load.",
+              "Remembering what needs to be remembered is a burden. Knowing who to reply to is a burden. Knowing which decision is delayed is a burden. Carrying promises made is a burden. Feeling like you are living below your potential is a burden. Knowing you are not getting closer to a goal is a burden. Feeling a relationship needs attention is a burden.",
+              "These burdens are rarely written in a single place. Some are in the calendar. Some are on WhatsApp. Some are in email. Some are in notes. Some are in the mind. Some live as a tension trapped in the body.",
+              "Because of this, the modern person often cannot even clearly see what is exhausting them. They are just tired. Just scattered. Just unable to start. They just feel things piling up on top of each other.",
+              "The important thing here is this: This state is not a weakness of character. It is the result of accumulated cognitive and emotional load.",
+              "Saule's starting point in trying to understand the human is not to judge, but to make this invisible load visible."
+            ]
+          },
+          {
+            "heading": "4. Information is Not Clarity",
+            "paragraphs": [
+              "One of the biggest fallacies of the modern world is the idea that access to more information will automatically create more clarity.",
+              "Finding the answer to a question now often takes seconds. An article can be read, a video watched, an AI asked, a summary extracted, a list obtained. Yet, even having the right answer, a person might still not take action.",
+              "Because clarity is not just information.",
+              "Clarity requires context, priority, timing, emotional readiness, and continuity.",
+              "A person might know what they need to do but not the order to do it in. They might not understand which task is truly important. They might not be emotionally ready to start that task. The day's energy might not be suitable for it. They might feel resistance because they failed at it before. Or other open loops in their life might prevent them from making space for it.",
+              "Sometimes the problem isn't 'I don't know what to do'.",
+              "The problem is: I can't keep my life clear enough to do the thing I know I should do.",
+              "Therefore, Saule cannot be designed solely as a system that gives answers. Because a person does not always need a new answer. Sometimes what they need is to be able to see the answer they already know within the reality of their own life.",
+              "ChatGPT can answer a question. A search engine can find information. A task app can keep a list. But Saule's primary goal must be beyond these: to understand the user's life context over time and to clarify together what is truly important."
+            ]
+          },
+          {
+            "heading": "5. The Emotional Weight of Open Loops",
+            "paragraphs": [
+              "Open loops are not just incomplete tasks. They are often emotional objects.",
+              "An unanswered message is not just a message. It can carry embarrassment, avoidance, uncertainty, or relationship anxiety.",
+              "An unsent job application is not just a task. It can contain future anxiety, fear of rejection, or feelings of inadequacy.",
+              "A delayed health habit is not just a habit. It can hold guilt, fatigue, or the feeling of failing to keep promises to oneself.",
+              "Postponing a difficult conversation is not just a matter of timing. It can contain fear of conflict, the possibility of loss, or unexpressed needs.",
+              "This is why open loops continue to live in the background of the mind. They don't disappear completely even when a person is doing something else. They do not close like a file. On the contrary, they silently consume attention.",
+              "A significant part of modern overwhelm comes not from the number of incomplete tasks, but from the emotional meanings these tasks carry.",
+              "Therefore, a good personal intelligence system shouldn't just ask 'what needs to be done?'. It must also try to understand:",
+              "Why was this task delayed? Why does this conversation feel difficult? Why does this goal keep falling behind even though it's important? When does this person need a push, and when do they need support?",
+              "Saule's difference must start here. It should try to understand human behavior not just as a task completion rate, but within the context of life."
+            ]
+          },
+          {
+            "heading": "6. Why More Tools Sometimes Make Things Worse",
+            "paragraphs": [
+              "Most productivity tools are designed with good intentions. They promise to help you be more organized, live more planned, track tasks, and use time better.",
+              "But most of these tools expect the user to be organized first.",
+              "For a task app to work, tasks must be written correctly. For a calendar to work, time blocks must be entered realistically. For a note app to work, notes must be kept organized. For reminders to work, the user must know in advance what, when, and why they want to remember.",
+              "This creates a major paradox:",
+              "The person who needs the most help is often the person with the least energy to maintain the system.",
+              "After a while, task lists turn into graveyards of intentions. Calendars are full but not meaningful. Notes store information but do not produce understanding. Reminders create noise instead of helping. Boards, dashboards, and tracking screens turn into new objects the person has to track.",
+              "Ultimately, the person begins to blame themselves not just for neglecting their life, but also for neglecting the systems they set up to organize their life.",
+              "Therefore, Saule should not be another dashboard. It must not become a new burden that tells the user 'use me in an organized way too'.",
+              "Saule's core design question is this: How can a system support the user without requiring the user to maintain the system?"
+            ]
+          },
+          {
+            "heading": "7. The Saule Perspective",
+            "paragraphs": [
+              "Saule does not begin with the assumption that humans need more pressure.",
+              "Saule's starting point is this: Humans often know what they need to do. But they cannot translate what they know into action due to mental clutter, emotional load, loss of context, and attention fragmentation.",
+              "Therefore, Saule's first duty is not to give orders. It is not to produce lists. It is not to force the user to be more productive.",
+              "Its first duty is to create clarity.",
+              "Saule shouldn't just ask:",
+              "\"What do you want to do today?\"",
+              "Over time, it must be able to understand:",
+              "\"What kind of day is truly possible for this person today?\"",
+              "This question is very different from classic productivity tools. Because it acknowledges that everyone does not live at the same capacity every day. Some days have high energy. Some days have fatigue. Some days anxiety is higher. Some days the person is open to the outside world, while other days they can only take a small step.",
+              "Saule's goal is not to make the human endlessly productive.",
+              "Saule's goal is to help the human see themselves more clearly, organize their day more realistically, manage their relationships more consciously, and notice recurring patterns in their life over time.",
+              "Before giving an answer, Saule must try to understand. Before reminding, it must see the context. Before offering a suggestion, it must consider the person's capacity for that day.",
+              "Most importantly, Saule must serve to make the user's own life clearer to them, not to make the user dependent on it."
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Saule must reduce cognitive load, not increase it. The user should not encounter a new mess when they open the application.",
+          "Saule must not be another system that requires maintenance. The system must be able to learn from the user's natural conversations and permitted contexts.",
+          "Saule must not judge incomplete days. People do not complete their goals every day. This should be seen as data, not failure.",
+          "Saule must prioritize clarity, not productivity. Some days the best decision is to do less, recover, or just simplify the mind.",
+          "Saule must learn patterns over time. It should try to understand, with explicit permission, at what hours the user focuses better, which tasks they avoid.",
+          "Saule must not replace human agency. It should not make decisions on behalf of the user; it should open space for thought so the user can make better decisions.",
+          "Saule must sometimes know when to stay silent. Not every context requires intervention. Protecting attention sometimes means not sending a notification."
+        ],
+        "open_questions": [
+          {
+            "id": "q1",
+            "question": "What kinds of overwhelm can software responsibly help with?",
+            "status": "open",
+            "answerSummary": "",
+            "answeredInChapters": [
+              "Chapter 23 — Ethics",
+              "Chapter 28 — Coaching Engine"
+            ],
+            "relatedChapters": [],
+            "decisionArea": "Responsible Support Boundaries",
+            "designDecisionId": "",
+            "notes": ""
+          },
+          {
+            "id": "q2",
+            "question": "When does support become overreach?",
+            "status": "open",
+            "answerSummary": "",
+            "answeredInChapters": [
+              "Chapter 23 — Ethics",
+              "Chapter 24 — Human Agency",
+              "Chapter 28 — Coaching Engine"
+            ],
+            "relatedChapters": [],
+            "decisionArea": "Intervention Boundaries",
+            "designDecisionId": "",
+            "notes": ""
+          },
+          {
+            "id": "q3",
+            "question": "How much should Saule remember?",
+            "status": "open",
+            "answerSummary": "",
+            "answeredInChapters": [
+              "Chapter 22 — Forgetting",
+              "Chapter 25 — Adaptive Memory",
+              "Chapter 37 — Privacy"
+            ],
+            "relatedChapters": [],
+            "decisionArea": "Memory Policy",
+            "designDecisionId": "",
+            "notes": ""
+          },
+          {
+            "id": "q4",
+            "question": "What information should Saule never store?",
+            "status": "open",
+            "answerSummary": "",
+            "answeredInChapters": [
+              "Chapter 37 — Privacy",
+              "Chapter 38 — Security"
+            ],
+            "relatedChapters": [],
+            "decisionArea": "Sensitive Data Policy",
+            "designDecisionId": "",
+            "notes": ""
+          },
+          {
+            "id": "q5",
+            "question": "When should Saule interrupt, and when should it stay silent?",
+            "status": "open",
+            "answerSummary": "",
+            "answeredInChapters": [
+              "Chapter 32 — Phone Context",
+              "Chapter 33 — Voice",
+              "Chapter 31 — Planning Intelligence"
+            ],
+            "relatedChapters": [],
+            "decisionArea": "Notification and Interruption Policy",
+            "designDecisionId": "",
+            "notes": ""
+          },
+          {
+            "id": "q6",
+            "question": "How can Saule help without creating dependency?",
+            "status": "open",
+            "answerSummary": "",
+            "answeredInChapters": [
+              "Chapter 20 — Trust",
+              "Chapter 24 — Human Agency",
+              "Chapter 28 — Coaching Engine"
+            ],
+            "relatedChapters": [],
+            "decisionArea": "User Independence",
+            "designDecisionId": "",
+            "notes": ""
+          },
+          {
+            "id": "q7",
+            "question": "How can Saule support reflection without pretending to be therapy?",
+            "status": "open",
+            "answerSummary": "",
+            "answeredInChapters": [
+              "Chapter 23 — Ethics",
+              "Chapter 27 — Reflection Engine",
+              "Chapter 28 — Coaching Engine"
+            ],
+            "relatedChapters": [],
+            "decisionArea": "Non-Therapeutic Support Boundary",
+            "designDecisionId": "",
+            "notes": ""
+          },
+          {
+            "id": "q8",
+            "question": "How can Saule use human difficulty as data without reducing humanity to numbers?",
+            "status": "open",
+            "answerSummary": "",
+            "answeredInChapters": [
+              "Chapter 18 — Human First AI",
+              "Chapter 19 — Adaptive Intelligence",
+              "Chapter 25 — Adaptive Memory"
+            ],
+            "relatedChapters": [],
+            "decisionArea": "Human-Centered Data Use",
+            "designDecisionId": "",
+            "notes": ""
+          }
+        ],
+        "future_evolution": "This section will be expanded with research in the future. For now, the research area is kept open.",
+        "references": [
+          "Cognitive load theory",
+          "Executive function research",
+          "Attention economy literature",
+          "Digital distraction studies",
+          "Behavioral design",
+          "Habit formation research",
+          "Critiques on productivity systems",
+          "Gabor Maté's writings on attention, stress, and human development",
+          "Research on modern work life and the cost of context switching"
+        ]
+      }
+    },
+    "mental-clutter": {
+      "title": "Mental Clutter",
+      "purpose": "Define the nature, categories, and cognitive cost of unresolved thoughts and micro-tasks.",
+      "key_question": "How does accumulating mental debris degrade daily decision-making quality?"
+    },
+    "the-attention-crisis": {
+      "title": "The Attention Crisis",
+      "purpose": "Examine the neurochemistry of attention capture and how reactive loops erode focus.",
+      "key_question": "How do attention-extractive systems disrupt the brain's default mode network?"
+    },
+    "open-loops": {
+      "title": "Open Loops",
+      "purpose": "Trace the Zeigarnik effect in personal task management and the anxiety of unfinished business.",
+      "key_question": "Why do uncompleted commitments trigger persistent subconscious stress?"
+    },
+    "executive-function": {
+      "title": "Executive Function",
+      "purpose": "Map cognitive load limits, working memory capacity, and the mechanisms of willpower depletion.",
+      "key_question": "What happens to executive control when the mind is constantly overtaxed?"
+    },
+    "why-existing-productivity-systems-fail": {
+      "title": "Why Existing Productivity Systems Fail",
+      "purpose": "Deconstruct why traditional calendars, todo lists, and CRMs feel cold, rigid, and ultimately collapse.",
+      "key_question": "Why do tools designed to organize life frequently become sources of added stress?"
+    },
+    "cost-of-constant-context-switching": {
+      "title": "The Cost of Constant Context Switching",
+      "purpose": "Calculate the cognitive cost and focus depletion associated with digital multitasking.",
+      "key_question": "What is the true cost of switching focus between unrelated life domains multiple times an hour?"
+    },
+    "memory": {
+      "title": "Memory",
+      "purpose": "Study how human memory consolidates details, structures meaning, and triggers recall.",
+      "key_question": "How does the human brain index personal experience, and how can technology support this without replacing it?"
+    },
+    "identity": {
+      "title": "Identity",
+      "purpose": "Explore the narrative self, self-concept consistency, and personal evolution over time.",
+      "key_question": "How does self-narrative adapt, and how can an intelligence reflect a person's authentic identity?"
+    },
+    "emotions": {
+      "title": "Emotions",
+      "purpose": "Analyze the interplay between emotional states, cognitive clarity, and spatial organization.",
+      "key_question": "How do mood shifts affect daily planning, and how should an interface adjust to emotional state?"
+    },
+    "motivation": {
+      "title": "Motivation",
+      "purpose": "Deconstruct intrinsic vs. extrinsic drivers, energy levels, and dopamine cycle mechanics.",
+      "key_question": "Why does motivation fluctuate, and how can an interface support consistency without manipulation?"
+    },
+    "habits": {
+      "title": "Habits",
+      "purpose": "Map the cue-routine-reward loops of behavioral automaticity and habit formulation.",
+      "key_question": "How are positive habits consolidated, and how does environmental feedback guide them?"
+    },
+    "decision-making": {
+      "title": "Decision Making",
+      "purpose": "Identify choice architecture, cognitive biases, and choice fatigue in daily life.",
+      "key_question": "How can decision fatigue be mitigated when sorting daily logistics?"
+    },
+    "relationships": {
+      "title": "Relationships",
+      "purpose": "Understand social bonding structures, active listening, and relational context mapping.",
+      "key_question": "How can technology preserve social context without commodifying relationships?"
+    },
+    "reflection": {
+      "title": "Reflection",
+      "purpose": "Investigate the role of structured introspection, journaling, and silent pauses in mental health.",
+      "key_question": "Why is regular, non-judgmental reflection essential for cognitive recalibration?"
+    },
+    "meaning": {
+      "title": "Meaning",
+      "purpose": "Define core values, alignment metrics, and the search for significance in daily action.",
+      "key_question": "How can an adaptive system help users identify and prioritize action that aligns with core values?"
+    },
+    "why-saule-exists": {
+      "title": "Why Saule Exists",
+      "purpose": "Articulate the mission, values, and core principles guiding the creation of Saule.",
+      "key_question": "Why must Saule exist, and what void does it fill in the technology ecosystem?"
+    },
+    "human-first-ai": {
+      "title": "Human First AI",
+      "purpose": "Contrast human-first design with engagement-maximizing and task-maximizing AI models.",
+      "key_question": "How can AI serve human agency rather than corporate data capture?"
+    },
+    "adaptive-intelligence": {
+      "title": "Adaptive Intelligence",
+      "purpose": "Establish the framework of software that molds itself to the human mind instead of forcing compliance.",
+      "key_question": "What is the model for software that grows and bends to fit individual psychology?"
+    },
+    "trust": {
+      "title": "Trust",
+      "purpose": "Analyze trust mechanics, validation protocols, and sovereign security boundaries.",
+      "key_question": "How do we earn and keep absolute trust from the user?"
+    },
+    "learning": {
+      "title": "Learning",
+      "purpose": "Define the boundaries of permissioned user profile growth and preference acquisition.",
+      "key_question": "How does Saule learn about a user without invasive profiling?"
+    },
+    "forgetting": {
+      "title": "Forgetting",
+      "purpose": "Introduce the digital right to forget, memory pruning, and purging protocols.",
+      "key_question": "Why is forgetting just as important as remembering in a personal memory system?"
+    },
+    "ethics": {
+      "title": "Ethics",
+      "purpose": "Establish strict boundaries regarding mental health claims, therapy, and user manipulation.",
+      "key_question": "What ethical redlines must never be crossed by an adaptive life intelligence?"
+    },
+    "human-agency": {
+      "title": "Human Agency",
+      "purpose": "Design interfaces that preserve decision-making sovereignty rather than automating choice.",
+      "key_question": "How do we assist in organization while strengthening, not weakening, user agency?"
+    },
+    "adaptive-memory": {
+      "title": "Adaptive Memory",
+      "purpose": "Outline the conceptual layer of a private, linked semantic memory graph.",
+      "key_question": "How does Saule model user context to recall information naturally when needed?"
+    },
+    "context-engine": {
+      "title": "Context Engine",
+      "purpose": "Design dynamic situation parsing based on calendar, time, priority, and energy.",
+      "key_question": "How does Saule understand what is relevant to the user right now?"
+    },
+    "reflection-engine": {
+      "title": "Reflection Engine",
+      "purpose": "Create dialogic prompts that invite introspection and pattern recognition.",
+      "key_question": "How do we ask questions that spark genuine reflection rather than routine answers?"
+    },
+    "coaching-engine": {
+      "title": "Coaching Engine",
+      "purpose": "Establish non-directive, supportive coaching methodologies for goal resolution.",
+      "key_question": "How do we guide users toward their own solutions without imposing path rules?"
+    },
+    "career-intelligence": {
+      "title": "Career Intelligence",
+      "purpose": "Define task-to-goal professional mapping and career trajectory alignment.",
+      "key_question": "How does Saule help align daily actions with long-term professional ambitions?"
+    },
+    "relationship-intelligence": {
+      "title": "Relationship Intelligence",
+      "purpose": "Structure context keeping for personal networks, family updates, and social promises.",
+      "key_question": "How can Saule support relationship maintenance without feeling mechanical?"
+    },
+    "planning-intelligence": {
+      "title": "Planning Intelligence",
+      "purpose": "Design schedule building around energy curves and focus buffers.",
+      "key_question": "How can scheduling adapt to current energy rather than clock hours?"
+    },
+    "phone-context": {
+      "title": "Phone Context",
+      "purpose": "Integrate device usage cues to nudge users away from distraction loops.",
+      "key_question": "How can Saule interact with the phone environment to protect attention?"
+    },
+    "voice": {
+      "title": "Voice",
+      "purpose": "Explore the acoustics, language cadence, and pacing of vocal reflection.",
+      "key_question": "How does vocal interaction change reflection dynamics, and what is its tone?"
+    },
+    "native-intelligence": {
+      "title": "Native Intelligence",
+      "purpose": "Define the scope of custom-trained, locally executed adaptive models.",
+      "key_question": "How can localized training preserve privacy while offering deep adaptive value?"
+    },
+    "ai-architecture": {
+      "title": "AI Architecture",
+      "purpose": "Specify the boundary separating semantic graphs from LLM generation engines.",
+      "key_question": "How do we use LLMs as processing units without leaking private memory context?"
+    },
+    "engineering-principles": {
+      "title": "Engineering Principles",
+      "purpose": "List requirements for speed, offline function, and cryptographic security.",
+      "key_question": "What code paradigms are needed to build a sovereign cognitive companion?"
+    },
+    "privacy": {
+      "title": "Privacy",
+      "purpose": "Define end-to-end cryptographic encryption schemas for user context graphs.",
+      "key_question": "How do we mathematically guarantee that no one but the user can view their book?"
+    },
+    "security": {
+      "title": "Security",
+      "purpose": "Map local device protection, cloud sync guards, and authentication parameters.",
+      "key_question": "How do we secure the local runtime against hostile data extraction?"
+    },
+    "business-model": {
+      "title": "Business Model",
+      "purpose": "Detail subscription sustainability, zero-ad commitment, and user-aligned monetization.",
+      "key_question": "How do we generate revenue without ever compromising user data or attention?"
+    },
+    "development-phases": {
+      "title": "Development Phases",
+      "purpose": "Outline the sequence from this Living Book to Mobile MVP and full integration.",
+      "key_question": "What is the disciplined milestone path from theoretical design to working system?"
+    },
+    "research-methodology": {
+      "title": "Research Methodology",
+      "purpose": "Establish criteria for scientific validation, trial design, and confidence scoring.",
+      "key_question": "How do we measure if Saule is actually improving cognitive clarity?"
+    },
+    "building-saule": {
+      "title": "Building Saule",
+      "purpose": "Detail sandbox iterations, alpha user loops, and community code integrations.",
+      "key_question": "How do we build this system in public while maintaining extreme privacy bounds?"
+    }
+  }
+}

@@ -1,0 +1,564 @@
+{
+  "meta": {
+    "title": "El Libro Vivo de Saule — Inteligencia Adaptativa para la Vida",
+    "description": "El Libro Vivo de Saule documenta la filosofía, investigación, arquitectura, psicología y diseño técnico de Saule. La fuente de verdad para la aplicación."
+  },
+  "common": {
+    "toc": "Índice de Contenidos",
+    "back_to_top": "Volver arriba",
+    "next_chapter": "Siguiente Capítulo",
+    "prev_chapter": "Capítulo Anterior",
+    "chapter": "Capítulo",
+    "none": "Ninguno",
+    "dashboard": "Inicio",
+    "minutes": "min"
+  },
+  "header": {
+    "logo": "Saule",
+    "badge": "El Libro Vivo"
+  },
+  "footer": {
+    "owner": "Pool IQ",
+    "warning": "El Libro Vivo de Saule se encuentra actualmente en fase de definición inicial. Este documento público evoluciona a medida que progresa la investigación."
+  },
+  "early_access": {
+    "title": "Suscríbete al registro de desarrollo",
+    "description": "Documentamos nuestro proceso de pensamiento, notas de investigación y decisiones de diseño aquí. Suscríbete para recibir notificaciones cuando se bloqueen nuevos capítulos o se abran entornos interactivos.",
+    "placeholder": "Introduce tu correo electrónico...",
+    "button": "Suscribirse",
+    "success_title": "Suscrito",
+    "success_desc": "Gracias por suscribirte. Nos pondremos en contacto contigo cuando el primer entorno interactivo esté listo."
+  },
+  "dashboard": {
+    "title": "El Libro Vivo de Saule",
+    "subtitle": "Inteligencia Adaptativa para la Vida",
+    "living_book_badge": "Libro Vivo",
+    "status_label": "Estado Actual",
+    "status_desc": "Mapeando nodos de investigación clave y estructurando el diseño de los volúmenes",
+    "version_label": "Edición",
+    "last_updated_label": "Última Actualización",
+    "metric_volumes": "Volúmenes",
+    "metric_chapters": "Capítulos principales",
+    "metric_written": "Capítulos en borrador",
+    "metric_sources": "Nodos de investigación",
+    "metric_questions": "Preguntas Abiertas",
+    "metric_decisions": "Decisiones de Diseño",
+    "preface_title": "El Prefacio",
+    "preface_body_1": "“La aplicación Saule se escribirá y desarrollará junto con El Libro Vivo de Saule, y de acuerdo con él.”",
+    "preface_body_2": "Cada característica, cada comportamiento de IA, cada sistema de memoria y cada decisión de ingeniería debe estar fundamentado en este libro antes de formar parte de la aplicación. El libro es la fuente de verdad vinculante de Saule. La aplicación es la prueba viva del libro.",
+    "preface_body_3": "Esto no es documentación de producto. No contiene lenguaje de marketing. Es un registro vivo del proceso de pensamiento, la investigación cognitiva y las decisiones de diseño técnico detrás de una inteligencia adaptativa centrada en las personas.",
+    "volumes_and_chapters": "Volúmenes y capítulos"
+  },
+  "workspace": {
+    "not_written": "Este capítulo aún no ha sido escrito.",
+    "status": "Estado",
+    "reading_time": "Tiempo de Lectura",
+    "version": "Versión",
+    "last_updated": "Última Actualización",
+    "purpose": "Propósito",
+    "key_question": "Pregunta Clave",
+    "dependencies": "Dependencias",
+    "related_chapters": "Capítulos Relacionados",
+    "research_confidence": "Confianza de Investigación",
+    "notes": "Notas de Investigación",
+    "books": "Libros por Leer",
+    "academic_papers": "Artículos Académicos",
+    "experiments": "Experimentos",
+    "insights": "Conclusiones",
+    "rejected_ideas": "Ideas Rechazadas",
+    "open_questions": "Preguntas Abiertas",
+    "design_decisions": "Decisiones de Diseño",
+    "future_evolution": "Evolución Futura",
+    "references": "Referencias",
+    "no_data": "Aún no se han registrado entradas. Entorno de investigación inicializado.",
+    "will_be_answered_in": "Se responderá en:",
+    "decision_area": "Área de Decisión",
+    "open_questions_intro": "Estas preguntas se dejan abiertas intencionalmente en esta etapa. Definen las vías de investigación que los capítulos posteriores deben responder antes de que se implemente Saule.",
+    "draft_mode_desc": "Este capítulo se encuentra actualmente en modo de borrador.",
+    "status_drafting": "Borrador",
+    "status_researching": "En investigación",
+    "status_open": "Abierta",
+    "status_in_research": "En Investigación",
+    "status_answered": "Respondida",
+    "status_deprecated": "Obsoleta",
+    "confidence_high": "Alto",
+    "confidence_medium": "Medio",
+    "confidence_experimental": "Experimental"
+  },
+  "volumes": {
+    "v1": {
+      "title": "Volumen I: La Condición Humana",
+      "purpose": "Comprender el problema humano moderno antes de introducir Saule."
+    },
+    "v2": {
+      "title": "Volumen II: Entendiendo la Mente Humana",
+      "purpose": "Comprender cómo piensan realmente las personas antes de intentar construir una inteligencia adaptativa."
+    },
+    "v3": {
+      "title": "Volumen III: La Filosofía de Saule",
+      "purpose": "Introducir las bases de Saule. Explorar por qué existe Saule, por qué la IA debe adaptarse y por qué importan la confianza, la memoria y el olvido."
+    },
+    "v4": {
+      "title": "Volumen IV: La Mente de Saule",
+      "purpose": "Explicar cómo piensa Saule conceptualmente (inteligencia conceptual, no implementación)."
+    },
+    "v5": {
+      "title": "Volumen V: Construyendo Saule",
+      "purpose": "Aplicar ingeniería, arquitectura de IA, seguridad y metodologías de investigación para materializar las especificaciones del libro."
+    }
+  },
+  "chapters": {
+    "why-we-are-overwhelmed": {
+      "title": "Por Qué Estamos Abrumados",
+      "purpose": "Analizar los factores sistémicos, ambientales y tecnológicos que desencadenan la sobrecarga mental moderna.",
+      "key_question": "¿Por qué el individuo moderno experimenta niveles de agobio mental históricamente sin precedentes?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. Sobrecarga Silenciosa",
+            "paragraphs": [
+              "El ser humano de hoy a menudo lucha no porque no sepa lo que quiere, sino porque está expuesto a demasiados estímulos al mismo tiempo.",
+              "Por un lado, hay trabajo por hacer. Mensajes sin responder, proyectos inacabados, solicitudes pendientes, decisiones de salud pospuestas, relaciones descuidadas, ansiedades financieras no resueltas, citas que no deben olvidarse, responsabilidades familiares que atender y el deseo interno de construir una vida mejor.",
+              "Desde afuera, este panorama puede parecer una simple desorganización. La gente se pregunta, '¿Por qué no toman acción?' Sin embargo, desde adentro, la situación rara vez es pereza; es una carga mental que se ha vuelto demasiado pesada de llevar.",
+              "Hay pestañas invisibles que se dejan constantemente abiertas en la mente de la persona moderna. Un mensaje no ha sido respondido. No se ha tomado una decisión. Se ha pospuesto una conversación. Una meta es importante pero permanece intacta. Se conoce una responsabilidad pero no se puede comenzar.",
+              "Estas pestañas abiertas pueden parecer pequeñas individualmente. Pero cuando se combinan, se convierten en un ruido de fondo que se ejecuta constantemente en el mundo interior de la persona.",
+              "Este es exactamente el punto de partida de Saule: la gente no necesita más presión, necesita más claridad."
+            ]
+          },
+          {
+            "heading": "2. La Paradoja Moderna",
+            "paragraphs": [
+              "A lo largo de la historia, los humanos nunca han tenido tantas herramientas.",
+              "Tenemos calendarios. Tenemos recordatorios. Tenemos aplicaciones de notas. Tenemos listas de tareas. Tenemos bandejas de entrada de correo electrónico. Tenemos aplicaciones de mensajería. Tenemos motores de búsqueda. Tenemos asistentes de IA. Tenemos almacenamiento en la nube, cuadernos digitales, tableros de proyectos, notificaciones en la aplicación y acceso a información infinita.",
+              "A pesar de esto, muchas personas se sienten más fragmentadas en lugar de más claras.",
+              "Porque cada nueva herramienta no solo trae una solución; también crea una nueva área de mantenimiento. El calendario debe actualizarse. La lista de tareas debe limpiarse. Las notas deben organizarse. Los mensajes deben responderse. Los correos electrónicos deben ordenarse. Los recordatorios deben posponerse. Las aplicaciones deben revisarse.",
+              "La paradoja de la vida moderna es esta: las herramientas producidas para hacer la vida más fácil pueden, con el tiempo, convertirse en sistemas adicionales que necesitan ser manejados tanto como la vida misma.",
+              "Una persona ya no solo vive su vida. También debe administrar los sistemas que configuró para administrar su vida.",
+              "Por lo tanto, 'más herramientas' no siempre significa 'más claridad'. A veces más herramientas solo significa más lugares que la mente debe atender y mantener."
+            ]
+          },
+          {
+            "heading": "3. La Carga Invisible",
+            "paragraphs": [
+              "Uno de los aspectos más agotadores de sentirse abrumado es que a menudo es invisible.",
+              "Una persona no tiene una bolsa pesada sobre sus hombros. No llevan un peso físico. Desde afuera, podrían parecer que solo están sentados, mirando su teléfono, bebiendo café o no haciendo nada.",
+              "Pero la carga mental no es visible como la carga física.",
+              "Recordar lo que necesita ser recordado es una carga. Saber a quién responder es una carga. Saber qué decisión se retrasa es una carga. Llevar promesas hechas es una carga. Sentir que vives por debajo de tu potencial es una carga. Saber que no te acercas a una meta es una carga. Sentir que una relación necesita atención es una carga.",
+              "Estas cargas rara vez están escritas en un solo lugar. Algunas están en el calendario. Algunas en WhatsApp. Algunas en el correo electrónico. Algunas en las notas. Algunas en la mente. Algunas viven como una tensión atrapada en el cuerpo.",
+              "Debido a esto, la persona moderna a menudo ni siquiera puede ver claramente qué la está agotando. Simplemente están cansados. Simplemente dispersos. Simplemente incapaces de comenzar. Simplemente sienten que las cosas se acumulan una encima de otra.",
+              "Lo importante aquí es esto: este estado no es una debilidad de carácter. Es el resultado de la carga cognitiva y emocional acumulada.",
+              "El punto de partida de Saule para tratar de entender al ser humano no es juzgar, sino hacer visible esta carga invisible."
+            ]
+          },
+          {
+            "heading": "4. La Información No es Claridad",
+            "paragraphs": [
+              "Una de las mayores falacias del mundo moderno es la idea de que el acceso a más información creará automáticamente más claridad.",
+              "Encontrar la respuesta a una pregunta ahora a menudo toma segundos. Se puede leer un artículo, ver un video, preguntar a una IA, extraer un resumen, obtener una lista. Sin embargo, incluso teniendo la respuesta correcta, una persona podría no actuar.",
+              "Porque la claridad no es solo información.",
+              "La claridad requiere contexto, prioridad, sincronización, preparación emocional y continuidad.",
+              "Una persona puede saber lo que tiene que hacer pero no el orden en que debe hacerlo. Es posible que no entiendan qué tarea es realmente importante. Podrían no estar emocionalmente listos para comenzar esa tarea. La energía del día podría no ser adecuada para ello. Podrían sentir resistencia porque fracasaron en ello antes. U otros ciclos abiertos en su vida podrían evitar que le hagan espacio.",
+              "A veces el problema no es 'no sé qué hacer'.",
+              "El problema es: no puedo mantener mi vida lo suficientemente clara como para hacer lo que sé que debería hacer.",
+              "Por lo tanto, Saule no puede diseñarse únicamente como un sistema que da respuestas. Porque una persona no siempre necesita una nueva respuesta. A veces lo que necesitan es poder ver la respuesta que ya conocen dentro de la realidad de su propia vida.",
+              "ChatGPT puede responder una pregunta. Un motor de búsqueda puede encontrar información. Una aplicación de tareas puede mantener una lista. Pero el objetivo principal de Saule debe estar más allá de esto: comprender el contexto de vida del usuario a lo largo del tiempo y aclarar juntos qué es realmente importante."
+            ]
+          },
+          {
+            "heading": "5. El Peso Emocional de los Ciclos Abiertos",
+            "paragraphs": [
+              "Los ciclos abiertos no son solo tareas incompletas. A menudo son objetos emocionales.",
+              "Un mensaje sin respuesta no es solo un mensaje. Puede llevar vergüenza, evitación, incertidumbre o ansiedad por la relación.",
+              "Una solicitud de empleo no enviada no es solo una tarea. Puede contener ansiedad por el futuro, miedo al rechazo o sentimientos de insuficiencia.",
+              "Un hábito de salud retrasado no es solo un hábito. Puede contener culpa, fatiga o el sentimiento de no cumplir las promesas a uno mismo.",
+              "Posponer una conversación difícil no es solo una cuestión de tiempo. Puede contener miedo al conflicto, la posibilidad de pérdida o necesidades no expresadas.",
+              "Es por esto que los ciclos abiertos continúan viviendo en el fondo de la mente. No desaparecen completamente incluso cuando una persona está haciendo otra cosa. No se cierran como un archivo. Por el contrario, consumen atención silenciosamente.",
+              "Una parte significativa del agobio moderno no proviene de la cantidad de tareas incompletas, sino de los significados emocionales que conllevan estas tareas.",
+              "Por lo tanto, un buen sistema de inteligencia personal no solo debería preguntar '¿qué hay que hacer?'. También debe tratar de comprender:",
+              "¿Por qué se retrasó esta tarea? ¿Por qué esta conversación se siente difícil? ¿Por qué esta meta se sigue quedando atrás a pesar de ser importante? ¿Cuándo necesita esta persona un empujón y cuándo necesita apoyo?",
+              "La diferencia de Saule debe comenzar aquí. Debe intentar comprender el comportamiento humano no solo como una tasa de finalización de tareas, sino dentro del contexto de la vida."
+            ]
+          },
+          {
+            "heading": "6. Por Qué Más Herramientas a Veces Lo Empeoran",
+            "paragraphs": [
+              "La mayoría de las herramientas de productividad se diseñan con buenas intenciones. Prometen ayudarte a ser más organizado, vivir más planificado, hacer un seguimiento de las tareas y usar mejor el tiempo.",
+              "Pero la mayoría de estas herramientas esperan que el usuario esté organizado primero.",
+              "Para que una aplicación de tareas funcione, las tareas deben escribirse correctamente. Para que un calendario funcione, los bloques de tiempo deben ingresarse de manera realista. Para que una aplicación de notas funcione, las notas deben mantenerse organizadas. Para que los recordatorios funcionen, el usuario debe saber de antemano qué, cuándo y por qué quiere recordar.",
+              "Esto crea una gran paradoja:",
+              "La persona que más ayuda necesita es a menudo la persona con menos energía para mantener el sistema.",
+              "Después de un tiempo, las listas de tareas se convierten en cementerios de intenciones. Los calendarios están llenos pero no son significativos. Las notas almacenan información pero no producen comprensión. Los recordatorios crean ruido en lugar de ayudar. Los tableros, paneles y pantallas de seguimiento se convierten en nuevos objetos que la persona tiene que rastrear.",
+              "En última instancia, la persona comienza a culparse a sí misma no solo por descuidar su vida, sino también por descuidar los sistemas que configuró para organizar su vida.",
+              "Por lo tanto, Saule no debería ser otro panel de control. No debe convertirse en una nueva carga que le diga al usuario 'úsame de manera organizada también'.",
+              "La pregunta de diseño central de Saule es esta: ¿Cómo puede un sistema proporcionar mantenimiento para el usuario sin requerir que el usuario lo mantenga?"
+            ]
+          },
+          {
+            "heading": "7. La Perspectiva de Saule",
+            "paragraphs": [
+              "Saule no comienza con la suposición de que los humanos necesitan más presión.",
+              "El punto de partida de Saule es este: los humanos a menudo saben lo que tienen que hacer. Pero no pueden traducir lo que saben en acción debido al desorden mental, la carga emocional, la pérdida de contexto y la fragmentación de la atención.",
+              "Por lo tanto, el primer deber de Saule no es dar órdenes. No es producir listas. No es obligar al usuario a ser más productivo.",
+              "Su primer deber es crear claridad.",
+              "Saule no debería simplemente preguntar:",
+              "\"¿Qué quieres hacer hoy?\"",
+              "Con el tiempo, debe ser capaz de entender:",
+              "\"¿Qué tipo de día es realmente posible para esta persona hoy?\"",
+              "Esta pregunta es muy diferente de las herramientas de productividad clásicas. Porque reconoce que no todos viven a la misma capacidad todos los días. Algunos días tienen mucha energía. Algunos días tienen fatiga. Algunos días la ansiedad es mayor. Algunos días la persona está abierta al mundo exterior, mientras que otros días solo puede dar un pequeño paso.",
+              "El objetivo de Saule no es hacer que el humano sea infinitamente productivo.",
+              "El objetivo de Saule es ayudar al ser humano a verse a sí mismo con mayor claridad, organizar su día de manera más realista, gestionar sus relaciones de manera más consciente y notar patrones recurrentes en su vida a lo largo del tiempo.",
+              "Antes de dar una respuesta, Saule debe intentar comprender. Antes de recordar, debe ver el contexto. Antes de ofrecer una sugerencia, debe considerar la capacidad de la persona para ese día.",
+              "Lo más importante es que Saule debe servir para hacer que la propia vida del usuario sea más clara para él, no para hacer que el usuario dependa de ella."
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Saule debe reducir la carga cognitiva, no aumentarla. El usuario no debe encontrarse con un nuevo desastre cuando abre la aplicación.",
+          "Saule no debe ser otro sistema que requiera mantenimiento. El sistema debe poder aprender de las conversaciones naturales del usuario y los contextos permitidos.",
+          "Saule no debe juzgar los días incompletos. Las personas no completan sus metas todos los días. Esto debe verse como datos, no como un fracaso.",
+          "Saule debe priorizar la claridad, no la productividad. Algunos días la mejor decisión es hacer menos, recuperarse o simplemente simplificar la mente.",
+          "Saule debe aprender patrones con el tiempo. Debe intentar comprender, con permiso explícito, a qué horas el usuario se enfoca mejor, qué tareas evita.",
+          "Saule no debe reemplazar la agencia humana. No debe tomar decisiones en nombre del usuario; debe abrir un espacio para el pensamiento para que el usuario pueda tomar mejores decisiones.",
+          "Saule a veces debe saber cuándo guardar silencio. No todos los contextos requieren intervención. Proteger la atención a veces significa no enviar una notificación."
+        ],
+        "open_questions": [
+          {
+            "id": "q1",
+            "question": "¿Con qué tipos de agobio puede ayudar el software de manera responsable?",
+            "status": "open",
+            "answerSummary": "",
+            "answeredInChapters": [
+              "Capítulo 23 — Ética",
+              "Capítulo 28 — Motor de Coaching"
+            ],
+            "relatedChapters": [],
+            "decisionArea": "Límites del Soporte Responsable",
+            "designDecisionId": "",
+            "notes": ""
+          },
+          {
+            "id": "q2",
+            "question": "¿Cuándo el apoyo se convierte en una intromisión excesiva?",
+            "status": "open",
+            "answerSummary": "",
+            "answeredInChapters": [
+              "Capítulo 23 — Ética",
+              "Capítulo 24 — Agencia Humana",
+              "Capítulo 28 — Motor de Coaching"
+            ],
+            "relatedChapters": [],
+            "decisionArea": "Límites de Intervención",
+            "designDecisionId": "",
+            "notes": ""
+          },
+          {
+            "id": "q3",
+            "question": "¿Cuánto debería recordar Saule?",
+            "status": "open",
+            "answerSummary": "",
+            "answeredInChapters": [
+              "Capítulo 22 — Olvido",
+              "Capítulo 25 — Memoria Adaptativa",
+              "Capítulo 37 — Privacidad"
+            ],
+            "relatedChapters": [],
+            "decisionArea": "Política de Memoria",
+            "designDecisionId": "",
+            "notes": ""
+          },
+          {
+            "id": "q4",
+            "question": "¿Qué información no debería almacenar nunca Saule?",
+            "status": "open",
+            "answerSummary": "",
+            "answeredInChapters": [
+              "Capítulo 37 — Privacidad",
+              "Capítulo 38 — Seguridad"
+            ],
+            "relatedChapters": [],
+            "decisionArea": "Política de Datos Sensibles",
+            "designDecisionId": "",
+            "notes": ""
+          },
+          {
+            "id": "q5",
+            "question": "¿Cuándo debería interrumpir Saule y cuándo debería permanecer en silencio?",
+            "status": "open",
+            "answerSummary": "",
+            "answeredInChapters": [
+              "Capítulo 32 — Contexto del Teléfono",
+              "Capítulo 33 — Voz",
+              "Capítulo 31 — Inteligencia de Planificación"
+            ],
+            "relatedChapters": [],
+            "decisionArea": "Política de Notificación e Interrupción",
+            "designDecisionId": "",
+            "notes": ""
+          },
+          {
+            "id": "q6",
+            "question": "¿Cómo puede ayudar Saule sin crear dependencia?",
+            "status": "open",
+            "answerSummary": "",
+            "answeredInChapters": [
+              "Capítulo 20 — Confianza",
+              "Capítulo 24 — Agencia Humana",
+              "Capítulo 28 — Motor de Coaching"
+            ],
+            "relatedChapters": [],
+            "decisionArea": "Independencia del Usuario",
+            "designDecisionId": "",
+            "notes": ""
+          },
+          {
+            "id": "q7",
+            "question": "¿Cómo puede Saule apoyar la reflexión sin pretender ser una terapia?",
+            "status": "open",
+            "answerSummary": "",
+            "answeredInChapters": [
+              "Capítulo 23 — Ética",
+              "Capítulo 27 — Motor de Reflexión",
+              "Capítulo 28 — Motor de Coaching"
+            ],
+            "relatedChapters": [],
+            "decisionArea": "Límite del Soporte No Terapéutico",
+            "designDecisionId": "",
+            "notes": ""
+          },
+          {
+            "id": "q8",
+            "question": "¿Cómo puede Saule utilizar la dificultad humana como datos sin reducir la humanidad a números?",
+            "status": "open",
+            "answerSummary": "",
+            "answeredInChapters": [
+              "Capítulo 18 — IA centrada en las personas",
+              "Capítulo 19 — Inteligencia Adaptativa",
+              "Capítulo 25 — Memoria Adaptativa"
+            ],
+            "relatedChapters": [],
+            "decisionArea": "Uso de Datos Centrado en el Humano",
+            "designDecisionId": "",
+            "notes": ""
+          }
+        ],
+        "future_evolution": "Esta sección se ampliará con investigaciones en el futuro. Por ahora, el área de investigación se mantiene abierta.",
+        "references": [
+          "Teoría de la carga cognitiva",
+          "Investigación de la función ejecutiva",
+          "Literatura de economía de la atención",
+          "Estudios de distracción digital",
+          "Diseño de comportamiento",
+          "Investigación sobre la formación de hábitos",
+          "Críticas a los sistemas de productividad",
+          "Escritos de Gabor Maté sobre atención, estrés y desarrollo humano",
+          "Investigación sobre la vida laboral moderna y el costo del cambio de contexto"
+        ]
+      }
+    },
+    "mental-clutter": {
+      "title": "Desorden Mental",
+      "purpose": "Definir la naturaleza, categorías y costo cognitivo de los pensamientos no resueltos y las microtareas.",
+      "key_question": "¿Cómo degrada el desorden mental acumulado la calidad de nuestras decisiones diarias?"
+    },
+    "the-attention-crisis": {
+      "title": "La Crisis de Atención",
+      "purpose": "Examinar la neuroquímica de la captura de atención y cómo los bucles reactivos erosionan el enfoque.",
+      "key_question": "¿Cómo alteran los sistemas de extracción de atención la red neuronal por defecto (DMN) del cerebro?"
+    },
+    "open-loops": {
+      "title": "Ciclos Abiertos",
+      "purpose": "Rastrear el efecto Zeigarnik en la gestión de tareas personales y la ansiedad por los asuntos pendientes.",
+      "key_question": "¿Por qué los compromisos inconclusos activan un estrés subconsciente persistente?"
+    },
+    "executive-function": {
+      "title": "Función Ejecutiva",
+      "purpose": "Mapear los límites de carga cognitiva, la capacidad de la memoria de trabajo y el agotamiento de la fuerza de voluntad.",
+      "key_question": "¿Qué ocurre con el control ejecutivo cuando la mente está constantemente sobrecargada?"
+    },
+    "why-existing-productivity-systems-fail": {
+      "title": "Por qué fallan los sistemas de productividad existentes",
+      "purpose": "Desarmar por qué las agendas, listas de tareas y CRM tradicionales se sienten fríos, rígidos y finalmente colapsan.",
+      "key_question": "¿Por qué las herramientas diseñadas para organizar la vida se convierten con frecuencia en fuentes de estrés adicional?"
+    },
+    "cost-of-constant-context-switching": {
+      "title": "El costo del cambio de contexto constante",
+      "purpose": "Calcular la pérdida cognitiva y el agotamiento de la atención asociados con el multitasking digital.",
+      "key_question": "¿Cuál es el costo real de alternar el enfoque entre áreas de vida no relacionadas varias veces por hora?"
+    },
+    "memory": {
+      "title": "Memoria",
+      "purpose": "Estudiar cómo la memoria humana consolida detalles, estructura significados y activa el recuerdo.",
+      "key_question": "¿Cómo indexa el cerebro humano la experiencia personal y cómo puede la tecnología apoyar esto sin reemplazarlo?"
+    },
+    "identity": {
+      "title": "Identidad",
+      "purpose": "Explorar el yo narrativo, la consistencia del autoconcepto y la evolución personal a lo largo del tiempo.",
+      "key_question": "¿Cómo se adapta nuestra narrativa interna y cómo puede una inteligencia reflejar la identidad auténtica de una persona?"
+    },
+    "emotions": {
+      "title": "Emociones",
+      "purpose": "Analizar la interacción entre estados emocionales, claridad cognitiva y orden espacial.",
+      "key_question": "¿Cómo afectan los cambios de humor a la planificación diaria y cómo debe ajustarse una interfaz al estado emocional?"
+    },
+    "motivation": {
+      "title": "Motivación",
+      "purpose": "Desestructurar los motores intrínsecos frente a los extrínsecos, los niveles de energía y la dopamina.",
+      "key_question": "¿Por qué fluctúa la motivación y cómo puede una interfaz apoyar la consistencia sin recurrir a la manipulación?"
+    },
+    "habits": {
+      "title": "Hábitos",
+      "purpose": "Mapear los bucles de señal-rutina-recompensa de la automaticidad del comportamiento y la consolidación de hábitos.",
+      "key_question": "¿Cómo se consolidan los hábitos positivos y cómo guía la retroalimentación del entorno su formación?"
+    },
+    "decision-making": {
+      "title": "Toma de Decisiones",
+      "purpose": "Identificar la arquitectura de elección, sesgos cognitivos y la fatiga de decisión en la vida cotidiana.",
+      "key_question": "¿Cómo se puede mitigar la fatiga de decisión al organizar la logística diaria?"
+    },
+    "relationships": {
+      "title": "Relaciones",
+      "purpose": "Comprender las estructuras de vinculación social, escucha activa y mapeo de contexto relacional.",
+      "key_question": "¿Cómo puede la tecnología preservar el contexto social sin mercantilizar las relaciones?"
+    },
+    "reflection": {
+      "title": "Reflexión",
+      "purpose": "Investigar el papel de la introspección estructurada, el diario y las pausas silenciosas en la salud mental.",
+      "key_question": "¿Por qué es esencial la reflexión regular y no juiciosa para la calibración cognitiva?"
+    },
+    "meaning": {
+      "title": "Significado",
+      "purpose": "Definir valores fundamentales, métricas de alineación y la búsqueda de sentido en las acciones diarias.",
+      "key_question": "¿Cómo puede un sistema adaptativo ayudar a identificar y priorizar acciones que se alineen con los valores del usuario?"
+    },
+    "why-saule-exists": {
+      "title": "Por qué existe Saule",
+      "purpose": "Articular la misión, valores y principios clave que guían la creación de Saule.",
+      "key_question": "¿Por qué debe existir Saule y qué vacío llena en el ecosistema tecnológico?"
+    },
+    "human-first-ai": {
+      "title": "IA centrada en las personas",
+      "purpose": "Contrastar el diseño centrado en el humano con modelos de IA que maximizan la retención o las tareas ejecutadas.",
+      "key_question": "¿Cómo puede la IA servir a la soberanía humana en lugar de a la recolección de datos corporativos?"
+    },
+    "adaptive-intelligence": {
+      "title": "Inteligencia Adaptativa",
+      "purpose": "Establecer la estructura del software que se amolda a la mente humana en lugar de forzar su conformidad.",
+      "key_question": "¿Cuál es el modelo para el software que crece y se dobla para encajar con la psicología individual?"
+    },
+    "trust": {
+      "title": "Confianza",
+      "purpose": "Analizar la mecánica de la confianza, los protocolos de validación y las fronteras de seguridad soberana.",
+      "key_question": "¿Cómo nos ganamos y mantenemos la confianza absoluta del usuario?"
+    },
+    "learning": {
+      "title": "Aprendizaje",
+      "purpose": "Definir los límites del crecimiento del perfil del usuario bajo su permiso y la adquisición de preferencias.",
+      "key_question": "¿Cómo aprende Saule sobre el usuario sin recurrir a un perfilado invasivo?"
+    },
+    "forgetting": {
+      "title": "Olvido",
+      "purpose": "Introducir el derecho digital al olvido, la poda de memoria y los protocolos de purga.",
+      "key_question": "¿Por qué es tan importante olvidar como recordar en un sistema de memoria personal?"
+    },
+    "ethics": {
+      "title": "Ética",
+      "purpose": "Establecer límites estrictos con respecto a afirmaciones de salud mental, terapia y manipulación del usuario.",
+      "key_question": "¿Qué líneas rojas éticas nunca debe cruzar una inteligencia de vida adaptativa?"
+    },
+    "human-agency": {
+      "title": "Agencia Humana",
+      "purpose": "Diseñar interfaces que preserven la soberanía en la toma de decisiones en lugar de automatizar la elección.",
+      "key_question": "¿Cómo asistimos en la organización diaria mientras fortalecemos la agencia del usuario?"
+    },
+    "adaptive-memory": {
+      "title": "Memoria Adaptativa",
+      "purpose": "Esbozar la capa conceptual de un gráfico de memoria semántica privada y conectada.",
+      "key_question": "¿Cómo modela Saule el contexto del usuario para recordar la información de forma natural?"
+    },
+    "context-engine": {
+      "title": "Motor de Contexto",
+      "purpose": "Diseñar el procesamiento de situaciones dinámicas basado en el calendario, tiempo, prioridad y energía.",
+      "key_question": "¿Cómo entiende Saule qué es relevante para el usuario en cada momento?"
+    },
+    "reflection-engine": {
+      "title": "Motor de Reflexión",
+      "purpose": "Crear preguntas dialógicas que inviten a la introspección y el reconocimiento de patrones.",
+      "key_question": "¿Cómo planteamos preguntas que inspiren una reflexión real en lugar de respuestas automáticas?"
+    },
+    "coaching-engine": {
+      "title": "Motor de Acompañamiento",
+      "purpose": "Establecer metodologías de acompañamiento no directivas para la resolución de metas.",
+      "key_question": "¿Cómo guiamos al usuario hacia sus propias soluciones sin imponer reglas rígidas?"
+    },
+    "career-intelligence": {
+      "title": "Inteligencia Profesional",
+      "purpose": "Definir la correspondencia entre tareas y objetivos de desarrollo profesional a largo plazo.",
+      "key_question": "¿Cómo ayuda Saule a alinear las acciones diarias con las ambiciones profesionales a largo plazo?"
+    },
+    "relationship-intelligence": {
+      "title": "Inteligencia de Relaciones",
+      "purpose": "Estructurar la retención de contexto para redes personales, actualizaciones familiares y promesas sociales.",
+      "key_question": "¿Cómo puede Saule apoyar el mantenimiento de relaciones sin que se sienta mecánico?"
+    },
+    "planning-intelligence": {
+      "title": "Inteligencia de Planificación",
+      "purpose": "Diseñar la organización de agendas en torno a curvas de energía y zonas de enfoque.",
+      "key_question": "¿Cómo puede la planificación adaptarse a la energía actual en lugar de a las horas del reloj?"
+    },
+    "phone-context": {
+      "title": "Contexto del Teléfono",
+      "purpose": "Integrar señales de uso del dispositivo para desviar a los usuarios de los bucles de distracción.",
+      "key_question": "¿Cómo puede Saule interactuar con el entorno del teléfono para proteger la atención?"
+    },
+    "voice": {
+      "title": "Voz",
+      "purpose": "Explorar la acústica, el ritmo del lenguaje y la cadencia de la reflexión vocal.",
+      "key_question": "¿Cómo cambia la interacción por voz la dinámica de reflexión y cuál debe ser su tono?"
+    },
+    "native-intelligence": {
+      "title": "Inteligencia Nativa",
+      "purpose": "Definir el alcance de los modelos adaptativos entrenados a medida y ejecutados localmente.",
+      "key_question": "¿Cómo puede el procesamiento local preservar la privacidad mientras ofrece valor adaptativo?"
+    },
+    "ai-architecture": {
+      "title": "Arquitectura de IA",
+      "purpose": "Especificar la frontera que separa los gráficos semánticos de los motores de generación LLM.",
+      "key_question": "¿Cómo utilizamos los LLM como unidades de procesamiento sin filtrar el contexto de memoria privada?"
+    },
+    "engineering-principles": {
+      "title": "Principios de Ingeniería",
+      "purpose": "Listar los requisitos de velocidad, funcionamiento sin conexión y seguridad criptográfica.",
+      "key_question": "¿Qué paradigmas de código son necesarios para construir un compañero cognitivo soberano?"
+    },
+    "privacy": {
+      "title": "Privacidad",
+      "purpose": "Definir esquemas de cifrado criptográfico de extremo a extremo para los gráficos de contexto del usuario.",
+      "key_question": "¿Cómo garantizamos matemáticamente que nadie excepto el usuario pueda ver su libro?"
+    },
+    "security": {
+      "title": "Seguridad",
+      "purpose": "Mapear la protección local del dispositivo, las defensas de sincronización en la nube y los parámetros de acceso.",
+      "key_question": "¿Cómo protegemos el entorno de ejecución local contra la extracción hostil de datos?"
+    },
+    "business-model": {
+      "title": "Modelo de Negocio",
+      "purpose": "Detallar la sostenibilidad de la suscripción, el compromiso de cero anuncios y la monetización alineada con el usuario.",
+      "key_question": "¿Cómo generamos ingresos sin comprometer nunca los datos o la atención del usuario?"
+    },
+    "development-phases": {
+      "title": "Fases de Desarrollo",
+      "purpose": "Delinear la secuencia desde este Libro Vivo hasta el MVP móvil y la integración total.",
+      "key_question": "¿Cuál es el camino de hitos disciplinados desde el diseño teórico hasta el sistema funcional?"
+    },
+    "research-methodology": {
+      "title": "Metodología de Investigación",
+      "purpose": "Establecer criterios para la validación científica, el diseño de ensayos y la puntuación de confianza.",
+      "key_question": "¿Cómo medimos si Saule realmente está mejorando la claridad cognitiva?"
+    },
+    "building-saule": {
+      "title": "Construyendo Saule",
+      "purpose": "Detallar las iteraciones del entorno de pruebas, los ciclos de usuarios alfa y las integraciones de código de la comunidad.",
+      "key_question": "¿Cómo construimos este sistema en público mientras mantenemos límites extremos de privacidad?"
+    }
+  }
+}

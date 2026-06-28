@@ -1,0 +1,564 @@
+{
+  "meta": {
+    "title": "Saule Yaşayan Kitabı — Yaşam İçin Uyarlanabilir Zeka",
+    "description": "Saule Yaşayan Kitabı; Saule'nin arkasındaki felsefe, araştırma, mimari, psikoloji ve mühendisliği belgeler. Uygulamanın egemen bilgi kaynağıdır."
+  },
+  "common": {
+    "toc": "İçindekiler",
+    "back_to_top": "Yukarı dön",
+    "next_chapter": "Sonraki Bölüm",
+    "prev_chapter": "Önceki Bölüm",
+    "chapter": "Bölüm",
+    "none": "Yok",
+    "dashboard": "Kitap Ana Sayfası",
+    "minutes": "dk"
+  },
+  "header": {
+    "logo": "Saule",
+    "badge": "Yaşayan Kitap"
+  },
+  "footer": {
+    "owner": "Pool IQ",
+    "warning": "Saule Yaşayan Kitabı henüz erken tanımlama aşamasındadır. Bu açık kaynak yaşayan kitap, araştırma ve ürün geliştirme süreci ilerledikçe güncellenecektir."
+  },
+  "early_access": {
+    "title": "Geliştirme günlüğüne abone olun",
+    "description": "Düşüncelerimizi, araştırma notlarımızı ve tasarım kararlarımızı burada belgeliyoruz. Yeni bölümler kilitlendiğinde veya etkileşimli deneme alanları açıldığında haberdar olmak için abone olun.",
+    "placeholder": "E-posta adresinizi girin...",
+    "button": "Abone Ol",
+    "success_title": "Abone Olundu",
+    "success_desc": "Abone olduğunuz için teşekkürler. İlk etkileşimli deneme sürümü hazır olduğunda sizinle iletişime geçeceğiz."
+  },
+  "dashboard": {
+    "title": "Saule Yaşayan Kitabı",
+    "subtitle": "Yaşam İçin Uyarlanabilir Zeka",
+    "living_book_badge": "Yaşayan Kitap",
+    "status_label": "Mevcut Durum",
+    "status_desc": "Temel araştırma noktalarını haritalandırma ve cilt düzenlerini oluşturma",
+    "version_label": "Sürüm",
+    "last_updated_label": "Son Güncelleme",
+    "metric_volumes": "Cilt",
+    "metric_chapters": "Ana Bölüm",
+    "metric_written": "Taslak Bölüm",
+    "metric_sources": "Araştırma Noktası",
+    "metric_questions": "Açık Soru",
+    "metric_decisions": "Tasarım Kararı",
+    "preface_title": "Önsöz",
+    "preface_body_1": "“Saule uygulaması, Saule Yaşayan Kitabı ile birlikte ve bu kitaba bağlı kalarak geliştirilecektir.”",
+    "preface_body_2": "Her özellik, her yapay zekâ davranışı, her bellek sistemi ve her mühendislik kararı, uygulamada yer almadan önce bu kitapta temellendirilmelidir. Kitap, Saule için bağlayıcı doğruluk kaynağıdır. Uygulama ise kitabın hayata geçmiş kanıtıdır.",
+    "preface_body_3": "Bu bir ürün dokümantasyonu değildir. Pazarlama dili içermez. Bu kitap; insan öncelikli uyarlanabilir bir zekâyı yönlendiren düşünce sürecinin, bilişsel araştırmaların ve teknik tasarım kararlarının yaşayan kaydıdır.",
+    "volumes_and_chapters": "Ciltler ve Bölümler"
+  },
+  "workspace": {
+    "not_written": "Bu bölüm henüz yazılmamıştır.",
+    "status": "Durum",
+    "reading_time": "Okuma Süresi",
+    "version": "Sürüm",
+    "last_updated": "Son Güncelleme",
+    "purpose": "Amaç",
+    "key_question": "Temel Soru",
+    "dependencies": "Bağımlılıklar",
+    "related_chapters": "İlgili Bölümler",
+    "research_confidence": "Araştırma Güveni",
+    "notes": "Araştırma Notları",
+    "books": "Okunacak Kitaplar",
+    "academic_papers": "Akademik Makaleler",
+    "experiments": "Deneyler",
+    "insights": "Çıkarımlar",
+    "rejected_ideas": "Reddedilen Fikirler",
+    "open_questions": "Açık Sorular",
+    "design_decisions": "Tasarım Kararları",
+    "future_evolution": "Gelecek Gelişim",
+    "references": "Kaynaklar",
+    "no_data": "Henüz veri girişi yapılmadı. Araştırma alanı başlatıldı.",
+    "will_be_answered_in": "Cevaplanacağı bölümler:",
+    "decision_area": "Karar Alanı",
+    "open_questions_intro": "Bu sorular bu aşamada bilerek açık bırakılmıştır. Saule hayata geçirilmeden önce sonraki bölümlerin yanıtlaması gereken araştırma yollarını tanımlarlar.",
+    "draft_mode_desc": "Bu bölüm şu anda taslak aşamasındadır.",
+    "status_drafting": "Taslak",
+    "status_researching": "Araştırılıyor",
+    "status_open": "Açık",
+    "status_in_research": "Araştırılıyor",
+    "status_answered": "Cevaplandı",
+    "status_deprecated": "Geçersiz",
+    "confidence_high": "Yüksek",
+    "confidence_medium": "Orta",
+    "confidence_experimental": "Deneysel"
+  },
+  "volumes": {
+    "v1": {
+      "title": "Cilt I: Modern İnsanın Durumu",
+      "purpose": "Saule'yi tanıtmadan önce modern insanın yaşadığı temel sorunu anlamak."
+    },
+    "v2": {
+      "title": "Cilt II: İnsan Zihnini Anlamak",
+      "purpose": "Uyarlanabilir bir zeka inşa etmeye çalışmadan önce insanların gerçekte nasıl düşündüğünü anlamak."
+    },
+    "v3": {
+      "title": "Cilt III: Saule Felsefesi",
+      "purpose": "Saule'nin temellerini tanıtmak. Neden var olduğunu, neden uyum sağlaması gerektiğini ve bellek, unutma ve şefkatin önemini incelemek."
+    },
+    "v4": {
+      "title": "Cilt IV: Saule Zihni",
+      "purpose": "Saule'nin kavramsal düzeyde nasıl düşündüğünü açıklamak (mühendislik değil, kavramsal zeka)."
+    },
+    "v5": {
+      "title": "Cilt V: Saule'yi İnşa Etmek",
+      "purpose": "Kitapta belirtilen kuralları hayata geçirmek için mühendislik, yapay zeka mimarisi ve araştırma metodolojilerini uygulamak."
+    }
+  },
+  "chapters": {
+    "why-we-are-overwhelmed": {
+      "title": "Neden Bunalmış Durumdayız",
+      "purpose": "Modern zihinsel aşırı yüklenmeyi tetikleyen sistemsel, çevresel ve teknolojik faktörleri analiz etmek.",
+      "key_question": "Modern birey neden tarihsel olarak eşi benzeri görülmemiş düzeyde zihinsel bunalım yaşıyor?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. Sessiz Aşırı Yük",
+            "paragraphs": [
+              "Bugünün insanı çoğu zaman ne istediğini bilmediği için değil, aynı anda çok fazla uyarıcıya maruz kaldığı için zorlanıyor.",
+              "Bir yandan yapılması gereken işler var. Cevaplanmamış mesajlar, yarım kalmış projeler, bekleyen başvurular, ertelenen sağlık kararları, ihmal edilmiş ilişkiler, çözülmemiş finansal kaygılar, unutulmaması gereken randevular, bakılması gereken aile sorumlulukları ve kişinin kendi içinde taşıdığı daha iyi bir hayat kurma arzusu.",
+              "Dışarıdan bakıldığında bu tablo basit bir dağınıklık gibi görünebilir. İnsan “Neden harekete geçmiyor?” diye düşünür. Oysa içeriden bakıldığında durum çoğu zaman tembellik değil, taşınması zorlaşmış bir zihinsel yüktür.",
+              "Modern insanın zihninde sürekli açık kalan görünmez sekmeler vardır. Bir mesaj yanıtlanmamıştır. Bir karar verilmemiştir. Bir konuşma ertelenmiştir. Bir hedef önemlidir ama dokunulmamıştır. Bir sorumluluk bilinmektedir ama başlanamamıştır.",
+              "Bu açık sekmeler tek tek küçük görünebilir. Fakat bir araya geldiklerinde insanın iç dünyasında sürekli çalışan bir arka plan gürültüsüne dönüşürler.",
+              "Saule’nin çıkış noktası tam olarak burasıdır: İnsanların daha fazla baskıya değil, daha fazla berraklığa ihtiyacı vardır."
+            ]
+          },
+          {
+            "heading": "2. Modern Paradoks",
+            "paragraphs": [
+              "Tarih boyunca insan hiç bu kadar çok araca sahip olmamıştı.",
+              "Takvimlerimiz var. Hatırlatıcılarımız var. Not uygulamalarımız var. Görev listelerimiz var. E-posta kutularımız var. Mesajlaşma uygulamalarımız var. Arama motorlarımız var. Yapay zekâ asistanlarımız var. Bulut depolarımız, dijital defterlerimiz, proje panolarımız, uygulama içi bildirimlerimiz ve sonsuz bilgiye erişimimiz var.",
+              "Buna rağmen birçok insan kendini daha net değil, daha parçalanmış hissediyor.",
+              "Çünkü her yeni araç yalnızca bir çözüm getirmiyor; aynı zamanda yeni bir bakım alanı yaratıyor. Takvim güncellenmelidir. Görev listesi temizlenmelidir. Notlar düzenlenmelidir. Mesajlara dönülmelidir. E-postalar ayıklanmalıdır. Hatırlatıcılar ertelenmelidir. Uygulamalar kontrol edilmelidir.",
+              "Modern hayatın paradoksu şudur: Hayatı kolaylaştırmak için üretilen araçlar, zamanla hayatın kendisi kadar yönetilmesi gereken ek sistemlere dönüşebilir.",
+              "İnsan artık sadece hayatını yaşamaz. Hayatını yönetmek için kurduğu sistemleri de yönetmek zorunda kalır.",
+              "Bu yüzden “daha fazla araç” her zaman “daha fazla netlik” anlamına gelmez. Bazen daha fazla araç, zihnin tutulması gereken daha fazla yer edinmesi demektir."
+            ]
+          },
+          {
+            "heading": "3. Görünmeyen Yük",
+            "paragraphs": [
+              "Bunalmanın en yorucu taraflarından biri, çoğu zaman görünmez olmasıdır.",
+              "Bir insanın omuzlarında çanta yoktur. Elinde ağır bir yük yoktur. Dışarıdan bakıldığında oturuyor, telefona bakıyor, kahve içiyor veya hiçbir şey yapmıyor gibi görünebilir.",
+              "Ama zihinsel yük bedensel yük gibi görünmez.",
+              "Hatırlanması gerekenleri hatırlamak bir yüktür. Kime dönüleceğini bilmek bir yüktür. Hangi kararın ertelendiğini bilmek bir yüktür. Verilmiş sözleri taşımak bir yüktür. Kendi potansiyelinin altında yaşadığını hissetmek bir yüktür. Bir hedefe yaklaşmadığını bilmek bir yüktür. Bir ilişkinin ilgi beklediğini hissetmek bir yüktür.",
+              "Bu yükler genellikle tek bir yerde yazılı değildir. Bir kısmı takvimdedir. Bir kısmı WhatsApp’tadır. Bir kısmı e-postadadır. Bir kısmı notlardadır. Bir kısmı zihindedir. Bir kısmı bedende sıkışmış bir huzursuzluk olarak yaşar.",
+              "Bu nedenle modern insan çoğu zaman neyin kendisini yorduğunu bile net göremez. Sadece yorgundur. Sadece dağınıktır. Sadece başlayamıyordur. Sadece bir şeylerin üst üste bindiğini hissediyordur.",
+              "Burada önemli olan şudur: Bu durum karakter zayıflığı değildir. Bu, biriken bilişsel ve duygusal yükün sonucudur.",
+              "Saule’nin insanı anlamaya çalışırken çıkış noktası yargılamak değil, bu görünmeyen yükü görünür hale getirmektir."
+            ]
+          },
+          {
+            "heading": "4. Bilgi Netlik Değildir",
+            "paragraphs": [
+              "Modern dünyanın en büyük yanılgılarından biri, daha fazla bilgiye erişimin otomatik olarak daha fazla netlik yaratacağı fikridir.",
+              "Bir sorunun cevabını bulmak artık çoğu zaman saniyeler sürer. Bir konuda makale okunabilir, video izlenebilir, yapay zekâya sorulabilir, özet çıkarılabilir, liste alınabilir. Fakat insan doğru cevaba sahip olduğu halde hâlâ harekete geçemeyebilir.",
+              "Çünkü netlik yalnızca bilgi değildir.",
+              "Netlik; bağlam, öncelik, zamanlama, duygusal hazırlık ve devamlılık gerektirir.",
+              "Bir insan ne yapması gerektiğini bilebilir ama hangi sırayla yapacağını bilemeyebilir. Hangi işin gerçekten önemli olduğunu anlayamayabilir. O işe başlamaya duygusal olarak hazır olmayabilir. Günün enerjisi buna uygun olmayabilir. Daha önce aynı konuda başarısız olduğu için direnç hissedebilir. Ya da hayatındaki diğer açık döngüler bu işe yer açmasını engelleyebilir.",
+              "Bazen sorun “ne yapacağımı bilmiyorum” değildir.",
+              "Sorun şudur: Hayatımı yeterince net tutamıyorum ki bildiğim şeyi yapabileyim.",
+              "Bu nedenle Saule yalnızca cevap veren bir sistem olarak tasarlanamaz. Çünkü insanın her zaman yeni bir cevaba ihtiyacı yoktur. Bazen ihtiyacı olan şey, zaten bildiği cevabı kendi hayatının gerçekliği içinde yeniden görebilmektir.",
+              "ChatGPT bir soruya cevap verebilir. Bir arama motoru bilgi bulabilir. Bir görev uygulaması liste tutabilir. Fakat Saule’nin asıl amacı bunların ötesinde olmalıdır: kullanıcının hayat bağlamını zaman içinde anlayarak, neyin gerçekten önemli olduğunu birlikte netleştirmek."
+            ]
+          },
+          {
+            "heading": "5. Açık Döngülerin Duygusal Ağırlığı",
+            "paragraphs": [
+              "Açık döngüler yalnızca tamamlanmamış işler değildir. Çoğu zaman duygusal nesnelerdir.",
+              "Yanıtlanmamış bir mesaj sadece bir mesaj değildir. İçinde mahcubiyet, kaçınma, belirsizlik veya ilişki kaygısı taşıyabilir.",
+              "Gönderilmemiş bir iş başvurusu sadece bir görev değildir. İçinde gelecek endişesi, reddedilme korkusu veya kendini yeterli görememe hissi olabilir.",
+              "Ertelenmiş bir sağlık alışkanlığı sadece bir alışkanlık değildir. İçinde suçluluk, yorgunluk veya kişinin kendine verdiği sözleri tutamama duygusu olabilir.",
+              "Zor bir konuşmanın ertelenmesi sadece zamanlama meselesi değildir. İçinde çatışma korkusu, kaybetme ihtimali veya ifade edilememiş ihtiyaçlar olabilir.",
+              "Bu yüzden açık döngüler zihnin arka planında yaşamaya devam eder. İnsan başka bir şey yaparken bile onlar tamamen kaybolmaz. Bir dosya gibi kapanmazlar. Aksine, sessizce dikkat tüketirler.",
+              "Modern bunalmanın önemli bir kısmı, tamamlanmamış işlerin sayısından değil, bu işlerin taşıdığı duygusal anlamlardan gelir.",
+              "Bu nedenle iyi bir kişisel zekâ sistemi yalnızca “ne yapılacak?” sorusunu sormamalıdır. Şunu da anlamaya çalışmalıdır:",
+              "Bu görev neden ertelendi? Bu konuşma neden zor geliyor? Bu hedef neden önemli olduğu halde sürekli geriye düşüyor? Bu kişi ne zaman baskıya, ne zaman desteğe ihtiyaç duyuyor?",
+              "Saule’nin farkı burada başlamalıdır. İnsan davranışını yalnızca görev tamamlama oranı olarak değil, yaşam bağlamı içinde anlamaya çalışmalıdır."
+            ]
+          },
+          {
+            "heading": "6. Daha Fazla Araç Neden Bazen Daha Kötü Hissettirir?",
+            "paragraphs": [
+              "Üretkenlik araçlarının çoğu iyi niyetle tasarlanır. Daha düzenli olmayı, daha planlı yaşamayı, işleri takip etmeyi ve zamanı daha iyi kullanmayı vaat ederler.",
+              "Fakat bu araçların çoğu kullanıcıdan önce düzenli olmasını bekler.",
+              "Görev uygulamasının işe yaraması için görevlerin doğru yazılması gerekir. Takvimin işe yaraması için zaman bloklarının gerçekçi girilmesi gerekir. Not uygulamasının işe yaraması için notların düzenli tutulması gerekir. Hatırlatıcıların işe yaraması için kullanıcının neyi, ne zaman ve neden hatırlamak istediğini önceden bilmesi gerekir.",
+              "Bu büyük bir paradoks yaratır:",
+              "En çok yardıma ihtiyacı olan kişi, çoğu zaman sistemi en az sürdürebilecek enerjiye sahip kişidir.",
+              "Bir süre sonra görev listeleri niyet mezarlığına dönüşür. Takvimler doludur ama anlamlı değildir. Notlar bilgi depolar ama anlayış üretmez. Hatırlatıcılar yardımcı olmak yerine gürültü yaratır. Panolar, dashboard’lar ve takip ekranları insanın takip etmesi gereken yeni nesnelere dönüşür.",
+              "Sonuçta kişi yalnızca hayatını değil, hayatını düzenlemek için kurduğu sistemleri de ihmal ettiği için kendini suçlamaya başlar.",
+              "Bu nedenle Saule başka bir dashboard olmamalıdır. Kullanıcıya “beni de düzenli kullan” diyen yeni bir yük haline gelmemelidir.",
+              "Saule’nin temel tasarım sorusu şudur: Bir sistem, kullanıcının bakımını gerektirmeden kullanıcıya nasıl bakım sağlayabilir?"
+            ]
+          },
+          {
+            "heading": "7. Saule Perspektifi",
+            "paragraphs": [
+              "Saule, insanın daha fazla baskıya ihtiyacı olduğu varsayımıyla başlamaz.",
+              "Saule’nin çıkış noktası şudur: İnsan çoğu zaman ne yapması gerektiğini bilir. Fakat zihinsel dağınıklık, duygusal yük, bağlam kaybı ve dikkat parçalanması nedeniyle bildiği şeyi hayata geçiremez.",
+              "Bu nedenle Saule’nin ilk görevi emir vermek değildir. Liste üretmek değildir. Kullanıcıyı daha fazla üretken olmaya zorlamak değildir.",
+              "İlk görevi netlik oluşturmaktır.",
+              "Saule yalnızca şunu sormamalıdır:",
+              "“Bugün ne yapmak istiyorsun?”",
+              "Zamanla şunu anlayabilmelidir:",
+              "“Bugün bu kişi için nasıl bir gün gerçekten mümkün?”",
+              "Bu soru, klasik üretkenlik araçlarından çok farklıdır. Çünkü herkesin her gün aynı kapasitede yaşamadığını kabul eder. Bazı günler yüksek enerji vardır. Bazı günler yorgunluk vardır. Bazı günler kaygı daha yüksektir. Bazı günler kişi dış dünyaya açıkken bazı günler yalnızca küçük bir adım atabilir.",
+              "Saule’nin amacı insanı sonsuz üretken hale getirmek değildir.",
+              "Saule’nin amacı insanın kendini daha net görmesine, gününü daha gerçekçi düzenlemesine, ilişkilerini daha bilinçli yönetmesine ve hayatında tekrar eden örüntüleri zamanla fark etmesine yardımcı olmaktır.",
+              "Saule cevap vermeden önce anlamaya çalışmalıdır. Hatırlatmadan önce bağlamı görmelidir. Öneri sunmadan önce kişinin o günkü kapasitesini dikkate almalıdır.",
+              "En önemlisi, Saule kullanıcıyı kendisine bağımlı hale getirmeye değil, kullanıcının kendi hayatını daha açık görmesine hizmet etmelidir."
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Saule bilişsel yükü azaltmalıdır, artırmamalıdır. Kullanıcı uygulamayı açtığında karşısına yeni bir karmaşa çıkmamalıdır.",
+          "Saule başka bir bakım gerektiren sistem olmamalıdır. Sistem, kullanıcının doğal konuşmalarından ve izin verdiği bağlamlardan öğrenebilmelidir.",
+          "Saule eksik günleri yargılamamalıdır. İnsanlar her gün hedeflerini tamamlamaz. Bu başarısızlık olarak değil, veri olarak görülmelidir.",
+          "Saule üretkenliği değil, netliği önceliklendirmelidir. Bazı günler en doğru karar daha az yapmak, toparlanmak veya yalnızca zihni sadeleştirmektir.",
+          "Saule zamanla örüntüleri öğrenmelidir. Kullanıcının hangi saatlerde daha iyi odaklandığını, hangi görevlerden kaçındığını açık izinle anlamaya çalışmalıdır.",
+          "Saule insan iradesinin yerine geçmemelidir. Kararları kullanıcı adına almamalı, kullanıcının daha iyi karar verebilmesi için düşünce alanı açmalıdır.",
+          "Saule bazen susmayı bilmelidir. Her bağlam müdahale gerektirmez. Dikkati korumak bazen bildirim göndermemek demektir."
+        ],
+        "open_questions": [
+          {
+            "id": "q1",
+            "question": "Yazılım hangi tür bunalmalara sorumlu biçimde yardımcı olabilir?",
+            "status": "open",
+            "answerSummary": "",
+            "answeredInChapters": [
+              "Bölüm 23 — Etik",
+              "Bölüm 28 — Koçluk Motoru"
+            ],
+            "relatedChapters": [],
+            "decisionArea": "Sorumlu Destek Sınırları",
+            "designDecisionId": "",
+            "notes": ""
+          },
+          {
+            "id": "q2",
+            "question": "Destek ne zaman aşırı müdahaleye dönüşür?",
+            "status": "open",
+            "answerSummary": "",
+            "answeredInChapters": [
+              "Bölüm 23 — Etik",
+              "Bölüm 24 — İrade",
+              "Bölüm 28 — Koçluk Motoru"
+            ],
+            "relatedChapters": [],
+            "decisionArea": "Müdahale Sınırları",
+            "designDecisionId": "",
+            "notes": ""
+          },
+          {
+            "id": "q3",
+            "question": "Saule ne kadar hatırlamalıdır?",
+            "status": "open",
+            "answerSummary": "",
+            "answeredInChapters": [
+              "Bölüm 22 — Unutma",
+              "Bölüm 25 — Uyarlanabilir Bellek",
+              "Bölüm 37 — Gizlilik"
+            ],
+            "relatedChapters": [],
+            "decisionArea": "Hafıza Politikası",
+            "designDecisionId": "",
+            "notes": ""
+          },
+          {
+            "id": "q4",
+            "question": "Saule hangi bilgileri hiç tutmamalıdır?",
+            "status": "open",
+            "answerSummary": "",
+            "answeredInChapters": [
+              "Bölüm 37 — Gizlilik",
+              "Bölüm 38 — Güvenlik"
+            ],
+            "relatedChapters": [],
+            "decisionArea": "Hassas Veri Politikası",
+            "designDecisionId": "",
+            "notes": ""
+          },
+          {
+            "id": "q5",
+            "question": "Saule ne zaman araya girmeli, ne zaman sessiz kalmalıdır?",
+            "status": "open",
+            "answerSummary": "",
+            "answeredInChapters": [
+              "Bölüm 32 — Telefon Bağlamı",
+              "Bölüm 33 — Ses",
+              "Bölüm 31 — Planlama Zekası"
+            ],
+            "relatedChapters": [],
+            "decisionArea": "Bildirim ve Araya Girme Politikası",
+            "designDecisionId": "",
+            "notes": ""
+          },
+          {
+            "id": "q6",
+            "question": "Saule, bağımlılık yaratmadan nasıl yardımcı olabilir?",
+            "status": "open",
+            "answerSummary": "",
+            "answeredInChapters": [
+              "Bölüm 20 — Güven",
+              "Bölüm 24 — İrade",
+              "Bölüm 28 — Koçluk Motoru"
+            ],
+            "relatedChapters": [],
+            "decisionArea": "Kullanıcı Bağımsızlığı",
+            "designDecisionId": "",
+            "notes": ""
+          },
+          {
+            "id": "q7",
+            "question": "Saule, terapi iddiası taşımadan yansıtmayı (tefekkür) nasıl destekleyebilir?",
+            "status": "open",
+            "answerSummary": "",
+            "answeredInChapters": [
+              "Bölüm 23 — Etik",
+              "Bölüm 27 — Yansıtma Motoru",
+              "Bölüm 28 — Koçluk Motoru"
+            ],
+            "relatedChapters": [],
+            "decisionArea": "Terapi Dışı Destek Sınırı",
+            "designDecisionId": "",
+            "notes": ""
+          },
+          {
+            "id": "q8",
+            "question": "Saule, insanlığı sayılara indirgemeden insani zorlukları veri olarak nasıl kullanabilir?",
+            "status": "open",
+            "answerSummary": "",
+            "answeredInChapters": [
+              "Bölüm 18 — İnsan Öncelikli Yapay Zeka",
+              "Bölüm 19 — Uyarlanabilir Zeka",
+              "Bölüm 25 — Uyarlanabilir Bellek"
+            ],
+            "relatedChapters": [],
+            "decisionArea": "İnsan Merkezli Veri Kullanımı",
+            "designDecisionId": "",
+            "notes": ""
+          }
+        ],
+        "future_evolution": "Bu bölüm ileride araştırmalarla genişletilecektir. Şimdilik kaynak alanı açık tutulmaktadır.",
+        "references": [
+          "Bilişsel yük teorisi",
+          "Yürütücü işlev araştırmaları",
+          "Dikkat ekonomisi literatürü",
+          "Dijital dikkat dağınıklığı çalışmaları",
+          "Davranış tasarımı",
+          "Alışkanlık oluşumu araştırmaları",
+          "Üretkenlik sistemleri üzerine eleştiriler",
+          "Gabor Maté’nin dikkat, stres ve insan gelişimi üzerine yazıları",
+          "Modern çalışma hayatı ve bağlam değiştirme maliyeti üzerine araştırmalar"
+        ]
+      }
+    },
+    "mental-clutter": {
+      "title": "Zihinsel Dağınıklık",
+      "purpose": "Çözümlenmemiş düşüncelerin ve mikro görevlerin niteliğini ve bilişsel maliyetini tanımlamak.",
+      "key_question": "Biriken zihinsel enkaz, günlük karar verme kalitesini nasıl düşürür?"
+    },
+    "the-attention-crisis": {
+      "title": "Dikkat Krizi",
+      "purpose": "Dikkatin ele geçirilmesinin nörokimyasını ve reaktif döngülerin odağı nasıl yıprattığını incelemek.",
+      "key_question": "İlgi sömürüsüne dayalı sistemler beynin varsayılan mod ağını (DMN) nasıl bozar?"
+    },
+    "open-loops": {
+      "title": "Açık Döngüler",
+      "purpose": "Kişisel görev yönetiminde Zeigarnik etkisini ve yarım kalmış işlerin yarattığı kaygıyı incelemek.",
+      "key_question": "Tamamlanmamış taahhütler neden bilinçaltında sürekli bir stres tetikler?"
+    },
+    "executive-function": {
+      "title": "Yürütücü İşlevler",
+      "purpose": "Bilişsel yük sınırlarını, çalışan bellek kapasitesini ve irade tükenme mekanizmalarını haritalandırmak.",
+      "key_question": "Zihin sürekli aşırı yüklendiğinde yürütücü kontrol mekanizmalarına ne olur?"
+    },
+    "why-existing-productivity-systems-fail": {
+      "title": "Mevcut Üretkenlik Sistemleri Neden Başarısız Oluyor",
+      "purpose": "Geleneksel takvimlerin, yapılacaklar listelerinin ve CRM'lerin neden soğuk, katı hissettirdiğini ve nihayetinde çöktüğünü analiz etmek.",
+      "key_question": "Hayatı düzenlemek için tasarlanan araçlar neden sıklıkla ek stres kaynağına dönüşür?"
+    },
+    "cost-of-constant-context-switching": {
+      "title": "Sürekli Odak Değiştirmenin Bilişsel Maliyeti",
+      "purpose": "Dijital çoklu görevlerle (multitasking) ilişkili bilişsel kaybı ve odak tükenmesini hesaplamak.",
+      "key_question": "Bir saat içinde alakasız yaşam alanları arasında sürekli geçiş yapmanın gerçek bedeli nedir?"
+    },
+    "memory": {
+      "title": "Bellek",
+      "purpose": "İnsan belleğinin ayrıntıları nasıl pekiştirdiğini, anlamlandırdığını ve hatırlamayı nasıl tetiklediğini incelemek.",
+      "key_question": "İnsan beyni kişisel deneyimleri nasıl endeksler ve teknoloji bunu onun yerini almadan nasıl destekleyebilir?"
+    },
+    "identity": {
+      "title": "Kimlik",
+      "purpose": "Anlatısal benliği, benlik kavramı tutarlılığını ve zaman içindeki kişisel gelişimi keşfetmek.",
+      "key_question": "Kendimize dair anlatımız nasıl değişir ve bir zeka, bir kişinin otantik kimliğini nasıl yansıtabilir?"
+    },
+    "emotions": {
+      "title": "Duygular",
+      "purpose": "Duygusal durumlar, bilişsel berraklık ve mekansal düzen arasındaki etkileşimi analiz etmek.",
+      "key_question": "Duygu değişimleri günlük planlamayı nasıl etkiler ve bir arayüz duygusal duruma göre nasıl ayarlanmalıdır?"
+    },
+    "motivation": {
+      "title": "Motivasyon",
+      "purpose": "İçsel ve dışsal tetikleyicileri, enerji seviyelerini ve dopamin döngüsü mekaniğini çözümlemek.",
+      "key_question": "Motivasyon neden dalgalanır ve bir arayüz manipülasyon yapmadan istikrarı nasıl destekleyebilir?"
+    },
+    "habits": {
+      "title": "Alışkanlıklar",
+      "purpose": "Davranışsal otomatikleşmenin ve alışkanlık oluşumunun işaret-rutin-ödül döngülerini haritalandırmak.",
+      "key_question": "Olumlu alışkanlıklar nasıl pekiştirilir ve çevresel geri bildirimler bunları nasıl yönlendirir?"
+    },
+    "decision-making": {
+      "title": "Karar Verme",
+      "purpose": "Günlük yaşamda tercih mimarisini, bilişsel önyargıları ve tercih yorgunluğunu belirlemek.",
+      "key_question": "Günlük işleri organize ederken karar yorgunluğu nasıl azaltılabilir?"
+    },
+    "relationships": {
+      "title": "İlişkiler",
+      "purpose": "Sosyal bağ yapılarını, aktif dinlemeyi ve ilişkisel bağlam haritalandırmasını anlamak.",
+      "key_question": "Teknoloji, ilişkileri metalaştırmadan sosyal bağlamı nasıl koruyabilir?"
+    },
+    "reflection": {
+      "title": "Yansıtma",
+      "purpose": "Planlı iç gözlemin, günlük tutmanın ve sessiz duraklamaların zihinsel sağlıktaki rolünü araştırmak.",
+      "key_question": "Bilişsel dengelenme için düzenli ve yargısız yansıtma (tefekkür) neden gereklidir?"
+    },
+    "meaning": {
+      "title": "Anlam",
+      "purpose": "Günlük eylemlerde temel değerleri, uyum ölçütlerini ve anlam arayışını tanımlamak.",
+      "key_question": "Uyarlanabilir bir sistem, kullanıcının temel değerleriyle hizalanan eylemleri belirlemesine ve önceliklendirmesine nasıl yardımcı olabilir?"
+    },
+    "why-saule-exists": {
+      "title": "Saule Neden Var",
+      "purpose": "Saule'nin inşasına rehberlik eden misyonu, değerleri ve temel ilkeleri açıklamak.",
+      "key_question": "Saule neden var olmalı ve teknoloji ekosistemindeki hangi boşluğu dolduruyor?"
+    },
+    "human-first-ai": {
+      "title": "İnsan Öncelikli Yapay Zeka",
+      "purpose": "İnsan öncelikli tasarımı, etkileşimi ve görevleri maksimuma çıkarmaya çalışan yapay zeka modelleriyle karşılaştırmak.",
+      "key_question": "Yapay zeka, kurumsal veri yakalama yerine insani iradeye nasıl hizmet edebilir?"
+    },
+    "adaptive-intelligence": {
+      "title": "Uyarlanabilir Zeka",
+      "purpose": "Kullanıcıyı kurallara uymaya zorlamak yerine, kendini insan zihnine göre şekillendiren yazılım çerçevesini oluşturmak.",
+      "key_question": "Bireysel psikolojiye uyum sağlamak için büyüyen ve esneyen yazılımların modeli nedir?"
+    },
+    "trust": {
+      "title": "Güven",
+      "purpose": "Güven mekanizmalarını, doğrulama protokollerini ve egemen güvenlik sınırlarını analiz etmek.",
+      "key_question": "Kullanıcının mutlak güvenini nasıl kazanır ve koruruz?"
+    },
+    "learning": {
+      "title": "Öğrenme",
+      "purpose": "İzinli kullanıcı profili gelişiminin ve tercih edinimi sınırlarını tanımlamak.",
+      "key_question": "Saule, istilacı profilleme yapmadan kullanıcı hakkında nasıl bilgi edinir?"
+    },
+    "forgetting": {
+      "title": "Unutma",
+      "purpose": "Dijital unutma hakkını, bellek budamayı ve temizleme protokollerini tanıtmak.",
+      "key_question": "Kişisel bir bellek sisteminde unutmak neden hatırlamak kadar önemlidir?"
+    },
+    "ethics": {
+      "title": "Etik",
+      "purpose": "Ruh sağlığı iddiaları, terapi ve kullanıcı manipülasyonu konusunda katı sınırlar belirlemek.",
+      "key_question": "Yaşam odaklı uyarlanabilir bir zeka tarafından hangi etik kırmızı çizgiler asla geçilmemelidir?"
+    },
+    "human-agency": {
+      "title": "İrade",
+      "purpose": "Seçimleri otomatikleştirmek yerine karar verme özgürlüğünü koruyan arayüzler tasarlamak.",
+      "key_question": "Kullanıcının iradesini zayıflatmadan, organizasyona nasıl destek oluruz?"
+    },
+    "adaptive-memory": {
+      "title": "Uyarlanabilir Bellek",
+      "purpose": "Özel, ilişkili bir anlamsal bellek grafiğinin kavramsal katmanını çizmek.",
+      "key_question": "Saule, gerektiğinde bilgiyi doğal olarak hatırlamak için kullanıcı bağlamını nasıl modeller?"
+    },
+    "context-engine": {
+      "title": "Bağlam Motoru",
+      "purpose": "Takvim, zaman, öncelik ve enerjiye dayalı dinamik durum analizini tasarlamak.",
+      "key_question": "Saule, kullanıcının o anki durumunu ve neyin önemli olduğunu nasıl anlar?"
+    },
+    "reflection-engine": {
+      "title": "Yansıtma Motoru",
+      "purpose": "İç gözlemi ve örüntü tanımayı davet eden diyalog yönlendirmeleri oluşturmak.",
+      "key_question": "Sıradan yanıtlar yerine gerçek bir tefekküre yol açan soruları nasıl sorarız?"
+    },
+    "coaching-engine": {
+      "title": "Koçluk Motoru",
+      "purpose": "Hedef çözümü için yönlendirici olmayan, destekleyici koçluk metodolojilerini belirlemek.",
+      "key_question": "Kullanıcıya kurallar dayatmadan kendi çözümlerine ulaşmasını nasıl sağlarız?"
+    },
+    "career-intelligence": {
+      "title": "Kariyer Zekası",
+      "purpose": "Görevleri hedeflerle eşleştirme ve profesyonel gelişim yönünü belirleme.",
+      "key_question": "Saule, günlük eylemlerin uzun vadeli mesleki hedeflerle hizalanmasına nasıl yardımcı olur?"
+    },
+    "relationship-intelligence": {
+      "title": "İlişki Zekası",
+      "purpose": "Sosyal çevre, aile güncellemeleri ve paylaşılan ortak konular için bağlam korumayı yapılandırmak.",
+      "key_question": "Saule, ilişkileri mekanikleştirmeden sosyal bağı nasıl destekleyebilir?"
+    },
+    "planning-intelligence": {
+      "title": "Planlama Zekası",
+      "purpose": "Saat dilimlerine göre değil, enerji eğrilerine ve odak tamponlarına göre program oluşturmak.",
+      "key_question": "Planlama, saatlere göre değil de mevcut enerji seviyelerine göre nasıl uyarlanabilir?"
+    },
+    "phone-context": {
+      "title": "Telefon Bağlamı",
+      "purpose": "Kullanıcıları dikkat dağıtıcı döngülerden uzaklaştırmak için cihaz kullanım ipuçlarını entegre etmek.",
+      "key_question": "Saule dikkati korumak için telefon ortamıyla nasıl etkileşime girmelidir?"
+    },
+    "voice": {
+      "title": "Ses",
+      "purpose": "Sesli yansıtmanın akustiğini, dil ritmini ve hızını keşfetmek.",
+      "key_question": "Sesli etkileşim yansıtma dinamiklerini nasıl değiştirir ve bunun tonu nasıl olmalıdır?"
+    },
+    "native-intelligence": {
+      "title": "Saule’nin Kendi Zekası",
+      "purpose": "Özel eğitilmiş, yerel olarak yürütülen uyarlanabilir modellerin kapsamını belirlemek.",
+      "key_question": "Yerel çalışma, gizliliği korurken uyarlanabilir değeri nasıl artırabilir?"
+    },
+    "ai-architecture": {
+      "title": "Yapay Zeka Mimarisi",
+      "purpose": "Anlamsal grafikleri dil modellerinin (LLM) üretim motorlarından ayıran sınırı belirlemek.",
+      "key_question": "Özel bellek bağlamını sızdırmadan dil modellerini işlem birimi olarak nasıl kullanırız?"
+    },
+    "engineering-principles": {
+      "title": "Mühendislik İlkeleri",
+      "purpose": "Hız, çevrimdışı çalışma ve kriptografik güvenlik gereksinimlerini listelemek.",
+      "key_question": "Bağımsız bilişsel bir yoldaş inşa etmek için hangi kod paradigması gereklidir?"
+    },
+    "privacy": {
+      "title": "Gizlilik",
+      "purpose": "Kullanıcı bağlam grafikleri için uçtan uca şifreleme şemalarını tanımlamak.",
+      "key_question": "Kullanıcının verilerini kendisinden başka kimsenin göremeyeceğini matematiksel olarak nasıl garanti ederiz?"
+    },
+    "security": {
+      "title": "Güvenlik",
+      "purpose": "Yerel cihaz korumasını, bulut eşitleme önlemlerini ve kimlik doğrulama parametrelerini haritalandırmak.",
+      "key_question": "Yerel çalışma zamanını düşmanca veri çıkarma girişimlerine karşı nasıl güvenceye alırız?"
+    },
+    "business-model": {
+      "title": "İş Modeli",
+      "purpose": "Sürdürülebilir aboneliği, sıfır reklam taahhüdünü ve kullanıcı odaklı gelir üretimini detaylandırmak.",
+      "key_question": "Kullanıcı verilerinden veya dikkatinden asla taviz vermeden nasıl gelir elde ederiz?"
+    },
+    "development-phases": {
+      "title": "Geliştirme Aşamaları",
+      "purpose": "Bu Yaşayan Kitap'tan mobil MVP'ye ve tam entegrasyona giden süreci ana hatlarıyla çizmek.",
+      "key_question": "Teorik tasarımdan çalışan bir sisteme giden disiplinli kilometre taşları nelerdir?"
+    },
+    "research-methodology": {
+      "title": "Araştırma Metodolojisi",
+      "purpose": "Bilimsel doğrulama, deneme tasarımı ve güven derecelendirmesi için kriterler belirlemek.",
+      "key_question": "Saule'nin bilişsel berraklığı gerçekten artırıp artırmadığını nasıl ölçeriz?"
+    },
+    "building-saule": {
+      "title": "Saule'yi İnşa Etmek",
+      "purpose": "Geliştirme sürümlerini, alfa kullanıcı döngülerini ve topluluk kod entegrasyonlarını detaylandırmak.",
+      "key_question": "Gizlilik sınırlarını koruyarak bu sistemi açık alanda nasıl inşa edebiliriz?"
+    }
+  }
+}
