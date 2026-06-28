@@ -13,12 +13,28 @@ export interface ChapterMetadata {
   researchConfidence: 'High' | 'Medium' | 'Experimental';
 }
 
+export interface AppendixMetadata {
+  slug: string;
+  appendixNumber: number;
+  volumeId: number;
+  status: 'Researching' | 'Drafting' | 'Reviewing' | 'Locked' | 'Deprecated';
+  readingTime: string;
+  version: string;
+  lastUpdated: string;
+  purposeKey: string;
+  keyQuestionKey: string;
+  dependencies: string[];
+  relatedChapters: string[];
+  researchConfidence: 'High' | 'Medium' | 'Experimental';
+}
+
 export interface Volume {
   id: number;
   romanId: string;
   titleKey: string; // Translation key (e.g. "volumes.v1.title")
   purposeKey: string; // Translation key (e.g. "volumes.v1.purpose")
   chapters: ChapterMetadata[];
+  appendices?: AppendixMetadata[];
 }
 
 export const volumes: Volume[] = [
@@ -125,6 +141,30 @@ export const volumes: Volume[] = [
         dependencies: ['mental-clutter', 'the-attention-crisis', 'open-loops', 'escape-loops-and-addictions', 'cost-of-constant-context-switching'],
         relatedChapters: ['escape-loops-and-addictions', 'cost-of-constant-context-switching'],
         researchConfidence: 'High',
+      },
+    ],
+    appendices: [
+      {
+        slug: 'volume-1-appendix-1-lonely-optimization',
+        appendixNumber: 1,
+        volumeId: 1,
+        status: 'Drafting',
+        readingTime: '10 min',
+        version: '0.1',
+        lastUpdated: '2026-06-28',
+        purposeKey: 'appendices.volume-1-appendix-1-lonely-optimization.purpose',
+        keyQuestionKey: 'appendices.volume-1-appendix-1-lonely-optimization.key_question',
+        dependencies: [
+          'mental-clutter',
+          'the-attention-crisis',
+          'open-loops',
+          'escape-loops-and-addictions',
+          'cost-of-constant-context-switching',
+          'why-existing-productivity-systems-fail',
+          'memory'
+        ],
+        relatedChapters: [],
+        researchConfidence: 'Medium',
       },
     ],
   },
@@ -259,6 +299,22 @@ export const volumes: Volume[] = [
         dependencies: ['reflection'],
         relatedChapters: ['reflection', 'identity'],
         researchConfidence: 'Experimental',
+      },
+    ],
+    appendices: [
+      {
+        slug: 'volume-2-appendix-1-body-energy-and-capacity',
+        appendixNumber: 1,
+        volumeId: 2,
+        status: 'Drafting',
+        readingTime: '9 min',
+        version: '0.1',
+        lastUpdated: '2026-06-28',
+        purposeKey: 'appendices.volume-2-appendix-1-body-energy-and-capacity.purpose',
+        keyQuestionKey: 'appendices.volume-2-appendix-1-body-energy-and-capacity.key_question',
+        dependencies: ['emotions', 'motivation', 'habits', 'decision-making', 'reflection'],
+        relatedChapters: ['memory', 'emotions', 'motivation'],
+        researchConfidence: 'Medium',
       },
     ],
   },
@@ -652,6 +708,58 @@ export const volumes: Volume[] = [
   },
 ];
 
+// Enrich volumes with dynamic research appendices (stable slugs, dynamic computed numbers)
+volumes.forEach((vol) => {
+  if (!vol.appendices) {
+    vol.appendices = [];
+  }
+  const staticCount = vol.appendices.length;
+  vol.appendices.push(
+    {
+      slug: `volume-${vol.id}-open-questions`,
+      appendixNumber: staticCount + 1,
+      volumeId: vol.id,
+      status: 'Drafting',
+      readingTime: '5 min',
+      version: '0.1',
+      lastUpdated: '2026-06-28',
+      purposeKey: '',
+      keyQuestionKey: '',
+      dependencies: [],
+      relatedChapters: [],
+      researchConfidence: 'High',
+    },
+    {
+      slug: `volume-${vol.id}-design-decisions`,
+      appendixNumber: staticCount + 2,
+      volumeId: vol.id,
+      status: 'Drafting',
+      readingTime: '5 min',
+      version: '0.1',
+      lastUpdated: '2026-06-28',
+      purposeKey: '',
+      keyQuestionKey: '',
+      dependencies: [],
+      relatedChapters: [],
+      researchConfidence: 'High',
+    },
+    {
+      slug: `volume-${vol.id}-references`,
+      appendixNumber: staticCount + 3,
+      volumeId: vol.id,
+      status: 'Drafting',
+      readingTime: '5 min',
+      version: '0.1',
+      lastUpdated: '2026-06-28',
+      purposeKey: '',
+      keyQuestionKey: '',
+      dependencies: [],
+      relatedChapters: [],
+      researchConfidence: 'High',
+    }
+  );
+});
+
 export function getAllChapters(): ChapterMetadata[] {
   return volumes.flatMap((v) => v.chapters);
 }
@@ -662,6 +770,18 @@ export function getChapterBySlug(slug: string): ChapterMetadata | undefined {
 
 export function getVolumeByChapterSlug(slug: string): Volume | undefined {
   return volumes.find((v) => v.chapters.some((c) => c.slug === slug));
+}
+
+export function getAllAppendices(): AppendixMetadata[] {
+  return volumes.flatMap((v) => v.appendices || []);
+}
+
+export function getAppendixBySlug(slug: string): AppendixMetadata | undefined {
+  return getAllAppendices().find((a) => a.slug === slug);
+}
+
+export function getVolumeByAppendixSlug(slug: string): Volume | undefined {
+  return volumes.find((v) => (v.appendices || []).some((a) => a.slug === slug));
 }
 
 const allChapters = getAllChapters();

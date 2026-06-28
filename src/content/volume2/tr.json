@@ -28,28 +28,29 @@
             "heading": "4. Bağlam Belleğe Şekil Verir",
             "paragraphs": [
               "Bağlamı olmayan bir hatırlama yanıltıcı olabilir. Bir not, bir söz ya da bir plan yaşadığı hayat değişmişken tek başına kalabilir.",
-              "Saule yalnızca öğeleri değil, öğeler arasındaki ilişkileri de hatırlamalıdır. Kim, ne zaman, neden ve hangi koşullarda soruları belleği yararlı kılar."
+              "Saule yalnızca öğeleri değil, öğeler arasındaki ilişkileri de hatırlamalıdır. Kim, ne zaman, neden ve hangi koşullarda soruları belleği yararlı kılar. Bir hatırlama mümkün olduğunca kaynağını, dayandığı konuşmayı, notu, kararı ya da davranış örüntüsünü birlikte taşımalıdır."
             ]
           },
           {
             "heading": "5. Bellek ve Güven",
             "paragraphs": [
               "İnsan dış bir belleğe güvenmediğinde iç tekrarına geri döner. Hatırlatmalar kötü gelirse, kayıtlar gürültüye dönüşürse ya da geri çağırma rastgele hissedilirse zihin yine her şeyi kendi taşır.",
-              "Güvenilir bellek desteği tekrar provasını azaltır. Sadece kayıt tutmaz; önemli olanın güvenle bırakılıp sonra geri bulunabileceğine dair güveni onarır."
+              "Güvenilir bellek desteği tekrar provasını azaltır. Sadece kayıt tutmaz; önemli olanın güvenle bırakılıp sonra geri bulunabileceğine dair güveni onarır.",
+              "Bu nedenle Saule bir şeyi geri getirdiğinde yalnızca “ne”yi değil, “bunu nereden biliyorum?” sorusunu da görünür kılmalıdır. Bellek güveni, bağlamlı geri çağırma ve gerekirse “bu bilgi eskimiş olabilir” diyebilen yaşlandırma katmanları, hatırlamayı arşivden çok ilişki haline getirir."
             ]
           },
           {
             "heading": "6. Saule Nazikçe Hatırlamalıdır",
             "paragraphs": [
               "Saule benliğin gözetim arşivine dönüşmemelidir. İzinli, sınırlı ve açıklanabilir biçimde hatırlamalıdır.",
-              "İyi bellek tasarımı; kullanıcının neyin tutulduğunu görmesini, düzeltmesini, silmesini ve yaşlandırmasını mümkün kılar. Yararlılık, irade ve gizliliğin önüne geçmemelidir."
+              "İyi bellek tasarımı; kullanıcının neyin tutulduğunu görmesini, düzeltmesini, silmesini ve yaşlandırmasını mümkün kılar. Bir hatırlama gerektiğinde kullanıcının “bu artık doğru değil” diyebilmesi, yararlılığın irade ve gizliliğin önüne geçmemesinin şartıdır."
             ]
           },
           {
             "heading": "7. Bellek Kimliğe Açılır",
             "paragraphs": [
               "İnsan tekrar tekrar neyi hatırlıyorsa, kendini de kısmen onun üzerinden anlamlandırır. Bellek yalnızca lojistik bir mesele değildir; sürekliliği, öz anlatıyı ve imkân duygusunu da biçimlendirir.",
-              "Bu yüzden sıradaki soru yalnızca Saule’nin neyi hatırlaması gerektiği değil; hatırlanan hayatın zamanla kimliğe nasıl dönüştüğüdür."
+              "Bu yüzden asıl soru yalnızca Saule’nin neyi hatırlaması gerektiği değildir. Hangi izlerin süreklilik duygusunu taşıdığı, hangilerinin sessizce silikleştirdiği ve insanın kendi hikâyesini hangi geri çağrılan parçalarla kurduğu da burada belirir."
             ]
           }
         ],
@@ -186,7 +187,7 @@
             "heading": "4. Kimlik Kafese Dönüşmemelidir",
             "paragraphs": [
               "Sistemler kişiyi dünün örüntüsüne sabitlediğinde tehlikeli hale gelir: erteleyen kişi, yüksek performanslı kişi, tutarsız kullanıcı, duygusal alışverişçi, sabah insanı. Bu etiketler sessizce kendini doğrulayan hükümlere dönüşebilir.",
-              "Saule eğilimleri fark edebilir ama onları hafif tutmalıdır. Kullanıcı hem sistemi hem kendini şaşırtabilmeye devam etmelidir."
+              "Saule eğilimleri fark edebilir ama onları hafif tutmalıdır. Geçmiş davranış geleceğin imkânını kapatmamalı; kullanıcı hem sistemi hem kendini şaşırtabilmeye, eski tanımların dışına çıkabilmeye devam etmelidir."
             ]
           },
           {
@@ -199,15 +200,15 @@
           {
             "heading": "6. İnsani Kimlik Desteği",
             "paragraphs": [
-              "İnsan merkezli bir sistem tekrarlayan değerleri, uzun süreli gerilimleri ve iyi yaşama koşullarını görünür kılabilir. Sürekliliği desteklerken kimliği katılaştırmamalıdır.",
-              "Doğru duruş yazarlık değil, eşliktir. Saule kullanıcının kendini daha net görmesine yardım etmeli; benliği onun yerine yazmamalıdır."
+              "İnsan merkezli bir sistem tekrarlayan değerleri, uzun süreli gerilimleri ve iyi yaşama koşullarını görünür kılabilir. Sürekliliği desteklerken kimliği katılaştırmamalı; kullanıcının yalnızca olduğu kişiyi değil, olmaya çalıştığı kişiyi de görebilmesine alan açmalıdır.",
+              "Doğru duruş yazarlık değil, eşliktir. Saule kullanıcının kendini daha net görmesine yardım etmeli; benliği onun yerine yazmamalı. Mümkün benlikler bazen büyük dönüşümlerde değil, istenen hayata doğru atılan küçük ve tekrar edilebilir adımlarda görünür olur."
             ]
           },
           {
             "heading": "7. Kimlik Duygulara Açılır",
             "paragraphs": [
               "Kimlik sadece hikâyelerden ve rollerden oluşmaz. Aynı zamanda neyin tehdit, neyin güven, neyin canlılık, neyin ağırlık hissettirdiğiyle şekillenir.",
-              "İnsan davranışını daha tam anlamak için kitap şimdi kimlikten duygulara dönmelidir."
+              "İnsan davranışını anlamak yalnızca anlatılan hikâyeleri değil, bedenin ve zihnin neyi tehdit, neyi güven, neyi canlılık, neyi ağırlık olarak kaydettiğini de duymayı gerektirir. Kimlik çoğu zaman tam da bu sessiz izlerin içinde biçimlenir."
             ]
           }
         ],
@@ -329,8 +330,8 @@
           {
             "heading": "2. Duygular Mümkün Olanı Değiştirir",
             "paragraphs": [
-              "Aynı görev bir gün kolay, başka bir gün imkânsız hissedebilir; çünkü duygusal durum dikkat, dayanıklılık, bellek ve motivasyon üzerinde doğrudan etkilidir.",
-              "Bu, insanın irrasyonel olduğu anlamına gelmez. Eylemin yalnızca soyut öncelikle belirlenmediğini gösterir."
+              "Aynı görev bir gün kolay, başka bir gün imkânsız hissedebilir; çünkü duygusal durum dikkat, dayanıklılık, bellek ve motivasyon üzerinde doğrudan etkilidir. Uyku, yorgunluk, gerginlik, bedenin güvenlik hissi ve stres seviyesi de bu alanı sessizce değiştirir.",
+              "Bu, insanın irrasyonel olduğu anlamına gelmez. Eylemin yalnızca soyut öncelikle belirlenmediğini; zihinsel yorumların bedensel kapasiteyle birlikte yaşandığını gösterir."
             ]
           },
           {
@@ -358,14 +359,14 @@
             "heading": "6. Terapi İddiası Taşımadan Yansıtma",
             "paragraphs": [
               "Saule tekrar eden duyguları, tetikleyicileri ve toparlanma örüntülerini fark etmeye yardımcı olabilir; ama tanı, tedavi ya da iyileştirme iddiası taşıyamaz.",
-              "Ürünün rolü insani farkındalık ve sorumlu sınırlar sunmaktır. Daha ağır sıkıntılar ise ürünün ötesindeki insani ve profesyonel ilişkilere aittir."
+              "Ürünün rolü klinik yorum yapmak, sağlık takibi yürütmek ya da teşhis iddiasında bulunmak değildir. Görevi, beden ve duygu arasındaki bu dalgalanmaları yalnızca bağlamsal kapasite olarak ele almak; insanın neye yaklaşabildiğini ve neden bazen geri çekildiğini daha dürüst görmesine yardım etmektir."
             ]
           },
           {
             "heading": "7. Duygu Motivasyona Açılır",
             "paragraphs": [
               "İnsanı neyin canlandırdığı ya da söndürdüğü yalnızca mekanik değildir. Motivasyon; duygu, anlam, umut, korku ve beklenen çabayla iç içedir.",
-              "İnsan neden bazı şeylere yönelip bazılarından uzaklaşıyor sorusunu açmak için sıradaki bölüm motivasyona dönmelidir."
+              "Duygular yalnızca ne hissettiğimizi değil, neye yaklaşabildiğimizi ve neden bazen kendimizi korumak için uzaklaştığımızı da belirler. İnsan hareketi çoğu zaman tam burada, görünmez çekim ve kaçınma çizgilerinde yön kazanır."
             ]
           }
         ],
@@ -481,7 +482,8 @@
             "heading": "1. Motivasyon Sabit Bir Yakıt Değildir",
             "paragraphs": [
               "Motivasyon çoğu zaman gizemli biçimde artan ya da azalan içsel bir yakıt gibi düşünülür. Oysa beklenen çaba, anlam, ödül, belirsizlik, bağlam, duygusal durum ve önceki başarısızlık ya da başarı motivasyonu şekillendirir.",
-              "Bu önemlidir; çünkü sabit motivasyon bekleyen bir sistem sıradan insan dalgalanmasını itaatsizlik gibi okur."
+              "Bu önemlidir; çünkü sabit motivasyon bekleyen bir sistem sıradan insan dalgalanmasını itaatsizlik gibi okur.",
+              "Düşük motivasyon her zaman isteksizlik anlamına gelmez. Bazen düşük anlam, bazen yüksek sürtünme, bazen korku ya da belirsizlik, bazen tükenmişlik, yas veya düşmüş bedensel kapasite aynı yüzey belirtisini üretebilir."
             ]
           },
           {
@@ -495,7 +497,7 @@
             "heading": "3. Sürtünme İstekliliği Şekillendirir",
             "paragraphs": [
               "Bir iş ilk adımı belirsiz olduğu, ödülü çok geç geldiği, çok büyük göründüğü ya da başarısızlık maliyeti zihinde fazla canlı olduğu için tıkanabilir.",
-              "Saule sürtünmeyi görünür kılmalıdır. Belirsizlik azaldığında ve sonraki adım yaşanabilir boyuta indiğinde motivasyon çoğu zaman artar."
+              "Saule sürtünmeyi görünür kılmalıdır. Yorum yapmadan önce anlam, enerji, bağlam ve engel kaynaklarını birbirinden ayırabildiğinde; belirsizlik azaldığında ve sonraki adım yaşanabilir boyuta indiğinde motivasyon çoğu zaman yeniden nefes alır."
             ]
           },
           {
@@ -509,7 +511,7 @@
             "heading": "5. Motivasyonun da Toparlanmaya İhtiyacı Vardır",
             "paragraphs": [
               "Hiç kimse sürekli kendini zorlayarak yaşayamaz. Dinlenme, tamamlama, oyun ve anlam uzun süre aç kaldığında motivasyon çöker.",
-              "Bu yüzden Saule her zaman “nasıl daha çok itelim?” diye sormamalıdır. Bazen daha dürüst soru, eylemi yeniden mümkün kılacak koşulların ne olduğudur."
+              "Bu yüzden Saule her zaman “nasıl daha çok itelim?” diye sormamalıdır. Bazen daha dürüst soru, eylemi yeniden mümkün kılacak koşulların ne olduğu; bazen de bugün daha azını taşımanın neden başarısızlık sayılmaması gerektiğidir."
             ]
           },
           {
@@ -523,7 +525,7 @@
             "heading": "7. Motivasyon Alışkanlığa Dönüşür ya da Kaybolur",
             "paragraphs": [
               "Tekrarlanan eylem zamanla daha kolay hale gelir; çünkü motivasyon hep yüksek kaldığı için değil, bazı eylemler alışkanlık, çevre ve bellek tarafından taşınmaya başladığı için.",
-              "Devamlılığı anlamak için sıradaki bölüm alışkanlıklara dönmelidir."
+              "Her gün aynı içsel iknayı üretmek zorunda olmayan eylemler zamanla başka taşıyıcılara yaslanır. Tekrar, ritim, çevre ve günün akışı bazı seçimleri motivasyonun ani dalgalarından daha istikrarlı biçimde taşımaya başlar."
             ]
           }
         ],
@@ -639,7 +641,7 @@
             "heading": "1. Alışkanlıklar Saklanmış Kararlardır",
             "paragraphs": [
               "Alışkanlıklar her şeyi sıfırdan seçme ihtiyacını azaltır. Sınırlı dikkat ve enerji altında yaşamı taşınabilir kılmanın yollarından biridir.",
-              "Ama alışkanlıklar nötr değildir. Bazıları önemli olanı sabitler, bazıları ise zararlı olanı otomatikleştirir."
+              "Ama alışkanlıklar nötr değildir. Bazıları önemli olanı sabitler, bazıları ise zararlı olanı otomatikleştirir. Bu yüzden bir alışkanlığı bırakmak da, onu kurmak kadar sağlıklı ve olgun bir seçim olabilir."
             ]
           },
           {
@@ -667,21 +669,21 @@
             "heading": "5. Alışkanlık Kimlik ve Anlam İçindedir",
             "paragraphs": [
               "Bazı rutinler kusursuz tasarlandıkları için değil, insanın yaşamak istediği hayatla uyumlu oldukları için sürer. Bazıları ise ödünç alınmış, idealize edilmiş ya da gerçeklikten kopuk oldukları için çöker.",
-              "Bu yüzden alışkanlık desteği yalnızca “ne kadar sık?” değil, “hangi hayatın hizmetinde?” sorusunu da taşımalıdır."
+              "Bu yüzden alışkanlık desteği yalnızca “ne kadar sık?” değil, “hangi hayatın hizmetinde?” ve “bu rutin hâlâ gerçek kapasiteye, değerlere ve yaşam mevsimine uyuyor mu?” sorularını da taşımalıdır."
             ]
           },
           {
             "heading": "6. İnsani Alışkanlık Desteği",
             "paragraphs": [
-              "Saule tercih edilen ipuçlarını, iyi zamanları, sık engelleri ve bozulmadan sonra geri dönüş yollarını hatırlayarak destek olabilir. Tutarlılığı, değer göstergesi olmadan taşıyabilir.",
-              "Sistem görünür sürekliliği değil, gerçeğe dürüst kalmayı ödüllendirmelidir."
+              "Saule bir habit tracker gibi davranmamalıdır. Tek görevi seri korumak, tekrar saymak ve tutarlılığı ödüllendirmek olursa; insanın değişen ihtiyaçlarını, yorulma biçimlerini ve bazı rutinlerden sağlıklı biçimde ayrılma hakkını ıskalar.",
+              "Sistem görünür sürekliliği değil, gerçeğe dürüst kalmayı ödüllendirmelidir. Bazen en iyi destek devam etmek değil, bıraktığını fark etmek, yeniden seçmek ve ritmi daha insani bir ölçüye çekmektir."
             ]
           },
           {
             "heading": "7. Alışkanlık Yeniden Seçime Açılır",
             "paragraphs": [
               "Otomatikleşmiş rutinler bile daha geniş bir seçim alanının içinde yaşar. Hangi alışkanlıkların kurulacağı, korunacağı, değişeceği ya da bırakılacağı karar vermeyle ilgilidir.",
-              "Bu katmanı anlamak için sıradaki bölüm kararlara dönmelidir."
+              "Alışkanlıklar saklanmış kararlar gibi yaşar; ama sonsuza dek kapatılmış kararlar olmamalıdır. Zaman değiştikçe insan bazen otomatiğe yerleşmiş olanı yeniden eline alır ve artık hangi seçimin kendisine uyduğunu yeniden tartar."
             ]
           }
         ],
@@ -825,13 +827,14 @@
             "heading": "5. Geri Alınabilir Kararlar Farklı Destek İster",
             "paragraphs": [
               "Bazı kararlar denenip düzeltilebilir. Bazıları ise ilişki, para ya da kimlik üzerinde daha ağır sonuç taşır ve daha geniş bağlam ister.",
-              "İyi destek hafif seçim ile ağır sonuçlu karar arasındaki farkı ayırmalıdır."
+              "İyi destek hafif seçim ile ağır sonuçlu karar arasındaki farkı ayırmalıdır.",
+              "Bazı kararlar verildikten sonra bile zihinde açık döngü bırakır. Pişmanlık, şüphe, yeniden değerlendirme ihtiyacı, başkalarına etkisi, yeni bilgiyle değişen koşullar ve kararın duygusal maliyeti; karar sonrası kalıntı olarak yaşamaya devam edebilir."
             ]
           },
           {
             "heading": "6. İnsani Karar Desteği",
             "paragraphs": [
-              "Saule seçenekleri küçülterek, ödünleşimleri netleştirerek, bağlamı koruyarak ve son karar anından beri neyin değiştiğini göstererek destek olabilir. Ama kararın sahipliğini eline almamalıdır.",
+              "Saule seçenekleri çerçeveleyebilir, ödünleşimleri görünür kılabilir ve zamanı geldiğinde nazik bir karar alanı açabilir. Ama karar desteğini yalnızca karar anıyla sınırlamamalı; sonrasında toparlanma, yeniden bakma ve gerekirse gözden geçirme için de hafif bir yapı sunmalıdır.",
               "Kararın ahlaki merkezi kullanıcıda kalmalıdır."
             ]
           },
@@ -839,7 +842,7 @@
             "heading": "7. Kararlar İnsanlar Arasında Yaşar",
             "paragraphs": [
               "Birçok karar yalnızca bireysel değildir. Sözler, yükümlülükler, pazarlıklar ve paylaşılan sonuçlar içinde yaşar.",
-              "İnsani seçimi dürüstçe anlamak için sıradaki bölüm ilişkilere dönmelidir."
+              "Kararlar yalnızca zihnin içinde verilmez. Verilen sözler, başkalarının beklentileri, sınırlar, bakım yükleri ve ortak hayatın kırılgan dengeleri; bir seçimin gerçek ağırlığını çoğu zaman karar anından sonra hissettirir."
             ]
           }
         ],
@@ -969,7 +972,7 @@
             "heading": "3. Her Şey Göreve Dönüşmemelidir",
             "paragraphs": [
               "İlişkilerin içinde görev mantığına tam sığmayan şeyler vardır: sevgi, ton, zamanlama, tereddüt, yas, ilgi, susuş ve bakım.",
-              "Saule bağlamı korumalı ama insanı kişi listesinden ya da ilişkiyi görev kuyruğundan ibaret hale getirmemelidir."
+              "Saule bağlamı korumalı ama insanı kişi listesinden ya da ilişkiyi görev kuyruğundan ibaret hale getirmemelidir. Hayatı kişisel CRM’e çevirmeye başladığı anda; saygı, zamanlama, sınır ve yakınlığın kırılgan doğası metriklerin arkasında kaybolur."
             ]
           },
           {
@@ -989,7 +992,7 @@
           {
             "heading": "6. İnsani İlişki Desteği",
             "paragraphs": [
-              "İnsan merkezli bir sistem sürekliliği korumaya, verilen sözü unutmamaya ve istemeden ihmal üretmemeye yardım edebilir. Ama yakınlığı simüle etmemeli ve ilgiyi performansa çevirmemelidir.",
+              "İlişki desteği geçmiş konuşmaları, önemli tarihleri, kırılgan başlıkları ve sınırları hatırlatabilir. Ama bunu insanları puanlamak, optimize etmek ya da yakınlığı simüle etmek için değil; kullanıcının kendi tarafını, zamanlamayı ve bağlamı daha dikkatli görebilmesi için yapmalıdır.",
               "İlişki desteği sahiciliği güçlendirmeli, sosyal gösteriyi değil."
             ]
           },
@@ -997,7 +1000,7 @@
             "heading": "7. İlişkiler Yansıtma İster",
             "paragraphs": [
               "İlişkiler duygu, kimlik ve yarım anlam taşıdığı için yalnızca koordinasyonla anlaşılamaz.",
-              "Bu nedenle sıradaki bölüm yansıtma üzerine kurulmalıdır."
+              "İlişkiler çoğu zaman açık görevlerden çok yarım anlamlar, söylenmemiş cümleler, duygusal izler ve insanın kendi payını görme ihtiyacı bırakır. Bazen asıl ihtiyaç cevap vermek değil, önce o izin içinde ne taşıdığını fark etmektir."
             ]
           }
         ],
@@ -1113,7 +1116,8 @@
             "heading": "1. Yansıtma Yapılandırılmış Bir Duraktır",
             "paragraphs": [
               "Yansıtma pasif dağılma değildir. Yeterince durup örüntü, anlam, çelişki ve yön fark etmeye yönelik bilinçli bir harekettir.",
-              "Yansıtma olmadan deneyim, anlaşılabileceğinden daha hızlı birikir."
+              "Yansıtma olmadan deneyim, anlaşılabileceğinden daha hızlı birikir.",
+              "Yansıtma her zaman uzun günlük yazısı, derin analiz ya da kapsamlı özet olmak zorunda değildir. Bazen bir cümle, bir his etiketi, küçük bir soru, “buna sonra dön” işareti ya da yalnızca bir örüntüyü fark etmek de yeterli bir yansıtma biçimidir."
             ]
           },
           {
@@ -1147,7 +1151,7 @@
           {
             "heading": "6. İnsani Yansıtma Desteği",
             "paragraphs": [
-              "Saule özetler, karşılaştırmalar, küçük sorular ve nazik yönlendirmelerle yansıtmayı destekleyebilir. Ama terapiyi, manevi eşliği ya da samimi insani anlamayı ikame ettiğini asla ima etmemelidir.",
+              "Saule özetler, karşılaştırmalar, küçük sorular ve nazik yönlendirmelerle yansıtmayı destekleyebilir. Bunu performansa dönüştürmemeli; düşük kapasiteli günlerde yansıtmanın küçülmesine, yarım kalmasına ve daha sonra yeniden açılmasına da izin vermelidir.",
               "Görevi ne düşündüğünü söylemek değil, daha dürüst düşünmeye yardım etmektir."
             ]
           },
@@ -1155,7 +1159,7 @@
             "heading": "7. Yansıtma Anlama Açılır",
             "paragraphs": [
               "İnsan daha çok yansıttıkça soru “ne oldu?”dan “hangi hayata doğru yaşamak istiyorum?” sorusuna kayar.",
-              "Bu hareket bizi doğrudan anlama götürür."
+              "Yansıtma derinleştikçe soru yalnızca “ne oldu?” ile sınırlı kalmaz. Zamanla insan hangi yüklerin kendisine ait olduğunu, hangi yönün hâlâ canlı kaldığını ve hangi hayatın kurulmaya değer göründüğünü sormaya başlar."
             ]
           }
         ],
@@ -1292,7 +1296,7 @@
             "heading": "4. Anlam Zorla Üretilemez",
             "paragraphs": [
               "Hiçbir sistem amacı komutla üretemez. Yalnızca neyin canlı hissettirdiğini, neyin boş geldiğini, neyin yarım kaldığını ve hangi hayatın kurulmaya değer göründüğünü fark etmeye yardım edebilir.",
-              "Bu yüzden anlam desteği buyurgan değil, davetkâr kalmalıdır."
+              "Bu yüzden anlam desteği buyurgan değil, davetkâr kalmalıdır. Saule kullanıcının anlamını üretmez, dayatmaz ya da sıralamaz; yalnızca zaten önem verilen şeylerle günlük eylemler arasındaki mesafeyi biraz daha görünür kılar."
             ]
           },
           {
@@ -1305,15 +1309,15 @@
           {
             "heading": "6. İnsani Anlam Desteği",
             "paragraphs": [
-              "İnsan merkezli bir sistem rutinleri değerlere, planları yaşam mevsimlerine ve eylemleri daha derin niyete bağlamaya yardım edebilir. Seçimleri ahlakileştiren bir makineye dönüşmemelidir.",
-              "Anlam desteği en güçlü halini baskı değil, yön duygusu ürettiğinde alır."
+              "İnsan merkezli bir sistem rutinleri değerlere, planları yaşam mevsimlerine ve eylemleri daha derin niyete bağlamaya yardım edebilir. Ama bunu ahlakçı, ideolojik ya da yargı dağıtan bir makineye dönüşmeden yapmalıdır.",
+              "Anlam desteği en güçlü halini baskı değil, yön duygusu ürettiğinde alır. Saule kullanıcının yerine hangi hayatın doğru olduğuna karar vermez; yalnızca yaşanan gün ile önem verilen şeyler arasındaki açıklığı daha dürüst hale getirir."
             ]
           },
           {
             "heading": "7. Anlam Felsefeye Açılır",
             "paragraphs": [
               "Bu cildin sonunda soru artık yalnızca zihnin nasıl çalıştığı değil; bellek, duygu, seçim ve anlamla şekillenen bir insan hayatına nasıl bir zekânın eşlik etmesi gerektiğidir.",
-              "Bu soru bizi doğrudan bir sonraki ciltte Saule’nin felsefesine götürür."
+              "İç dünyanın bu katmanları biraz daha anlaşılır olduğunda geriye başka bir soru kalır: böyle bir hayata nasıl bir zekâ eşlik etmeli, hangi etik duruşta durmalı ve insanın iradesini gölgelemeden nasıl yanında yürümelidir?"
             ]
           }
         ],
@@ -1419,6 +1423,149 @@
           "Ahlak psikolojisi",
           "İnsan merkezli yapay zekâ etiği",
           "Yaşam tasarımında yön duygusu"
+        ]
+      }
+    }
+  },
+  "appendices": {
+    "volume-2-appendix-1-body-energy-and-capacity": {
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. İnsan Yalnızca Zihin Değildir",
+            "paragraphs": [
+              "Bellek, duygu, motivasyon, alışkanlık ve karar verme çoğu zaman sanki bedenden bağımsız işliyormuş gibi anlatılır. Oysa insanın iç hayatı uyku, yorgunluk, stres, açlık, ağrı, hareket, güvenlik hissi, beden ritmi ve toparlanma ihtiyacıyla birlikte çalışır.",
+              "Bu ekin amacı bedeni yeni bir takip alanına çevirmek değil; Saule’nin insan kapasitesini daha gerçekçi ve daha şefkatli anlaması için gerekli çerçeveyi kurmaktır."
+            ]
+          },
+          {
+            "heading": "2. Kapasite Sabit Değildir",
+            "paragraphs": [
+              "İnsan aynı dikkat, sabır, dayanıklılık ve karar gücüyle her gün yaşayamaz. Kapasite dalgalanır; bazen sessizce, bazen çok belirgin biçimde.",
+              "Saule düşük kapasiteyi tembellik, motivasyonsuzluk ya da kişiliğin sabit bir özelliği gibi okumamalıdır. Bazen düşen şey niyet değil, o niyeti taşıyacak güncel bedensel zemindir."
+            ]
+          },
+          {
+            "heading": "3. Bedensel Sinyal Klinik İddia Değildir",
+            "paragraphs": [
+              "Saule sağlık teşhisi koymaz, tedavi önermez ve acil sağlık desteğinin yerine geçmez. Uyku, yorgunluk ya da stresle ilgili sinyaller ancak sınırlı, kullanıcı denetimli ve bağlamsal kapasite işaretleri olarak ele alınmalıdır.",
+              "Amaç tıbbi kesinlik üretmek değil, kişinin bugün neyi ne kadar taşıyabildiğini daha dürüst hissetmesine yardım etmektir."
+            ]
+          },
+          {
+            "heading": "4. Minimum Veri, Açık İzin, Yerel Denetim",
+            "paragraphs": [
+              "Saule beden verisini toplamaya hevesli olmamalıdır. En hassas kapasite sinyalleri varsayılan olarak özel, yerel işlenen ya da hiç toplanmayan veriler olarak kalmalıdır.",
+              "Kullanıcı hangi sinyalin görüldüğünü, nasıl yorumlandığını, ne kadar süre tutulduğunu ve isterse nasıl kapatılacağını açıkça görebilmelidir."
+            ]
+          },
+          {
+            "heading": "5. Kapasite Desteği Baskıyı Azaltmalıdır",
+            "paragraphs": [
+              "Düşük kapasite anlarında iyi destek daha fazla baskı üretmez. Bazı önerileri azaltır, bazı talepleri erteler, bazı hedefleri küçültür ve bazen sadece dinlenme ya da bekleme alanı açar.",
+              "Saule kullanıcının yerine karar vermez; ama karar alanını mevcut bedensel gerçeklikle daha uyumlu hale getirebilir."
+            ]
+          }
+        ],
+        "open_questions": [
+          {
+            "id": "v2a1-1",
+            "question": "Saule bedensel kapasiteyi müdahaleci veri toplamadan nasıl anlayabilir?",
+            "status": "open",
+            "decisionArea": "Kapasite Sinyalleri",
+            "answeredInChapters": [
+              "Bölüm 26 — Bağlam Motoru",
+              "Bölüm 37 — Gizlilik"
+            ]
+          },
+          {
+            "id": "v2a1-2",
+            "question": "Uyku, yorgunluk ve stres sinyalleri klinik iddiaya dönüşmeden nasıl temsil edilebilir?",
+            "status": "open",
+            "decisionArea": "Temsil Dili",
+            "answeredInChapters": [
+              "Bölüm 20 — Güven",
+              "Bölüm 33 — Ses"
+            ]
+          },
+          {
+            "id": "v2a1-3",
+            "question": "Düşük kapasite anlarında sistem hangi önerileri azaltmalı veya ertelemelidir?",
+            "status": "open",
+            "decisionArea": "Öneri Yoğunluğu",
+            "answeredInChapters": [
+              "Bölüm 31 — Planlama Zekâsı",
+              "Bölüm 36 — Mühendislik İlkeleri"
+            ]
+          },
+          {
+            "id": "v2a1-4",
+            "question": "Hangi beden veya sağlık sinyalleri varsayılan olarak toplanmamalıdır?",
+            "status": "open",
+            "decisionArea": "Toplama Sınırları",
+            "answeredInChapters": [
+              "Bölüm 37 — Gizlilik",
+              "Bölüm 38 — Güvenlik"
+            ]
+          },
+          {
+            "id": "v2a1-5",
+            "question": "Kapasite desteği kullanıcının iradesini güçlendirirken paternalizme nasıl dönüşmez?",
+            "status": "open",
+            "decisionArea": "İrade Sınırları",
+            "answeredInChapters": [
+              "Bölüm 23 — Etik",
+              "Bölüm 24 — İrade"
+            ]
+          },
+          {
+            "id": "v2a1-6",
+            "question": "Kullanıcı kapasite yorumlarını nasıl görebilir, düzeltebilir veya tamamen kapatabilir?",
+            "status": "open",
+            "decisionArea": "Kullanıcı Denetimi",
+            "answeredInChapters": [
+              "Bölüm 20 — Güven",
+              "Bölüm 24 — İrade"
+            ]
+          },
+          {
+            "id": "v2a1-7",
+            "question": "Sistem bedensel kapasite ile duygusal zorlanmayı fazla kesinlik iddiası olmadan nasıl ayırabilir?",
+            "status": "open",
+            "decisionArea": "Ayrım Mantığı",
+            "answeredInChapters": [
+              "Bölüm 19 — Uyarlanabilir Zekâ",
+              "Bölüm 26 — Bağlam Motoru"
+            ]
+          },
+          {
+            "id": "v2a1-8",
+            "question": "Saule ne zaman öneri vermek yerine dinlenme, erteleme veya insan desteği alanı açmalıdır?",
+            "status": "open",
+            "decisionArea": "Müdahale Eşiği",
+            "answeredInChapters": [
+              "Bölüm 23 — Etik",
+              "Bölüm 28 — Koçluk Motoru"
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Saule insan kapasitesini zihin ve bedenin birlikte oluşturduğu değişken bir durum olarak ele almalıdır.",
+          "Bedensel sinyaller klinik veri değil, sınırlı ve kullanıcı denetimli bağlam sinyalleri olarak değerlendirilmelidir.",
+          "Sistem düşük kapasite dönemlerinde daha fazla baskı üretmemelidir.",
+          "En hassas kapasite verileri varsayılan olarak özel, yerel ya da hiç toplanmayan veriler olmalıdır.",
+          "Kullanıcı her kapasite yorumunu görebilmeli, düzeltebilmeli ve kapatabilmelidir.",
+          "Saule sağlık, teşhis veya tedavi iddiası taşımamalıdır.",
+          "Kapasite desteği kullanıcının yerine karar vermemeli, karar alanını daha gerçekçi hale getirmelidir."
+        ],
+        "future_evolution": "Bu ek ileride kapasite sinyallerinin hangi ürün yüzeylerinde görünmesi gerektiğini, hangi durumlarda sessiz kalınacağını ve düşük kapasite anlarında baskıyı azaltan planlama kiplerinin nasıl tasarlanacağını tanımlayacaktır.",
+        "references": [
+          "Bedenlenmiş biliş araştırmaları",
+          "Stres ve bilişsel kapasite çalışmaları",
+          "Uyku ve karar verme araştırmaları",
+          "Dijital sağlık verisinde mahremiyet ilkeleri",
+          "İnsan merkezli yapay zekâ etiği",
+          "Öz-şefkat ve kapasite farkındalığı literatürü"
         ]
       }
     }

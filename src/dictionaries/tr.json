@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Saule Yaşayan Kitabı — Yaşam İçin Uyarlanabilir Zekâ",
+    "title": "Saule — Yaşam İçin Uyarlanabilir Zekâ",
     "description": "Saule Yaşayan Kitabı; Saule'nin arkasındaki felsefe, araştırma, mimari, psikoloji ve mühendisliği belgeler. Uygulamanın egemen bilgi kaynağıdır."
   },
   "common": {
@@ -9,6 +9,8 @@
     "next_chapter": "Sonraki Bölüm",
     "prev_chapter": "Önceki Bölüm",
     "chapter": "Bölüm",
+    "appendix": "Ek",
+    "appendices": "Ekler",
     "none": "Yok",
     "dashboard": "Kitap Ana Sayfası",
     "minutes": "dk",
@@ -18,11 +20,19 @@
     "chapters_directory": "Bölümler Dizini",
     "previous_volume": "Önceki Cilt",
     "next_volume": "Sonraki Cilt",
-    "research_workspace": "Araştırma Çalışma Alanı"
+    "research_workspace": "Araştırma Çalışma Alanı",
+    "book_start": "Kitap Başlangıcı",
+    "preface": "Önsöz",
+    "what_is_book_for": "Bu Kitap Ne İşe Yarar?",
+    "how_to_read": "Nasıl Okunmalı?"
   },
   "header": {
     "logo": "Saule",
-    "badge": "Yaşayan Kitap"
+    "badge": "Yaşayan Kitap",
+    "nav_home": "Ana Sayfa",
+    "nav_book": "Yaşayan Kitap",
+    "nav_community": "Topluluk",
+    "nav_access": "Erken Erişim"
   },
   "footer": {
     "owner": "Pool IQ",
@@ -95,11 +105,17 @@
   "volumes": {
     "v1": {
       "title": "Cilt I: Modern İnsanın Durumu",
-      "purpose": "Saule'yi tanıtmadan önce modern insanın yaşadığı temel sorunu anlamak."
+      "purpose": "Saule'yi tanıtmadan önce modern insanın yaşadığı temel sorunu anlamak.",
+      "intro_p1": "Saule özellikler, ekranlar, yapay zekâ modelleri veya üretkenlik araçlarıyla değil, modern insanın incelenmesiyle başlar.",
+      "intro_p2": "Cilt I'in temel sorusu: Ne istediğini bilen insanlar neden hala ilerlemekte zorlanıyor? Neden bunalmış, dikkati dağılmış, duygusal olarak yüklenmiş ve çok fazla açık döngü arasında kalmış durumdayız?",
+      "intro_p3": "Cilt I henüz Saule'yi tasarlamaz. Saule'nin çözmeye değer olması gereken sorunu tanımlar."
     },
     "v2": {
       "title": "Cilt II: İnsan Zihnini Anlamak",
-      "purpose": "Uyarlanabilir bir zekâ inşa etmeye çalışmadan önce insanların gerçekte nasıl düşündüğünü anlamak."
+      "purpose": "Uyarlanabilir bir zekâ inşa etmeye çalışmadan önce insanların gerçekte nasıl düşündüğünü anlamak.",
+      "intro_p1": "Cilt I modern insanın dış ve bilişsel yükünü izledi: dikkat krizi, açık döngüler, kaçış örüntüleri, bağlam kaybı ve katı üretkenlik sistemlerinin neden kırıldığını.",
+      "intro_p2": "Cilt II aynı hayatın iç sürekliliğine yaklaşır. Bellek, kimlik, duygular, motivasyon, alışkanlıklar, karar verme, ilişkiler, yansıtma ve anlam; insanı klinik olarak açıklamak için değil, Saule’nin onu sabit ve yalnızca optimize edilecek bir kullanıcıya indirgememesi için birlikte düşünülür.",
+      "intro_p3": "Saule gözlem yapmalı ama tanı koymamalı; örüntü göstermeli ama hüküm vermemeli; yön duygusu sunmalı ama kullanıcının iradesini devralmamalıdır."
     },
     "v3": {
       "title": "Cilt III: Saule Felsefesi",
@@ -567,5 +583,80 @@
       "purpose": "İnsanların bunalmadan kaçmak için dikkat dağıtıcı, dürtüsel ve kendini uyuşturan döngülere nasıl yöneldiğini ve insan merkezli bir tasarımın bu örüntülerden ne anlaması gerektiğini incelemek.",
       "key_question": "İnsanı kısa süreli rahatlatan ama zamanla daha çok dağınıklık yaratan davranışlara neden tekrar tekrar dönülür?"
     }
+  },
+  "appendices": {
+    "volume-1-appendix-1-lonely-optimization": {
+      "title": "Kendini Optimize Etmekle Yalnız Bırakılan İnsan",
+      "purpose": "Modern insanın yalnızca zihinsel olarak dağılmadığını; aynı zamanda kendi dikkatini, kapasitesini, rutinlerini, ilişkilerini, kararlarını ve duygusal yükünü tek başına optimize etmek zorunda bırakıldığını açıklamak. Saule’nin neden yalnızca kapalı bir uygulama değil; açık kaynaklı, topluluk destekli, davet erişimli ve etik sürdürülebilirlik arayan bir yaşam zekâsı olarak gelişmesi gerektiğini temellendirmek.",
+      "key_question": "Modern insan neden kendi zihinsel yükünün tek başına yöneticisi hâline getirildi?"
+    },
+    "volume-2-appendix-1-body-energy-and-capacity": {
+      "title": "Beden, Enerji ve Kapasite",
+      "purpose": "İnsan zihninin bellek, duygu, motivasyon, alışkanlık ve karar katmanlarının bedenden bağımsız çalışmadığını açıklamak; Saule’nin kapasiteyi daha gerçekçi, daha şefkatli ve müdahaleci olmayan biçimde nasıl ele alması gerektiğini tanımlamak.",
+      "key_question": "Saule insanın değişken bedensel kapasitesine sağlık takibi iddiası taşımadan nasıl eşlik edebilir?"
+    }
+  },
+  "homepage": {
+    "hero_title": "Saule",
+    "hero_subtitle": "Yaşam için uyarlanabilir zekâ.",
+    "hero_desc": "Saule, modern insanın zihinsel dağınıklık, açık döngüler, dikkat krizi ve karar yüküyle başa çıkmasına yardım edecek insan öncelikli bir yaşam zekâsı olarak geliştirilmektedir.",
+    "cta_read_book": "Yaşayan Kitabı Oku",
+    "cta_request_access": "Erken Erişim Talep Et",
+    "cta_join_community": "Topluluğa Katıl",
+    "problem_title": "Modern hayat zihni taşıyamayacağı kadar çok açık döngüyle dolduruyor.",
+    "problem_text": "Görevler, mesajlar, kararlar, ilişkiler, belirsizlikler ve yarım kalmış niyetler aynı zihinsel alanda birikiyor. Çoğu üretkenlik aracı bu yükü daha iyi düzenlemeyi teklif eder; Saule önce bu yükün insan üzerinde nasıl yaşandığını anlamaya çalışır.",
+    "open_book_title": "Açık Kitap, Kapalı Uygulama",
+    "open_book_text": "Saule’nin düşünsel temeli herkes tarafından okunabilir. Ancak uygulama erken aşamada halka açık kayıtla değil, davetli erişimle ilerleyecektir. Çünkü Saule kişisel bellek, dikkat, kararlar, ilişkiler ve zihinsel yük gibi hassas alanlara temas eder. Bu nedenle önce ilkeler açıkça yazılır, sonra uygulama kontrollü biçimde geliştirilir.",
+    "open_book_cta": "Kitabı Oku",
+    "community_title": "Topluluk destekli gelişim",
+    "community_text": "Saule yalnızca kapalı bir ürün olarak değil, yaşayan kitap ve erken topluluk geri bildirimiyle gelişen bir araştırma alanı olarak tasarlanmaktadır. Topluluk, ürünün dilini, etik sınırlarını ve gerçek insan deneyimine uygunluğunu denetleyen öğrenme alanıdır.",
+    "community_cta": "Topluluk Sayfasına Git",
+    "access_title": "Uygulama erişimi davetlidir",
+    "access_text": "Saule uygulaması erken aşamada herkese açık olmayacaktır. Erişim, web sitesi üzerinden yapılan başvuru ve değerlendirme sonrasında davet bağlantısı ile sağlanacaktır.",
+    "access_cta": "Erken Erişim Talep Et",
+    "what_saule_is_not": "Saule tıbbi, klinik veya terapötik bir hizmet değildir. Teşhis koymayı, tedavi önermeyi veya insan desteğinin yerini almayı amaçlamaz. Saule gözlem yapar ama hüküm vermez; örüntü gösterir ama kimlik dayatmaz; destek sunar ama kullanıcının iradesini devralmaz."
+  },
+  "community_page": {
+    "title": "Saule Topluluğu",
+    "subtitle": "Zihinsel dağınıklık, dikkat krizi ve insan öncelikli yapay zekâ üzerine açık öğrenme alanı.",
+    "why_title": "Neden Topluluk?",
+    "why_text": "Saule’nin konusu soyut değildir. Zihinsel dağınıklık, açık döngüler, karar yükü, ilişkisel sorumluluklar ve dikkat kaybı gerçek insan hayatında farklı biçimlerde yaşanır. Bu yüzden Saule yalnızca kurucu varsayımlarıyla değil, erken topluluk geri bildirimiyle gelişmelidir.",
+    "role_title": "Topluluğun Rolü",
+    "role_item1": "Dilin insani kalmasını sağlamak",
+    "role_item2": "Ürünün kör noktalarını görünür kılmak",
+    "role_item3": "Etik sınırları tartışmak",
+    "role_item4": "Yaşayan Kitap bölümlerine geri bildirim vermek",
+    "role_item5": "Erken ürün deneyimlerini kontrollü biçimde değerlendirmek",
+    "principle_title": "Topluluk İlkesi",
+    "principle_text": "İnsan deneyiminden öğren, insan mahremiyetini tüketme.",
+    "sustainability_title": "Sürdürülebilirlik Notu",
+    "sustainability_text": "Saule’nin erken geliştirme süreci ileride topluluk destekli ve şeffaf sürdürülebilirlik modeliyle desteklenebilir. Bu alan ürün erişimi satın alma, yatırım veya finansal getiri vaadi değildir. Destek modeli yayınlanmadan önce hukuki ve muhasebesel çerçeve ayrıca netleştirilmelidir."
+  },
+  "access_page": {
+    "title": "Saule Erken Erişim",
+    "subtitle": "Uygulama şu anda davetli erişim modeliyle geliştirilmektedir.",
+    "why_title": "Neden Davetli Erişim?",
+    "why_text": "Saule kişisel bellek, dikkat, kararlar, ilişkiler ve zihinsel yük gibi hassas alanlara temas eder. Bu nedenle erken aşamada herkese açık kayıt yerine kontrollü başvuru ve davet modeli kullanılacaktır.",
+    "process_title": "Süreç",
+    "process_item1": "Yaşayan Kitabı oku",
+    "process_item2": "Erken erişim formunu doldur",
+    "process_item3": "Başvuru değerlendirilir",
+    "process_item4": "Uygun görülürse davet bağlantısı gönderilir",
+    "process_item5": "Geri bildirim sürecine katılırsın",
+    "expectations_title": "Beklentiler",
+    "expectations_item1": "Saule klinik destek değildir",
+    "expectations_item2": "Saule teşhis veya tedavi sunmaz",
+    "expectations_item3": "Saule erken aşama bir üründür",
+    "expectations_item4": "Katılımcılardan dürüst geri bildirim beklenir",
+    "expectations_item5": "Kullanıcı verisi ve mahremiyet sınırları önceliklidir",
+    "form_name": "İsim",
+    "form_email": "E-posta",
+    "form_reason": "Saule’ni neden denemek istiyorsun?",
+    "form_struggle": "En çok hangi alanda zorlanıyorsun?",
+    "form_takeaway": "Yaşayan kitaptan aklında kalan bir çıkarım ya da bir cümle yazabilir misin?",
+    "form_feedback": "Geri bildirim vermeye açık mısın?",
+    "form_consent": "Saule’nin klinik destek olmadığını anlıyorum",
+    "form_submit": "Erken Erişim Talep Et",
+    "form_submit_disabled": "Form Gönderimi Yakında Açılacak"
   }
 }

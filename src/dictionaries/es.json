@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "El Libro Vivo de Saule — Inteligencia Adaptativa para la Vida",
+    "title": "Saule — Inteligencia Adaptativa para la Vida",
     "description": "El Libro Vivo de Saule documenta la filosofía, investigación, arquitectura, psicología y diseño técnico de Saule. La fuente de verdad para la aplicación."
   },
   "common": {
@@ -9,6 +9,8 @@
     "next_chapter": "Siguiente Capítulo",
     "prev_chapter": "Capítulo Anterior",
     "chapter": "Capítulo",
+    "appendix": "Anexo",
+    "appendices": "Anexos",
     "none": "Ninguno",
     "dashboard": "Inicio",
     "minutes": "min",
@@ -16,13 +18,21 @@
     "close_navigation": "Cerrar navegación de capítulos",
     "volume": "Volumen",
     "chapters_directory": "Directorio de capítulos",
-    "previous_volume": "Volumen anterior",
-    "next_volume": "Siguiente volumen",
-    "research_workspace": "Espacio de investigación"
+    "previous_volume": "Volumen Anterior",
+    "next_volume": "Siguiente Volumen",
+    "research_workspace": "Espacio de Investigación",
+    "book_start": "Inicio del Libro",
+    "preface": "Prefacio",
+    "what_is_book_for": "¿Para qué sirve este Libro?",
+    "how_to_read": "¿Cómo debe leerse?"
   },
   "header": {
     "logo": "Saule",
-    "badge": "El Libro Vivo"
+    "badge": "El Libro Vivo",
+    "nav_home": "Inicio",
+    "nav_book": "Libro Vivo",
+    "nav_community": "Comunidad",
+    "nav_access": "Acceso Temprano"
   },
   "footer": {
     "owner": "Pool IQ",
@@ -95,7 +105,10 @@
   "volumes": {
     "v1": {
       "title": "Volumen I: La Condición Humana",
-      "purpose": "Comprender el problema humano moderno antes de introducir Saule."
+      "purpose": "Comprender el problema humano moderno antes de introducir Saule.",
+      "intro_p1": "Saule no comienza con características, pantallas, modelos de IA o herramientas de productividad, sino con un estudio de la persona moderna.",
+      "intro_p2": "La pregunta central del Volumen I: ¿Por qué las personas que saben lo que quieren todavía luchan por seguir adelante? ¿Por qué estamos abrumados, distraídos, cargados emocionalmente y divididos entre demasiados bucles abiertos?",
+      "intro_p3": "El Volumen I aún no diseña Saule. Define el problema que Saule debe ser digna de resolver."
     },
     "v2": {
       "title": "Volumen II: Entendiendo la Mente Humana",
@@ -567,5 +580,80 @@
       "purpose": "Examinar cómo las personas recurren a la distracción, la compulsión y los bucles de adormecimiento para escapar de la sobrecarga, y qué debe comprender un diseño humano sobre esos patrones.",
       "key_question": "¿Por qué volvemos a conductas que alivian la presión por un momento pero profundizan la confusión con el tiempo?"
     }
+  },
+  "appendices": {
+    "volume-1-appendix-1-lonely-optimization": {
+      "title": "El ser humano dejado solo para auto-optimizarse",
+      "purpose": "Explicar que el ser humano moderno no solo está mentalmente saturado, sino que también se le deja solo para optimizar su propia atención, capacidad, rutinas, relaciones, decisiones y carga emocional. Fundamentar por qué Saule debe desarrollarse no solo como una aplicación cerrada, sino como una inteligencia de vida de código abierto, apoyada por la comunidad, con acceso por invitación y en busca de una sostenibilidad ética.",
+      "key_question": "¿Por qué el ser humano moderno se ha convertido en el único gestor de su propia carga mental?"
+    },
+    "volume-2-appendix-1-body-energy-and-capacity": {
+      "title": "Cuerpo, Energía y Capacidad",
+      "purpose": "Explicar que las capas de memoria, emoción, motivación, hábito y decisión no operan independientemente del cuerpo, y definir cómo debe abordar Saule la capacidad de una manera realista, compasiva y no intrusiva.",
+      "key_question": "¿Cómo puede Saule acompañar la capacidad corporal fluctuante sin pretender realizar un seguimiento de la salud?"
+    }
+  },
+  "homepage": {
+    "hero_title": "Saule",
+    "hero_subtitle": "Inteligencia adaptativa para la vida.",
+    "hero_desc": "Saule se está desarrollando como una inteligencia de vida centrada en el ser humano para ayudar a la persona moderna a lidiar con el desorden mental, los bucles abiertos, la crisis de atención y la fatiga por tomar decisiones.",
+    "cta_read_book": "Leer el Libro Vivo",
+    "cta_request_access": "Solicitar Acceso Temprano",
+    "cta_join_community": "Unirse a la Comunidad",
+    "problem_title": "La vida moderna llena la mente con más bucles abiertos de los que puede soportar.",
+    "problem_text": "Tareas, mensajes, decisiones, relaciones, incertidumbres e intenciones inacabadas se acumulan en el mismo espacio mental. La mayoría de las herramientas de productividad proponen organizar mejor esta carga; Saule primero busca comprender cómo se experimenta esta carga en el ser humano.",
+    "open_book_title": "Libro Abierto, Aplicación Cerrada",
+    "open_book_text": "La base conceptual de Saule puede ser leída por todos. Sin embargo, la aplicación procederá con acceso solo por invitación en las primeras etapas, en lugar de registro público. Porque Saule toca áreas sensibles como la memoria personal, la atención, las decisiones, las relaciones y la carga mental. Por lo tanto, los principios se escriben abiertamente primero y luego la aplicación se desarrolla de manera controlada.",
+    "open_book_cta": "Leer el Libro",
+    "community_title": "Desarrollo apoyado por la comunidad",
+    "community_text": "Saule está diseñado no solo como un producto cerrado, sino como un espacio de investigación que evoluciona con un libro vivo y comentarios tempranos de la comunidad. La comunidad es el espacio de aprendizaje que inspecciona el lenguaje del producto, sus límites éticos y su idoneidad para la experiencia humana real.",
+    "community_cta": "Ir a la Página de la Comunidad",
+    "access_title": "El acceso a la aplicación es por invitación",
+    "access_text": "La aplicación Saule no estará abierta para todos en las primeras etapas. El acceso se proporcionará a través de un enlace de invitación después de la solicitud y revisión a través del sitio web.",
+    "access_cta": "Solicitar Acceso Temprano",
+    "what_saule_is_not": "Saule no es un servicio médico, clínico o terapéutico. No pretende diagnosticar, sugerir tratamientos ni reemplazar el apoyo humano. Saule observa pero no juzga; muestra patrones pero no impone identidad; ofrece apoyo pero no se apodera de la voluntad del usuario."
+  },
+  "community_page": {
+    "title": "Comunidad Saule",
+    "subtitle": "Un espacio de aprendizaje abierto sobre el desorden mental, la crisis de atención y la inteligencia artificial centrada en el ser humano.",
+    "why_title": "¿Por qué la Comunidad?",
+    "why_text": "El tema de Saule no es abstracto. El desorden mental, los bucles abiertos, la fatiga por tomar decisiones, las responsabilidades relacionales y la pérdida de atención se experimentan de manera diferente en la vida humana real. Por eso Saule debe desarrollarse no solo a través de supuestos fundacionales, sino también a través de comentarios tempranos de la comunidad.",
+    "role_title": "El Rol de la Comunidad",
+    "role_item1": "Garantizar que el lenguaje siga siendo humano",
+    "role_item2": "Hacer visibles los puntos ciegos del producto",
+    "role_item3": "Discutir los límites éticos",
+    "role_item4": "Proporcionar comentarios sobre los capítulos del Libro Vivo",
+    "role_item5": "Evaluar las primeras experiencias con el producto de manera controlada",
+    "principle_title": "Principio de la Comunidad",
+    "principle_text": "Aprender de la experiencia humana, no consumir la privacidad humana.",
+    "sustainability_title": "Nota sobre Sostenibilidad",
+    "sustainability_text": "El proceso de desarrollo temprano de Saule puede ser apoyado por un modelo de sostenibilidad transparente y apoyado por la comunidad en el futuro. Este espacio no es una compra de aplicación, inversión o promesa de retorno financiero. Antes de publicar el modelo de soporte, también se debe aclarar el marco legal y contable."
+  },
+  "access_page": {
+    "title": "Acceso Temprano a Saule",
+    "subtitle": "Actualmente, la aplicación se está desarrollando bajo un modelo de solo invitación.",
+    "why_title": "¿Por qué Acceso Invitado?",
+    "why_text": "Saule toca áreas sensibles como la memoria personal, la atención, las decisiones, las relaciones y la carga mental. Por lo tanto, se utilizará un modelo de solicitud y de invitación controlado en lugar de un registro público en las primeras etapas.",
+    "process_title": "Proceso",
+    "process_item1": "Leer el Libro Vivo",
+    "process_item2": "Completar el formulario de acceso temprano",
+    "process_item3": "La solicitud es evaluada",
+    "process_item4": "Si se aprueba, se envía un enlace de invitación",
+    "process_item5": "Participas en el proceso de retroalimentación",
+    "expectations_title": "Expectativas",
+    "expectations_item1": "Saule no es apoyo clínico",
+    "expectations_item2": "Saule no ofrece diagnóstico ni tratamiento",
+    "expectations_item3": "Saule es un producto en etapa temprana",
+    "expectations_item4": "Se espera una retroalimentación honesta de los participantes",
+    "expectations_item5": "Los datos del usuario y los límites de privacidad son primordiales",
+    "form_name": "Nombre",
+    "form_email": "Correo electrónico",
+    "form_reason": "¿Por qué quieres probar Saule?",
+    "form_struggle": "¿En qué área tienes más dificultades?",
+    "form_takeaway": "¿Podrías escribir una conclusión o una frase del Libro Vivo que se te haya quedado grabada?",
+    "form_feedback": "¿Estás abierto a dar retroalimentación?",
+    "form_consent": "Entiendo que Saule no es apoyo clínico",
+    "form_submit": "Solicitar Acceso Temprano",
+    "form_submit_disabled": "El envío de formularios se abrirá pronto"
   }
 }

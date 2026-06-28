@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "The Living Book of Saule — Adaptive Intelligence for Life",
+    "title": "Saule — Adaptive Intelligence for Life",
     "description": "The Living Book of Saule documents the philosophy, research, architecture, psychology, and engineering behind Saule. The source of truth for the application."
   },
   "common": {
@@ -9,6 +9,8 @@
     "next_chapter": "Next Chapter",
     "prev_chapter": "Previous Chapter",
     "chapter": "Chapter",
+    "appendix": "Appendix",
+    "appendices": "Appendices",
     "none": "None",
     "dashboard": "Dashboard",
     "minutes": "min",
@@ -18,11 +20,19 @@
     "chapters_directory": "Chapters Directory",
     "previous_volume": "Previous Volume",
     "next_volume": "Next Volume",
-    "research_workspace": "Research Workspace"
+    "research_workspace": "Research Workspace",
+    "book_start": "Book Start",
+    "preface": "Preface",
+    "what_is_book_for": "What is this Book for?",
+    "how_to_read": "How should it be Read?"
   },
   "header": {
     "logo": "Saule",
-    "badge": "The Living Book"
+    "badge": "The Living Book",
+    "nav_home": "Home",
+    "nav_book": "Living Book",
+    "nav_community": "Community",
+    "nav_access": "Early Access"
   },
   "footer": {
     "owner": "Pool IQ",
@@ -570,5 +580,80 @@
       "purpose": "Examine how people use distraction, compulsion, and self-numbing loops to escape overload, and what humane design must understand about those patterns.",
       "key_question": "Why do people return to behaviors that relieve pressure for a moment while deepening confusion over time?"
     }
+  },
+  "appendices": {
+    "volume-1-appendix-1-lonely-optimization": {
+      "title": "The Human Left Alone to Self-Optimize",
+      "purpose": "To explain that the modern human is not only mentally cluttered; they are also left alone to optimize their own attention, capacity, routines, relationships, decisions, and emotional load. To ground why Saule must develop not merely as a closed application, but as an open-source, community-supported, invite-access life intelligence seeking ethical sustainability.",
+      "key_question": "Why has the modern human been made the sole manager of their own mental load?"
+    },
+    "volume-2-appendix-1-body-energy-and-capacity": {
+      "title": "Body, Energy, and Capacity",
+      "purpose": "Explain that memory, emotion, motivation, habit, and decision layers do not operate independently from the body, and define how Saule should approach capacity in a realistic, compassionate, and non-intrusive way.",
+      "key_question": "How can Saule support fluctuating bodily capacity without making health-tracking claims?"
+    }
+  },
+  "homepage": {
+    "hero_title": "Saule",
+    "hero_subtitle": "Adaptive intelligence for life.",
+    "hero_desc": "Saule is being developed as a human-first life intelligence to help the modern person handle mental clutter, open loops, attention crisis, and decision fatigue.",
+    "cta_read_book": "Read the Living Book",
+    "cta_request_access": "Request Early Access",
+    "cta_join_community": "Join Community",
+    "problem_title": "Modern life fills the mind with more open loops than it can carry.",
+    "problem_text": "Tasks, messages, decisions, relationships, uncertainties, and unfinished intentions accumulate in the same mental space. Most productivity tools propose to organize this load better; Saule first seeks to understand how this load is experienced on the human.",
+    "open_book_title": "Open Book, Closed Application",
+    "open_book_text": "The conceptual foundation of Saule can be read by everyone. However, the application will proceed with invite-only access rather than public registration in the early stages. Because Saule touches sensitive areas such as personal memory, attention, decisions, relationships, and mental load. Therefore, the principles are written openly first, and then the application is developed in a controlled manner.",
+    "open_book_cta": "Read the Book",
+    "community_title": "Community-supported development",
+    "community_text": "Saule is designed not just as a closed product, but as a research space evolving with a living book and early community feedback. The community is the learning space that inspects the language of the product, its ethical boundaries, and its suitability for real human experience.",
+    "community_cta": "Go to Community Page",
+    "access_title": "Application access is by invitation",
+    "access_text": "The Saule application will not be open to everyone in the early stages. Access will be provided via an invitation link after application and review via the website.",
+    "access_cta": "Request Early Access",
+    "what_saule_is_not": "Saule is not a medical, clinical, or therapeutic service. It does not aim to diagnose, suggest treatment, or replace human support. Saule observes but does not judge; it shows patterns but does not impose identity; it offers support but does not take over the user's will."
+  },
+  "community_page": {
+    "title": "Saule Community",
+    "subtitle": "An open learning space on mental clutter, attention crisis, and human-first artificial intelligence.",
+    "why_title": "Why Community?",
+    "why_text": "Saule's subject is not abstract. Mental clutter, open loops, decision fatigue, relational responsibilities, and attention loss are experienced differently in real human lives. That is why Saule must develop not only through founding assumptions, but also through early community feedback.",
+    "role_title": "The Community's Role",
+    "role_item1": "Ensuring the language remains human",
+    "role_item2": "Making the product's blind spots visible",
+    "role_item3": "Discussing ethical boundaries",
+    "role_item4": "Providing feedback on the Living Book chapters",
+    "role_item5": "Evaluating early product experiences in a controlled manner",
+    "principle_title": "Community Principle",
+    "principle_text": "Learn from human experience, do not consume human privacy.",
+    "sustainability_title": "Sustainability Note",
+    "sustainability_text": "The early development process of Saule may be supported by a community-supported and transparent sustainability model in the future. This space is not an application purchase, investment, or financial return promise. Before the support model is published, the legal and accounting framework must also be clarified."
+  },
+  "access_page": {
+    "title": "Saule Early Access",
+    "subtitle": "The application is currently being developed under an invitation-only model.",
+    "why_title": "Why Invited Access?",
+    "why_text": "Saule touches sensitive areas such as personal memory, attention, decisions, relationships, and mental load. Therefore, a controlled application and invitation model will be used instead of public registration in the early stages.",
+    "process_title": "Process",
+    "process_item1": "Read the Living Book",
+    "process_item2": "Fill out the early access form",
+    "process_item3": "The application is reviewed",
+    "process_item4": "If approved, an invitation link is sent",
+    "process_item5": "You participate in the feedback process",
+    "expectations_title": "Expectations",
+    "expectations_item1": "Saule is not clinical support",
+    "expectations_item2": "Saule does not offer diagnosis or treatment",
+    "expectations_item3": "Saule is an early-stage product",
+    "expectations_item4": "Honest feedback is expected from participants",
+    "expectations_item5": "User data and privacy boundaries are primary",
+    "form_name": "Name",
+    "form_email": "Email",
+    "form_reason": "Why do you want to try Saule?",
+    "form_struggle": "In which area do you struggle the most?",
+    "form_takeaway": "Can you write a takeaway or a sentence that stuck with you from the Living Book?",
+    "form_feedback": "Are you open to giving feedback?",
+    "form_consent": "I understand that Saule is not clinical support",
+    "form_submit": "Request Early Access",
+    "form_submit_disabled": "Form Submission Opening Soon"
   }
 }

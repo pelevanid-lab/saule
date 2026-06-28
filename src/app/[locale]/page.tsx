@@ -1,6 +1,4 @@
 import { getDictionary } from '@/lib/dictionaries';
-import { volumes, bookConfig } from '@/lib/book';
-import { getTranslationMember, getTranslationValue } from '@/lib/translation';
 import Link from 'next/link';
 
 export default async function Page({
@@ -11,182 +9,120 @@ export default async function Page({
   const { locale } = await params;
   const dict = await getDictionary(locale);
 
-  // Status mapping helper for visual classes
-  const getStatusColorClass = (status: string) => {
-    switch (status) {
-      case 'Locked':
-        return 'bg-sage/10 text-sage-dark border-sage/20';
-      case 'Reviewing':
-        return 'bg-amber-100 text-amber-800 border-amber-200';
-      case 'Drafting':
-        return 'bg-blue-100 text-blue-800 border-blue-200';
-      case 'Deprecated':
-        return 'bg-sand-300 text-charcoal-muted border-sand-300';
-      case 'Researching':
-      default:
-        return 'bg-sand-200 text-charcoal-muted border-sand-300/40';
-    }
-  };
-
   return (
-    <div className="space-y-16">
-      {/* Book Dashboard Header */}
-      <section className="space-y-6">
-        <div className="flex flex-wrap items-center gap-3">
-          <span className="px-2.5 py-0.5 rounded-full text-[10px] font-sans font-bold uppercase tracking-wider bg-sage/15 text-sage-dark border border-sage/20">
-            {dict.dashboard.living_book_badge}
-          </span>
-          <span className="font-sans text-[11px] text-charcoal-muted uppercase tracking-widest font-semibold">
-            {dict.dashboard.version_label} {bookConfig.version}
-          </span>
-        </div>
-
-        <div className="space-y-3">
-          <h1 className="font-serif text-4xl sm:text-6xl font-bold tracking-tight text-charcoal leading-none">
-            {dict.dashboard.title}
+    <div className="space-y-24 py-6 max-w-4xl mx-auto">
+      {/* 1. HERO SECTION */}
+      <section className="text-center space-y-8 py-12 md:py-20 border-b border-sand-300/30">
+        <div className="space-y-4">
+          <h1 className="font-serif text-5xl md:text-7xl font-bold tracking-tight text-charcoal leading-tight">
+            {dict.homepage.hero_title}
           </h1>
-          <p className="font-serif text-lg sm:text-xl italic text-sage-dark font-medium">
-            {dict.dashboard.subtitle}
+          <p className="font-serif text-lg md:text-2xl italic text-sage-dark font-medium leading-relaxed max-w-2xl mx-auto">
+            {dict.homepage.hero_subtitle}
           </p>
         </div>
-      </section>
+        
+        <p className="font-sans text-sm md:text-base text-charcoal-muted leading-relaxed max-w-2xl mx-auto">
+          {dict.homepage.hero_desc}
+        </p>
 
-      {/* Book Metadata Board */}
-      <section className="grid grid-cols-2 md:grid-cols-3 gap-5 border-t border-b border-sand-300/40 py-8">
-        <div>
-          <span className="block text-[10px] font-sans font-semibold tracking-wider uppercase text-charcoal-muted/60">
-            {dict.dashboard.status_label}
-          </span>
-          <span className="font-serif text-sm font-bold text-sage-dark block mt-1 leading-snug">
-            {dict.dashboard.status_desc}
-          </span>
-        </div>
-        <div>
-          <span className="block text-[10px] font-sans font-semibold tracking-wider uppercase text-charcoal-muted/60">
-            {dict.dashboard.last_updated_label}
-          </span>
-          <span className="font-serif text-sm font-bold text-charcoal block mt-1">
-            {bookConfig.lastUpdated}
-          </span>
-        </div>
-        <div>
-          <span className="block text-[10px] font-sans font-semibold tracking-wider uppercase text-charcoal-muted/60">
-            {dict.dashboard.metric_volumes}
-          </span>
-          <span className="font-serif text-2xl font-bold text-charcoal block mt-0.5">
-            {bookConfig.volumeCount}
-          </span>
-        </div>
-        <div>
-          <span className="block text-[10px] font-sans font-semibold tracking-wider uppercase text-charcoal-muted/60">
-            {dict.dashboard.metric_chapters}
-          </span>
-          <span className="font-serif text-2xl font-bold text-charcoal block mt-0.5">
-            {bookConfig.chapterCount}
-          </span>
-        </div>
-        <div>
-          <span className="block text-[10px] font-sans font-semibold tracking-wider uppercase text-charcoal-muted/60">
-            {dict.dashboard.metric_written}
-          </span>
-          <span className="font-serif text-2xl font-bold text-charcoal block mt-0.5">
-            {bookConfig.writtenChaptersCount} / {bookConfig.chapterCount}
-          </span>
-        </div>
-        <div>
-          <span className="block text-[10px] font-sans font-semibold tracking-wider uppercase text-charcoal-muted/60">
-            {dict.dashboard.metric_sources}
-          </span>
-          <span className="font-serif text-2xl font-bold text-charcoal block mt-0.5">
-            {bookConfig.researchSourcesCount}
-          </span>
-        </div>
-        <div>
-          <span className="block text-[10px] font-sans font-semibold tracking-wider uppercase text-charcoal-muted/60">
-            {dict.dashboard.metric_questions}
-          </span>
-          <span className="font-serif text-2xl font-bold text-charcoal block mt-0.5">
-            {bookConfig.openQuestionsCount}
-          </span>
-        </div>
-        <div>
-          <span className="block text-[10px] font-sans font-semibold tracking-wider uppercase text-charcoal-muted/60">
-            {dict.dashboard.metric_decisions}
-          </span>
-          <span className="font-serif text-2xl font-bold text-charcoal block mt-0.5">
-            {bookConfig.designDecisionsCount}
-          </span>
+        <div className="flex flex-col sm:flex-row justify-center items-center gap-4 pt-4">
+          <Link
+            href={`/${locale}/book`}
+            className="w-full sm:w-auto px-6 py-3 bg-sage text-sand-100 font-sans font-bold text-xs uppercase tracking-widest rounded shadow-md hover:bg-sage-dark transition-all duration-300 cursor-pointer text-center"
+          >
+            {dict.homepage.cta_read_book}
+          </Link>
+          <Link
+            href={`/${locale}/access`}
+            className="w-full sm:w-auto px-6 py-3 border border-clay text-clay hover:bg-clay/5 font-sans font-bold text-xs uppercase tracking-widest rounded transition-all duration-300 cursor-pointer text-center"
+          >
+            {dict.homepage.cta_request_access}
+          </Link>
+          <Link
+            href={`/${locale}/community`}
+            className="w-full sm:w-auto px-6 py-3 border border-sand-400 text-charcoal-muted hover:bg-sand-200/50 font-sans font-bold text-xs uppercase tracking-widest rounded transition-all duration-300 cursor-pointer text-center"
+          >
+            {dict.homepage.cta_join_community}
+          </Link>
         </div>
       </section>
 
-      {/* The Preface */}
-      <section className="space-y-4 max-w-2xl">
-        <h2 className="font-serif text-2xl font-semibold text-charcoal">
-          {dict.dashboard.preface_title}
+      {/* 2. PROBLEM AREA */}
+      <section className="space-y-6 max-w-3xl mx-auto py-6 border-b border-sand-300/30">
+        <h2 className="font-serif text-2xl md:text-3xl font-bold text-charcoal leading-snug">
+          {dict.homepage.problem_title}
         </h2>
-        <div className="font-serif text-base text-charcoal-muted leading-relaxed space-y-4">
-          <p className="font-semibold text-charcoal italic pl-4 border-l-2 border-sage/40">
-            {dict.dashboard.preface_body_1}
+        <p className="font-sans text-sm md:text-base text-charcoal-muted leading-relaxed">
+          {dict.homepage.problem_text}
+        </p>
+      </section>
+
+      {/* 3. OPEN BOOK, CLOSED APPLICATION */}
+      <section className="grid grid-cols-1 md:grid-cols-12 gap-8 items-start py-6 border-b border-sand-300/30">
+        <div className="md:col-span-8 space-y-4">
+          <h2 className="font-serif text-2xl md:text-3xl font-bold text-charcoal leading-snug">
+            {dict.homepage.open_book_title}
+          </h2>
+          <p className="font-sans text-sm md:text-base text-charcoal-muted leading-relaxed">
+            {dict.homepage.open_book_text}
           </p>
-          <p>{dict.dashboard.preface_body_2}</p>
-          <p className="text-sm font-sans text-charcoal-muted/90">{dict.dashboard.preface_body_3}</p>
+        </div>
+        <div className="md:col-span-4 md:pt-12">
+          <Link
+            href={`/${locale}/book`}
+            className="block w-full px-5 py-3 border border-sage text-sage-dark font-sans font-bold text-xs uppercase tracking-widest rounded hover:bg-sage/10 transition-all duration-300 cursor-pointer text-center"
+          >
+            {dict.homepage.open_book_cta}
+          </Link>
         </div>
       </section>
 
-      {/* Volume Directory List */}
-      <section className="space-y-8 border-t border-sand-300/40 pt-12">
-        <h2 className="font-serif text-2xl font-semibold text-charcoal">
-          {dict.dashboard.volumes_and_chapters}
-        </h2>
-        <div className="space-y-10">
-          {volumes.map((vol) => {
-            const volTitle = getTranslationValue(dict, vol.titleKey) || '';
-            const volPurpose = getTranslationValue(dict, vol.purposeKey) || '';
-            return (
-              <details key={vol.id} className="group space-y-4" open={vol.id === 1}>
-                <summary className="list-none cursor-pointer space-y-1.5 pb-3 border-b border-sand-300/30">
-                  <div className="flex items-center justify-between gap-4">
-                    <h3 className="font-serif text-lg font-bold text-sage-dark">
-                      {volTitle}
-                    </h3>
-                    <span className="text-charcoal-muted transition-transform group-open:rotate-180" aria-hidden="true">
-                      ↓
-                    </span>
-                  </div>
-                  <p className="text-xs sm:text-sm font-sans text-charcoal-muted italic pr-8">
-                    {volPurpose}
-                  </p>
-                </summary>
-                
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4">
-                  {vol.chapters.map((ch) => {
-                    const chTitle = getTranslationValue(dict, ch.purposeKey.replace('.purpose', '.title')) || '';
-                    const numStr = ch.chapterNumber.toString().padStart(2, '0');
-                    return (
-                      <Link
-                        key={ch.slug}
-                        href={`/${locale}/chapter/${ch.slug}`}
-                        className="p-4 bg-sand-200/25 border border-sand-300/10 hover:border-sage/20 hover:bg-sand-200/50 rounded flex items-center justify-between transition-all duration-300 group cursor-pointer"
-                      >
-                        <div className="space-y-1 flex-1 pr-4">
-                          <span className="font-sans text-[10px] font-bold text-clay uppercase tracking-wider block">
-                            {dict.common.chapter || 'Chapter'} {numStr}
-                          </span>
-                          <span className="font-serif text-sm font-semibold text-charcoal group-hover:text-sage-dark transition-colors block">
-                            {chTitle}
-                          </span>
-                        </div>
-                        <span className={`px-2 py-0.5 rounded text-[9px] font-sans font-semibold border ${getStatusColorClass(ch.status)}`}>
-                          {getTranslationMember(dict.workspace, `status_${ch.status.toLowerCase()}`, ch.status)}
-                        </span>
-                      </Link>
-                    );
-                  })}
-                </div>
-              </details>
-            );
-          })}
+      {/* 4. COMMUNITY */}
+      <section className="grid grid-cols-1 md:grid-cols-12 gap-8 items-start py-6 border-b border-sand-300/30">
+        <div className="md:col-span-8 space-y-4">
+          <h2 className="font-serif text-2xl md:text-3xl font-bold text-charcoal leading-snug">
+            {dict.homepage.community_title}
+          </h2>
+          <p className="font-sans text-sm md:text-base text-charcoal-muted leading-relaxed">
+            {dict.homepage.community_text}
+          </p>
         </div>
+        <div className="md:col-span-4 md:pt-12">
+          <Link
+            href={`/${locale}/community`}
+            className="block w-full px-5 py-3 border border-sand-400 text-charcoal-muted font-sans font-bold text-xs uppercase tracking-widest rounded hover:bg-sand-200/50 transition-all duration-300 cursor-pointer text-center"
+          >
+            {dict.homepage.community_cta}
+          </Link>
+        </div>
+      </section>
+
+      {/* 5. EARLY ACCESS */}
+      <section className="grid grid-cols-1 md:grid-cols-12 gap-8 items-start py-6 border-b border-sand-300/30">
+        <div className="md:col-span-8 space-y-4">
+          <h2 className="font-serif text-2xl md:text-3xl font-bold text-charcoal leading-snug">
+            {dict.homepage.access_title}
+          </h2>
+          <p className="font-sans text-sm md:text-base text-charcoal-muted leading-relaxed">
+            {dict.homepage.access_text}
+          </p>
+        </div>
+        <div className="md:col-span-4 md:pt-12">
+          <Link
+            href={`/${locale}/access`}
+            className="block w-full px-5 py-3 border border-clay text-clay font-sans font-bold text-xs uppercase tracking-widest rounded hover:bg-clay/5 transition-all duration-300 cursor-pointer text-center"
+          >
+            {dict.homepage.access_cta}
+          </Link>
+        </div>
+      </section>
+
+      {/* 6. WHAT SAULE IS NOT */}
+      <section className="p-6 bg-sand-200/40 border border-sand-300/30 rounded max-w-3xl mx-auto">
+        <p className="font-sans text-xs md:text-sm text-charcoal-muted leading-relaxed italic text-center">
+          {dict.homepage.what_saule_is_not}
+        </p>
       </section>
     </div>
   );
