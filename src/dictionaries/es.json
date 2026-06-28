@@ -148,7 +148,7 @@
             "heading": "3. La Carga Invisible",
             "paragraphs": [
               "Uno de los aspectos más agotadores de sentirse abrumado es que a menudo es invisible.",
-              "Una persona no tiene una bolsa pesada sobre sus hombros. No llevan un peso físico. Desde afuera, podrían parecer que solo están sentados, mirando su teléfono, bebiendo café o no haciendo nada.",
+              "Una persona con la mente cansada no tiene una bolsa pesada sobre sus hombros. No llevan un peso físico. Desde afuera, podrían parecer que solo están sentados, mirando su teléfono, bebiendo café o no haciendo nada.",
               "Pero la carga mental no es visible como la carga física.",
               "Recordar lo que necesita ser recordado es una carga. Saber a quién responder es una carga. Saber qué decisión se retrasa es una carga. Llevar promesas hechas es una carga. Sentir que vives por debajo de tu potencial es una carga. Saber que no te acercas a una meta es una carga. Sentir que una relación necesita atención es una carga.",
               "Estas cargas rara vez están escritas en un solo lugar. Algunas están en el calendario. Algunas en WhatsApp. Algunas en el correo electrónico. Algunas en las notas. Algunas en la mente. Algunas viven como una tensión atrapada en el cuerpo.",
@@ -369,26 +369,21 @@
     },
     "the-attention-crisis": {
       "title": "La Crisis de Atención",
-      "purpose": "Examinar la neuroquímica de la captura de atención y cómo los bucles reactivos erosionan el enfoque.",
-      "key_question": "¿Cómo alteran los sistemas de extracción de atención la red neuronal por defecto (DMN) del cerebro?"
+      "purpose": "Examinar cómo el entorno digital moderno fragmenta la atención, cómo las interrupciones constantes degradan la calidad del pensamiento y los principios bajo los cuales Saule debe diseñar la protección de la atención.",
+      "key_question": "¿Cómo debilitan los sistemas basados en la interrupción constante y la explotación de la atención la capacidad humana de concentración, recuperación y elección consciente?"
     },
     "open-loops": {
       "title": "Ciclos Abiertos",
-      "purpose": "Rastrear el efecto Zeigarnik en la gestión de tareas personales y la ansiedad por los asuntos pendientes.",
-      "key_question": "¿Por qué los compromisos inconclusos activan un estrés subconsciente persistente?"
-    },
-    "executive-function": {
-      "title": "Función Ejecutiva",
-      "purpose": "Mapear los límites de carga cognitiva, la capacidad de la memoria de trabajo y el agotamiento de la fuerza de voluntad.",
-      "key_question": "¿Qué ocurre con el control ejecutivo cuando la mente está constantemente sobrecargada?"
+      "purpose": "Examinar cómo las tareas incompletas, las decisiones postergadas, las promesas hechas y los asuntos relacionales abiertos permanecen activos en la mente, y cómo Saule puede clarificar estos bucles sin juzgar.",
+      "key_question": "¿Por qué lo inconcluso sigue viviendo en el fondo de la mente?"
     },
     "why-existing-productivity-systems-fail": {
-      "title": "Por qué fallan los sistemas de productividad existentes",
-      "purpose": "Desarmar por qué las agendas, listas de tareas y CRM tradicionales se sienten fríos, rígidos y finalmente colapsan.",
-      "key_question": "¿Por qué las herramientas diseñadas para organizar la vida se convierten con frecuencia en fuentes de estrés adicional?"
+      "title": "Por Qué Fallan los Sistemas de Productividad Existentes",
+      "purpose": "Explicar por qué las herramientas rígidas de productividad fallan cuando asumen una capacidad humana estable e ignoran el estrés, el sueño, la carga emocional, la incertidumbre, el entorno y los bucles abiertos.",
+      "key_question": "¿Por qué se rompen los sistemas de productividad cuando esperan que una persona funcione como una máquina?"
     },
     "cost-of-constant-context-switching": {
-      "title": "El costo del cambio de contexto constante",
+      "title": "El Costo Cognitivo del Cambio Constante de Contexto",
       "purpose": "Calcular la pérdida cognitiva y el agotamiento de la atención asociados con el multitasking digital.",
       "key_question": "¿Cuál es el costo real de alternar el enfoque entre áreas de vida no relacionadas varias veces por hora?"
     },
@@ -566,6 +561,11 @@
       "title": "Construyendo Saule",
       "purpose": "Detallar las iteraciones del entorno de pruebas, los ciclos de usuarios alfa y las integraciones de código de la comunidad.",
       "key_question": "¿Cómo construimos este sistema en público mientras mantenemos límites extremos de privacidad?"
+    },
+    "escape-loops-and-addictions": {
+      "title": "Bucles de Escape y Adicciones",
+      "purpose": "Examinar cómo las personas recurren a la distracción, la compulsión y los bucles de adormecimiento para escapar de la sobrecarga, y qué debe comprender un diseño humano sobre esos patrones.",
+      "key_question": "¿Por qué volvemos a conductas que alivian la presión por un momento pero profundizan la confusión con el tiempo?"
     }
   }
 }

@@ -10,6 +10,20 @@ const dictionaries = {
   ru: () => import('../dictionaries/ru.json').then((module) => module.default),
 } as const;
 
+const volumeOneContent = {
+  en: () => import('../content/volume1/en.json').then((module) => module.default),
+  tr: () => import('../content/volume1/tr.json').then((module) => module.default),
+  es: () => import('../content/volume1/es.json').then((module) => module.default),
+  ru: () => import('../content/volume1/ru.json').then((module) => module.default),
+} as const;
+
+const volumeTwoContent = {
+  en: () => import('../content/volume2/en.json').then((module) => module.default),
+  tr: () => import('../content/volume2/tr.json').then((module) => module.default),
+  es: () => import('../content/volume2/es.json').then((module) => module.default),
+  ru: () => import('../content/volume2/ru.json').then((module) => module.default),
+} as const;
+
 export type Dictionary = typeof import('../dictionaries/en.json');
 
 export function hasLocale(locale: string): locale is Locale {
@@ -56,15 +70,41 @@ function mergeDictionaries(fallback: unknown, target: unknown): unknown {
 
 export const getDictionary = async (locale: string): Promise<Dictionary> => {
   const enDict = await dictionaries.en();
-  if (locale === 'en') return enDict;
+  const resolvedLocale = hasLocale(locale) ? locale : 'en';
+  let localizedDictionary: unknown = enDict;
 
-  const loadDictionary = hasLocale(locale) ? dictionaries[locale] : undefined;
-  if (!loadDictionary) return enDict;
-
-  try {
-    const localeDict = await loadDictionary();
-    return mergeDictionaries(enDict, localeDict) as Dictionary;
-  } catch {
-    return enDict;
+  if (resolvedLocale !== 'en') {
+    try {
+      localizedDictionary = mergeDictionaries(
+        enDict,
+        await dictionaries[resolvedLocale](),
+      );
+    } catch {
+      localizedDictionary = enDict;
+    }
   }
+
+  const resolveVolumeContent = async <
+    T extends typeof volumeOneContent | typeof volumeTwoContent,
+  >(contentLoaders: T) => {
+    if (resolvedLocale === 'en') {
+      return contentLoaders.en();
+    }
+
+    try {
+      return await contentLoaders[resolvedLocale]();
+    } catch {
+      return contentLoaders.en();
+    }
+  };
+
+  const [volumeOne, volumeTwo] = await Promise.all([
+    resolveVolumeContent(volumeOneContent),
+    resolveVolumeContent(volumeTwoContent),
+  ]);
+
+  return mergeDictionaries(
+    mergeDictionaries(localizedDictionary, volumeOne),
+    volumeTwo,
+  ) as Dictionary;
 };

@@ -1,0 +1,1039 @@
+{
+  "chapters": {
+    "mental-clutter": {
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. Zihin, Tamamlanmamış Bir Çalışma Alanı",
+            "paragraphs": [
+              "Zihinsel dağınıklık yalnızca çok fazla düşünceye sahip olmak değildir. Bir görev, kaygı, söz, fikir ya da konuşma için güvenilir bir geri dönüş noktası olmadığında, zihin onu aktif tutar. Kişi, doğru zamanda hatırlayacağına güvenemediği şeyi tekrar tekrar prova eder.",
+              "Bu tekrar düşünme gibi görünebilir; çoğu zaman sinir sisteminin önemli bir şeyin kaybolup kaybolmadığını denetlemesidir. Hatırlama ile karar verme aynı anda yapılmak zorunda kaldığında dağınıklık büyür."
+            ]
+          },
+          {
+            "heading": "2. Toplamak, Netlik Sağlamak Değildir",
+            "paragraphs": [
+              "Her şeyi kaydetmek ilk baskıyı azaltabilir fakat tek başına yeni bir sorun yaratır: yorumlanmayı bekleyen büyüyen bir arşiv. Notlar, ekran görüntüleri, bağlantılar ve görev listeleri; sistem bir taahhüt ile bir fikri, korku ile gerçeği, gelecek olasılığı ile bugünkü sorumluluğu ayıramadığında dışarıdaki yığınlara dönüşür.",
+              "Yararlı bir sistem depolamanın ötesine geçmeli; bir öğenin ne olduğunu, neden önemli olduğunu ve gerçekten eylem gerektirip gerektirmediğini anlamaya yardım etmelidir. Netlik, bilgi kişinin yaşamıyla ilişkilendirildiğinde başlar."
+            ]
+          },
+          {
+            "heading": "3. Duygusal Dağınıklık",
+            "paragraphs": [
+              "En ağır zihinsel yüklerin bazıları görev değildir: belirsiz duygular, tamamlanmamış yas, kırgınlık, suçluluk, beklenen bir çatışma ya da kimliğe ilişkin kararsızlık. Bunların hepsini onay kutularına çevirmek insan deneyimini düzleştirir ve sabır ya da düşünme gereken yerde eylemi teşvik edebilir.",
+              "Saule, eyleme dönük taahhütleri duygusal malzemeden ayırmalıdır. Tekrarlanan bir endişeyi fark edip ifade etmeye yardımcı olabilir; ancak bir duyguyu adlandırmanın onu çözdüğünü ya da her rahatsızlığın üretkenlik hedefine dönüşmesi gerektiğini varsaymamalıdır."
+            ]
+          },
+          {
+            "heading": "4. Dağınıklıktan Yön Bulmaya",
+            "paragraphs": [
+              "Dağınıklığı azaltmak bir sıra gerektirir: dikkati çekiştiren şeyi yakalamak, anlamını netleştirmek, şimdiye mi, sonraya mı, başkasına mı, yoksa hiçbir yere mi ait olduğuna karar vermek ve güvenilir bir geri dönüş yolu oluşturmak. Amaç boş bir zihin değil, her şeyi aynı anda aktif tutmak zorunda olmayan bir zihindir.",
+              "Yön bulmak kusursuz düzenden daha değerlidir. Kişi üç soruya hızla yanıt verebilmelidir: Şimdi ne ilgiyi hak ediyor? Sonrası için ne güvenle tutuluyor? Ne bırakılabilir? Bunları yanıtlayamayan bir sistem düzenli görünse de zihinsel olarak gürültülü kalabilir."
+            ]
+          },
+          {
+            "heading": "5. Saule Tasarım İlkesi",
+            "paragraphs": [
+              "Saule sonsuz bir kap değil, nazik bir netleştirme katmanı olmalıdır. Az sayıda çözümlenmemiş öğeyi uygun anlarda göstermeli, neden gösterdiğini açıklamalı ve kullanıcının ceza hissetmeden silmesine, ertelemesine, dönüştürmesine ya da unutmasına izin vermelidir.",
+              "Başarının ölçüsü Saule'nin ne kadar çok şeyi hatırladığı değil, kişinin ne kadar az şeyi zihninde prova etmek zorunda kaldığıdır. Sistem yeni kategoriler, ritüeller ve panolarla bakım yükünü artırırsa çözmek istediği dağınıklığı yeniden üretmiş olur."
+            ]
+          },
+          {
+            "heading": "6. Tanı Değil, Sinyal Olarak Dağınıklık",
+            "paragraphs": [
+              "Tekrarlanan dağınıklık; kişinin yükümlülükleri, mevcut kapasitesi ve çevresi arasındaki uyumsuzluğu gösterebilir. Kalabalık bir zihin; istikrarsız iş düzenine, belirsiz rollere, maddi baskıya, bakım sorumluluğuna veya çok sayıda iletişim kanalına akla uygun bir yanıt veriyor olabilir.",
+              "Saule örüntüleri belirleyebilir ancak onları klinik iddialara veya kişilik hükümlerine dönüştürmemelidir. Aynı davranışın birçok nedeni olabilir; dijital iz, onu çevreleyen yaşamın tamamını içermez.",
+              "Bu nedenle yorum geçici kalmalıdır. Saule ne fark ettiğini, hangi kanıtı kullandığını ve başka hangi açıklamaların mümkün olduğunu söylemeli; kullanıcının örüntüyü düzeltmesine veya yok saymasına izin vermelidir.",
+              "Saule gözlem yapar, tanı koymaz. Saule örüntü gösterir, hüküm vermez. Saule ihtimal sunar, kesinlik iddia etmez."
+            ]
+          },
+          {
+            "heading": "7. Her Şeyi Yeniden Açmadan Gözden Geçirmek",
+            "paragraphs": [
+              "Güven için inceleme gereklidir fakat kapsamlı bir inceleme bütün yükümlülükleri aynı anda yeniden etkinleştirebilir. Sistem arşivin tamamını sunmak yerine yaşa, sonuca, mevcut bağlama ve kullanıcının seçtiği ritme göre küçük kuyruklar oluşturmalıdır.",
+              "Sessizlik geçerli bir durum olmalıdır. Hiçbir şey dikkat gerektirmiyorsa Saule yalnızca hareket yaratmak için inceleme icat etmemelidir. Sessizlik, dış sistemin görevini yaptığının kanıtıdır.",
+              "Sağlıklı bir inceleme daha az etkin belirsizlikle biter: bir şey netleşir, planlanır, devredilir, arşivlenir veya bırakılır. Kişi başladığından daha iyi yön bulmuş olmalıdır."
+            ]
+          }
+        ],
+        "open_questions": [
+          {
+            "id": "mc-1",
+            "question": "Saule bir taahhüt ile geçici bir düşünceyi nasıl ayırabilir?",
+            "status": "open",
+            "decisionArea": "Anlamsal Sınıflandırma",
+            "answeredInChapters": [
+              "Bölüm 25 — Uyarlanabilir Bellek",
+              "Bölüm 26 — Bağlam Motoru"
+            ]
+          },
+          {
+            "id": "mc-2",
+            "question": "Çözümlenmemiş bir öğe yeniden ne zaman gösterilmelidir?",
+            "status": "open",
+            "decisionArea": "Yeniden Gösterme Politikası",
+            "answeredInChapters": [
+              "Bölüm 26 — Bağlam Motoru",
+              "Bölüm 31 — Planlama Zekâsı"
+            ]
+          },
+          {
+            "id": "mc-3",
+            "question": "Duygusal konular göreve dönüştürülmeden nasıl temsil edilmelidir?",
+            "status": "open",
+            "decisionArea": "Duygusal Veri Modeli",
+            "answeredInChapters": [
+              "Bölüm 27 — Yansıtma Motoru",
+              "Bölüm 28 — Koçluk Motoru"
+            ]
+          },
+          {
+            "id": "mc-4",
+            "question": "Kullanıcı neyi kalıcı olarak unutabilmelidir?",
+            "status": "open",
+            "decisionArea": "Unutma Denetimleri",
+            "answeredInChapters": [
+              "Bölüm 22 — Unutma",
+              "Bölüm 37 — Gizlilik"
+            ]
+          },
+          {
+            "id": "mc-5",
+            "question": "Sistem müdahaleci izleme yapmadan azalan zihinsel yükü nasıl ölçebilir?",
+            "status": "open",
+            "decisionArea": "İyi Oluş Sinyalleri",
+            "answeredInChapters": [
+              "Bölüm 19 — Uyarlanabilir Zekâ",
+              "Bölüm 37 — Gizlilik"
+            ]
+          },
+          {
+            "id": "mc-6",
+            "question": "Sahipliği belirsiz ortak yükümlülükler nasıl temsil edilmelidir?",
+            "status": "open",
+            "decisionArea": "Ortak Sorumluluk",
+            "answeredInChapters": [
+              "Bölüm 14 — İlişkiler",
+              "Bölüm 30 — İlişki Zekâsı"
+            ]
+          },
+          {
+            "id": "mc-7",
+            "question": "Düşük değerli kayıtlar ne kadar süre saklanmalıdır?",
+            "status": "open",
+            "decisionArea": "Saklama Politikası",
+            "answeredInChapters": [
+              "Bölüm 22 — Unutma",
+              "Bölüm 37 — Gizlilik"
+            ]
+          },
+          {
+            "id": "mc-8",
+            "question": "Saule ne zaman netleştirmeyi bırakıp kullanıcıyı insan desteğine yönlendirmelidir?",
+            "status": "open",
+            "decisionArea": "Güvenlik Sınırı",
+            "answeredInChapters": [
+              "Bölüm 23 — Etik",
+              "Bölüm 28 — Koçluk Motoru"
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Saule depolama ile netleştirmeyi birbirinden ayırmalıdır.",
+          "Yeniden gösterilen her öğede bir neden ve kolay bir kaldırma yolu bulunmalıdır.",
+          "Duygusal içerik otomatik olarak göreve dönüştürülmemelidir.",
+          "Kullanıcı ceza görmeden silebilmeli ve unutabilmelidir.",
+          "Temel başarı sinyali daha fazla kayıt değil, daha az zihinsel tekrardır.",
+          "Zihinsel örüntü yorumları geçici ve düzeltilebilir olmalıdır.",
+          "İncelemeler sınırlı olmalı ve asla yapay iş üretmemelidir."
+        ],
+        "future_evolution": "Bu bölüm ileride zihinsel dağınıklık sınıflandırmasını, yeniden gösterme kurallarını ve bilişsel rahatlamanın gizliliği koruyan ölçütlerini tanımlayacaktır.",
+        "references": [
+          "Bilişsel yük kuramı",
+          "İleriye dönük bellek araştırmaları",
+          "Zeigarnik etkisi",
+          "Dağıtık biliş",
+          "Ruminasyon ve kaygı araştırmaları",
+          "Bilişsel yükü dışarı aktarma",
+          "Kişisel bilgi yönetimi",
+          "İnsan-yapay zekâ etkileşiminde belirsizlik",
+          "Rol belirsizliği araştırmaları"
+        ]
+      }
+    },
+    "the-attention-crisis": {
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. Dikkat Artık Kendiliğinden Korunmuyor",
+            "paragraphs": [
+              "Dikkat, insanın dünyayla kurduğu en temel bağlardan biridir. Bir şeyi fark ederiz, ona yöneliriz, üzerinde kalırız, anlam veririz ve sonunda onu bir karara, anıya, ilişkiye ya da eyleme dönüştürürüz. Dikkat olmadan deneyim dağılır. Deneyim dağılınca da insanın hayatı üzerinde hissettiği yön duygusu zayıflar.",
+              "Modern hayatın dikkatle ilgili temel sorunu, yalnızca çok fazla uyaran olması değildir. Daha derin sorun şudur: Dikkatimizi çekmek için tasarlanmış sistemler, artık dikkatimizi korumak için tasarlanmış iç ve dış sınırlarımızdan daha güçlü hale gelmiştir.",
+              "Telefon, mesaj, e-posta, sosyal medya, haber akışları, iş bildirimleri, finans uygulamaları, alışveriş önerileri, kısa videolar ve sonsuz kaydırma davranışı aynı sınırlı zihinsel alana taliptir. Hepsi yalnızca bilgi sunmaz; geri dönmemizi, bakmamızı, tepki vermemizi, cevaplamamızı ya da bir sonraki şeye geçmemizi ister.",
+              "Bu yüzden dikkat krizi, insanın birden zayıflamasıyla açıklanamaz. İnsan dikkatini kaybetmedi; dikkatin etrafındaki çevre değişti.",
+              "Eskiden dikkat çoğu zaman korunması gereken bir iç kaynak olarak görülürdü. Bugün ise dikkat, ölçülen, rekabet edilen, optimize edilen ve ekonomik değere dönüştürülen bir alan haline geldi. İnsan neye bakarsa, neye tıklarsa, nerede kalırsa ve neye geri dönerse, o davranış bir sistem için sinyal üretir.",
+              "Bu nedenle modern birey yalnızca kendi iç dağınıklığıyla değil, dış dünyanın dikkat talebiyle de yaşar.",
+              "Saule bu noktada dikkat krizini ahlaki bir zayıflık olarak değil, insan ile çevresi arasındaki dengenin bozulması olarak ele almalıdır."
+            ]
+          },
+          {
+            "heading": "2. Dikkat Krizi Disiplin Eksikliği Değildir",
+            "paragraphs": [
+              "Dikkati yalnızca kişisel disiplin meselesi gibi görmek eksik bir açıklamadır.",
+              "Elbette bireysel alışkanlıklar önemlidir. İnsan kendi sınırlarını tanımalı, kendisi için uygun çalışma ritimleri geliştirmeli ve hangi uyaranların kendisini dağıttığını öğrenmelidir. Fakat bütün sorumluluğu bireye yüklemek, dikkat için rekabet eden sistemlerin tasarım gücünü görmezden gelir.",
+              "Bir uygulama sürekli bildirim gönderiyorsa, bir platform kişinin ilgisini mümkün olduğunca uzun süre tutmak için tasarlanmışsa, sosyal sistemler hızlı yanıtı nezaket göstergesi haline getirmişse ve çalışma kültürü her an erişilebilir olmayı ödüllendiriyorsa, yalnızca “daha disiplinli ol” demek yeterli değildir.",
+              "Dikkat krizi, bireyin iradesiyle çevrenin talebi arasındaki çatışmadan doğar.",
+              "Kişi bir işe başlamak ister. Fakat bir mesaj gelir. Mesaj yalnızca mesaj değildir; bir ilişki, bir beklenti, bir olasılık, bir sorun ya da bir fırsat olabilir. Kişi mesaja bakar. Sonra başka bir bildirim görür. Sonra kısa bir kontrol davranışı başlar. Birkaç dakika sonra kişi başlangıçtaki niyetini hatırlasa bile, artık aynı zihinsel noktada değildir.",
+              "Böyle anlarda sorun yalnızca zaman kaybı değildir. Sorun bağlam kaybıdır.",
+              "İnsan çoğu zaman dağıldığını geç fark eder. Çünkü dikkat kaybı her zaman dramatik yaşanmaz. Bazen küçük bir sapma, küçük bir kontrol, küçük bir erteleme gibi görünür. Fakat gün boyunca bu küçük sapmalar biriktiğinde, kişi akşam olduğunda çok şeyle temas etmiş ama çok az şeyle gerçekten kalmış hissedebilir.",
+              "Saule’nin dikkat meselesine yaklaşımı burada başlamalıdır: Kullanıcıyı suçlamadan, dikkat kaybını yaratan bağlamları görünür kılmak."
+            ]
+          },
+          {
+            "heading": "3. Kesinti Sadece Zamanı Değil, Bağlamı da Bozar",
+            "paragraphs": [
+              "Bir kesintinin maliyeti yalnızca kesintinin sürdüğü süre değildir.",
+              "Bir bildirim beş saniye sürebilir. Bir mesaja bakmak otuz saniye alabilir. Bir uygulamayı kontrol etmek iki dakika gibi görünebilir. Fakat zihnin önceki işe geri dönmesi, ne yaptığını hatırlaması, nerede kaldığını bulması ve aynı düşünsel derinliğe yeniden ulaşması çok daha uzun sürebilir.",
+              "Bu nedenle dikkat krizinin asıl maliyeti görünenden büyüktür.",
+              "Kesinti, düşüncenin sürekliliğini bozar. İnsan zihni her defasında “neredeydim?” sorusuna geri dönmek zorunda kalır. Bu geri dönüş yalnızca zihinsel değil, duygusaldır da. Kişi bazen bir işe dönerken aynı motivasyonu, aynı cesareti ya da aynı açıklığı bulamaz.",
+              "Bazı işler kısa dikkatle yapılabilir. Mesaj yanıtlamak, küçük bir kontrol yapmak, basit bir düzenleme yapmak kısa süreli dikkatle mümkündür. Fakat bazı işler derin bağlam ister: yazmak, düşünmek, zor bir karar vermek, bir ilişkiyi anlamaya çalışmak, kariyer yönünü değerlendirmek, finansal bir durumu gözden geçirmek, bir projeyi tasarlamak.",
+              "Modern dikkat krizi, en çok bu ikinci tür işleri yıpratır.",
+              "Çünkü derin işler genellikle bağırmaz. Kendilerini bildirimle hatırlatmazlar. Acil görünmezler. Oysa insanın hayatını değiştiren kararların çoğu, acil olanlardan değil, derin olanlardan doğar.",
+              "Saule, kullanıcının yalnızca ne kadar zaman geçirdiğini değil, ne kadar bağlam koruyabildiğini de önemsemelidir."
+            ]
+          },
+          {
+            "heading": "4. Anlık Olanın Yavaş Olanı Yenmesi",
+            "paragraphs": [
+              "Modern dijital çevre, anlık olanı güçlü kılar.",
+              "Yeni mesaj hemen görünür. Yeni haber hemen akar. Yeni fiyat hareketi hemen dikkat çeker. Yeni bildirim hemen ekrana düşer. Birinin cevabı, bir uygulamanın uyarısı, bir platformun önerisi, zihnin önüne kolayca geçebilir.",
+              "Buna karşılık önemli ama yavaş olan şeyler çoğu zaman sessizdir.",
+              "Bir kitap sessizdir. Uzun vadeli kariyer hedefi sessizdir. Sağlık alışkanlığı sessizdir. İyi bir ilişkiyi koruma ihtiyacı sessizdir. Çocuğunla geçirilen zamanın anlamı sessizdir. Bir projeyi sabırla inşa etme gereği sessizdir. Kendini tanıma süreci sessizdir.",
+              "Anlık olan kendini duyurur. Yavaş olan ise hatırlanmayı bekler.",
+              "Bu yüzden dikkat krizi yalnızca dağılma sorunu değildir; değer sıralaması sorunudur. İnsan gün içinde en çok bağıran şeye cevap verdikçe, en önemli şeyler geride kalabilir.",
+              "Bu noktada Saule’nin rolü kullanıcının yerine karar vermek değildir. Saule, anlık olan ile önemli olan arasındaki farkı görünür kılmalıdır.",
+              "Bir sistem şunu sorabilmelidir: “Bu gerçekten şimdi mi önemli, yoksa sadece şimdi görünür olduğu için mi önemli?” Bu soru, modern dikkat krizinin merkezinde durur."
+            ]
+          },
+          {
+            "heading": "5. Dikkat Sabit Bir Kaynak Değildir",
+            "paragraphs": [
+              "Dikkat her gün aynı miktarda mevcut olan mekanik bir kaynak değildir.",
+              "Uyku, stres, kaygı, bedenin durumu, çevrenin güvenliği, günün saati, kişinin duygusal yükü, sosyal baskılar ve yapılacak işin anlamı dikkatin kalitesini değiştirir.",
+              "Bazı günler insan uzun süre odaklanabilir. Bazı günler birkaç dakikalık başlangıç bile zor gelir. Bazı günler kişi dış dünyaya açıktır. Bazı günler en küçük bildirim bile büyük bir kopuş yaratır.",
+              "Bu değişkenlik başarısızlık değildir. İnsan olmanın bir parçasıdır.",
+              "Klasik üretkenlik sistemleri çoğu zaman bu değişkenliği yeterince hesaba katmaz. Her gün aynı takvim, aynı görev listesi, aynı hedef baskısı, aynı performans beklentisiyle yaklaşırlar. Oysa insanın kapasitesi sabit değildir.",
+              "Saule burada farklı davranmalıdır.",
+              "Saule, kullanıcıyı “odaklanabilen” ya da “odaklanamayan” biri olarak etiketlememelidir. Bunun yerine dikkat kalıplarını bağlam içinde anlamaya çalışmalıdır.",
+              "Hangi saatlerde dikkat daha erişilebilir? Hangi görevler daha fazla direnç yaratıyor? Hangi kişilerle konuşmak zihinsel yükü artırıyor? Hangi günlerde bildirimler daha yıkıcı hale geliyor? Hangi koşullarda kısa odak daha gerçekçi, hangi koşullarda derin çalışma mümkün?",
+              "Bu soruların cevapları kişiyi tanımlamak için değil, kişiye daha uygun bir gün tasarlamak için kullanılmalıdır."
+            ]
+          },
+          {
+            "heading": "6. Dikkati Korumak, Dikkati Optimize Etmekten Önce Gelir",
+            "paragraphs": [
+              "Birçok sistem dikkati ölçmeye ve optimize etmeye çalışır. Kaç dakika çalışıldı? Kaç görev tamamlandı? Kaç kez uygulamaya dönüldü? Kaç bildirim açıldı? Kaç blok tamamlandı?",
+              "Fakat dikkat zaten parçalanmışsa, optimizasyon geç kalmış olabilir. Daha insani yaklaşım önce dikkati korumaktır.",
+              "Koruma, daha az bildirim anlamına gelebilir. İletişimi gruplamak anlamına gelebilir. Kullanıcının erişilemez olma hakkını tanımak anlamına gelebilir. Bir odak bloğundan önce geçiş alanı bırakmak anlamına gelebilir. Bazı şeyleri hemen göstermemek anlamına gelebilir. Kullanıcının hayatındaki her sinyali “hemen bakılması gereken” bir nesneye dönüştürmemek anlamına gelebilir.",
+              "Saule’nin dikkat tasarımı bu yüzden özenle geliştirilmelidir. Çünkü Saule de bir uygulama olacaktır. Saule de bildirim gönderebilir, hatırlatabilir, öneri sunabilir, soru sorabilir. Eğer bunu ölçüsüz yaparsa çözmeye çalıştığı sorunun parçası haline gelir.",
+              "Akıllı bildirimleri çok sık gönderen bir sistem hâlâ kesinti sistemidir. Alaka düzeyi, anında ulaşmayı kendiliğinden haklı çıkarmaz.",
+              "Bir bilginin önemli olması, o bilginin hemen gösterilmesi gerektiği anlamına gelmez. Bazen doğru bilgi yanlış zamanda verildiğinde dikkat yüküne dönüşür. Saule, yalnızca ne söyleyeceğini değil, ne zaman susacağını da öğrenmelidir."
+            ]
+          },
+          {
+            "heading": "7. Dikkat Aynı Zamanda Sosyaldir",
+            "paragraphs": [
+              "Dikkat yalnızca kişinin iç disipliniyle ilgili değildir. Başkalarının kişiden ne kadar hızlı yanıt beklediğiyle de ilgilidir.",
+              "İş yerinde ekipler anlık dönüş bekleyebilir. Aile bireyleri erişilebilirliğe ihtiyaç duyabilir. Platformlar sessizliği kabalık gibi gösterebilir. Müşteriler hızlı cevap bekleyebilir. Sosyal medya platformları görünür kalmayı ilişki sürdürmenin bir parçası gibi hissettirebilir.",
+              "Bu nedenle dikkat koruması sadece “bildirimleri kapatmak” değildir.",
+              "İnsan bazen gerçekten ulaşılabilir olmalıdır. Bir çocuğun, ailenin, önemli bir iş görüşmesinin, acil bir durumun ya da bakım sorumluluğunun göz ardı edilmemesi gerekir. Fakat her temas aynı aciliyete sahip değildir.",
+              "Saule’nin ileride çözmesi gereken zor sorulardan biri budur: Kullanıcıyı korurken ilişkileri, sorumlulukları ve gerçek aciliyetleri nasıl ihmal etmez?",
+              "İyi bir sistem, sorunu herkesi sessize alarak çözmez. Erişilebilirliği daha anlaşılır hale getirir. Kişinin ne zaman dönebileceğini ifade etmesine yardım eder. Acil olmayan iletişimi gruplayabilir. Gerçekten önemli olanı önceliklendirebilir. Fakat bunu yaparken kimlerin “önemli” olduğunu keyfi biçimde puanlayan, ilişkileri mekanik hale getiren bir sisteme dönüşmemelidir.",
+              "Dikkat koruması, sosyal sorumluluktan kaçma aracı değildir. Aynı şekilde erişilebilirlik de sınırsız dikkat talebi anlamına gelmemelidir. Saule bu ikisi arasında hassas bir denge kurmalıdır."
+            ]
+          },
+          {
+            "heading": "8. Dikkati Geri Kazanmak Ne Demektir?",
+            "paragraphs": [
+              "Dikkati geri kazanmak, günün her dakikasını üretken hale getirmek değildir.",
+              "Bir insanın dikkatini geri kazanması bazen uzun bir yazıyı tamamlamasıdır. Bazen oğluyla konuşurken telefonu unutmasıdır. Bazen bir arkadaşını gerçekten dinlemesidir. Bazen yürürken zihninin toparlanmasıdır. Bazen bir işi bitirmek yerine, hangi işi yapmayacağına karar verebilmesidir.",
+              "Bu yüzden dikkat yalnızca çalışma dakikalarıyla ölçülemez.",
+              "Bir insan üç saat boyunca masada oturup sürekli bölünmüş olabilir. Başka bir insan yirmi dakika boyunca gerçekten mevcut olabilir. İkinci durum, bazen birincisinden daha değerlidir.",
+              "Saule’nin dikkatle ilgili başarı ölçütü uygulamada geçirilen süre olmamalıdır. Hatta bazı durumlarda Saule’nin başarısı, kullanıcının uygulamayı daha az açması olabilir.",
+              "Daha doğru sinyaller şunlar olabilir: Kullanıcı niyet ettiği şeye geri dönebildi mi? Kesintiden sonra bağlamını yeniden kurabildi mi? Günün sonunda neyin önemli olduğunu daha net görefildi mi? Kendini daha fazla kontrol altında mı hissetti, yoksa daha fazla yönetiliyor gibi mi hissetti? Dikkati, kendi değerlerine ve gerçek sorumluluklarına daha yakın kullanılabildi mi?",
+              "Saule’nin amacı etkileşimi büyütmek değil, kullanıcının hayatında dikkat için daha sağlıklı bir alan açmaktır. Sonuç bir etkileşim panosunda değil, kullanıcının yaşamında yer alır."
+            ]
+          },
+          {
+            "heading": "9. Saule İçin Dikkat İlkesi",
+            "paragraphs": [
+              "Bu bölüm Saule için temel bir ilke doğurur: Saule, kullanıcının dikkatini kazanmak için değil, kullanıcının dikkatini korumak için tasarlanmalıdır.",
+              "Bu ilke ürünün her yerine yayılmalıdır. Bildirimlere, hatırlatıcılara, koçluk mesajlarına, günlük planlara, telefon bağlamına, sesli etkileşime ve hafıza sistemine kadar her katmanda aynı soru sorulmalıdır: “Bu müdahale kullanıcının hayatını gerçekten daha net hale getiriyor mu, yoksa yalnızca sistemi daha görünür mü kılıyor?”",
+              "Saule kendini sürekli hatırlatan bir yardımcı olmamalıdır. İnsanların zihninde yeni bir açık döngüye dönüşmemelidir. Kullanıcı “Saule’ye de bakmam lazım” diye yeni bir baskı hissetmemelidir.",
+              "Saule’nin değeri bazen bir şeyi göstermesinde, bazen bir şeyi ertelemesinde, bazen bir şeyi sessize almasında, bazen de hiçbir şey yapmamasında ortaya çıkabilir.",
+              "Sessizlik geçerli bir durum olmalıdır. Dikkati koruyan bir sistem, yalnızca konuşmayı değil, susmayı da ürün davranışı olarak tasarlamalıdır."
+            ]
+          }
+        ],
+        "open_questions": [
+          {
+            "id": "ac-1",
+            "question": "Hangi koşullar kullanıcıyı bölmeyi haklı çıkarır?",
+            "status": "open",
+            "decisionArea": "Kesinti Politikası",
+            "answeredInChapters": [
+              "Bölüm 31 — Planlama Zekâsı",
+              "Bölüm 32 — Telefon Bağlamı",
+              "Bölüm 37 — Gizlilik"
+            ]
+          },
+          {
+            "id": "ac-2",
+            "question": "Dikkat kalıpları kimlik etiketlerine dönüşmeden nasıl öğrenilebilir?",
+            "status": "open",
+            "decisionArea": "Uyarlanabilir Profilleme",
+            "answeredInChapters": [
+              "Bölüm 19 — Uyarlanabilir Zekâ",
+              "Bölüm 25 — Uyarlanabilir Bellek",
+              "Bölüm 24 — İrade"
+            ]
+          },
+          {
+            "id": "ac-3",
+            "question": "Saule korunan odak sırasında acil mesajları nasıl ele almalıdır?",
+            "status": "open",
+            "decisionArea": "Aciliyet Yükseltme",
+            "answeredInChapters": [
+              "Bölüm 26 — Bağlam Motoru",
+              "Bölüm 30 — İlişki Zekâsı",
+              "Bölüm 32 — Telefon Bağlamı"
+            ]
+          },
+          {
+            "id": "ac-4",
+            "question": "Hangi dikkat sinyalleri toplanamayacak kadar müdahalecidir?",
+            "status": "open",
+            "decisionArea": "Dikkat Gizliliği",
+            "answeredInChapters": [
+              "Bölüm 32 — Telefon Bağlamı",
+              "Bölüm 37 — Gizlilik",
+              "Bölüm 38 — Güvenlik"
+            ]
+          },
+          {
+            "id": "ac-5",
+            "question": "Ürün etkileşimi en üst düzeye çıkarmadan nasıl başarılı olabilir?",
+            "status": "open",
+            "decisionArea": "Ürün Teşvikleri",
+            "answeredInChapters": [
+              "Bölüm 20 — Güven",
+              "Bölüm 23 — Etik",
+              "Bölüm 39 — İş Modeli"
+            ]
+          },
+          {
+            "id": "ac-6",
+            "question": "İnsanlar arasında erişilebilirlik beklentileri nasıl müzakere edilebilir?",
+            "status": "open",
+            "decisionArea": "Sosyal Dikkat",
+            "answeredInChapters": [
+              "Bölüm 14 — İlişkiler",
+              "Bölüm 30 — İlişki Zekâsı",
+              "Bölüm 32 — Telefon Bağlamı"
+            ]
+          },
+          {
+            "id": "ac-7",
+            "question": "Hangi sonuçlar zorlanmış üretkenlik yerine geri kazanılmış dikkati gösterir?",
+            "status": "open",
+            "decisionArea": "Dikkat Sonuçları",
+            "answeredInChapters": [
+              "Bölüm 19 — Uyarlanabilir Zekâ",
+              "Bölüm 31 — Planlama Zekâsı",
+              "Bölüm 40 — Geliştirme Aşamaları"
+            ]
+          },
+          {
+            "id": "ac-8",
+            "question": "Dikkat desteği farklı erişilebilirlik ve yaşam sorumluluklarına göre nasıl değişmelidir?",
+            "status": "open",
+            "decisionArea": "Erişilebilir Odak",
+            "answeredInChapters": [
+              "Bölüm 24 — İrade",
+              "Bölüm 32 — Telefon Bağlamı",
+              "Bölüm 36 — Mühendislik İlkeleri",
+              "Bölüm 37 — Gizlilik"
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Saule etkileşimi değil, kullanıcının niyetini optimize etmelidir.",
+          "Aciliyeti açık olmayan bildirimler varsayılan olarak gruplanmalı veya ertelenmelidir.",
+          "Dikkat kalıpları bağlamsal ve değiştirilebilir kalmalıdır; kullanıcıyı kalıcı kimlik etiketlerine dönüştürmemedir.",
+          "Korunan odak yalnızca çalışma süresini değil, toparlanma ve geçiş süresini de içermelidir.",
+          "Kullanıcı, öğrenilmiş kesinti kurallarını her zaman geçersiz kılabilmelidir.",
+          "Erişilebilirlik varsayılmamalı, mümkün olduğunca açık biçimde iletilmelidir.",
+          "Dikkat sonuçları sürekli gözetimle değil, hafif yansıtma ve kullanıcının onayıyla değerlendirilmelidir.",
+          "Saule bazı anlarda sessiz kalmayı ürün davranışı olarak tasarlamalıdır."
+        ],
+        "future_evolution": "Bu bölüm ileride dikkat kalıplarının nasıl temsil edileceği, bildirimlerin hangi koşullarda gruplanacağı, korunan odak dönemlerinin nasıl tasarlanacağı ve kullanıcının kendi dikkat politikasını nasıl inceleyip düzenleyebileceği üzerine genişletilecektir.\n\nGelecek sürümlerde ayrıca dikkat desteğinin farklı yaşam durumlarına göre nasıl değişeceği incelenecektir: ebeveynlik, iş arama, freelance çalışma, bakım sorumluluğu, ilişki yönetimi, eğitim, sağlık ve yüksek belirsizlik dönemleri.\n\nBu bölümün ilerideki amacı, Saule’nin yalnızca görev planlayan değil, kullanıcının dikkat alanını koruyan bir sistem olarak nasıl tasarlanacağını netleştirmektir.",
+        "references": [
+          "Dikkat kalıntısı araştırmaları",
+          "Görev değiştirme literatürü",
+          "Dikkat ekonomisi",
+          "Dijital bildirimler üzerine insan-bilgisayar etkileşimi araştırmaları",
+          "Uyanıklık, bilişsel yorgunluk ve toparlanma çalışmaları",
+          "İş yerinde erişilebilirlik normları",
+          "Sınır yönetimi araştırmaları",
+          "Öz belirleme kuramı",
+          "Davranış tasarımı ve ürün teşvikleri",
+          "Dijital iyi oluş araştırmaları",
+          "Dikkat desteğinde erişilebilirlik çalışmaları"
+        ]
+      }
+    },
+    "open-loops": {
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. Tamamlanmamış Olan Neden Aktif Kalır?",
+            "paragraphs": [
+              "Açık döngü zihnin tamamlanmamış saydığı her şeydir: görev, söz, karar, soru ya da duygusal alışveriş. Beyin gelecekte bir eylem beklediği fakat güvenilir bir sonuç veya dönüş noktası bulamadığı için aktif kalır.",
+              "Her tamamlanmamış öğe eşit yük taşımaz. Belirsiz döngüler, net biçimde ertelenmiş olanlardan daha çok dikkat tüketir; çünkü zihin sürekli bunun ne anlama geldiğini ve acil olup olmadığını sorar."
+            ]
+          },
+          {
+            "heading": "2. Farklı Döngüler Farklı Sonlar Gerektirir",
+            "paragraphs": [
+              "Bazı döngüler eylemle; bazıları karar, konuşma, kabullenme, devretme, takvimleme ya da bilinçli vazgeçmeyle kapanır. Her döngüyü görev saymak, belirsizliği çözmek yerine koruyan uzun listeler üretir.",
+              "Kapanış bu nedenle anlamsaldır. Kişi bir sonraki adımı seçmeden önce ne tür bir eksiklik taşıdığını bilmelidir."
+            ]
+          },
+          {
+            "heading": "3. Dış Belleğin Temeli Güvendir",
+            "paragraphs": [
+              "Bir hatırlatıcı ancak kullanıcı zamanlamasına, ifadesine ve gideceği yere güvendiğinde zihinsel baskıyı azaltır. Çok erken, geç ya da bağlamsız gelen hatırlatmalar zihne kendi başına hatırlamaya devam etmesi gerektiğini öğretir.",
+              "Güvenilir sistem geri dönüş yolunu görünür kılar. Bir şeyin neden önemli olduğunu, neyin ilerleme sayılacağını ve kişinin onu ne zaman yeniden görmek istediğini kaydeder."
+            ]
+          },
+          {
+            "heading": "4. Vazgeçme Hakkı",
+            "paragraphs": [
+              "Birçok döngü, bırakmak başarısızlık gibi hissettirdiği için yaşar. Eski hedefler, geçerliliğini yitirmiş yükümlülükler ve başkalarından miras beklentiler kişiye hizmet etmeyi bıraktıktan sonra bile kalır.",
+              "Saule bilinçli bırakmayı desteklemelidir. Silmek, reddetmek ya da bir taahhüdü yeniden tanımlamak netlik eylemi olabilir. Sistem her geçmiş niyeti kalıcı borca çevirmemelidir."
+            ]
+          },
+          {
+            "heading": "5. Kapanış Odaklı Bir Sistem",
+            "paragraphs": [
+              "Saule kullanıcının çözümlenmemiş döngüleri küçük ve bağlama uygun gruplar halinde gözden geçirmesine düzenli olarak yardım etmelidir. İnceleme; döngünün eylem, karar, konuşma, ileri bir tarih ya da bırakma gerektirip gerektirmediğini sormalıdır.",
+              "Amaç sıfır açık döngüye ulaşmak değildir; insan yaşamı her zaman bir ölçüde tamamlanmamış kalır. Amaç, tamamlanmamış yaşamın görünmez baskıya dönüşmesini önlemektir."
+            ]
+          },
+          {
+            "heading": "6. Ortak ve İlişkisel Döngüler",
+            "paragraphs": [
+              "Birçok döngü insanlar arasında yaşar: verilmiş bir yanıt sözü, belirsiz bir beklenti, ortak bir karar, bakım sorumluluğu ya da henüz konuşulmamış bir ihtiyaç.",
+              "Saule başka bir kişinin niyetini bildiğini iddia etmeden kullanıcının anlayışını kaydetmelidir. Bir soru hazırlayabilir, bağlamı koruyabilir veya saygılı bir takip önerebilir; ancak ilişkisel baskıyı otomatikleştirmemelidir.",
+              "Kapanış asimetrik de olabilir. Bir kişi kendi payına düşeni yapmışken ilişki hâlâ belirsiz kalabilir. Sistemin tamamlanma kadar sınırların çizilmesi için de bir dile ihtiyacı vardır."
+            ]
+          },
+          {
+            "heading": "7. Eskime, Sona Erme ve Yenileme",
+            "paragraphs": [
+              "Bir döngü sonsuza kadar aynı aciliyette kalmamalıdır. Bazı taahhütlerin süresi dolar, bazıları anlamını yitirir, bazılarıysa koşullar değiştiğinde açıkça yenilenmelidir.",
+              "Saule yaşı başarısızlığın kanıtı değil, netleştirme daveti olarak kullanabilir. Öğenin hâlâ önemli olup olmadığını, sahibinin veya koşullarının değişip değişmediğini ve onu tutmanın gerçek bir yararı bulunup bulunmadığını sormalıdır.",
+              "Böylece sonuç gerektirdiğinde kalıcı, yaşam ilerlediğinde geçici ve her zaman kullanıcının kararına açık daha sağlıklı bir bellek oluşur."
+            ]
+          }
+        ],
+        "open_questions": [
+          {
+            "id": "ol-1",
+            "question": "Saule bir döngünün bayatladığını nasıl anlayabilir?",
+            "status": "open",
+            "decisionArea": "Bayatlık Algılama",
+            "answeredInChapters": [
+              "Bölüm 25 — Uyarlanabilir Bellek",
+              "Bölüm 31 — Planlama Zekâsı"
+            ]
+          },
+          {
+            "id": "ol-2",
+            "question": "Bir döngüyü tamamlanmış saymak için hangi kanıt yeterlidir?",
+            "status": "open",
+            "decisionArea": "Tamamlanma Anlamı",
+            "answeredInChapters": [
+              "Bölüm 26 — Bağlam Motoru",
+              "Bölüm 31 — Planlama Zekâsı"
+            ]
+          },
+          {
+            "id": "ol-3",
+            "question": "Sistem ne zaman bir hedeften vazgeçmeyi önermelidir?",
+            "status": "open",
+            "decisionArea": "Hedefi Bırakma",
+            "answeredInChapters": [
+              "Bölüm 24 — İrade",
+              "Bölüm 28 — Koçluk Motoru"
+            ]
+          },
+          {
+            "id": "ol-4",
+            "question": "İlişkisel döngüler insanları puanlamadan nasıl temsil edilebilir?",
+            "status": "open",
+            "decisionArea": "İlişki Bağlamı",
+            "answeredInChapters": [
+              "Bölüm 14 — İlişkiler",
+              "Bölüm 30 — İlişki Zekâsı"
+            ]
+          },
+          {
+            "id": "ol-5",
+            "question": "Çözümlenmemiş döngüler ne sıklıkla gözden geçirilmelidir?",
+            "status": "open",
+            "decisionArea": "Gözden Geçirme Sıklığı",
+            "answeredInChapters": [
+              "Bölüm 31 — Planlama Zekâsı"
+            ]
+          },
+          {
+            "id": "ol-6",
+            "question": "Saule başka bir kişiye bağlı döngüyü nasıl temsil etmelidir?",
+            "status": "open",
+            "decisionArea": "Ortak Döngü Durumu",
+            "answeredInChapters": [
+              "Bölüm 30 — İlişki Zekâsı"
+            ]
+          },
+          {
+            "id": "ol-7",
+            "question": "Hangi taahhütler kendiliğinden sona ermeli, hangileri onay gerektirmelidir?",
+            "status": "open",
+            "decisionArea": "Sona Erme Kuralları",
+            "answeredInChapters": [
+              "Bölüm 22 — Unutma",
+              "Bölüm 25 — Uyarlanabilir Bellek"
+            ]
+          },
+          {
+            "id": "ol-8",
+            "question": "Sistem kabullenme ile kaçınmacı vazgeçmeyi nasıl ayırabilir?",
+            "status": "open",
+            "decisionArea": "Bırakma Niteliği",
+            "answeredInChapters": [
+              "Bölüm 27 — Yansıtma Motoru",
+              "Bölüm 28 — Koçluk Motoru"
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Açık döngüler ihtiyaç duydukları kapanış türüne göre sınıflandırılmalıdır.",
+          "Erteleme her zaman güvenilir bir geri dönüş koşulu içermelidir.",
+          "Kullanıcı cezalandırıcı dil olmadan taahhütlerinden vazgeçebilmelidir.",
+          "İlişkisel ve duygusal döngüler görev tamamlamaya indirgenmemelidir.",
+          "İncelemeler kapsamlı değil, küçük ve bağlamsal olmalıdır.",
+          "Sistem tek taraflı veriden başka bir kişinin niyetini çıkarmamalıdır.",
+          "Eski döngüler kalıcı aciliyet yerine yenileme veya sona erme daveti almalıdır."
+        ],
+        "future_evolution": "Bu bölüm; eylem, karar, devir, konuşma, kabullenme ve bilinçli bırakmayı kapsayan bir kapanış modeline dönüşecektir.",
+        "references": [
+          "Zeigarnik etkisi",
+          "İleriye dönük bellek",
+          "Uygulama niyetleri",
+          "Hedeften ayrılma araştırmaları",
+          "Dış biliş ve güvenilir sistemler",
+          "Taahhüt ve hedef koruma",
+          "İlişkisel koordinasyon",
+          "Zamansal iskonto",
+          "Dijital bellek ve sona erme"
+        ]
+      }
+    },
+    "why-existing-productivity-systems-fail": {
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. Kullanıcının Sabit Bir Sürümü İçin Tasarlanmış Sistemler",
+            "paragraphs": [
+              "Mevcut üretkenlik sistemlerinin çoğu idealize edilmiş bir kişiye göre tasarlanır: yapılacaklar listelerini düzenli tutabilen, takvim bloklarını gerçekçi biçimde koruyabilen, habit tracker'larını sürdürebilen, GTD tarzı incelemeleri aksatmayan, ikinci beyin notlarını anlamlı biçimde güncelleyebilen ve kanban panolarını temiz tutabilen biri. Sistem zarif görünür çünkü modeldeki kullanıcı zaten en iyi hâline yakındır.",
+              "Bu araçların hepsi değersiz değildir. Temiz bağlamda, yüksek kapasite günlerinde ve görev ile anlam arasındaki ilişki hâlâ görünürken gerçekten işe yarayabilirler. Sorun, bu sistemlerin çoğunun gerçek hayatı değil, hayatın en düzenli anını varsaymasıdır.",
+              "Gerçek hayat bu kadar sabit değildir. Kapasite; stres, uyku, duygusal yük, belirsizlik, çevre ve kişinin taşıdığı açık döngü sayısıyla birlikte değişir. Yalnızca iyi günde çalışan bir yöntem güvenilir değildir."
+            ]
+          },
+          {
+            "heading": "2. Katı Araçların İçindeki Gizli Varsayım",
+            "paragraphs": [
+              "Katı araçlar çoğu zaman yapının tek başına yeterliymiş gibi davranır. Listeyi yap. Listeyi sırala. Takvimi doldur. Rutini takip et. Panoyu güncel tut. Haftalık incelemeyi kaçırma. Gizli varsayım şudur: kişi niyetini büyük bir sürtünme yaşamadan tekrar tekrar eyleme çevirebilir.",
+              "Oysa çoğu zaman hikâyenin kendisi sürtünmedir. Başlamak zor olabilir çünkü görev duygusal yük taşır. Durmak zor olabilir çünkü çevre sonsuz erişilebilirliği ödüllendirir. Hatırlamak zor olabilir çünkü zihin aynı anda çok fazla yarım şeyi korumaya çalışıyordur.",
+              "Bu yüzden asıl sorun, bu sistemlerin hiç çalışmaması değil; düşük kapasite, stres, açık döngü ve duygusal yük anlarında en çok ihtiyaç duyulan desteği sunamamalarıdır."
+            ]
+          },
+          {
+            "heading": "3. Yürütücü Kapasiteler Vardır, Ama Dalgalanırlar",
+            "paragraphs": [
+              "Günlük yaşamın başlatma, dikkat, engelleme, çalışma belleği, önceliklendirme ve rutin sürdürme gibi yeteneklere bağlı olduğunu belirtmekte fayda var.",
+              "Saule bunu yalnızca insani bir açıklama olarak kullanmalıdır, klinik bir açıklama olarak değil. Amaç kullanıcıya teşhis koymak ya da tedavi ima etmek değildir. Amaç, insanın kendini düzenleme becerisinin değişken olduğunu ve bağlamdan derinden etkilendiğini kabul etmektir."
+            ]
+          },
+          {
+            "heading": "4. Bakım İkinci Bir İşe Dönüşür",
+            "paragraphs": [
+              "Bir sistem insanı sabit bir varlık varsaydığında, her aksama kullanıcıya ek bakım olarak geri döner: birikmiş işleri temizle, planı yeniden yaz, panoyu yeniden sınıflandır, takvimi yeniden düzenle, rutini onar. Kişi artık hem hayatı hem de hayatının başarısız modelini yönetmek zorunda kalır.",
+              "Burada biriken şey yalnızca görevler değildir. Güncellenmeyen listeler, eskimiş öncelikler, terk edilmiş rutinler, anlamını kaybetmiş panolar, geri dönülmemiş notlar ve artık gerçeği temsil etmeyen planlar da birikir. Bu bir bakım borcudur.",
+              "Bakım borcu büyüdükçe döngü sertleşir: suçluluk artar, kullanıcı sistemden kaçınır, birikimi görmemek için uygulamayı açmaz, backlog'u artık ayırt edemediği için körleşir, sonra başka bir sistem arar ve her şeye yeniden başlamaya çalışır. Katı sistemlerin bu kadar hızlı suçluluk üretmesinin nedenlerinden biri budur. Niyeti korurlar ama onu oluşturan koşulları koruyamazlar."
+            ]
+          },
+          {
+            "heading": "5. Tamlıktan Çok Uyum Önemlidir",
+            "paragraphs": [
+              "İnsan merkezli bir sistem destek alabilmek için kullanıcıdan önce tutarlılık performansı istemez. Kişinin bağlamını geri kazanmasına, karar sayısını azaltmasına ve mevcut koşullar altında en küçük yararlı sonraki adımı bulmasına yardım etmelidir.",
+              "Bazen bu sonraki adım eylemdir. Bazen dinlenme, netleştirme, devretme ya da bırakmadır. Uyum standart düşürmek değildir; desteği gerçeğe uydurmaktır ki çaba gerçekten etkili olabileceği yere harcansın.",
+              "Saule bu yüzden başka bir to-do app ya da planner gibi davranmamalıdır. Onun görevi kullanıcıyı şablona uydurmak değil, düşük kapasite anlarında yeniden yön bulmayı mümkün kılan uyarlanabilir bir yaşam zekâsı olmaktır."
+            ]
+          },
+          {
+            "heading": "6. Saule Neden Klinik Dilden Uzak Durmalıdır?",
+            "paragraphs": [
+              "Birçok insan kendini bilmekle yapmak arasındaki boşlukta tanır. Bu tanıma, bir üretkenlik ürünü içinde tıbbi öneriye, teşhis diline ya da tedavi çerçevesine dönüştürülmemelidir.",
+              "Saule dalgalanan insani kapasitelerden, zorlayıcı çevrelerden ve aşırı yüklenmiş dikkatten söz edebilir; ama her nedeni açıkladığını iddia etmeden. Tevazu hem kullanıcıyı hem de sistemin bütünlüğünü korur."
+            ]
+          },
+          {
+            "heading": "7. İtaatten Toparlanmaya",
+            "paragraphs": [
+              "Bir üretkenlik sisteminin en iyi testi kusursuz itaat üretmesi değildir. Hayat karmaşık, yorucu, duygusal veya belirsiz olduğunda insanın toparlanmasına yardım edip etmemesidir.",
+              "Bu yüzden Saule; sürtünmeyi azaltıp azaltmadığı, yön duygusunu geri getirip getirmediği, karar yükünü hafifletip hafifletmediği, düşük bakım gerektirip gerektirmediği ve dürüst ilerlemeyi yeniden mümkün kılıp kılmadığıyla değerlendirilmelidir. Görev tamamlama sayısı tek başına yeterli ölçü değildir.",
+              "Yararlı sistem, kullanıcı şablonun hayal ettiği sürüm gibi davranmadığında da işe yarayan sistemdir. İyi bir günün verimini büyütmekten çok, zor bir günün içinden geçerken gerçekçi bir sonraki adımı görünür kılabilmelidir.",
+              "Bu nokta bizi bir sonraki soruya götürür: toparlanma gerçekten mümkün olacaksa sistem neyi hatırlamalı, neyi eskimiş saymalı ve hangi açık döngüleri canlı tutmalıdır? Çünkü yeniden yön bulmak yalnızca planlamayla değil, doğru türde bellekle de ilgilidir."
+            ]
+          }
+        ],
+        "open_questions": [
+          {
+            "id": "pf-1",
+            "question": "Kullanıcı zorlanırken Saule’nin gerektirebileceği en düşük bakım miktarı nedir?",
+            "status": "open",
+            "decisionArea": "Bakım Bütçesi",
+            "answeredInChapters": [
+              "Bölüm 26 — Bağlam Motoru",
+              "Bölüm 36 — Mühendislik İlkeleri"
+            ]
+          },
+          {
+            "id": "pf-2",
+            "question": "Sistem azalan kapasiteyi bunu sabit kimliğe çevirmeden nasıl sezebilir?",
+            "status": "open",
+            "decisionArea": "Kapasite Sinyalleri",
+            "answeredInChapters": [
+              "Bölüm 19 — Uyarlanabilir Zekâ",
+              "Bölüm 20 — Güven"
+            ]
+          },
+          {
+            "id": "pf-3",
+            "question": "Katı bir plan ne zaman onarılmalı, ne zaman gevşetilmeli ya da bırakılmalıdır?",
+            "status": "open",
+            "decisionArea": "Plan Kurtarma",
+            "answeredInChapters": [
+              "Bölüm 24 — İrade",
+              "Bölüm 31 — Planlama Zekâsı"
+            ]
+          },
+          {
+            "id": "pf-4",
+            "question": "Saule sürtünmeyi ahlakçı ya da klinik tınlamadan nasıl açıklayabilir?",
+            "status": "open",
+            "decisionArea": "Destek Dili",
+            "answeredInChapters": [
+              "Bölüm 23 — Etik",
+              "Bölüm 33 — Ses"
+            ]
+          },
+          {
+            "id": "pf-5",
+            "question": "Bir sonraki öneriyi en çok hangi bağlamsal etkenler biçimlendirmelidir?",
+            "status": "open",
+            "decisionArea": "Uyarlanabilir Bağlam",
+            "answeredInChapters": [
+              "Bölüm 26 — Bağlam Motoru",
+              "Bölüm 31 — Planlama Zekâsı"
+            ]
+          },
+          {
+            "id": "pf-6",
+            "question": "Kullanıcı sistemi haftalarca sürdürmezse hangi bilgiler ayakta kalmalıdır?",
+            "status": "open",
+            "decisionArea": "Kademeli Bozulma",
+            "answeredInChapters": [
+              "Bölüm 25 — Uyarlanabilir Bellek",
+              "Bölüm 36 — Mühendislik İlkeleri"
+            ]
+          },
+          {
+            "id": "pf-7",
+            "question": "Zorlayıcı kullanımı ödüllendirmeden rahatlamayı hangi ürün ölçütleri temsil edebilir?",
+            "status": "open",
+            "decisionArea": "İnsani Sonuçlar",
+            "answeredInChapters": [
+              "Bölüm 23 — Etik",
+              "Bölüm 39 — İş Modeli"
+            ]
+          },
+          {
+            "id": "pf-8",
+            "question": "Kullanıcılar Saule’nin kapasite ve rutinleri hakkında kurduğu varsayımları nasıl görebilir ve düzeltebilir?",
+            "status": "open",
+            "decisionArea": "Modelin Anlaşılabilirliği",
+            "answeredInChapters": [
+              "Bölüm 20 — Güven",
+              "Bölüm 24 — İrade"
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Saule insan kapasitesinin bağlama göre dalgalandığını varsaymalıdır.",
+          "Sistem aciliyet eklemeden önce karar sayısını azaltmalıdır.",
+          "Sürtünme klinik iddialarla değil, insani dille açıklanmalıdır.",
+          "Toparlanma yolları ideal plandan değil, mevcut gerçekten başlamalıdır.",
+          "Birikimler ahlaki başarısızlık arşivlerine dönüşmemelidir.",
+          "Destek görülebilir, geri alınabilir ve kullanıcı tarafından düzeltilebilir kalmalıdır.",
+          "Başarı yeniden kazanılan yön duygusu ve azalan bakım ihtiyacıyla ölçülmelidir."
+        ],
+        "future_evolution": "Sonraki taslaklar uyarlanabilir planlama durumlarını, düşük bakımlı toparlanma akışlarını, bakım borcunun nasıl temsil edileceğini ve sistemin neyi koruyup neyi eskimiş sayacağına dair bellek ilkelerini tanımlayacaktır.",
+        "references": [
+          "Kişisel bilgi yönetimi",
+          "Uygulama niyetleri",
+          "Karar yorgunluğu araştırmaları",
+          "Bilişsel dışsallaştırma",
+          "Kesintiler üzerine insan-bilgisayar etkileşimi",
+          "Niyet-eylem boşluğu araştırmaları",
+          "Öz belirleme kuramı",
+          "Dijital iyi oluş",
+          "Otomasyonda ayarlı güven"
+        ]
+      }
+    },
+    "cost-of-constant-context-switching": {
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. Geride Bırakılan İş",
+            "paragraphs": [
+              "Kaçış döngüleri çoğu zaman bir bağlam değişimiyle başlar. Zor bir işten kısa bir rahatlamaya, belirsiz bir karardan hızlı bir uyarana, duygusal yükten kontrol edilebilir küçük bir davranışa geçilir. Bu geçiş kısa görünse de zihin eski bağlamı tamamen kapatmadan yeni bağlama taşınır.",
+              "Dikkat bir görevden diğerine geçtiğinde zihnin bir bölümü önceki hedefe bağlı kalır. Bu dikkat kalıntısı ilk görev tamamlanmamış, duygusal yüklü ya da net bir durma noktası olmadan kesilmişse daha güçlüdür.",
+              "Maliyet yalnızca kayıp zaman değildir. Zihin öncekinin yapısını ve gerilimini hâlâ taşırken sonraki görev daha az derinlikle başlar."
+            ]
+          },
+          {
+            "heading": "2. Yeniden Kurmak da İştir",
+            "paragraphs": [
+              "Karmaşık işe dönmek; nerede kaldığımızı, neyin önemli olduğunu, hangi seçeneklerin elendiğini ve sırada ne olduğunu yeniden kurmayı gerektirir. Bu görünmeyen çalışma kesintinin kendisinden uzun sürebilir.",
+              "İnsanlar toparlanma işi görünmediği için yavaş başlangıçlarda kendini suçlar. İyi sistem durumu korumalı; kişinin bütün zihinsel sahneyi yeniden inşa etmesini gerektirmemelidir.",
+              "Sürekli geçiş yalnızca dikkati bölmez; başlama, durma, geri dönme, öncelik verme ve karar verme kapasitesini de yorar. İnsan her geçişte yalnızca yeni bir işe başlamaz; hangi yaşam alanında olduğunu, neyin önemli olduğunu ve neye ne kadar enerji ayıracağını yeniden belirlemek zorunda kalır."
+            ]
+          },
+          {
+            "heading": "3. İletişim Zamanı Parçalar",
+            "paragraphs": [
+              "Modern çalışma odaklı üretimle sürekli erişilebilirliği iç içe geçirir. Mesajlar belirsiz aciliyet ve sosyal beklentiler taşıyan farklı kanallardan gelir.",
+              "Bildirimler görmezden gelinse bile önemli bir şey içerebileceğini bilmek dikkati işgal edebilir. Dolayısıyla sınır sorunu yalnızca teknik değil, sosyal ve örgütseldir."
+            ]
+          },
+          {
+            "heading": "4. Daha İyi Geçişler",
+            "paragraphs": [
+              "Bağlam değiştirme tamamen ortadan kaldırılamaz. Yaşam iş, ilişkiler, bakım, lojistik ve dinlenme arasında hareket gerektirir. Amaç geçişleri bilinçli ve geri dönülebilir kılmaktır.",
+              "Kısa bir kapanış notu, kaydedilmiş sonraki eylem, gruplanmış iletişim aralıkları ve korunan yeniden başlama süresi kalıntıyı azaltabilir. Geçişler boşluk değil, tasarlanması gereken anlardır."
+            ]
+          },
+          {
+            "heading": "5. Bağlam Belleği Olarak Saule",
+            "paragraphs": [
+              "Saule kişinin nerede ve neden durduğunu, dönüşü neyin kolaylaştıracağını kaydetmelidir. Acil olmayan öğeleri geciktirip doğal geçiş noktalarında sunabilir.",
+              "Bağlam farkındalığını her boş anı işle doldurmak için kullanmamalıdır. Bağlamı korumak; durmayı, dinlenmeyi ve kaygısızca geri dönmeyi de kolaylaştırmalıdır."
+            ]
+          },
+          {
+            "heading": "6. Maliyet Rollere Göre Değişir",
+            "paragraphs": [
+              "Bir geçiş her faaliyet için aynı maliyette değildir. Yazılım mimarisine, yazıya, bakım işine, müşteri desteğine veya hassas bir konuşmaya dönmek farklı bağlamlar gerektirir ve farklı sonuçlar taşır.",
+              "Saule evrensel bir toparlanma süresi atamak yerine faaliyetin biçimini öğrenmelidir. Karmaşık iş için uzun bir yeniden kurma aralığını korurken doğası gereği hızlı yanıt isteyen roller için bilinçli ve kısa geçişleri destekleyebilir.",
+              "Rol bilgisi kullanıcı tarafından tanımlanmalı ve değiştirilebilir kalmalıdır. Sistem ücretli işin aile, sağlık, topluluk veya dinlenmeden her zaman üstün olduğunu varsaymamalıdır."
+            ]
+          },
+          {
+            "heading": "7. Kişisel Bağlam Değiştirme Politikası",
+            "paragraphs": [
+              "Kullanıcı basit kurallar belirleyebilmelidir: hangi kanalların bölebileceği, hangi faaliyetlerin kapanış notu gerektirdiği, iletişimin ne zaman gruplanacağı ve ne kadar toparlanma süresinin korunacağı.",
+              "Saule gözlenen sürtünmeye göre değişiklik önerebilir; ancak politika görünür kalmalıdır. Gizli optimizasyon beklenmeyen davranışları anlamayı ve düzeltmeyi zorlaştırır.",
+              "İyi bir politika acil durumlara yetecek kadar esnek, güven oluşturacak kadar istikrarlıdır. Geçiş tasarımını tahminler toplamından kişiyle sistem arasında açık bir anlaşmaya dönüştürür."
+            ]
+          }
+        ],
+        "open_questions": [
+          {
+            "id": "cs-1",
+            "question": "Bir çalışma bağlamını geri getirmek için hangi bilgiler gerekir?",
+            "status": "open",
+            "decisionArea": "Bağlam Anlık Görüntüsü",
+            "answeredInChapters": [
+              "Bölüm 26 — Bağlam Motoru",
+              "Bölüm 31 — Planlama Zekâsı"
+            ]
+          },
+          {
+            "id": "cs-2",
+            "question": "Saule doğal geçiş noktalarını nasıl belirleyebilir?",
+            "status": "open",
+            "decisionArea": "Geçiş Algılama",
+            "answeredInChapters": [
+              "Bölüm 26 — Bağlam Motoru",
+              "Bölüm 32 — Telefon Bağlamı"
+            ]
+          },
+          {
+            "id": "cs-3",
+            "question": "İletişim ne zaman gruplanmalı, ne zaman hemen ulaştırılmalıdır?",
+            "status": "open",
+            "decisionArea": "İletişimi Gruplama",
+            "answeredInChapters": [
+              "Bölüm 30 — İlişki Zekâsı",
+              "Bölüm 32 — Telefon Bağlamı"
+            ]
+          },
+          {
+            "id": "cs-4",
+            "question": "Bağlam desteği dinlenmeyi işgal etmek yerine nasıl koruyabilir?",
+            "status": "open",
+            "decisionArea": "Dinlenme Sınırları",
+            "answeredInChapters": [
+              "Bölüm 23 — Etik",
+              "Bölüm 24 — İrade"
+            ]
+          },
+          {
+            "id": "cs-5",
+            "question": "Hangi bağlam sinyalleri cihaz üzerinde kalabilir?",
+            "status": "open",
+            "decisionArea": "Özel Bağlam İşleme",
+            "answeredInChapters": [
+              "Bölüm 34 — Saule’nin Kendi Zekâsı",
+              "Bölüm 37 — Gizlilik"
+            ]
+          },
+          {
+            "id": "cs-6",
+            "question": "Toparlanma tahminleri faaliyete ve kişiye göre nasıl değişmelidir?",
+            "status": "open",
+            "decisionArea": "Toparlanma Modeli",
+            "answeredInChapters": [
+              "Bölüm 19 — Uyarlanabilir Zekâ",
+              "Bölüm 26 — Bağlam Motoru"
+            ]
+          },
+          {
+            "id": "cs-7",
+            "question": "Hangi kesinti kuralları birlikte çalışanlarla paylaşılmalıdır?",
+            "status": "open",
+            "decisionArea": "Ortak Sınırlar",
+            "answeredInChapters": [
+              "Bölüm 30 — İlişki Zekâsı",
+              "Bölüm 32 — Telefon Bağlamı"
+            ]
+          },
+          {
+            "id": "cs-8",
+            "question": "Acil durum istisnaları nasıl tanımlanmalı ve denetlenmelidir?",
+            "status": "open",
+            "decisionArea": "İstisna Politikası",
+            "answeredInChapters": [
+              "Bölüm 20 — Güven",
+              "Bölüm 38 — Güvenlik"
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Saule yeni iş önermeden önce kullanıcının mevcut bağlamını ve geri dönüş yolunu korumalıdır.",
+          "Acil olmayan iletişim geçiş noktaları çevresinde gruplanmalıdır.",
+          "Geçiş ve toparlanma süresi gerçek zaman olarak temsil edilmelidir.",
+          "Bağlam farkındalığı sürekli çalışmaya hazır olmayı asla ima etmemelidir.",
+          "Hassas bağlam sinyalleri mümkün olduğunda yerel olarak işlenmelidir.",
+          "Toparlanma varsayımları faaliyete göre değişmeli ve kullanıcı tarafından düzeltilebilmelidir.",
+          "Kesinti kuralları ile istisnalar kullanıcıya görünür olmalıdır."
+        ],
+        "future_evolution": "Bu bölüm ileride bağlam anlık görüntülerini, geçiş ipuçlarını, iletişim gruplama kurallarını, toparlanma pencerelerini, yerel öncelikli bağlam işlemeyi ve kişisel bağlam değiştirme politikasının nasıl ifade edilip güncelleneceğini ayrıntılandıracaktır.",
+        "references": [
+          "Dikkat kalıntısı",
+          "Görev değiştirme maliyetleri",
+          "İleriye dönük bellek",
+          "Kesintiden toparlanma araştırmaları",
+          "Dijital çalışmada sınır yönetimi",
+          "Yeniden başlama gecikmesi",
+          "Bilgisayar destekli ortak çalışma",
+          "Rol geçişi araştırmaları",
+          "Yerel öncelikli yazılım ilkeleri"
+        ]
+      }
+    },
+    "escape-loops-and-addictions": {
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. Sorundan Çıkmadan Andan Kaçmak",
+            "paragraphs": [
+              "Baskı yükseldiğinde insan çoğu zaman hemen ulaşılabilen bir şeye yönelir: sosyal medyada kaydırma, oyun, atıştırma, alışveriş, kumar, pornografi, plansız trading, sonsuz araştırma, kompulsif temizlik ya da asıl meseleye göre daha kolay gelen başka küçük bir iş. Biçim değişir ama örüntü benzerdir. Zor bir duygu belirir ve zihin hızlı bir çıkış arar.",
+              "Bu döngüler her zaman kendine zarar verme niyetiyle başlamaz. Çoğu, anlaşılır bir rahatlama arayışı olarak başlar. Sorun şudur: kısa süreli rahatlama otomatik bir yola dönüşürken asıl baskı kaynağı çözülmeden kalır."
+            ]
+          },
+          {
+            "heading": "2. Kaçış Çoğu Zaman Düzenleme Çabasıdır",
+            "paragraphs": [
+              "İnsanlar kaçış döngülerine yalnızca haz aradıkları için girmez. Aynı zamanda utançtan, korkudan, sıkıntıdan, yalnızlıktan, belirsizlikten ya da zihinsel aşırı yükten uzaklaşmak isterler. Davranış daha sonra daha büyük sürtünme yaratsa bile birkaç dakika için iç baskıyı azaltabilir.",
+              "Bu yüzden insan merkezli bir sistem önce döngünün neyi düzenlemeye çalıştığını sormalıdır, nasıl durdurulacağını değil. Bu anlaşılmadan yapılan her müdahale, gerçek baskıya değil yüzeye yöneltilmiş ahlaki tavsiyeye dönüşür."
+            ]
+          },
+          {
+            "heading": "3. Dijital Ortamlar Kaçışı Çok Ucuz Hale Getirir",
+            "paragraphs": [
+              "Modern ortamlar zorluktan uzaklaşmak için anında yollar sunar. Kişi duygusal olarak zorlayıcı bir işten birkaç saniye içinde sonsuz yenilik akışına geçebilir. Platformlar geri dönüş için değil, devamlılık için optimize edilir.",
+              "Bu önemlidir çünkü kaçış artık nadir ya da maliyetli değildir. İşin, ilişkilerin, planlamanın ve dinlenmenin de bulunduğu aynı cihazda hazır bekler. Baş etme, dikkat dağınıklığı ve kompulsiyon arasındaki sınır daha kolay bulanıklaşır."
+            ]
+          },
+          {
+            "heading": "4. Her Tekrar Aynı Şey Değildir",
+            "paragraphs": [
+              "Bazı tekrar eden davranışlar alışkanlıktır, bazıları kaçınmadır, bazıları stres tepkisidir ve bazıları bağımlılık benzeri örüntülere dönüşebilir. Saule tüm tekrarı tek bir kategoriye indirmemeli ve temellendiremeyeceği klinik iddialar kurmamalıdır.",
+              "Bu aşamada önemli olan kişiyi etiketlemek değildir. Önemli olan, bir davranışın aşırı yükten sonra tekrar tekrar belirmesini, niyet edilenden daha fazla zaman veya dikkat çalmasını ve kişiyi öncesine göre daha az netlik, daha az irade ya da daha az dinlenmeyle bırakmasını fark etmektir."
+            ]
+          },
+          {
+            "heading": "5. Uyarıdan Çok Geri Dönüş Yolu Önemlidir",
+            "paragraphs": [
+              "Çoğu sistem kaçış davranışını engellenmesi, cezalandırılması ya da utandırılması gereken bir başarısızlık gibi ele alır. Bu yaklaşım anlayışı artırmadan gizliliği artırabilir. Daha iyi tasarım kişiye geri dönüşte yardım eder: neden uzaklaştı, neye ihtiyaç duyuyordu ve geri girişi ne daha yumuşak hale getirirdi?",
+              "Amaç gözetim değildir. Amaç bozulma ile toparlanma arasındaki mesafeyi azaltmaktır. Kişi döngüyü fark edebilmeli, bağlamını geri alabilmeli ve hayatının içinde şüpheli gibi muamele görmeden sonraki adımı seçebilmelidir."
+            ]
+          },
+          {
+            "heading": "6. Bağımlılık Üretmeden Rahatlama",
+            "paragraphs": [
+              "Saule insanların konfora, eğlenceye ve dinlenmeye ihtiyaç duyduğuna saygı duymalıdır. Tüm hazzı tehlike gibi sunmamalı ya da her kaçış davranışının patolojik olduğunu ima etmemelidir. İnsan hayatında duraklar, yumuşaklık ve seçilmiş geçici rahatlamalar vardır.",
+              "Tasarım sorusu daha dardır: hangi noktada bir rahatlama örüntüsü kişinin önemsediği şeylerle tekrar tekrar çatışmaya başlar ve sistem başka bir kontrol gücüne dönüşmeden nasıl yardımcı olabilir? Destek seçenekleri daraltmamalı, genişletmelidir."
+            ]
+          },
+          {
+            "heading": "7. Kaçış Döngülerinden Dürüst Bağlama",
+            "paragraphs": [
+              "Zamanla Saule kişinin tekrar eden dizilerini görmesine yardım edebilir: aşırı yük, kaçınma, kısa rahatlama, suçluluk, daha fazla dağınıklık ve ardından yenilenen baskı. Diziyi görmek önemlidir çünkü öz yargıyı okunabilir bağlama dönüştürür.",
+              "Örüntü görünür olduğunda müdahale daha küçük ve daha nazik olabilir. Bazen sonraki adım bir moladır. Bazen tek bir küçük yeniden başlangıçtır. Bazen kaçınılan duyguyu adlandırmaktır. Bazen de hedefi bırakmaktır. Sistem zoraki performansı değil, dürüst geri dönüşü desteklemelidir."
+            ]
+          }
+        ],
+        "open_questions": [
+          {
+            "id": "ea-1",
+            "question": "Saule her molayı problem gibi görmeden bir kaçış döngüsünü nasıl fark edebilir?",
+            "status": "open",
+            "decisionArea": "Örüntü Tespiti",
+            "answeredInChapters": [
+              "Bölüm 19 — Uyarlanabilir Zekâ",
+              "Bölüm 26 — Bağlam Motoru"
+            ]
+          },
+          {
+            "id": "ea-2",
+            "question": "Hangi işaretler bir davranışın kullanıcıyı yenilediğini, hangileri ise tükettiğini gösterebilir?",
+            "status": "open",
+            "decisionArea": "Rahatlama Kalitesi",
+            "answeredInChapters": [
+              "Bölüm 27 — Yansıtma Motoru",
+              "Bölüm 28 — Koçluk Motoru"
+            ]
+          },
+          {
+            "id": "ea-3",
+            "question": "Sistem kompulsif davranıştan utandırmadan ve klinik dil kullanmadan nasıl söz etmelidir?",
+            "status": "open",
+            "decisionArea": "Destek Dili",
+            "answeredInChapters": [
+              "Bölüm 23 — Etik",
+              "Bölüm 33 — Ses"
+            ]
+          },
+          {
+            "id": "ea-4",
+            "question": "Saule kaçış döngüsünü doğrudan kesmek yerine ne zaman geri dönüş için bağlam korumalıdır?",
+            "status": "open",
+            "decisionArea": "Geri Dönüş Tasarımı",
+            "answeredInChapters": [
+              "Bölüm 31 — Planlama Zekâsı",
+              "Bölüm 32 — Telefon Bağlamı"
+            ]
+          },
+          {
+            "id": "ea-5",
+            "question": "Hangi çevresel sinyaller bir döngünün neden belirli zamanlarda ortaya çıktığını açıklayabilir?",
+            "status": "open",
+            "decisionArea": "Bağlam Sinyalleri",
+            "answeredInChapters": [
+              "Bölüm 26 — Bağlam Motoru",
+              "Bölüm 32 — Telefon Bağlamı"
+            ]
+          },
+          {
+            "id": "ea-6",
+            "question": "Saule seçilmiş dinlenmeyle kaçınmacı rahatlamayı nasıl ayırt edebilir?",
+            "status": "open",
+            "decisionArea": "Dinlenme ve Kaçınma",
+            "answeredInChapters": [
+              "Bölüm 24 — İrade",
+              "Bölüm 27 — Yansıtma Motoru"
+            ]
+          },
+          {
+            "id": "ea-7",
+            "question": "Tekrarlayan döngülerden sonra kullanıcı aktif müdahale istemiyorsa ne olmalıdır?",
+            "status": "open",
+            "decisionArea": "Müdahalesiz Destek",
+            "answeredInChapters": [
+              "Bölüm 20 — Güven",
+              "Bölüm 23 — Etik"
+            ]
+          },
+          {
+            "id": "ea-8",
+            "question": "Saule ne zaman araçtan uzaklaşıp insani desteğe yönelmeyi önermelidir?",
+            "status": "open",
+            "decisionArea": "Destek Sınırları",
+            "answeredInChapters": [
+              "Bölüm 23 — Etik",
+              "Bölüm 28 — Koçluk Motoru"
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Kaçış davranışı önce bağlam olarak anlaşılmalı; karakter zayıflığı, irade eksikliği veya kişisel başarısızlık olarak yorumlanmamalıdır.",
+          "Saule tekrar eden döngüler için teşhis ya da klinik etiket kullanmamalıdır.",
+          "Sistem utancı yükseltmek yerine yumuşak bir geri dönüş yolu korumalıdır.",
+          "Dinlenme, haz ve seçilmiş eğlence otomatik sorunlar gibi çerçevelenmemelidir.",
+          "Destek baskı altındaki seçenekleri daraltmak yerine genişletmeye odaklanmalıdır.",
+          "Gözlenen örüntüler kullanıcı tarafından görülebilir ve düzeltilebilir kalmalıdır.",
+          "Güven düşükse Saule hüküm vermek yerine sormalı ya da yansıtmalıdır.",
+          "Kullanıcı kontrol kaybı, zarar görme riski veya ciddi işlev kaybı ifade ettiğinde Saule kendi sınırını bilmeli ve insani ya da profesyonel destek aramayı teşvik etmelidir."
+        ],
+        "future_evolution": "Bu bölüm ileride kaçış döngüsü arketiplerini, geri dönüş yolu tasarım kalıplarını ve ürünün ne zaman susması, yansıtması ya da insani desteği teşvik etmesi gerektiğine dair sınırları tanımlayacaktır.",
+        "references": [
+          "Davranışsal bağımlılık araştırmaları",
+          "Başa çıkma ve kaçınma literatürü",
+          "Olumsuz pekiştirme",
+          "Duygu düzenleme araştırmaları",
+          "Dijital alışkanlık oluşumu",
+          "Dikkat ekonomisi tasarımı",
+          "Öz denetim ve nüks araştırmaları",
+          "Kompulsif kullanım üzerine insan-bilgisayar etkileşimi",
+          "Utanç ve davranış değişimi araştırmaları"
+        ]
+      }
+    }
+  }
+}

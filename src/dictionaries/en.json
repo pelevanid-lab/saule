@@ -151,7 +151,7 @@
             "heading": "3. The Invisible Load",
             "paragraphs": [
               "One of the most exhausting aspects of feeling overwhelmed is that it is often invisible.",
-              "A person does not have a heavy bag on their shoulders. They don't carry a physical weight. From the outside, they might just look like they are sitting, looking at their phone, drinking coffee, or doing nothing.",
+              "A person with a tired mind does not have a heavy bag on their shoulders. They don't carry a physical weight. From the outside, they might just look like they are sitting, looking at their phone, drinking coffee, or doing nothing.",
               "But mental load is not visible like physical load.",
               "Remembering what needs to be remembered is a burden. Knowing who to reply to is a burden. Knowing which decision is delayed is a burden. Carrying promises made is a burden. Feeling like you are living below your potential is a burden. Knowing you are not getting closer to a goal is a burden. Feeling a relationship needs attention is a burden.",
               "These burdens are rarely written in a single place. Some are in the calendar. Some are on WhatsApp. Some are in email. Some are in notes. Some are in the mind. Some live as a tension trapped in the body.",
@@ -228,7 +228,7 @@
           "Saule must not judge incomplete days. People do not complete their goals every day. This should be seen as data, not failure.",
           "Saule must prioritize clarity, not productivity. Some days the best decision is to do less, recover, or just simplify the mind.",
           "Saule must learn patterns over time. It should try to understand, with explicit permission, at what hours the user focuses better, which tasks they avoid.",
-          "Saule must not replace human agency. It should not make decisions on behalf of the user; it should open space for thought so the user can make better decisions.",
+          "Saule must not replace will. It should not make decisions on behalf of the user; it should open space for thought so the user can make better decisions.",
           "Saule must sometimes know when to stay silent. Not every context requires intervention. Protecting attention sometimes means not sending a notification."
         ],
         "open_questions": [
@@ -253,7 +253,7 @@
             "answerSummary": "",
             "answeredInChapters": [
               "Chapter 23 — Ethics",
-              "Chapter 24 — Human Agency",
+              "Chapter 24 — Will",
               "Chapter 28 — Coaching Engine"
             ],
             "relatedChapters": [],
@@ -312,7 +312,7 @@
             "answerSummary": "",
             "answeredInChapters": [
               "Chapter 20 — Trust",
-              "Chapter 24 — Human Agency",
+              "Chapter 24 — Will",
               "Chapter 28 — Coaching Engine"
             ],
             "relatedChapters": [],
@@ -372,26 +372,21 @@
     },
     "the-attention-crisis": {
       "title": "The Attention Crisis",
-      "purpose": "Examine the neurochemistry of attention capture and how reactive loops erode focus.",
-      "key_question": "How do attention-extractive systems disrupt the brain's default mode network?"
+      "purpose": "To examine how the modern digital environment fragments attention, how constant interruptions degrade the quality of thought, and the principles by which Saule should design attention protection.",
+      "key_question": "How do systems based on constant interruption and attention exploitation weaken human capacity for focus, recovery, and conscious choice?"
     },
     "open-loops": {
       "title": "Open Loops",
-      "purpose": "Trace the Zeigarnik effect in personal task management and the anxiety of unfinished business.",
-      "key_question": "Why do uncompleted commitments trigger persistent subconscious stress?"
-    },
-    "executive-function": {
-      "title": "Executive Function",
-      "purpose": "Map cognitive load limits, working memory capacity, and the mechanisms of willpower depletion.",
-      "key_question": "What happens to executive control when the mind is constantly overtaxed?"
+      "purpose": "To examine how uncompleted tasks, deferred decisions, promises made, and open relational matters remain active in the mind, and how Saule can clarify these loops without judgment.",
+      "key_question": "Why does the uncompleted continue to live in the background of the mind?"
     },
     "why-existing-productivity-systems-fail": {
       "title": "Why Existing Productivity Systems Fail",
-      "purpose": "Deconstruct why traditional calendars, todo lists, and CRMs feel cold, rigid, and ultimately collapse.",
-      "key_question": "Why do tools designed to organize life frequently become sources of added stress?"
+      "purpose": "Explain why rigid productivity tools fail when they assume stable human capacity and ignore stress, sleep, emotional load, uncertainty, environment, and open loops.",
+      "key_question": "Why do productivity systems break when they expect a person to function like a machine?"
     },
     "cost-of-constant-context-switching": {
-      "title": "The Cost of Constant Context Switching",
+      "title": "The Cognitive Cost of Constant Context Switching",
       "purpose": "Calculate the cognitive cost and focus depletion associated with digital multitasking.",
       "key_question": "What is the true cost of switching focus between unrelated life domains multiple times an hour?"
     },
@@ -448,7 +443,7 @@
     "human-first-ai": {
       "title": "Human First AI",
       "purpose": "Contrast human-first design with engagement-maximizing and task-maximizing AI models.",
-      "key_question": "How can AI serve human agency rather than corporate data capture?"
+      "key_question": "How can AI serve will rather than corporate data capture?"
     },
     "adaptive-intelligence": {
       "title": "Adaptive Intelligence",
@@ -476,7 +471,7 @@
       "key_question": "What ethical redlines must never be crossed by an adaptive life intelligence?"
     },
     "human-agency": {
-      "title": "Human Agency",
+      "title": "Will",
       "purpose": "Design interfaces that preserve decision-making sovereignty rather than automating choice.",
       "key_question": "How do we assist in organization while strengthening, not weakening, user agency?"
     },
@@ -569,6 +564,11 @@
       "title": "Building Saule",
       "purpose": "Detail sandbox iterations, alpha user loops, and community code integrations.",
       "key_question": "How do we build this system in public while maintaining extreme privacy bounds?"
+    },
+    "escape-loops-and-addictions": {
+      "title": "Escape Loops and Addictions",
+      "purpose": "Examine how people use distraction, compulsion, and self-numbing loops to escape overload, and what humane design must understand about those patterns.",
+      "key_question": "Why do people return to behaviors that relieve pressure for a moment while deepening confusion over time?"
     }
   }
 }

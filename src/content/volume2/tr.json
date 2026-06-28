@@ -1,0 +1,1426 @@
+{
+  "chapters": {
+    "memory": {
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. Bellek Yalnızca Depolama Değildir",
+            "paragraphs": [
+              "İnsan belleği nötr bir arşiv gibi çalışmaz. Deneyimi anlamına, tekrarına, duygusal ağırlığına ve ihtiyaca göre sıkıştırır, öne çıkarır, yeniden sıralar ve yeniden kurar.",
+              "Saule yaşamı yalnızca kaydetmek yerine ona eşlik edecekse, hatırlamanın seçici doğasına saygı duymalıdır. Yararlı bellek, her şeyi eşit görünür kılan değil; doğru şeyi doğru anda geri getiren bellektir."
+            ]
+          },
+          {
+            "heading": "2. Hatırlama İpuçlarıyla Çalışır",
+            "paragraphs": [
+              "İnsan soyut biçimde hatırlamaz. Yer, zaman, ruh hâli, yarım kalmış niyet, bir kişi, bir cümle, duyusal bir iz ya da yeniden ortaya çıkan ihtiyaç eski bir şeyi çağırabilir.",
+              "Bu yüzden bellek desteği yalnızca bilgi saklamamalıdır. Neden önemli olduğunu, neye ait olduğunu ve hangi koşullarda yeniden anlam kazanabileceğini de korumalıdır."
+            ]
+          },
+          {
+            "heading": "3. Unutmak Sağlıklı Belleğin Parçasıdır",
+            "paragraphs": [
+              "Unutmak her zaman başarısızlık değildir. Zihin kimi zaman gürültüden, eskimiş ayrıntıdan ve aşırı yükten böyle korunur.",
+              "İnsan merkezli bir sistem neyin kalıcı, neyin soluklaşabilir, neyin bilinçli olarak bırakılabilir olduğunu ayırt etmelidir. Unutma olmadan bellek yeni bir baskı kaynağına dönüşür."
+            ]
+          },
+          {
+            "heading": "4. Bağlam Belleğe Şekil Verir",
+            "paragraphs": [
+              "Bağlamı olmayan bir hatırlama yanıltıcı olabilir. Bir not, bir söz ya da bir plan yaşadığı hayat değişmişken tek başına kalabilir.",
+              "Saule yalnızca öğeleri değil, öğeler arasındaki ilişkileri de hatırlamalıdır. Kim, ne zaman, neden ve hangi koşullarda soruları belleği yararlı kılar."
+            ]
+          },
+          {
+            "heading": "5. Bellek ve Güven",
+            "paragraphs": [
+              "İnsan dış bir belleğe güvenmediğinde iç tekrarına geri döner. Hatırlatmalar kötü gelirse, kayıtlar gürültüye dönüşürse ya da geri çağırma rastgele hissedilirse zihin yine her şeyi kendi taşır.",
+              "Güvenilir bellek desteği tekrar provasını azaltır. Sadece kayıt tutmaz; önemli olanın güvenle bırakılıp sonra geri bulunabileceğine dair güveni onarır."
+            ]
+          },
+          {
+            "heading": "6. Saule Nazikçe Hatırlamalıdır",
+            "paragraphs": [
+              "Saule benliğin gözetim arşivine dönüşmemelidir. İzinli, sınırlı ve açıklanabilir biçimde hatırlamalıdır.",
+              "İyi bellek tasarımı; kullanıcının neyin tutulduğunu görmesini, düzeltmesini, silmesini ve yaşlandırmasını mümkün kılar. Yararlılık, irade ve gizliliğin önüne geçmemelidir."
+            ]
+          },
+          {
+            "heading": "7. Bellek Kimliğe Açılır",
+            "paragraphs": [
+              "İnsan tekrar tekrar neyi hatırlıyorsa, kendini de kısmen onun üzerinden anlamlandırır. Bellek yalnızca lojistik bir mesele değildir; sürekliliği, öz anlatıyı ve imkân duygusunu da biçimlendirir.",
+              "Bu yüzden sıradaki soru yalnızca Saule’nin neyi hatırlaması gerektiği değil; hatırlanan hayatın zamanla kimliğe nasıl dönüştüğüdür."
+            ]
+          }
+        ],
+        "open_questions": [
+          {
+            "id": "m-1",
+            "question": "Saule neyi kalıcı bellek, neyi geçici bağlam olarak ele almalıdır?",
+            "status": "open",
+            "decisionArea": "Saklama Modeli",
+            "answeredInChapters": [
+              "Bölüm 22 — Unutma",
+              "Bölüm 25 — Uyarlanabilir Bellek"
+            ]
+          },
+          {
+            "id": "m-2",
+            "question": "Doğal hatırlamayı desteklemek için hangi ipuçları en yararlıdır?",
+            "status": "open",
+            "decisionArea": "Geri Çağırma İpuçları",
+            "answeredInChapters": [
+              "Bölüm 26 — Bağlam Motoru",
+              "Bölüm 33 — Ses"
+            ]
+          },
+          {
+            "id": "m-3",
+            "question": "Sistem hatırlanan ayrıntılardaki belirsizliği nasıl göstermelidir?",
+            "status": "open",
+            "decisionArea": "Bellek Güveni",
+            "answeredInChapters": [
+              "Bölüm 20 — Güven",
+              "Bölüm 25 — Uyarlanabilir Bellek"
+            ]
+          },
+          {
+            "id": "m-4",
+            "question": "Eski şeyler ne zaman yeniden gösterilmeli, ne zaman sessiz kalmalıdır?",
+            "status": "open",
+            "decisionArea": "Yeniden Gösterme Politikası",
+            "answeredInChapters": [
+              "Bölüm 26 — Bağlam Motoru",
+              "Bölüm 31 — Planlama Zekâsı"
+            ]
+          },
+          {
+            "id": "m-5",
+            "question": "Ortak yaşanan anılar başkaları adına konuşmadan nasıl temsil edilebilir?",
+            "status": "open",
+            "decisionArea": "Ortak Bellek",
+            "answeredInChapters": [
+              "Bölüm 14 — İlişkiler",
+              "Bölüm 30 — İlişki Zekâsı"
+            ]
+          },
+          {
+            "id": "m-6",
+            "question": "Bellek üzerinde hangi işlemler tamamen kullanıcının denetiminde kalmalıdır?",
+            "status": "open",
+            "decisionArea": "İrade Sınırları",
+            "answeredInChapters": [
+              "Bölüm 24 — İrade",
+              "Bölüm 37 — Gizlilik"
+            ]
+          },
+          {
+            "id": "m-7",
+            "question": "Hassas malzemeyi aşırı toplamadan hatırlamayı nasıl destekleyebiliriz?",
+            "status": "open",
+            "decisionArea": "Gizliliği Koruyan Bellek",
+            "answeredInChapters": [
+              "Bölüm 34 — Saule’nin Kendi Zekâsı",
+              "Bölüm 37 — Gizlilik"
+            ]
+          },
+          {
+            "id": "m-8",
+            "question": "Lojistik hatırlatma ile yansıtıcı bellek desteği nasıl ayrılmalıdır?",
+            "status": "open",
+            "decisionArea": "Bellek Kipleri",
+            "answeredInChapters": [
+              "Bölüm 27 — Yansıtma Motoru",
+              "Bölüm 31 — Planlama Zekâsı"
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Saule belleği ham depolama değil, bağlamlı geri çağırma olarak ele almalıdır.",
+          "Sistem yalnızca neyin söylendiğini değil, neden önemli olduğunu da korumalıdır.",
+          "Unutma ve sona erdirme birinci sınıf yetenekler olmalıdır.",
+          "Bellek güveni düşük olduğunda bu belirsizlik görünür kalmalıdır.",
+          "Kullanıcı hatırlanan malzemeyi görebilmeli, düzeltebilmeli ve silebilmelidir.",
+          "Ortak bellek farklı bakışları tek gerçeğe indirgememelidir.",
+          "Yararlı bellek, arşiv bakımını değil zihinsel provayı azaltmalıdır."
+        ],
+        "future_evolution": "Bu bölüm ileride bellek katmanlarını, ipucu duyarlı geri çağırma kurallarını, sona erme politikalarını ve kullanıcı tarafından denetlenebilir bellek sınırlarını tanımlayacaktır.",
+        "references": [
+          "Bellek pekiştirme araştırmaları",
+          "İpucu bağımlı geri çağırma",
+          "İleriye dönük bellek",
+          "Yeniden kurulan bellek",
+          "Bilişsel dışsallaştırma",
+          "Unutma eğrileri",
+          "Kişisel bilgi yönetimi",
+          "İnsan-yapay zekâ güveni",
+          "Bellek sistemlerinde gizlilik"
+        ]
+      }
+    },
+    "identity": {
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. Kimlik Hareketli Bir Anlatıdır",
+            "paragraphs": [
+              "İnsan kendini sabit bir veri profili gibi yaşamaz. Anılar, yorumlar, bağlılıklar, kayıplar, umutlar ve tekrar eden roller üzerinden kurulan değişen bir anlatı gibi yaşar.",
+              "Saule hayata dürüstçe eşlik edecekse, kimliği tercih etiketlerine ya da üretkenlik özelliklerine indirmemelidir. İnsan, örüntü raporundan daha fazlasıdır."
+            ]
+          },
+          {
+            "heading": "2. Süreklilik Seçimle Kurulur",
+            "paragraphs": [
+              "Kimlik kısmen neyin hatırlandığına, tekrar edildiğine ve anlatıldığına bağlıdır. Benlik her şey korunduğu için değil; belirli iplikler canlı tutulduğu için sürekli hissedilir.",
+              "Bu nedenle bellek desteği kimliği dolaylı biçimde etkiler. Sık geri dönen şey merkezî hissedebilir; görünmeyen şey ise öz anlatıdan silikleşebilir."
+            ]
+          },
+          {
+            "heading": "3. Roller Çatışabilir",
+            "paragraphs": [
+              "İnsan aynı anda ebeveyn, arkadaş, çalışan, bakım veren, partner, öğrenci, hasta, girişimci ya da kardeş olabilir. Bu roller her zaman uyumlu değildir.",
+              "Saule tek baskın kimlik varsaymamalıdır. Rekabet eden yükümlülüklere, yaşam mevsimlerine ve farklı bağlamların farklı benlik parçalarını öne çıkarabildiğine yer açmalıdır."
+            ]
+          },
+          {
+            "heading": "4. Kimlik Kafese Dönüşmemelidir",
+            "paragraphs": [
+              "Sistemler kişiyi dünün örüntüsüne sabitlediğinde tehlikeli hale gelir: erteleyen kişi, yüksek performanslı kişi, tutarsız kullanıcı, duygusal alışverişçi, sabah insanı. Bu etiketler sessizce kendini doğrulayan hükümlere dönüşebilir.",
+              "Saule eğilimleri fark edebilir ama onları hafif tutmalıdır. Kullanıcı hem sistemi hem kendini şaşırtabilmeye devam etmelidir."
+            ]
+          },
+          {
+            "heading": "5. Kendini Bilmek Yansıma İster",
+            "paragraphs": [
+              "Kimlik yalnızca davranış takibiyle anlaşılmaz. Yansıtma, çelişki, yas, özlem ve anlamlandırma da gerekir.",
+              "Bu yüzden Saule gözlenen örüntüler ile yansıtıcı alanı birlikte taşımalıdır. Davranış izleri tek başına bütün insan adına konuşamaz."
+            ]
+          },
+          {
+            "heading": "6. İnsani Kimlik Desteği",
+            "paragraphs": [
+              "İnsan merkezli bir sistem tekrarlayan değerleri, uzun süreli gerilimleri ve iyi yaşama koşullarını görünür kılabilir. Sürekliliği desteklerken kimliği katılaştırmamalıdır.",
+              "Doğru duruş yazarlık değil, eşliktir. Saule kullanıcının kendini daha net görmesine yardım etmeli; benliği onun yerine yazmamalıdır."
+            ]
+          },
+          {
+            "heading": "7. Kimlik Duygulara Açılır",
+            "paragraphs": [
+              "Kimlik sadece hikâyelerden ve rollerden oluşmaz. Aynı zamanda neyin tehdit, neyin güven, neyin canlılık, neyin ağırlık hissettirdiğiyle şekillenir.",
+              "İnsan davranışını daha tam anlamak için kitap şimdi kimlikten duygulara dönmelidir."
+            ]
+          }
+        ],
+        "open_questions": [
+          {
+            "id": "i-1",
+            "question": "Hangi kimlik örüntüleri davranıştan güvenle sezilebilir?",
+            "status": "open",
+            "decisionArea": "Kimlik Çıkarımı",
+            "answeredInChapters": [
+              "Bölüm 19 — Uyarlanabilir Zekâ",
+              "Bölüm 20 — Güven"
+            ]
+          },
+          {
+            "id": "i-2",
+            "question": "Çatışan roller insanın değerini sıralamadan nasıl temsil edilebilir?",
+            "status": "open",
+            "decisionArea": "Rol Temsili",
+            "answeredInChapters": [
+              "Bölüm 14 — İlişkiler",
+              "Bölüm 30 — İlişki Zekâsı"
+            ]
+          },
+          {
+            "id": "i-3",
+            "question": "Yansıtmayı destekleyen ama kişiyi etiketlemeyen dil nasıl kurulmalıdır?",
+            "status": "open",
+            "decisionArea": "Yansıtıcı Dil",
+            "answeredInChapters": [
+              "Bölüm 27 — Yansıtma Motoru",
+              "Bölüm 33 — Ses"
+            ]
+          },
+          {
+            "id": "i-4",
+            "question": "Saule’nin geri yansıttığı kimlik anlatıları kullanıcı tarafından nasıl görülebilir ve düzeltilebilir?",
+            "status": "open",
+            "decisionArea": "Anlatı İradesi",
+            "answeredInChapters": [
+              "Bölüm 20 — Güven",
+              "Bölüm 24 — İrade"
+            ]
+          },
+          {
+            "id": "i-5",
+            "question": "Eski öz tanımları ne zaman zayıflamalı ya da emekliye ayrılmalıdır?",
+            "status": "open",
+            "decisionArea": "Kimlik Sona Ermesi",
+            "answeredInChapters": [
+              "Bölüm 22 — Unutma",
+              "Bölüm 25 — Uyarlanabilir Bellek"
+            ]
+          },
+          {
+            "id": "i-6",
+            "question": "Saule yalnızca geçmişi değil, arzuyu ve mümkün benlikleri nasıl destekleyebilir?",
+            "status": "open",
+            "decisionArea": "Mümkün Benlikler",
+            "answeredInChapters": [
+              "Bölüm 27 — Yansıtma Motoru",
+              "Bölüm 28 — Koçluk Motoru"
+            ]
+          },
+          {
+            "id": "i-7",
+            "question": "Kimlik desteğinin hangi biçimleri çok hızlı manipülasyona dönüşür?",
+            "status": "open",
+            "decisionArea": "Etik Sınırlar",
+            "answeredInChapters": [
+              "Bölüm 23 — Etik",
+              "Bölüm 39 — İş Modeli"
+            ]
+          },
+          {
+            "id": "i-8",
+            "question": "Aile, kültür ve dil bağlamı kimlik yansıtmasını nasıl şekillendirmelidir?",
+            "status": "open",
+            "decisionArea": "Bağlamsal Kimlik",
+            "answeredInChapters": [
+              "Bölüm 30 — İlişki Zekâsı",
+              "Bölüm 33 — Ses"
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Saule kimliği asla sabit bir profile indirgememelidir.",
+          "Gözlenen örüntüler düzeltilebilir ve tartışılabilir kalmalıdır.",
+          "Rekabet eden yaşam rolleri zorla sıralanmadan temsil edilebilmelidir.",
+          "Kimlik yansımaları öz yargıyı değil, netliği desteklemelidir.",
+          "Geçmiş davranış geleceğin imkânını belirlememelidir.",
+          "Kullanıcı geri yansıtılan öz tanımları düzenleyebilmeli veya silebilmelidir.",
+          "Sistem kimliği yazmak değil, kendini anlamaya eşlik etmek için var olmalıdır."
+        ],
+        "future_evolution": "Bu bölüm ileride rol modellerini, anlatı düzeltme araçlarını ve kullanıcı denetimli kimlik yansımalarını tanımlayacaktır.",
+        "references": [
+          "Anlatısal kimlik araştırmaları",
+          "Otobiyografik bellek",
+          "Mümkün benlikler",
+          "Rol çatışması araştırmaları",
+          "Benlik kavramı kuramı",
+          "Yansıtıcı pratik",
+          "Yapay zekâda insan iradesi",
+          "Kimlik ve bağlam",
+          "Kendini izlemede psikolojik güvenlik"
+        ]
+      }
+    },
+    "emotions": {
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. Duygu Gürültü Değildir",
+            "paragraphs": [
+              "Duygu, akılcı hayatın arızası değildir. Bedenin ve zihnin önem, tehdit, umut, kayıp, enerji ve ilişkiyi kaydetme yollarından biridir.",
+              "Duyguyu görmeyen bir sistem davranışı da yanlış okur. Erteleme, kaçınma, acele, bağlanma ve kararsızlık çoğu zaman önce duygusal anlam taşır."
+            ]
+          },
+          {
+            "heading": "2. Duygular Mümkün Olanı Değiştirir",
+            "paragraphs": [
+              "Aynı görev bir gün kolay, başka bir gün imkânsız hissedebilir; çünkü duygusal durum dikkat, dayanıklılık, bellek ve motivasyon üzerinde doğrudan etkilidir.",
+              "Bu, insanın irrasyonel olduğu anlamına gelmez. Eylemin yalnızca soyut öncelikle belirlenmediğini gösterir."
+            ]
+          },
+          {
+            "heading": "3. Duygusal Bağlam Çoğu Zaman Gizlidir",
+            "paragraphs": [
+              "İnsan ne hissettiğini her zaman temiz bir dille söyleyemez. Utanırken kendine tembel, korkarken kararsız, bunalmışken dağınık diyebilir.",
+              "Bu yüzden Saule duygusal yorumu tevazuyla ele almalıdır. Sinyal görebilir ama kesinlik iddiasında bulunmamalıdır."
+            ]
+          },
+          {
+            "heading": "4. Optimizasyondan Önce Düzenleme",
+            "paragraphs": [
+              "Birçok sistem zorluk anında daha fazla uyarı, daha fazla yapı, daha fazla kıyas ya da daha fazla aciliyet verir. Oysa duygusal zorlanma altında bu ek baskı toparlanmayı değil çöküşü derinleştirebilir.",
+              "İnsan merkezli tasarım önce düzenleme, alan ve yumuşak tempo ihtiyacını sormalıdır; performans talebini değil."
+            ]
+          },
+          {
+            "heading": "5. Ürün Tasarımında Duygusal Güvenlik",
+            "paragraphs": [
+              "Kırmızı rozetler, seri takibi, gecikme sayaçları ve sert hatırlatmalar yalnızca iş akışını değil, insanın kendine bakışını da biçimlendirir.",
+              "Saule duygusal sürtünmeyi itaat üretmek için kullanmamalıdır. Dürüstlüğün kaçınmadan daha güvenli hissedildiği koşullar kurmalıdır."
+            ]
+          },
+          {
+            "heading": "6. Terapi İddiası Taşımadan Yansıtma",
+            "paragraphs": [
+              "Saule tekrar eden duyguları, tetikleyicileri ve toparlanma örüntülerini fark etmeye yardımcı olabilir; ama tanı, tedavi ya da iyileştirme iddiası taşıyamaz.",
+              "Ürünün rolü insani farkındalık ve sorumlu sınırlar sunmaktır. Daha ağır sıkıntılar ise ürünün ötesindeki insani ve profesyonel ilişkilere aittir."
+            ]
+          },
+          {
+            "heading": "7. Duygu Motivasyona Açılır",
+            "paragraphs": [
+              "İnsanı neyin canlandırdığı ya da söndürdüğü yalnızca mekanik değildir. Motivasyon; duygu, anlam, umut, korku ve beklenen çabayla iç içedir.",
+              "İnsan neden bazı şeylere yönelip bazılarından uzaklaşıyor sorusunu açmak için sıradaki bölüm motivasyona dönmelidir."
+            ]
+          }
+        ],
+        "open_questions": [
+          {
+            "id": "e-1",
+            "question": "Hangi duygusal sinyaller etkileşim örüntülerinden sezilebilir, hangileri açık yansıma ister?",
+            "status": "open",
+            "decisionArea": "Duygu Sinyalleri",
+            "answeredInChapters": [
+              "Bölüm 19 — Uyarlanabilir Zekâ",
+              "Bölüm 27 — Yansıtma Motoru"
+            ]
+          },
+          {
+            "id": "e-2",
+            "question": "Saule duygusal zorlanmadan klinik ya da muğlak tınlamadan nasıl söz etmelidir?",
+            "status": "open",
+            "decisionArea": "Duygu Dili",
+            "answeredInChapters": [
+              "Bölüm 23 — Etik",
+              "Bölüm 33 — Ses"
+            ]
+          },
+          {
+            "id": "e-3",
+            "question": "Sistem ne zaman baskıyı artırmak yerine yavaşlamalıdır?",
+            "status": "open",
+            "decisionArea": "Düzenleme Eşiği",
+            "answeredInChapters": [
+              "Bölüm 26 — Bağlam Motoru",
+              "Bölüm 31 — Planlama Zekâsı"
+            ]
+          },
+          {
+            "id": "e-4",
+            "question": "Duygusal olarak zor dönemlerde arayüz utancı nasıl azaltabilir?",
+            "status": "open",
+            "decisionArea": "Utanç Azaltma",
+            "answeredInChapters": [
+              "Bölüm 20 — Güven",
+              "Bölüm 28 — Koçluk Motoru"
+            ]
+          },
+          {
+            "id": "e-5",
+            "question": "Hangi duygusal örüntüler varsayılan olarak yerelde ve özel kalmalıdır?",
+            "status": "open",
+            "decisionArea": "Hassas Duygu Verisi",
+            "answeredInChapters": [
+              "Bölüm 34 — Saule’nin Kendi Zekâsı",
+              "Bölüm 37 — Gizlilik"
+            ]
+          },
+          {
+            "id": "e-6",
+            "question": "Saule ne zaman aracı durdurup insani desteği önermelidir?",
+            "status": "open",
+            "decisionArea": "Destek Sınırları",
+            "answeredInChapters": [
+              "Bölüm 23 — Etik",
+              "Bölüm 28 — Koçluk Motoru"
+            ]
+          },
+          {
+            "id": "e-7",
+            "question": "Başkalarını fazla yorumlamadan paylaşılan duygusal bağlam nasıl temsil edilebilir?",
+            "status": "open",
+            "decisionArea": "İlişkisel Duygu",
+            "answeredInChapters": [
+              "Bölüm 14 — İlişkiler",
+              "Bölüm 30 — İlişki Zekâsı"
+            ]
+          },
+          {
+            "id": "e-8",
+            "question": "Duygusal toparlanma puanlara indirgenmeden ürün düzeyinde nasıl anlaşılabilir?",
+            "status": "open",
+            "decisionArea": "Toparlanma Sinyalleri",
+            "answeredInChapters": [
+              "Bölüm 19 — Uyarlanabilir Zekâ",
+              "Bölüm 39 — İş Modeli"
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Saule duyguyu gürültü değil, bağlam olarak ele almalıdır.",
+          "Duygusal yorumlar geçici ve denetlenebilir kalmalıdır.",
+          "Sistem utancı sömürmek yerine azaltmalıdır.",
+          "Zorlanma arttığında uyarı yoğunluğu değil, insanın düzenlenme ihtiyacı öne çıkmalıdır.",
+          "Hassas duygusal malzeme en aza indirilmeli ve güçlü biçimde korunmalıdır.",
+          "Yansıtma desteği açıkça klinik olmayan sınırlar içinde kalmalıdır.",
+          "Sıkıntı derinleştiğinde insani destek sınırları görünür olmalıdır."
+        ],
+        "future_evolution": "Bu bölüm ileride duygusal bağlam sinyallerini, düzenleme duyarlı öneri stratejilerini ve klinik olmayan yansıtma sınırlarını tanımlayacaktır.",
+        "references": [
+          "Duygu ve biliş araştırmaları",
+          "Duygu düzenleme",
+          "Somatik belirteçler",
+          "Stres ve bilişsel kapasite",
+          "Utanç araştırmaları",
+          "Duygusal hesaplama etiği",
+          "Dijital iyi oluş",
+          "İnsan merkezli koçluk",
+          "Hassas verinin gizliliği"
+        ]
+      }
+    },
+    "motivation": {
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. Motivasyon Sabit Bir Yakıt Değildir",
+            "paragraphs": [
+              "Motivasyon çoğu zaman gizemli biçimde artan ya da azalan içsel bir yakıt gibi düşünülür. Oysa beklenen çaba, anlam, ödül, belirsizlik, bağlam, duygusal durum ve önceki başarısızlık ya da başarı motivasyonu şekillendirir.",
+              "Bu önemlidir; çünkü sabit motivasyon bekleyen bir sistem sıradan insan dalgalanmasını itaatsizlik gibi okur."
+            ]
+          },
+          {
+            "heading": "2. Anlam Enerjiyi Değiştirir",
+            "paragraphs": [
+              "İnsan zor şeyler için büyük çaba gösterebilir; eğer o zorluk ilişki, yön, sorumluluk ya da seçilmiş değerlerle uyumluysa. Buna karşılık küçük işler bile boş, tehditkâr ya da sembolik olarak ağır hissedebilir.",
+              "Motivasyon yalnızca görevin zorluğuyla değil, eylem ile anlam arasındaki ilişkiyle ilgilidir."
+            ]
+          },
+          {
+            "heading": "3. Sürtünme İstekliliği Şekillendirir",
+            "paragraphs": [
+              "Bir iş ilk adımı belirsiz olduğu, ödülü çok geç geldiği, çok büyük göründüğü ya da başarısızlık maliyeti zihinde fazla canlı olduğu için tıkanabilir.",
+              "Saule sürtünmeyi görünür kılmalıdır. Belirsizlik azaldığında ve sonraki adım yaşanabilir boyuta indiğinde motivasyon çoğu zaman artar."
+            ]
+          },
+          {
+            "heading": "4. Dış Sistemler Motivasyonu Ödünç Alır",
+            "paragraphs": [
+              "Birçok araç motivasyonu seri takibi, sosyal baskı, oyunlaştırma, kayıp korkusu ya da aciliyet üzerinden üretmeye çalışır. Bu yöntemler kısa süreli hareket sağlasa da güveni ve uzun vadeli sahipliği zayıflatabilir.",
+              "İnsan merkezli bir sistem, motivasyonu yapay baskıya bağımlı hâle getirmeden hareketi desteklemelidir."
+            ]
+          },
+          {
+            "heading": "5. Motivasyonun da Toparlanmaya İhtiyacı Vardır",
+            "paragraphs": [
+              "Hiç kimse sürekli kendini zorlayarak yaşayamaz. Dinlenme, tamamlama, oyun ve anlam uzun süre aç kaldığında motivasyon çöker.",
+              "Bu yüzden Saule her zaman “nasıl daha çok itelim?” diye sormamalıdır. Bazen daha dürüst soru, eylemi yeniden mümkün kılacak koşulların ne olduğudur."
+            ]
+          },
+          {
+            "heading": "6. Manipülasyonsuz Motivasyon Desteği",
+            "paragraphs": [
+              "Saule zamanlamayı görünür kılarak, sürtünmeyi azaltarak, anlamı koruyarak ve daha küçük uygulanabilir yollar göstererek destek olabilir. Sorunun düşük disiplin değil, uyuşmayan beklenti olduğunu da fark ettirebilir.",
+              "Amaç momentum zorlamak değil; insanın daha az iç şiddetle harekete geçebileceği koşulları genişletmektir."
+            ]
+          },
+          {
+            "heading": "7. Motivasyon Alışkanlığa Dönüşür ya da Kaybolur",
+            "paragraphs": [
+              "Tekrarlanan eylem zamanla daha kolay hale gelir; çünkü motivasyon hep yüksek kaldığı için değil, bazı eylemler alışkanlık, çevre ve bellek tarafından taşınmaya başladığı için.",
+              "Devamlılığı anlamak için sıradaki bölüm alışkanlıklara dönmelidir."
+            ]
+          }
+        ],
+        "open_questions": [
+          {
+            "id": "mo-1",
+            "question": "Düşük anlam ile yüksek sürtünme nasıl ayırt edilebilir?",
+            "status": "open",
+            "decisionArea": "Anlam ve Sürtünme",
+            "answeredInChapters": [
+              "Bölüm 26 — Bağlam Motoru",
+              "Bölüm 27 — Yansıtma Motoru"
+            ]
+          },
+          {
+            "id": "mo-2",
+            "question": "Enerji ve isteklilik sabit özelliğe dönüştürülmeden nasıl temsil edilebilir?",
+            "status": "open",
+            "decisionArea": "Motivasyon Modeli",
+            "answeredInChapters": [
+              "Bölüm 19 — Uyarlanabilir Zekâ",
+              "Bölüm 20 — Güven"
+            ]
+          },
+          {
+            "id": "mo-3",
+            "question": "Hangi etkileşim biçimleri destekleyici kalır, hangileri manipülatif olur?",
+            "status": "open",
+            "decisionArea": "Etik Harekete Geçirme",
+            "answeredInChapters": [
+              "Bölüm 23 — Etik",
+              "Bölüm 39 — İş Modeli"
+            ]
+          },
+          {
+            "id": "mo-4",
+            "question": "Bir görev ne zaman küçültülmeli, ertelenmeli, devredilmeli ya da bırakılmalıdır?",
+            "status": "open",
+            "decisionArea": "Uyarlanabilir Eylem",
+            "answeredInChapters": [
+              "Bölüm 24 — İrade",
+              "Bölüm 31 — Planlama Zekâsı"
+            ]
+          },
+          {
+            "id": "mo-5",
+            "question": "Saule bir görevin arkasındaki seçilmiş anlamı nasıl koruyabilir?",
+            "status": "open",
+            "decisionArea": "Anlam Koruma",
+            "answeredInChapters": [
+              "Bölüm 27 — Yansıtma Motoru",
+              "Bölüm 31 — Planlama Zekâsı"
+            ]
+          },
+          {
+            "id": "mo-6",
+            "question": "Hangi işaretler isteksizlikten çok tükenmişliği gösterir?",
+            "status": "open",
+            "decisionArea": "Tükenmişlik Sinyalleri",
+            "answeredInChapters": [
+              "Bölüm 26 — Bağlam Motoru",
+              "Bölüm 37 — Gizlilik"
+            ]
+          },
+          {
+            "id": "mo-7",
+            "question": "Motivasyon desteği yaşam mevsimlerine ve rollere göre nasıl değişmelidir?",
+            "status": "open",
+            "decisionArea": "Motivasyon Bağlamı",
+            "answeredInChapters": [
+              "Bölüm 14 — İlişkiler",
+              "Bölüm 30 — İlişki Zekâsı"
+            ]
+          },
+          {
+            "id": "mo-8",
+            "question": "Sistem ne zaman harekete geçirmeyi bırakıp toparlanma alanı açmalıdır?",
+            "status": "open",
+            "decisionArea": "Toparlanma Eşiği",
+            "answeredInChapters": [
+              "Bölüm 23 — Etik",
+              "Bölüm 28 — Koçluk Motoru"
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Saule motivasyonun bağlam ve anlamla dalgalandığını varsaymalıdır.",
+          "Sistem isteksizliği yorumlamadan önce sürtünmeyi görünür kılmalıdır.",
+          "Yapay baskı etkileşimin temeli olmamalıdır.",
+          "Motivasyon desteği hedeflerin sahipliğini kullanıcıda bırakmalıdır.",
+          "Toparlanma motivasyonun karşıtı değil, parçasıdır.",
+          "Düşük isteklilik otomatik olarak ahlakileştirilmemelidir.",
+          "Amaç zoraki itme değil, gerçekçi hareket alanını genişletmektir."
+        ],
+        "future_evolution": "Bu bölüm ileride motivasyon sinyallerini, sürtünme duyarlı müdahaleleri ve manipülatif olmayan harekete geçirme kalıplarını tanımlayacaktır.",
+        "references": [
+          "Motivasyon bilimi",
+          "Öz belirleme kuramı",
+          "Dopamin ve ödül beklentisi",
+          "Davranışsal ekonomi",
+          "Çaba indirgeme araştırmaları",
+          "Öğrenilmiş çaresizlik",
+          "Oyunlaştırma etiği",
+          "Tükenmişlik araştırmaları",
+          "Eylem başlatma çalışmaları"
+        ]
+      }
+    },
+    "habits": {
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. Alışkanlıklar Saklanmış Kararlardır",
+            "paragraphs": [
+              "Alışkanlıklar her şeyi sıfırdan seçme ihtiyacını azaltır. Sınırlı dikkat ve enerji altında yaşamı taşınabilir kılmanın yollarından biridir.",
+              "Ama alışkanlıklar nötr değildir. Bazıları önemli olanı sabitler, bazıları ise zararlı olanı otomatikleştirir."
+            ]
+          },
+          {
+            "heading": "2. Niyet Değil, İpucu da Belirleyicidir",
+            "paragraphs": [
+              "İnsan alışkanlık değişimini çoğu zaman daha güçlü irade gibi düşünür. Oysa tekrar üzerinde ipuçları, çevre, zamanlama, görünürlük ve duygusal durum da güçlü şekilde etkilidir.",
+              "Bağlamı görmeyen ve yalnızca niyete yaslanan sistemler kullanıcının sürdürebileceğinden fazlasını bekler."
+            ]
+          },
+          {
+            "heading": "3. İyi Alışkanlık Sürtünme Tasarımı İster",
+            "paragraphs": [
+              "Bazı alışkanlıkların daha kolay başlangıca, daha net ipuçlarına, daha küçük eşiklere ve kaçırma sonrası daha iyi geri dönüşe ihtiyacı vardır. Bazıları ise tetikleyiciden uzaklaşmayı gerektirir.",
+              "Bu nedenle alışkanlık desteği salt motivasyonel değil; çevresel ve durumsal da olmalıdır."
+            ]
+          },
+          {
+            "heading": "4. Kaçan Alışkanlık Utanç Sistemine Dönüşmemelidir",
+            "paragraphs": [
+              "Alışkanlık takipçileri kırılan seriyi kolayca ahlaki olaya çevirebilir. Seri bozulunca, yeniden başlamak basit olsa bile alışkanlık psikolojik olarak daha uzak hissedilir.",
+              "Saule onarımı kolaylaştırmalıdır. Kaçırmak, çöküş anlamına gelmemelidir."
+            ]
+          },
+          {
+            "heading": "5. Alışkanlık Kimlik ve Anlam İçindedir",
+            "paragraphs": [
+              "Bazı rutinler kusursuz tasarlandıkları için değil, insanın yaşamak istediği hayatla uyumlu oldukları için sürer. Bazıları ise ödünç alınmış, idealize edilmiş ya da gerçeklikten kopuk oldukları için çöker.",
+              "Bu yüzden alışkanlık desteği yalnızca “ne kadar sık?” değil, “hangi hayatın hizmetinde?” sorusunu da taşımalıdır."
+            ]
+          },
+          {
+            "heading": "6. İnsani Alışkanlık Desteği",
+            "paragraphs": [
+              "Saule tercih edilen ipuçlarını, iyi zamanları, sık engelleri ve bozulmadan sonra geri dönüş yollarını hatırlayarak destek olabilir. Tutarlılığı, değer göstergesi olmadan taşıyabilir.",
+              "Sistem görünür sürekliliği değil, gerçeğe dürüst kalmayı ödüllendirmelidir."
+            ]
+          },
+          {
+            "heading": "7. Alışkanlık Yeniden Seçime Açılır",
+            "paragraphs": [
+              "Otomatikleşmiş rutinler bile daha geniş bir seçim alanının içinde yaşar. Hangi alışkanlıkların kurulacağı, korunacağı, değişeceği ya da bırakılacağı karar vermeyle ilgilidir.",
+              "Bu katmanı anlamak için sıradaki bölüm kararlara dönmelidir."
+            ]
+          }
+        ],
+        "open_questions": [
+          {
+            "id": "h-1",
+            "question": "Hangi alışkanlıklar rutin, hangileri bağlamsal örüntü olarak temsil edilmelidir?",
+            "status": "open",
+            "decisionArea": "Alışkanlık Temsili",
+            "answeredInChapters": [
+              "Bölüm 25 — Uyarlanabilir Bellek",
+              "Bölüm 31 — Planlama Zekâsı"
+            ]
+          },
+          {
+            "id": "h-2",
+            "question": "Faydalı ipuçları günlük hayatı aşırı yapılandırmadan nasıl korunabilir?",
+            "status": "open",
+            "decisionArea": "İpucu Tasarımı",
+            "answeredInChapters": [
+              "Bölüm 26 — Bağlam Motoru",
+              "Bölüm 32 — Telefon Bağlamı"
+            ]
+          },
+          {
+            "id": "h-3",
+            "question": "Kaçırılan rutinlerden sonra hangi onarım yolu görünmelidir?",
+            "status": "open",
+            "decisionArea": "Alışkanlık Onarımı",
+            "answeredInChapters": [
+              "Bölüm 28 — Koçluk Motoru",
+              "Bölüm 31 — Planlama Zekâsı"
+            ]
+          },
+          {
+            "id": "h-4",
+            "question": "Seçilmiş değerler ile ödünç ideal rutinler nasıl ayrılabilir?",
+            "status": "open",
+            "decisionArea": "Değer Uyumlu Alışkanlık",
+            "answeredInChapters": [
+              "Bölüm 16 — Anlam",
+              "Bölüm 27 — Yansıtma Motoru"
+            ]
+          },
+          {
+            "id": "h-5",
+            "question": "Bir rutin ne zaman güçlendirilmeli, ne zaman emekliye ayrılmalıdır?",
+            "status": "open",
+            "decisionArea": "Rutin Emekliliği",
+            "answeredInChapters": [
+              "Bölüm 22 — Unutma",
+              "Bölüm 24 — İrade"
+            ]
+          },
+          {
+            "id": "h-6",
+            "question": "Hangi alışkanlık destekleri manipülatif ya da kompulsif hâle gelebilir?",
+            "status": "open",
+            "decisionArea": "Etik Alışkanlık Tasarımı",
+            "answeredInChapters": [
+              "Bölüm 23 — Etik",
+              "Bölüm 39 — İş Modeli"
+            ]
+          },
+          {
+            "id": "h-7",
+            "question": "Yaşam geçişleri ve istikrarsızlık dönemlerinde alışkanlık desteği nasıl değişmelidir?",
+            "status": "open",
+            "decisionArea": "Alışkanlık Bağlamı",
+            "answeredInChapters": [
+              "Bölüm 14 — İlişkiler",
+              "Bölüm 30 — İlişki Zekâsı"
+            ]
+          },
+          {
+            "id": "h-8",
+            "question": "Bir alışkanlığın kolaylaştığını, yalnızca daha çok izlendiğini değil, hangi sinyaller gösterir?",
+            "status": "open",
+            "decisionArea": "Alışkanlık İlerlemesi",
+            "answeredInChapters": [
+              "Bölüm 19 — Uyarlanabilir Zekâ",
+              "Bölüm 20 — Güven"
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Saule alışkanlığı saf irade testi değil, bağlam şekilli örüntü olarak ele almalıdır.",
+          "İpucu ve çevre tasarımı niyet kadar önemlidir.",
+          "Kırılan seriler kimlik hükmüne dönüşmemelidir.",
+          "Onarım yolu tam sıfırlamadan daha kolay olmalıdır.",
+          "Alışkanlık desteği kullanıcı değerleriyle bağlı kalmalıdır.",
+          "Bir rutini bırakmak, onu güçlendirmek kadar sağlıklı olabilir.",
+          "Tutarlılık asla değer göstergesi sayılmamalıdır."
+        ],
+        "future_evolution": "Bu bölüm ileride alışkanlık ipuçlarını, onarım akışlarını, uyarlanabilir rutin katmanlarını ve değer duyarlı alışkanlık desteğini tanımlayacaktır.",
+        "references": [
+          "Alışkanlık oluşumu araştırmaları",
+          "İpucu-rutin-ödül döngüleri",
+          "Davranış ve bağlam araştırmaları",
+          "Uygulama niyetleri",
+          "Alışkanlık süreksizliği",
+          "Seri psikolojisi",
+          "Kimlik temelli alışkanlıklar",
+          "Davranış tasarımı",
+          "Dijital iyi oluş"
+        ]
+      }
+    },
+    "decision-making": {
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. Hayat Küçük Kararlarla Dolu",
+            "paragraphs": [
+              "Karar verme yalnızca büyük dönüm anlarında olmaz. Kime dönüleceği, neyin erteleneceği, neyin görmezden gelineceği, neyin satın alınacağı, ne söyleneceği ve neyin yarım bırakılacağı da karardır.",
+              "Bilişsel zorlanma çoğu zaman tek büyük karardan değil; belirsiz ağırlık taşıyan tekrar eden küçük seçimlerden birikir."
+            ]
+          },
+          {
+            "heading": "2. Karar Kalitesi Bağlama Bağlıdır",
+            "paragraphs": [
+              "Bir bağlamda iyi olan karar, başka bir bağlamda kötü olabilir. Zaman baskısı, yorgunluk, ilişki gerilimi, maddi korku ve belirsizlik zihnin neyi karşılaştırabildiğini değiştirir.",
+              "Her koşulda aynı karar kalitesini bekleyen sistemler bu yüzden kırılır."
+            ]
+          },
+          {
+            "heading": "3. Fazla Seçenek Sürtünme Yaratır",
+            "paragraphs": [
+              "İnsan çoğu zaman umursamadığı için değil; seçenek kümesi geniş, soyut ve sıralanmamış kaldığı için donar. Her açık ihtimal küçük bir bilişsel maliyeti canlı tutar.",
+              "İnsan merkezli bir sistem bağlılık istemeden önce gereksiz seçimi azaltmalıdır."
+            ]
+          },
+          {
+            "heading": "4. Varsayılanlar Hayatı Sessizce Şekillendirir",
+            "paragraphs": [
+              "Günlük sonucun çoğu varsayılanlarla belirlenir: ne görünür kalıyor, ne yeniden geliyor, hangi kanal bölüyor, hangi iş ilk sıraya çıkıyor, ne acil sayılıyor.",
+              "Bu yüzden Saule varsayılanları kolaylık ayarı değil, etik tasarım kararı olarak ele almalıdır."
+            ]
+          },
+          {
+            "heading": "5. Geri Alınabilir Kararlar Farklı Destek İster",
+            "paragraphs": [
+              "Bazı kararlar denenip düzeltilebilir. Bazıları ise ilişki, para ya da kimlik üzerinde daha ağır sonuç taşır ve daha geniş bağlam ister.",
+              "İyi destek hafif seçim ile ağır sonuçlu karar arasındaki farkı ayırmalıdır."
+            ]
+          },
+          {
+            "heading": "6. İnsani Karar Desteği",
+            "paragraphs": [
+              "Saule seçenekleri küçülterek, ödünleşimleri netleştirerek, bağlamı koruyarak ve son karar anından beri neyin değiştiğini göstererek destek olabilir. Ama kararın sahipliğini eline almamalıdır.",
+              "Kararın ahlaki merkezi kullanıcıda kalmalıdır."
+            ]
+          },
+          {
+            "heading": "7. Kararlar İnsanlar Arasında Yaşar",
+            "paragraphs": [
+              "Birçok karar yalnızca bireysel değildir. Sözler, yükümlülükler, pazarlıklar ve paylaşılan sonuçlar içinde yaşar.",
+              "İnsani seçimi dürüstçe anlamak için sıradaki bölüm ilişkilere dönmelidir."
+            ]
+          }
+        ],
+        "open_questions": [
+          {
+            "id": "d-1",
+            "question": "Saule hangi kararları daraltmalı, hangilerini yalnızca belgelemelidir?",
+            "status": "open",
+            "decisionArea": "Karar Kapsamı",
+            "answeredInChapters": [
+              "Bölüm 24 — İrade",
+              "Bölüm 31 — Planlama Zekâsı"
+            ]
+          },
+          {
+            "id": "d-2",
+            "question": "Varsayılanlar gizli kontrol olmadan nasıl yararlı kalabilir?",
+            "status": "open",
+            "decisionArea": "Varsayılan Etiği",
+            "answeredInChapters": [
+              "Bölüm 20 — Güven",
+              "Bölüm 23 — Etik"
+            ]
+          },
+          {
+            "id": "d-3",
+            "question": "Sistemin daha fazla bilgi yerine daha az seçenek sunması gerektiğini hangi sinyaller gösterir?",
+            "status": "open",
+            "decisionArea": "Seçim Azaltma",
+            "answeredInChapters": [
+              "Bölüm 26 — Bağlam Motoru",
+              "Bölüm 28 — Koçluk Motoru"
+            ]
+          },
+          {
+            "id": "d-4",
+            "question": "Ödünleşimler kesinlik varmış gibi davranmadan nasıl temsil edilebilir?",
+            "status": "open",
+            "decisionArea": "Ödünleşim Modeli",
+            "answeredInChapters": [
+              "Bölüm 19 — Uyarlanabilir Zekâ",
+              "Bölüm 20 — Güven"
+            ]
+          },
+          {
+            "id": "d-5",
+            "question": "Bir karar ne zaman geri alınabilir, ne zaman ağır sonuçlu sayılmalıdır?",
+            "status": "open",
+            "decisionArea": "Karar Ağırlığı",
+            "answeredInChapters": [
+              "Bölüm 27 — Yansıtma Motoru",
+              "Bölüm 31 — Planlama Zekâsı"
+            ]
+          },
+          {
+            "id": "d-6",
+            "question": "İlişkisel etkiler yargı üretmeden nasıl görünür kılınabilir?",
+            "status": "open",
+            "decisionArea": "İlişkisel Sonuç",
+            "answeredInChapters": [
+              "Bölüm 14 — İlişkiler",
+              "Bölüm 30 — İlişki Zekâsı"
+            ]
+          },
+          {
+            "id": "d-7",
+            "question": "Karar desteğinin hangi biçimleri araca bağımlılık üretir?",
+            "status": "open",
+            "decisionArea": "Karar Bağımlılığı",
+            "answeredInChapters": [
+              "Bölüm 23 — Etik",
+              "Bölüm 24 — İrade"
+            ]
+          },
+          {
+            "id": "d-8",
+            "question": "Eski kararlar tüm belirsizliği açmadan nasıl yeniden gözden geçirilebilir?",
+            "status": "open",
+            "decisionArea": "Karar Gözden Geçirme",
+            "answeredInChapters": [
+              "Bölüm 25 — Uyarlanabilir Bellek",
+              "Bölüm 27 — Yansıtma Motoru"
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Saule baskı kurmadan önce gereksiz seçimi azaltmalıdır.",
+          "Varsayılanlar görünür ve etik açıdan okunabilir kalmalıdır.",
+          "Karar desteği ele geçirmek değil, netleştirmek için var olmalıdır.",
+          "Geri alınabilir ve ağır sonuçlu kararlar farklı tempo ister.",
+          "Ödünleşimler belirsizliği gizlemeden sunulmalıdır.",
+          "İlişkisel sonuçlar karar çerçevesinin içinde kalmalıdır.",
+          "Sonuçların sahipliği kullanıcıda kalmalıdır."
+        ],
+        "future_evolution": "Bu bölüm ileride karar türlerini, etik varsayılan kalıplarını ve bağlam duyarlı ödünleşim desteğini tanımlayacaktır.",
+        "references": [
+          "Seçim mimarisi",
+          "Karar yorgunluğu",
+          "Sınırlı rasyonalite",
+          "Beklenti kuramı",
+          "Varsayılan araştırmaları",
+          "Ödünleşim bilişi",
+          "Belirsizlik ve yargı",
+          "Yapay zekâda insan iradesi",
+          "İlişkisel karar verme"
+        ]
+      }
+    },
+    "relationships": {
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. İnsan Hayatı Paylaşımlıdır",
+            "paragraphs": [
+              "Hayatın en önemli parçalarının çoğu insanlar arasında yaşar: beklenti, bakım, çatışma, destek, onarım, aidiyet ve koordinasyon.",
+              "Yalnızca bireysel görevleri anlayan bir sistem insan gerçekliğini kaçırır."
+            ]
+          },
+          {
+            "heading": "2. İlişkisel Bağlam Kırılgandır",
+            "paragraphs": [
+              "İnsan yalnızca olguları değil, ilişkilerin yaşayan bağlamını da unutabilir: en son ne hassastı, ne önemliydi, ne yarım kaldı, ne vaat edildi ve ne tür cevap saygılı olurdu.",
+              "İyi niyet olsa bile ilişkisel unutma zarar üretebilir."
+            ]
+          },
+          {
+            "heading": "3. Her Şey Göreve Dönüşmemelidir",
+            "paragraphs": [
+              "İlişkilerin içinde görev mantığına tam sığmayan şeyler vardır: sevgi, ton, zamanlama, tereddüt, yas, ilgi, susuş ve bakım.",
+              "Saule bağlamı korumalı ama insanı kişi listesinden ya da ilişkiyi görev kuyruğundan ibaret hale getirmemelidir."
+            ]
+          },
+          {
+            "heading": "4. Sınırlar da Bakımın Parçasıdır",
+            "paragraphs": [
+              "İlişkisel destek yalnızca daha çok verme konusunda yardımcı olmak değildir. Aynı zamanda sınırları, cevap hızını, yüklenmeyi ve aşırı erişilebilirliğin maliyetini fark etmeye de yardım etmelidir.",
+              "İyi bakımın içinde sınır netliği vardır."
+            ]
+          },
+          {
+            "heading": "5. Ortak Döngüler ve Ortak Bellek",
+            "paragraphs": [
+              "Birçok açık döngü insanlar arasında yaşar. Bazısı eylem, bazısı konuşma, bazısı sabır, bazısı da saygılı kapanış ister.",
+              "Saule bu döngülerde kullanıcının kendi tarafını korumaya yardım edebilir; ama karşı tarafın niyetini bildiğini varsaymamalıdır."
+            ]
+          },
+          {
+            "heading": "6. İnsani İlişki Desteği",
+            "paragraphs": [
+              "İnsan merkezli bir sistem sürekliliği korumaya, verilen sözü unutmamaya ve istemeden ihmal üretmemeye yardım edebilir. Ama yakınlığı simüle etmemeli ve ilgiyi performansa çevirmemelidir.",
+              "İlişki desteği sahiciliği güçlendirmeli, sosyal gösteriyi değil."
+            ]
+          },
+          {
+            "heading": "7. İlişkiler Yansıtma İster",
+            "paragraphs": [
+              "İlişkiler duygu, kimlik ve yarım anlam taşıdığı için yalnızca koordinasyonla anlaşılamaz.",
+              "Bu nedenle sıradaki bölüm yansıtma üzerine kurulmalıdır."
+            ]
+          }
+        ],
+        "open_questions": [
+          {
+            "id": "r-1",
+            "question": "Hangi ilişkisel ayrıntılar hatırlanmalı, hangileri zamanla silikleşmelidir?",
+            "status": "open",
+            "decisionArea": "İlişkisel Bellek",
+            "answeredInChapters": [
+              "Bölüm 25 — Uyarlanabilir Bellek",
+              "Bölüm 37 — Gizlilik"
+            ]
+          },
+          {
+            "id": "r-2",
+            "question": "Hassasiyet korunurken istilacı ayrıntı toplamadan bağlam nasıl taşınabilir?",
+            "status": "open",
+            "decisionArea": "Saygılı Bağlam",
+            "answeredInChapters": [
+              "Bölüm 34 — Saule’nin Kendi Zekâsı",
+              "Bölüm 37 — Gizlilik"
+            ]
+          },
+          {
+            "id": "r-3",
+            "question": "İlişkisel bir açık döngü ne zaman hatırlatma, ne zaman not, ne zaman yansıtma sorusu olmalıdır?",
+            "status": "open",
+            "decisionArea": "İlişkisel Döngü Türleri",
+            "answeredInChapters": [
+              "Bölüm 27 — Yansıtma Motoru",
+              "Bölüm 31 — Planlama Zekâsı"
+            ]
+          },
+          {
+            "id": "r-4",
+            "question": "Sınırlar ve cevap hızları sistem içinde nasıl temsil edilmelidir?",
+            "status": "open",
+            "decisionArea": "Sınır Modeli",
+            "answeredInChapters": [
+              "Bölüm 24 — İrade",
+              "Bölüm 30 — İlişki Zekâsı"
+            ]
+          },
+          {
+            "id": "r-5",
+            "question": "İlişki desteğinin hangi biçimleri kolayca manipülasyona dönüşür?",
+            "status": "open",
+            "decisionArea": "Bakım Etiği",
+            "answeredInChapters": [
+              "Bölüm 23 — Etik",
+              "Bölüm 39 — İş Modeli"
+            ]
+          },
+          {
+            "id": "r-6",
+            "question": "Saule başkalarının iç dünyası konusunda nasıl mütevazı kalabilir?",
+            "status": "open",
+            "decisionArea": "Yorum Sınırları",
+            "answeredInChapters": [
+              "Bölüm 20 — Güven",
+              "Bölüm 30 — İlişki Zekâsı"
+            ]
+          },
+          {
+            "id": "r-7",
+            "question": "Hayatı CRM’e çevirmeden sağlıklı ilişkisel gözden geçirme nasıl görünür?",
+            "status": "open",
+            "decisionArea": "İlişki İncelemesi",
+            "answeredInChapters": [
+              "Bölüm 27 — Yansıtma Motoru",
+              "Bölüm 30 — İlişki Zekâsı"
+            ]
+          },
+          {
+            "id": "r-8",
+            "question": "Sistem optimizasyon yerine ne zaman doğrudan insan konuşmasını teşvik etmelidir?",
+            "status": "open",
+            "decisionArea": "İnsani Konuşma Sınırı",
+            "answeredInChapters": [
+              "Bölüm 23 — Etik",
+              "Bölüm 28 — Koçluk Motoru"
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Saule ilişkileri kişi veritabanı değil, yaşayan bağlam olarak ele almalıdır.",
+          "İlişkisel bellek saygılı, parçalı ve kullanıcı tarafından düzeltilebilir kalmalıdır.",
+          "Her ilişki ihtiyacı göreve dönüştürülmemelidir.",
+          "Sınır desteği de bakım desteğinin parçasıdır.",
+          "Sistem başkalarının niyetleri konusunda mütevazı kalmalıdır.",
+          "İlişki araçları yakınlığı taklit etmemeli ya da değer ölçmemelidir.",
+          "Amaç sosyal performans değil, süreklilik ve sahici ilgidir."
+        ],
+        "future_evolution": "Bu bölüm ileride ilişkisel bağlam katmanlarını, ortak döngü işlemeyi ve sosyal destek için saygılı bellek sınırlarını tanımlayacaktır.",
+        "references": [
+          "İlişkisel koordinasyon",
+          "Bağlanma ve bakım araştırmaları",
+          "Aktif dinleme",
+          "Sosyal bellek",
+          "Sınır araştırmaları",
+          "Kişiler arası iletişim",
+          "Sosyal sistemlerde HCI",
+          "Bakım etiği",
+          "Dijital ilişki desteği"
+        ]
+      }
+    },
+    "reflection": {
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. Yansıtma Yapılandırılmış Bir Duraktır",
+            "paragraphs": [
+              "Yansıtma pasif dağılma değildir. Yeterince durup örüntü, anlam, çelişki ve yön fark etmeye yönelik bilinçli bir harekettir.",
+              "Yansıtma olmadan deneyim, anlaşılabileceğinden daha hızlı birikir."
+            ]
+          },
+          {
+            "heading": "2. İnceleme ile Yansıtma Aynı Şey Değildir",
+            "paragraphs": [
+              "İnceleme neyin açık kaldığını, neyin değiştiğini, şu anda neyin önemli olduğunu ve hangi adımın gerektiğini sorar. Yansıtma ise başka sorular sorar: ne tekrar ediyor, ne maliyetli hissettirdi, ne canlı geldi, neden kaçınılıyor, artık ne uymuyor?",
+              "İkisi de gereklidir ama birbirine karıştırılmamalıdır."
+            ]
+          },
+          {
+            "heading": "3. Yansıtma Psikolojik Güvenlik İster",
+            "paragraphs": [
+              "Cezalandırıcı, aceleci ya da manipülatif hissedilen bir sistem içinde insan dürüstçe yansıtma yapamaz. Yansıtma yarım cümlelere, değişen dile ve belirsizliğe alan ister.",
+              "Saule dürüstlüğü performanstan daha güvenli kılmalıdır."
+            ]
+          },
+          {
+            "heading": "4. Örüntülerin Dile İhtiyacı Vardır",
+            "paragraphs": [
+              "İnsan örüntüyü çoğu zaman adlandırmadan önce hisseder. Yansıtma desteği, tanı koymadan ya da hikâyeyi dondurmadan tekrar eden gerilimlere dil kazandırdığında yararlı hale gelir.",
+              "Sistem hüküm değil, ayna sunmalıdır."
+            ]
+          },
+          {
+            "heading": "5. Yansıtma Zamanı Birbirine Bağlar",
+            "paragraphs": [
+              "Yansıtma bugünkü zorluğu eski bağlama, unutulmuş değerlere, tekrar eden döngülere ve gelecekteki yöne bağlar. Belleğin pasif arşiv değil, işe yarar bilgelik haline gelmesinin yollarından biridir.",
+              "Bu nedenle yansıtıcı sistem hem yakın hayatı hem de daha uzun sürekliliği taşımalıdır."
+            ]
+          },
+          {
+            "heading": "6. İnsani Yansıtma Desteği",
+            "paragraphs": [
+              "Saule özetler, karşılaştırmalar, küçük sorular ve nazik yönlendirmelerle yansıtmayı destekleyebilir. Ama terapiyi, manevi eşliği ya da samimi insani anlamayı ikame ettiğini asla ima etmemelidir.",
+              "Görevi ne düşündüğünü söylemek değil, daha dürüst düşünmeye yardım etmektir."
+            ]
+          },
+          {
+            "heading": "7. Yansıtma Anlama Açılır",
+            "paragraphs": [
+              "İnsan daha çok yansıttıkça soru “ne oldu?”dan “hangi hayata doğru yaşamak istiyorum?” sorusuna kayar.",
+              "Bu hareket bizi doğrudan anlama götürür."
+            ]
+          }
+        ],
+        "open_questions": [
+          {
+            "id": "re-1",
+            "question": "Ürün tasarımında inceleme soruları ile yansıtma soruları nasıl ayrılmalıdır?",
+            "status": "open",
+            "decisionArea": "Soru Türleri",
+            "answeredInChapters": [
+              "Bölüm 27 — Yansıtma Motoru",
+              "Bölüm 31 — Planlama Zekâsı"
+            ]
+          },
+          {
+            "id": "re-2",
+            "question": "Saule örüntüleri kaderci tınlamadan nasıl geri yansıtabilir?",
+            "status": "open",
+            "decisionArea": "Örüntü Dili",
+            "answeredInChapters": [
+              "Bölüm 19 — Uyarlanabilir Zekâ",
+              "Bölüm 33 — Ses"
+            ]
+          },
+          {
+            "id": "re-3",
+            "question": "Yansıtıcı malzeme ne zaman varsayılan olarak yerelde ve özel kalmalıdır?",
+            "status": "open",
+            "decisionArea": "Yansıtma Gizliliği",
+            "answeredInChapters": [
+              "Bölüm 34 — Saule’nin Kendi Zekâsı",
+              "Bölüm 37 — Gizlilik"
+            ]
+          },
+          {
+            "id": "re-4",
+            "question": "Hangi tür özetler nüansı düzleştirmeden yansıtmayı destekler?",
+            "status": "open",
+            "decisionArea": "Yansıtıcı Özetler",
+            "answeredInChapters": [
+              "Bölüm 25 — Uyarlanabilir Bellek",
+              "Bölüm 27 — Yansıtma Motoru"
+            ]
+          },
+          {
+            "id": "re-5",
+            "question": "Yansıtma ciddi sıkıntıyı görünür kıldığında sistem nasıl davranmalıdır?",
+            "status": "open",
+            "decisionArea": "Güvenlik Sınırları",
+            "answeredInChapters": [
+              "Bölüm 23 — Etik",
+              "Bölüm 28 — Koçluk Motoru"
+            ]
+          },
+          {
+            "id": "re-6",
+            "question": "Düşük kapasite dönemlerinde yansıtma desteği nasıl küçülerek de yararlı kalabilir?",
+            "status": "open",
+            "decisionArea": "Düşük Kapasiteli Yansıtma",
+            "answeredInChapters": [
+              "Bölüm 26 — Bağlam Motoru",
+              "Bölüm 31 — Planlama Zekâsı"
+            ]
+          },
+          {
+            "id": "re-7",
+            "question": "Eski yansıtmalara arşivde boğulmadan nasıl geri dönülebilir?",
+            "status": "open",
+            "decisionArea": "Yansıtma Geri Çağırma",
+            "answeredInChapters": [
+              "Bölüm 25 — Uyarlanabilir Bellek",
+              "Bölüm 26 — Bağlam Motoru"
+            ]
+          },
+          {
+            "id": "re-8",
+            "question": "Hangi soru tonu dürüstlüğü savunmadan daha kolay davet eder?",
+            "status": "open",
+            "decisionArea": "Yansıtma Tonu",
+            "answeredInChapters": [
+              "Bölüm 20 — Güven",
+              "Bölüm 33 — Ses"
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Saule inceleme ile yansıtmayı birbirinden ayırmalıdır.",
+          "Yansıtma soruları belirsizlik ve karmaşıklık taşıyabilmelidir.",
+          "Sistem örüntüleri geri yansıtmalı ama otorite gibi konuşmamalıdır.",
+          "Yansıtıcı malzeme özellikle güçlü gizlilik sınırları ister.",
+          "Sıkıntı derinleştiğinde güvenlik sınırları açık kalmalıdır.",
+          "Yansıtma küçük biçimlerde de mümkün olabilmelidir.",
+          "Ürün parlatılmış anlatıyı değil, dürüstlüğü teşvik etmelidir."
+        ],
+        "future_evolution": "Bu bölüm ileride yansıtıcı soru ailelerini, gizlilik duyarlı özetleri ve düşük kapasiteli yansıtma kiplerini tanımlayacaktır.",
+        "references": [
+          "Yansıtıcı pratik",
+          "Üstbiliş araştırmaları",
+          "Anlatısal işleme",
+          "Psikolojik güvenlik",
+          "Günlük tutma araştırmaları",
+          "Kendine açıklama",
+          "İnsan merkezli koçluk",
+          "Yansıtıcı yapay zekâ etiği",
+          "Bellek ve yansıtma"
+        ]
+      }
+    },
+    "meaning": {
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. Anlam Çabayı Düzenler",
+            "paragraphs": [
+              "İnsan karmaşıklığa, çabaya ve belirsizliğe; bunların önemli bir şeye hizmet ettiğini hissettiğinde daha iyi dayanabilir. Anlam sürtünmeyi kaldırmaz ama sürtünmenin nedenini değiştirir.",
+              "Hayatı düzenlemeye yardım edip anlam boyutuna hiç dokunmayan bir sistem her zaman yüzeyde kalacaktır."
+            ]
+          },
+          {
+            "heading": "2. Değerler Yalnızca Liste Değildir",
+            "paragraphs": [
+              "Değerler yalnızca insanın söylediği şeyler değildir. Zamanın, dikkatinin, yasının, sevincinin, öfkesinin ve fedakârlığının tekrar tekrar işaret ettiği şeylerdir.",
+              "Bu yüzden anlam desteği hem yaşam örüntülerinden hem de açık yansıtmadan beslenmelidir."
+            ]
+          },
+          {
+            "heading": "3. Uyumsuzluk Sessiz Acı Üretir",
+            "paragraphs": [
+              "Bunalmanın önemli bir kısmı yalnızca fazla işten değil, yaşam enerjisinin artık tutarlı gelmeyen şeylere çok fazla akmasından doğar.",
+              "Eylem ile anlam birbirinden uzaklaştığında üretkenlik artabilir ama hayat incelir."
+            ]
+          },
+          {
+            "heading": "4. Anlam Zorla Üretilemez",
+            "paragraphs": [
+              "Hiçbir sistem amacı komutla üretemez. Yalnızca neyin canlı hissettirdiğini, neyin boş geldiğini, neyin yarım kaldığını ve hangi hayatın kurulmaya değer göründüğünü fark etmeye yardım edebilir.",
+              "Bu yüzden anlam desteği buyurgan değil, davetkâr kalmalıdır."
+            ]
+          },
+          {
+            "heading": "5. Ödünleşimler Anlamı Gösterir",
+            "paragraphs": [
+              "İnsanın baskı altında neyi koruduğu çoğu zaman neye gerçekten önem verdiğini gösterir. Zaman, dikkat, para, enerji ve bakım sonludur; her evet sessizce bir hayır alanı yaratır.",
+              "Saule bu ödünleşimleri kullanıcı adına karar vermeden daha görünür kılabilir."
+            ]
+          },
+          {
+            "heading": "6. İnsani Anlam Desteği",
+            "paragraphs": [
+              "İnsan merkezli bir sistem rutinleri değerlere, planları yaşam mevsimlerine ve eylemleri daha derin niyete bağlamaya yardım edebilir. Seçimleri ahlakileştiren bir makineye dönüşmemelidir.",
+              "Anlam desteği en güçlü halini baskı değil, yön duygusu ürettiğinde alır."
+            ]
+          },
+          {
+            "heading": "7. Anlam Felsefeye Açılır",
+            "paragraphs": [
+              "Bu cildin sonunda soru artık yalnızca zihnin nasıl çalıştığı değil; bellek, duygu, seçim ve anlamla şekillenen bir insan hayatına nasıl bir zekânın eşlik etmesi gerektiğidir.",
+              "Bu soru bizi doğrudan bir sonraki ciltte Saule’nin felsefesine götürür."
+            ]
+          }
+        ],
+        "open_questions": [
+          {
+            "id": "me-1",
+            "question": "Saule değerleri slogana indirgemeden nasıl görünür kılabilir?",
+            "status": "open",
+            "decisionArea": "Değer Temsili",
+            "answeredInChapters": [
+              "Bölüm 27 — Yansıtma Motoru",
+              "Bölüm 28 — Koçluk Motoru"
+            ]
+          },
+          {
+            "id": "me-2",
+            "question": "Planlama içinde hangi ödünleşimler açıkça görünür olmalıdır?",
+            "status": "open",
+            "decisionArea": "Anlamlı Ödünleşimler",
+            "answeredInChapters": [
+              "Bölüm 13 — Karar Verme",
+              "Bölüm 31 — Planlama Zekâsı"
+            ]
+          },
+          {
+            "id": "me-3",
+            "question": "Anlam kayması zaman içinde nasıl fark edilebilir?",
+            "status": "open",
+            "decisionArea": "Anlam Kayması",
+            "answeredInChapters": [
+              "Bölüm 25 — Uyarlanabilir Bellek",
+              "Bölüm 27 — Yansıtma Motoru"
+            ]
+          },
+          {
+            "id": "me-4",
+            "question": "Anlamlı tutarlılık ile boş itaat nasıl ayrılabilir?",
+            "status": "open",
+            "decisionArea": "Değer Uyumlu Tutarlılık",
+            "answeredInChapters": [
+              "Bölüm 19 — Uyarlanabilir Zekâ",
+              "Bölüm 24 — İrade"
+            ]
+          },
+          {
+            "id": "me-5",
+            "question": "Yaşam mevsimlerine ve krizlere göre anlam desteği nasıl değişmelidir?",
+            "status": "open",
+            "decisionArea": "Mevsimsel Anlam",
+            "answeredInChapters": [
+              "Bölüm 14 — İlişkiler",
+              "Bölüm 30 — İlişki Zekâsı"
+            ]
+          },
+          {
+            "id": "me-6",
+            "question": "Hangi değer yansımaları varsayılan olarak daha özel kalmalıdır?",
+            "status": "open",
+            "decisionArea": "Hassas Anlam Verisi",
+            "answeredInChapters": [
+              "Bölüm 34 — Saule’nin Kendi Zekâsı",
+              "Bölüm 37 — Gizlilik"
+            ]
+          },
+          {
+            "id": "me-7",
+            "question": "Saule amaç desteğini ideolojik ya da ahlakçı olmadan nasıl taşıyabilir?",
+            "status": "open",
+            "decisionArea": "Anlam Etiği",
+            "answeredInChapters": [
+              "Bölüm 23 — Etik",
+              "Bölüm 39 — İş Modeli"
+            ]
+          },
+          {
+            "id": "me-8",
+            "question": "Sistem ne zaman kullanıcıyı eyleme, ne zaman yansıtıcı duruşa döndürmelidir?",
+            "status": "open",
+            "decisionArea": "Yön Kipleri",
+            "answeredInChapters": [
+              "Bölüm 27 — Yansıtma Motoru",
+              "Bölüm 31 — Planlama Zekâsı"
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Saule anlamı pazarlama dili değil, yön duygusu olarak ele almalıdır.",
+          "Değerler dikkatle çıkarılmalı ve kullanıcı tarafından düzeltilebilir kalmalıdır.",
+          "Uyumsuzluk da aşırı yük kadar ciddiye alınmalıdır.",
+          "Anlam desteği buyurgan değil, davetkâr kalmalıdır.",
+          "Ödünleşimler sessizce optimize edilmek yerine görünür kılınmalıdır.",
+          "Sistem eylemi değerle bağlamalı ama sonucu ahlakileştirmemelidir.",
+          "İnsani zekâ yönü güçlendirmeli, ideolojiyi değil."
+        ],
+        "future_evolution": "Bu bölüm ileride değer yansımalarını, anlam kayması sinyallerini ve eylemi önemli olana bağlayan yön araçlarını ahlaki baskı üretmeden tanımlayacaktır.",
+        "references": [
+          "Anlam üretimi araştırmaları",
+          "Değer netleştirme",
+          "Varoluşçu psikoloji",
+          "Anlatısal tutarlılık",
+          "Ödünleşim ve fedakârlık araştırmaları",
+          "İyi oluş ve amaç",
+          "Ahlak psikolojisi",
+          "İnsan merkezli yapay zekâ etiği",
+          "Yaşam tasarımında yön duygusu"
+        ]
+      }
+    }
+  }
+}

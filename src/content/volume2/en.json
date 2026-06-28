@@ -1,0 +1,1426 @@
+{
+  "chapters": {
+    "memory": {
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. Memory Is Not Storage",
+            "paragraphs": [
+              "Human memory does not behave like a neutral archive. It compresses, highlights, reorders, and reconstructs experience according to meaning, repetition, emotion, and need.",
+              "If Saule is meant to support life rather than merely record it, it must respect that remembering is selective. A useful memory system is not one that keeps everything equally visible; it is one that helps the right thing return at the right moment."
+            ]
+          },
+          {
+            "heading": "2. Recall Depends on Cues",
+            "paragraphs": [
+              "People do not remember in the abstract. They remember through cues: place, time, mood, unfinished intention, a person, a phrase, a sensory trace, or a need that reactivates an older pattern.",
+              "This means memory support should not only save information. It should preserve the conditions that make retrieval easier: why something mattered, what it belonged to, and how it might become relevant again."
+            ]
+          },
+          {
+            "heading": "3. Forgetting Is Part of Healthy Memory",
+            "paragraphs": [
+              "Forgetting is not always failure. It is one of the ways the mind protects itself from overload, noise, and stale detail.",
+              "A humane system must therefore distinguish between what should remain durable, what can fade, and what should be deliberately released. Without forgetting, memory becomes another source of pressure."
+            ]
+          },
+          {
+            "heading": "4. Context Gives Memory Shape",
+            "paragraphs": [
+              "A remembered item without context can become misleading. A note, promise, or plan may survive while the life around it has changed completely.",
+              "Saule should remember relationships between items, not just the items themselves. Memory becomes useful when the system can preserve who, when, why, and under what conditions something was formed."
+            ]
+          },
+          {
+            "heading": "5. Memory and Trust",
+            "paragraphs": [
+              "People return to internal rehearsal when they do not trust an external memory. If reminders arrive badly, if saved material becomes noisy, or if retrieval feels random, the mind resumes carrying everything on its own.",
+              "Trustworthy memory support reduces rehearsal. It does not simply keep records; it restores confidence that important things can be safely released and later recovered."
+            ]
+          },
+          {
+            "heading": "6. Saule Must Remember Gently",
+            "paragraphs": [
+              "Saule should not become a surveillance archive of the self. It should remember with restraint, permission, and clear boundaries.",
+              "Good memory design means the user can inspect, correct, delete, and age out what the system holds. Helpfulness must remain subordinate to agency and privacy."
+            ]
+          },
+          {
+            "heading": "7. Memory Leads to Identity",
+            "paragraphs": [
+              "What a person remembers repeatedly influences how they understand themselves. Memory is not only logistical; it shapes continuity, self-story, and perceived possibility.",
+              "This is why the next question is not only what Saule should remember, but how remembered life becomes part of identity over time."
+            ]
+          }
+        ],
+        "open_questions": [
+          {
+            "id": "m-1",
+            "question": "What should Saule treat as durable memory versus temporary context?",
+            "status": "open",
+            "decisionArea": "Retention Model",
+            "answeredInChapters": [
+              "Chapter 22 — Forgetting",
+              "Chapter 25 — Adaptive Memory"
+            ]
+          },
+          {
+            "id": "m-2",
+            "question": "Which cues best support natural recall without constant prompting?",
+            "status": "open",
+            "decisionArea": "Retrieval Cues",
+            "answeredInChapters": [
+              "Chapter 26 — Context Engine",
+              "Chapter 33 — Voice"
+            ]
+          },
+          {
+            "id": "m-3",
+            "question": "How should the system represent uncertainty in remembered details?",
+            "status": "open",
+            "decisionArea": "Memory Confidence",
+            "answeredInChapters": [
+              "Chapter 20 — Trust",
+              "Chapter 25 — Adaptive Memory"
+            ]
+          },
+          {
+            "id": "m-4",
+            "question": "When should old memories be resurfaced and when should they stay quiet?",
+            "status": "open",
+            "decisionArea": "Resurfacing Policy",
+            "answeredInChapters": [
+              "Chapter 26 — Context Engine",
+              "Chapter 31 — Planning Intelligence"
+            ]
+          },
+          {
+            "id": "m-5",
+            "question": "How can shared memories be represented without speaking for other people?",
+            "status": "open",
+            "decisionArea": "Shared Memory",
+            "answeredInChapters": [
+              "Chapter 14 — Relationships",
+              "Chapter 30 — Relationship Intelligence"
+            ]
+          },
+          {
+            "id": "m-6",
+            "question": "What memory operations must remain fully user-controlled?",
+            "status": "open",
+            "decisionArea": "Agency Boundaries",
+            "answeredInChapters": [
+              "Chapter 24 — Human Agency",
+              "Chapter 37 — Privacy"
+            ]
+          },
+          {
+            "id": "m-7",
+            "question": "How can Saule support recall without over-collecting sensitive material?",
+            "status": "open",
+            "decisionArea": "Privacy-Preserving Memory",
+            "answeredInChapters": [
+              "Chapter 34 — Native Intelligence",
+              "Chapter 37 — Privacy"
+            ]
+          },
+          {
+            "id": "m-8",
+            "question": "How should memory support differ between logistical reminders and reflective memory?",
+            "status": "open",
+            "decisionArea": "Memory Modes",
+            "answeredInChapters": [
+              "Chapter 27 — Reflection Engine",
+              "Chapter 31 — Planning Intelligence"
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Saule must treat memory as contextual retrieval, not raw storage.",
+          "The system should preserve why something matters, not only what it says.",
+          "Forgetting and expiration must be first-class capabilities.",
+          "Memory confidence should remain visible when certainty is low.",
+          "Users must be able to inspect, edit, and delete remembered material.",
+          "Shared memory must not collapse multiple perspectives into one truth.",
+          "Useful memory reduces rehearsal rather than increasing archive maintenance."
+        ],
+        "future_evolution": "This chapter will later define memory layers, cue-aware retrieval rules, expiration policies, and user-auditable memory boundaries.",
+        "references": [
+          "Memory consolidation research",
+          "Cue-dependent recall",
+          "Prospective memory",
+          "Reconstructive memory",
+          "Cognitive offloading",
+          "Forgetting curves",
+          "Personal information management",
+          "Human-AI trust",
+          "Privacy in memory systems"
+        ]
+      }
+    },
+    "identity": {
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. Identity Is a Moving Narrative",
+            "paragraphs": [
+              "People do not experience themselves as a static data profile. They experience themselves as a changing narrative built from memory, interpretation, commitments, losses, hopes, and repeated roles.",
+              "If Saule is meant to support life honestly, it must not flatten identity into preferences, tags, or productivity traits. A person is not reducible to a pattern report."
+            ]
+          },
+          {
+            "heading": "2. Continuity Comes from Selection",
+            "paragraphs": [
+              "Identity depends partly on what is remembered, repeated, and narrated. The self feels continuous not because everything is preserved, but because certain threads are kept alive and connected.",
+              "This means memory support can influence identity indirectly. What returns often may feel central, while what remains unseen can fade from self-understanding."
+            ]
+          },
+          {
+            "heading": "3. Roles Can Conflict",
+            "paragraphs": [
+              "A person may be a parent, friend, worker, caregiver, partner, learner, patient, migrant, founder, or sibling at the same time. These roles do not always harmonize.",
+              "Saule should not assume one dominant identity. It must leave room for competing obligations, changing seasons of life, and the fact that different contexts can call forward different versions of the self."
+            ]
+          },
+          {
+            "heading": "4. Identity Must Not Become a Cage",
+            "paragraphs": [
+              "Systems often become dangerous when they freeze a person into yesterday’s pattern: procrastinator, high performer, inconsistent user, emotional shopper, morning person. Such labels can quietly become self-fulfilling.",
+              "Saule may notice tendencies, but it should hold them lightly. The user must remain able to surprise the system and themselves."
+            ]
+          },
+          {
+            "heading": "5. Self-Knowledge Requires Reflection",
+            "paragraphs": [
+              "Identity is not discovered only by tracking behavior. It also emerges through reflection, contradiction, grief, aspiration, and meaning-making.",
+              "That is why Saule should combine observed patterns with reflective space. Behavioral traces alone cannot speak for the whole person."
+            ]
+          },
+          {
+            "heading": "6. Humane Identity Support",
+            "paragraphs": [
+              "A humane system can help a person notice recurring values, long-term tensions, and preferred conditions for living well. It can support continuity without making identity rigid.",
+              "The right posture is accompaniment, not authorship. Saule should help the user see themselves more clearly, not write the self on their behalf."
+            ]
+          },
+          {
+            "heading": "7. Identity Opens Toward Emotion",
+            "paragraphs": [
+              "Identity is not only made of stories and roles. It is also shaped by emotional patterns: what feels threatening, safe, energizing, heavy, or worth protecting.",
+              "To understand human behavior more fully, the book must next turn from identity toward emotion."
+            ]
+          }
+        ],
+        "open_questions": [
+          {
+            "id": "i-1",
+            "question": "Which identity patterns may be safely inferred from repeated behavior?",
+            "status": "open",
+            "decisionArea": "Identity Inference",
+            "answeredInChapters": [
+              "Chapter 19 — Adaptive Intelligence",
+              "Chapter 20 — Trust"
+            ]
+          },
+          {
+            "id": "i-2",
+            "question": "How should conflicting roles be represented without ranking a person’s worth?",
+            "status": "open",
+            "decisionArea": "Role Representation",
+            "answeredInChapters": [
+              "Chapter 14 — Relationships",
+              "Chapter 30 — Relationship Intelligence"
+            ]
+          },
+          {
+            "id": "i-3",
+            "question": "What language helps reflection without fixing the user into a label?",
+            "status": "open",
+            "decisionArea": "Reflective Language",
+            "answeredInChapters": [
+              "Chapter 27 — Reflection Engine",
+              "Chapter 33 — Voice"
+            ]
+          },
+          {
+            "id": "i-4",
+            "question": "How can users inspect and correct the identity narratives Saule reflects back?",
+            "status": "open",
+            "decisionArea": "Narrative Agency",
+            "answeredInChapters": [
+              "Chapter 20 — Trust",
+              "Chapter 24 — Human Agency"
+            ]
+          },
+          {
+            "id": "i-5",
+            "question": "When should old self-descriptions decay or be retired?",
+            "status": "open",
+            "decisionArea": "Identity Expiration",
+            "answeredInChapters": [
+              "Chapter 22 — Forgetting",
+              "Chapter 25 — Adaptive Memory"
+            ]
+          },
+          {
+            "id": "i-6",
+            "question": "How can identity support include aspiration, not only historical behavior?",
+            "status": "open",
+            "decisionArea": "Possible Selves",
+            "answeredInChapters": [
+              "Chapter 27 — Reflection Engine",
+              "Chapter 28 — Coaching Engine"
+            ]
+          },
+          {
+            "id": "i-7",
+            "question": "Which forms of identity support become manipulative too quickly?",
+            "status": "open",
+            "decisionArea": "Ethical Boundaries",
+            "answeredInChapters": [
+              "Chapter 23 — Ethics",
+              "Chapter 39 — Business Model"
+            ]
+          },
+          {
+            "id": "i-8",
+            "question": "How should cultural, family, and language context shape identity reflection?",
+            "status": "open",
+            "decisionArea": "Contextual Identity",
+            "answeredInChapters": [
+              "Chapter 30 — Relationship Intelligence",
+              "Chapter 33 — Voice"
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Saule must never reduce identity to a static profile.",
+          "Observed patterns should remain revisable and contestable.",
+          "Competing life roles must be representable without forced ranking.",
+          "Identity reflections should support clarity, not self-judgment.",
+          "Historical behavior must not define future possibility.",
+          "Users must be able to edit or retire reflected self-descriptions.",
+          "The system should accompany self-understanding rather than author it."
+        ],
+        "future_evolution": "This chapter will later define role models, narrative revision tools, and user-controlled identity reflections.",
+        "references": [
+          "Narrative identity research",
+          "Autobiographical memory",
+          "Possible selves",
+          "Role conflict research",
+          "Self-concept theory",
+          "Reflective practice",
+          "Human agency in AI systems",
+          "Identity and context",
+          "Psychological safety in self-tracking"
+        ]
+      }
+    },
+    "emotions": {
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. Emotion Is Not Noise",
+            "paragraphs": [
+              "Emotion is not an interruption to rational life. It is one of the ways the body and mind register significance, threat, hope, loss, energy, and relationship.",
+              "A system that ignores emotion will misread behavior. Delay, urgency, avoidance, attachment, and hesitation often carry emotional meaning before they carry logistical meaning."
+            ]
+          },
+          {
+            "heading": "2. Feelings Change What Is Possible",
+            "paragraphs": [
+              "The same task can feel simple on one day and impossible on another because emotional state changes what attention, tolerance, memory, and motivation are available.",
+              "This does not mean the person has become irrational. It means action is shaped by more than abstract priority."
+            ]
+          },
+          {
+            "heading": "3. Emotional Context Is Often Hidden",
+            "paragraphs": [
+              "People do not always have clean language for what they feel. They may say they are lazy when they are ashamed, indecisive when they are afraid, or distracted when they are overwhelmed.",
+              "Saule should therefore treat emotional interpretation with humility. It may notice signals, but it should not overclaim certainty."
+            ]
+          },
+          {
+            "heading": "4. Regulation Before Optimization",
+            "paragraphs": [
+              "Many systems respond to difficulty with more prompts, more structure, more urgency, or more comparison. But under emotional strain, additional pressure can deepen collapse rather than restore capacity.",
+              "A humane design asks first whether the person needs regulation, space, or gentler pacing before it asks for performance."
+            ]
+          },
+          {
+            "heading": "5. Emotional Safety in Product Design",
+            "paragraphs": [
+              "Design choices carry emotional consequences: red badges, streaks, alerts, overdue counts, forced reviews, and escalating reminders can all reshape how a person feels about themselves.",
+              "Saule should not weaponize emotional friction in order to create compliance. It should create conditions under which honesty feels safer than avoidance."
+            ]
+          },
+          {
+            "heading": "6. Reflection Without Therapy Claims",
+            "paragraphs": [
+              "Saule can help a user notice recurring feelings, emotional triggers, and patterns of recovery without claiming to diagnose, heal, or treat them.",
+              "The role of the product is to support humane awareness and responsible boundaries. Serious distress still belongs within human and professional care relationships beyond the product."
+            ]
+          },
+          {
+            "heading": "7. Emotion Points Toward Motivation",
+            "paragraphs": [
+              "What energizes or drains a person is never only mechanical. Motivation is braided with emotion, perceived meaning, hope, fear, and expected effort.",
+              "To understand why people move toward some actions and away from others, the book must next turn to motivation."
+            ]
+          }
+        ],
+        "open_questions": [
+          {
+            "id": "e-1",
+            "question": "Which emotional signals can be inferred from interaction patterns and which require explicit reflection?",
+            "status": "open",
+            "decisionArea": "Emotion Signals",
+            "answeredInChapters": [
+              "Chapter 19 — Adaptive Intelligence",
+              "Chapter 27 — Reflection Engine"
+            ]
+          },
+          {
+            "id": "e-2",
+            "question": "How should Saule talk about emotional strain without sounding clinical or vague?",
+            "status": "open",
+            "decisionArea": "Emotion Language",
+            "answeredInChapters": [
+              "Chapter 23 — Ethics",
+              "Chapter 33 — Voice"
+            ]
+          },
+          {
+            "id": "e-3",
+            "question": "When should the system slow down rather than intensify prompts?",
+            "status": "open",
+            "decisionArea": "Regulation Thresholds",
+            "answeredInChapters": [
+              "Chapter 26 — Context Engine",
+              "Chapter 31 — Planning Intelligence"
+            ]
+          },
+          {
+            "id": "e-4",
+            "question": "How can the interface reduce shame during emotionally difficult periods?",
+            "status": "open",
+            "decisionArea": "Shame Reduction",
+            "answeredInChapters": [
+              "Chapter 20 — Trust",
+              "Chapter 28 — Coaching Engine"
+            ]
+          },
+          {
+            "id": "e-5",
+            "question": "Which emotional patterns should remain private and local by default?",
+            "status": "open",
+            "decisionArea": "Sensitive Emotion Data",
+            "answeredInChapters": [
+              "Chapter 34 — Native Intelligence",
+              "Chapter 37 — Privacy"
+            ]
+          },
+          {
+            "id": "e-6",
+            "question": "When should Saule suggest pausing the tool and seeking human support?",
+            "status": "open",
+            "decisionArea": "Support Boundaries",
+            "answeredInChapters": [
+              "Chapter 23 — Ethics",
+              "Chapter 28 — Coaching Engine"
+            ]
+          },
+          {
+            "id": "e-7",
+            "question": "How can shared emotional context be represented without over-reading other people?",
+            "status": "open",
+            "decisionArea": "Relational Emotion",
+            "answeredInChapters": [
+              "Chapter 14 — Relationships",
+              "Chapter 30 — Relationship Intelligence"
+            ]
+          },
+          {
+            "id": "e-8",
+            "question": "What does emotional recovery look like in product terms without reducing it to scores?",
+            "status": "open",
+            "decisionArea": "Recovery Signals",
+            "answeredInChapters": [
+              "Chapter 19 — Adaptive Intelligence",
+              "Chapter 39 — Business Model"
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Saule must treat emotion as context, not as noise.",
+          "Emotional interpretation should remain tentative and inspectable.",
+          "The system should reduce shame rather than exploit it.",
+          "Prompt intensity must respond to strain, not only to task urgency.",
+          "Sensitive emotional material should be minimized and protected.",
+          "Reflection support must remain clearly non-clinical.",
+          "Human support boundaries should remain explicit when distress deepens."
+        ],
+        "future_evolution": "This chapter will later define emotional context signals, regulation-aware prompt strategies, and non-clinical emotional reflection boundaries.",
+        "references": [
+          "Affect and cognition research",
+          "Emotion regulation",
+          "Somatic markers",
+          "Stress and executive capacity",
+          "Shame research",
+          "Affective computing ethics",
+          "Digital wellbeing",
+          "Human-centered coaching",
+          "Privacy of sensitive data"
+        ]
+      }
+    },
+    "motivation": {
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. Motivation Is Not Constant Fuel",
+            "paragraphs": [
+              "Motivation is often imagined as a stable internal resource that rises or falls for mysterious reasons. In practice it is shaped by expected effort, meaning, reward, uncertainty, context, emotional state, and previous success or failure.",
+              "This matters because a system that expects constant motivation will misread ordinary human fluctuation as disobedience."
+            ]
+          },
+          {
+            "heading": "2. Meaning Changes Energy",
+            "paragraphs": [
+              "People can expend enormous effort on difficult things when those things feel coherent, relational, urgent, or deeply chosen. They can also avoid trivial tasks when those tasks feel empty, threatening, or symbolically heavy.",
+              "Motivation is therefore not only about difficulty. It is about the relationship between action and meaning."
+            ]
+          },
+          {
+            "heading": "3. Friction Shapes Willingness",
+            "paragraphs": [
+              "A task may stall because the first step is unclear, the effort feels too large, the reward is too delayed, or the cost of failure feels too vivid.",
+              "Saule should help make friction visible. Motivation often improves when ambiguity shrinks and the next action becomes concrete enough to feel survivable."
+            ]
+          },
+          {
+            "heading": "4. External Systems Often Borrow Motivation",
+            "paragraphs": [
+              "Many tools try to manufacture motivation through streaks, social pressure, gamification, loss aversion, or urgency. These methods can produce short bursts of action while weakening trust and long-term ownership.",
+              "A humane system should support movement without making motivation dependent on artificial pressure."
+            ]
+          },
+          {
+            "heading": "5. Motivation Needs Recovery",
+            "paragraphs": [
+              "No person can live in sustained self-overriding effort forever. Motivation collapses when rest, completion, play, and meaning are starved for too long.",
+              "This is why Saule should not always ask how to push harder. Sometimes the more honest question is what would make action feel possible again."
+            ]
+          },
+          {
+            "heading": "6. Supporting Motivation Without Manipulation",
+            "paragraphs": [
+              "Saule can help by surfacing timing, reducing friction, preserving meaning, and showing smaller viable paths. It can also help reveal when the problem is not low discipline but a mismatched expectation.",
+              "The aim is not to force momentum. It is to widen the conditions under which the user can act with less internal violence."
+            ]
+          },
+          {
+            "heading": "7. Motivation Becomes Habit or Disappears",
+            "paragraphs": [
+              "Repeated action eventually becomes easier not because motivation stays high, but because some actions become structured by habit, environment, and memory.",
+              "To keep going, the book must next examine habits."
+            ]
+          }
+        ],
+        "open_questions": [
+          {
+            "id": "mo-1",
+            "question": "What signals help distinguish low meaning from high friction?",
+            "status": "open",
+            "decisionArea": "Meaning vs Friction",
+            "answeredInChapters": [
+              "Chapter 26 — Context Engine",
+              "Chapter 27 — Reflection Engine"
+            ]
+          },
+          {
+            "id": "mo-2",
+            "question": "How should Saule represent energy and willingness without turning them into fixed traits?",
+            "status": "open",
+            "decisionArea": "Motivation Model",
+            "answeredInChapters": [
+              "Chapter 19 — Adaptive Intelligence",
+              "Chapter 20 — Trust"
+            ]
+          },
+          {
+            "id": "mo-3",
+            "question": "Which engagement mechanics support motivation without becoming manipulative?",
+            "status": "open",
+            "decisionArea": "Ethical Activation",
+            "answeredInChapters": [
+              "Chapter 23 — Ethics",
+              "Chapter 39 — Business Model"
+            ]
+          },
+          {
+            "id": "mo-4",
+            "question": "When should a task be shrunk, deferred, delegated, or released?",
+            "status": "open",
+            "decisionArea": "Adaptive Action",
+            "answeredInChapters": [
+              "Chapter 24 — Human Agency",
+              "Chapter 31 — Planning Intelligence"
+            ]
+          },
+          {
+            "id": "mo-5",
+            "question": "How can the system preserve the user’s chosen meaning behind a task?",
+            "status": "open",
+            "decisionArea": "Meaning Preservation",
+            "answeredInChapters": [
+              "Chapter 27 — Reflection Engine",
+              "Chapter 31 — Planning Intelligence"
+            ]
+          },
+          {
+            "id": "mo-6",
+            "question": "What signs suggest exhaustion rather than low willingness?",
+            "status": "open",
+            "decisionArea": "Exhaustion Signals",
+            "answeredInChapters": [
+              "Chapter 26 — Context Engine",
+              "Chapter 37 — Privacy"
+            ]
+          },
+          {
+            "id": "mo-7",
+            "question": "How should motivation support differ across roles and seasons of life?",
+            "status": "open",
+            "decisionArea": "Motivational Context",
+            "answeredInChapters": [
+              "Chapter 14 — Relationships",
+              "Chapter 30 — Relationship Intelligence"
+            ]
+          },
+          {
+            "id": "mo-8",
+            "question": "When should the system stop trying to activate and instead make room for recovery?",
+            "status": "open",
+            "decisionArea": "Recovery Thresholds",
+            "answeredInChapters": [
+              "Chapter 23 — Ethics",
+              "Chapter 28 — Coaching Engine"
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Saule must assume motivation fluctuates with context and meaning.",
+          "The system should make friction visible before interpreting reluctance.",
+          "Artificial pressure must not be the foundation of engagement.",
+          "Motivation support should preserve ownership of goals.",
+          "Recovery is part of motivation, not its opposite.",
+          "Low willingness must not automatically be moralized.",
+          "The aim is realistic movement, not forced activation."
+        ],
+        "future_evolution": "This chapter will later define motivation signals, friction-aware interventions, and non-manipulative activation patterns.",
+        "references": [
+          "Motivation science",
+          "Self-determination theory",
+          "Dopamine and reward prediction",
+          "Behavioral economics",
+          "Effort discounting",
+          "Learned helplessness research",
+          "Gamification ethics",
+          "Burnout research",
+          "Action initiation studies"
+        ]
+      }
+    },
+    "habits": {
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. Habits Are Stored Decisions",
+            "paragraphs": [
+              "Habits reduce the need to decide from scratch. They are one of the ways human life becomes livable under limited attention and energy.",
+              "But habits are not neutral. They can stabilize what matters or automate what harms."
+            ]
+          },
+          {
+            "heading": "2. Cues Matter More Than Intention",
+            "paragraphs": [
+              "People often imagine habit change as a matter of stronger will. In reality, cues, environments, timing, visibility, and emotional state strongly shape repetition.",
+              "A system that ignores context and relies only on intention will overestimate what the user can sustain."
+            ]
+          },
+          {
+            "heading": "3. Good Habits Need Friction Design",
+            "paragraphs": [
+              "Some habits need easier starts, clearer cues, smaller thresholds, and better recovery after misses. Others need distance, interruption, or removal of triggers.",
+              "Habit support should therefore be environmental and situational, not purely motivational."
+            ]
+          },
+          {
+            "heading": "4. Missed Habits Should Not Become Shame Systems",
+            "paragraphs": [
+              "Habit trackers often turn a broken streak into a moral event. Once the streak is lost, the habit may feel psychologically farther away even when restarting would be simple.",
+              "Saule should make repair easy. Missing must not imply collapse."
+            ]
+          },
+          {
+            "heading": "5. Habits Exist Inside Identity and Meaning",
+            "paragraphs": [
+              "Some routines endure because they fit how a person wants to live, not because they were perfectly designed. Others fail because they were borrowed, idealized, or detached from reality.",
+              "Habit support should therefore ask not only “how often?” but “in service of what?”"
+            ]
+          },
+          {
+            "heading": "6. Humane Habit Support",
+            "paragraphs": [
+              "Saule can help by remembering preferred cues, good times, common obstacles, and ways back after disruption. It can support continuity without becoming a scorekeeper of worth.",
+              "The system should reward honesty about reality, not just visible consistency."
+            ]
+          },
+          {
+            "heading": "7. Habits Lead Back to Choice",
+            "paragraphs": [
+              "Even automated routines still sit inside a larger field of choices. Which habits are adopted, kept, changed, or abandoned depends on decision-making.",
+              "To understand that layer, the next chapter must turn to decisions."
+            ]
+          }
+        ],
+        "open_questions": [
+          {
+            "id": "h-1",
+            "question": "Which habits should be represented as routines versus contextual patterns?",
+            "status": "open",
+            "decisionArea": "Habit Representation",
+            "answeredInChapters": [
+              "Chapter 25 — Adaptive Memory",
+              "Chapter 31 — Planning Intelligence"
+            ]
+          },
+          {
+            "id": "h-2",
+            "question": "How can Saule preserve useful cues without over-structuring daily life?",
+            "status": "open",
+            "decisionArea": "Cue Design",
+            "answeredInChapters": [
+              "Chapter 26 — Context Engine",
+              "Chapter 32 — Phone Context"
+            ]
+          },
+          {
+            "id": "h-3",
+            "question": "What repair path should appear after missed routines?",
+            "status": "open",
+            "decisionArea": "Habit Repair",
+            "answeredInChapters": [
+              "Chapter 28 — Coaching Engine",
+              "Chapter 31 — Planning Intelligence"
+            ]
+          },
+          {
+            "id": "h-4",
+            "question": "How should the system separate user values from borrowed ideal routines?",
+            "status": "open",
+            "decisionArea": "Value-Aligned Habits",
+            "answeredInChapters": [
+              "Chapter 16 — Meaning",
+              "Chapter 27 — Reflection Engine"
+            ]
+          },
+          {
+            "id": "h-5",
+            "question": "When should a routine be retired rather than optimized?",
+            "status": "open",
+            "decisionArea": "Routine Retirement",
+            "answeredInChapters": [
+              "Chapter 22 — Forgetting",
+              "Chapter 24 — Human Agency"
+            ]
+          },
+          {
+            "id": "h-6",
+            "question": "Which habit supports risk becoming manipulative or compulsive?",
+            "status": "open",
+            "decisionArea": "Ethical Habit Design",
+            "answeredInChapters": [
+              "Chapter 23 — Ethics",
+              "Chapter 39 — Business Model"
+            ]
+          },
+          {
+            "id": "h-7",
+            "question": "How should habit support adapt across life transitions and instability?",
+            "status": "open",
+            "decisionArea": "Habit Context",
+            "answeredInChapters": [
+              "Chapter 14 — Relationships",
+              "Chapter 30 — Relationship Intelligence"
+            ]
+          },
+          {
+            "id": "h-8",
+            "question": "What signals indicate a habit is becoming easier versus merely more monitored?",
+            "status": "open",
+            "decisionArea": "Habit Progress",
+            "answeredInChapters": [
+              "Chapter 19 — Adaptive Intelligence",
+              "Chapter 20 — Trust"
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Saule should treat habits as context-shaped patterns, not pure willpower tests.",
+          "Cue and environment design matter as much as intention.",
+          "Broken streaks must not become identity verdicts.",
+          "Repair paths should be easier than full resets.",
+          "Habit support must remain connected to user values.",
+          "Retiring a routine can be as healthy as strengthening one.",
+          "Consistency should never be mistaken for worth."
+        ],
+        "future_evolution": "This chapter will later define habit cues, repair flows, adaptive routine layers, and value-aware habit support.",
+        "references": [
+          "Habit formation research",
+          "Cue-routine-reward models",
+          "Behavioral context research",
+          "Implementation intentions",
+          "Habit discontinuity",
+          "Streak psychology",
+          "Identity-based habits",
+          "Behavior design",
+          "Digital wellbeing"
+        ]
+      }
+    },
+    "decision-making": {
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. Life Is Full of Small Decisions",
+            "paragraphs": [
+              "Decision-making is not limited to dramatic moments. It happens constantly: what to answer, what to delay, what to ignore, what to buy, what to say, what to work on, and what to leave unfinished.",
+              "This matters because cognitive strain often arrives not from one giant decision, but from repeated small choices with unclear stakes."
+            ]
+          },
+          {
+            "heading": "2. Choice Quality Depends on Context",
+            "paragraphs": [
+              "A good decision in one context may be a bad one in another. Time pressure, fatigue, relational tension, financial fear, and uncertainty all change what the mind can compare or tolerate.",
+              "Systems fail when they assume decision quality is stable across all conditions."
+            ]
+          },
+          {
+            "heading": "3. Too Many Options Create Drag",
+            "paragraphs": [
+              "People often freeze not because they do not care, but because the choice set remains wide, abstract, and unranked. Every open possibility keeps a little cognitive cost alive.",
+              "A humane system should reduce unnecessary choice before asking for commitment."
+            ]
+          },
+          {
+            "heading": "4. Defaults Quietly Shape Lives",
+            "paragraphs": [
+              "Many daily outcomes are determined by defaults: what remains visible, what gets resurfaced, what channel interrupts, what task appears first, what counts as urgent.",
+              "Saule should therefore treat defaults as ethical design decisions, not convenience features."
+            ]
+          },
+          {
+            "heading": "5. Reversible Decisions Need Different Support",
+            "paragraphs": [
+              "Some decisions can be tried and revised. Others carry relational, financial, or identity consequences that deserve more pause and context.",
+              "Good support distinguishes between lightweight choosing and decisions that need wider reflection."
+            ]
+          },
+          {
+            "heading": "6. Humane Decision Support",
+            "paragraphs": [
+              "Saule can support decisions by shrinking options, clarifying trade-offs, preserving context, and showing what changed since the last choice point. It should not take ownership of the decision itself.",
+              "The user must remain the moral center of the choice."
+            ]
+          },
+          {
+            "heading": "7. Decisions Happen Between People",
+            "paragraphs": [
+              "Many decisions are not solitary. They exist inside promises, obligations, negotiations, and shared consequences.",
+              "To understand human choice honestly, the next chapter must turn to relationships."
+            ]
+          }
+        ],
+        "open_questions": [
+          {
+            "id": "d-1",
+            "question": "Which decisions should Saule help narrow versus merely document?",
+            "status": "open",
+            "decisionArea": "Decision Scope",
+            "answeredInChapters": [
+              "Chapter 24 — Human Agency",
+              "Chapter 31 — Planning Intelligence"
+            ]
+          },
+          {
+            "id": "d-2",
+            "question": "How can defaults remain useful without becoming hidden control?",
+            "status": "open",
+            "decisionArea": "Default Ethics",
+            "answeredInChapters": [
+              "Chapter 20 — Trust",
+              "Chapter 23 — Ethics"
+            ]
+          },
+          {
+            "id": "d-3",
+            "question": "What signals suggest the user needs fewer options rather than more information?",
+            "status": "open",
+            "decisionArea": "Choice Reduction",
+            "answeredInChapters": [
+              "Chapter 26 — Context Engine",
+              "Chapter 28 — Coaching Engine"
+            ]
+          },
+          {
+            "id": "d-4",
+            "question": "How should trade-offs be represented without pretending certainty?",
+            "status": "open",
+            "decisionArea": "Trade-off Modeling",
+            "answeredInChapters": [
+              "Chapter 19 — Adaptive Intelligence",
+              "Chapter 20 — Trust"
+            ]
+          },
+          {
+            "id": "d-5",
+            "question": "When should a decision be treated as reversible versus consequential?",
+            "status": "open",
+            "decisionArea": "Decision Weight",
+            "answeredInChapters": [
+              "Chapter 27 — Reflection Engine",
+              "Chapter 31 — Planning Intelligence"
+            ]
+          },
+          {
+            "id": "d-6",
+            "question": "How can relational impact be surfaced without overstepping into judgment?",
+            "status": "open",
+            "decisionArea": "Relational Consequence",
+            "answeredInChapters": [
+              "Chapter 14 — Relationships",
+              "Chapter 30 — Relationship Intelligence"
+            ]
+          },
+          {
+            "id": "d-7",
+            "question": "What forms of decision support risk dependence on the tool?",
+            "status": "open",
+            "decisionArea": "Decision Dependence",
+            "answeredInChapters": [
+              "Chapter 23 — Ethics",
+              "Chapter 24 — Human Agency"
+            ]
+          },
+          {
+            "id": "d-8",
+            "question": "How can the system help users revisit decisions without reopening every uncertainty?",
+            "status": "open",
+            "decisionArea": "Decision Review",
+            "answeredInChapters": [
+              "Chapter 25 — Adaptive Memory",
+              "Chapter 27 — Reflection Engine"
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Saule should reduce unnecessary choice before increasing pressure.",
+          "Defaults must remain visible and ethically legible.",
+          "Decision support should clarify rather than commandeer.",
+          "Reversible and consequential decisions require different pacing.",
+          "Trade-offs should remain honest about uncertainty.",
+          "Relational consequences belong inside the decision frame.",
+          "The system must preserve user ownership of outcomes."
+        ],
+        "future_evolution": "This chapter will later define decision types, ethical default patterns, and context-sensitive trade-off support.",
+        "references": [
+          "Choice architecture",
+          "Decision fatigue",
+          "Bounded rationality",
+          "Prospect theory",
+          "Defaults research",
+          "Trade-off cognition",
+          "Uncertainty and judgment",
+          "Human agency in AI",
+          "Relational decision-making"
+        ]
+      }
+    },
+    "relationships": {
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. Human Life Is Shared",
+            "paragraphs": [
+              "Many of the most important parts of life exist between people: expectations, care, conflict, grief, support, coordination, memory, repair, and belonging.",
+              "A system that only understands solitary tasks will fail to understand human reality."
+            ]
+          },
+          {
+            "heading": "2. Relational Context Is Fragile",
+            "paragraphs": [
+              "People forget not only facts but the living context around a relationship: what was sensitive, what mattered last time, what remains unresolved, what was promised, and what kind of response would feel respectful.",
+              "Relational forgetting can create harm even when intention is good."
+            ]
+          },
+          {
+            "heading": "3. Not Everything Should Become a Task",
+            "paragraphs": [
+              "Relationships include things that do not fit cleanly into task logic: affection, tone, timing, hesitation, care, grief, conflict, and silence.",
+              "Saule should help preserve context without reducing people to contacts or obligations to tickets."
+            ]
+          },
+          {
+            "heading": "4. Boundaries Are Part of Care",
+            "paragraphs": [
+              "Relational support is not only about helping the user give more. It is also about helping them notice limits, pacing, overload, and when responsiveness begins to cost too much.",
+              "Good care includes boundary clarity."
+            ]
+          },
+          {
+            "heading": "5. Shared Loops and Shared Memory",
+            "paragraphs": [
+              "Many open loops exist between people. Some need action, some need conversation, some need patience, and some need respectful closure.",
+              "Saule can help the user remember their side of these loops while staying humble about what the other person thinks or intends."
+            ]
+          },
+          {
+            "heading": "6. Humane Relationship Support",
+            "paragraphs": [
+              "A humane system may help preserve continuity, honor commitments, and reduce accidental neglect. It must not simulate intimacy or turn care into reputation management.",
+              "Relational support should strengthen presence, not performance."
+            ]
+          },
+          {
+            "heading": "7. Relationships Need Reflection",
+            "paragraphs": [
+              "Because relationships carry emotion, identity, and unfinished meaning, they cannot be understood through coordination alone.",
+              "The next chapter must therefore turn to reflection."
+            ]
+          }
+        ],
+        "open_questions": [
+          {
+            "id": "r-1",
+            "question": "Which relational details should be remembered and which should fade?",
+            "status": "open",
+            "decisionArea": "Relational Memory",
+            "answeredInChapters": [
+              "Chapter 25 — Adaptive Memory",
+              "Chapter 37 — Privacy"
+            ]
+          },
+          {
+            "id": "r-2",
+            "question": "How can Saule preserve sensitivity without storing invasive detail?",
+            "status": "open",
+            "decisionArea": "Respectful Context",
+            "answeredInChapters": [
+              "Chapter 34 — Native Intelligence",
+              "Chapter 37 — Privacy"
+            ]
+          },
+          {
+            "id": "r-3",
+            "question": "When should a relational loop become a reminder, a note, or a reflection prompt?",
+            "status": "open",
+            "decisionArea": "Relational Loop Types",
+            "answeredInChapters": [
+              "Chapter 27 — Reflection Engine",
+              "Chapter 31 — Planning Intelligence"
+            ]
+          },
+          {
+            "id": "r-4",
+            "question": "How should the system represent boundaries and response limits?",
+            "status": "open",
+            "decisionArea": "Boundary Modeling",
+            "answeredInChapters": [
+              "Chapter 24 — Human Agency",
+              "Chapter 30 — Relationship Intelligence"
+            ]
+          },
+          {
+            "id": "r-5",
+            "question": "Which relationship supports become manipulative too easily?",
+            "status": "open",
+            "decisionArea": "Ethics of Care Support",
+            "answeredInChapters": [
+              "Chapter 23 — Ethics",
+              "Chapter 39 — Business Model"
+            ]
+          },
+          {
+            "id": "r-6",
+            "question": "How can Saule remain humble about other people’s inner states?",
+            "status": "open",
+            "decisionArea": "Interpretation Limits",
+            "answeredInChapters": [
+              "Chapter 20 — Trust",
+              "Chapter 30 — Relationship Intelligence"
+            ]
+          },
+          {
+            "id": "r-7",
+            "question": "What does healthy relational review look like without turning life into CRM?",
+            "status": "open",
+            "decisionArea": "Relational Review",
+            "answeredInChapters": [
+              "Chapter 27 — Reflection Engine",
+              "Chapter 30 — Relationship Intelligence"
+            ]
+          },
+          {
+            "id": "r-8",
+            "question": "When should relational support suggest human conversation rather than system optimization?",
+            "status": "open",
+            "decisionArea": "Human Conversation Boundary",
+            "answeredInChapters": [
+              "Chapter 23 — Ethics",
+              "Chapter 28 — Coaching Engine"
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Saule must treat relationships as living context, not a contact database.",
+          "Relational memory should remain respectful, partial, and user-correctable.",
+          "Not every relationship need should be converted into a task.",
+          "Boundary support is part of care support.",
+          "The system must remain humble about other people’s intentions.",
+          "Relationship tools must not simulate intimacy or moral worth.",
+          "The aim is presence and continuity, not social performance metrics."
+        ],
+        "future_evolution": "This chapter will later define relational context layers, shared loop handling, and respectful memory boundaries for social support.",
+        "references": [
+          "Relational coordination",
+          "Attachment and care research",
+          "Active listening",
+          "Social memory",
+          "Boundary research",
+          "Interpersonal communication",
+          "HCI and social systems",
+          "Ethics of care",
+          "Digital relationship support"
+        ]
+      }
+    },
+    "reflection": {
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. Reflection Is Structured Pause",
+            "paragraphs": [
+              "Reflection is not passive drifting. It is the deliberate act of pausing long enough to notice pattern, meaning, contradiction, and direction.",
+              "Without reflection, experience accumulates faster than it can be understood."
+            ]
+          },
+          {
+            "heading": "2. Review Is Different from Reflection",
+            "paragraphs": [
+              "Review asks what remains open, what changed, what matters now, and what needs a next action. Reflection asks different questions: what keeps repeating, what felt costly, what felt alive, what is being avoided, and what no longer fits.",
+              "Both are necessary, but they should not be confused."
+            ]
+          },
+          {
+            "heading": "3. Reflection Requires Psychological Safety",
+            "paragraphs": [
+              "A person will not reflect honestly inside a system that feels punitive, hurried, or manipulative. Reflection needs room for unfinished thoughts, changing language, and uncertainty.",
+              "Saule should make candor feel safer than performance."
+            ]
+          },
+          {
+            "heading": "4. Patterns Need Language",
+            "paragraphs": [
+              "People often sense patterns before they can name them. Reflection support becomes useful when it helps give shape to recurring tensions without forcing a diagnosis or a fixed story.",
+              "The system can offer mirrors, not verdicts."
+            ]
+          },
+          {
+            "heading": "5. Reflection Connects Time",
+            "paragraphs": [
+              "Reflection helps connect present difficulty with earlier context, forgotten values, repeated loops, and future direction. It is one of the ways memory becomes usable wisdom rather than passive archive.",
+              "A reflective system therefore needs access to both recent life and longer continuity."
+            ]
+          },
+          {
+            "heading": "6. Humane Reflective Support",
+            "paragraphs": [
+              "Saule can support reflection through prompts, summaries, contrasts, and gentle questions. It must never pretend to replace therapy, spiritual companionship, or intimate human understanding.",
+              "Its role is to help the user think more honestly, not to become the authority on what that thinking means."
+            ]
+          },
+          {
+            "heading": "7. Reflection Opens Toward Meaning",
+            "paragraphs": [
+              "The more a person reflects, the more the question shifts from “what happened?” to “what is worth living toward?”",
+              "That movement leads directly into meaning."
+            ]
+          }
+        ],
+        "open_questions": [
+          {
+            "id": "re-1",
+            "question": "What distinguishes review prompts from reflective prompts in product design?",
+            "status": "open",
+            "decisionArea": "Prompt Types",
+            "answeredInChapters": [
+              "Chapter 27 — Reflection Engine",
+              "Chapter 31 — Planning Intelligence"
+            ]
+          },
+          {
+            "id": "re-2",
+            "question": "How can Saule surface patterns without sounding deterministic?",
+            "status": "open",
+            "decisionArea": "Pattern Language",
+            "answeredInChapters": [
+              "Chapter 19 — Adaptive Intelligence",
+              "Chapter 33 — Voice"
+            ]
+          },
+          {
+            "id": "re-3",
+            "question": "When should reflective material remain private and local by default?",
+            "status": "open",
+            "decisionArea": "Reflective Privacy",
+            "answeredInChapters": [
+              "Chapter 34 — Native Intelligence",
+              "Chapter 37 — Privacy"
+            ]
+          },
+          {
+            "id": "re-4",
+            "question": "What kinds of summaries support reflection without flattening nuance?",
+            "status": "open",
+            "decisionArea": "Reflective Summaries",
+            "answeredInChapters": [
+              "Chapter 25 — Adaptive Memory",
+              "Chapter 27 — Reflection Engine"
+            ]
+          },
+          {
+            "id": "re-5",
+            "question": "How should the system respond when reflection reveals distress or serious risk?",
+            "status": "open",
+            "decisionArea": "Safety Boundaries",
+            "answeredInChapters": [
+              "Chapter 23 — Ethics",
+              "Chapter 28 — Coaching Engine"
+            ]
+          },
+          {
+            "id": "re-6",
+            "question": "How can reflection support stay useful during low-capacity periods?",
+            "status": "open",
+            "decisionArea": "Low-Capacity Reflection",
+            "answeredInChapters": [
+              "Chapter 26 — Context Engine",
+              "Chapter 31 — Planning Intelligence"
+            ]
+          },
+          {
+            "id": "re-7",
+            "question": "How should users revisit older reflections without drowning in archive?",
+            "status": "open",
+            "decisionArea": "Reflective Retrieval",
+            "answeredInChapters": [
+              "Chapter 25 — Adaptive Memory",
+              "Chapter 26 — Context Engine"
+            ]
+          },
+          {
+            "id": "re-8",
+            "question": "Which tones of questioning invite honesty rather than defensiveness?",
+            "status": "open",
+            "decisionArea": "Reflective Tone",
+            "answeredInChapters": [
+              "Chapter 20 — Trust",
+              "Chapter 33 — Voice"
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Saule must distinguish review from reflection.",
+          "Reflection prompts should preserve uncertainty and complexity.",
+          "The system should mirror patterns without becoming authoritative.",
+          "Reflective material requires especially strong privacy boundaries.",
+          "Safety limits must remain explicit when distress intensifies.",
+          "Useful reflection should remain possible even in smaller forms.",
+          "The product should encourage honesty rather than polished self-presentation."
+        ],
+        "future_evolution": "This chapter will later define reflective prompt families, privacy-aware reflective summaries, and low-capacity reflection modes.",
+        "references": [
+          "Reflective practice",
+          "Metacognition research",
+          "Narrative processing",
+          "Psychological safety",
+          "Journaling research",
+          "Self-explanation",
+          "Human-centered coaching",
+          "Ethics of reflective AI",
+          "Memory and reflection"
+        ]
+      }
+    },
+    "meaning": {
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. Meaning Organizes Effort",
+            "paragraphs": [
+              "People can endure complexity, effort, and uncertainty more easily when they feel those things serve something that matters. Meaning does not remove friction, but it changes what friction is for.",
+              "A system that helps organize life without engaging meaning will always remain shallow."
+            ]
+          },
+          {
+            "heading": "2. Values Are Lived, Not Listed",
+            "paragraphs": [
+              "Values are not only what a person says they care about. They are also what their time, attention, grief, joy, resentment, and sacrifice repeatedly point toward.",
+              "Meaning support should therefore emerge from life patterns as well as explicit reflection."
+            ]
+          },
+          {
+            "heading": "3. Misalignment Creates Quiet Suffering",
+            "paragraphs": [
+              "Many forms of overwhelm come not only from too much to do, but from spending too much life energy on things that no longer feel coherent.",
+              "When action and meaning drift apart, productivity can increase while life feels thinner."
+            ]
+          },
+          {
+            "heading": "4. Meaning Cannot Be Forced",
+            "paragraphs": [
+              "No system can manufacture purpose on command. It can only help the user notice what feels alive, what feels empty, what remains unresolved, and what kind of life seems worth building.",
+              "This is why meaning support must remain invitational rather than prescriptive."
+            ]
+          },
+          {
+            "heading": "5. Trade-offs Reveal Meaning",
+            "paragraphs": [
+              "What a person protects under pressure often reveals what matters most. Time, energy, attention, money, and care are finite; every “yes” quietly shapes a field of “no.”",
+              "Saule can help the user see those trade-offs more clearly without deciding for them."
+            ]
+          },
+          {
+            "heading": "6. Humane Meaning Support",
+            "paragraphs": [
+              "A humane system may help connect routines to values, plans to seasons of life, and actions to deeper intention. It should not become a machine for moralizing choices.",
+              "Meaning support is strongest when it creates orientation, not pressure."
+            ]
+          },
+          {
+            "heading": "7. Meaning Opens Into Philosophy",
+            "paragraphs": [
+              "By the end of this volume, the question is no longer only how the mind works, but what kind of intelligence should accompany a human life shaped by memory, emotion, choice, and meaning.",
+              "That question opens directly into Saule’s philosophy in the next volume."
+            ]
+          }
+        ],
+        "open_questions": [
+          {
+            "id": "me-1",
+            "question": "How should Saule help users articulate values without reducing them to slogans?",
+            "status": "open",
+            "decisionArea": "Value Representation",
+            "answeredInChapters": [
+              "Chapter 27 — Reflection Engine",
+              "Chapter 28 — Coaching Engine"
+            ]
+          },
+          {
+            "id": "me-2",
+            "question": "Which trade-offs should be surfaced explicitly in planning?",
+            "status": "open",
+            "decisionArea": "Meaningful Trade-offs",
+            "answeredInChapters": [
+              "Chapter 13 — Decision Making",
+              "Chapter 31 — Planning Intelligence"
+            ]
+          },
+          {
+            "id": "me-3",
+            "question": "How can the system notice meaning drift over time?",
+            "status": "open",
+            "decisionArea": "Meaning Drift",
+            "answeredInChapters": [
+              "Chapter 25 — Adaptive Memory",
+              "Chapter 27 — Reflection Engine"
+            ]
+          },
+          {
+            "id": "me-4",
+            "question": "What distinguishes meaningful consistency from empty compliance?",
+            "status": "open",
+            "decisionArea": "Value-Aligned Consistency",
+            "answeredInChapters": [
+              "Chapter 19 — Adaptive Intelligence",
+              "Chapter 24 — Human Agency"
+            ]
+          },
+          {
+            "id": "me-5",
+            "question": "How should meaning support differ across life seasons and crises?",
+            "status": "open",
+            "decisionArea": "Seasonal Meaning",
+            "answeredInChapters": [
+              "Chapter 14 — Relationships",
+              "Chapter 30 — Relationship Intelligence"
+            ]
+          },
+          {
+            "id": "me-6",
+            "question": "Which value reflections should remain especially private?",
+            "status": "open",
+            "decisionArea": "Sensitive Meaning Data",
+            "answeredInChapters": [
+              "Chapter 34 — Native Intelligence",
+              "Chapter 37 — Privacy"
+            ]
+          },
+          {
+            "id": "me-7",
+            "question": "How can Saule support purpose without becoming ideological or moralizing?",
+            "status": "open",
+            "decisionArea": "Meaning Ethics",
+            "answeredInChapters": [
+              "Chapter 23 — Ethics",
+              "Chapter 39 — Business Model"
+            ]
+          },
+          {
+            "id": "me-8",
+            "question": "When should meaning support return the user to action versus to reflection?",
+            "status": "open",
+            "decisionArea": "Orientation Modes",
+            "answeredInChapters": [
+              "Chapter 27 — Reflection Engine",
+              "Chapter 31 — Planning Intelligence"
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Saule must treat meaning as orientation, not as branding language.",
+          "Values should be inferred carefully and revisable by the user.",
+          "Misalignment matters as much as overload.",
+          "Meaning support must remain invitational, not prescriptive.",
+          "Trade-offs should be made more visible, not silently optimized away.",
+          "The system should connect action with value without moralizing outcomes.",
+          "A humane intelligence should strengthen orientation rather than ideology."
+        ],
+        "future_evolution": "This chapter will later define value reflections, meaning drift signals, and orientation tools that connect action to what matters without moral pressure.",
+        "references": [
+          "Meaning-making research",
+          "Values clarification",
+          "Existential psychology",
+          "Narrative coherence",
+          "Trade-off and sacrifice research",
+          "Wellbeing and purpose",
+          "Moral psychology",
+          "Human-centered AI ethics",
+          "Orientation in life design"
+        ]
+      }
+    }
+  }
+}

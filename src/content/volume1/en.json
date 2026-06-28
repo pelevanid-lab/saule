@@ -1,0 +1,1031 @@
+{
+  "chapters": {
+    "mental-clutter": {
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. The Mind as an Unfinished Workspace",
+            "paragraphs": [
+              "Mental clutter is not simply having many thoughts. It is the experience of carrying unresolved meaning without a reliable place for it to go. A task, worry, promise, idea, or conversation remains mentally active because the person does not trust that it will be remembered and revisited at the right time.",
+              "The result is a mind that repeatedly rehearses the same material. This repetition can look like reflection, but often it is only the nervous system checking whether something important is about to be lost. Clutter grows when remembering and deciding are forced to happen at the same time."
+            ]
+          },
+          {
+            "heading": "2. Collection Is Not Clarity",
+            "paragraphs": [
+              "Capturing everything can reduce immediate pressure, yet collection alone creates another problem: an expanding archive that still requires interpretation. Notes, screenshots, saved links, inboxes, and task lists become external piles when the system cannot distinguish a commitment from an idea, a fear from a fact, or a future possibility from a present responsibility.",
+              "A useful system must therefore do more than store. It must help the person name what an item is, why it matters, and whether any action is actually required. Clarity begins when information is given a relationship to the person's life."
+            ]
+          },
+          {
+            "heading": "3. Emotional Clutter",
+            "paragraphs": [
+              "Some of the heaviest mental objects are not tasks at all. They are ambiguous feelings, unfinished grief, resentment, guilt, anticipated conflict, or uncertainty about identity. Converting all of these into checkboxes would flatten the human experience and could encourage action where patience or reflection is needed.",
+              "Saule must learn to separate actionable commitments from emotional material. It can help a person notice and articulate a recurring concern, but it must not pretend that naming a feeling has solved it or that every discomfort should become a productivity target."
+            ]
+          },
+          {
+            "heading": "4. From Clutter to Orientation",
+            "paragraphs": [
+              "Reducing clutter requires a sequence: capture what is competing for attention, clarify its meaning, decide whether it belongs to now, later, someone else, or nowhere, and create a trustworthy way to return to it. The objective is not an empty mind. It is a mind that no longer has to keep everything equally active.",
+              "Orientation is more valuable than perfect organization. A person should be able to answer three questions quickly: What deserves attention now? What is safely held for later? What can be released? A system that cannot answer these questions may be organized while still feeling mentally noisy."
+            ]
+          },
+          {
+            "heading": "5. The Saule Design Principle",
+            "paragraphs": [
+              "Saule should act as a gentle clarification layer rather than an infinite container. It should surface a small number of unresolved items at appropriate moments, explain why they were surfaced, and let the user dismiss, defer, transform, or forget them without punishment.",
+              "The measure of success is not how much Saule remembers. It is how little the person must keep rehearsing. If the system increases the number of categories, rituals, and dashboards the user must maintain, it has reproduced the clutter it was meant to reduce."
+            ]
+          },
+          {
+            "heading": "6. Clutter as a Signal, Not a Diagnosis",
+            "paragraphs": [
+              "Recurring clutter can reveal a mismatch between a person's obligations, available capacity, and environment. A crowded mind may be responding rationally to unstable work, unclear roles, financial pressure, caregiving, or too many channels of communication.",
+              "Saule may identify patterns, but it must not turn them into clinical claims or personality judgments. The same behavior can have many causes, and a digital trace never contains the whole life around it.",
+              "Useful interpretation therefore remains provisional. Saule should say what it noticed, what evidence it used, and what other explanations may fit, then allow the user to correct or ignore the pattern."
+            ]
+          },
+          {
+            "heading": "7. Reviewing Without Reopening Everything",
+            "paragraphs": [
+              "Review is necessary for trust, but exhaustive review can reactivate every obligation at once. The system should use small queues based on age, consequence, current context, and the user's chosen rhythm rather than presenting an entire archive.",
+              "Silence must be a valid state. If nothing needs attention, Saule should not invent a review merely to create activity. Quiet is evidence that the external system is doing its job.",
+              "A healthy review ends with fewer active uncertainties: something is clarified, scheduled, delegated, archived, or released. It should leave the person more oriented than when they began."
+            ]
+          }
+        ],
+        "open_questions": [
+          {
+            "id": "mc-1",
+            "question": "How can Saule distinguish a commitment from a passing thought?",
+            "status": "open",
+            "decisionArea": "Semantic Classification",
+            "answeredInChapters": [
+              "Chapter 25 — Adaptive Memory",
+              "Chapter 26 — Context Engine"
+            ]
+          },
+          {
+            "id": "mc-2",
+            "question": "When should an unresolved item be surfaced again?",
+            "status": "open",
+            "decisionArea": "Resurfacing Policy",
+            "answeredInChapters": [
+              "Chapter 26 — Context Engine",
+              "Chapter 31 — Planning Intelligence"
+            ]
+          },
+          {
+            "id": "mc-3",
+            "question": "How should emotional concerns be represented without turning them into tasks?",
+            "status": "open",
+            "decisionArea": "Emotional Data Model",
+            "answeredInChapters": [
+              "Chapter 27 — Reflection Engine",
+              "Chapter 28 — Coaching Engine"
+            ]
+          },
+          {
+            "id": "mc-4",
+            "question": "What should the user be able to forget permanently?",
+            "status": "open",
+            "decisionArea": "Forgetting Controls",
+            "answeredInChapters": [
+              "Chapter 22 — Forgetting",
+              "Chapter 37 — Privacy"
+            ]
+          },
+          {
+            "id": "mc-5",
+            "question": "How can the system measure reduced mental load without invasive monitoring?",
+            "status": "open",
+            "decisionArea": "Wellbeing Signals",
+            "answeredInChapters": [
+              "Chapter 19 — Adaptive Intelligence",
+              "Chapter 37 — Privacy"
+            ]
+          },
+          {
+            "id": "mc-6",
+            "question": "How should shared obligations be represented when ownership is unclear?",
+            "status": "open",
+            "decisionArea": "Shared Responsibility",
+            "answeredInChapters": [
+              "Chapter 14 — Relationships",
+              "Chapter 30 — Relationship Intelligence"
+            ]
+          },
+          {
+            "id": "mc-7",
+            "question": "How long should low-value captured material be retained?",
+            "status": "open",
+            "decisionArea": "Retention Policy",
+            "answeredInChapters": [
+              "Chapter 22 — Forgetting",
+              "Chapter 37 — Privacy"
+            ]
+          },
+          {
+            "id": "mc-8",
+            "question": "When should Saule stop clarifying and direct the user toward human support?",
+            "status": "open",
+            "decisionArea": "Safety Boundary",
+            "answeredInChapters": [
+              "Chapter 23 — Ethics",
+              "Chapter 28 — Coaching Engine"
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Saule must distinguish storage from clarification.",
+          "Every resurfaced item must include a reason and an easy way to dismiss it.",
+          "Emotional material must not be automatically converted into tasks.",
+          "The user must be able to delete and forget without penalty.",
+          "The primary success signal is reduced rehearsal, not increased capture.",
+          "Interpretations of mental patterns must be provisional and correctable.",
+          "Reviews must be bounded and must never manufacture work."
+        ],
+        "future_evolution": "This chapter will later define a mental-clutter taxonomy, resurfacing rules, and measurable but privacy-preserving indicators of cognitive relief.",
+        "references": [
+          "Cognitive load theory",
+          "Prospective memory research",
+          "The Zeigarnik effect",
+          "Distributed cognition",
+          "Research on rumination and worry",
+          "Cognitive offloading",
+          "Personal information management",
+          "Uncertainty in human-AI interaction",
+          "Research on role ambiguity"
+        ]
+      }
+    },
+    "the-attention-crisis": {
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. Attention Is No Longer Self-Protecting",
+            "paragraphs": [
+              "Attention is one of the most fundamental connections a human establishes with the world. We notice something, direct ourselves toward it, remain on it, give it meaning, and ultimately transform it into a decision, a memory, a relationship, or an action. Without attention, experience disperses. And when experience disperses, the sense of direction a person feels over their life weakens.",
+              "The fundamental problem of modern life regarding attention is not simply that there are too many stimuli. The deeper problem is this: systems designed to capture our attention have become stronger than our internal and external boundaries designed to protect it.",
+              "Phones, messages, emails, social media, news feeds, work notifications, financial apps, shopping recommendations, short videos, and infinite scrolling all compete for the same limited mental space. They do not just present information; they ask us to return, look, react, reply, or move on to the next thing.",
+              "Therefore, the attention crisis cannot be explained by a sudden weakening of human beings. Humans did not lose their attention; the environment surrounding attention has changed.",
+              "In the past, attention was mostly seen as an internal resource to be protected. Today, however, attention has become an area that is measured, competed for, optimized, and converted into economic value. Whatever a person looks at, clicks on, stays on, and returns to, that behavior generates a signal for a system.",
+              "As a result, the modern individual lives not only with their own internal clutter but also with the attention demands of the external world.",
+              "At this point, Saule must treat the attention crisis not as a moral weakness, but as an imbalance between the human and their environment."
+            ]
+          },
+          {
+            "heading": "2. The Attention Crisis Is Not a Lack of Discipline",
+            "paragraphs": [
+              "Viewing attention solely as a matter of personal discipline is an incomplete explanation.",
+              "Of course, individual habits are important. A person must know their own limits, develop suitable working rhythms for themselves, and learn which stimuli distract them. But placing all the responsibility on the individual ignores the design power of systems competing for attention.",
+              "If an app sends continuous notifications, if a platform is designed to keep a person's interest for as long as possible, if social systems have made quick responses a sign of politeness, and if work culture rewards being available at all times, simply saying \"be more disciplined\" is not enough.",
+              "The attention crisis arises from the conflict between the individual's will and the environment's demands.",
+              "A person wants to start a task. But a message arrives. A message is not just a message; it can be a relationship, an expectation, a possibility, a problem, or an opportunity. The person looks at the message. Then they see another notification. Then a brief check behavior begins. A few minutes later, even if the person remembers their initial intention, they are no longer at the same mental starting point.",
+              "In such moments, the problem is not just lost time. The problem is context loss.",
+              "People often realize too late that they have become distracted. This is because attention loss is not always dramatic. Sometimes it appears as a small deviation, a quick check, or a minor delay. But when these small deviations accumulate throughout the day, by evening the person may feel they have touched many things but truly stayed with very few.",
+              "Saule's approach to attention must begin here: making the contexts that create attention loss visible, without blaming the user."
+            ]
+          },
+          {
+            "heading": "3. Interruption Disrupts Context, Not Just Time",
+            "paragraphs": [
+              "The cost of an interruption is not just the duration of the interruption itself.",
+              "A notification might take five seconds. Checking a message might take thirty seconds. Checking an app might seem like two minutes. But it can take much longer for the mind to return to the previous task, remember what it was doing, find where it left off, and reach the same depth of thought again.",
+              "Therefore, the true cost of the attention crisis is larger than it appears.",
+              "Interruption breaks the continuity of thought. The human mind is forced to return to the question \"where was I?\" every single time. This return is not only cognitive, but also emotional. A person returning to a task sometimes cannot find the same motivation, the same courage, or the same openness.",
+              "Some tasks can be done with short attention spans. Replying to messages, doing a quick check, or making simple edits is possible with short-term focus. But other tasks require deep context: writing, thinking, making a difficult decision, trying to understand a relationship, evaluating a career direction, reviewing a financial situation, or designing a project.",
+              "The modern attention crisis erodes this second type of task the most.",
+              "This is because deep tasks do not usually shout. They do not remind us of themselves with notifications. They do not appear urgent. Yet, most of the life-changing decisions a human makes arise from deep matters, not urgent ones.",
+              "Saule must care not only about how much time the user spends, but how much context they are able to preserve."
+            ]
+          },
+          {
+            "heading": "4. The Immediate Defeating the Slow",
+            "paragraphs": [
+              "The modern digital environment empowers the immediate.",
+              "A new message appears instantly. New news flows immediately. A new price movement draws attention right away. A new notification drops onto the screen at once. Someone's answer, an app's warning, or a platform's suggestion can easily get in front of the mind.",
+              "In contrast, things that are important but slow are often silent.",
+              "A book is silent. A long-term career goal is silent. A health habit is silent. The need to maintain a good relationship is silent. The meaning of time spent with your child is silent. The necessity of patiently building a project is silent. The process of knowing oneself is silent.",
+              "The immediate announces itself. The slow waits to be remembered.",
+              "Therefore, the attention crisis is not just a problem of distraction; it is a problem of ranking values. As a person responds to whatever shouts loudest throughout the day, the most important things can be left behind.",
+              "At this point, Saule's role is not to make decisions on behalf of the user. Saule must make the difference between the immediate and the important visible.",
+              "A system should be able to ask: \"Is this really important now, or is it only important because it is visible now?\" This question stands at the center of the modern attention crisis."
+            ]
+          },
+          {
+            "heading": "5. Attention Is Not a Fixed Resource",
+            "paragraphs": [
+              "Attention is not a mechanical resource available in the same amount every day.",
+              "Sleep, stress, anxiety, physical state, environmental safety, time of day, emotional load, social pressures, and the meaning of the work to be done all alter the quality of attention.",
+              "Some days a person can focus for long periods. Some days even starting for a few minutes is difficult. Some days the person is open to the external world. Some days even the smallest notification creates a massive rupture.",
+              "This variability is not failure. It is part of being human.",
+              "Traditional productivity systems often fail to account for this variability. They approach each day with the same calendar, the same task list, the same pressure of goals, and the same expectation of performance. Yet, human capacity is not fixed.",
+              "Saule must behave differently here.",
+              "Saule must not label the user as someone who \"can focus\" or \"cannot focus.\" Instead, it should try to understand attention patterns within context.",
+              "At what hours is attention more accessible? Which tasks create more resistance? Speaking with which people increases the mental load? On which days do notifications become more disruptive? Under what conditions is short focus more realistic, and under what conditions is deep work possible?",
+              "The answers to these questions must be used not to define the person, but to design a day that is more suitable for them."
+            ]
+          },
+          {
+            "heading": "6. Protecting Attention Comes Before Optimizing It",
+            "paragraphs": [
+              "Many systems try to measure and optimize attention. How many minutes were worked? How many tasks were completed? How many times did they return to the app? How many notifications were opened? How many blocks were completed?",
+              "But if attention is already fragmented, optimization may be too late. A more humane approach is to protect attention first.",
+              "Protection can mean fewer notifications. It can mean batching communication. It can mean recognizing the user's right to be unavailable. It can mean leaving transition spaces before a focus block. It can mean not showing some things immediately. It can mean not turning every signal in the user's life into an object that \"must be looked at immediately.\"",
+              "Saule's attention design must therefore be very careful. Because Saule will also be an app. Saule can also send notifications, remind, offer suggestions, and ask questions. If it does this without restraint, it becomes part of the problem it tries to solve.",
+              "A system that sends intelligent notifications too often is still an interruption system. Relevance does not automatically justify immediacy.",
+              "That a piece of information is important does not mean it must be shown immediately. Sometimes the right information given at the wrong time turns into attention load. Saule must learn not only what to say, but also when to remain silent."
+            ]
+          },
+          {
+            "heading": "7. Attention Is Also Social",
+            "paragraphs": [
+              "Attention is not only related to a person's internal discipline. It is also about how quickly others expect a response from them.",
+              "Teams at work may expect instant replies. Family members may request availability. Friends may interpret silence as indifference. Customers may expect quick answers. Social media platforms can make staying visible feel like part of maintaining a relationship.",
+              "For this reason, attention protection is not just about \"turning off notifications.\"",
+              "A person must sometimes be truly reachable. A child, family, an important job interview, an emergency, or caregiving responsibilities must not be ignored. But not every contact carries the same urgency.",
+              "This is one of the difficult questions Saule must solve in the future: how to avoid neglecting relationships, responsibilities, and true emergencies while protecting the user?",
+              "A good system does not solve the problem by just silencing everyone. It makes availability more legible. It helps the person express when they plan to return. It can batch non-urgent communication. It can prioritize what is truly important. But in doing so, it must not turn into a system that arbitrarily scores who is \"important\" or makes relationships mechanical.",
+              "Attention protection is not a tool for escaping social responsibility. Similarly, availability should not mean unlimited demands on attention. Saule must strike a delicate balance between the two."
+            ]
+          },
+          {
+            "heading": "8. What Does It Mean to Reclaim Attention?",
+            "paragraphs": [
+              "Reclaiming attention does not mean making every minute of the day productive.",
+              "For a person, reclaiming attention is sometimes completing a long piece of writing. Sometimes it is forgetting the phone while talking to their son. Sometimes it is truly listening to a friend. Sometimes it is their mind recovering while walking. Sometimes, instead of finishing a task, it is being able to decide which task they will not do.",
+              "Therefore, attention cannot be measured solely by work minutes.",
+              "A person may sit at a desk for three hours and be constantly interrupted. Another person may be truly present for twenty minutes. The second scenario is sometimes more valuable than the first.",
+              "Saule's success metric regarding attention must not be the time spent in the app. Indeed, in some cases, Saule's success might be the user opening the app less.",
+              "More accurate signals could be: Did the user return to what they intended? Were they able to reconstruct their context after an interruption? At the end of the day, were they able to see more clearly what was important? Did they feel more in control, or did they feel more managed? Was their attention used closer to their own values and real responsibilities?",
+              "Saule's goal is not to grow engagement, but to open a healthier space for attention in the user's life. The outcome belongs in the user's life, not in an engagement dashboard."
+            ]
+          },
+          {
+            "heading": "9. The Attention Principle for Saule",
+            "paragraphs": [
+              "This chapter generates a core principle for Saule: Saule must be designed not to win the user's attention, but to protect the user's attention.",
+              "This principle must spread throughout the product. At every layer, from notifications, reminders, coaching messages, daily plans, phone context, voice interaction, and the memory system, the same question must be asked: \"Does this intervention truly make the user's life clearer, or does it only make the system more visible?\"",
+              "Saule must not be an assistant that constantly reminds us of itself. It must not turn into a new open loop in people's minds. The user must not feel a new pressure of \"I also need to check Saule.\"",
+              "Saule's value can emerge sometimes in showing something, sometimes in deferring something, sometimes in silencing something, and sometimes in doing nothing at all.",
+              "Silence must be a valid state. A system that protects attention must design remaining silent as a product behavior, not just speaking."
+            ]
+          }
+        ],
+        "open_questions": [
+          {
+            "id": "ac-1",
+            "question": "What conditions justify interrupting the user?",
+            "status": "open",
+            "decisionArea": "Interruption Policy",
+            "answeredInChapters": [
+              "Chapter 31 — Planning Intelligence",
+              "Chapter 32 — Phone Context",
+              "Chapter 37 — Privacy"
+            ]
+          },
+          {
+            "id": "ac-2",
+            "question": "How can attention patterns be learned without becoming identity labels?",
+            "status": "open",
+            "decisionArea": "Adaptive Profiling",
+            "answeredInChapters": [
+              "Chapter 19 — Adaptive Intelligence",
+              "Chapter 25 — Adaptive Memory",
+              "Chapter 24 — Will"
+            ]
+          },
+          {
+            "id": "ac-3",
+            "question": "How should Saule handle urgent messages during protected focus?",
+            "status": "open",
+            "decisionArea": "Urgency Escalation",
+            "answeredInChapters": [
+              "Chapter 26 — Context Engine",
+              "Chapter 30 — Relationship Intelligence",
+              "Chapter 32 — Phone Context"
+            ]
+          },
+          {
+            "id": "ac-4",
+            "question": "Which attention signals are too invasive to collect?",
+            "status": "open",
+            "decisionArea": "Attention Privacy",
+            "answeredInChapters": [
+              "Chapter 32 — Phone Context",
+              "Chapter 37 — Privacy",
+              "Chapter 38 — Security"
+            ]
+          },
+          {
+            "id": "ac-5",
+            "question": "How can the product succeed without maximizing engagement?",
+            "status": "open",
+            "decisionArea": "Product Incentives",
+            "answeredInChapters": [
+              "Chapter 20 — Trust",
+              "Chapter 23 — Ethics",
+              "Chapter 39 — Business Model"
+            ]
+          },
+          {
+            "id": "ac-6",
+            "question": "How can availability expectations be negotiated between people?",
+            "status": "open",
+            "decisionArea": "Social Attention",
+            "answeredInChapters": [
+              "Chapter 14 — Relationships",
+              "Chapter 30 — Relationship Intelligence",
+              "Chapter 32 — Phone Context"
+            ]
+          },
+          {
+            "id": "ac-7",
+            "question": "Which outcomes indicate restored attention rather than forced productivity?",
+            "status": "open",
+            "decisionArea": "Attention Outcomes",
+            "answeredInChapters": [
+              "Chapter 19 — Adaptive Intelligence",
+              "Chapter 31 — Planning Intelligence",
+              "Chapter 40 — Development Stages"
+            ]
+          },
+          {
+            "id": "ac-8",
+            "question": "How should attention support differ across accessibility and life responsibilities?",
+            "status": "open",
+            "decisionArea": "Accessible Focus",
+            "answeredInChapters": [
+              "Chapter 24 — Will",
+              "Chapter 32 — Phone Context",
+              "Chapter 36 — Engineering Principles",
+              "Chapter 37 — Privacy"
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Saule must optimize for user intention, not engagement.",
+          "Notifications should be batched or deferred by default unless urgency is explicit.",
+          "Attention patterns must remain contextual and revisable; they should not turn the user into permanent identity labels.",
+          "Protected focus must include recovery and transition time, not just work time.",
+          "The user must always be able to override learned interruption rules.",
+          "Availability should not be assumed, but communicated as clearly as possible.",
+          "Attention outcomes must be evaluated through lightweight reflection and user approval, not continuous surveillance.",
+          "Saule should design remaining silent in certain moments as a product behavior."
+        ],
+        "future_evolution": "This chapter will later be expanded to define how attention patterns are represented, under what conditions notifications are batched, how protected focus periods are designed, and how the user can inspect and edit their own attention policy.\n\nFuture versions will also examine how attention support should adapt to different life situations: parenting, job hunting, freelance work, caregiving responsibilities, relationship management, education, health, and periods of high uncertainty.\n\nThe future purpose of this chapter is to clarify how Saule can be designed as a system that protects the user's attention space, rather than just planning tasks.",
+        "references": [
+          "Attention residue research",
+          "Task-switching literature",
+          "The attention economy",
+          "Human-computer interaction research on digital notifications",
+          "Studies on vigilance, cognitive fatigue, and recovery",
+          "Accessibility norms in the workplace",
+          "Boundary management research",
+          "Self-determination theory",
+          "Behavior design and product incentives",
+          "Digital wellbeing research",
+          "Accessibility studies on attention support"
+        ]
+      }
+    },
+    "open-loops": {
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. Why the Unfinished Stays Active",
+            "paragraphs": [
+              "An open loop is anything the mind treats as incomplete: a task, promise, decision, question, or emotional exchange. It remains active because the brain expects future action but lacks a trusted conclusion or return point.",
+              "Not every unfinished item is equally demanding. Ambiguous loops consume more attention than clearly deferred ones because the mind must repeatedly ask what the item means and whether it has become urgent."
+            ]
+          },
+          {
+            "heading": "2. Different Loops Need Different Endings",
+            "paragraphs": [
+              "Some loops close through action. Others close through a decision, a conversation, acceptance, delegation, scheduling, or deliberate abandonment. Treating every loop as a task produces long lists that preserve uncertainty rather than resolving it.",
+              "Closure is therefore semantic. The person needs to know what kind of incompleteness they are carrying before choosing the next step."
+            ]
+          },
+          {
+            "heading": "3. Trust Is the External Memory",
+            "paragraphs": [
+              "A reminder only reduces mental pressure when the user trusts its timing, wording, and destination. If reminders arrive too early, too late, or without context, the mind learns that it must continue remembering on its own.",
+              "A trusted system makes the return path visible. It records why something matters, what would count as progress, and when the person wants to see it again."
+            ]
+          },
+          {
+            "heading": "4. The Right to Abandon",
+            "paragraphs": [
+              "Many loops survive because abandoning them feels like failure. Old goals, stale obligations, and inherited expectations remain present long after they have stopped serving the person.",
+              "Saule should support conscious release. Deleting, declining, or redefining a commitment can be an act of clarity. The system must not turn every past intention into permanent debt."
+            ]
+          },
+          {
+            "heading": "5. A Closure-Oriented System",
+            "paragraphs": [
+              "Saule should periodically help the user review unresolved loops in small, context-aware groups. The review should ask whether the loop needs action, a decision, a conversation, a later date, or release.",
+              "The purpose is not to reach zero open loops. Human life will always remain unfinished. The purpose is to ensure that unfinished life does not become invisible pressure."
+            ]
+          },
+          {
+            "heading": "6. Shared and Relational Loops",
+            "paragraphs": [
+              "Many loops exist between people: a promised reply, an unclear expectation, a decision awaiting agreement, or care that cannot be reduced to a transaction. Their status cannot always be inferred from one person's data.",
+              "Saule should record the user's understanding without claiming to know another person's intention. It can prepare a question, preserve context, or suggest a respectful follow-up, but it must not automate relational pressure.",
+              "Closure may also be asymmetric. One person may have done their share while the relationship remains uncertain. The system needs language for drawing boundaries as well as completion."
+            ]
+          },
+          {
+            "heading": "7. Decay, Expiration, and Renewal",
+            "paragraphs": [
+              "A loop should not remain equally urgent forever. Some commitments expire, some become irrelevant, and others require explicit renewal when circumstances change.",
+              "Saule can use age as a prompt for clarification, not as proof of failure. It should ask whether the item still matters, whether its owner or conditions changed, and whether keeping it has a real benefit.",
+              "This creates a healthier memory: durable where consequences demand it, temporary where life has moved on, and always subject to the user's decision."
+            ]
+          }
+        ],
+        "open_questions": [
+          {
+            "id": "ol-1",
+            "question": "How can Saule detect that a loop has become stale?",
+            "status": "open",
+            "decisionArea": "Staleness Detection",
+            "answeredInChapters": [
+              "Chapter 25 — Adaptive Memory",
+              "Chapter 31 — Planning Intelligence"
+            ]
+          },
+          {
+            "id": "ol-2",
+            "question": "What evidence is sufficient to mark a loop complete?",
+            "status": "open",
+            "decisionArea": "Completion Semantics",
+            "answeredInChapters": [
+              "Chapter 26 — Context Engine",
+              "Chapter 31 — Planning Intelligence"
+            ]
+          },
+          {
+            "id": "ol-3",
+            "question": "When should the system suggest abandoning a goal?",
+            "status": "open",
+            "decisionArea": "Goal Release",
+            "answeredInChapters": [
+              "Chapter 24 — Will",
+              "Chapter 28 — Coaching Engine"
+            ]
+          },
+          {
+            "id": "ol-4",
+            "question": "How can relational loops be represented without scoring people?",
+            "status": "open",
+            "decisionArea": "Relationship Context",
+            "answeredInChapters": [
+              "Chapter 14 — Relationships",
+              "Chapter 30 — Relationship Intelligence"
+            ]
+          },
+          {
+            "id": "ol-5",
+            "question": "How often should unresolved loops be reviewed?",
+            "status": "open",
+            "decisionArea": "Review Cadence",
+            "answeredInChapters": [
+              "Chapter 31 — Planning Intelligence"
+            ]
+          },
+          {
+            "id": "ol-6",
+            "question": "How should Saule represent a loop that depends on another person?",
+            "status": "open",
+            "decisionArea": "Shared Loop State",
+            "answeredInChapters": [
+              "Chapter 30 — Relationship Intelligence"
+            ]
+          },
+          {
+            "id": "ol-7",
+            "question": "Which commitments should expire automatically and which require confirmation?",
+            "status": "open",
+            "decisionArea": "Expiration Rules",
+            "answeredInChapters": [
+              "Chapter 22 — Forgetting",
+              "Chapter 25 — Adaptive Memory"
+            ]
+          },
+          {
+            "id": "ol-8",
+            "question": "How can the system distinguish acceptance from avoidant abandonment?",
+            "status": "open",
+            "decisionArea": "Release Quality",
+            "answeredInChapters": [
+              "Chapter 27 — Reflection Engine",
+              "Chapter 28 — Coaching Engine"
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Open loops must be classified by the kind of closure they need.",
+          "Deferral must always include a trustworthy return condition.",
+          "Users must be able to abandon commitments without punitive language.",
+          "Relational and emotional loops must not be reduced to task completion.",
+          "Reviews should be small and contextual rather than exhaustive.",
+          "The system must not infer another person's intentions from one-sided data.",
+          "Old loops must invite renewal or expiration rather than permanent urgency."
+        ],
+        "future_evolution": "This chapter will evolve into a closure model covering action, decision, delegation, conversation, acceptance, and deliberate release.",
+        "references": [
+          "The Zeigarnik effect",
+          "Prospective memory",
+          "Implementation intentions",
+          "Goal disengagement research",
+          "External cognition and trusted systems",
+          "Commitment and goal shielding",
+          "Relational coordination",
+          "Temporal discounting",
+          "Digital memory and expiration"
+        ]
+      }
+    },
+    "why-existing-productivity-systems-fail": {
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. Built for a Stable Version of the User",
+            "paragraphs": [
+              "Most productivity systems are designed around an idealized person: someone who can reliably start tasks, sustain attention, stop at the right time, prioritize, decide, remember, regulate impulses, and maintain routines. The system looks elegant because the user in the model is already functioning near their best.",
+              "Real life is less stable. Capacity changes with stress, sleep, emotional load, uncertainty, environment, and the number of open loops the person is carrying. A method that works only on a good day is not a trustworthy method."
+            ]
+          },
+          {
+            "heading": "2. The Hidden Assumption Inside Rigid Tools",
+            "paragraphs": [
+              "Traditional tools often present structure as if structure alone were enough. Make the list. Rank the list. Follow the list. Review the list. The hidden assumption is that the person can repeatedly translate intention into action without much friction.",
+              "But the friction is often the story. Starting may be hard because the task is emotionally loaded. Stopping may be hard because the environment rewards endless availability. Remembering may fail because the mind is protecting too many unfinished things at once."
+            ]
+          },
+          {
+            "heading": "3. Executive Capacity Exists, but It Fluctuates",
+            "paragraphs": [
+              "It is worth noting that daily life depends on abilities such as initiation, attention, inhibition, working memory, prioritization, and routine maintenance.",
+              "Saule should use this only as a human explanation, not as a clinical one. The point is not to diagnose the user or to imply treatment. The point is to recognize that human self-organization is variable and deeply shaped by context."
+            ]
+          },
+          {
+            "heading": "4. Maintenance Becomes a Second Job",
+            "paragraphs": [
+              "When a system assumes the human is a constant entity, every miss is pushed back onto the user as more maintenance: clean the backlog, rewrite the plan, recategorize the board, reschedule the calendar, repair the routine. The person must now manage life and also manage the failed model of life.",
+              "What accumulates here is not just tasks. Outdated lists, stale priorities, abandoned routines, meaningless boards, unreviewed notes, and plans that no longer represent reality also accumulate. This is a maintenance debt.",
+              "As the maintenance debt grows, the loop hardens: guilt increases, the user avoids the system, avoids opening the app to not see the backlog, and becomes blind because they can no longer distinguish what is in it. Then, they search for another system and try to start all over again. This is one reason rigid systems generate guilt so quickly. They preserve the intention, but they cannot preserve the conditions under which it was formed."
+            ]
+          },
+          {
+            "heading": "5. Adaptation Matters More Than Completeness",
+            "paragraphs": [
+              "A humane system does not ask the user to perform consistency before receiving support. It should help the person recover context, shrink decisions, and find the smallest useful next step under present conditions.",
+              "Sometimes that next step is action. Sometimes it is rest, clarification, delegation, or release. Adaptation is not lowering standards; it is matching support to reality so effort is spent where it can actually matter."
+            ]
+          },
+          {
+            "heading": "6. Why Saule Must Stay Non-Clinical",
+            "paragraphs": [
+              "Many people recognize themselves in the gap between knowing and doing. That recognition should not be turned into medical suggestion, diagnostic language, or treatment framing inside a productivity product.",
+              "Saule can talk about fluctuating human capacities, difficult environments, and overloaded attention without claiming to explain every cause. Humility protects both the user and the integrity of the system."
+            ]
+          },
+          {
+            "heading": "7. From Obedience to Recovery",
+            "paragraphs": [
+              "The best test of a productivity system is not whether it can produce perfect compliance. It is whether it helps a person recover when life becomes messy, tiring, emotional, or uncertain.",
+              "Saule should therefore be judged by whether it reduces friction, restores orientation, and makes honest progress possible again. A useful system is one that still helps when the user is no longer operating like the version imagined by the template."
+            ]
+          }
+        ],
+        "open_questions": [
+          {
+            "id": "pf-1",
+            "question": "What is the minimum maintenance Saule can require when the user is under strain?",
+            "status": "open",
+            "decisionArea": "Maintenance Budget",
+            "answeredInChapters": [
+              "Chapter 26 — Context Engine",
+              "Chapter 36 — Engineering Principles"
+            ]
+          },
+          {
+            "id": "pf-2",
+            "question": "How should the system infer reduced capacity without turning that inference into a fixed identity?",
+            "status": "open",
+            "decisionArea": "Capacity Signals",
+            "answeredInChapters": [
+              "Chapter 19 — Adaptive Intelligence",
+              "Chapter 20 — Trust"
+            ]
+          },
+          {
+            "id": "pf-3",
+            "question": "When should a rigid plan be repaired versus relaxed or abandoned?",
+            "status": "open",
+            "decisionArea": "Plan Recovery",
+            "answeredInChapters": [
+              "Chapter 24 — Will",
+              "Chapter 31 — Planning Intelligence"
+            ]
+          },
+          {
+            "id": "pf-4",
+            "question": "How can Saule explain friction without sounding moralizing or clinical?",
+            "status": "open",
+            "decisionArea": "Support Language",
+            "answeredInChapters": [
+              "Chapter 23 — Ethics",
+              "Chapter 33 — Voice"
+            ]
+          },
+          {
+            "id": "pf-5",
+            "question": "Which contextual factors should most influence the next recommendation?",
+            "status": "open",
+            "decisionArea": "Adaptive Context",
+            "answeredInChapters": [
+              "Chapter 26 — Context Engine",
+              "Chapter 31 — Planning Intelligence"
+            ]
+          },
+          {
+            "id": "pf-6",
+            "question": "What should survive when the user stops maintaining the system for weeks?",
+            "status": "open",
+            "decisionArea": "Graceful Degradation",
+            "answeredInChapters": [
+              "Chapter 25 — Adaptive Memory",
+              "Chapter 36 — Engineering Principles"
+            ]
+          },
+          {
+            "id": "pf-7",
+            "question": "Which product metrics can represent relief without rewarding compulsive usage?",
+            "status": "open",
+            "decisionArea": "Human Outcomes",
+            "answeredInChapters": [
+              "Chapter 23 — Ethics",
+              "Chapter 39 — Business Model"
+            ]
+          },
+          {
+            "id": "pf-8",
+            "question": "How can users inspect and correct Saule’s assumptions about their capacity and routines?",
+            "status": "open",
+            "decisionArea": "Model Legibility",
+            "answeredInChapters": [
+              "Chapter 20 — Trust",
+              "Chapter 24 — Will"
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Saule must assume human capacity fluctuates across contexts.",
+          "The system should reduce decisions before adding urgency.",
+          "Friction should be explained in human terms, not clinical claims.",
+          "Recovery paths must begin from current reality rather than ideal plans.",
+          "Backlogs must not become moral archives of failure.",
+          "Support should remain inspectable, reversible, and user-correctable.",
+          "Success should be measured by restored orientation and reduced maintenance."
+        ],
+        "future_evolution": "Later drafts will define adaptive planning states, low-maintenance recovery flows, and explainable capacity signals that remain non-clinical and user-controlled.",
+        "references": [
+          "Personal information management",
+          "Implementation intentions",
+          "Decision fatigue research",
+          "Cognitive offloading",
+          "Human-computer interaction on interruption",
+          "Research on intention-action gaps",
+          "Self-determination theory",
+          "Digital wellbeing",
+          "Calibrated trust in automation"
+        ]
+      }
+    },
+    "cost-of-constant-context-switching": {
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. The Work Left Behind",
+            "paragraphs": [
+              "When attention moves from one task to another, part of the mind remains attached to the previous goal. This attention residue is stronger when the first task was unfinished, emotionally charged, or interrupted without a clear stopping point.",
+              "The cost is not only lost time. The next task begins with reduced depth because the mind is still carrying the structure and tension of what came before."
+            ]
+          },
+          {
+            "heading": "2. Reconstruction Is Work",
+            "paragraphs": [
+              "Returning to complex work requires reconstructing where we were, what mattered, what had been ruled out, and what should happen next. This invisible reconstruction can take longer than the interruption itself.",
+              "People often blame themselves for slow restarts because the recovery work is not visible. A good system should preserve state so the person does not have to rebuild the whole mental scene."
+            ]
+          },
+          {
+            "heading": "3. Communication Creates Fragmented Time",
+            "paragraphs": [
+              "Modern work mixes focused production with continuous availability. Messages arrive in many channels, each carrying uncertain urgency and social expectations.",
+              "Even when notifications are ignored, knowing they may contain something important can occupy attention. The boundary problem is therefore social and organizational, not merely technical."
+            ]
+          },
+          {
+            "heading": "4. Better Transitions",
+            "paragraphs": [
+              "Context switching cannot be eliminated. Life requires movement between work, relationships, care, logistics, and rest. The goal is to make transitions deliberate and recoverable.",
+              "A short closing note, a saved next action, grouped communication windows, and protected restart time can reduce residue. Transitions deserve design rather than being treated as empty space."
+            ]
+          },
+          {
+            "heading": "5. Saule as Context Memory",
+            "paragraphs": [
+              "Saule should capture where a person stopped, why they stopped, and what would make resumption easy. It can delay non-urgent items and present them at natural transition points.",
+              "It must not use context awareness to fill every free moment with work. Preserving context should also make it easier to stop, rest, and return later without anxiety."
+            ]
+          },
+          {
+            "heading": "6. The Cost Differs Across Roles",
+            "paragraphs": [
+              "A switch is not equally expensive for every activity. Returning to software architecture, writing, care work, customer support, or a sensitive conversation requires different context and carries different consequences.",
+              "Saule should learn the shape of an activity rather than assign a universal recovery time. It may protect a long reconstruction window for complex work while supporting rapid, intentional switches for roles that inherently require responsiveness.",
+              "Role knowledge must remain user-defined and revisable. The system should not infer that paid work always outranks family, health, community, or rest."
+            ]
+          },
+          {
+            "heading": "7. A Personal Context-Switching Policy",
+            "paragraphs": [
+              "The user should be able to express simple rules: which channels can interrupt, which activities need a closing note, when communication is grouped, and what recovery time is protected.",
+              "Saule can suggest adjustments based on observed friction, but the policy must remain visible. Hidden optimization would make unexpected behavior difficult to understand and correct.",
+              "A good policy is flexible enough for emergencies and stable enough to build trust. It turns transition design from a collection of guesses into an explicit agreement between person and system."
+            ]
+          }
+        ],
+        "open_questions": [
+          {
+            "id": "cs-1",
+            "question": "What information is needed to restore a work context?",
+            "status": "open",
+            "decisionArea": "Context Snapshot",
+            "answeredInChapters": [
+              "Chapter 26 — Context Engine",
+              "Chapter 31 — Planning Intelligence"
+            ]
+          },
+          {
+            "id": "cs-2",
+            "question": "How can Saule identify natural transition points?",
+            "status": "open",
+            "decisionArea": "Transition Detection",
+            "answeredInChapters": [
+              "Chapter 26 — Context Engine",
+              "Chapter 32 — Phone Context"
+            ]
+          },
+          {
+            "id": "cs-3",
+            "question": "When should communication be batched versus delivered immediately?",
+            "status": "open",
+            "decisionArea": "Communication Batching",
+            "answeredInChapters": [
+              "Chapter 30 — Relationship Intelligence",
+              "Chapter 32 — Phone Context"
+            ]
+          },
+          {
+            "id": "cs-4",
+            "question": "How can context support protect rest rather than colonize it?",
+            "status": "open",
+            "decisionArea": "Rest Boundaries",
+            "answeredInChapters": [
+              "Chapter 23 — Ethics",
+              "Chapter 24 — Will"
+            ]
+          },
+          {
+            "id": "cs-5",
+            "question": "Which context signals can remain on-device?",
+            "status": "open",
+            "decisionArea": "Private Context Processing",
+            "answeredInChapters": [
+              "Chapter 34 — Native Intelligence",
+              "Chapter 37 — Privacy"
+            ]
+          },
+          {
+            "id": "cs-6",
+            "question": "How should recovery estimates differ by activity and person?",
+            "status": "open",
+            "decisionArea": "Recovery Model",
+            "answeredInChapters": [
+              "Chapter 19 — Adaptive Intelligence",
+              "Chapter 26 — Context Engine"
+            ]
+          },
+          {
+            "id": "cs-7",
+            "question": "Which interruption rules should be shared with collaborators?",
+            "status": "open",
+            "decisionArea": "Shared Boundaries",
+            "answeredInChapters": [
+              "Chapter 30 — Relationship Intelligence",
+              "Chapter 32 — Phone Context"
+            ]
+          },
+          {
+            "id": "cs-8",
+            "question": "How should emergency exceptions be defined and audited?",
+            "status": "open",
+            "decisionArea": "Exception Policy",
+            "answeredInChapters": [
+              "Chapter 20 — Trust",
+              "Chapter 38 — Security"
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Saule should preserve restart context before suggesting new work.",
+          "Non-urgent communication should be grouped around transitions.",
+          "Transition and recovery time must be represented as real time.",
+          "Context awareness must never imply continuous work availability.",
+          "Sensitive context signals should be processed locally whenever possible.",
+          "Recovery assumptions must vary by activity and remain user-correctable.",
+          "Interruption rules and exceptions must be visible to the user."
+        ],
+        "future_evolution": "This chapter will later specify context snapshots, transition cues, communication batching rules, and local-first context processing.",
+        "references": [
+          "Attention residue",
+          "Task-switching costs",
+          "Prospective memory",
+          "Interruption recovery research",
+          "Boundary management in digital work",
+          "Resumption lag",
+          "Computer-supported cooperative work",
+          "Role transition research",
+          "Local-first software principles"
+        ]
+      }
+    },
+    "escape-loops-and-addictions": {
+      "draft": {
+        "sections": [
+          {
+            "heading": "1. Leaving the Moment Without Leaving the Problem",
+            "paragraphs": [
+              "When pressure rises, people often reach for something immediate: social media scrolling, gaming, snacking, shopping, gambling, pornography, impulsive trading, endless research, compulsive cleaning, or yet another small task that feels easier than the real one. The form changes, but the pattern is similar. A difficult feeling appears, and the mind looks for a fast exit.",
+              "These loops do not always begin as self-destruction. Many begin as understandable attempts at relief. The problem is that short relief can become an automatic path, while the original source of pressure remains unresolved."
+            ]
+          },
+          {
+            "heading": "2. Escape Is Often About Regulation",
+            "paragraphs": [
+              "People do not enter escape loops only because they want pleasure. They also do it because they want distance from shame, fear, boredom, loneliness, uncertainty, or mental overload. The behavior may reduce internal friction for a few minutes even when it creates larger friction later.",
+              "A humane system should therefore ask what the loop is regulating before it asks how to stop it. Without that understanding, every intervention becomes moral advice directed at the surface rather than support directed at the real pressure."
+            ]
+          },
+          {
+            "heading": "3. Digital Environments Make Exit Ramps Cheap",
+            "paragraphs": [
+              "Modern environments provide instant pathways away from difficulty. A person can leave an emotionally demanding task and enter an endless stream of novelty in seconds. Platforms are optimized for continuation, not for return.",
+              "This matters because escape is no longer rare or costly. It is available in the same device that also holds work, relationships, planning, and rest. The boundary between coping, distraction, and compulsion becomes easier to blur."
+            ]
+          },
+          {
+            "heading": "4. Not Every Repetition Is the Same",
+            "paragraphs": [
+              "Some repeating behaviors are habits, some are avoidance, some are stress responses, and some become dependency-shaped patterns. Saule should not collapse all repetition into one category or make clinical claims it cannot justify.",
+              "What matters at this stage is not labeling the person. It is noticing when a behavior repeatedly appears after overload, steals more time or attention than intended, and leaves the person with less clarity, agency, or rest than before."
+            ]
+          },
+          {
+            "heading": "5. The Return Path Matters More Than the Warning",
+            "paragraphs": [
+              "Most systems treat escape behavior as a failure that must be blocked, punished, or shamed. That approach may increase secrecy without increasing understanding. A better design helps the person return: what were they leaving, what were they needing, and what would make re-entry gentler?",
+              "The goal is not surveillance. It is reducing the distance between disruption and recovery. A person should be able to notice the loop, recover context, and choose the next step without being treated like a suspect inside their own life."
+            ]
+          },
+          {
+            "heading": "6. Relief Without Dependency",
+            "paragraphs": [
+              "Saule should respect that people need comfort, entertainment, and rest. It must not present all pleasure as danger or imply that every escape behavior is pathological. Human life includes pauses, softness, and chosen forms of temporary relief.",
+              "The design question is narrower: when does a relief pattern repeatedly interfere with what the person cares about, and how can the system help without becoming another controlling force? Support should widen choice, not narrow it."
+            ]
+          },
+          {
+            "heading": "7. From Escape Loops to Honest Context",
+            "paragraphs": [
+              "Over time, Saule can help a person see recurring sequences: overload, avoidance, brief relief, guilt, more clutter, and then renewed pressure. Seeing the sequence matters because it turns self-judgment into legible context.",
+              "Once the pattern is visible, the intervention can become smaller and kinder. Sometimes the next step is a break. Sometimes it is one tiny restart. Sometimes it is naming the avoided feeling. Sometimes it is leaving the goal. The system should support honest return, not forced performance."
+            ]
+          }
+        ],
+        "open_questions": [
+          {
+            "id": "ea-1",
+            "question": "How can Saule detect an escape loop without treating every pause as a problem?",
+            "status": "open",
+            "decisionArea": "Pattern Detection",
+            "answeredInChapters": [
+              "Chapter 19 — Adaptive Intelligence",
+              "Chapter 26 — Context Engine"
+            ]
+          },
+          {
+            "id": "ea-2",
+            "question": "Which signs suggest that a behavior is restoring the user versus draining them?",
+            "status": "open",
+            "decisionArea": "Relief Quality",
+            "answeredInChapters": [
+              "Chapter 27 — Reflection Engine",
+              "Chapter 28 — Coaching Engine"
+            ]
+          },
+          {
+            "id": "ea-3",
+            "question": "How should the system talk about compulsive behavior without shame or clinical language?",
+            "status": "open",
+            "decisionArea": "Support Language",
+            "answeredInChapters": [
+              "Chapter 23 — Ethics",
+              "Chapter 33 — Voice"
+            ]
+          },
+          {
+            "id": "ea-4",
+            "question": "When should Saule preserve context for return instead of interrupting the escape loop directly?",
+            "status": "open",
+            "decisionArea": "Return Design",
+            "answeredInChapters": [
+              "Chapter 31 — Planning Intelligence",
+              "Chapter 32 — Phone Context"
+            ]
+          },
+          {
+            "id": "ea-5",
+            "question": "What environmental signals can help explain why a loop appears at certain times?",
+            "status": "open",
+            "decisionArea": "Context Signals",
+            "answeredInChapters": [
+              "Chapter 26 — Context Engine",
+              "Chapter 32 — Phone Context"
+            ]
+          },
+          {
+            "id": "ea-6",
+            "question": "How can Saule distinguish chosen rest from avoidant relief?",
+            "status": "open",
+            "decisionArea": "Rest vs Avoidance",
+            "answeredInChapters": [
+              "Chapter 24 — Will",
+              "Chapter 27 — Reflection Engine"
+            ]
+          },
+          {
+            "id": "ea-7",
+            "question": "What should happen after repeated loops if the user does not want active intervention?",
+            "status": "open",
+            "decisionArea": "Non-Intrusive Support",
+            "answeredInChapters": [
+              "Chapter 20 — Trust",
+              "Chapter 23 — Ethics"
+            ]
+          },
+          {
+            "id": "ea-8",
+            "question": "When should Saule suggest stepping away from the tool and toward human support?",
+            "status": "open",
+            "decisionArea": "Support Boundaries",
+            "answeredInChapters": [
+              "Chapter 23 — Ethics",
+              "Chapter 28 — Coaching Engine"
+            ]
+          }
+        ],
+        "design_decisions": [
+          "Escape behavior must first be understood as context, not interpreted as weak character, lack of will, or personal failure.",
+          "Saule must not use diagnostic or clinical labels for recurring loops.",
+          "The system should preserve a gentle return path rather than escalate shame.",
+          "Rest, pleasure, and chosen entertainment must not be framed as automatic problems.",
+          "Support should focus on widening options under pressure, not enforcing purity.",
+          "Observed patterns must remain inspectable and correctable by the user.",
+          "When confidence is low, Saule should ask or reflect rather than infer.",
+          "When the user expresses loss of control, risk of harm, or serious functional decline, Saule should recognize its limits and encourage human or professional support."
+        ],
+        "future_evolution": "This chapter will later define escape-loop archetypes, return-path design patterns, and boundaries for when the product should stay quiet, reflect, or encourage human support.",
+        "references": [
+          "Behavioral addiction research",
+          "Coping and avoidance literature",
+          "Negative reinforcement",
+          "Emotion regulation research",
+          "Digital habit formation",
+          "Attention economy design",
+          "Self-control and relapse research",
+          "Human-computer interaction on compulsive use",
+          "Research on shame and behavior change"
+        ]
+      }
+    }
+  }
+}

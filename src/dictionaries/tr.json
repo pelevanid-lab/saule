@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Saule Yaşayan Kitabı — Yaşam İçin Uyarlanabilir Zeka",
+    "title": "Saule Yaşayan Kitabı — Yaşam İçin Uyarlanabilir Zekâ",
     "description": "Saule Yaşayan Kitabı; Saule'nin arkasındaki felsefe, araştırma, mimari, psikoloji ve mühendisliği belgeler. Uygulamanın egemen bilgi kaynağıdır."
   },
   "common": {
@@ -38,7 +38,7 @@
   },
   "dashboard": {
     "title": "Saule Yaşayan Kitabı",
-    "subtitle": "Yaşam İçin Uyarlanabilir Zeka",
+    "subtitle": "Yaşam İçin Uyarlanabilir Zekâ",
     "living_book_badge": "Yaşayan Kitap",
     "status_label": "Mevcut Durum",
     "status_desc": "Temel araştırma noktalarını haritalandırma ve cilt düzenlerini oluşturma",
@@ -99,7 +99,7 @@
     },
     "v2": {
       "title": "Cilt II: İnsan Zihnini Anlamak",
-      "purpose": "Uyarlanabilir bir zeka inşa etmeye çalışmadan önce insanların gerçekte nasıl düşündüğünü anlamak."
+      "purpose": "Uyarlanabilir bir zekâ inşa etmeye çalışmadan önce insanların gerçekte nasıl düşündüğünü anlamak."
     },
     "v3": {
       "title": "Cilt III: Saule Felsefesi",
@@ -107,11 +107,11 @@
     },
     "v4": {
       "title": "Cilt IV: Saule Zihni",
-      "purpose": "Saule'nin kavramsal düzeyde nasıl düşündüğünü açıklamak (mühendislik değil, kavramsal zeka)."
+      "purpose": "Saule'nin kavramsal düzeyde nasıl düşündüğünü açıklamak (mühendislik değil, kavramsal zekâ)."
     },
     "v5": {
       "title": "Cilt V: Saule'yi İnşa Etmek",
-      "purpose": "Kitapta belirtilen kuralları hayata geçirmek için mühendislik, yapay zeka mimarisi ve araştırma metodolojilerini uygulamak."
+      "purpose": "Kitapta belirtilen kuralları hayata geçirmek için mühendislik, yapay zekâ mimarisi ve araştırma metodolojilerini uygulamak."
     }
   },
   "chapters": {
@@ -148,7 +148,7 @@
             "heading": "3. Görünmeyen Yük",
             "paragraphs": [
               "Bunalmanın en yorucu taraflarından biri, çoğu zaman görünmez olmasıdır.",
-              "Bir insanın omuzlarında çanta yoktur. Elinde ağır bir yük yoktur. Dışarıdan bakıldığında oturuyor, telefona bakıyor, kahve içiyor veya hiçbir şey yapmıyor gibi görünebilir.",
+              "Zihni yorgun bir insanın omuzlarında çanta yoktur. Elinde ağır bir yük yoktur. Dışarıdan bakıldığında oturuyor, telefona bakıyor, kahve içiyor veya hiçbir şey yapmıyor gibi görünebilir.",
               "Ama zihinsel yük bedensel yük gibi görünmez.",
               "Hatırlanması gerekenleri hatırlamak bir yüktür. Kime dönüleceğini bilmek bir yüktür. Hangi kararın ertelendiğini bilmek bir yüktür. Verilmiş sözleri taşımak bir yüktür. Kendi potansiyelinin altında yaşadığını hissetmek bir yüktür. Bir hedefe yaklaşmadığını bilmek bir yüktür. Bir ilişkinin ilgi beklediğini hissetmek bir yüktür.",
               "Bu yükler genellikle tek bir yerde yazılı değildir. Bir kısmı takvimdedir. Bir kısmı WhatsApp’tadır. Bir kısmı e-postadadır. Bir kısmı notlardadır. Bir kısmı zihindedir. Bir kısmı bedende sıkışmış bir huzursuzluk olarak yaşar.",
@@ -225,7 +225,7 @@
           "Saule eksik günleri yargılamamalıdır. İnsanlar her gün hedeflerini tamamlamaz. Bu başarısızlık olarak değil, veri olarak görülmelidir.",
           "Saule üretkenliği değil, netliği önceliklendirmelidir. Bazı günler en doğru karar daha az yapmak, toparlanmak veya yalnızca zihni sadeleştirmektir.",
           "Saule zamanla örüntüleri öğrenmelidir. Kullanıcının hangi saatlerde daha iyi odaklandığını, hangi görevlerden kaçındığını açık izinle anlamaya çalışmalıdır.",
-          "Saule insan iradesinin yerine geçmemelidir. Kararları kullanıcı adına almamalı, kullanıcının daha iyi karar verebilmesi için düşünce alanı açmalıdır.",
+          "Saule iradenin yerine geçmemelidir. Kararları kullanıcı adına almamalı, kullanıcının daha iyi karar verebilmesi için düşünce alanı açmalıdır.",
           "Saule bazen susmayı bilmelidir. Her bağlam müdahale gerektirmez. Dikkati korumak bazen bildirim göndermemek demektir."
         ],
         "open_questions": [
@@ -295,7 +295,7 @@
             "answeredInChapters": [
               "Bölüm 32 — Telefon Bağlamı",
               "Bölüm 33 — Ses",
-              "Bölüm 31 — Planlama Zekası"
+              "Bölüm 31 — Planlama Zekâsı"
             ],
             "relatedChapters": [],
             "decisionArea": "Bildirim ve Araya Girme Politikası",
@@ -338,8 +338,8 @@
             "status": "open",
             "answerSummary": "",
             "answeredInChapters": [
-              "Bölüm 18 — İnsan Öncelikli Yapay Zeka",
-              "Bölüm 19 — Uyarlanabilir Zeka",
+              "Bölüm 18 — İnsan Öncelikli Yapay Zekâ",
+              "Bölüm 19 — Uyarlanabilir Zekâ",
               "Bölüm 25 — Uyarlanabilir Bellek"
             ],
             "relatedChapters": [],
@@ -369,28 +369,23 @@
     },
     "the-attention-crisis": {
       "title": "Dikkat Krizi",
-      "purpose": "Dikkatin ele geçirilmesinin nörokimyasını ve reaktif döngülerin odağı nasıl yıprattığını incelemek.",
-      "key_question": "İlgi sömürüsüne dayalı sistemler beynin varsayılan mod ağını (DMN) nasıl bozar?"
+      "purpose": "Modern dijital çevrenin dikkati nasıl parçaladığını, sürekli kesintilerin düşünme kalitesini nasıl zayıflattığını ve Saule’nin dikkat korumasını hangi ilkelerle tasarlaması gerektiğini incelemek.",
+      "key_question": "Sürekli kesinti ve dikkat sömürüsüne dayalı sistemler, insanın odaklanma, toparlanma ve bilinçli seçim kapasitesini nasıl zayıflatır?"
     },
     "open-loops": {
       "title": "Açık Döngüler",
-      "purpose": "Kişisel görev yönetiminde Zeigarnik etkisini ve yarım kalmış işlerin yarattığı kaygıyı incelemek.",
-      "key_question": "Tamamlanmamış taahhütler neden bilinçaltında sürekli bir stres tetikler?"
-    },
-    "executive-function": {
-      "title": "Yürütücü İşlevler",
-      "purpose": "Bilişsel yük sınırlarını, çalışan bellek kapasitesini ve irade tükenme mekanizmalarını haritalandırmak.",
-      "key_question": "Zihin sürekli aşırı yüklendiğinde yürütücü kontrol mekanizmalarına ne olur?"
+      "purpose": "Tamamlanmamış görevlerin, ertelenmiş kararların, verilmiş sözlerin ve açık ilişkisel meselelerin zihinde nasıl aktif kaldığını; Saule’nin bu döngüleri yargılamadan nasıl netleştirebileceğini incelemek.",
+      "key_question": "Tamamlanmamış olan neden zihnin arka planında yaşamaya devam eder?"
     },
     "why-existing-productivity-systems-fail": {
       "title": "Mevcut Üretkenlik Sistemleri Neden Başarısız Oluyor",
-      "purpose": "Geleneksel takvimlerin, yapılacaklar listelerinin ve CRM'lerin neden soğuk, katı hissettirdiğini ve nihayetinde çöktüğünü analiz etmek.",
-      "key_question": "Hayatı düzenlemek için tasarlanan araçlar neden sıklıkla ek stres kaynağına dönüşür?"
+      "purpose": "Katı üretkenlik araçlarının insan kapasitesini sabit varsaydığında ve stres, uyku, duygusal yük, belirsizlik, çevre ve açık döngüleri görmezden geldiğinde neden çöktüğünü açıklamak.",
+      "key_question": "Üretkenlik sistemleri insanı makine gibi varsaydığında neden kırılır?"
     },
     "cost-of-constant-context-switching": {
-      "title": "Sürekli Odak Değiştirmenin Bilişsel Maliyeti",
-      "purpose": "Dijital çoklu görevlerle (multitasking) ilişkili bilişsel kaybı ve odak tükenmesini hesaplamak.",
-      "key_question": "Bir saat içinde alakasız yaşam alanları arasında sürekli geçiş yapmanın gerçek bedeli nedir?"
+      "title": "Sürekli Bağlam Değiştirmenin Bilişsel Maliyeti",
+      "purpose": "Sürekli bağlam değiştirmenin düşünme kalitesi, toparlanma süresi ve yaşam alanları arasındaki geçişler üzerindeki bilişsel maliyetini incelemek.",
+      "key_question": "İnsan bir gün içinde sürekli farklı yaşam bağlamları arasında geçiş yaptığında, zihinsel süreklilik ve karar kalitesi nasıl etkilenir?"
     },
     "memory": {
       "title": "Bellek",
@@ -400,7 +395,7 @@
     "identity": {
       "title": "Kimlik",
       "purpose": "Anlatısal benliği, benlik kavramı tutarlılığını ve zaman içindeki kişisel gelişimi keşfetmek.",
-      "key_question": "Kendimize dair anlatımız nasıl değişir ve bir zeka, bir kişinin otantik kimliğini nasıl yansıtabilir?"
+      "key_question": "Kendimize dair anlatımız nasıl değişir ve bir zekâ, bir kişinin otantik kimliğini nasıl yansıtabilir?"
     },
     "emotions": {
       "title": "Duygular",
@@ -443,12 +438,12 @@
       "key_question": "Saule neden var olmalı ve teknoloji ekosistemindeki hangi boşluğu dolduruyor?"
     },
     "human-first-ai": {
-      "title": "İnsan Öncelikli Yapay Zeka",
-      "purpose": "İnsan öncelikli tasarımı, etkileşimi ve görevleri maksimuma çıkarmaya çalışan yapay zeka modelleriyle karşılaştırmak.",
-      "key_question": "Yapay zeka, kurumsal veri yakalama yerine insani iradeye nasıl hizmet edebilir?"
+      "title": "İnsan Öncelikli Yapay Zekâ",
+      "purpose": "İnsan öncelikli tasarımı, etkileşimi ve görevleri maksimuma çıkarmaya çalışan yapay zekâ modelleriyle karşılaştırmak.",
+      "key_question": "Yapay zekâ, kurumsal veri yakalama yerine insani iradeye nasıl hizmet edebilir?"
     },
     "adaptive-intelligence": {
-      "title": "Uyarlanabilir Zeka",
+      "title": "Uyarlanabilir Zekâ",
       "purpose": "Kullanıcıyı kurallara uymaya zorlamak yerine, kendini insan zihnine göre şekillendiren yazılım çerçevesini oluşturmak.",
       "key_question": "Bireysel psikolojiye uyum sağlamak için büyüyen ve esneyen yazılımların modeli nedir?"
     },
@@ -470,7 +465,7 @@
     "ethics": {
       "title": "Etik",
       "purpose": "Ruh sağlığı iddiaları, terapi ve kullanıcı manipülasyonu konusunda katı sınırlar belirlemek.",
-      "key_question": "Yaşam odaklı uyarlanabilir bir zeka tarafından hangi etik kırmızı çizgiler asla geçilmemelidir?"
+      "key_question": "Yaşam odaklı uyarlanabilir bir zekâ tarafından hangi etik kırmızı çizgiler asla geçilmemelidir?"
     },
     "human-agency": {
       "title": "İrade",
@@ -498,17 +493,17 @@
       "key_question": "Kullanıcıya kurallar dayatmadan kendi çözümlerine ulaşmasını nasıl sağlarız?"
     },
     "career-intelligence": {
-      "title": "Kariyer Zekası",
+      "title": "Kariyer Zekâsı",
       "purpose": "Görevleri hedeflerle eşleştirme ve profesyonel gelişim yönünü belirleme.",
       "key_question": "Saule, günlük eylemlerin uzun vadeli mesleki hedeflerle hizalanmasına nasıl yardımcı olur?"
     },
     "relationship-intelligence": {
-      "title": "İlişki Zekası",
+      "title": "İlişki Zekâsı",
       "purpose": "Sosyal çevre, aile güncellemeleri ve paylaşılan ortak konular için bağlam korumayı yapılandırmak.",
       "key_question": "Saule, ilişkileri mekanikleştirmeden sosyal bağı nasıl destekleyebilir?"
     },
     "planning-intelligence": {
-      "title": "Planlama Zekası",
+      "title": "Planlama Zekâsı",
       "purpose": "Saat dilimlerine göre değil, enerji eğrilerine ve odak tamponlarına göre program oluşturmak.",
       "key_question": "Planlama, saatlere göre değil de mevcut enerji seviyelerine göre nasıl uyarlanabilir?"
     },
@@ -523,12 +518,12 @@
       "key_question": "Sesli etkileşim yansıtma dinamiklerini nasıl değiştirir ve bunun tonu nasıl olmalıdır?"
     },
     "native-intelligence": {
-      "title": "Saule’nin Kendi Zekası",
+      "title": "Saule’nin Kendi Zekâsı",
       "purpose": "Özel eğitilmiş, yerel olarak yürütülen uyarlanabilir modellerin kapsamını belirlemek.",
       "key_question": "Yerel çalışma, gizliliği korurken uyarlanabilir değeri nasıl artırabilir?"
     },
     "ai-architecture": {
-      "title": "Yapay Zeka Mimarisi",
+      "title": "Yapay Zekâ Mimarisi",
       "purpose": "Anlamsal grafikleri dil modellerinin (LLM) üretim motorlarından ayıran sınırı belirlemek.",
       "key_question": "Özel bellek bağlamını sızdırmadan dil modellerini işlem birimi olarak nasıl kullanırız?"
     },
@@ -566,6 +561,11 @@
       "title": "Saule'yi İnşa Etmek",
       "purpose": "Geliştirme sürümlerini, alfa kullanıcı döngülerini ve topluluk kod entegrasyonlarını detaylandırmak.",
       "key_question": "Gizlilik sınırlarını koruyarak bu sistemi açık alanda nasıl inşa edebiliriz?"
+    },
+    "escape-loops-and-addictions": {
+      "title": "Kaçış Döngüleri ve Bağımlılıklar",
+      "purpose": "İnsanların bunalmadan kaçmak için dikkat dağıtıcı, dürtüsel ve kendini uyuşturan döngülere nasıl yöneldiğini ve insan merkezli bir tasarımın bu örüntülerden ne anlaması gerektiğini incelemek.",
+      "key_question": "İnsanı kısa süreli rahatlatan ama zamanla daha çok dağınıklık yaratan davranışlara neden tekrar tekrar dönülür?"
     }
   }
 }
