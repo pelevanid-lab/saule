@@ -7,34 +7,49 @@
             "heading": "1. The Mind as an Unfinished Workspace",
             "paragraphs": [
               "Mental clutter is not simply having many thoughts. It is the experience of carrying unresolved meaning without a reliable place for it to go. A task, worry, promise, idea, or conversation remains mentally active because the person does not trust that it will be remembered and revisited at the right time.",
-              "The result is a mind that repeatedly rehearses the same material. This repetition can look like reflection, but often it is only the nervous system checking whether something important is about to be lost. Clutter grows when remembering and deciding are forced to happen at the same time."
+              "This repetition does not mean that the person is consciously choosing to think about the same matter. Often, what has not yet been connected to a reliable place simply returns to the foreground: an unanswered message is remembered, a deferred decision appears in the middle of another task, an unfinished conversation returns in a quiet moment.",
+              "Bluma Zeigarnik's early experiments on unfinished tasks in the 1920s suggested that, under some conditions, interrupted activities may be remembered more readily than completed ones. Later studies did not reproduce this effect consistently. The Zeigarnik effect is therefore not an immutable law of mind, but a cautious framework for understanding why unfinished matters can sometimes remain mentally vivid.",
+              "The mind carries not only what is unfinished, but also what has no clear status. If it is uncertain whether something will be done, deferred, delegated, or released, the matter does not close; it merely returns in another form.",
+              "Clutter grows when remembering and deciding are forced to happen at the same time. The deeper burden is not simply keeping everything in mind, but repeatedly having to decide what still deserves attention."
             ]
           },
           {
             "heading": "2. Collection Is Not Clarity",
             "paragraphs": [
               "Capturing everything can reduce immediate pressure, yet collection alone creates another problem: an expanding archive that still requires interpretation. Notes, screenshots, saved links, inboxes, and task lists become external piles when the system cannot distinguish a commitment from an idea, a fear from a fact, or a future possibility from a present responsibility.",
-              "A useful system must therefore do more than store. It must help the person name what an item is, why it matters, and whether any action is actually required. Clarity begins when information is given a relationship to the person's life."
+              "William Jones's comprehensive work on personal information management likewise shows that the challenge is not merely storing information. Finding and refinding it, organizing it, keeping it current, and using it when needed all belong to the same process. The existence of a saved item does not mean it can be reached when needed or that anyone knows what to do with it.",
+              "A useful system must therefore do more than store. It must help the person name what an item is, why it matters, and whether any action is actually required. The same note may be raw material for a decision one day and an expired possibility on another. Meaning is not fixed inside the record; it changes with the person's life.",
+              "What makes a system useful is not how much it stores. It is whether it can make visible what the stored material means in a person's life and whether it still has relevance today.",
+              "Clarity begins when information is given a relationship to the person's life. Otherwise, clutter that has been moved outside the mind has not disappeared; it has merely been transferred to a place that looks more orderly."
             ]
           },
           {
             "heading": "3. Emotional Clutter",
             "paragraphs": [
-              "Some of the heaviest mental objects are not tasks at all. They are ambiguous feelings, unfinished grief, resentment, guilt, anticipated conflict, or uncertainty about identity. Converting all of these into checkboxes would flatten the human experience and could encourage action where patience or reflection is needed.",
-              "Saule must learn to separate actionable commitments from emotional material. It can help a person notice and articulate a recurring concern, but it must not pretend that naming a feeling has solved it or that every discomfort should become a productivity target."
+              "Some of the heaviest mental objects are not tasks at all: resentment, embarrassment, guilt, unfinished grief, an uncertain relationship, a deferred conversation, or uncertainty about identity. Merely assigning a date to any of them does not resolve the meaning they carry.",
+              "Sometimes a person returns to the same subject not because they do not know what to do, but because they do not yet know what the experience means. Accepting a loss may take time. Resentment may call for distance as much as conversation. A question of identity may need a period of uncertainty rather than an immediate decision.",
+              "Research on rumination by Susan Nolen-Hoeksema and colleagues shows that repetitive thought does not always produce a solution; it can sometimes make problem-solving and action more difficult. The return of a thought does not necessarily mean that pressing harder on it will create progress.",
+              "Turning all emotional material into checkboxes would therefore flatten human experience. Producing hurried action where patience, grief, acceptance, or reflection is needed can create a new sense of inadequacy rather than relief.",
+              "Saule must separate actionable commitments from emotional material. It can help a person notice and articulate a recurring concern, but it must not pretend that naming a feeling has solved it or that every discomfort should become a productivity target. Its role here is not therapy, but a bounded and nonjudgmental space in which a person can see their own experience more clearly."
             ]
           },
           {
             "heading": "4. From Clutter to Orientation",
             "paragraphs": [
               "Reducing clutter requires a sequence: capture what is competing for attention, clarify its meaning, decide whether it belongs to now, later, someone else, or nowhere, and create a trustworthy way to return to it. The objective is not an empty mind. It is a mind that no longer has to keep everything equally active.",
-              "Orientation is more valuable than perfect organization. A person should be able to answer three questions quickly: What deserves attention now? What is safely held for later? What can be released? A system that cannot answer these questions may be organized while still feeling mentally noisy."
+              "The answer is not to organize everything. Some things need attention now, some can be held safely for later, and some should be released without ever being revisited. Not every record is a promise to the future, and not every possibility deserves preservation.",
+              "Research on prospective memory shows that human memory must retrieve not only what happened in the past, but also intentions meant to be carried out in the future. This helps explain why trustworthy reminders and clear return points can be relieving: a person can stop carrying an intention now because they trust that they can return to it later.",
+              "Orientation is more valuable than perfect organization. A person should be able to answer three questions: What deserves attention now? What is safely held for later? What can be released? A system that cannot answer these questions may be organized while still feeling mentally noisy.",
+              "A good external system does not ensure that a person forgets nothing. It lets them know what they do not have to remember right now."
             ]
           },
           {
             "heading": "5. The Saule Design Principle",
             "paragraphs": [
-              "Saule should act as a gentle clarification layer rather than an infinite container. It should surface a small number of unresolved items at appropriate moments, explain why they were surfaced, and let the user dismiss, defer, transform, or forget them without punishment.",
+              "The problem described so far leads naturally to a design principle for Saule: it should be a gentle layer of clarification, not an infinite container. Rather than accumulating everything, it should help reveal what still carries meaning and what can now be released.",
+              "Edwin Hutchins's distributed cognition approach treats thinking not simply as a process inside one mind, but as something shaped across people, tools, and environments. Clark and Chalmers's extended mind thesis likewise argues that certain external tools, when used reliably and continuously, can become functional parts of our thinking processes.",
+              "These approaches allow Saule to be understood not as an authority replacing the mind, but as a context layer that helps move mental load outside safely. Saule should not decide what matters on its own; it should create conditions in which the person can decide with less noise.",
+              "It should therefore surface a small number of unresolved items at appropriate moments, explain why they were surfaced, and let the user dismiss, defer, transform, or forget them without punishment.",
               "The measure of success is not how much Saule remembers. It is how little the person must keep rehearsing. If the system increases the number of categories, rituals, and dashboards the user must maintain, it has reproduced the clutter it was meant to reduce."
             ]
           },
@@ -43,15 +58,17 @@
             "paragraphs": [
               "Recurring clutter can reveal a mismatch between a person's obligations, available capacity, and environment. A crowded mind may be responding rationally to unstable work, unclear roles, financial pressure, caregiving, or too many channels of communication.",
               "Saule may identify patterns, but it must not turn them into clinical claims or personality judgments. The same behavior can have many causes, and a digital trace never contains the whole life around it.",
-              "Useful interpretation therefore remains provisional. Saule should say what it noticed, what evidence it used, and what other explanations may fit, then allow the user to correct or ignore the pattern."
+              "Useful interpretation therefore remains provisional. Saule should say what it noticed, what evidence it used, and what other explanations may fit, then allow the user to correct or ignore the pattern.",
+              "Saule observes; it does not diagnose. Saule shows patterns; it does not pass judgment. Saule offers possibilities; it does not claim certainty."
             ]
           },
           {
             "heading": "7. Reviewing Without Reopening Everything",
             "paragraphs": [
-              "Review is necessary for trust, but exhaustive review can reactivate every obligation at once. The system should use small queues based on age, consequence, current context, and the user's chosen rhythm rather than presenting an entire archive.",
+              "Review is necessary for trust, but review itself can become a burden. Confronting the whole archive can reactivate every obligation the person was trying to move out of mind. A system designed to help with remembering can thereby overwhelm the person again.",
+              "Saule should therefore present small review spaces shaped by an item's age, expected consequence, current context, and the user's chosen rhythm rather than opening the entire archive. Returns should be limited, meaningful, and possible to complete.",
               "Silence must be a valid state. If nothing needs attention, Saule should not invent a review merely to create activity. Quiet is evidence that the external system is doing its job.",
-              "A healthy review ends with fewer active uncertainties: something is clarified, scheduled, delegated, archived, or released. It should leave the person more oriented than when they began."
+              "A healthy review ends by reducing the uncertainty that remains mentally active: something is clarified, scheduled, delegated, archived, or released. The aim is not to consume the archive, but to help the person find their bearings again. They should finish with a clearer next step, not with more weight than when they began."
             ]
           }
         ],
@@ -148,15 +165,13 @@
         ],
         "future_evolution": "This chapter will later define a mental-clutter taxonomy, resurfacing rules, and measurable but privacy-preserving indicators of cognitive relief.",
         "references": [
-          "Cognitive load theory",
-          "Prospective memory research",
-          "The Zeigarnik effect",
-          "Distributed cognition",
-          "Research on rumination and worry",
-          "Cognitive offloading",
-          "Personal information management",
-          "Uncertainty in human-AI interaction",
-          "Research on role ambiguity"
+          "Zeigarnik, B. (1927). Das Behalten erledigter und unerledigter Handlungen. Psychologische Forschung, 9, 1–85.",
+          "MacLeod, C. M. (2020). Zeigarnik and von Restorff: The memory effects and the stories behind them. Memory & Cognition, 48, 1073–1088.",
+          "Jones, W. (2007). Personal information management. Annual Review of Information Science and Technology, 41(1), 453–504.",
+          "McDaniel, M. A., & Einstein, G. O. (2007). Prospective Memory: An Overview and Synthesis of an Emerging Field. SAGE Publications.",
+          "Nolen-Hoeksema, S., Wisco, B. E., & Lyubomirsky, S. (2008). Rethinking rumination. Perspectives on Psychological Science, 3(5), 400–424.",
+          "Hutchins, E. (1995). Cognition in the Wild. MIT Press.",
+          "Clark, A., & Chalmers, D. (1998). The extended mind. Analysis, 58(1), 7–19."
         ]
       }
     },
@@ -170,9 +185,10 @@
               "The fundamental problem of modern life regarding attention is not simply that there are too many stimuli. The deeper problem is this: systems designed to capture our attention have become stronger than our internal and external boundaries designed to protect it.",
               "Phones, messages, emails, social media, news feeds, work notifications, financial apps, shopping recommendations, short videos, and infinite scrolling all compete for the same limited mental space. They do not just present information; they ask us to return, look, react, reply, or move on to the next thing.",
               "Therefore, the attention crisis cannot be explained by a sudden weakening of human beings. Humans did not lose their attention; the environment surrounding attention has changed.",
-              "In the past, attention was mostly seen as an internal resource to be protected. Today, however, attention has become an area that is measured, competed for, optimized, and converted into economic value. Whatever a person looks at, clicks on, stays on, and returns to, that behavior generates a signal for a system.",
+              "Today, attention is not only a human capacity to be protected; it has become an arena that is measured, competed for, optimized, and converted into economic value. Whatever a person looks at, clicks on, stays with, and returns to generates a signal for a system.",
+              "As early as 1971, Herbert Simon argued that an abundance of information creates a scarcity of attention. Every new piece of information consumes the attention of someone who must notice, evaluate, or filter it. The problem today is not simply that too much information is produced, but that this information constantly competes to reach limited human attention.",
               "As a result, the modern individual lives not only with their own internal clutter but also with the attention demands of the external world.",
-              "At this point, Saule must treat the attention crisis not as a moral weakness, but as an imbalance between the human and their environment."
+              "The attention crisis is therefore not merely a failure of will inside the individual. It is an imbalance between the person and their environment."
             ]
           },
           {
@@ -183,22 +199,25 @@
               "If an app sends continuous notifications, if a platform is designed to keep a person's interest for as long as possible, if social systems have made quick responses a sign of politeness, and if work culture rewards being available at all times, simply saying \"be more disciplined\" is not enough.",
               "The attention crisis arises from the conflict between the individual's will and the environment's demands.",
               "A person wants to start a task. But a message arrives. A message is not just a message; it can be a relationship, an expectation, a possibility, a problem, or an opportunity. The person looks at the message. Then they see another notification. Then a brief check behavior begins. A few minutes later, even if the person remembers their initial intention, they are no longer at the same mental starting point.",
+              "A study by Cary Stothart and colleagues found that merely receiving a phone notification could impair performance on a sustained-attention task even when the person did not look at or answer the phone. An interruption can begin not when someone touches the screen, but when a sound or vibration creates a new expectation in the mind.",
               "In such moments, the problem is not just lost time. The problem is context loss.",
               "People often realize too late that they have become distracted. This is because attention loss is not always dramatic. Sometimes it appears as a small deviation, a quick check, or a minor delay. But when these small deviations accumulate throughout the day, by evening the person may feel they have touched many things but truly stayed with very few.",
-              "Saule's approach to attention must begin here: making the contexts that create attention loss visible, without blaming the user."
+              "The first step in understanding attention loss is therefore not to blame the person, but to make the contexts that fragment attention visible."
             ]
           },
           {
             "heading": "3. Interruption Disrupts Context, Not Just Time",
             "paragraphs": [
               "The cost of an interruption is not just the duration of the interruption itself.",
-              "A notification might take five seconds. Checking a message might take thirty seconds. Checking an app might seem like two minutes. But it can take much longer for the mind to return to the previous task, remember what it was doing, find where it left off, and reach the same depth of thought again.",
+              "A notification might take five seconds. Checking a message might take thirty seconds. Checking an app might seem like two minutes. But when the interruption ends, the previous task does not resume by itself. The person must remember what they were doing, find where they left off, and reconstruct the context of thought.",
               "Therefore, the true cost of the attention crisis is larger than it appears.",
+              "Stephen Monsell's review of task-switching research shows that people are generally slower and more prone to error immediately after changing tasks; time to prepare reduces this transition cost but does not eliminate it. The mind does not instantly erase the rules of the previous task or establish a new context without cost.",
               "Interruption breaks the continuity of thought. The human mind is forced to return to the question \"where was I?\" every single time. This return is not only cognitive, but also emotional. A person returning to a task sometimes cannot find the same motivation, the same courage, or the same openness.",
+              "An experiment by Gloria Mark and colleagues also showed why the cost cannot be measured only in completion time. Participants completed interrupted work faster, but did so with greater stress, frustration, time pressure, and effort. An interruption that appears compensated for from the outside can leave a more burdensome experience on the inside.",
               "Some tasks can be done with short attention spans. Replying to messages, doing a quick check, or making simple edits is possible with short-term focus. But other tasks require deep context: writing, thinking, making a difficult decision, trying to understand a relationship, evaluating a career direction, reviewing a financial situation, or designing a project.",
               "The modern attention crisis erodes this second type of task the most.",
               "This is because deep tasks do not usually shout. They do not remind us of themselves with notifications. They do not appear urgent. Yet, most of the life-changing decisions a human makes arise from deep matters, not urgent ones.",
-              "Saule must care not only about how much time the user spends, but how much context they are able to preserve."
+              "The quality of attention is therefore not only a matter of how much time is allocated to a task, but of how much context can be preserved within that time."
             ]
           },
           {
@@ -210,8 +229,8 @@
               "A book is silent. A long-term career goal is silent. A health habit is silent. The need to maintain a good relationship is silent. The meaning of time spent with your child is silent. The necessity of patiently building a project is silent. The process of knowing oneself is silent.",
               "The immediate announces itself. The slow waits to be remembered.",
               "Therefore, the attention crisis is not just a problem of distraction; it is a problem of ranking values. As a person responds to whatever shouts loudest throughout the day, the most important things can be left behind.",
-              "At this point, Saule's role is not to make decisions on behalf of the user. Saule must make the difference between the immediate and the important visible.",
-              "A system should be able to ask: \"Is this really important now, or is it only important because it is visible now?\" This question stands at the center of the modern attention crisis."
+              "The difference between the immediate and the important cannot be reduced to an automated decision made on someone's behalf. The same message may be truly urgent one day and merely visible on another. Importance depends not only on content, but on relationship, timing, responsibility, and the context the person is carrying.",
+              "A simple but difficult question therefore stands at the center of the modern attention crisis: \"Is this truly important now, or does it only seem important because it is visible now?\""
             ]
           },
           {
@@ -222,10 +241,9 @@
               "Some days a person can focus for long periods. Some days even starting for a few minutes is difficult. Some days the person is open to the external world. Some days even the smallest notification creates a massive rupture.",
               "This variability is not failure. It is part of being human.",
               "Traditional productivity systems often fail to account for this variability. They approach each day with the same calendar, the same task list, the same pressure of goals, and the same expectation of performance. Yet, human capacity is not fixed.",
-              "Saule must behave differently here.",
-              "Saule must not label the user as someone who \"can focus\" or \"cannot focus.\" Instead, it should try to understand attention patterns within context.",
+              "Labeling someone as a person who \"can focus\" or \"cannot focus\" turns a temporary condition into a lasting identity. A better approach is to understand attention patterns together with the contexts in which they arise.",
               "At what hours is attention more accessible? Which tasks create more resistance? Speaking with which people increases the mental load? On which days do notifications become more disruptive? Under what conditions is short focus more realistic, and under what conditions is deep work possible?",
-              "The answers to these questions must be used not to define the person, but to design a day that is more suitable for them."
+              "The answers should not define the person, but reveal the conditions under which capacity narrows or expands. The aim is not to reduce someone to a fixed attention score, but to help shape a day that fits them better."
             ]
           },
           {
@@ -244,6 +262,7 @@
             "paragraphs": [
               "Attention is not only related to a person's internal discipline. It is also about how quickly others expect a response from them.",
               "Teams at work may expect instant replies. Family members may request availability. Friends may interpret silence as indifference. Customers may expect quick answers. Social media platforms can make staying visible feel like part of maintaining a relationship.",
+              "Research by Melissa Mazmanian, Wanda Orlikowski, and JoAnne Yates describes this tension among mobile-email users as an autonomy paradox. The ability to work from anywhere can offer flexibility and control in the short term, while gradually strengthening expectations of constant availability and making it harder to disconnect from work in practice.",
               "For this reason, attention protection is not just about \"turning off notifications.\"",
               "A person must sometimes be truly reachable. A child, family, an important job interview, an emergency, or caregiving responsibilities must not be ignored. But not every contact carries the same urgency.",
               "This is one of the difficult questions Saule must solve in the future: how to avoid neglecting relationships, responsibilities, and true emergencies while protecting the user?",
@@ -377,17 +396,11 @@
         ],
         "future_evolution": "This chapter will later be expanded to define how attention patterns are represented, under what conditions notifications are batched, how protected focus periods are designed, and how the user can inspect and edit their own attention policy.\n\nFuture versions will also examine how attention support should adapt to different life situations: parenting, job hunting, freelance work, caregiving responsibilities, relationship management, education, health, and periods of high uncertainty.\n\nThe future purpose of this chapter is to clarify how Saule can be designed as a system that protects the user's attention space, rather than just planning tasks.",
         "references": [
-          "Attention residue research",
-          "Task-switching literature",
-          "The attention economy",
-          "Human-computer interaction research on digital notifications",
-          "Studies on vigilance, cognitive fatigue, and recovery",
-          "Accessibility norms in the workplace",
-          "Boundary management research",
-          "Self-determination theory",
-          "Behavior design and product incentives",
-          "Digital wellbeing research",
-          "Accessibility studies on attention support"
+          "Simon, H. A. (1971). Designing organizations for an information-rich world. In M. Greenberger (Ed.), Computers, Communications, and the Public Interest (pp. 38–52). Johns Hopkins Press.",
+          "Stothart, C., Mitchum, A., & Yehnert, C. (2015). The attentional cost of receiving a cell phone notification. Journal of Experimental Psychology: Human Perception and Performance, 41(4), 893–897.",
+          "Monsell, S. (2003). Task switching. Trends in Cognitive Sciences, 7(3), 134–140.",
+          "Mark, G., Gudith, D., & Klocke, U. (2008). The cost of interrupted work: More speed and stress. Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, 107–110.",
+          "Mazmanian, M., Orlikowski, W. J., & Yates, J. (2013). The autonomy paradox: The implications of mobile email devices for knowledge professionals. Organization Science, 24(5), 1337–1357."
         ]
       }
     },

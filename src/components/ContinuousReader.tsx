@@ -52,6 +52,12 @@ const getBookmarkTranslations = (locale: string) => {
       return { add: 'Marcador', saved: 'Guardado', page: 'pág.', jump: 'Ir al Marcador', top: 'Subir' };
     case 'ru':
       return { add: 'Закладка', saved: 'Сохранено', page: 'стр.', jump: 'К Закладке', top: 'Вверх' };
+    case 'zh-CN':
+      return { add: '添加书签', saved: '已添加书签', page: '页', jump: '前往书签', top: '顶部' };
+    case 'ja':
+      return { add: 'しおり', saved: '保存済み', page: '頁', jump: 'しおりへ', top: '上へ' };
+    case 'ko':
+      return { add: '책갈피', saved: '저장됨', page: '쪽', jump: '책갈피로', top: '맨 위' };
     case 'en':
     default:
       return { add: 'Bookmark', saved: 'Bookmarked', page: 'p.', jump: 'Go to Bookmark', top: 'Top' };
@@ -78,6 +84,12 @@ const getDynamicAppendixTitles = (locale: string): Record<string, string> => {
         'design-decisions': 'Дизайнерские решения',
         'references': 'Источники',
       };
+    case 'zh-CN':
+      return { 'open-questions': '开放问题', 'design-decisions': '设计决策', 'references': '参考文献' };
+    case 'ja':
+      return { 'open-questions': '未解決の問い', 'design-decisions': '設計上の判断', 'references': '参考文献' };
+    case 'ko':
+      return { 'open-questions': '열린 질문', 'design-decisions': '설계 결정', 'references': '참고문헌' };
     case 'en':
     default:
       return {
@@ -88,72 +100,121 @@ const getDynamicAppendixTitles = (locale: string): Record<string, string> => {
   }
 };
 
-const getBookBeginningContent = (locale: string) => {
+const getBookBeginningContent = (locale: string, dictionary?: ContinuousReaderProps['dictionary']) => {
+  if (dictionary?.book_beginning?.preface && dictionary?.book_beginning?.howToRead) {
+    return dictionary.book_beginning;
+  }
+
   switch (locale) {
     case 'tr':
       return {
         preface: {
           title: "Önsöz",
-          p1: "“Saule uygulaması, Saule Yaşayan Kitabı ile birlikte ve bu kitaba bağlı kalarak geliştirilecektir.”",
-          p2: "Her özellik, her yapay zekâ davranışı, her bellek sistemi ve her mühendislik kararı, uygulamada yer almadan önce bu kitapta temellendirilmelidir. Kitap, Saule için bağlayıcı doğruluk kaynağıdır. Uygulama ise kitabın hayata geçmiş kanıtıdır."
-        },
-        whatIsBookFor: {
-          title: "Bu Kitap Ne İşe Yarar?",
-          p1: "Saule Yaşayan Kitabı, uygulamanın düşünsel ve etik zeminidir. Saule’de yer alacak her yapay zekâ davranışı, bellek kararı, hatırlatma mantığı, unutma politikası, topluluk ilkesi ve mühendislik tercihi önce bu kitapta temellendirilmelidir.",
-          items: [
-            "Saule insanı nasıl anlayacak?",
-            "Hangi yapay zekâ davranışları kabul edilebilir?",
-            "Bellek, unutma, dikkat, ilişki ve karar desteği hangi sınırlarla çalışacak?",
-            "Uygulama hangi durumlarda susacak, yavaşlayacak veya insani desteğe alan açacak?"
+          p1: "",
+          paragraphs: [
+            { type: 'text', content: "Bu kitap, insanın modern dünyada neden bu kadar dağıldığını, neden bu kadar yorulduğunu, neden bildiği halde başlayamadığını, neden hatırlamak zorunda kaldığını, neden karar vermekte zorlandığını ve neden kendi hayatıyla bağını zaman zaman kaybettiğini anlamak için yazılmıştır." },
+            { type: 'text', content: "Saule, bu soruların içinden doğar." },
+            { type: 'text', content: "Bu nedenle Saule Yaşayan Kitabı, önce insanı anlamaya çalışır. Zihinsel dağınıklığı yalnızca düzensizlik olarak görmez. Karar yorgunluğunu yalnızca irade eksikliği saymaz. Unutulan niyetleri, yarım kalan planları, ertelenen konuşmaları, taşınan duygusal yükleri ve dağılan dikkati modern insanın ortak hâlleri olarak ele alır." },
+            { type: 'text', content: "Bu kitap kesin cevaplar vermek için değil, doğru soruları canlı tutmak için vardır." },
+            { type: 'list', items: [
+              "Saule insanı nasıl anlayacak?",
+              "Bellek neyi hatırlayacak, neyi unutacak?",
+              "Dikkat ne zaman korunacak, ne zaman yönlendirilecek?",
+              "Bir öneri ne zaman yardım, ne zaman baskı olur?",
+              "Bir sistem ne zaman konuşmalı, ne zaman susmalı?",
+              "İnsan hangi anda teknolojiye değil, başka bir insana ihtiyaç duyar?"
+            ] },
+            { type: 'text', content: "Bu sorular yalnızca bir uygulamanın nasıl çalışacağıyla ilgili değildir. Aynı zamanda insanın kendi hayatını nasıl taşıdığı, neye ihtiyaç duyduğu ve hangi yükleri artık tek başına zihninde tutmak zorunda kalmaması gerektiğiyle ilgilidir." },
+            { type: 'text', content: "Saule uygulaması, bu kitabın dışında gelişmeyecektir. Her yapay zekâ davranışı, her bellek kararı, her hatırlatma mantığı, her unutma politikası, her topluluk ilkesi, her arayüz tercihi ve her mühendislik kararı, uygulamada yer almadan önce bu kitapta anlamını bulmalıdır." },
+            { type: 'bold-lead', lead: "Bu yüzden Saule Yaşayan Kitabı, Saule için bağlayıcı doğruluk kaynağıdır. ", text: "Uygulama ise bu kitabın hayata geçmiş, denenmiş ve sürekli öğrenen kanıtıdır." },
+            { type: 'text', content: "Kitap değiştikçe Saule derinleşir. Saule geliştikçe kitap sınanır. Bu ilişki tek yönlü değildir. Kitap yön verir, uygulama gerçeklikte test eder, topluluk ise bu öğrenmenin parçası olur." },
+            { type: 'text', content: "Bu kitabı okuyan kişi yalnızca bir ürün fikrini takip etmez. Kendi ihtiyaçlarını, yüklerini ve gündelik hayatın içinde görünmez hâle gelen insan hâllerini düşünmek için yeni bir alana girer." },
+            { type: 'text', content: "Saule bu yüzden yalnızca bir uygulama olarak kalmayacak; kitabı, uygulaması ve topluluğuyla birlikte öğrenen, gelişen ve büyüyen bir topluluğa dönüşecektir." }
           ]
         },
         howToRead: {
           title: "Nasıl Okunmalı?",
-          p1: "Bu kitap doğrusal biçimde okunabilir; ancak aynı zamanda yaşayan bir araştırma haritası olarak da kullanılabilir. Bölümler Saule’nin insanı anlamaya çalıştığı katmanları, ekler ise açık soruları, tasarım kararlarını ve kaynak alanlarını toplar."
+          paragraphs: [
+            "Bu kitap doğrusal biçimde okunabilir; ancak yalnızca baştan sona ilerleyen kapalı bir metin olarak düşünülmemelidir. Saule Yaşayan Kitabı, aynı zamanda yaşayan bir araştırma haritasıdır.",
+            "Bölümler, Saule’nin insanı anlamaya çalıştığı temel katmanları açar: zihinsel yük, dikkat, bellek, duygu, motivasyon, ilişkiler, karar verme, güven, etik ve yapay zekâ davranışı. Her bölüm, hem bir insan sorununu anlamaya hem de Saule’nin bu sorun karşısında nasıl davranması gerektiğini temellendirmeye çalışır.",
+            "Ekler ise kitabın açık kalan alanlarını toplar. Açık sorular, tasarım kararları, kaynaklar, ileride cevaplanacak teknik ve etik meseleler burada görünür hâle gelir. Bu nedenle ekler kitabın dışında kalan notlar değil, yaşayan yapının devamıdır.",
+            "Okuyucu bu kitabı ister baştan sona okuyabilir, ister ihtiyaç duyduğu konuya göre belirli bölümlere dönebilir. Bazı bölümler bir kavramı anlamak için, bazıları bir tasarım kararını değerlendirmek için, bazıları ise Saule’nin hangi sınırlarda gelişeceğini görmek için okunabilir.",
+            "Bu kitap tamamlanmış bir sonuçtan çok, sürekli sınanan bir düşünme alanıdır. Bu yüzden okuma biçimi de tek değildir: anlamak, sorgulamak, geri dönmek, düzeltmek ve yeniden düşünmek bu kitabın doğal parçasıdır."
+          ]
         }
       };
     case 'es':
       return {
         preface: {
           title: "Prefacio",
-          p1: "“La aplicación Saule se desarrollará junto con el Libro Vivo de Saule y en adhesión a él.”",
-          p2: "Cada característica, cada comportamiento de la IA, cada sistema de memoria y cada decisión de ingeniería debe fundamentarse en este libro antes de ser implementado en la aplicación. El libro es la fuente vinculante de verdad para Saule. La aplicación es la prueba viviente del libro."
-        },
-        whatIsBookFor: {
-          title: "¿Para qué sirve este Libro?",
-          p1: "El Libro Vivo de Saule es el fundamento intelectual y ético de la aplicación. Cada comportamiento de la IA, decisión de memoria, lógica de recordatorio, política de olvido, principio de comunidad y preferencia de ingeniería que ocurra en Saule debe fundamentarse primero en este libro.",
-          items: [
-            "¿Cómo entenderá Saule al ser humano?",
-            "¿Qué comportamientos de la IA son aceptables?",
-            "¿Bajo qué límites operará el soporte de memoria, olvido, atención, relación y decisión?",
-            "¿En qué situaciones se silenciará, ralentizará o abrirá espacio la aplicación para el apoyo humano?"
+          p1: "",
+          paragraphs: [
+            { type: 'text', content: "Este libro está escrito para comprender por qué los seres humanos están tan dispersos en el mundo moderno, por qué están tan cansados, por qué no pueden empezar a pesar de saber qué hacer, por qué se ven obligados a recordar, por qué les cuesta tomar decisiones y por qué pierden la conexión con sus propias vidas de vez en cuando." },
+            { type: 'text', content: "Saule nace de estas preguntas." },
+            { type: 'text', content: "Por lo tanto, el Libro Vivo de Saule intenta primero comprender al ser humano. No ve el desorden mental simplemente como desorganización. No considera la fatiga de decisión únicamente como una falta de voluntad. Trata las intenciones olvidadas, los planes a medio terminar, las conversaciones pospuestas, las cargas emocionales acumuladas y la atención fragmentada como estados comunes del ser humano moderno." },
+            { type: 'text', content: "Este libro existe no para dar respuestas definitivas, sino para mantener vivas las preguntas correctas." },
+            { type: 'list', items: [
+              "¿Cómo entenderá Saule al ser humano?",
+              "¿Qué recordará la memoria y qué olvidará?",
+              "¿Cuándo se protegerá la atención y cuándo se guiará?",
+              "¿Cuándo se convierte una sugerencia en ayuda y cuándo en presión?",
+              "¿Cuándo debe hablar un sistema y cuándo debe guardar silencio?",
+              "¿En qué momento necesita un ser humano a otro ser humano, y no a la tecnología?"
+            ] },
+            { type: 'text', content: "Estas preguntas no se refieren únicamente al funcionamiento de una aplicación. Se refieren también a cómo una persona sobrelleva su propia vida, qué necesita y qué cargas ya no debería tener que mantener en su mente en solitario." },
+            { type: 'text', content: "La aplicación Saule no se desarrollará al margen de este libro. Cada comportamiento de la IA, cada decisión de memoria, cada lógica de recordatorio, cada política de olvido, cada principio de comunidad, cada preferencia de interfaz y cada decisión de ingeniería debe encontrar su significado en este libro antes de implementarse en la aplicación." },
+            { type: 'bold-lead', lead: "Por eso el Libro Vivo de Saule es la fuente de verdad vinculante para Saule. ", text: "La aplicación es la prueba realizada, probada y en continuo aprendizaje de este libro." },
+            { type: 'text', content: "A medida que el libro cambia, Saule se profundiza. A medida que Saule se desarrolla, el libro se pone a prueba. Esta relación no es unidireccional. El libro guía, la aplicación prueba en la realidad y la comunidad se convierte en parte de este aprendizaje." },
+            { type: 'text', content: "La persona que lee este libro no sigue simplemente una idea de producto. Entra en un nuevo espacio para reflexionar sobre sus propias necesidades, cargas y estados humanos que se vuelven invisibles en la vida cotidiana." },
+            { type: 'text', content: "Por lo tanto, Saule no seguirá siendo solo una aplicación; se transformará en un movimiento que aprende, se desarrolla y crece junto con su libro, su aplicación y su comunidad." }
           ]
         },
         howToRead: {
           title: "¿Cómo debe leerse?",
-          p1: "Este libro se puede leer de forma lineal; pero también se puede utilizar como un mapa de investigación vivo. Los capítulos reúnen las capas en las que Saule intenta comprender al ser humano, mientras que los anexos recopilan preguntas abiertas, decisiones de diseño y recursos."
+          paragraphs: [
+            "Este libro se puede leer de forma lineal; sin embargo, no debe considerarse simplemente como un texto cerrado que progresa de principio a fin. El Libro Vivo de Saule es también un mapa de investigación vivo.",
+            "Los capítulos abren las capas fundamentales a través de las cuales Saule intenta comprender al ser humano: carga mental, atención, memoria, emoción, motivación, relaciones, toma de decisiones, confianza, ética y comportamiento de la IA. Cada capítulo busca tanto comprender un problema humano como fundamentar cómo debe comportarse Saule frente a dicho problema.",
+            "Los anexos, por otro lado, recopilan las áreas abiertas del libro. Preguntas abiertas, decisiones de diseño, recursos y cuestiones técnicas y éticas que se responderán en el futuro se vuelven visibles aquí. Por lo tanto, los anexos no son notas que quedan fuera del libro, sino una continuación de la estructura viva.",
+            "El lector puede leer este libro de principio a fin, o volver a capítulos específicos según el tema que necesite. Algunos capítulos se pueden leer para comprender un concepto, otros para evaluar una decisión de diseño y algunos para ver bajo qué límites se desarrollará Saule.",
+            "Más que un resultado final, este libro es un espacio de pensamiento que se pone a prueba continuamente. Por eso no existe una única forma de lectura: comprender, cuestionar, volver, corregir y repensar son partes naturales de este libro."
+          ]
         }
       };
     case 'ru':
       return {
         preface: {
           title: "Предисловие",
-          p1: "«Приложение Saule будет разрабатываться совместно с Живой книгой Saule и в соответствии с ней».",
-          p2: "Каждая функция, каждое поведение ИИ, каждая система памяти и каждое инженерное решение должны быть обоснованы в этой книге до их реализации в приложении. Книга является обязательным источником правды для Saule. Приложение — это живое доказательство книги."
-        },
-        whatIsBookFor: {
-          title: "Зачем нужна эта Книга?",
-          p1: "Живая книга Saule — это интеллектуальная и этическая основа приложения. Каждое поведение ИИ, решение о памяти, логика напоминаний, политика забывания, принцип сообщества и инженерные предпочтения, возникающие в Saule, должны быть сначала обоснованы в этой книге.",
-          items: [
-            "Как Saule будет понимать человека?",
-            "Какие виды поведения ИИ допустимы?",
-            "В каких границах будет работать память, забывание, внимание, отношения и поддержка решений?",
-            "В каких ситуациях приложение будет замолкать, замедляться или открывать пространство для человеческой поддержки?"
+          p1: "",
+          paragraphs: [
+            { type: 'text', content: "Эта книга написана для того, чтобы понять, почему человек так рассеян в современном мире, почему он так устает, почему не может начать действовать, даже зная, что делать, почему он вынужден все помнить, почему ему трудно принимать решения и почему он время от времени теряет связь с собственной жизнью." },
+            { type: 'text', content: "Saule рождается из этих вопросов." },
+            { type: 'text', content: "Поэтому Живая книга Saule в первую очередь стремится понять человека. Она не рассматривает ментальный хаос просто как неорганизованность. Она не считает усталость от принятия решений исключительно отсутствием силы воли. Она относится к забытым намерениям, незавершенным планам, отложенным разговорам, переносимым эмоциональным нагрузкам и фрагментированному вниманию как к общим состояниям современного человека." },
+            { type: 'text', content: "Эта книга существует не для того, чтобы давать окончательные ответы, а для того, чтобы поддерживать жизнь правильных вопросов." },
+            { type: 'list', items: [
+              "Как Saule будет понимать человека?",
+              "Что память будет помнить, а что — забывать?",
+              "Когда внимание будет защищено, а когда — направлено?",
+              "Когда предложение становится помощью, а когда — давлением?",
+              "Когда система должна говорить, а когда — молчать?",
+              "В какой момент человеку нужна не технология, а другой человек?"
+            ] },
+            { type: 'text', content: "Эти вопросы касаются не только работы приложения. Они также касаются того, как человек несет свою собственную жизнь, в чем он нуждается и какие бремена ему больше не придется нести в одиночку в своем разуме." },
+            { type: 'text', content: "Приложение Saule не будет развиваться отдельно от этой книги. Каждое поведение ИИ, каждое решение памяти, каждая логика напоминаний, каждая политика забывания, каждый принцип сообщества, каждый предпочтение интерфейса и каждое инженерное решение должны найти свой смысл в этой книге, прежде чем быть реализованными в приложении." },
+            { type: 'bold-lead', lead: "Вот почему Живая книга Saule является обязательным источником истины для Saule. ", text: "Приложение же — это воплощенное на практике, проверенное временем и постоянно обучающееся доказательство этой книги." },
+            { type: 'text', content: "По мере изменения книги Saule углубляется. По мере развития Saule книга проверяется. Эти отношения не односторонние. Книга направляет, приложение проверяет в реальности, а сообщество становится частью этого обучения." },
+            { type: 'text', content: "Человек, читающий эту книгу, не просто следит за идеей продукта. Он входит в новое пространство, чтобы задуматься о своих собственных потребностях, нагрузках и человеческих состояниях, которые становятся невидимыми в повседневной жизни." },
+            { type: 'text', content: "Поэтому Saule не останется просто приложением; оно превратится в движение, которое учится, развивается и растет вместе со своей книгой, приложением и сообществом." }
           ]
         },
         howToRead: {
           title: "Как её читать?",
-          p1: "Эту книгу можно читать последовательно; но ее также можно использовать как живую карту исследований. Главы объединяют уровни, на которых Saule пытается понять человека, а приложения собирают открытые вопросы, дизайнерские решения и источники."
+          paragraphs: [
+            "Эту книгу можно читать последовательно, однако её не следует рассматривать просто как закрытый текст, развивающийся от начала к концу. Живая книга Saule — это также и живая карта исследований.",
+            "Главы раскрывают основные уровни, на которых Saule пытается понять человека: ментальная нагрузка, внимание, память, эмоции, мотивация, отношения, принятие решений, доверие, этика и поведение ИИ. Каждая глава призвана как понять человеческую проблему, так и обосновать, как Saule должна вести себя перед лицом этой проблемы.",
+            "Приложения, с другой стороны, собирают открытые области книги. Здесь становятся видимыми открытые вопросы, дизайнерские решения, источники, а также технические и этические вопросы, на которые предстоит ответить в будущем. Поэтому приложения — это не заметки, оставленные за пределами книги, а продолжение живой структуры.",
+            "Читатель может читать эту книгу от начала до конца или возвращаться к конкретным главам в зависимости от необходимой темы. Некоторые главы можно читать, чтобы понять концепцию, некоторые — чтобы оценить дизайнерское решение, а некоторые — чтобы увидеть, в каких границах будет развиваться Saule.",
+            "Эта книга — скорее постоянно проверяемое пространство мысли, чем завершенный результат. Вот почему не существует единственного способа чтения: понимание, сомнение, возвращение, исправление и переосмысление являются естественными частями этой книги."
+          ]
         }
       };
     case 'en':
@@ -161,22 +222,37 @@ const getBookBeginningContent = (locale: string) => {
       return {
         preface: {
           title: "Preface",
-          p1: "“The Saule application will be developed together with the Saule Living Book and in adherence to it.”",
-          p2: "Every feature, every AI behavior, every memory system, and every engineering decision must be grounded in this book before taking place in the application. The book is the binding source of truth for Saule. The application is the living proof of the book."
-        },
-        whatIsBookFor: {
-          title: "What is this Book for?",
-          p1: "The Saule Living Book is the intellectual and ethical foundation of the application. Every AI behavior, memory decision, reminder logic, forgetting policy, community principle, and engineering preference that takes place in Saule must first be grounded in this book.",
-          items: [
-            "How will Saule understand the human?",
-            "Which AI behaviors are acceptable?",
-            "Within what limits will memory, forgetting, attention, relationship, and decision support operate?",
-            "In what situations will the application silence itself, slow down, or open up space for human support?"
+          p1: "",
+          paragraphs: [
+            { type: 'text', content: "This book is written to understand why human beings are so scattered in the modern world, why they are so tired, why they cannot start despite knowing what to do, why they are forced to remember, why they struggle to make decisions, and why they lose connection with their own lives from time to time." },
+            { type: 'text', content: "Saule is born out of these questions." },
+            { type: 'text', content: "Therefore, the Saule Living Book first tries to understand the human. It does not view mental clutter merely as disorganization. It does not count decision fatigue solely as a lack of willpower. It treats forgotten intentions, half-finished plans, postponed conversations, carried emotional burdens, and fragmented attention as common states of the modern human." },
+            { type: 'text', content: "This book exists not to give definitive answers, but to keep the right questions alive." },
+            { type: 'list', items: [
+              "How will Saule understand the human?",
+              "What will memory remember, and what will it forget?",
+              "When will attention be protected, and when will it be guided?",
+              "When does a suggestion become help, and when does it become pressure?",
+              "When should a system speak, and when should it remain silent?",
+              "At what moment does a human need another human, not technology?"
+            ] },
+            { type: 'text', content: "These questions are not only about how an application will work. They are also about how a person carries their own life, what they need, and which burdens they should no longer have to keep in their mind alone." },
+            { type: 'text', content: "The Saule application will not develop outside of this book. Every AI behavior, every memory decision, every reminder logic, every forgetting policy, every community principle, every interface preference, and every engineering decision must find its meaning in this book before being implemented in the application." },
+            { type: 'bold-lead', lead: "That is why the Saule Living Book is the binding source of truth for Saule. ", text: "The application is the realized, tested, and continuously learning proof of this book." },
+            { type: 'text', content: "As the book changes, Saule deepens. As Saule develops, the book is tested. This relationship is not one-way. The book guides, the application tests in reality, and the community becomes a part of this learning." },
+            { type: 'text', content: "The person who reads this book does not merely follow a product idea. They enter a new space to contemplate their own needs, burdens, and human states that become invisible in daily life." },
+            { type: 'text', content: "Saule will therefore not remain just an application; it will transform into a movement that learns, develops, and grows together with its book, application, and community." }
           ]
         },
         howToRead: {
           title: "How should it be Read?",
-          p1: "This book can be read linearly; but it can also be used as a living research map. Chapters gather the layers in which Saule tries to understand the human, while appendices collect open questions, design decisions, and reference fields."
+          paragraphs: [
+            "This book can be read linearly; however, it should not be thought of merely as a closed text that progresses from beginning to end. The Saule Living Book is also a living research map.",
+            "The chapters open up the core layers through which Saule attempts to understand the human: mental load, attention, memory, emotion, motivation, relationships, decision-making, trust, ethics, and AI behavior. Each chapter aims both to understand a human problem and to ground how Saule should behave in the face of this problem.",
+            "The appendices, on the other hand, gather the open areas of the book. Open questions, design decisions, resources, and technical and ethical issues to be answered in the future become visible here. Therefore, the appendices are not notes left outside the book, but a continuation of the living structure.",
+            "The reader can read this book from start to finish, or return to specific chapters depending on the topic they need. Some chapters can be read to understand a concept, some to evaluate a design decision, and some to see within what boundaries Saule will develop.",
+            "Rather than a completed result, this book is a continuously tested space of thought. That is why there is no single way of reading: understanding, questioning, returning, correcting, and rethinking are natural parts of this book."
+          ]
         }
       };
   }
@@ -282,28 +358,6 @@ export default function ContinuousReader({
       relatedChapters: [],
       purposeKey: 'common.preface',
       keyQuestionKey: 'common.preface',
-    } as any,
-    startPage: currentPage,
-    endPage: currentPage + 1,
-  });
-  currentPage += 2;
-
-  readingItems.push({
-    type: 'chapter',
-    slug: 'what-is-book-for',
-    metadata: {
-      volumeId: 0,
-      chapterNumber: 0,
-      slug: 'what-is-book-for',
-      version: '1.0.0',
-      readingTime: '1-2 min',
-      researchConfidence: 'High',
-      lastUpdated: '2026-06-29',
-      status: 'Reviewing',
-      dependencies: [],
-      relatedChapters: [],
-      purposeKey: 'common.what_is_book_for',
-      keyQuestionKey: 'common.what_is_book_for',
     } as any,
     startPage: currentPage,
     endPage: currentPage + 1,
@@ -462,7 +516,7 @@ export default function ContinuousReader({
       
       const newPath = activeItem.type === 'volume'
         ? `/${locale}/volume/${(activeItem.metadata as Volume).id}`
-        : (activeSlug === 'preface' || activeSlug === 'what-is-book-for' || activeSlug === 'how-to-read')
+        : (activeSlug === 'preface' || activeSlug === 'how-to-read')
         ? `/${locale}/book`
         : `/${locale}/${activeItem.type}/${activeSlug}`;
       
@@ -475,8 +529,6 @@ export default function ContinuousReader({
         itemTitle = getTranslationValue(dictionary, vol.titleKey) || '';
       } else if (activeSlug === 'preface') {
         itemTitle = dictionary.common.preface || 'Preface';
-      } else if (activeSlug === 'what-is-book-for') {
-        itemTitle = dictionary.common.what_is_book_for || 'What is this Book for?';
       } else if (activeSlug === 'how-to-read') {
         itemTitle = dictionary.common.how_to_read || 'How should it be Read?';
       } else {
@@ -575,7 +627,7 @@ export default function ContinuousReader({
         const isVolume = item.type === 'volume';
         const isChapter = item.type === 'chapter';
         const isAppendix = item.type === 'appendix';
-        const isBookStartItem = item.slug === 'preface' || item.slug === 'what-is-book-for' || item.slug === 'how-to-read';
+        const isBookStartItem = item.slug === 'preface' || item.slug === 'how-to-read';
         
         const ch = (isChapter && !isBookStartItem) ? (item.metadata as ChapterMetadata) : null;
         const ap = isAppendix ? (item.metadata as AppendixMetadata) : null;
@@ -598,8 +650,6 @@ export default function ContinuousReader({
         } else if (isBookStartItem) {
           itemTitle = item.slug === 'preface'
             ? (dictionary.common.preface || 'Preface')
-            : item.slug === 'what-is-book-for'
-            ? (dictionary.common.what_is_book_for || 'What is this Book for?')
             : (dictionary.common.how_to_read || 'How should it be Read?');
         } else if (isDynamicAppendix) {
           const type = item.slug.endsWith('-open-questions')
@@ -664,7 +714,7 @@ export default function ContinuousReader({
               /* VOLUME COVER VIEW */
               <div className="min-h-[60vh] flex flex-col justify-center items-center text-center space-y-8 py-12">
                 <div className="space-y-4 max-w-2xl">
-                  <span className="text-xs font-sans font-bold tracking-[0.25em] text-clay uppercase">
+                  <span className="text-base sm:text-lg font-sans font-bold tracking-[0.25em] text-clay uppercase">
                     {dictionary.common.volume || 'Volume'} {vol!.romanId}
                   </span>
                   <h1 className="font-serif text-4xl sm:text-6xl font-bold tracking-tight text-charcoal leading-tight">
@@ -696,6 +746,10 @@ export default function ContinuousReader({
               /* BOOK START INTRO SECTIONS */
               <div className="space-y-8 py-10">
                 <header className="space-y-2">
+                  <div className="flex items-center justify-between border-b-2 border-clay/30 pb-3 mb-6">
+                    <span className="font-serif italic text-lg sm:text-xl text-charcoal-muted">{dictionary.header.nav_book}</span>
+                    <span className="font-serif font-bold text-lg sm:text-xl text-clay">Saule</span>
+                  </div>
                   <span className="text-[10px] font-sans font-bold tracking-widest text-clay uppercase">
                     {dictionary.common.book_start || 'Book Start'}
                   </span>
@@ -706,28 +760,43 @@ export default function ContinuousReader({
 
                 <div className="space-y-6 font-serif text-base sm:text-lg text-charcoal-muted leading-relaxed max-w-2xl border-l-2 border-sage/40 pl-6 py-1 italic">
                   {(() => {
-                    const startContent = getBookBeginningContent(locale);
+                    const startContent = getBookBeginningContent(locale, dictionary);
                     if (item.slug === 'preface') {
                       return (
                         <div className="space-y-4">
-                          <p className="font-bold text-sage-dark">{startContent.preface.p1}</p>
-                          <p className="not-italic text-charcoal-muted">{startContent.preface.p2}</p>
-                        </div>
-                      );
-                    } else if (item.slug === 'what-is-book-for') {
-                      return (
-                        <div className="space-y-6">
-                          <p className="not-italic text-charcoal-muted">{startContent.whatIsBookFor.p1}</p>
-                          <ul className="list-disc pl-5 space-y-2 not-italic text-charcoal-muted font-sans text-sm sm:text-base">
-                            {startContent.whatIsBookFor.items.map((li, idx) => (
-                              <li key={idx}>{li}</li>
-                            ))}
-                          </ul>
+                          {startContent.preface.p1 && <p className="font-bold text-sage-dark">{startContent.preface.p1}</p>}
+                          {startContent.preface.paragraphs.map((p: any, idx: number) => {
+                            if (p.type === 'text') {
+                              return (
+                                <p key={idx} className="not-italic text-charcoal-muted">{p.content}</p>
+                              );
+                            } else if (p.type === 'list') {
+                              return (
+                                <ul key={idx} className="list-disc pl-5 space-y-2 not-italic text-charcoal-muted font-sans text-sm sm:text-base">
+                                  {p.items.map((li: string, lidx: number) => (
+                                    <li key={lidx}>{li}</li>
+                                  ))}
+                                </ul>
+                              );
+                            } else if (p.type === 'bold-lead') {
+                              return (
+                                <p key={idx} className="not-italic text-charcoal-muted">
+                                  <strong className="font-bold text-sage-dark">{p.lead}</strong>
+                                  {p.text}
+                                </p>
+                              );
+                            }
+                            return null;
+                          })}
                         </div>
                       );
                     } else {
                       return (
-                        <p className="not-italic text-charcoal-muted">{startContent.howToRead.p1}</p>
+                        <div className="space-y-4">
+                          {startContent.howToRead.paragraphs.map((p: string, idx: number) => (
+                            <p key={idx} className="not-italic text-charcoal-muted">{p}</p>
+                          ))}
+                        </div>
                       );
                     }
                   })()}
@@ -739,7 +808,7 @@ export default function ContinuousReader({
                 <header className="space-y-4">
                   <div className="flex flex-col space-y-1">
                     {volTitle && (
-                      <span className="text-[10px] font-sans font-bold tracking-widest text-clay uppercase">
+                      <span className="text-xs sm:text-sm font-sans font-bold tracking-widest text-clay uppercase">
                         {volTitle}
                       </span>
                     )}
@@ -755,153 +824,18 @@ export default function ContinuousReader({
                 </header>
 
                 {!isDynamicAppendix && (
-                  meta!.status === 'Researching' ? (
-                    <section className="p-5 bg-sand-200/50 border border-sand-300/30 rounded flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-                      <div className="flex items-center space-x-3">
-                        <div className="w-8 h-8 rounded-full bg-clay/10 text-clay flex items-center justify-center flex-shrink-0">
-                          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                          </svg>
-                        </div>
-                        <span className="font-serif text-sm italic text-charcoal-muted">
-                          {dictionary.workspace.not_written}
-                        </span>
-                      </div>
-                      <div className="flex items-center space-x-2">
-                        <span className="text-[10px] font-sans font-bold uppercase text-charcoal-muted/50">
-                          {dictionary.workspace.status}:
-                        </span>
-                        <span className={`px-2 py-0.5 rounded text-[10px] font-sans font-bold border ${getStatusColorClass(meta!.status)}`}>
-                          {getTranslationMember(dictionary.workspace, `status_${meta!.status.toLowerCase()}`, meta!.status)}
-                        </span>
-                      </div>
-                    </section>
-                  ) : (
-                    <section className="p-5 bg-sage/5 border border-sage/20 rounded flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-                      <div className="flex items-center space-x-3">
-                        <div className="w-8 h-8 rounded-full bg-sage/10 text-sage-dark flex items-center justify-center flex-shrink-0">
-                          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
-                          </svg>
-                        </div>
-                        <span className="font-serif text-sm italic text-sage-dark font-medium">
-                          {dictionary.workspace.draft_mode_desc || 'This section is currently in draft mode.'}
-                        </span>
-                      </div>
-                      <div className="flex items-center space-x-2">
-                        <span className="text-[10px] font-sans font-bold uppercase text-charcoal-muted/50">
-                          {dictionary.workspace.status}:
-                        </span>
-                        <span className={`px-2 py-0.5 rounded text-[10px] font-sans font-bold border ${getStatusColorClass(meta!.status)}`}>
-                          {getTranslationMember(dictionary.workspace, `status_${meta!.status.toLowerCase()}`, meta!.status)}
-                        </span>
-                      </div>
-                    </section>
-                  )
-                )}
-
-                {!isDynamicAppendix && (
-                  <section className="grid grid-cols-1 md:grid-cols-2 gap-6 border-t border-b border-sand-300/40 py-8 text-sm">
-                    <div className="space-y-4">
-                      <div>
-                        <span className="text-[10px] font-sans font-semibold uppercase tracking-wider text-charcoal-muted/50 block">
-                          {dictionary.workspace.purpose}
-                        </span>
-                        <p className="font-sans text-xs sm:text-sm text-charcoal-muted leading-relaxed mt-1">
-                          {itemPurpose}
-                        </p>
-                      </div>
-                      <div>
-                        <span className="text-[10px] font-sans font-semibold uppercase tracking-wider text-charcoal-muted/50 block">
-                          {dictionary.workspace.key_question}
-                        </span>
-                        <p className="font-serif text-xs sm:text-sm italic font-bold text-sage-dark leading-relaxed mt-1">
-                          “{itemKeyQuestion}”
-                        </p>
-                      </div>
-                      {isChapter && (
-                        <div>
-                          <span className="text-[10px] font-sans font-semibold uppercase tracking-wider text-charcoal-muted/50 block">
-                            {dictionary.workspace.dependencies}
-                          </span>
-                          {resolvedDependencies.length > 0 ? (
-                            <div className="flex flex-wrap gap-2 mt-1.5">
-                              {resolvedDependencies.map((dep) => (
-                                <button
-                                  key={dep.slug}
-                                  onClick={() => window.dispatchEvent(new CustomEvent('saule-scroll-to-section', { detail: { slug: dep.slug } }))}
-                                  className="px-2 py-1 rounded bg-sand-200 border border-sand-300/40 text-charcoal hover:bg-sand-300/50 text-[10px] font-sans transition-all cursor-pointer text-left"
-                                >
-                                  {dep.title}
-                                </button>
-                              ))}
-                            </div>
-                          ) : (
-                            <span className="text-xs text-charcoal-muted/40 italic block mt-1">{dictionary.common.none || 'None'}</span>
-                          )}
-                        </div>
-                      )}
-                    </div>
-
-                    <div className="space-y-4">
-                      <div className="grid grid-cols-2 gap-4">
-                        <div>
-                          <span className="text-[10px] font-sans font-semibold uppercase tracking-wider text-charcoal-muted/50 block">
-                            {dictionary.workspace.version}
-                          </span>
-                          <span className="font-serif text-xs sm:text-sm font-bold text-charcoal block mt-0.5">
-                            {meta!.version}
-                          </span>
-                        </div>
-                        <div>
-                          <span className="text-[10px] font-sans font-semibold uppercase tracking-wider text-charcoal-muted/50 block">
-                            {dictionary.workspace.reading_time}
-                          </span>
-                          <span className="font-serif text-xs sm:text-sm font-bold text-charcoal block mt-0.5">
-                            {meta!.readingTime.replace('-', '–').replace('min', dictionary.common.minutes || 'min')}
-                          </span>
-                        </div>
-                        <div>
-                          <span className="text-[10px] font-sans font-semibold uppercase tracking-wider text-charcoal-muted/50 block">
-                            {dictionary.workspace.research_confidence}
-                          </span>
-                          <span className={`inline-block px-2 py-0.5 rounded text-[10px] font-sans font-bold border mt-1 ${getConfidenceColorClass(meta!.researchConfidence)}`}>
-                            {getTranslationMember(dictionary.workspace, `confidence_${meta!.researchConfidence.toLowerCase()}`, meta!.researchConfidence)}
-                          </span>
-                        </div>
-                        <div>
-                          <span className="text-[10px] font-sans font-semibold uppercase tracking-wider text-charcoal-muted/50 block">
-                            {dictionary.workspace.last_updated}
-                          </span>
-                          <span className="font-serif text-xs sm:text-sm font-bold text-charcoal block mt-0.5">
-                            {meta!.lastUpdated}
-                          </span>
-                        </div>
-                      </div>
-                      {isChapter && (
-                        <div>
-                          <span className="text-[10px] font-sans font-semibold uppercase tracking-wider text-charcoal-muted/50 block">
-                            {dictionary.workspace.related_chapters}
-                          </span>
-                          {resolvedRelated.length > 0 ? (
-                            <div className="flex flex-wrap gap-2 mt-1.5">
-                              {resolvedRelated.map((rel) => (
-                                <button
-                                  key={rel.slug}
-                                  onClick={() => window.dispatchEvent(new CustomEvent('saule-scroll-to-section', { detail: { slug: rel.slug } }))}
-                                  className="px-2 py-1 rounded bg-sand-200 border border-sand-300/40 text-charcoal hover:bg-sand-300/50 text-[10px] font-sans transition-all cursor-pointer text-left"
-                                >
-                                  {rel.title}
-                                </button>
-                              ))}
-                            </div>
-                          ) : (
-                            <span className="text-xs text-charcoal-muted/40 italic block mt-1">{dictionary.common.none || 'None'}</span>
-                          )}
-                        </div>
-                      )}
-                    </div>
-                  </section>
+                  <div className="space-y-4 my-8 pb-8 border-b border-sand-300/30">
+                    {itemKeyQuestion && (
+                      <p className="font-serif text-lg sm:text-xl italic font-bold text-sage-dark leading-relaxed">
+                        “{itemKeyQuestion}”
+                      </p>
+                    )}
+                    {itemPurpose && (
+                      <p className="font-sans text-sm sm:text-base text-charcoal-muted leading-relaxed">
+                        {itemPurpose}
+                      </p>
+                    )}
+                  </div>
                 )}
 
                 {isDynamicAppendix ? (
@@ -947,7 +881,7 @@ export default function ContinuousReader({
                                         {getTranslationMember(dictionary.workspace, `status_${qItem.status}`, qItem.status)}
                                       </span>
                                     </div>
-                                    {(qItem.decisionArea || (qItem.answeredInChapters && qItem.answeredInChapters.length > 0)) && (
+                                    {(qItem.decisionArea || (!['zh-CN', 'ja', 'ko'].includes(locale) && qItem.answeredInChapters && qItem.answeredInChapters.length > 0)) && (
                                       <div className="pt-2 border-t border-sand-300/25 space-y-2 text-xs font-sans">
                                         {qItem.decisionArea && (
                                           <div className="flex items-center gap-1.5">
@@ -957,7 +891,7 @@ export default function ContinuousReader({
                                             <span className="text-charcoal-muted font-medium text-[11px]">{qItem.decisionArea}</span>
                                           </div>
                                         )}
-                                        {qItem.answeredInChapters && qItem.answeredInChapters.length > 0 && (
+                                        {!['zh-CN', 'ja', 'ko'].includes(locale) && qItem.answeredInChapters && qItem.answeredInChapters.length > 0 && (
                                           <div className="space-y-1">
                                             <span className="text-[9px] font-semibold text-charcoal-muted/50 uppercase tracking-wider block">
                                               {dictionary.workspace.will_be_answered_in}
@@ -1008,16 +942,7 @@ export default function ContinuousReader({
                           </section>
                         ))}
 
-                      {draftData.future_evolution && (
-                        <div className="pt-8 border-t border-sand-300/20 space-y-3">
-                          <h4 className="font-serif text-base font-bold text-sage-dark">
-                            {dictionary.workspace.future_evolution}
-                          </h4>
-                          <p className="font-sans text-sm sm:text-base text-charcoal-muted leading-relaxed">
-                            {draftData.future_evolution}
-                          </p>
-                        </div>
-                      )}
+
                     </div>
                   ) : (
                     <section className="space-y-8">

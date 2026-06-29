@@ -5,12 +5,13 @@ import { getTranslationValue } from '@/lib/translation';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import ContinuousReader from '@/components/ContinuousReader';
+import { getVolumesForLocale, isChapterAvailable } from '@/lib/translation-availability';
 
 export async function generateStaticParams() {
   const chapters = getAllChapters();
   
   return locales.flatMap((locale) => 
-    chapters.map((ch) => ({
+    chapters.filter((ch) => isChapterAvailable(locale, ch.slug)).map((ch) => ({
       locale,
       slug: ch.slug,
     }))
@@ -50,7 +51,7 @@ export default async function Page({
   const { locale, slug } = await params;
   const chapter = getChapterBySlug(slug);
 
-  if (!chapter) {
+  if (!chapter || !isChapterAvailable(locale, slug)) {
     notFound();
   }
 
@@ -62,7 +63,7 @@ export default async function Page({
       initialSlug={slug}
       initialType="chapter"
       dictionary={dict}
-      volumes={volumes}
+      volumes={getVolumesForLocale(locale, volumes)}
     />
   );
 }

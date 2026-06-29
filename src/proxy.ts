@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 
-const locales = ['en', 'tr', 'es', 'ru'];
+const locales = ['en', 'tr', 'es', 'ru', 'zh-CN', 'ja', 'ko'];
 const defaultLocale = 'en';
 
 export function proxy(request: NextRequest) {

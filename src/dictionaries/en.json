@@ -60,10 +60,10 @@
     "metric_sources": "Research Nodes",
     "metric_questions": "Open Questions",
     "metric_decisions": "Design Decisions",
-    "preface_title": "The Preface",
-    "preface_body_1": "“The Saule application will be written and developed alongside The Living Book of Saule.”",
-    "preface_body_2": "Every feature, every AI behavior, every memory system, and every engineering decision must be grounded in this book before taking place in the application. The book is Saule’s binding source of truth. The application is the living proof of the book.",
-    "preface_body_3": "This is not product documentation. It contains no marketing language. It is a living record of the thinking process, cognitive research, and technical design decisions behind a human-first adaptive intelligence.",
+    "preface_title": "Preface",
+    "preface_body_1": "“The Saule application will be developed alongside the Saule Living Book and in accordance with its principles.”",
+    "preface_body_2": "This book does more than describe Saule. It is Saule’s intellectual, ethical, and engineering foundation: the founding source that defines why Saule exists, which human problem it seeks to address, the boundaries within which it will develop, and the principles from which it must not depart.",
+    "preface_body_3": "Saule is being developed in response to profound problems of modern life: mental clutter, decision fatigue, forgotten intentions, unfinished plans, and the loss of connection people can feel with their own lives. For that reason, Saule’s technical development cannot be reduced to adding features. Every feature must be grounded in how it touches human life, what burden it reduces, what awareness it fosters, and the responsibility with which it will be used.",
     "volumes_and_chapters": "Volumes & Chapters"
   },
   "workspace": {
@@ -104,11 +104,11 @@
   },
   "volumes": {
     "v1": {
-      "title": "Volume I: The Human Condition",
-      "purpose": "Understand the modern human problem before introducing Saule.",
-      "intro_p1": "Saule begins not with features, screens, AI models, or productivity tools, but with a study of the modern person.",
-      "intro_p2": "The central question of Volume I: Why do people who know what they want still struggle to move forward? Why are we overwhelmed, distracted, emotionally loaded, and pulled between too many open loops?",
-      "intro_p3": "Volume I does not yet design Saule. It defines the problem Saule must be worthy of solving."
+      "title": "Volume I: The Modern Human Condition",
+      "purpose": "Understanding the fundamental problem.",
+      "intro_p1": "Why do people who know what they want still struggle to move forward? Why are we overwhelmed, distracted, emotionally burdened, and caught among so many open loops?",
+      "intro_p2": "Which problem is truly worth solving?",
+      "intro_p3": ""
     },
     "v2": {
       "title": "Volume II: Understanding the Human Mind",
@@ -140,109 +140,116 @@
           {
             "heading": "1. Silent Overload",
             "paragraphs": [
-              "The modern person is often struggling not because they don't know what they want, but because they are exposed to too many stimuli at the same time.",
-              "On one hand, there is work to be done. Unanswered messages, unfinished projects, pending applications, postponed health decisions, neglected relationships, unresolved financial anxieties, appointments not to be forgotten, family responsibilities to tend to, and the inner desire to build a better life.",
+              "People today often struggle not because they do not know what they want, but because they are exposed to too many demands and stimuli at once.",
+              "There is work to be done: unanswered messages, unfinished projects, pending applications, postponed health decisions, neglected relationships, unresolved financial worries, appointments that must not be forgotten, family responsibilities that need care, and the private desire to build a better life.",
               "From the outside, this picture can look like simple disorganization. People wonder, 'Why aren't they taking action?' Yet from the inside, the situation is rarely laziness; it is a mental load that has become too heavy to carry.",
-              "There are invisible tabs constantly left open in the modern person's mind. A message has not been replied to. A decision has not been made. A conversation has been postponed. A goal is important but remains untouched. A responsibility is known but cannot be started.",
-              "These open tabs may seem small individually. But when combined, they turn into a background noise that constantly runs in the person's inner world.",
-              "This is exactly the starting point of Saule: People do not need more pressure, they need more clarity."
+              "As Sweller's 1988 study on cognitive load demonstrates, the amount of information, decisions, and tasks the human mind can process simultaneously is not limitless.",
+              "The modern mind carries invisible tabs that never quite close. A message remains unanswered. A decision has not been made. A conversation has been postponed. A goal matters but remains untouched. A responsibility is understood but has not been started.",
+              "Each open tab may seem small on its own. Together, however, they become a continuous background hum in a person's inner life.",
+              "This is Saule's starting point: people do not need more pressure; they need more clarity."
             ]
           },
           {
             "heading": "2. Modern Paradox",
             "paragraphs": [
-              "Throughout history, humans have never had this many tools.",
-              "We have calendars. We have reminders. We have note apps. We have task lists. We have email inboxes. We have messaging apps. We have search engines. We have AI assistants. We have cloud storage, digital notebooks, project boards, in-app notifications, and access to infinite information.",
+              "Never before have people had access to so many tools.",
+              "We have calendars, reminders, note apps, task lists, email inboxes, messaging platforms, search engines, and AI assistants. We have cloud storage, digital notebooks, project boards, in-app notifications, and access to seemingly limitless information.",
               "Despite this, many people feel more fragmented rather than clearer.",
-              "Because every new tool doesn't just bring a solution; it also creates a new area of maintenance. The calendar must be updated. The task list must be cleaned. Notes must be organized. Messages must be returned. Emails must be sorted. Reminders must be snoozed. Apps must be checked.",
-              "The paradox of modern life is this: Tools produced to make life easier can, over time, turn into additional systems that need to be managed as much as life itself.",
+              "Every new tool brings not only a solution, but also a new maintenance burden. The calendar must be updated. The task list must be cleared. Notes must be organized. Messages must be answered. Emails must be sorted. Reminders must be snoozed. Apps must be checked.",
+              "The paradox of modern life is that tools created to make life easier can gradually become additional systems that require as much management as life itself.",
+              "Herbert Simon’s early warning in 1971 regarding the attention economy remains highly relevant here: as information multiplies, the human attention required to process it becomes a scarcer resource.",
               "A person no longer just lives their life. They must also manage the systems they set up to manage their life.",
-              "Therefore, 'more tools' does not always mean 'more clarity'. Sometimes more tools just means more places for the mind to maintain."
+              "For that reason, “more tools” does not always mean “more clarity.” Sometimes it simply means more places the mind must keep track of."
             ]
           },
           {
             "heading": "3. The Invisible Load",
             "paragraphs": [
               "One of the most exhausting aspects of feeling overwhelmed is that it is often invisible.",
-              "A person with a tired mind does not have a heavy bag on their shoulders. They don't carry a physical weight. From the outside, they might just look like they are sitting, looking at their phone, drinking coffee, or doing nothing.",
-              "But mental load is not visible like physical load.",
+              "A person with a tired mind has no heavy bag on their shoulders and no visible weight in their hands. From the outside, they may appear to be sitting, looking at their phone, drinking coffee, or doing nothing at all.",
+              "Mental load does not reveal itself the way physical weight does.",
               "Remembering what needs to be remembered is a burden. Knowing who to reply to is a burden. Knowing which decision is delayed is a burden. Carrying promises made is a burden. Feeling like you are living below your potential is a burden. Knowing you are not getting closer to a goal is a burden. Feeling a relationship needs attention is a burden.",
-              "These burdens are rarely written in a single place. Some are in the calendar. Some are on WhatsApp. Some are in email. Some are in notes. Some are in the mind. Some live as a tension trapped in the body.",
-              "Because of this, the modern person often cannot even clearly see what is exhausting them. They are just tired. Just scattered. Just unable to start. They just feel things piling up on top of each other.",
-              "The important thing here is this: This state is not a weakness of character. It is the result of accumulated cognitive and emotional load.",
-              "Saule's starting point in trying to understand the human is not to judge, but to make this invisible load visible."
+              "These burdens are rarely recorded in one place. Some are in the calendar, some on WhatsApp, some in email, some in notes, and some only in the mind. Others are felt as tension held in the body.",
+              "As a result, people often cannot clearly see what is exhausting them. They simply feel tired, scattered, unable to begin, or as though everything is piling up at once.",
+              "This matters: such a state is not a weakness of character. It is the result of accumulated cognitive and emotional load.",
+              "The contextual perspective Gabor Maté emphasizes in his writing on attention, stress, and human development is relevant here: behavior should not be interpreted through willpower or discipline alone, but in light of the stress a person carries, their environment, and their life circumstances.",
+              "Saule's starting point for understanding people is not judgment, but making this invisible load visible."
             ]
           },
           {
             "heading": "4. Information is Not Clarity",
             "paragraphs": [
-              "One of the biggest fallacies of the modern world is the idea that access to more information will automatically create more clarity.",
-              "Finding the answer to a question now often takes seconds. An article can be read, a video watched, an AI asked, a summary extracted, a list obtained. Yet, even having the right answer, a person might still not take action.",
+              "One of the modern world's most persistent misconceptions is that access to more information automatically produces more clarity.",
+              "Simon's account of attention scarcity matters here once again: the challenge is not merely gaining access to information, but protecting the mental space needed to attend to it.",
+              "Finding an answer can now take only seconds. We can read an article, watch a video, ask an AI system, request a summary, or generate a list. Yet a person may have the right answer and still be unable to act.",
               "Because clarity is not just information.",
               "Clarity requires context, priority, timing, emotional readiness, and continuity.",
               "A person might know what they need to do but not the order to do it in. They might not understand which task is truly important. They might not be emotionally ready to start that task. The day's energy might not be suitable for it. They might feel resistance because they failed at it before. Or other open loops in their life might prevent them from making space for it.",
-              "Sometimes the problem isn't 'I don't know what to do'.",
-              "The problem is: I can't keep my life clear enough to do the thing I know I should do.",
-              "Therefore, Saule cannot be designed solely as a system that gives answers. Because a person does not always need a new answer. Sometimes what they need is to be able to see the answer they already know within the reality of their own life.",
-              "ChatGPT can answer a question. A search engine can find information. A task app can keep a list. But Saule's primary goal must be beyond these: to understand the user's life context over time and to clarify together what is truly important."
+              "Sometimes the problem is not “I don't know what to do.”",
+              "The problem is this: “I cannot keep my life clear enough to do what I already know I should do.”",
+              "Saule therefore cannot be designed merely as an answer-giving system. People do not always need another answer. Sometimes they need to see what they already know within the reality of their own lives.",
+              "ChatGPT can answer a question. A search engine can find information. A task app can hold a list. Saule must go further: understand the user's life context over time and help clarify what genuinely matters."
             ]
           },
           {
             "heading": "5. The Emotional Weight of Open Loops",
             "paragraphs": [
-              "Open loops are not just incomplete tasks. They are often emotional objects.",
+              "Open loops are not merely unfinished tasks. They often carry emotional weight.",
               "An unanswered message is not just a message. It can carry embarrassment, avoidance, uncertainty, or relationship anxiety.",
               "An unsent job application is not just a task. It can contain future anxiety, fear of rejection, or feelings of inadequacy.",
               "A delayed health habit is not just a habit. It can hold guilt, fatigue, or the feeling of failing to keep promises to oneself.",
               "Postponing a difficult conversation is not just a matter of timing. It can contain fear of conflict, the possibility of loss, or unexpressed needs.",
-              "This is why open loops continue to live in the background of the mind. They don't disappear completely even when a person is doing something else. They do not close like a file. On the contrary, they silently consume attention.",
+              "This is why open loops remain active in the background of the mind. They do not disappear when a person turns to something else, nor do they close like a file. Instead, they continue to consume attention quietly.",
+              "Sophie Leroy's 2009 work on “attention residue” showed that moving from one task to another does not always create a clean mental transition; part of our attention can remain with unfinished work and carry into the next task.",
               "A significant part of modern overwhelm comes not from the number of incomplete tasks, but from the emotional meanings these tasks carry.",
               "Therefore, a good personal intelligence system shouldn't just ask 'what needs to be done?'. It must also try to understand:",
               "Why was this task delayed? Why does this conversation feel difficult? Why does this goal keep falling behind even though it's important? When does this person need a push, and when do they need support?",
-              "Saule's difference must start here. It should try to understand human behavior not just as a task completion rate, but within the context of life."
+              "What distinguishes Saule should begin here: human behavior must be understood not as a task-completion rate, but within the context of a life."
             ]
           },
           {
             "heading": "6. Why More Tools Sometimes Make Things Worse",
             "paragraphs": [
-              "Most productivity tools are designed with good intentions. They promise to help you be more organized, live more planned, track tasks, and use time better.",
-              "But most of these tools expect the user to be organized first.",
+              "Most productivity tools are designed with good intentions. They promise greater order, better planning, easier task tracking, and wiser use of time.",
+              "Yet many of these tools expect the user to be organized before they can help.",
               "For a task app to work, tasks must be written correctly. For a calendar to work, time blocks must be entered realistically. For a note app to work, notes must be kept organized. For reminders to work, the user must know in advance what, when, and why they want to remember.",
               "This creates a major paradox:",
               "The person who needs the most help is often the person with the least energy to maintain the system.",
-              "After a while, task lists turn into graveyards of intentions. Calendars are full but not meaningful. Notes store information but do not produce understanding. Reminders create noise instead of helping. Boards, dashboards, and tracking screens turn into new objects the person has to track.",
+              "Over time, task lists become graveyards of intention. Calendars are full but not meaningful. Notes store information without producing understanding. Reminders create noise instead of relief. Boards, dashboards, and tracking screens become yet more objects to track.",
+              "Gloria Mark’s studies on digital attention and interruptions also show that modern tools do not merely offer support; when poorly designed, they can create new costs of fragmentation, tracking, and context switching.",
               "Ultimately, the person begins to blame themselves not just for neglecting their life, but also for neglecting the systems they set up to organize their life.",
-              "Therefore, Saule should not be another dashboard. It must not become a new burden that tells the user 'use me in an organized way too'.",
-              "Saule's core design question is this: How can a system support the user without requiring the user to maintain the system?"
+              "Saule should not become another dashboard or a new burden that tells the user, “You must manage me consistently too.”",
+              "Saule's central design question is this: how can a system care for the user without requiring the user to care for the system?"
             ]
           },
           {
             "heading": "7. The Saule Perspective",
             "paragraphs": [
-              "Saule does not begin with the assumption that humans need more pressure.",
-              "Saule's starting point is this: Humans often know what they need to do. But they cannot translate what they know into action due to mental clutter, emotional load, loss of context, and attention fragmentation.",
+              "Saule does not begin with the assumption that people need more pressure.",
+              "Its starting point is that people often know what they need to do, yet mental clutter, emotional load, lost context, and fragmented attention prevent them from translating that knowledge into action.",
               "Therefore, Saule's first duty is not to give orders. It is not to produce lists. It is not to force the user to be more productive.",
               "Its first duty is to create clarity.",
               "Saule shouldn't just ask:",
               "\"What do you want to do today?\"",
               "Over time, it must be able to understand:",
               "\"What kind of day is truly possible for this person today?\"",
-              "This question is very different from classic productivity tools. Because it acknowledges that everyone does not live at the same capacity every day. Some days have high energy. Some days have fatigue. Some days anxiety is higher. Some days the person is open to the outside world, while other days they can only take a small step.",
-              "Saule's goal is not to make the human endlessly productive.",
-              "Saule's goal is to help the human see themselves more clearly, organize their day more realistically, manage their relationships more consciously, and notice recurring patterns in their life over time.",
+              "This question differs fundamentally from those asked by conventional productivity tools because it acknowledges that human capacity changes from day to day. Some days bring energy; others bring fatigue or anxiety. On some days a person is open to the outside world; on others, only a small step is realistic.",
+              "Saule's goal is not to make people endlessly productive.",
+              "B. J. Fogg’s behavior design model and Wendy Wood’s research on habits demonstrate that human behavior cannot be explained by motivation alone; it is shaped in tandem with context, friction, triggers, and recurring environmental conditions.",
+              "Saule's goal is to help people see themselves more clearly, shape their days more realistically, tend to their relationships more consciously, and notice recurring patterns in their lives over time.",
               "Before giving an answer, Saule must try to understand. Before reminding, it must see the context. Before offering a suggestion, it must consider the person's capacity for that day.",
-              "Most importantly, Saule must serve to make the user's own life clearer to them, not to make the user dependent on it."
+              "Most importantly, Saule must help users see their own lives more clearly rather than making them dependent on the system."
             ]
           }
         ],
         "design_decisions": [
-          "Saule must reduce cognitive load, not increase it. The user should not encounter a new mess when they open the application.",
+          "Saule must reduce cognitive load, not add a new layer of disorder when the application opens.",
           "Saule must not be another system that requires maintenance. The system must be able to learn from the user's natural conversations and permitted contexts.",
           "Saule must not judge incomplete days. People do not complete their goals every day. This should be seen as data, not failure.",
-          "Saule must prioritize clarity, not productivity. Some days the best decision is to do less, recover, or just simplify the mind.",
-          "Saule must learn patterns over time. It should try to understand, with explicit permission, at what hours the user focuses better, which tasks they avoid.",
-          "Saule must not replace will. It should not make decisions on behalf of the user; it should open space for thought so the user can make better decisions.",
-          "Saule must sometimes know when to stay silent. Not every context requires intervention. Protecting attention sometimes means not sending a notification."
+          "Saule must prioritize clarity, not productivity. On some days, the best decision is to do less, recover, or simply clear mental space.",
+          "Saule must learn patterns over time. With explicit permission, it may try to understand when the user focuses best and which tasks they tend to avoid.",
+          "Saule must not replace human agency. It should not decide on the user's behalf, but open space for thought so the user can decide more clearly.",
+          "Saule must know when to remain silent. Not every context requires intervention; protecting attention sometimes means sending no notification at all."
         ],
         "open_questions": [
           {
@@ -366,15 +373,15 @@
         ],
         "future_evolution": "This section will be expanded with research in the future. For now, the research area is kept open.",
         "references": [
-          "Cognitive load theory",
-          "Executive function research",
-          "Attention economy literature",
-          "Digital distraction studies",
-          "Behavioral design",
-          "Habit formation research",
-          "Critiques on productivity systems",
-          "Gabor Maté's writings on attention, stress, and human development",
-          "Research on modern work life and the cost of context switching"
+          "Sweller, J. (1988). Cognitive Load During Problem Solving: Effects on Learning. Cognitive Science, 12(2), 257–285.",
+          "Simon, H. A. (1971). Designing organizations for an information-rich world. In M. Greenberger (Ed.), Computers, Communications, and the Public Interest (pp. 38–52). Johns Hopkins Press.",
+          "Leroy, S. (2009). Why Is It So Hard to Do My Work? The Challenge of Attention Residue when Switching Between Work Tasks. Organizational Behavior and Human Decision Processes, 109(2), 168–181.",
+          "Mark, G. (2023). Attention Span: A Groundbreaking Way to Restore Balance, Happiness and Productivity. Hanover Square Press.",
+          "Fogg, B. J. (2009). A Behavior Model for Persuasive Design. Proceedings of the 4th International Conference on Persuasive Technology.",
+          "Wood, W. (2019). Good Habits, Bad Habits: The Science of Making Positive Changes That Stick. Farrar, Straus and Giroux.",
+          "Maté, G. (2019). Scattered Minds: The Origins and Healing of Attention Deficit Disorder. Vermilion.",
+          "Maté, G. (2003). When the Body Says No: The Cost of Hidden Stress. Wiley.",
+          "Maté, G., & Maté, D. (2022). The Myth of Normal: Trauma, Illness, and Healing in a Toxic Culture. Avery."
         ]
       }
     },

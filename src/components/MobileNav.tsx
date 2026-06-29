@@ -39,6 +39,7 @@ export default function MobileNav({
                      pathname.includes('/chapter/') ||
                      pathname.includes('/appendix/') ||
                      pathname.includes('/volume/');
+  const menuLabel = locale === 'zh-CN' ? '菜单' : locale === 'ja' ? 'メニュー' : locale === 'ko' ? '메뉴' : 'Menu';
 
   useEffect(() => {
     if (!isOpen) return;
@@ -91,7 +92,7 @@ export default function MobileNav({
           />
         </svg>
         <span className="font-sans font-medium uppercase text-xs">
-          Menu
+          {menuLabel}
         </span>
       </button>
 

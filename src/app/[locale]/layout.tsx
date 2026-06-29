@@ -10,6 +10,7 @@ import type { Metadata } from 'next';
 import BookLayoutWrapper from '@/components/BookLayoutWrapper';
 import { notFound } from 'next/navigation';
 import { Inter, Lora } from 'next/font/google';
+import { getVolumesForLocale } from '@/lib/translation-availability';
 import '../globals.css';
 
 const inter = Inter({
@@ -66,9 +67,10 @@ export default async function LocaleLayout({
   const { locale } = await params;
   if (!hasLocale(locale)) notFound();
   const dict = await getDictionary(locale);
+  const localizedVolumes = getVolumesForLocale(locale, volumes);
 
   // Prepare navigation tree for mobile selector mapping
-  const navItems = volumes.flatMap((vol) => {
+  const navItems = localizedVolumes.flatMap((vol) => {
     const volTitle = getTranslationValue(dict, vol.titleKey) || '';
     return [
       { isHeader: true, label: volTitle, path: '' },
@@ -145,7 +147,7 @@ export default async function LocaleLayout({
         </div>
       </header>
 
-      <BookLayoutWrapper volumes={volumes} dict={dict} locale={locale}>
+      <BookLayoutWrapper volumes={localizedVolumes} dict={dict} locale={locale}>
         {children}
         <div className="mt-24 w-full">
           <footer className="pt-8 border-t border-sand-300/40">

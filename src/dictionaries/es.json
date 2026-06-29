@@ -60,10 +60,10 @@
     "metric_sources": "Nodos de investigación",
     "metric_questions": "Preguntas Abiertas",
     "metric_decisions": "Decisiones de Diseño",
-    "preface_title": "El Prefacio",
-    "preface_body_1": "“La aplicación Saule se escribirá y desarrollará junto con El Libro Vivo de Saule, y de acuerdo con él.”",
-    "preface_body_2": "Cada característica, cada comportamiento de IA, cada sistema de memoria y cada decisión de ingeniería debe estar fundamentado en este libro antes de formar parte de la aplicación. El libro es la fuente de verdad vinculante de Saule. La aplicación es la prueba viva del libro.",
-    "preface_body_3": "Esto no es documentación de producto. No contiene lenguaje de marketing. Es un registro vivo del proceso de pensamiento, la investigación cognitiva y las decisiones de diseño técnico detrás de una inteligencia adaptativa centrada en las personas.",
+    "preface_title": "Prefacio",
+    "preface_body_1": "“La aplicación Saule se desarrollará junto con el Libro Vivo de Saule y de acuerdo con sus principios.”",
+    "preface_body_2": "Este libro no se limita a describir Saule. Es su fundamento intelectual, ético y de ingeniería: la fuente fundacional que define por qué existe Saule, qué problema humano busca abordar, dentro de qué límites se desarrollará y de qué principios no debe apartarse.",
+    "preface_body_3": "Saule se desarrolla como respuesta a problemas profundos de la vida moderna: el desorden mental, la fatiga de decisión, las intenciones olvidadas, los planes inacabados y la pérdida de conexión que una persona puede sentir con su propia vida. Por eso, el desarrollo técnico de Saule no puede reducirse a añadir funciones. Cada función debe justificarse por la manera en que toca la vida humana, la carga que reduce, la conciencia que fomenta y la responsabilidad con la que se utilizará.",
     "volumes_and_chapters": "Volúmenes y capítulos"
   },
   "workspace": {
@@ -104,11 +104,11 @@
   },
   "volumes": {
     "v1": {
-      "title": "Volumen I: La Condición Humana",
-      "purpose": "Comprender el problema humano moderno antes de introducir Saule.",
-      "intro_p1": "Saule no comienza con características, pantallas, modelos de IA o herramientas de productividad, sino con un estudio de la persona moderna.",
-      "intro_p2": "La pregunta central del Volumen I: ¿Por qué las personas que saben lo que quieren todavía luchan por seguir adelante? ¿Por qué estamos abrumados, distraídos, cargados emocionalmente y divididos entre demasiados bucles abiertos?",
-      "intro_p3": "El Volumen I aún no diseña Saule. Define el problema que Saule debe ser digna de resolver."
+      "title": "Volumen I: La condición del ser humano moderno",
+      "purpose": "Comprender el problema fundamental.",
+      "intro_p1": "¿Por qué a las personas que saben lo que quieren les sigue costando avanzar? ¿Por qué nos sentimos abrumados, distraídos, emocionalmente sobrecargados y atrapados entre tantos ciclos abiertos?",
+      "intro_p2": "¿Cuál es el problema que de verdad merece ser resuelto?",
+      "intro_p3": ""
     },
     "v2": {
       "title": "Volumen II: Entendiendo la Mente Humana",
@@ -140,109 +140,116 @@
           {
             "heading": "1. Sobrecarga Silenciosa",
             "paragraphs": [
-              "El ser humano de hoy a menudo lucha no porque no sepa lo que quiere, sino porque está expuesto a demasiados estímulos al mismo tiempo.",
-              "Por un lado, hay trabajo por hacer. Mensajes sin responder, proyectos inacabados, solicitudes pendientes, decisiones de salud pospuestas, relaciones descuidadas, ansiedades financieras no resueltas, citas que no deben olvidarse, responsabilidades familiares que atender y el deseo interno de construir una vida mejor.",
-              "Desde afuera, este panorama puede parecer una simple desorganización. La gente se pregunta, '¿Por qué no toman acción?' Sin embargo, desde adentro, la situación rara vez es pereza; es una carga mental que se ha vuelto demasiado pesada de llevar.",
-              "Hay pestañas invisibles que se dejan constantemente abiertas en la mente de la persona moderna. Un mensaje no ha sido respondido. No se ha tomado una decisión. Se ha pospuesto una conversación. Una meta es importante pero permanece intacta. Se conoce una responsabilidad pero no se puede comenzar.",
-              "Estas pestañas abiertas pueden parecer pequeñas individualmente. Pero cuando se combinan, se convierten en un ruido de fondo que se ejecuta constantemente en el mundo interior de la persona.",
-              "Este es exactamente el punto de partida de Saule: la gente no necesita más presión, necesita más claridad."
+              "Hoy muchas personas tienen dificultades no porque ignoren lo que quieren, sino porque están expuestas a demasiadas demandas y estímulos al mismo tiempo.",
+              "Hay tareas pendientes: mensajes sin responder, proyectos inacabados, solicitudes en espera, decisiones de salud aplazadas, relaciones descuidadas, preocupaciones económicas sin resolver, citas que no deben olvidarse, responsabilidades familiares que requieren atención y el deseo íntimo de construir una vida mejor.",
+              "Desde fuera, este panorama puede parecer simple desorganización. Alguien podría preguntarse: “¿Por qué no actúa?”. Sin embargo, visto desde dentro, rara vez se trata de pereza; suele ser una carga mental que se ha vuelto demasiado pesada.",
+              "Como demuestra el estudio sobre la carga cognitiva de Sweller de 1988, la cantidad de información, decisiones y tareas que la mente humana puede procesar simultáneamente no es ilimitada.",
+              "La mente moderna mantiene abiertas pestañas invisibles. Un mensaje sigue sin respuesta. Una decisión no se ha tomado. Una conversación se ha aplazado. Una meta importa, pero nadie la ha tocado. Se conoce una responsabilidad, pero todavía no se ha empezado.",
+              "Cada pestaña abierta puede parecer pequeña por separado. Juntas, sin embargo, se convierten en un ruido de fondo constante en la vida interior de la persona.",
+              "Ese es el punto de partida de Saule: las personas no necesitan más presión, sino más claridad."
             ]
           },
           {
             "heading": "2. La Paradoja Moderna",
             "paragraphs": [
-              "A lo largo de la historia, los humanos nunca han tenido tantas herramientas.",
-              "Tenemos calendarios. Tenemos recordatorios. Tenemos aplicaciones de notas. Tenemos listas de tareas. Tenemos bandejas de entrada de correo electrónico. Tenemos aplicaciones de mensajería. Tenemos motores de búsqueda. Tenemos asistentes de IA. Tenemos almacenamiento en la nube, cuadernos digitales, tableros de proyectos, notificaciones en la aplicación y acceso a información infinita.",
-              "A pesar de esto, muchas personas se sienten más fragmentadas en lugar de más claras.",
-              "Porque cada nueva herramienta no solo trae una solución; también crea una nueva área de mantenimiento. El calendario debe actualizarse. La lista de tareas debe limpiarse. Las notas deben organizarse. Los mensajes deben responderse. Los correos electrónicos deben ordenarse. Los recordatorios deben posponerse. Las aplicaciones deben revisarse.",
-              "La paradoja de la vida moderna es esta: las herramientas producidas para hacer la vida más fácil pueden, con el tiempo, convertirse en sistemas adicionales que necesitan ser manejados tanto como la vida misma.",
-              "Una persona ya no solo vive su vida. También debe administrar los sistemas que configuró para administrar su vida.",
-              "Por lo tanto, 'más herramientas' no siempre significa 'más claridad'. A veces más herramientas solo significa más lugares que la mente debe atender y mantener."
+              "Nunca antes habíamos tenido acceso a tantas herramientas.",
+              "Tenemos calendarios, recordatorios, aplicaciones de notas, listas de tareas, bandejas de correo, servicios de mensajería, motores de búsqueda y asistentes de inteligencia artificial. Tenemos almacenamiento en la nube, cuadernos digitales, tableros de proyectos, notificaciones dentro de las aplicaciones y acceso a una cantidad aparentemente ilimitada de información.",
+              "Aun así, muchas personas se sienten más fragmentadas, no más lúcidas.",
+              "Cada herramienta nueva no solo aporta una solución; también crea una nueva carga de mantenimiento. Hay que actualizar el calendario, limpiar la lista de tareas, ordenar las notas, responder mensajes, clasificar correos, posponer recordatorios y revisar aplicaciones.",
+              "La paradoja de la vida moderna es que las herramientas creadas para facilitarla pueden convertirse, con el tiempo, en sistemas adicionales que exigen tanta gestión como la propia vida.",
+              "La temprana advertencia de Herbert Simon en 1971 sobre la economía de la atención sigue siendo muy relevante en este punto: a medida que se multiplica la información, la atención humana necesaria para procesarla se convierte en un recurso más escaso.",
+              "La persona ya no se limita a vivir: también debe gestionar los sistemas que creó para gestionar su vida.",
+              "Por eso, “más herramientas” no siempre significa “más claridad”. A veces solo significa más lugares que la mente debe recordar y mantener."
             ]
           },
           {
             "heading": "3. La Carga Invisible",
             "paragraphs": [
-              "Uno de los aspectos más agotadores de sentirse abrumado es que a menudo es invisible.",
-              "Una persona con la mente cansada no tiene una bolsa pesada sobre sus hombros. No llevan un peso físico. Desde afuera, podrían parecer que solo están sentados, mirando su teléfono, bebiendo café o no haciendo nada.",
-              "Pero la carga mental no es visible como la carga física.",
+              "Uno de los aspectos más agotadores del agobio es que suele ser invisible.",
+              "Una persona con la mente cansada no lleva una bolsa pesada sobre los hombros ni sostiene un peso visible. Desde fuera puede parecer que está sentada, mirando el teléfono, tomando café o sin hacer nada.",
+              "La carga mental no se ve como una carga física.",
               "Recordar lo que necesita ser recordado es una carga. Saber a quién responder es una carga. Saber qué decisión se retrasa es una carga. Llevar promesas hechas es una carga. Sentir que vives por debajo de tu potencial es una carga. Saber que no te acercas a una meta es una carga. Sentir que una relación necesita atención es una carga.",
-              "Estas cargas rara vez están escritas en un solo lugar. Algunas están en el calendario. Algunas en WhatsApp. Algunas en el correo electrónico. Algunas en las notas. Algunas en la mente. Algunas viven como una tensión atrapada en el cuerpo.",
-              "Debido a esto, la persona moderna a menudo ni siquiera puede ver claramente qué la está agotando. Simplemente están cansados. Simplemente dispersos. Simplemente incapaces de comenzar. Simplemente sienten que las cosas se acumulan una encima de otra.",
-              "Lo importante aquí es esto: este estado no es una debilidad de carácter. Es el resultado de la carga cognitiva y emocional acumulada.",
-              "El punto de partida de Saule para tratar de entender al ser humano no es juzgar, sino hacer visible esta carga invisible."
+              "Estas cargas rara vez quedan registradas en un solo lugar. Algunas están en el calendario, otras en WhatsApp, el correo, las notas o la mente. Otras se sienten como una tensión retenida en el cuerpo.",
+              "Por eso, una persona a menudo ni siquiera alcanza a ver con claridad qué la está agotando. Solo se siente cansada, dispersa, incapaz de empezar o con la sensación de que todo se acumula al mismo tiempo.",
+              "Esto es importante: ese estado no es una debilidad de carácter, sino el resultado de una carga cognitiva y emocional acumulada.",
+              "La mirada contextual que Gabor Maté subraya en sus escritos sobre atención, estrés y desarrollo humano resulta pertinente aquí: el comportamiento no debe interpretarse solo desde la voluntad o la disciplina, sino también desde el estrés que lleva la persona, su entorno y sus circunstancias vitales.",
+              "El punto de partida de Saule para comprender a las personas no es juzgar, sino hacer visible esa carga invisible."
             ]
           },
           {
             "heading": "4. La Información No es Claridad",
             "paragraphs": [
-              "Una de las mayores falacias del mundo moderno es la idea de que el acceso a más información creará automáticamente más claridad.",
-              "Encontrar la respuesta a una pregunta ahora a menudo toma segundos. Se puede leer un artículo, ver un video, preguntar a una IA, extraer un resumen, obtener una lista. Sin embargo, incluso teniendo la respuesta correcta, una persona podría no actuar.",
+              "Uno de los equívocos más persistentes del mundo moderno es creer que acceder a más información produce automáticamente más claridad.",
+              "La idea de Simon sobre la escasez de atención vuelve a ser importante: el reto no consiste únicamente en acceder a la información, sino en proteger el espacio mental necesario para atenderla.",
+              "Hoy es posible encontrar una respuesta en segundos. Podemos leer un artículo, ver un vídeo, consultar a una inteligencia artificial, pedir un resumen o generar una lista. Aun así, una persona puede tener la respuesta correcta y seguir sin actuar.",
               "Porque la claridad no es solo información.",
-              "La claridad requiere contexto, prioridad, sincronización, preparación emocional y continuidad.",
-              "Una persona puede saber lo que tiene que hacer pero no el orden en que debe hacerlo. Es posible que no entiendan qué tarea es realmente importante. Podrían no estar emocionalmente listos para comenzar esa tarea. La energía del día podría no ser adecuada para ello. Podrían sentir resistencia porque fracasaron en ello antes. U otros ciclos abiertos en su vida podrían evitar que le hagan espacio.",
+              "La claridad requiere contexto, prioridad, un momento adecuado, preparación emocional y continuidad.",
+              "Una persona puede saber qué debe hacer, pero no en qué orden. Puede no distinguir qué tarea importa de verdad, no sentirse emocionalmente preparada para empezarla o no tener la energía necesaria ese día. También puede sentir resistencia por haber fracasado antes, o porque otros ciclos abiertos no dejan espacio para esa tarea.",
               "A veces el problema no es 'no sé qué hacer'.",
               "El problema es: no puedo mantener mi vida lo suficientemente clara como para hacer lo que sé que debería hacer.",
-              "Por lo tanto, Saule no puede diseñarse únicamente como un sistema que da respuestas. Porque una persona no siempre necesita una nueva respuesta. A veces lo que necesitan es poder ver la respuesta que ya conocen dentro de la realidad de su propia vida.",
-              "ChatGPT puede responder una pregunta. Un motor de búsqueda puede encontrar información. Una aplicación de tareas puede mantener una lista. Pero el objetivo principal de Saule debe estar más allá de esto: comprender el contexto de vida del usuario a lo largo del tiempo y aclarar juntos qué es realmente importante."
+              "Por eso, Saule no puede diseñarse únicamente como un sistema que ofrece respuestas. Una persona no siempre necesita una respuesta nueva; a veces necesita volver a ver lo que ya sabe dentro de la realidad de su propia vida.",
+              "ChatGPT puede responder una pregunta. Un motor de búsqueda puede encontrar información. Una aplicación de tareas puede guardar una lista. Saule debe ir más allá: comprender con el tiempo el contexto vital de la persona y ayudarla a aclarar qué importa de verdad."
             ]
           },
           {
             "heading": "5. El Peso Emocional de los Ciclos Abiertos",
             "paragraphs": [
-              "Los ciclos abiertos no son solo tareas incompletas. A menudo son objetos emocionales.",
+              "Los ciclos abiertos no son solo tareas incompletas. A menudo llevan consigo una carga emocional.",
               "Un mensaje sin respuesta no es solo un mensaje. Puede llevar vergüenza, evitación, incertidumbre o ansiedad por la relación.",
               "Una solicitud de empleo no enviada no es solo una tarea. Puede contener ansiedad por el futuro, miedo al rechazo o sentimientos de insuficiencia.",
               "Un hábito de salud retrasado no es solo un hábito. Puede contener culpa, fatiga o el sentimiento de no cumplir las promesas a uno mismo.",
               "Posponer una conversación difícil no es solo una cuestión de tiempo. Puede contener miedo al conflicto, la posibilidad de pérdida o necesidades no expresadas.",
-              "Es por esto que los ciclos abiertos continúan viviendo en el fondo de la mente. No desaparecen completamente incluso cuando una persona está haciendo otra cosa. No se cierran como un archivo. Por el contrario, consumen atención silenciosamente.",
+              "Por eso los ciclos abiertos permanecen activos en el fondo de la mente. No desaparecen cuando la persona se ocupa de otra cosa ni se cierran como un archivo; siguen consumiendo atención en silencio.",
+              "El trabajo de Sophie Leroy sobre el “residuo de atención”, publicado en 2009, mostró que pasar de una tarea a otra no siempre produce una transición mental limpia: parte de la atención puede permanecer en la tarea anterior y acompañarnos a la siguiente.",
               "Una parte significativa del agobio moderno no proviene de la cantidad de tareas incompletas, sino de los significados emocionales que conllevan estas tareas.",
               "Por lo tanto, un buen sistema de inteligencia personal no solo debería preguntar '¿qué hay que hacer?'. También debe tratar de comprender:",
               "¿Por qué se retrasó esta tarea? ¿Por qué esta conversación se siente difícil? ¿Por qué esta meta se sigue quedando atrás a pesar de ser importante? ¿Cuándo necesita esta persona un empujón y cuándo necesita apoyo?",
-              "La diferencia de Saule debe comenzar aquí. Debe intentar comprender el comportamiento humano no solo como una tasa de finalización de tareas, sino dentro del contexto de la vida."
+              "La diferencia de Saule debe comenzar aquí: comprender el comportamiento humano no como una tasa de tareas completadas, sino dentro del contexto de una vida."
             ]
           },
           {
             "heading": "6. Por Qué Más Herramientas a Veces Lo Empeoran",
             "paragraphs": [
-              "La mayoría de las herramientas de productividad se diseñan con buenas intenciones. Prometen ayudarte a ser más organizado, vivir más planificado, hacer un seguimiento de las tareas y usar mejor el tiempo.",
-              "Pero la mayoría de estas herramientas esperan que el usuario esté organizado primero.",
+              "La mayoría de las herramientas de productividad se diseñan con buenas intenciones. Prometen más orden, una mejor planificación, un seguimiento sencillo de las tareas y un uso más consciente del tiempo.",
+              "Sin embargo, muchas esperan que la persona ya esté organizada antes de poder ayudarla.",
               "Para que una aplicación de tareas funcione, las tareas deben escribirse correctamente. Para que un calendario funcione, los bloques de tiempo deben ingresarse de manera realista. Para que una aplicación de notas funcione, las notas deben mantenerse organizadas. Para que los recordatorios funcionen, el usuario debe saber de antemano qué, cuándo y por qué quiere recordar.",
               "Esto crea una gran paradoja:",
               "La persona que más ayuda necesita es a menudo la persona con menos energía para mantener el sistema.",
-              "Después de un tiempo, las listas de tareas se convierten en cementerios de intenciones. Los calendarios están llenos pero no son significativos. Las notas almacenan información pero no producen comprensión. Los recordatorios crean ruido en lugar de ayudar. Los tableros, paneles y pantallas de seguimiento se convierten en nuevos objetos que la persona tiene que rastrear.",
+              "Con el tiempo, las listas de tareas se convierten en cementerios de intenciones. Los calendarios están llenos, pero han perdido significado. Las notas almacenan información sin producir comprensión. Los recordatorios generan ruido en lugar de alivio. Los tableros, paneles y pantallas de seguimiento se convierten en nuevos objetos que también hay que vigilar.",
+              "Los estudios de Gloria Mark sobre la atención digital y las interrupciones también muestran que las herramientas modernas no solo ofrecen apoyo; cuando están mal diseñadas, pueden crear nuevos costos de fragmentación, seguimiento y cambio de contexto.",
               "En última instancia, la persona comienza a culparse a sí misma no solo por descuidar su vida, sino también por descuidar los sistemas que configuró para organizar su vida.",
-              "Por lo tanto, Saule no debería ser otro panel de control. No debe convertirse en una nueva carga que le diga al usuario 'úsame de manera organizada también'.",
-              "La pregunta de diseño central de Saule es esta: ¿Cómo puede un sistema proporcionar mantenimiento para el usuario sin requerir que el usuario lo mantenga?"
+              "Saule no debería convertirse en otro panel de control ni en una nueva carga que diga: “También tienes que gestionarme con constancia”.",
+              "La pregunta central de diseño de Saule es esta: ¿cómo puede un sistema cuidar de la persona sin exigirle que cuide del sistema?"
             ]
           },
           {
             "heading": "7. La Perspectiva de Saule",
             "paragraphs": [
-              "Saule no comienza con la suposición de que los humanos necesitan más presión.",
-              "El punto de partida de Saule es este: los humanos a menudo saben lo que tienen que hacer. Pero no pueden traducir lo que saben en acción debido al desorden mental, la carga emocional, la pérdida de contexto y la fragmentación de la atención.",
+              "Saule no parte de la idea de que las personas necesiten más presión.",
+              "Parte de otra realidad: las personas suelen saber qué deben hacer, pero el desorden mental, la carga emocional, la pérdida de contexto y la fragmentación de la atención les impiden convertir ese conocimiento en acción.",
               "Por lo tanto, el primer deber de Saule no es dar órdenes. No es producir listas. No es obligar al usuario a ser más productivo.",
               "Su primer deber es crear claridad.",
               "Saule no debería simplemente preguntar:",
               "\"¿Qué quieres hacer hoy?\"",
               "Con el tiempo, debe ser capaz de entender:",
               "\"¿Qué tipo de día es realmente posible para esta persona hoy?\"",
-              "Esta pregunta es muy diferente de las herramientas de productividad clásicas. Porque reconoce que no todos viven a la misma capacidad todos los días. Algunos días tienen mucha energía. Algunos días tienen fatiga. Algunos días la ansiedad es mayor. Algunos días la persona está abierta al mundo exterior, mientras que otros días solo puede dar un pequeño paso.",
-              "El objetivo de Saule no es hacer que el humano sea infinitamente productivo.",
-              "El objetivo de Saule es ayudar al ser humano a verse a sí mismo con mayor claridad, organizar su día de manera más realista, gestionar sus relaciones de manera más consciente y notar patrones recurrentes en su vida a lo largo del tiempo.",
-              "Antes de dar una respuesta, Saule debe intentar comprender. Antes de recordar, debe ver el contexto. Antes de ofrecer una sugerencia, debe considerar la capacidad de la persona para ese día.",
-              "Lo más importante es que Saule debe servir para hacer que la propia vida del usuario sea más clara para él, no para hacer que el usuario dependa de ella."
+              "Esta pregunta se aparta de las herramientas de productividad convencionales porque reconoce que la capacidad humana cambia de un día a otro. Algunos días hay energía; otros traen cansancio o más ansiedad. En ocasiones la persona está abierta al mundo exterior; en otras, solo resulta posible dar un paso pequeño.",
+              "El objetivo de Saule no es volver a las personas infinitamente productivas.",
+              "El modelo de diseño de comportamiento de B. J. Fogg y la investigación de Wendy Wood sobre los hábitos demuestran que el comportamiento humano no puede explicarse únicamente por la motivación; se moldea en conjunto con el contexto, la fricción, los desencadenantes y las condiciones ambientales recurrentes.",
+              "El objetivo de Saule es ayudar a las personas a verse con más claridad, organizar sus días de forma realista, cuidar sus relaciones de manera consciente y reconocer con el tiempo los patrones que se repiten en sus vidas.",
+              "Antes de responder, Saule debe intentar comprender. Antes de recordar algo, debe ver el contexto. Antes de sugerir, debe tener en cuenta la capacidad de la persona ese día.",
+              "Y, sobre todo, Saule debe ayudar a cada persona a ver su propia vida con mayor claridad, no volverla dependiente del sistema."
             ]
           }
         ],
         "design_decisions": [
-          "Saule debe reducir la carga cognitiva, no aumentarla. El usuario no debe encontrarse con un nuevo desastre cuando abre la aplicación.",
+          "Saule debe reducir la carga cognitiva, no añadir una nueva capa de desorden al abrir la aplicación.",
           "Saule no debe ser otro sistema que requiera mantenimiento. El sistema debe poder aprender de las conversaciones naturales del usuario y los contextos permitidos.",
-          "Saule no debe juzgar los días incompletos. Las personas no completan sus metas todos los días. Esto debe verse como datos, no como un fracaso.",
-          "Saule debe priorizar la claridad, no la productividad. Algunos días la mejor decisión es hacer menos, recuperarse o simplemente simplificar la mente.",
-          "Saule debe aprender patrones con el tiempo. Debe intentar comprender, con permiso explícito, a qué horas el usuario se enfoca mejor, qué tareas evita.",
-          "Saule no debe reemplazar la agencia humana. No debe tomar decisiones en nombre del usuario; debe abrir un espacio para el pensamiento para que el usuario pueda tomar mejores decisiones.",
-          "Saule a veces debe saber cuándo guardar silencio. No todos los contextos requieren intervención. Proteger la atención a veces significa no enviar una notificación."
+          "Saule no debe juzgar los días en que no se completa todo. Las metas no se alcanzan cada día; eso debe entenderse como información, no como fracaso.",
+          "Saule debe priorizar la claridad, no la productividad. Algunos días, la mejor decisión es hacer menos, recuperarse o simplemente despejar la mente.",
+          "Saule debe aprender patrones con el tiempo. Con permiso explícito, puede intentar comprender cuándo se concentra mejor la persona y qué tareas tiende a evitar.",
+          "Saule no debe sustituir la capacidad de decisión humana. No debe decidir en nombre de la persona, sino abrir un espacio para pensar con mayor claridad.",
+          "Saule debe saber cuándo guardar silencio. No todo contexto requiere una intervención; proteger la atención puede significar no enviar ninguna notificación."
         ],
         "open_questions": [
           {
@@ -350,7 +357,7 @@
           },
           {
             "id": "q8",
-            "question": "¿Cómo puede Saule utilizar la dificultad humana como datos sin reducir la humanidad a números?",
+            "question": "¿Cómo puede Saule utilizar las dificultades humanas como información sin reducir la experiencia humana a cifras?",
             "status": "open",
             "answerSummary": "",
             "answeredInChapters": [
@@ -366,15 +373,15 @@
         ],
         "future_evolution": "Esta sección se ampliará con investigaciones en el futuro. Por ahora, el área de investigación se mantiene abierta.",
         "references": [
-          "Teoría de la carga cognitiva",
-          "Investigación de la función ejecutiva",
-          "Literatura de economía de la atención",
-          "Estudios de distracción digital",
-          "Diseño de comportamiento",
-          "Investigación sobre la formación de hábitos",
-          "Críticas a los sistemas de productividad",
-          "Escritos de Gabor Maté sobre atención, estrés y desarrollo humano",
-          "Investigación sobre la vida laboral moderna y el costo del cambio de contexto"
+          "Sweller, J. (1988). Cognitive Load During Problem Solving: Effects on Learning. Cognitive Science, 12(2), 257–285.",
+          "Simon, H. A. (1971). Designing organizations for an information-rich world. In M. Greenberger (Ed.), Computers, Communications, and the Public Interest (pp. 38–52). Johns Hopkins Press.",
+          "Leroy, S. (2009). Why Is It So Hard to Do My Work? The Challenge of Attention Residue when Switching Between Work Tasks. Organizational Behavior and Human Decision Processes, 109(2), 168–181.",
+          "Mark, G. (2023). Attention Span: A Groundbreaking Way to Restore Balance, Happiness and Productivity. Hanover Square Press.",
+          "Fogg, B. J. (2009). A Behavior Model for Persuasive Design. Proceedings of the 4th International Conference on Persuasive Technology.",
+          "Wood, W. (2019). Good Habits, Bad Habits: The Science of Making Positive Changes That Stick. Farrar, Straus and Giroux.",
+          "Maté, G. (2019). Scattered Minds: The Origins and Healing of Attention Deficit Disorder. Vermilion.",
+          "Maté, G. (2003). When the Body Says No: The Cost of Hidden Stress. Wiley.",
+          "Maté, G., & Maté, D. (2022). The Myth of Normal: Trauma, Illness, and Healing in a Toxic Culture. Avery."
         ]
       }
     },

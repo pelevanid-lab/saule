@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next';
 import { bookConfig, getAllChapters, volumes } from '@/lib/book';
 import { locales } from '@/lib/dictionaries';
 import { getLocalizedAlternates, SITE_URL } from '@/lib/seo';
+import { isChapterAvailable, isVolumeAvailable } from '@/lib/translation-availability';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const homeEntries: MetadataRoute.Sitemap = locales.map((locale) => ({
@@ -19,7 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       '',
     );
 
-    return locales.map((locale) => ({
+    return locales.filter((locale) => isVolumeAvailable(locale, volume.id)).map((locale) => ({
       url: `${SITE_URL}/${locale}${path}`,
       lastModified,
       changeFrequency: 'weekly' as const,
@@ -30,7 +31,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const chapterEntries: MetadataRoute.Sitemap = getAllChapters().flatMap((chapter) => {
     const path = `/chapter/${chapter.slug}`;
-    return locales.map((locale) => ({
+    return locales.filter((locale) => isChapterAvailable(locale, chapter.slug)).map((locale) => ({
       url: `${SITE_URL}/${locale}${path}`,
       lastModified: chapter.lastUpdated,
       changeFrequency: chapter.status === 'Locked' ? ('monthly' as const) : ('weekly' as const),

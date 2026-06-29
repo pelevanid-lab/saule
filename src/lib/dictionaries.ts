@@ -1,6 +1,6 @@
 import 'server-only';
 
-export const locales = ['en', 'tr', 'es', 'ru'] as const;
+export const locales = ['en', 'tr', 'es', 'ru', 'zh-CN', 'ja', 'ko'] as const;
 export type Locale = (typeof locales)[number];
 
 const dictionaries = {
@@ -8,6 +8,9 @@ const dictionaries = {
   tr: () => import('../dictionaries/tr.json').then((module) => module.default),
   es: () => import('../dictionaries/es.json').then((module) => module.default),
   ru: () => import('../dictionaries/ru.json').then((module) => module.default),
+  'zh-CN': () => import('../dictionaries/zh-CN.json').then((module) => module.default),
+  ja: () => import('../dictionaries/ja.json').then((module) => module.default),
+  ko: () => import('../dictionaries/ko.json').then((module) => module.default),
 } as const;
 
 const volumeOneContent = {
@@ -15,6 +18,9 @@ const volumeOneContent = {
   tr: () => import('../content/volume1/tr.json').then((module) => module.default),
   es: () => import('../content/volume1/es.json').then((module) => module.default),
   ru: () => import('../content/volume1/ru.json').then((module) => module.default),
+  'zh-CN': () => import('../content/volume1/zh-CN.json').then((module) => module.default),
+  ja: () => import('../content/volume1/ja.json').then((module) => module.default),
+  ko: () => import('../content/volume1/ko.json').then((module) => module.default),
 } as const;
 
 const volumeTwoContent = {
@@ -22,6 +28,9 @@ const volumeTwoContent = {
   tr: () => import('../content/volume2/tr.json').then((module) => module.default),
   es: () => import('../content/volume2/es.json').then((module) => module.default),
   ru: () => import('../content/volume2/ru.json').then((module) => module.default),
+  'zh-CN': () => import('../content/volume2/zh-CN.json').then((module) => module.default),
+  ja: () => import('../content/volume2/ja.json').then((module) => module.default),
+  ko: () => import('../content/volume2/ko.json').then((module) => module.default),
 } as const;
 
 export type Dictionary = typeof import('../dictionaries/en.json');

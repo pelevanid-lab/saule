@@ -3,6 +3,7 @@ import { volumes } from '@/lib/book';
 import { getLocalizedAlternates } from '@/lib/seo';
 import type { Metadata } from 'next';
 import ContinuousReader from '@/components/ContinuousReader';
+import { getVolumesForLocale } from '@/lib/translation-availability';
 
 export async function generateMetadata({
   params,
@@ -40,7 +41,7 @@ export default async function Page({
       initialSlug="preface"
       initialType="chapter"
       dictionary={dict}
-      volumes={volumes}
+      volumes={getVolumesForLocale(locale, volumes)}
     />
   );
 }

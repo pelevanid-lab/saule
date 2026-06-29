@@ -62,8 +62,8 @@
     "metric_decisions": "Tasarım Kararı",
     "preface_title": "Önsöz",
     "preface_body_1": "“Saule uygulaması, Saule Yaşayan Kitabı ile birlikte ve bu kitaba bağlı kalarak geliştirilecektir.”",
-    "preface_body_2": "Her özellik, her yapay zekâ davranışı, her bellek sistemi ve her mühendislik kararı, uygulamada yer almadan önce bu kitapta temellendirilmelidir. Kitap, Saule için bağlayıcı doğruluk kaynağıdır. Uygulama ise kitabın hayata geçmiş kanıtıdır.",
-    "preface_body_3": "Bu bir ürün dokümantasyonu değildir. Pazarlama dili içermez. Bu kitap; insan öncelikli uyumlanabilir bir zekâyı yönlendiren düşünce sürecinin, bilişsel araştırmaların ve teknik tasarım kararlarının yaşayan kaydıdır.",
+    "preface_body_2": "Bu kitap, Saule’nin yalnızca anlatıldığı bir metin değildir. Saule’nin düşünsel, etik ve mühendislik zeminidir. Saule’nin neden var olduğunu, hangi insan sorununa cevap aradığını, hangi sınırlar içinde gelişeceğini ve hangi ilkelerden sapmayacağını belirleyen kurucu kaynaktır.",
+    "preface_body_3": "Saule, zihinsel dağınıklık, karar yorgunluğu, unutulan niyetler, yarım kalan planlar ve insanın kendi hayatıyla bağını kaybetmesi gibi modern çağın derin sorunlarına karşı geliştirilir. Bu nedenle Saule’nin teknik gelişimi yalnızca özellik eklemekten ibaret değildir. Her özellik, insan hayatına nasıl temas ettiği, hangi yükü azalttığı, hangi farkındalığı artırdığı ve hangi sorumlulukla kullanılacağı açısından temellendirilmelidir.",
     "volumes_and_chapters": "Ciltler ve Bölümler"
   },
   "workspace": {
@@ -105,10 +105,10 @@
   "volumes": {
     "v1": {
       "title": "Cilt I: Modern İnsanın Durumu",
-      "purpose": "Saule'yi tanıtmadan önce modern insanın yaşadığı temel sorunu anlamak.",
-      "intro_p1": "Saule özellikler, ekranlar, yapay zekâ modelleri veya üretkenlik araçlarıyla değil, modern insanın incelenmesiyle başlar.",
-      "intro_p2": "Cilt I'in temel sorusu: Ne istediğini bilen insanlar neden hala ilerlemekte zorlanıyor? Neden bunalmış, dikkati dağılmış, duygusal olarak yüklenmiş ve çok fazla açık döngü arasında kalmış durumdayız?",
-      "intro_p3": "Cilt I henüz Saule'yi tasarlamaz. Saule'nin çözmeye değer olması gereken sorunu tanımlar."
+      "purpose": "Temel sorunu anlamak.",
+      "intro_p1": "Ne istediğini bilen insanlar neden hala ilerlemekte zorlanıyor? Neden bunalmış, dikkati dağılmış, duygusal olarak yüklenmiş ve çok fazla açık döngü arasında kalmış durumdayız?",
+      "intro_p2": "Çözülmeye değer o sorun ne?",
+      "intro_p3": ""
     },
     "v2": {
       "title": "Cilt II: İnsan Zihnini Anlamak",
@@ -146,6 +146,7 @@
               "Bugünün insanı çoğu zaman ne istediğini bilmediği için değil, aynı anda çok fazla uyarıcıya maruz kaldığı için zorlanıyor.",
               "Bir yandan yapılması gereken işler var. Cevaplanmamış mesajlar, yarım kalmış projeler, bekleyen başvurular, ertelenen sağlık kararları, ihmal edilmiş ilişkiler, çözülmemiş finansal kaygılar, unutulmaması gereken randevular, bakılması gereken aile sorumlulukları ve kişinin kendi içinde taşıdığı daha iyi bir hayat kurma arzusu.",
               "Dışarıdan bakıldığında bu tablo basit bir dağınıklık gibi görünebilir. İnsan “Neden harekete geçmiyor?” diye düşünür. Oysa içeriden bakıldığında durum çoğu zaman tembellik değil, taşınması zorlaşmış bir zihinsel yüktür.",
+              "Sweller’in 1988 tarihli bilişsel yük çalışmasının da gösterdiği gibi, insan zihninin aynı anda işleyebileceği bilgi, karar ve görev miktarı sınırsız değildir.",
               "Modern insanın zihninde sürekli açık kalan görünmez sekmeler vardır. Bir mesaj yanıtlanmamıştır. Bir karar verilmemiştir. Bir konuşma ertelenmiştir. Bir hedef önemlidir ama dokunulmamıştır. Bir sorumluluk bilinmektedir ama başlanamamıştır.",
               "Bu açık sekmeler tek tek küçük görünebilir. Fakat bir araya geldiklerinde insanın iç dünyasında sürekli çalışan bir arka plan gürültüsüne dönüşürler.",
               "Saule’nin çıkış noktası tam olarak burasıdır: İnsanların daha fazla baskıya değil, daha fazla berraklığa ihtiyacı vardır."
@@ -159,6 +160,7 @@
               "Buna rağmen birçok insan kendini daha net değil, daha parçalanmış hissediyor.",
               "Çünkü her yeni araç yalnızca bir çözüm getirmiyor; aynı zamanda yeni bir bakım alanı yaratıyor. Takvim güncellenmelidir. Görev listesi temizlenmelidir. Notlar düzenlenmelidir. Mesajlara dönülmelidir. E-postalar ayıklanmalıdır. Hatırlatıcılar ertelenmelidir. Uygulamalar kontrol edilmelidir.",
               "Modern hayatın paradoksu şudur: Hayatı kolaylaştırmak için üretilen araçlar, zamanla hayatın kendisi kadar yönetilmesi gereken ek sistemlere dönüşebilir.",
+              "Herbert Simon’ın 1971’de dikkat ekonomisi üzerine yaptığı erken uyarı da bu noktada hâlâ geçerlidir: bilgi çoğaldıkça, insanın onu işleyecek dikkati daha kıt bir kaynak hâline gelir.",
               "İnsan artık sadece hayatını yaşamaz. Hayatını yönetmek için kurduğu sistemleri de yönetmek zorunda kalır.",
               "Bu yüzden “daha fazla araç” her zaman “daha fazla netlik” anlamına gelmez. Bazen daha fazla araç, zihnin tutulması gereken daha fazla yer edinmesi demektir."
             ]
@@ -173,6 +175,7 @@
               "Bu yükler genellikle tek bir yerde yazılı değildir. Bir kısmı takvimdedir. Bir kısmı WhatsApp’tadır. Bir kısmı e-postadadır. Bir kısmı notlardadır. Bir kısmı zihindedir. Bir kısmı bedende sıkışmış bir huzursuzluk olarak yaşar.",
               "Bu nedenle modern insan çoğu zaman neyin kendisini yorduğunu bile net göremez. Sadece yorgundur. Sadece dağınıktır. Sadece başlayamıyordur. Sadece bir şeylerin üst üste bindiğini hissediyordur.",
               "Burada önemli olan şudur: Bu durum karakter zayıflığı değildir. Bu, biriken bilişsel ve duygusal yükün sonucudur.",
+              "Gabor Maté’nin dikkat, stres ve insan gelişimi üzerine yazılarında da vurguladığı gibi, insan davranışını yalnızca irade ya da disiplin üzerinden değil; kişinin taşıdığı stres, çevre ve yaşam bağlamı içinde okumak gerekir.",
               "Saule’nin insanı anlamaya çalışırken çıkış noktası yargılamak değil, bu görünmeyen yükü görünür hale getirmektir."
             ]
           },
@@ -180,6 +183,7 @@
             "heading": "4. Bilgi Netlik Değildir",
             "paragraphs": [
               "Modern dünyanın en büyük yanılgılarından biri, daha fazla bilgiye erişimin otomatik olarak daha fazla netlik yaratacağı fikridir.",
+              "Simon’ın dikkat ekonomisi yaklaşımı burada yeniden önem kazanır: mesele yalnızca bilgiye erişmek değil, o bilgiye dikkat verebilecek zihinsel alanı koruyabilmektir.",
               "Bir sorunun cevabını bulmak artık çoğu zaman saniyeler sürer. Bir konuda makale okunabilir, video izlenebilir, yapay zekâya sorulabilir, özet çıkarılabilir, liste alınabilir. Fakat insan doğru cevaba sahip olduğu halde hâlâ harekete geçemeyebilir.",
               "Çünkü netlik yalnızca bilgi değildir.",
               "Netlik; bağlam, öncelik, zamanlama, duygusal hazırlık ve devamlılık gerektirir.",
@@ -199,6 +203,7 @@
               "Ertelenmiş bir sağlık alışkanlığı sadece bir alışkanlık değildir. İçinde suçluluk, yorgunluk veya kişinin kendine verdiği sözleri tutamama duygusu olabilir.",
               "Zor bir konuşmanın ertelenmesi sadece zamanlama meselesi değildir. İçinde çatışma korkusu, kaybetme ihtimali veya ifade edilememiş ihtiyaçlar olabilir.",
               "Bu yüzden açık döngüler zihnin arka planında yaşamaya devam eder. İnsan başka bir şey yaparken bile onlar tamamen kaybolmaz. Bir dosya gibi kapanmazlar. Aksine, sessizce dikkat tüketirler.",
+              "Sophie Leroy’un 2009 yılında ‘attention residue’ kavramıyla açıkladığı gibi, bir görevden diğerine geçmek her zaman temiz bir zihinsel geçiş yaratmaz; tamamlanmamış işler, sonraki işe taşan bir dikkat kalıntısı bırakabilir.",
               "Modern bunalmanın önemli bir kısmı, tamamlanmamış işlerin sayısından değil, bu işlerin taşıdığı duygusal anlamlardan gelir.",
               "Bu nedenle iyi bir kişisel zekâ sistemi yalnızca “ne yapılacak?” sorusunu sormamalıdır. Şunu da anlamaya çalışmalıdır:",
               "Bu görev neden ertelendi? Bu konuşma neden zor geliyor? Bu hedef neden önemli olduğu halde sürekli geriye düşüyor? Bu kişi ne zaman baskıya, ne zaman desteğe ihtiyaç duyuyor?",
@@ -214,6 +219,7 @@
               "Bu büyük bir paradoks yaratır:",
               "En çok yardıma ihtiyacı olan kişi, çoğu zaman sistemi en az sürdürebilecek enerjiye sahip kişidir.",
               "Bir süre sonra görev listeleri niyet mezarlığına dönüşür. Takvimler doludur ama anlamlı değildir. Notlar bilgi depolar ama anlayış üretmez. Hatırlatıcılar yardımcı olmak yerine gürültü yaratır. Panolar, dashboard’lar ve takip ekranları insanın takip etmesi gereken yeni nesnelere dönüşür.",
+              "Gloria Mark’ın dijital dikkat ve kesintiler üzerine çalışmaları da modern araçların yalnızca destek sunmadığını; yanlış tasarlandığında yeni bölünme, takip ve bağlam değiştirme maliyetleri yaratabildiğini gösterir.",
               "Sonuçta kişi yalnızca hayatını değil, hayatını düzenlemek için kurduğu sistemleri de ihmal ettiği için kendini suçlamaya başlar.",
               "Bu nedenle Saule başka bir dashboard olmamalıdır. Kullanıcıya “beni de düzenli kullan” diyen yeni bir yük haline gelmemelidir.",
               "Saule’nin temel tasarım sorusu şudur: Bir sistem, kullanıcının bakımını gerektirmeden kullanıcıya nasıl bakım sağlayabilir?"
@@ -232,6 +238,7 @@
               "“Bugün bu kişi için nasıl bir gün gerçekten mümkün?”",
               "Bu soru, klasik üretkenlik araçlarından çok farklıdır. Çünkü herkesin her gün aynı kapasitede yaşamadığını kabul eder. Bazı günler yüksek enerji vardır. Bazı günler yorgunluk vardır. Bazı günler kaygı daha yüksektir. Bazı günler kişi dış dünyaya açıkken bazı günler yalnızca küçük bir adım atabilir.",
               "Saule’nin amacı insanı sonsuz üretken hale getirmek değildir.",
+              "B. J. Fogg’un davranış tasarımı modeli ve Wendy Wood’un alışkanlık araştırmaları, insan davranışının yalnızca motivasyonla açıklanamayacağını; bağlam, sürtünme, tetikleyiciler ve tekrar eden çevresel koşullarla birlikte şekillendiğini gösterir.",
               "Saule’nin amacı insanın kendini daha net görmesine, gününü daha gerçekçi düzenlemesine, ilişkilerini daha bilinçli yönetmesine ve hayatında tekrar eden örüntüleri zamanla fark etmesine yardımcı olmaktır.",
               "Saule cevap vermeden önce anlamaya çalışmalıdır. Hatırlatmadan önce bağlamı görmelidir. Öneri sunmadan önce kişinin o günkü kapasitesini dikkate almalıdır.",
               "En önemlisi, Saule kullanıcıyı kendisine bağımlı hale getirmeye değil, kullanıcının kendi hayatını daha açık görmesine hizmet etmelidir."
@@ -369,15 +376,15 @@
         ],
         "future_evolution": "Bu bölüm ileride araştırmalarla genişletilecektir. Şimdilik kaynak alanı açık tutulmaktadır.",
         "references": [
-          "Bilişsel yük teorisi",
-          "Yürütücü işlev araştırmaları",
-          "Dikkat ekonomisi literatürü",
-          "Dijital dikkat dağınıklığı çalışmaları",
-          "Davranış tasarımı",
-          "Alışkanlık oluşumu araştırmaları",
-          "Üretkenlik sistemleri üzerine eleştiriler",
-          "Gabor Maté’nin dikkat, stres ve insan gelişimi üzerine yazıları",
-          "Modern çalışma hayatı ve bağlam değiştirme maliyeti üzerine araştırmalar"
+          "Sweller, J. (1988). Cognitive Load During Problem Solving: Effects on Learning. Cognitive Science, 12(2), 257–285.",
+          "Simon, H. A. (1971). Designing organizations for an information-rich world. In M. Greenberger (Ed.), Computers, Communications, and the Public Interest (pp. 38–52). Johns Hopkins Press.",
+          "Leroy, S. (2009). Why Is It So Hard to Do My Work? The Challenge of Attention Residue when Switching Between Work Tasks. Organizational Behavior and Human Decision Processes, 109(2), 168–181.",
+          "Mark, G. (2023). Attention Span: A Groundbreaking Way to Restore Balance, Happiness and Productivity. Hanover Square Press.",
+          "Fogg, B. J. (2009). A Behavior Model for Persuasive Design. Proceedings of the 4th International Conference on Persuasive Technology.",
+          "Wood, W. (2019). Good Habits, Bad Habits: The Science of Making Positive Changes That Stick. Farrar, Straus and Giroux.",
+          "Maté, G. (2019). Scattered Minds: The Origins and Healing of Attention Deficit Disorder. Vermilion.",
+          "Maté, G. (2003). When the Body Says No: The Cost of Hidden Stress. Wiley.",
+          "Maté, G., & Maté, D. (2022). The Myth of Normal: Trauma, Illness, and Healing in a Toxic Culture. Avery."
         ]
       }
     },

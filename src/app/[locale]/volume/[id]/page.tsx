@@ -5,12 +5,13 @@ import { getTranslationValue } from '@/lib/translation';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import ContinuousReader from '@/components/ContinuousReader';
+import { getVolumesForLocale, isVolumeAvailable } from '@/lib/translation-availability';
 
 export async function generateStaticParams() {
   const volumeIds = ['1', '2', '3', '4', '5'];
   
   return locales.flatMap((locale) => 
-    volumeIds.map((id) => ({
+    volumeIds.filter((id) => isVolumeAvailable(locale, Number(id))).map((id) => ({
       locale,
       id,
     }))
@@ -51,7 +52,7 @@ export default async function Page({
   const volId = parseInt(id, 10);
   const volume = volumes.find((v) => v.id === volId);
 
-  if (!volume) {
+  if (!volume || !isVolumeAvailable(locale, volId)) {
     notFound();
   }
 
@@ -63,7 +64,7 @@ export default async function Page({
       initialSlug={`volume-${id}`}
       initialType="volume"
       dictionary={dict}
-      volumes={volumes}
+      volumes={getVolumesForLocale(locale, volumes)}
     />
   );
 }

@@ -90,6 +90,12 @@ export default function TOCSidebarClient({ volumes, dict, locale }: TOCSidebarCl
         return { toc: 'Índice', jumpBookmark: 'Ir al Marcador' };
       case 'ru':
         return { toc: 'Содержание', jumpBookmark: 'К Закладке' };
+      case 'zh-CN':
+        return { toc: '目录', jumpBookmark: '前往书签' };
+      case 'ja':
+        return { toc: '目次', jumpBookmark: 'しおりへ' };
+      case 'ko':
+        return { toc: '목차', jumpBookmark: '책갈피로' };
       case 'en':
       default:
         return { toc: 'Table of Contents', jumpBookmark: 'Go to Bookmark' };
@@ -116,6 +122,12 @@ export default function TOCSidebarClient({ volumes, dict, locale }: TOCSidebarCl
           'design-decisions': 'Дизайнерские решения',
           'references': 'Источники',
         };
+      case 'zh-CN':
+        return { 'open-questions': '开放问题', 'design-decisions': '设计决策', 'references': '参考文献' };
+      case 'ja':
+        return { 'open-questions': '未解決の問い', 'design-decisions': '設計上の判断', 'references': '参考文献' };
+      case 'ko':
+        return { 'open-questions': '열린 질문', 'design-decisions': '설계 결정', 'references': '참고문헌' };
       case 'en':
       default:
         return {
@@ -169,19 +181,6 @@ export default function TOCSidebarClient({ volumes, dict, locale }: TOCSidebarCl
                   }`}
                 >
                   {dict.common.preface || 'Preface'}
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href={`/${locale}/book#what-is-book-for`}
-                  onClick={(e) => handleLinkClick(e, 'what-is-book-for', `/${locale}/book#what-is-book-for`)}
-                  className={`block font-serif text-[15px] py-1.5 border-l-2 pl-3 transition-all duration-200 cursor-pointer ${
-                    activeSlug === 'what-is-book-for'
-                      ? 'border-sage text-sage-dark font-bold bg-sand-200/40 rounded-r'
-                      : 'border-transparent text-charcoal-muted hover:text-charcoal hover:border-sand-300'
-                  }`}
-                >
-                  {dict.common.what_is_book_for || 'What is this Book for?'}
                 </Link>
               </li>
               <li>

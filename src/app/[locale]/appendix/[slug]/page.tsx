@@ -5,6 +5,7 @@ import { getTranslationValue } from '@/lib/translation';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import ContinuousReader from '@/components/ContinuousReader';
+import { getVolumesForLocale, isAppendixAvailable } from '@/lib/translation-availability';
 
 const getDynamicAppendixTitles = (loc: string): Record<string, string> => {
   switch (loc) {
@@ -26,6 +27,24 @@ const getDynamicAppendixTitles = (loc: string): Record<string, string> => {
         'design-decisions': 'Дизайнерские решения',
         'references': 'Источники',
       };
+    case 'zh-CN':
+      return {
+        'open-questions': '开放问题',
+        'design-decisions': '设计决策',
+        'references': '参考文献',
+      };
+    case 'ja':
+      return {
+        'open-questions': '未解決の問い',
+        'design-decisions': '設計上の判断',
+        'references': '参考文献',
+      };
+    case 'ko':
+      return {
+        'open-questions': '열린 질문',
+        'design-decisions': '설계 결정',
+        'references': '참고문헌',
+      };
     case 'en':
     default:
       return {
@@ -40,7 +59,7 @@ export async function generateStaticParams() {
   const appendices = getAllAppendices();
   
   return locales.flatMap((locale) => 
-    appendices.map((ap) => ({
+    appendices.filter((ap) => isAppendixAvailable(locale, ap.slug)).map((ap) => ({
       locale,
       slug: ap.slug,
     }))
@@ -101,7 +120,7 @@ export default async function Page({
   const { locale, slug } = await params;
   const appendix = getAppendixBySlug(slug);
 
-  if (!appendix) {
+  if (!appendix || !isAppendixAvailable(locale, slug)) {
     notFound();
   }
 
@@ -113,7 +132,7 @@ export default async function Page({
       initialSlug={slug}
       initialType="appendix"
       dictionary={dict}
-      volumes={volumes}
+      volumes={getVolumesForLocale(locale, volumes)}
     />
   );
 }
