@@ -1,0 +1,27 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="200" x2="200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#B87300" />
+      <stop offset="40%" stop-color="#EAA61E" />
+      <stop offset="80%" stop-color="#FFD15C" />
+      <stop offset="100%" stop-color="#FFF0A8" />
+    </linearGradient>
+    <radialGradient id="flare" cx="140" cy="40" r="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="1" />
+      <stop offset="30%" stop-color="#FFEAA8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#F5C542" stop-opacity="0" />
+    </radialGradient>
+    <clipPath id="circle-clip">
+      <circle cx="100" cy="100" r="95" />
+    </clipPath>
+  </defs>
+
+  <!-- Sun -->
+  <circle cx="100" cy="100" r="95" fill="url(#gold)" />
+  <circle cx="100" cy="100" r="95" fill="url(#flare)" />
+
+  <!-- S Path (Tapered, Solid Navy) -->
+  <g clip-path="url(#circle-clip)">
+    <path d="M 50 210 C 80 160, 130 130, 90 100 C 50 70, 60 30, 160 5 L 170 5 C 110 30, 100 70, 130 100 C 170 130, 130 170, 140 210 Z" fill="#0F172A" />
+  </g>
+</svg>

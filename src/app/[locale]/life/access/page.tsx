@@ -12,7 +12,7 @@ export async function generateMetadata({
   const dict = await getDictionary(locale);
   const title = dict.access_page.title || "Saule Erken Erişim";
   const description = dict.access_page.subtitle;
-  const path = `/access`;
+  const path = `/life/access`;
 
   return {
     title,
@@ -34,7 +34,7 @@ export default async function Page({
   const dict = await getDictionary(locale);
 
   return (
-    <div className="space-y-16 py-6 max-w-3xl mx-auto">
+    <div className="space-y-16 py-6 max-w-3xl mx-auto px-4">
       <header className="space-y-4 text-center md:text-left">
         <span className="text-[10px] font-sans font-bold tracking-widest text-clay uppercase">
           Saule

@@ -2,15 +2,11 @@ import { getDictionary, hasLocale, locales } from '@/lib/dictionaries';
 import { volumes } from '@/lib/book';
 import { getLocalizedAlternates, SITE_URL } from '@/lib/seo';
 import { getTranslationValue } from '@/lib/translation';
-import LanguageSwitcher from '@/components/LanguageSwitcher';
-import MobileNav from '@/components/MobileNav';
-import SauleLogo from '@/components/SauleLogo';
-import Link from 'next/link';
 import type { Metadata } from 'next';
-import BookLayoutWrapper from '@/components/BookLayoutWrapper';
 import { notFound } from 'next/navigation';
 import { Inter, Lora } from 'next/font/google';
 import { getVolumesForLocale } from '@/lib/translation-availability';
+import LocaleChrome from '@/components/LocaleChrome';
 import '../globals.css';
 
 const inter = Inter({
@@ -43,6 +39,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       template: `%s — ${dict.header.logo}`,
     },
     description: dict.meta.description,
+    icons: {
+      icon: '/saule-symbol.svg',
+      shortcut: '/saule-symbol.svg',
+      apple: '/saule-symbol.svg',
+    },
     alternates: {
       canonical: `/${locale}`,
       languages: getLocalizedAlternates(),
@@ -100,69 +101,14 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} className={`${inter.variable} ${lora.variable} h-full antialiased`}>
       <body className="min-h-full bg-sand-100 text-charcoal">
-        <div className="flex flex-col min-h-screen bg-sand-100 selection:bg-sage/15 selection:text-sage-dark">
-      {/* Header */}
-      <header className="sticky top-0 z-40 bg-sand-100/90 backdrop-blur-sm border-b border-sand-300/30">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-          <div className="flex items-center space-x-3 sm:space-x-4">
-            <MobileNav
-              locale={locale}
-              navItems={navItems}
-              tocLabel={dict.common.toc}
-              logo={dict.header.logo}
-              openLabel={dict.common.open_navigation}
-              closeLabel={dict.common.close_navigation}
-              dict={dict}
-            />
-            <Link
-              href={`/${locale}`}
-              className="flex items-center space-x-2 hover:opacity-90 transition-all"
-            >
-              <SauleLogo size={28} className="flex-shrink-0" />
-              <span className="font-serif text-xl sm:text-2xl font-bold tracking-wider text-sage-dark">
-                {dict.header.logo}
-              </span>
-            </Link>
-          </div>
-
-          {/* Desktop Navigation Links */}
-          <nav className="hidden md:flex items-center space-x-6 text-sm font-sans font-semibold text-charcoal-muted">
-            <Link href={`/${locale}`} className="hover:text-sage-dark transition-colors">
-              {dict.header.nav_home || 'Ana Sayfa'}
-            </Link>
-            <Link href={`/${locale}/book`} className="hover:text-sage-dark transition-colors">
-              {dict.header.nav_book || 'Yaşayan Kitap'}
-            </Link>
-            <Link href={`/${locale}/community`} className="hover:text-sage-dark transition-colors">
-              {dict.header.nav_community || 'Community'}
-            </Link>
-            <Link href={`/${locale}/access`} className="hover:text-sage-dark transition-colors">
-              {dict.header.nav_access || 'Erken Erişim'}
-            </Link>
-          </nav>
-
-          <div className="flex items-center space-x-2 sm:space-x-4">
-            <LanguageSwitcher currentLocale={locale} />
-          </div>
-        </div>
-      </header>
-
-      <BookLayoutWrapper volumes={localizedVolumes} dict={dict} locale={locale}>
-        {children}
-        <div className="mt-24 w-full">
-          <footer className="pt-8 border-t border-sand-300/40">
-            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 text-xs font-sans text-charcoal-muted/65">
-              <p className="font-semibold tracking-wide uppercase">
-                &copy; {new Date().getFullYear()} {dict.footer.owner}
-              </p>
-              <p className="max-w-md text-left sm:text-right leading-relaxed italic">
-                {dict.footer.warning}
-              </p>
-            </div>
-          </footer>
-        </div>
-      </BookLayoutWrapper>
-        </div>
+        <LocaleChrome
+          locale={locale}
+          dict={dict}
+          localizedVolumes={localizedVolumes}
+          navItems={navItems}
+        >
+          {children}
+        </LocaleChrome>
       </body>
     </html>
   );

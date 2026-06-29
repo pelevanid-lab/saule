@@ -1,6 +1,5 @@
 'use client';
 import Image from 'next/image';
-import logoSrc from '../../public/saule-logo.png';
 
 interface SauleLogoProps {
   size?: number;
@@ -8,17 +7,17 @@ interface SauleLogoProps {
 }
 
 /**
- * Saule Yin-Yang-Zing Logo
- * Renders the high-quality brand asset logo using next/image.
+ * Saule yin-yang-style river & sun logo symbol
+ * Renders the official brand asset logo using next/image.
  */
 export default function SauleLogo({ size = 32, className = '' }: SauleLogoProps) {
   return (
     <Image
-      src={logoSrc}
+      src="/saule-symbol.svg"
       alt="Saule Logo"
       width={size}
       height={size}
-      className={`rounded-full object-cover ${className}`}
+      className={`object-contain ${className}`}
       priority
     />
   );

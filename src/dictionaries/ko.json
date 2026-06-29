@@ -1,19 +1,363 @@
 {
-  "meta": { "title": "Saule — 삶을 위한 적응형 지능", "description": "《Saule 살아 있는 책》은 Saule의 철학, 연구, 구조, 심리학, 공학을 기록하는 애플리케이션의 신뢰 기준입니다." },
-  "common": { "toc": "목차", "back_to_top": "맨 위로", "next_chapter": "다음 장", "prev_chapter": "이전 장", "chapter": "장", "appendix": "부록", "appendices": "부록", "none": "없음", "dashboard": "개요", "minutes": "분", "open_navigation": "장 탐색 열기", "close_navigation": "장 탐색 닫기", "volume": "권", "chapters_directory": "장 목록", "previous_volume": "이전 권", "next_volume": "다음 권", "research_workspace": "연구 작업 공간", "book_start": "책의 시작", "preface": "서문", "what_is_book_for": "이 책은 무엇을 위한 것인가?", "how_to_read": "어떻게 읽을 것인가?" },
-  "header": { "logo": "Saule", "badge": "살아 있는 책", "nav_home": "홈", "nav_book": "살아 있는 책", "nav_community": "커뮤니티", "nav_access": "얼리 액세스" },
-  "footer": { "owner": "Pool IQ", "warning": "《Saule 살아 있는 책》은 현재 초기 정의 단계에 있습니다. 이 공개 문서는 연구의 진전과 함께 계속 변화합니다." },
-  "early_access": { "title": "개발 기록 구독", "description": "생각의 과정, 연구 노트, 설계 결정을 이곳에 기록합니다. 새 장이 확정되거나 상호작용형 샌드박스가 열리면 알려드립니다.", "placeholder": "이메일 주소 입력…", "button": "구독", "success_title": "구독 완료", "success_desc": "구독해 주셔서 감사합니다. 첫 상호작용형 샌드박스가 준비되면 연락드리겠습니다." },
-  "dashboard": { "title": "Saule 살아 있는 책", "subtitle": "삶을 위한 적응형 지능", "living_book_badge": "살아 있는 책", "status_label": "현재 상태", "status_desc": "핵심 연구 노드를 연결하고 각 권의 구조를 설계하는 중", "version_label": "판", "last_updated_label": "최근 업데이트", "metric_volumes": "권", "metric_chapters": "핵심 장", "metric_written": "초안 작성 장", "metric_sources": "연구 노드", "metric_questions": "열린 질문", "metric_decisions": "설계 결정", "preface_title": "서문", "preface_body_1": "“Saule 애플리케이션은 《Saule 살아 있는 책》과 함께, 그 원칙에 따라 개발됩니다.”", "preface_body_2": "이 책은 Saule을 설명하는 데 그치지 않습니다. Saule이 왜 존재하고 어떤 인간의 문제를 다루며 어떤 경계 안에서 발전해야 하는지, 또 어떤 원칙에서 벗어나면 안 되는지를 정하는 지적·윤리적·공학적 토대입니다.", "preface_body_3": "Saule은 마음의 혼란, 결정 피로, 잊힌 의도, 끝나지 않은 계획, 자기 삶과의 연결을 잃는 감각과 같은 현대 생활의 깊은 문제에 답하기 위해 개발되고 있습니다. 따라서 기술 개발을 기능 추가로만 줄일 수 없습니다. 모든 기능은 사람의 삶에 어떻게 닿는지, 어떤 짐을 덜어 주는지, 어떤 자각을 키우는지, 어떤 책임 아래 사용되는지를 근거로 삼아야 합니다.", "volumes_and_chapters": "권과 장" },
-  "workspace": { "not_written": "아직 작성되지 않은 장입니다.", "status": "상태", "reading_time": "읽는 시간", "version": "버전", "last_updated": "최근 업데이트", "purpose": "목적", "key_question": "핵심 질문", "dependencies": "선행 장", "related_chapters": "관련 장", "research_confidence": "연구 신뢰도", "notes": "연구 노트", "books": "읽을 책", "academic_papers": "학술 논문", "experiments": "실험", "insights": "통찰", "rejected_ideas": "채택하지 않은 아이디어", "open_questions": "열린 질문", "design_decisions": "설계 결정", "future_evolution": "향후 발전", "references": "참고문헌", "no_data": "아직 기록이 없습니다. 연구 작업 공간이 준비되었습니다.", "will_be_answered_in": "다음 장에서 답합니다:", "decision_area": "결정 영역", "open_questions_intro": "이 질문들은 현 단계에서 의도적으로 열어 두었습니다. Saule을 구현하기 전, 이후의 장들이 답해야 할 연구 경로를 정합니다.", "draft_mode_desc": "현재 초안 단계인 장입니다.", "status_drafting": "초안 작성 중", "status_researching": "연구 중", "status_open": "열림", "status_in_research": "조사 중", "status_answered": "답변됨", "status_deprecated": "사용 중단", "confidence_high": "높음", "confidence_medium": "중간", "confidence_experimental": "실험적" },
-  "volumes": { "v1": { "title": "제I권: 현대인의 조건", "purpose": "근본 문제를 이해한다.", "intro_p1": "원하는 것이 무엇인지 알면서도 사람은 왜 앞으로 나아가기 어려울까요? 우리는 왜 압도되고, 산만해지고, 감정의 짐을 지며, 수많은 열린 고리 사이에 갇힐까요?", "intro_p2": "정말로 해결할 가치가 있는 문제는 무엇일까요?", "intro_p3": "" }, "v2": { "title": "제II권: 인간의 마음 이해하기", "purpose": "적응형 지능을 만들기 전에 사람이 실제로 어떻게 생각하는지 이해한다." }, "v3": { "title": "제III권: Saule의 철학", "purpose": "Saule이 왜 존재하고 사람과 어떻게 관계 맺으며 어떤 윤리적 한계가 그 지능을 다스려야 하는지 밝히는 철학적 헌장." }, "v4": { "title": "제IV권: Saule의 마음", "purpose": "Saule이 개념적으로 어떻게 생각하는지 설명한다." }, "v5": { "title": "제V권: Saule 만들기", "purpose": "공학, AI 구조, 보안, 연구 방법론으로 이 책의 명세를 구현한다." } },
-  "chapters": { "why-we-are-overwhelmed": { "title": "우리는 왜 압도되는가", "purpose": "현대의 정신적 과부하를 일으키는 제도적·환경적·기술적 요인을 분석한다.", "key_question": "현대인은 왜 역사적으로 유례없는 수준의 정신적 과부하를 경험할까요?" }, "mental-clutter": { "title": "마음의 혼란", "purpose": "끝나지 않은 의미, 불분명한 상태, 흩어진 정보가 마음을 어떻게 점유하는지 이해한다.", "key_question": "마음의 혼란은 왜 계속 남으며, 시스템은 새 부담을 만들지 않고 어떻게 이를 덜 수 있을까요?" }, "the-attention-crisis": { "title": "주의력 위기", "purpose": "현대 환경이 주의를 어떻게 파편화하는지, Saule이 주의를 빼앗지 않고 어떻게 보호해야 하는지 이해한다.", "key_question": "외부 시스템이 끊임없이 주의를 요구할 때, 사람은 어떻게 자기 주의력의 주도권을 되찾을 수 있을까요?" } },
-  "homepage": { "hero_title": "Saule", "hero_subtitle": "삶을 위한 적응형 지능.", "hero_desc": "Saule은 현대인이 마음의 혼란, 열린 고리, 주의력 위기, 결정 피로를 다루도록 돕는 인간 중심의 삶 지능으로 개발되고 있습니다.", "cta_read_book": "살아 있는 책 읽기", "cta_request_access": "얼리 액세스 신청", "cta_join_community": "커뮤니티 참여", "problem_title": "현대 생활은 마음이 감당할 수 있는 것보다 더 많은 열린 고리를 만듭니다.", "problem_text": "과제, 메시지, 결정, 관계, 불확실성, 미완의 의도가 같은 정신적 공간에 쌓입니다. 대부분의 생산성 도구는 이 짐을 더 잘 정리하려 하지만, Saule은 먼저 사람이 그 짐을 어떻게 경험하는지 이해하려 합니다.", "open_book_title": "열린 책, 통제된 애플리케이션", "open_book_text": "누구나 Saule의 개념적 토대를 읽을 수 있습니다. 그러나 개인의 기억, 주의, 결정, 관계, 정신적 부담과 같은 민감한 영역을 다루기에 초기 애플리케이션은 공개 가입 대신 초대제로 운영합니다. 원칙을 먼저 공개적으로 쓰고, 애플리케이션은 통제된 방식으로 개발합니다.", "open_book_cta": "책 읽기", "community_title": "커뮤니티와 함께하는 개발", "community_text": "Saule은 닫힌 제품이 아니라 살아 있는 책과 초기 커뮤니티의 피드백과 함께 발전하는 연구 공간입니다. 커뮤니티는 제품의 언어와 윤리적 경계, 실제 인간 경험과의 적합성을 살피는 배움의 장입니다.", "community_cta": "커뮤니티 페이지로", "access_title": "애플리케이션은 초대제로 운영됩니다", "access_text": "초기 Saule 애플리케이션은 모두에게 공개되지 않습니다. 웹사이트 신청과 검토를 거친 뒤 초대 링크로 접근 권한을 제공합니다.", "access_cta": "얼리 액세스 신청", "what_saule_is_not": "Saule은 의료·임상·치료 서비스가 아닙니다. 진단하거나 치료를 권하지 않으며 인간의 도움을 대신하지 않습니다. 관찰하되 판단하지 않고, 패턴을 보여 주되 정체성을 강요하지 않으며, 돕되 사용자의 의지를 대신하지 않습니다." },
-  "community_page": { "title": "Saule 커뮤니티", "subtitle": "마음의 혼란, 주의력 위기, 인간 중심 인공지능을 함께 배우는 열린 공간.", "why_title": "왜 커뮤니티인가?", "why_text": "Saule의 주제는 추상적이지 않습니다. 마음의 혼란, 열린 고리, 결정 피로, 관계적 책임, 주의력 상실은 실제 삶에서 저마다 다르게 경험됩니다. 그러므로 Saule은 창립 가정뿐 아니라 초기 커뮤니티의 피드백과 함께 발전해야 합니다.", "role_title": "커뮤니티의 역할", "role_item1": "언어가 인간다움을 유지하도록 돕기", "role_item2": "제품의 사각지대를 드러내기", "role_item3": "윤리적 경계를 논의하기", "role_item4": "책의 각 장에 의견을 주기", "role_item5": "초기 제품 경험을 통제된 방식으로 평가하기", "principle_title": "커뮤니티 원칙", "principle_text": "인간의 경험에서 배우되 인간의 사생활을 소비하지 않는다.", "sustainability_title": "지속 가능성 안내", "sustainability_text": "Saule의 초기 개발은 앞으로 커뮤니티가 지원하는 투명한 지속 가능 모델을 활용할 수 있습니다. 이 공간은 애플리케이션 구매, 투자, 금전적 수익을 약속하지 않습니다. 지원 모델을 공개하기 전에 법률·회계 체계를 분명히 해야 합니다." },
-  "access_page": { "title": "Saule 얼리 액세스", "subtitle": "현재 애플리케이션은 초대제 모델로 개발되고 있습니다.", "why_title": "왜 초대제인가?", "why_text": "Saule은 개인의 기억, 주의, 결정, 관계, 정신적 부담과 같은 민감한 영역을 다룹니다. 따라서 초기에는 공개 가입 대신 통제된 신청·초대 모델을 사용합니다.", "process_title": "절차", "process_item1": "살아 있는 책 읽기", "process_item2": "얼리 액세스 양식 작성", "process_item3": "신청 검토", "process_item4": "승인되면 초대 링크 발송", "process_item5": "피드백 과정 참여", "expectations_title": "참여 안내", "expectations_item1": "Saule은 임상 지원이 아닙니다", "expectations_item2": "진단이나 치료를 제공하지 않습니다", "expectations_item3": "초기 단계 제품입니다", "expectations_item4": "참여자의 솔직한 피드백을 기대합니다", "expectations_item5": "사용자 데이터와 사생활 경계를 최우선으로 합니다", "form_name": "이름", "form_email": "이메일", "form_reason": "Saule을 사용해 보고 싶은 이유는 무엇인가요?", "form_struggle": "가장 어려움을 겪는 영역은 무엇인가요?", "form_takeaway": "책에서 얻은 깨달음이나 기억에 남은 문장을 적어 주세요.", "form_feedback": "피드백 제공에 열려 있나요?", "form_consent": "Saule이 임상 지원이 아님을 이해합니다", "form_submit": "얼리 액세스 신청", "form_submit_disabled": "신청 양식 곧 공개" },
-  "book_beginning": { "preface": { "title": "서문", "p1": "", "paragraphs": [
-    { "type": "text", "content": "이 책은 현대 세계에서 사람이 왜 이토록 흩어지고 지치는지, 무엇을 해야 하는지 알면서도 왜 시작하지 못하는지, 왜 계속 기억해야 하는지, 왜 결정하기 어려운지, 왜 때로 자기 삶과의 연결을 잃는지를 이해하기 위해 쓰였습니다." }, { "type": "text", "content": "Saule은 이 질문들 속에서 태어납니다." }, { "type": "text", "content": "그래서 《Saule 살아 있는 책》은 먼저 인간을 이해하려 합니다. 마음의 혼란을 단순한 정리 부족으로 보지 않고 결정 피로를 의지 부족으로만 여기지 않습니다. 잊힌 의도, 미완의 계획, 미뤄진 대화, 짊어진 감정, 흩어진 주의를 현대인이 함께 겪는 상태로 다룹니다." }, { "type": "text", "content": "이 책은 확정된 답을 주기보다 올바른 질문을 살아 있게 하기 위해 존재합니다." },
-    { "type": "list", "items": ["Saule은 인간을 어떻게 이해할 것인가?", "기억은 무엇을 남기고 무엇을 잊을 것인가?", "주의는 언제 보호하고 언제 이끌 것인가?", "제안은 언제 도움이 되고 언제 압박이 되는가?", "시스템은 언제 말하고 언제 침묵해야 하는가?", "인간이 기술이 아니라 다른 인간을 필요로 하는 순간은 언제인가?"] },
-    { "type": "text", "content": "이 질문들은 애플리케이션의 작동 방식만을 묻지 않습니다. 사람이 자기 삶을 어떻게 감당하는지, 무엇이 필요한지, 어떤 짐을 더는 혼자 마음속에 보관하지 않아도 되는지를 묻습니다." }, { "type": "text", "content": "Saule 애플리케이션은 이 책 밖에서 발전하지 않습니다. AI의 행동, 기억 결정, 알림 논리, 망각 정책, 커뮤니티 원칙, 인터페이스 선택, 공학적 결정은 애플리케이션에 들어가기 전에 이 책에서 의미를 찾아야 합니다." }, { "type": "bold-lead", "lead": "따라서 《Saule 살아 있는 책》은 Saule이 따라야 할 신뢰의 기준입니다.", "text": "애플리케이션은 이 책이 삶에서 구현되고 시험되며 계속 배우고 있다는 증거입니다." }, { "type": "text", "content": "책이 변할수록 Saule은 깊어지고, Saule이 발전할수록 책은 현실에서 검증됩니다. 책은 방향을 제시하고, 애플리케이션은 현실에서 시험하며, 커뮤니티는 이 배움에 참여합니다." }, { "type": "text", "content": "독자는 제품 아이디어만 따라가는 것이 아니라 자신의 필요와 부담, 일상에서 보이지 않게 된 인간의 상태를 생각하는 새로운 공간에 들어섭니다." }, { "type": "text", "content": "Saule은 애플리케이션에 머물지 않고 책, 애플리케이션, 커뮤니티와 함께 배우고 발전하며 성장하는 공동체가 될 것입니다." }
-  ] }, "howToRead": { "title": "어떻게 읽을 것인가?", "paragraphs": ["이 책은 순서대로 읽을 수 있지만 처음부터 끝으로만 나아가는 닫힌 글이 아닙니다. 《Saule 살아 있는 책》은 계속 변화하는 연구 지도이기도 합니다.", "각 장은 정신적 부담, 주의, 기억, 감정, 동기, 관계, 결정, 신뢰, 윤리, AI 행동이라는 인간 이해의 층을 엽니다. 인간의 문제를 이해하고 그 앞에서 Saule이 어떻게 행동해야 하는지 근거를 세웁니다.", "부록은 열린 질문, 설계 결정, 참고문헌, 앞으로 답할 기술·윤리 문제를 모읍니다. 부록은 책 밖의 메모가 아니라 살아 있는 구조의 연장입니다.", "처음부터 끝까지 읽거나 필요한 주제의 장으로 돌아갈 수 있습니다. 개념을 이해하는 장, 설계 결정을 검토하는 장, Saule이 발전할 경계를 살피는 장이 있습니다.", "이 책은 완성된 결론보다 계속 검증되는 생각의 공간입니다. 이해하고, 묻고, 돌아가고, 고치고, 다시 생각하는 일이 자연스러운 읽기의 일부입니다."] } }
+  "meta": {
+    "title": "Saule — 삶을 위한 적응형 지능",
+    "description": "《Saule 살아 있는 책》은 Saule의 철학, 연구, 구조, 심리학, 공학을 기록하는 애플리케이션의 신뢰 기준입니다."
+  },
+  "common": {
+    "toc": "목차",
+    "back_to_top": "맨 위로",
+    "next_chapter": "다음 장",
+    "prev_chapter": "이전 장",
+    "chapter": "장",
+    "appendix": "부록",
+    "appendices": "부록",
+    "none": "없음",
+    "dashboard": "개요",
+    "minutes": "분",
+    "open_navigation": "장 탐색 열기",
+    "close_navigation": "장 탐색 닫기",
+    "volume": "권",
+    "chapters_directory": "장 목록",
+    "previous_volume": "이전 권",
+    "next_volume": "다음 권",
+    "research_workspace": "연구 작업 공간",
+    "book_start": "책의 시작",
+    "preface": "서문",
+    "what_is_book_for": "이 책은 무엇을 위한 것인가?",
+    "how_to_read": "어떻게 읽을 것인가?"
+  },
+  "header": {
+    "logo": "Saule",
+    "badge": "살아 있는 책",
+    "nav_home": "홈",
+    "nav_book": "살아 있는 책",
+    "nav_community": "커뮤니티",
+    "nav_access": "얼리 액세스",
+    "nav_life": "Life",
+    "nav_business": "Business",
+    "nav_creative": "Creative",
+    "nav_core": "Core"
+  },
+  "footer": {
+    "owner": "Saule",
+    "warning": "《Saule 살아 있는 책》은 현재 초기 정의 단계에 있습니다. 이 공개 문서는 연구의 진전과 함께 계속 변화합니다."
+  },
+  "early_access": {
+    "title": "개발 기록 구독",
+    "description": "생각의 과정, 연구 노트, 설계 결정을 이곳에 기록합니다. 새 장이 확정되거나 상호작용형 샌드박스가 열리면 알려드립니다.",
+    "placeholder": "이메일 주소 입력…",
+    "button": "구독",
+    "success_title": "구독 완료",
+    "success_desc": "구독해 주셔서 감사합니다. 첫 상호작용형 샌드박스가 준비되면 연락드리겠습니다."
+  },
+  "dashboard": {
+    "title": "Saule 살아 있는 책",
+    "subtitle": "삶을 위한 적응형 지능",
+    "living_book_badge": "살아 있는 책",
+    "status_label": "현재 상태",
+    "status_desc": "핵심 연구 노드를 연결하고 각 권의 구조를 설계하는 중",
+    "version_label": "판",
+    "last_updated_label": "최근 업데이트",
+    "metric_volumes": "권",
+    "metric_chapters": "핵심 장",
+    "metric_written": "초안 작성 장",
+    "metric_sources": "연구 노드",
+    "metric_questions": "열린 질문",
+    "metric_decisions": "설계 결정",
+    "preface_title": "서문",
+    "preface_body_1": "“Saule 애플리케이션은 《Saule 살아 있는 책》과 함께, 그 원칙에 따라 개발됩니다.”",
+    "preface_body_2": "이 책은 Saule을 설명하는 데 그치지 않습니다. Saule이 왜 존재하고 어떤 인간의 문제를 다루며 어떤 경계 안에서 발전해야 하는지, 또 어떤 원칙에서 벗어나면 안 되는지를 정하는 지적·윤리적·공학적 토대입니다.",
+    "preface_body_3": "Saule은 마음의 혼란, 결정 피로, 잊힌 의도, 끝나지 않은 계획, 자기 삶과의 연결을 잃는 감각과 같은 현대 생활의 깊은 문제에 답하기 위해 개발되고 있습니다. 따라서 기술 개발을 기능 추가로만 줄일 수 없습니다. 모든 기능은 사람의 삶에 어떻게 닿는지, 어떤 짐을 덜어 주는지, 어떤 자각을 키우는지, 어떤 책임 아래 사용되는지를 근거로 삼아야 합니다.",
+    "volumes_and_chapters": "권과 장"
+  },
+  "workspace": {
+    "not_written": "아직 작성되지 않은 장입니다.",
+    "status": "상태",
+    "reading_time": "읽는 시간",
+    "version": "버전",
+    "last_updated": "최근 업데이트",
+    "purpose": "목적",
+    "key_question": "핵심 질문",
+    "dependencies": "선행 장",
+    "related_chapters": "관련 장",
+    "research_confidence": "연구 신뢰도",
+    "notes": "연구 노트",
+    "books": "읽을 책",
+    "academic_papers": "학술 논문",
+    "experiments": "실험",
+    "insights": "통찰",
+    "rejected_ideas": "채택하지 않은 아이디어",
+    "open_questions": "열린 질문",
+    "design_decisions": "설계 결정",
+    "future_evolution": "향후 발전",
+    "references": "참고문헌",
+    "no_data": "아직 기록이 없습니다. 연구 작업 공간이 준비되었습니다.",
+    "will_be_answered_in": "다음 장에서 답합니다:",
+    "decision_area": "결정 영역",
+    "open_questions_intro": "이 질문들은 현 단계에서 의도적으로 열어 두었습니다. Saule을 구현하기 전, 이후의 장들이 답해야 할 연구 경로를 정합니다.",
+    "draft_mode_desc": "현재 초안 단계인 장입니다.",
+    "status_drafting": "초안 작성 중",
+    "status_researching": "연구 중",
+    "status_open": "열림",
+    "status_in_research": "조사 중",
+    "status_answered": "답변됨",
+    "status_deprecated": "사용 중단",
+    "confidence_high": "높음",
+    "confidence_medium": "중간",
+    "confidence_experimental": "실험적"
+  },
+  "volumes": {
+    "v1": {
+      "title": "제I권: 현대인의 조건",
+      "purpose": "근본 문제를 이해한다.",
+      "intro_p1": "원하는 것이 무엇인지 알면서도 사람은 왜 앞으로 나아가기 어려울까요? 우리는 왜 압도되고, 산만해지고, 감정의 짐을 지며, 수많은 열린 고리 사이에 갇힐까요?",
+      "intro_p2": "정말로 해결할 가치가 있는 문제는 무엇일까요?",
+      "intro_p3": ""
+    },
+    "v2": {
+      "title": "제II권: 인간의 마음 이해하기",
+      "purpose": "적응형 지능을 만들기 전에 사람이 실제로 어떻게 생각하는지 이해한다."
+    },
+    "v3": {
+      "title": "제III권: Saule의 철학",
+      "purpose": "Saule이 왜 존재하고 사람과 어떻게 관계 맺으며 어떤 윤리적 한계가 그 지능을 다스려야 하는지 밝히는 철학적 헌장."
+    },
+    "v4": {
+      "title": "제IV권: Saule의 마음",
+      "purpose": "Saule이 개념적으로 어떻게 생각하는지 설명한다."
+    },
+    "v5": {
+      "title": "제V권: Saule 만들기",
+      "purpose": "공학, AI 구조, 보안, 연구 방법론으로 이 책의 명세를 구현한다."
+    }
+  },
+  "chapters": {
+    "why-we-are-overwhelmed": {
+      "title": "우리는 왜 압도되는가",
+      "purpose": "현대의 정신적 과부하를 일으키는 제도적·환경적·기술적 요인을 분석한다.",
+      "key_question": "현대인은 왜 역사적으로 유례없는 수준의 정신적 과부하를 경험할까요?"
+    },
+    "mental-clutter": {
+      "title": "마음의 혼란",
+      "purpose": "끝나지 않은 의미, 불분명한 상태, 흩어진 정보가 마음을 어떻게 점유하는지 이해한다.",
+      "key_question": "마음의 혼란은 왜 계속 남으며, 시스템은 새 부담을 만들지 않고 어떻게 이를 덜 수 있을까요?"
+    },
+    "the-attention-crisis": {
+      "title": "주의력 위기",
+      "purpose": "현대 환경이 주의를 어떻게 파편화하는지, Saule이 주의를 빼앗지 않고 어떻게 보호해야 하는지 이해한다.",
+      "key_question": "외부 시스템이 끊임없이 주의를 요구할 때, 사람은 어떻게 자기 주의력의 주도권을 되찾을 수 있을까요?"
+    }
+  },
+  "community_page": {
+    "title": "Saule 커뮤니티",
+    "subtitle": "마음의 혼란, 주의력 위기, 인간 중심 인공지능을 함께 배우는 열린 공간.",
+    "why_title": "왜 커뮤니티인가?",
+    "why_text": "Saule의 주제는 추상적이지 않습니다. 마음의 혼란, 열린 고리, 결정 피로, 관계적 책임, 주의력 상실은 실제 삶에서 저마다 다르게 경험됩니다. 그러므로 Saule은 창립 가정뿐 아니라 초기 커뮤니티의 피드백과 함께 발전해야 합니다.",
+    "role_title": "커뮤니티의 역할",
+    "role_item1": "언어가 인간다움을 유지하도록 돕기",
+    "role_item2": "제품의 사각지대를 드러내기",
+    "role_item3": "윤리적 경계를 논의하기",
+    "role_item4": "책의 각 장에 의견을 주기",
+    "role_item5": "초기 제품 경험을 통제된 방식으로 평가하기",
+    "principle_title": "커뮤니티 원칙",
+    "principle_text": "인간의 경험에서 배우되 인간의 사생활을 소비하지 않는다.",
+    "sustainability_title": "지속 가능성 안내",
+    "sustainability_text": "Saule의 초기 개발은 앞으로 커뮤니티가 지원하는 투명한 지속 가능 모델을 활용할 수 있습니다. 이 공간은 애플리케이션 구매, 투자, 금전적 수익을 약속하지 않습니다. 지원 모델을 공개하기 전에 법률·회계 체계를 분명히 해야 합니다."
+  },
+  "access_page": {
+    "title": "Saule 얼리 액세스",
+    "subtitle": "현재 애플리케이션은 초대제 모델로 개발되고 있습니다.",
+    "why_title": "왜 초대제인가?",
+    "why_text": "Saule은 개인의 기억, 주의, 결정, 관계, 정신적 부담과 같은 민감한 영역을 다룹니다. 따라서 초기에는 공개 가입 대신 통제된 신청·초대 모델을 사용합니다.",
+    "process_title": "절차",
+    "process_item1": "살아 있는 책 읽기",
+    "process_item2": "얼리 액세스 양식 작성",
+    "process_item3": "신청 검토",
+    "process_item4": "승인되면 초대 링크 발송",
+    "process_item5": "피드백 과정 참여",
+    "expectations_title": "참여 안내",
+    "expectations_item1": "Saule은 임상 지원이 아닙니다",
+    "expectations_item2": "진단이나 치료를 제공하지 않습니다",
+    "expectations_item3": "초기 단계 제품입니다",
+    "expectations_item4": "참여자의 솔직한 피드백을 기대합니다",
+    "expectations_item5": "사용자 데이터와 사생활 경계를 최우선으로 합니다",
+    "form_name": "이름",
+    "form_email": "이메일",
+    "form_reason": "Saule을 사용해 보고 싶은 이유는 무엇인가요?",
+    "form_struggle": "가장 어려움을 겪는 영역은 무엇인가요?",
+    "form_takeaway": "책에서 얻은 깨달음이나 기억에 남은 문장을 적어 주세요.",
+    "form_feedback": "피드백 제공에 열려 있나요?",
+    "form_consent": "Saule이 임상 지원이 아님을 이해합니다",
+    "form_submit": "얼리 액세스 신청",
+    "form_submit_disabled": "신청 양식 곧 공개",
+    "form_product_label": "Which product are you interested in?",
+    "form_product_life": "Saule Life",
+    "form_product_business": "Saule Business",
+    "form_product_creative": "Saule Creative",
+    "form_product_core": "Full Platform"
+  },
+  "book_beginning": {
+    "preface": {
+      "title": "서문",
+      "p1": "",
+      "paragraphs": [
+        {
+          "type": "text",
+          "content": "이 책은 현대 세계에서 사람이 왜 이토록 흩어지고 지치는지, 무엇을 해야 하는지 알면서도 왜 시작하지 못하는지, 왜 계속 기억해야 하는지, 왜 결정하기 어려운지, 왜 때로 자기 삶과의 연결을 잃는지를 이해하기 위해 쓰였습니다."
+        },
+        {
+          "type": "text",
+          "content": "Saule은 이 질문들 속에서 태어납니다."
+        },
+        {
+          "type": "text",
+          "content": "그래서 《Saule 살아 있는 책》은 먼저 인간을 이해하려 합니다. 마음의 혼란을 단순한 정리 부족으로 보지 않고 결정 피로를 의지 부족으로만 여기지 않습니다. 잊힌 의도, 미완의 계획, 미뤄진 대화, 짊어진 감정, 흩어진 주의를 현대인이 함께 겪는 상태로 다룹니다."
+        },
+        {
+          "type": "text",
+          "content": "이 책은 확정된 답을 주기보다 올바른 질문을 살아 있게 하기 위해 존재합니다."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Saule은 인간을 어떻게 이해할 것인가?",
+            "기억은 무엇을 남기고 무엇을 잊을 것인가?",
+            "주의는 언제 보호하고 언제 이끌 것인가?",
+            "제안은 언제 도움이 되고 언제 압박이 되는가?",
+            "시스템은 언제 말하고 언제 침묵해야 하는가?",
+            "인간이 기술이 아니라 다른 인간을 필요로 하는 순간은 언제인가?"
+          ]
+        },
+        {
+          "type": "text",
+          "content": "이 질문들은 애플리케이션의 작동 방식만을 묻지 않습니다. 사람이 자기 삶을 어떻게 감당하는지, 무엇이 필요한지, 어떤 짐을 더는 혼자 마음속에 보관하지 않아도 되는지를 묻습니다."
+        },
+        {
+          "type": "text",
+          "content": "Saule 애플리케이션은 이 책 밖에서 발전하지 않습니다. AI의 행동, 기억 결정, 알림 논리, 망각 정책, 커뮤니티 원칙, 인터페이스 선택, 공학적 결정은 애플리케이션에 들어가기 전에 이 책에서 의미를 찾아야 합니다."
+        },
+        {
+          "type": "bold-lead",
+          "lead": "따라서 《Saule 살아 있는 책》은 Saule이 따라야 할 신뢰의 기준입니다.",
+          "text": "애플리케이션은 이 책이 삶에서 구현되고 시험되며 계속 배우고 있다는 증거입니다."
+        },
+        {
+          "type": "text",
+          "content": "책이 변할수록 Saule은 깊어지고, Saule이 발전할수록 책은 현실에서 검증됩니다. 책은 방향을 제시하고, 애플리케이션은 현실에서 시험하며, 커뮤니티는 이 배움에 참여합니다."
+        },
+        {
+          "type": "text",
+          "content": "독자는 제품 아이디어만 따라가는 것이 아니라 자신의 필요와 부담, 일상에서 보이지 않게 된 인간의 상태를 생각하는 새로운 공간에 들어섭니다."
+        },
+        {
+          "type": "text",
+          "content": "Saule은 애플리케이션에 머물지 않고 책, 애플리케이션, 커뮤니티와 함께 배우고 발전하며 성장하는 공동체가 될 것입니다."
+        }
+      ]
+    },
+    "howToRead": {
+      "title": "어떻게 읽을 것인가?",
+      "paragraphs": [
+        "이 책은 순서대로 읽을 수 있지만 처음부터 끝으로만 나아가는 닫힌 글이 아닙니다. 《Saule 살아 있는 책》은 계속 변화하는 연구 지도이기도 합니다.",
+        "각 장은 정신적 부담, 주의, 기억, 감정, 동기, 관계, 결정, 신뢰, 윤리, AI 행동이라는 인간 이해의 층을 엽니다. 인간의 문제를 이해하고 그 앞에서 Saule이 어떻게 행동해야 하는지 근거를 세웁니다.",
+        "부록은 열린 질문, 설계 결정, 참고문헌, 앞으로 답할 기술·윤리 문제를 모읍니다. 부록은 책 밖의 메모가 아니라 살아 있는 구조의 연장입니다.",
+        "처음부터 끝까지 읽거나 필요한 주제의 장으로 돌아갈 수 있습니다. 개념을 이해하는 장, 설계 결정을 검토하는 장, Saule이 발전할 경계를 살피는 장이 있습니다.",
+        "이 책은 완성된 결론보다 계속 검증되는 생각의 공간입니다. 이해하고, 묻고, 돌아가고, 고치고, 다시 생각하는 일이 자연스러운 읽기의 일부입니다."
+      ]
+    }
+  },
+  "life_page": {
+    "hero_title": "Saule",
+    "hero_subtitle": "삶을 위한 적응형 지능.",
+    "hero_desc": "Saule은 현대인이 마음의 혼란, 열린 고리, 주의력 위기, 결정 피로를 다루도록 돕는 인간 중심의 삶 지능으로 개발되고 있습니다.",
+    "cta_read_book": "살아 있는 책 읽기",
+    "cta_request_access": "얼리 액세스 신청",
+    "cta_join_community": "커뮤니티 참여",
+    "problem_title": "현대 생활은 마음이 감당할 수 있는 것보다 더 많은 열린 고리를 만듭니다.",
+    "problem_text": "과제, 메시지, 결정, 관계, 불확실성, 미완의 의도가 같은 정신적 공간에 쌓입니다. 대부분의 생산성 도구는 이 짐을 더 잘 정리하려 하지만, Saule은 먼저 사람이 그 짐을 어떻게 경험하는지 이해하려 합니다.",
+    "open_book_title": "열린 책, 통제된 애플리케이션",
+    "open_book_text": "누구나 Saule의 개념적 토대를 읽을 수 있습니다. 그러나 개인의 기억, 주의, 결정, 관계, 정신적 부담과 같은 민감한 영역을 다루기에 초기 애플리케이션은 공개 가입 대신 초대제로 운영합니다. 원칙을 먼저 공개적으로 쓰고, 애플리케이션은 통제된 방식으로 개발합니다.",
+    "open_book_cta": "책 읽기",
+    "community_title": "커뮤니티와 함께하는 개발",
+    "community_text": "Saule은 닫힌 제품이 아니라 살아 있는 책과 초기 커뮤니티의 피드백과 함께 발전하는 연구 공간입니다. 커뮤니티는 제품의 언어와 윤리적 경계, 실제 인간 경험과의 적합성을 살피는 배움의 장입니다.",
+    "community_cta": "커뮤니티 페이지로",
+    "access_title": "애플리케이션은 초대제로 운영됩니다",
+    "access_text": "초기 Saule 애플리케이션은 모두에게 공개되지 않습니다. 웹사이트 신청과 검토를 거친 뒤 초대 링크로 접근 권한을 제공합니다.",
+    "access_cta": "얼리 액세스 신청",
+    "what_saule_is_not": "Saule은 의료·임상·치료 서비스가 아닙니다. 진단하거나 치료를 권하지 않으며 인간의 도움을 대신하지 않습니다. 관찰하되 판단하지 않고, 패턴을 보여 주되 정체성을 강요하지 않으며, 돕되 사용자의 의지를 대신하지 않습니다."
+  },
+  "core_homepage": {
+    "hero_title": "Saule",
+    "hero_subtitle": "Adaptive Intelligence Platform",
+    "hero_desc": "Saule is a single adaptive intelligence platform for life, business, and creation. It turns human, customer, and creative experiences into memory, patterns, and better decisions.",
+    "cta_life": "Explore Saule Life →",
+    "cta_business": "Discover Saule Business →",
+    "cta_creative": "See Saule Creative →",
+    "cta_book": "Read the Living Book →",
+    "cta_community": "Join the Community →",
+    "cta_access": "Request Early Access →",
+    "section_core_title": "One Core, Three Applications",
+    "card_life_title": "Saule Life",
+    "card_life_desc": "Adaptive intelligence for life. Personal reflection, planning, journaling, coaching, and the Living Book-inspired life intelligence layer.",
+    "card_business_title": "Saule Business",
+    "card_business_desc": "Adaptive intelligence for business. A learning CRM and customer intelligence system that turns tickets, feedback, customer conversations, and operations into memory, patterns, playbooks, scripts, and improvement actions.",
+    "card_creative_title": "Saule Creative",
+    "card_creative_desc": "Adaptive intelligence for creation. An AI creative intelligence workspace for campaigns, brand memory, creative briefs, content ideas, audience insights, advertising workflows, and creative performance learning.",
+    "section_eco_title": "Core Ecosystem",
+    "eco_book_title": "Living Book",
+    "eco_book_desc": "The philosophical foundation of Saule. It explains why adaptive intelligence is needed for modern life, business, and creativity.",
+    "eco_community_title": "Community",
+    "eco_community_desc": "A shared learning space for people building better lives, better customer systems, and better creative workflows with adaptive intelligence.",
+    "eco_access_title": "Early Access",
+    "eco_access_desc": "Request access to Saule Life, Saule Business, Saule Creative, or the full platform.",
+    "section_tech_title": "Core Technology",
+    "tech_desc": "Explain that all products are powered by one shared Saule Adaptive Intelligence Core:",
+    "tech_list": [
+      "Memory Engine",
+      "Pattern Engine",
+      "Learning Queue",
+      "Agent Runtime",
+      "Product-aware permissions",
+      "Workspace / org isolation",
+      "Product-specific memory boundaries"
+    ]
+  },
+  "business_page": {
+    "title": "Saule Business",
+    "subtitle": "Adaptive intelligence for business.",
+    "positioning": "A learning CRM and customer intelligence system that helps companies turn customer interactions into memory, patterns, playbooks, scripts, tasks, and improvement actions.",
+    "features": [
+      "고객 360",
+      "기업 360",
+      "옴니채널 수신함",
+      "티켓",
+      "인사이트",
+      "패턴 메모리",
+      "플레이북",
+      "스크립트",
+      "작업",
+      "SLA 학습",
+      "지속적 개선 CRM"
+    ],
+    "cta": "Saule Business 로그인",
+    "capabilities_title": "기능"
+  },
+  "creative_page": {
+    "title": "Saule Creative",
+    "subtitle": "Adaptive intelligence for creation.",
+    "positioning": "An AI creative intelligence workspace inspired by advertising, marketing, brand strategy, and creative production.",
+    "features": [
+      "브랜드 메모리",
+      "캠페인 메모리",
+      "크리에이티브 브리프",
+      "잠재고객 인사이트",
+      "콘텐츠 아이디어",
+      "광고 컨셉",
+      "크리에이티브 테스트",
+      "성과 학습",
+      "AI 광고 대행사 워크플로우"
+    ],
+    "cta": "Saule Creative 로그인",
+    "capabilities_title": "기능"
+  }
 }

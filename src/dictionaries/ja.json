@@ -1,19 +1,363 @@
 {
-  "meta": { "title": "Saule — 人生のための適応知能", "description": "『Saule 生きている本』は、Sauleを支える哲学、研究、設計、心理学、工学を記録する、アプリケーションの信頼できる基準です。" },
-  "common": { "toc": "目次", "back_to_top": "ページ上部へ", "next_chapter": "次の章", "prev_chapter": "前の章", "chapter": "章", "appendix": "付録", "appendices": "付録", "none": "なし", "dashboard": "概要", "minutes": "分", "open_navigation": "章のナビゲーションを開く", "close_navigation": "章のナビゲーションを閉じる", "volume": "巻", "chapters_directory": "章一覧", "previous_volume": "前の巻", "next_volume": "次の巻", "research_workspace": "研究ワークスペース", "book_start": "本のはじまり", "preface": "まえがき", "what_is_book_for": "この本は何のためにあるのか？", "how_to_read": "どのように読むか？" },
-  "header": { "logo": "Saule", "badge": "生きている本", "nav_home": "ホーム", "nav_book": "生きている本", "nav_community": "コミュニティ", "nav_access": "早期アクセス" },
-  "footer": { "owner": "Pool IQ", "warning": "『Saule 生きている本』は現在、初期定義の段階にあります。この公開文書は研究の進展とともに更新されます。" },
-  "early_access": { "title": "開発ログを購読", "description": "思考の過程、研究ノート、設計判断をここに記録します。新しい章が確定したときや、対話型サンドボックスが開いたときにお知らせします。", "placeholder": "メールアドレスを入力…", "button": "購読する", "success_title": "購読しました", "success_desc": "ありがとうございます。最初の対話型サンドボックスが準備でき次第、ご連絡します。" },
-  "dashboard": { "title": "Saule 生きている本", "subtitle": "人生のための適応知能", "living_book_badge": "生きている本", "status_label": "現在の状況", "status_desc": "主要な研究ノードを整理し、各巻の構成を設計中", "version_label": "版", "last_updated_label": "最終更新", "metric_volumes": "巻", "metric_chapters": "主要章", "metric_written": "草稿済みの章", "metric_sources": "研究ノード", "metric_questions": "未解決の問い", "metric_decisions": "設計上の判断", "preface_title": "まえがき", "preface_body_1": "「Sauleアプリは『Saule 生きている本』とともに、その原則に沿って開発されます。」", "preface_body_2": "この本はSauleを説明するだけのものではありません。Sauleがなぜ存在し、どの人間的課題に向き合い、どの境界の内側で発展し、何を決して手放してはならないかを定める、思想・倫理・工学上の土台です。", "preface_body_3": "Sauleは、心の散らかり、決断疲れ、忘れられた意図、未完の計画、自分の人生とのつながりを失う感覚といった、現代生活の深い問題に応えるために開発されています。だから技術開発を機能追加だけに還元することはできません。すべての機能は、人の生活にどう触れ、どの負担を減らし、どの気づきを育て、どのような責任のもとで使われるかに根差す必要があります。", "volumes_and_chapters": "巻と章" },
-  "workspace": { "not_written": "この章はまだ執筆されていません。", "status": "状態", "reading_time": "読了時間", "version": "版", "last_updated": "最終更新", "purpose": "目的", "key_question": "中心となる問い", "dependencies": "前提となる章", "related_chapters": "関連する章", "research_confidence": "研究の確度", "notes": "研究ノート", "books": "読む本", "academic_papers": "学術論文", "experiments": "実験", "insights": "洞察", "rejected_ideas": "採用しなかった案", "open_questions": "未解決の問い", "design_decisions": "設計上の判断", "future_evolution": "今後の発展", "references": "参考文献", "no_data": "記録はまだありません。研究ワークスペースを準備しました。", "will_be_answered_in": "次の章で扱います：", "decision_area": "判断領域", "open_questions_intro": "これらの問いは現段階では意図的に開いたままです。Sauleを実装する前に、後続の章が答えるべき研究経路を示します。", "draft_mode_desc": "この章は現在、草稿段階です。", "status_drafting": "執筆中", "status_researching": "研究中", "status_open": "未解決", "status_in_research": "調査中", "status_answered": "回答済み", "status_deprecated": "廃止", "confidence_high": "高", "confidence_medium": "中", "confidence_experimental": "実験的" },
-  "volumes": { "v1": { "title": "第I巻：現代人の状況", "purpose": "根本の問題を理解する。", "intro_p1": "望むものを知っているのに、なぜ人は前へ進めないのでしょう。なぜ私たちは圧倒され、気が散り、感情的な重荷を抱え、多くの未完了のループに囲まれるのでしょう。", "intro_p2": "本当に解く価値のある問題とは何でしょうか。", "intro_p3": "" }, "v2": { "title": "第II巻：人の心を理解する", "purpose": "適応知能をつくる前に、人が実際にどう考えるかを理解する。" }, "v3": { "title": "第III巻：Sauleの哲学", "purpose": "Sauleがなぜ存在し、人とどう関わり、どの倫理的限界を守るべきかを示す哲学的な憲章。" }, "v4": { "title": "第IV巻：Sauleの心", "purpose": "Sauleが概念上どのように考えるかを説明する。" }, "v5": { "title": "第V巻：Sauleをつくる", "purpose": "工学、AI設計、安全性、研究方法によって本書の仕様を実現する。" } },
-  "chapters": { "why-we-are-overwhelmed": { "title": "なぜ私たちは圧倒されるのか", "purpose": "現代の精神的過負荷を引き起こす制度・環境・技術上の要因を分析する。", "key_question": "なぜ現代人は、歴史上例のないほどの精神的な圧迫を経験するのでしょうか。" }, "mental-clutter": { "title": "心の散らかり", "purpose": "未完の意味、曖昧な状態、分散した情報がどのように心を占有するかを理解する。", "key_question": "心の散らかりはなぜ残り続け、システムは新たな負担を生まずにどう軽くできるでしょうか。" }, "the-attention-crisis": { "title": "注意の危機", "purpose": "現代環境が注意をどう断片化するか、Sauleが注意を奪うのでなくどう守るべきかを理解する。", "key_question": "外部のシステムが絶えず注意を求めるなかで、人はどう自分の注意を取り戻せるでしょうか。" } },
-  "homepage": { "hero_title": "Saule", "hero_subtitle": "人生のための適応知能。", "hero_desc": "Sauleは、心の散らかり、未完了のループ、注意の危機、決断疲れに向き合うための、人を第一に考える生活知能として開発されています。", "cta_read_book": "生きている本を読む", "cta_request_access": "早期アクセスを申し込む", "cta_join_community": "コミュニティに参加", "problem_title": "現代生活は、心が抱えきれないほど多くの未完了のループを生みます。", "problem_text": "タスク、メッセージ、決断、人間関係、不確実さ、未完の意図が同じ心の空間に積み重なります。多くの生産性ツールはそれを上手に整理しようとしますが、Sauleはまず、その負担が人にどう経験されるかを理解しようとします。", "open_book_title": "開かれた本、管理されたアプリ", "open_book_text": "Sauleの概念的基盤は誰でも読めます。一方、個人の記憶、注意、決断、人間関係、心の負担という繊細な領域に触れるため、初期のアプリは公開登録ではなく招待制で進めます。まず原則を開いて書き、その後に管理された形で開発します。", "open_book_cta": "本を読む", "community_title": "コミュニティと育てる開発", "community_text": "Sauleは閉じた製品ではなく、生きている本と初期コミュニティの声とともに変化する研究の場です。コミュニティは、製品の言葉、倫理的境界、現実の人間経験との適合を確かめる学びの場です。", "community_cta": "コミュニティページへ", "access_title": "アプリは招待制です", "access_text": "初期段階のSauleアプリは一般公開しません。ウェブサイトからの申請と審査後、招待リンクでアクセスを提供します。", "access_cta": "早期アクセスを申し込む", "what_saule_is_not": "Sauleは医療・臨床・治療サービスではありません。診断や治療提案を行わず、人による支援に取って代わりません。観察しても裁かず、傾向を示しても人格を決めつけず、支えても利用者の意思を奪いません。" },
-  "community_page": { "title": "Sauleコミュニティ", "subtitle": "心の散らかり、注意の危機、人を第一に考えるAIについて学ぶ開かれた場。", "why_title": "なぜコミュニティなのか？", "why_text": "Sauleのテーマは抽象的ではありません。心の散らかり、未完了のループ、決断疲れ、関係上の責任、注意の喪失は、現実の生活で一人ひとり異なって経験されます。Sauleは設立時の仮説だけでなく、初期コミュニティの声とともに発展する必要があります。", "role_title": "コミュニティの役割", "role_item1": "言葉を人間的に保つ", "role_item2": "製品の盲点を見えるようにする", "role_item3": "倫理的境界を議論する", "role_item4": "本の各章に意見を寄せる", "role_item5": "初期体験を管理された形で評価する", "principle_title": "コミュニティ原則", "principle_text": "人の経験から学び、人のプライバシーを消費しない。", "sustainability_title": "持続可能性について", "sustainability_text": "将来、Sauleの初期開発はコミュニティが支える透明な持続モデルを採用する可能性があります。ここは購入、投資、金銭的利益を約束する場ではありません。支援モデルの公開前に、法務・会計上の枠組みを明確にする必要があります。" },
-  "access_page": { "title": "Saule 早期アクセス", "subtitle": "現在、アプリは招待制で開発されています。", "why_title": "なぜ招待制なのか？", "why_text": "Sauleは個人の記憶、注意、決断、人間関係、心の負担といった繊細な領域に触れます。そのため初期は公開登録ではなく、管理された申請・招待方式を採用します。", "process_title": "流れ", "process_item1": "生きている本を読む", "process_item2": "早期アクセスフォームに記入", "process_item3": "申請内容を確認", "process_item4": "承認後、招待リンクを送付", "process_item5": "フィードバックに参加", "expectations_title": "参加にあたって", "expectations_item1": "Sauleは臨床支援ではありません", "expectations_item2": "診断や治療を提供しません", "expectations_item3": "初期段階の製品です", "expectations_item4": "率直なフィードバックをお願いします", "expectations_item5": "利用者データとプライバシー境界を最優先します", "form_name": "お名前", "form_email": "メール", "form_reason": "Sauleを試したい理由は何ですか？", "form_struggle": "最も困っている領域はどこですか？", "form_takeaway": "本から得た気づき、または心に残った一文を書いてください。", "form_feedback": "フィードバックに協力できますか？", "form_consent": "Sauleが臨床支援ではないことを理解しています", "form_submit": "早期アクセスを申し込む", "form_submit_disabled": "フォームは近日公開予定" },
-  "book_beginning": { "preface": { "title": "まえがき", "p1": "", "paragraphs": [
-    { "type": "text", "content": "この本は、現代の世界で人がなぜこれほど散漫になり、疲れ、すべきことを知りながら始められず、覚え続けることを強いられ、決断に苦しみ、ときに自分の人生とのつながりを失うのかを理解するために書かれました。" }, { "type": "text", "content": "Sauleは、これらの問いのなかから生まれます。" }, { "type": "text", "content": "だから『Saule 生きている本』は、まず人を理解しようとします。心の散らかりを単なる整理不足とせず、決断疲れを意志の弱さだけで説明しません。忘れられた意図、途中の計画、先送りされた対話、抱えた感情、断片化した注意を、現代人に共通する状態として扱います。" }, { "type": "text", "content": "この本は最終回答を与えるためではなく、正しい問いを生かし続けるためにあります。" },
-    { "type": "list", "items": ["Sauleは人をどう理解するのか？", "記憶は何を残し、何を忘れるのか？", "注意はいつ守られ、いつ導かれるのか？", "提案はいつ助けとなり、いつ圧力になるのか？", "システムはいつ語り、いつ黙るべきか？", "人が技術ではなく、別の人を必要とするのはいつか？"] },
-    { "type": "text", "content": "これらはアプリの動作だけの問いではありません。人が自分の人生をどう抱え、何を必要とし、どの負担をもう心だけで持ち続けなくてよいのかという問いでもあります。" }, { "type": "text", "content": "Sauleアプリがこの本の外で発展することはありません。AIの振る舞い、記憶の判断、リマインダーの論理、忘却方針、コミュニティ原則、画面上の選択、工学上の判断は、アプリに入る前に本書で意味を持たなければなりません。" }, { "type": "bold-lead", "lead": "だから『Saule 生きている本』は、Sauleを拘束する信頼の基準です。", "text": "アプリは、本書が現実になり、試され、学び続けている証拠です。" }, { "type": "text", "content": "本が変わればSauleは深まり、Sauleが育てば本は現実に試されます。本が方向を示し、アプリが現実で検証し、コミュニティがその学びに加わります。" }, { "type": "text", "content": "読者は製品構想を追うだけでなく、自分の必要、負担、日常で見えなくなった人間の状態を考える新しい場所へ入ります。" }, { "type": "text", "content": "Sauleはアプリだけにとどまらず、本、アプリ、コミュニティとともに学び、育ち、変化する共同体になります。" }
-  ] }, "howToRead": { "title": "どのように読むか？", "paragraphs": ["本書は順に読むこともできますが、最初から最後へ進む閉じた文章ではありません。『Saule 生きている本』は、変化し続ける研究地図でもあります。", "各章は、心の負担、注意、記憶、感情、動機、人間関係、決断、信頼、倫理、AIの振る舞いという、人を理解するための層を開きます。人の問題を理解し、それに対してSauleがどう振る舞うべきかを根拠づけます。", "付録には、未解決の問い、設計判断、参考文献、今後答える技術・倫理課題を集めます。付録は本の外のメモではなく、生きた構造の続きです。", "初めから通して読むことも、必要なテーマに戻ることもできます。概念を理解する章、設計判断を検討する章、Sauleの発展の境界を確かめる章があります。", "本書は完成した結論というより、絶えず試される思考の場です。理解し、問い、戻り、直し、考え直すことが自然な読み方です。"] } }
+  "meta": {
+    "title": "Saule — 人生のための適応知能",
+    "description": "『Saule 生きている本』は、Sauleを支える哲学、研究、設計、心理学、工学を記録する、アプリケーションの信頼できる基準です。"
+  },
+  "common": {
+    "toc": "目次",
+    "back_to_top": "ページ上部へ",
+    "next_chapter": "次の章",
+    "prev_chapter": "前の章",
+    "chapter": "章",
+    "appendix": "付録",
+    "appendices": "付録",
+    "none": "なし",
+    "dashboard": "概要",
+    "minutes": "分",
+    "open_navigation": "章のナビゲーションを開く",
+    "close_navigation": "章のナビゲーションを閉じる",
+    "volume": "巻",
+    "chapters_directory": "章一覧",
+    "previous_volume": "前の巻",
+    "next_volume": "次の巻",
+    "research_workspace": "研究ワークスペース",
+    "book_start": "本のはじまり",
+    "preface": "まえがき",
+    "what_is_book_for": "この本は何のためにあるのか？",
+    "how_to_read": "どのように読むか？"
+  },
+  "header": {
+    "logo": "Saule",
+    "badge": "生きている本",
+    "nav_home": "ホーム",
+    "nav_book": "生きている本",
+    "nav_community": "コミュニティ",
+    "nav_access": "早期アクセス",
+    "nav_life": "Life",
+    "nav_business": "Business",
+    "nav_creative": "Creative",
+    "nav_core": "Core"
+  },
+  "footer": {
+    "owner": "Saule",
+    "warning": "『Saule 生きている本』は現在、初期定義の段階にあります。この公開文書は研究の進展とともに更新されます。"
+  },
+  "early_access": {
+    "title": "開発ログを購読",
+    "description": "思考の過程、研究ノート、設計判断をここに記録します。新しい章が確定したときや、対話型サンドボックスが開いたときにお知らせします。",
+    "placeholder": "メールアドレスを入力…",
+    "button": "購読する",
+    "success_title": "購読しました",
+    "success_desc": "ありがとうございます。最初の対話型サンドボックスが準備でき次第、ご連絡します。"
+  },
+  "dashboard": {
+    "title": "Saule 生きている本",
+    "subtitle": "人生のための適応知能",
+    "living_book_badge": "生きている本",
+    "status_label": "現在の状況",
+    "status_desc": "主要な研究ノードを整理し、各巻の構成を設計中",
+    "version_label": "版",
+    "last_updated_label": "最終更新",
+    "metric_volumes": "巻",
+    "metric_chapters": "主要章",
+    "metric_written": "草稿済みの章",
+    "metric_sources": "研究ノード",
+    "metric_questions": "未解決の問い",
+    "metric_decisions": "設計上の判断",
+    "preface_title": "まえがき",
+    "preface_body_1": "「Sauleアプリは『Saule 生きている本』とともに、その原則に沿って開発されます。」",
+    "preface_body_2": "この本はSauleを説明するだけのものではありません。Sauleがなぜ存在し、どの人間的課題に向き合い、どの境界の内側で発展し、何を決して手放してはならないかを定める、思想・倫理・工学上の土台です。",
+    "preface_body_3": "Sauleは、心の散らかり、決断疲れ、忘れられた意図、未完の計画、自分の人生とのつながりを失う感覚といった、現代生活の深い問題に応えるために開発されています。だから技術開発を機能追加だけに還元することはできません。すべての機能は、人の生活にどう触れ、どの負担を減らし、どの気づきを育て、どのような責任のもとで使われるかに根差す必要があります。",
+    "volumes_and_chapters": "巻と章"
+  },
+  "workspace": {
+    "not_written": "この章はまだ執筆されていません。",
+    "status": "状態",
+    "reading_time": "読了時間",
+    "version": "版",
+    "last_updated": "最終更新",
+    "purpose": "目的",
+    "key_question": "中心となる問い",
+    "dependencies": "前提となる章",
+    "related_chapters": "関連する章",
+    "research_confidence": "研究の確度",
+    "notes": "研究ノート",
+    "books": "読む本",
+    "academic_papers": "学術論文",
+    "experiments": "実験",
+    "insights": "洞察",
+    "rejected_ideas": "採用しなかった案",
+    "open_questions": "未解決の問い",
+    "design_decisions": "設計上の判断",
+    "future_evolution": "今後の発展",
+    "references": "参考文献",
+    "no_data": "記録はまだありません。研究ワークスペースを準備しました。",
+    "will_be_answered_in": "次の章で扱います：",
+    "decision_area": "判断領域",
+    "open_questions_intro": "これらの問いは現段階では意図的に開いたままです。Sauleを実装する前に、後続の章が答えるべき研究経路を示します。",
+    "draft_mode_desc": "この章は現在、草稿段階です。",
+    "status_drafting": "執筆中",
+    "status_researching": "研究中",
+    "status_open": "未解決",
+    "status_in_research": "調査中",
+    "status_answered": "回答済み",
+    "status_deprecated": "廃止",
+    "confidence_high": "高",
+    "confidence_medium": "中",
+    "confidence_experimental": "実験的"
+  },
+  "volumes": {
+    "v1": {
+      "title": "第I巻：現代人の状況",
+      "purpose": "根本の問題を理解する。",
+      "intro_p1": "望むものを知っているのに、なぜ人は前へ進めないのでしょう。なぜ私たちは圧倒され、気が散り、感情的な重荷を抱え、多くの未完了のループに囲まれるのでしょう。",
+      "intro_p2": "本当に解く価値のある問題とは何でしょうか。",
+      "intro_p3": ""
+    },
+    "v2": {
+      "title": "第II巻：人の心を理解する",
+      "purpose": "適応知能をつくる前に、人が実際にどう考えるかを理解する。"
+    },
+    "v3": {
+      "title": "第III巻：Sauleの哲学",
+      "purpose": "Sauleがなぜ存在し、人とどう関わり、どの倫理的限界を守るべきかを示す哲学的な憲章。"
+    },
+    "v4": {
+      "title": "第IV巻：Sauleの心",
+      "purpose": "Sauleが概念上どのように考えるかを説明する。"
+    },
+    "v5": {
+      "title": "第V巻：Sauleをつくる",
+      "purpose": "工学、AI設計、安全性、研究方法によって本書の仕様を実現する。"
+    }
+  },
+  "chapters": {
+    "why-we-are-overwhelmed": {
+      "title": "なぜ私たちは圧倒されるのか",
+      "purpose": "現代の精神的過負荷を引き起こす制度・環境・技術上の要因を分析する。",
+      "key_question": "なぜ現代人は、歴史上例のないほどの精神的な圧迫を経験するのでしょうか。"
+    },
+    "mental-clutter": {
+      "title": "心の散らかり",
+      "purpose": "未完の意味、曖昧な状態、分散した情報がどのように心を占有するかを理解する。",
+      "key_question": "心の散らかりはなぜ残り続け、システムは新たな負担を生まずにどう軽くできるでしょうか。"
+    },
+    "the-attention-crisis": {
+      "title": "注意の危機",
+      "purpose": "現代環境が注意をどう断片化するか、Sauleが注意を奪うのでなくどう守るべきかを理解する。",
+      "key_question": "外部のシステムが絶えず注意を求めるなかで、人はどう自分の注意を取り戻せるでしょうか。"
+    }
+  },
+  "community_page": {
+    "title": "Sauleコミュニティ",
+    "subtitle": "心の散らかり、注意の危機、人を第一に考えるAIについて学ぶ開かれた場。",
+    "why_title": "なぜコミュニティなのか？",
+    "why_text": "Sauleのテーマは抽象的ではありません。心の散らかり、未完了のループ、決断疲れ、関係上の責任、注意の喪失は、現実の生活で一人ひとり異なって経験されます。Sauleは設立時の仮説だけでなく、初期コミュニティの声とともに発展する必要があります。",
+    "role_title": "コミュニティの役割",
+    "role_item1": "言葉を人間的に保つ",
+    "role_item2": "製品の盲点を見えるようにする",
+    "role_item3": "倫理的境界を議論する",
+    "role_item4": "本の各章に意見を寄せる",
+    "role_item5": "初期体験を管理された形で評価する",
+    "principle_title": "コミュニティ原則",
+    "principle_text": "人の経験から学び、人のプライバシーを消費しない。",
+    "sustainability_title": "持続可能性について",
+    "sustainability_text": "将来、Sauleの初期開発はコミュニティが支える透明な持続モデルを採用する可能性があります。ここは購入、投資、金銭的利益を約束する場ではありません。支援モデルの公開前に、法務・会計上の枠組みを明確にする必要があります。"
+  },
+  "access_page": {
+    "title": "Saule 早期アクセス",
+    "subtitle": "現在、アプリは招待制で開発されています。",
+    "why_title": "なぜ招待制なのか？",
+    "why_text": "Sauleは個人の記憶、注意、決断、人間関係、心の負担といった繊細な領域に触れます。そのため初期は公開登録ではなく、管理された申請・招待方式を採用します。",
+    "process_title": "流れ",
+    "process_item1": "生きている本を読む",
+    "process_item2": "早期アクセスフォームに記入",
+    "process_item3": "申請内容を確認",
+    "process_item4": "承認後、招待リンクを送付",
+    "process_item5": "フィードバックに参加",
+    "expectations_title": "参加にあたって",
+    "expectations_item1": "Sauleは臨床支援ではありません",
+    "expectations_item2": "診断や治療を提供しません",
+    "expectations_item3": "初期段階の製品です",
+    "expectations_item4": "率直なフィードバックをお願いします",
+    "expectations_item5": "利用者データとプライバシー境界を最優先します",
+    "form_name": "お名前",
+    "form_email": "メール",
+    "form_reason": "Sauleを試したい理由は何ですか？",
+    "form_struggle": "最も困っている領域はどこですか？",
+    "form_takeaway": "本から得た気づき、または心に残った一文を書いてください。",
+    "form_feedback": "フィードバックに協力できますか？",
+    "form_consent": "Sauleが臨床支援ではないことを理解しています",
+    "form_submit": "早期アクセスを申し込む",
+    "form_submit_disabled": "フォームは近日公開予定",
+    "form_product_label": "Which product are you interested in?",
+    "form_product_life": "Saule Life",
+    "form_product_business": "Saule Business",
+    "form_product_creative": "Saule Creative",
+    "form_product_core": "Full Platform"
+  },
+  "book_beginning": {
+    "preface": {
+      "title": "まえがき",
+      "p1": "",
+      "paragraphs": [
+        {
+          "type": "text",
+          "content": "この本は、現代の世界で人がなぜこれほど散漫になり、疲れ、すべきことを知りながら始められず、覚え続けることを強いられ、決断に苦しみ、ときに自分の人生とのつながりを失うのかを理解するために書かれました。"
+        },
+        {
+          "type": "text",
+          "content": "Sauleは、これらの問いのなかから生まれます。"
+        },
+        {
+          "type": "text",
+          "content": "だから『Saule 生きている本』は、まず人を理解しようとします。心の散らかりを単なる整理不足とせず、決断疲れを意志の弱さだけで説明しません。忘れられた意図、途中の計画、先送りされた対話、抱えた感情、断片化した注意を、現代人に共通する状態として扱います。"
+        },
+        {
+          "type": "text",
+          "content": "この本は最終回答を与えるためではなく、正しい問いを生かし続けるためにあります。"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Sauleは人をどう理解するのか？",
+            "記憶は何を残し、何を忘れるのか？",
+            "注意はいつ守られ、いつ導かれるのか？",
+            "提案はいつ助けとなり、いつ圧力になるのか？",
+            "システムはいつ語り、いつ黙るべきか？",
+            "人が技術ではなく、別の人を必要とするのはいつか？"
+          ]
+        },
+        {
+          "type": "text",
+          "content": "これらはアプリの動作だけの問いではありません。人が自分の人生をどう抱え、何を必要とし、どの負担をもう心だけで持ち続けなくてよいのかという問いでもあります。"
+        },
+        {
+          "type": "text",
+          "content": "Sauleアプリがこの本の外で発展することはありません。AIの振る舞い、記憶の判断、リマインダーの論理、忘却方針、コミュニティ原則、画面上の選択、工学上の判断は、アプリに入る前に本書で意味を持たなければなりません。"
+        },
+        {
+          "type": "bold-lead",
+          "lead": "だから『Saule 生きている本』は、Sauleを拘束する信頼の基準です。",
+          "text": "アプリは、本書が現実になり、試され、学び続けている証拠です。"
+        },
+        {
+          "type": "text",
+          "content": "本が変わればSauleは深まり、Sauleが育てば本は現実に試されます。本が方向を示し、アプリが現実で検証し、コミュニティがその学びに加わります。"
+        },
+        {
+          "type": "text",
+          "content": "読者は製品構想を追うだけでなく、自分の必要、負担、日常で見えなくなった人間の状態を考える新しい場所へ入ります。"
+        },
+        {
+          "type": "text",
+          "content": "Sauleはアプリだけにとどまらず、本、アプリ、コミュニティとともに学び、育ち、変化する共同体になります。"
+        }
+      ]
+    },
+    "howToRead": {
+      "title": "どのように読むか？",
+      "paragraphs": [
+        "本書は順に読むこともできますが、最初から最後へ進む閉じた文章ではありません。『Saule 生きている本』は、変化し続ける研究地図でもあります。",
+        "各章は、心の負担、注意、記憶、感情、動機、人間関係、決断、信頼、倫理、AIの振る舞いという、人を理解するための層を開きます。人の問題を理解し、それに対してSauleがどう振る舞うべきかを根拠づけます。",
+        "付録には、未解決の問い、設計判断、参考文献、今後答える技術・倫理課題を集めます。付録は本の外のメモではなく、生きた構造の続きです。",
+        "初めから通して読むことも、必要なテーマに戻ることもできます。概念を理解する章、設計判断を検討する章、Sauleの発展の境界を確かめる章があります。",
+        "本書は完成した結論というより、絶えず試される思考の場です。理解し、問い、戻り、直し、考え直すことが自然な読み方です。"
+      ]
+    }
+  },
+  "life_page": {
+    "hero_title": "Saule",
+    "hero_subtitle": "人生のための適応知能。",
+    "hero_desc": "Sauleは、心の散らかり、未完了のループ、注意の危機、決断疲れに向き合うための、人を第一に考える生活知能として開発されています。",
+    "cta_read_book": "生きている本を読む",
+    "cta_request_access": "早期アクセスを申し込む",
+    "cta_join_community": "コミュニティに参加",
+    "problem_title": "現代生活は、心が抱えきれないほど多くの未完了のループを生みます。",
+    "problem_text": "タスク、メッセージ、決断、人間関係、不確実さ、未完の意図が同じ心の空間に積み重なります。多くの生産性ツールはそれを上手に整理しようとしますが、Sauleはまず、その負担が人にどう経験されるかを理解しようとします。",
+    "open_book_title": "開かれた本、管理されたアプリ",
+    "open_book_text": "Sauleの概念的基盤は誰でも読めます。一方、個人の記憶、注意、決断、人間関係、心の負担という繊細な領域に触れるため、初期のアプリは公開登録ではなく招待制で進めます。まず原則を開いて書き、その後に管理された形で開発します。",
+    "open_book_cta": "本を読む",
+    "community_title": "コミュニティと育てる開発",
+    "community_text": "Sauleは閉じた製品ではなく、生きている本と初期コミュニティの声とともに変化する研究の場です。コミュニティは、製品の言葉、倫理的境界、現実の人間経験との適合を確かめる学びの場です。",
+    "community_cta": "コミュニティページへ",
+    "access_title": "アプリは招待制です",
+    "access_text": "初期段階のSauleアプリは一般公開しません。ウェブサイトからの申請と審査後、招待リンクでアクセスを提供します。",
+    "access_cta": "早期アクセスを申し込む",
+    "what_saule_is_not": "Sauleは医療・臨床・治療サービスではありません。診断や治療提案を行わず、人による支援に取って代わりません。観察しても裁かず、傾向を示しても人格を決めつけず、支えても利用者の意思を奪いません。"
+  },
+  "core_homepage": {
+    "hero_title": "Saule",
+    "hero_subtitle": "Adaptive Intelligence Platform",
+    "hero_desc": "Saule is a single adaptive intelligence platform for life, business, and creation. It turns human, customer, and creative experiences into memory, patterns, and better decisions.",
+    "cta_life": "Explore Saule Life →",
+    "cta_business": "Discover Saule Business →",
+    "cta_creative": "See Saule Creative →",
+    "cta_book": "Read the Living Book →",
+    "cta_community": "Join the Community →",
+    "cta_access": "Request Early Access →",
+    "section_core_title": "One Core, Three Applications",
+    "card_life_title": "Saule Life",
+    "card_life_desc": "Adaptive intelligence for life. Personal reflection, planning, journaling, coaching, and the Living Book-inspired life intelligence layer.",
+    "card_business_title": "Saule Business",
+    "card_business_desc": "Adaptive intelligence for business. A learning CRM and customer intelligence system that turns tickets, feedback, customer conversations, and operations into memory, patterns, playbooks, scripts, and improvement actions.",
+    "card_creative_title": "Saule Creative",
+    "card_creative_desc": "Adaptive intelligence for creation. An AI creative intelligence workspace for campaigns, brand memory, creative briefs, content ideas, audience insights, advertising workflows, and creative performance learning.",
+    "section_eco_title": "Core Ecosystem",
+    "eco_book_title": "Living Book",
+    "eco_book_desc": "The philosophical foundation of Saule. It explains why adaptive intelligence is needed for modern life, business, and creativity.",
+    "eco_community_title": "Community",
+    "eco_community_desc": "A shared learning space for people building better lives, better customer systems, and better creative workflows with adaptive intelligence.",
+    "eco_access_title": "Early Access",
+    "eco_access_desc": "Request access to Saule Life, Saule Business, Saule Creative, or the full platform.",
+    "section_tech_title": "Core Technology",
+    "tech_desc": "Explain that all products are powered by one shared Saule Adaptive Intelligence Core:",
+    "tech_list": [
+      "Memory Engine",
+      "Pattern Engine",
+      "Learning Queue",
+      "Agent Runtime",
+      "Product-aware permissions",
+      "Workspace / org isolation",
+      "Product-specific memory boundaries"
+    ]
+  },
+  "business_page": {
+    "title": "Saule Business",
+    "subtitle": "Adaptive intelligence for business.",
+    "positioning": "A learning CRM and customer intelligence system that helps companies turn customer interactions into memory, patterns, playbooks, scripts, tasks, and improvement actions.",
+    "features": [
+      "顧客360",
+      "企業360",
+      "オムニチャネル受信トレイ",
+      "チケット",
+      "インサイト",
+      "パターンメモリ",
+      "プレイブック",
+      "スクリプト",
+      "タスク",
+      "SLA学習",
+      "継続的改善CRM"
+    ],
+    "cta": "Saule Businessにログイン",
+    "capabilities_title": "機能"
+  },
+  "creative_page": {
+    "title": "Saule Creative",
+    "subtitle": "Adaptive intelligence for creation.",
+    "positioning": "An AI creative intelligence workspace inspired by advertising, marketing, brand strategy, and creative production.",
+    "features": [
+      "ブランドメモリ",
+      "キャンペーンメモリ",
+      "クリエイティブブリーフ",
+      "オーディエンスインサイト",
+      "コンテンツのアイデア",
+      "広告コンセプト",
+      "クリエイティブテスト",
+      "パフォーマンス学習",
+      "AI広告代理店ワークフロー"
+    ],
+    "cta": "Saule Creativeにログイン",
+    "capabilities_title": "機能"
+  }
 }

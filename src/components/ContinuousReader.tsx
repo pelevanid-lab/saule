@@ -115,6 +115,7 @@ const getBookBeginningContent = (locale: string, dictionary?: ContinuousReaderPr
             { type: 'text', content: "Bu kitap, insanın modern dünyada neden bu kadar dağıldığını, neden bu kadar yorulduğunu, neden bildiği halde başlayamadığını, neden hatırlamak zorunda kaldığını, neden karar vermekte zorlandığını ve neden kendi hayatıyla bağını zaman zaman kaybettiğini anlamak için yazılmıştır." },
             { type: 'text', content: "Saule, bu soruların içinden doğar." },
             { type: 'text', content: "Bu nedenle Saule Yaşayan Kitabı, önce insanı anlamaya çalışır. Zihinsel dağınıklığı yalnızca düzensizlik olarak görmez. Karar yorgunluğunu yalnızca irade eksikliği saymaz. Unutulan niyetleri, yarım kalan planları, ertelenen konuşmaları, taşınan duygusal yükleri ve dağılan dikkati modern insanın ortak hâlleri olarak ele alır." },
+            { type: 'text', content: "Ama bu mesele yalnızca bireyin iç dünyasına ait değildir. Aynı dağınıklık ekiplerde unutulan kararlara, şirketlerde kaybolan müşteri bağlamına, yaratıcı süreçlerde ise yarım kalmış fikirlerin ve taslakların sessiz yüküne dönüşebilir. Saule bu yüzden yalnızca kişisel hayatı düzenlemek için değil; yaşamı, işi ve üretimi taşıyan dağınıklığı anlamak için doğar." },
             { type: 'text', content: "Bu kitap kesin cevaplar vermek için değil, doğru soruları canlı tutmak için vardır." },
             { type: 'list', items: [
               "Saule insanı nasıl anlayacak?",
@@ -122,14 +123,17 @@ const getBookBeginningContent = (locale: string, dictionary?: ContinuousReaderPr
               "Dikkat ne zaman korunacak, ne zaman yönlendirilecek?",
               "Bir öneri ne zaman yardım, ne zaman baskı olur?",
               "Bir sistem ne zaman konuşmalı, ne zaman susmalı?",
-              "İnsan hangi anda teknolojiye değil, başka bir insana ihtiyaç duyar?"
+              "İnsan hangi anda teknolojiye değil, başka bir insana ihtiyaç duyar?",
+              "Bir şirket hangi müşteri temasını yalnızca kayıt olarak değil, öğrenme fırsatı olarak görmelidir?",
+              "Bir ekipte unutulan kararlar, açık döngüler ve tekrar eden problemler nasıl kurumsal hafızaya dönüşmelidir?",
+              "Yaratıcı bir fikir ne zaman korunmalı, ne zaman geliştirilmeli, ne zaman bırakılmalıdır?"
             ] },
-            { type: 'text', content: "Bu sorular yalnızca bir uygulamanın nasıl çalışacağıyla ilgili değildir. Aynı zamanda insanın kendi hayatını nasıl taşıdığı, neye ihtiyaç duyduğu ve hangi yükleri artık tek başına zihninde tutmak zorunda kalmaması gerektiğiyle ilgilidir." },
-            { type: 'text', content: "Saule uygulaması, bu kitabın dışında gelişmeyecektir. Her yapay zekâ davranışı, her bellek kararı, her hatırlatma mantığı, her unutma politikası, her topluluk ilkesi, her arayüz tercihi ve her mühendislik kararı, uygulamada yer almadan önce bu kitapta anlamını bulmalıdır." },
-            { type: 'bold-lead', lead: "Bu yüzden Saule Yaşayan Kitabı, Saule için bağlayıcı doğruluk kaynağıdır. ", text: "Uygulama ise bu kitabın hayata geçmiş, denenmiş ve sürekli öğrenen kanıtıdır." },
-            { type: 'text', content: "Kitap değiştikçe Saule derinleşir. Saule geliştikçe kitap sınanır. Bu ilişki tek yönlü değildir. Kitap yön verir, uygulama gerçeklikte test eder, topluluk ise bu öğrenmenin parçası olur." },
-            { type: 'text', content: "Bu kitabı okuyan kişi yalnızca bir ürün fikrini takip etmez. Kendi ihtiyaçlarını, yüklerini ve gündelik hayatın içinde görünmez hâle gelen insan hâllerini düşünmek için yeni bir alana girer." },
-            { type: 'text', content: "Saule bu yüzden yalnızca bir uygulama olarak kalmayacak; kitabı, uygulaması ve topluluğuyla birlikte öğrenen, gelişen ve büyüyen bir topluluğa dönüşecektir." }
+            { type: 'text', content: "Bu sorular yalnızca bir uygulamanın nasıl çalışacağıyla ilgili değildir. Aynı zamanda insanın kendi hayatını nasıl taşıdığı, ekiplerin neyi gözden kaçırdığı, şirketlerin neyi öğrenemeden kaybettiği ve yaratıcı süreçlerin hangi belirsizliklerle yarım kaldığıyla ilgilidir." },
+            { type: 'text', content: "Saule Core ve ona bağlı ürünler, bu kitabın dışında gelişmeyecektir. Her yapay zekâ davranışı, her bellek kararı, her hatırlatma mantığı, her unutma politikası, her topluluk ilkesi, her arayüz tercihi ve her mühendislik kararı, üründe yer almadan önce bu kitapta anlamını bulmalıdır." },
+            { type: 'bold-lead', lead: "Bu yüzden Saule Yaşayan Kitabı, Saule için bağlayıcı doğruluk kaynağıdır. ", text: "Ürünler ise bu kitabın hayata geçmiş, denenmiş ve sürekli öğrenen kanıtlarıdır." },
+            { type: 'text', content: "Kitap değiştikçe Saule derinleşir. Saule geliştikçe kitap sınanır. Bu ilişki tek yönlü değildir. Kitap yön verir, ürün gerçeklikte test eder, topluluk ise bu öğrenmenin parçası olur." },
+            { type: 'text', content: "Bu kitabı okuyan kişi yalnızca bir ürün fikrini takip etmez. Kendi ihtiyaçlarını, yüklerini ve gündelik hayatın içinde görünmez hâle gelen insan hâllerini; bunların işte ve yaratıcı üretimde nasıl yeniden ortaya çıktığını düşünmek için yeni bir alana girer." },
+            { type: 'text', content: "Saule bu yüzden yalnızca bir uygulama olarak kalmayacak; kitabı, ürünleri ve topluluğuyla birlikte öğrenen, gelişen ve büyüyen yaşayan bir öğrenme sistemine dönüşecektir." }
           ]
         },
         howToRead: {
@@ -137,8 +141,10 @@ const getBookBeginningContent = (locale: string, dictionary?: ContinuousReaderPr
           paragraphs: [
             "Bu kitap doğrusal biçimde okunabilir; ancak yalnızca baştan sona ilerleyen kapalı bir metin olarak düşünülmemelidir. Saule Yaşayan Kitabı, aynı zamanda yaşayan bir araştırma haritasıdır.",
             "Bölümler, Saule’nin insanı anlamaya çalıştığı temel katmanları açar: zihinsel yük, dikkat, bellek, duygu, motivasyon, ilişkiler, karar verme, güven, etik ve yapay zekâ davranışı. Her bölüm, hem bir insan sorununu anlamaya hem de Saule’nin bu sorun karşısında nasıl davranması gerektiğini temellendirmeye çalışır.",
+            "Bu kitap üç katmanda okunabilir: bireysel yaşam katmanı olarak zihinsel yük, dikkat, bellek, duygu ve ilişkiler üzerinden; iş ve organizasyon katmanı olarak müşteri ilişkileri, operasyonel hafıza, açık kararlar, takip sorumlulukları ve kurumsal öğrenme üzerinden; yaratıcılık katmanı olarak fikirlerin, projelerin, kampanyaların, karakterlerin, taslakların ve üretim süreçlerinin nasıl taşındığı üzerinden.",
             "Ekler ise kitabın açık kalan alanlarını toplar. Açık sorular, tasarım kararları, kaynaklar, ileride cevaplanacak teknik ve etik meseleler burada görünür hâle gelir. Bu nedenle ekler kitabın dışında kalan notlar değil, yaşayan yapının devamıdır.",
             "Okuyucu bu kitabı ister baştan sona okuyabilir, ister ihtiyaç duyduğu konuya göre belirli bölümlere dönebilir. Bazı bölümler bir kavramı anlamak için, bazıları bir tasarım kararını değerlendirmek için, bazıları ise Saule’nin hangi sınırlarda gelişeceğini görmek için okunabilir.",
+            "Bu nedenle Saule Yaşayan Kitabı yalnızca kişisel bir rehber değildir; Saule Core’un yaşam, iş ve yaratıcılık alanlarına yayılan felsefi işletim sistemidir.",
             "Bu kitap tamamlanmış bir sonuçtan çok, sürekli sınanan bir düşünme alanıdır. Bu yüzden okuma biçimi de tek değildir: anlamak, sorgulamak, geri dönmek, düzeltmek ve yeniden düşünmek bu kitabın doğal parçasıdır."
           ]
         }

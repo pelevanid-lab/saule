@@ -10,6 +10,7 @@
               "Bu tekrar, kişinin aynı konu üzerinde bilinçli olarak düşünmeyi seçtiği anlamına gelmez. Çoğu zaman henüz güvenilir bir yere bağlanmamış olan şey yeniden öne çıkar: Yanıtlanmayan mesaj hatırlanır, ertelenen karar başka bir işin ortasında belirir, yarım bırakılan konuşma sessiz bir anda geri döner.",
               "Bluma Zeigarnik’in 1920’lerde tamamlanmamış görevler üzerine yaptığı erken dönem deneyleri, kesintiye uğrayan işlerin bazı koşullarda tamamlananlardan daha kolay hatırlanabildiğini düşündürdü. Daha sonraki çalışmalar bu etkiyi her durumda aynı biçimde doğrulamadı. Bu nedenle Zeigarnik etkisi değişmez bir zihin yasası değil, tamamlanmamış olanın neden zaman zaman zihinsel alanda canlı kalabildiğini anlamaya yarayan ihtiyatlı bir çerçevedir.",
               "Zihin yalnızca bitmemiş olanı değil, statüsü belirsiz olanı da taşır. Bir şeyin yapılacağı, erteleneceği, devredileceği ya da bırakılacağı belli değilse, mesele kapanmaz; yalnızca biçim değiştirerek geri gelir.",
+              "Bu örüntünün organizasyonel ve yaratıcı karşılıkları da vardır. Farklı kanallarda dağılmış müşteri bilgileri, takip edilmeyen kararlar, sahibi belirsiz problemler, unutulan içgörüler ve yarım kalmış taslaklar da aynı şekilde yeniden ortaya çıkar. Şirket belleğinde ve yaratıcı üretimde biriken dağınıklık, bireysel zihindeki dağınıklığın daha geniş ölçekli bir akrabasıdır.",
               "Hatırlama ile karar verme aynı anda yapılmak zorunda kaldığında dağınıklık büyür. Asıl yük, her şeyi akılda tutmaktan çok, neyin hâlâ ilgi istediğini sürekli yeniden değerlendirmek zorunda kalmaktır."
             ]
           },
@@ -19,6 +20,7 @@
               "Her şeyi kaydetmek ilk baskıyı azaltabilir fakat tek başına yeni bir sorun yaratır: yorumlanmayı bekleyen büyüyen bir arşiv. Notlar, ekran görüntüleri, bağlantılar ve görev listeleri; sistem bir taahhüt ile bir fikri, korku ile gerçeği, gelecek olasılığı ile bugünkü sorumluluğu ayıramadığında dışarıdaki yığınlara dönüşür.",
               "William Jones’un kişisel bilgi yönetimi üzerine yaptığı kapsamlı çalışma da meselenin yalnızca bilgiyi saklamak olmadığını gösterir. Bilgiyi bulmak ve yeniden bulmak, düzenlemek, güncel tutmak ve ihtiyaç anında kullanabilmek aynı sürecin parçalarıdır. Kaydedilmiş bir şeyin varlığı, ona gerektiğinde ulaşılabileceği ya da onunla ne yapılacağının bilindiği anlamına gelmez.",
               "Bu nedenle yararlı bir sistem depolamanın ötesine geçmeli; bir öğenin ne olduğunu, neden önemli olduğunu ve gerçekten eylem gerektirip gerektirmediğini anlamaya yardım etmelidir. Aynı not, bir gün verilecek kararın hammaddesi, başka bir gün artık geçerliliğini yitirmiş bir olasılık olabilir. Anlam, kaydın içinde sabit durmaz; kişinin hayatıyla birlikte değişir.",
+              "Aynı sorun işte ve yaratıcılıkta daha da görünür hale gelir. Dağınık müşteri notları, kapanmamış şikâyet kayıtları, belirsiz sahiplikler, geliştirilmemiş kampanya fikirleri, karakter notları ve üretim kararları tek başına saklandıkları için değer kazanmaz. Kaydedilmiş olmak, öğrenilmiş olmak değildir.",
               "Bir sistemi yararlı yapan şey, ne kadar çok şeyi sakladığı değildir. Saklanan şeyin insanın hayatında ne anlama geldiğini ve bugün hâlâ bir karşılığı olup olmadığını görünür kılmasıdır.",
               "Netlik, bilgi kişinin yaşamıyla ilişkilendirildiğinde başlar. Aksi halde dışarıya aktarılan dağınıklık ortadan kalkmaz; yalnızca daha düzenli görünen bir yere taşınır."
             ]
@@ -48,9 +50,9 @@
             "paragraphs": [
               "Buraya kadar anlatılan sorun, Saule için doğal bir tasarım ilkesi doğurur: Saule sonsuz bir kap değil, nazik bir netleştirme katmanı olmalıdır. Her şeyi biriktiren bir arşiv olmak yerine, neyin hâlâ anlam taşıdığını ve neyin artık bırakılabileceğini görmeye yardım etmelidir.",
               "Edwin Hutchins’in dağıtık biliş yaklaşımı, düşünmeyi yalnızca tek bir zihnin içinde gerçekleşen bir süreç olarak değil; insanlar, araçlar ve çevre arasında kurulan sistemle birlikte ele alır. Clark ve Chalmers’ın genişletilmiş zihin tezi de bazı dış araçların, güvenilir ve sürekli kullanıldıklarında, düşünme süreçlerimizin işlevsel bir parçası haline gelebileceğini savunur.",
-              "Bu yaklaşımlar Saule’yi zihnin yerine geçen bir otorite olarak değil, zihinsel yükün güvenli biçimde dışarı taşınmasına yardım eden bir bağlam katmanı olarak düşünmeyi mümkün kılar. Saule neyin önemli olduğuna tek başına karar vermemeli; kişinin kendi kararını daha az gürültü içinde verebilmesi için uygun koşulları oluşturmalıdır.",
+              "Bu yaklaşımlar Saule’yi zihnin yerine geçen bir otorite olarak değil, zihinsel yükün güvenli biçimde dışarı taşınmasına yardım eden bir bağlam katmanı olarak düşünmeyi mümkün kılar. Bu ilke yalnızca birey için değil, Saule Core’un yaşam, iş ve yaratıcılık katmanlarının tamamı için geçerlidir. Saule neyin önemli olduğuna tek başına karar vermemeli; kişinin, ekibin ya da yaratıcı sürecin kendi kararını daha az gürültü içinde verebilmesi için uygun koşulları oluşturmalıdır.",
               "Bu nedenle az sayıda çözümlenmemiş öğeyi uygun anlarda göstermeli, neden gösterdiğini açıklamalı ve kullanıcının ceza hissetmeden silmesine, ertelemesine, dönüştürmesine ya da unutmasına izin vermelidir.",
-              "Başarının ölçüsü Saule’nin ne kadar çok şeyi hatırladığı değil, kişinin ne kadar az şeyi zihninde prova etmek zorunda kaldığıdır. Sistem yeni kategoriler, ritüeller ve panolarla bakım yükünü artırırsa çözmek istediği dağınıklığı yeniden üretmiş olur."
+              "Başarının ölçüsü Saule’nin ne kadar çok şeyi hatırladığı değil, kişinin ne kadar az şeyi zihninde prova etmek zorunda kaldığıdır. Aynı başarı ölçütü, şirketlerin daha az şeyi belirsiz operasyonel boşlukta kaybetmesi ve yaratıcı ekiplerin daha az fikri bağlamsız arşivlerde unutması olarak da okunmalıdır. Sistem yeni kategoriler, ritüeller ve panolarla bakım yükünü artırırsa çözmek istediği dağınıklığı yeniden üretmiş olur."
             ]
           },
           {
@@ -159,11 +161,12 @@
           "Yeniden gösterilen her öğede bir neden ve kolay bir kaldırma yolu bulunmalıdır.",
           "Duygusal içerik otomatik olarak göreve dönüştürülmemelidir.",
           "Kullanıcı ceza görmeden silebilmeli ve unutabilmelidir.",
+          "Sistem neyin aktif, neyin beklemede, neyin devredilmiş ve neyin bırakılabilir olduğunu ayırt etmelidir.",
           "Temel başarı sinyali daha fazla kayıt değil, daha az zihinsel tekrardır.",
           "Zihinsel örüntü yorumları geçici ve düzeltilebilir olmalıdır.",
           "İncelemeler sınırlı olmalı ve asla yapay iş üretmemelidir."
         ],
-        "future_evolution": "Bu bölüm ileride zihinsel dağınıklık sınıflandırmasını, yeniden gösterme kurallarını ve bilişsel rahatlamanın gizliliği koruyan ölçütlerini tanımlayacaktır.",
+        "future_evolution": "Bu bölüm ileride zihinsel dağınıklık sınıflandırmasını, yeniden gösterme kurallarını ve bilişsel rahatlamanın gizliliği koruyan ölçütlerini tanımlayacaktır. Sonraki sürümlerde bu sınıflandırmanın bireysel yaşam, iş operasyonları ve yaratıcı üretim arasında nasıl ortaklaşıp nasıl farklılaştığı da netleştirilecektir.",
         "references": [
           "Zeigarnik, B. (1927). Das Behalten erledigter und unerledigter Handlungen. Psychologische Forschung, 9, 1–85.",
           "MacLeod, C. M. (2020). Zeigarnik and von Restorff: The memory effects and the stories behind them. Memory & Cognition, 48, 1073–1088.",
@@ -188,6 +191,7 @@
               "Bugün dikkat yalnızca korunması gereken insani bir yeti değil; ölçülen, uğruna rekabet edilen, optimize edilen ve ekonomik değere dönüştürülen bir alan haline geldi. İnsan neye bakarsa, neye tıklarsa, nerede kalırsa ve neye geri dönerse, o davranış bir sistem için sinyal üretir.",
               "Herbert Simon, daha 1971’de bilgi bolluğunun dikkat kıtlığı yarattığını söylüyordu. Çünkü her yeni bilgi, onu fark edecek, değerlendirecek ya da eleyecek birinin dikkatini tüketir. Bugünün sorunu yalnızca çok fazla bilgi üretilmesi değil, bu bilginin insanın sınırlı dikkatine ulaşmak için sürekli yarışmasıdır.",
               "Bu nedenle modern birey yalnızca kendi iç dağınıklığıyla değil, dış dünyanın dikkat talebiyle de yaşar.",
+              "Benzer bir aşırı yük artık yalnızca bireyin değil, organizasyonların da gerçeğidir. Şirketler daha fazla araca, daha fazla kanala, daha fazla veriye ve daha fazla panele sahip olabilir; yine de bu çoğalma her zaman daha fazla netlik üretmez. Veri çoğalabilir ama öğrenme azalabilir. Kanal çoğalabilir ama sahiplik belirsizleşebilir. Dashboard çoğalabilir ama karar kalitesi düşebilir.",
               "Dikkat krizi bu yüzden yalnızca insanın içinde yaşanan bir irade sorunu değildir. İnsan ile çevresi arasındaki dengenin bozulmasıdır."
             ]
           },
@@ -201,6 +205,7 @@
               "Kişi bir işe başlamak ister. Fakat bir mesaj gelir. Mesaj yalnızca mesaj değildir; bir ilişki, bir beklenti, bir olasılık, bir sorun ya da bir fırsat olabilir. Kişi mesaja bakar. Sonra başka bir bildirim görür. Sonra kısa bir kontrol davranışı başlar. Birkaç dakika sonra kişi başlangıçtaki niyetini hatırlasa bile, artık aynı zihinsel noktada değildir.",
               "Cary Stothart ve arkadaşlarının çalışması, bir telefon bildirimini yalnızca almanın bile kişi telefona bakmasa ya da yanıt vermese de sürdürülen dikkat gerektiren bir görevde performansı bozabildiğini gösterdi. Kesinti bazen ekrana dokunulduğunda değil, sesin ya da titreşimin zihinde yeni bir beklenti oluşturduğu anda başlar.",
               "Böyle anlarda sorun yalnızca zaman kaybı değildir. Sorun bağlam kaybıdır.",
+              "Bireysel hayatta açık sekmeler neyse, iş hayatında da açık operasyonel döngüler çoğu zaman odur: cevap bekleyen müşteri talepleri, sahibi belirsiz işler, yarım kalmış onaylar, kapanmamış ticket’lar, yeniden yeniden ele alınan ama öğrenmeye dönüşmeyen problemler. Görünürdeki yoğunluk artarken, aslında kaybolan şey çoğu zaman bağlamdır.",
               "İnsan çoğu zaman dağıldığını geç fark eder. Çünkü dikkat kaybı her zaman dramatik yaşanmaz. Bazen küçük bir sapma, küçük bir kontrol, küçük bir erteleme gibi görünür. Fakat gün boyunca bu küçük sapmalar biriktiğinde, kişi akşam olduğunda çok şeyle temas etmiş ama çok az şeyle gerçekten kalmış hissedebilir.",
               "Bu yüzden dikkat kaybını anlamanın ilk adımı insanı suçlamak değil, dikkati parçalayan bağlamları görünür kılmaktır."
             ]
@@ -229,6 +234,7 @@
               "Bir kitap sessizdir. Uzun vadeli kariyer hedefi sessizdir. Sağlık alışkanlığı sessizdir. İyi bir ilişkiyi koruma ihtiyacı sessizdir. Çocuğunla geçirilen zamanın anlamı sessizdir. Bir projeyi sabırla inşa etme gereği sessizdir. Kendini tanıma süreci sessizdir.",
               "Anlık olan kendini duyurur. Yavaş olan ise hatırlanmayı bekler.",
               "Bu yüzden dikkat krizi yalnızca dağılma sorunu değildir; değer sıralaması sorunudur. İnsan gün içinde en çok bağıran şeye cevap verdikçe, en önemli şeyler geride kalabilir.",
+              "Yaratıcı hayat da bu sessiz kaybı tanır. Fikirler, taslaklar, kampanyalar, karakterler ve bir gün geri dönülmek istenen olasılıklar çoğu zaman acil görünmez; bu yüzden daha gürültülü olan tarafından kolayca itilir. Netlik kaybı bazen tembellikten değil, fazla sayıda olasılığın aynı anda taşınmasından doğar.",
               "Anlık olan ile önemli olan arasındaki ayrım, kişi adına verilecek otomatik bir karara indirgenemez. Aynı mesaj bir gün gerçekten acil, başka bir gün yalnızca görünür olabilir. Önem, yalnızca içeriğe değil; ilişkiye, zamana, sorumluluğa ve kişinin o an taşıdığı bağlama bağlıdır.",
               "Bu nedenle modern dikkat krizinin merkezinde basit ama zor bir soru durur: “Bu gerçekten şimdi mi önemli, yoksa sadece şimdi görünür olduğu için mi önemli?”"
             ]
@@ -286,8 +292,10 @@
             "heading": "9. Saule İçin Dikkat İlkesi",
             "paragraphs": [
               "Bu bölüm Saule için temel bir ilke doğurur: Saule, kullanıcının dikkatini kazanmak için değil, kullanıcının dikkatini korumak için tasarlanmalıdır.",
+              "Bu ilke yalnızca bireysel yaşam için değil, Saule Core’un yaşam, iş ve yaratıcılık katmanlarının tamamı için geçerlidir. Bir insanın günü, bir ekibin operasyonu ya da yaratıcı bir sürecin akışı; hepsi gereksiz temas, kötü zamanlanmış uyarı ve zayıf bağlam yüzünden dağılabilir.",
               "Bu ilke ürünün her yerine yayılmalıdır. Bildirimlere, hatırlatıcılara, koçluk mesajlarına, günlük planlara, telefon bağlamına, sesli etkileşime ve hafıza sistemine kadar her katmanda aynı soru sorulmalıdır: “Bu müdahale kullanıcının hayatını gerçekten daha net hale getiriyor mu, yoksa yalnızca sistemi daha görünür mü kılıyor?”",
               "Saule kendini sürekli hatırlatan bir yardımcı olmamalıdır. İnsanların zihninde yeni bir açık döngüye dönüşmemelidir. Kullanıcı “Saule’ye de bakmam lazım” diye yeni bir baskı hissetmemelidir.",
+              "Aynı ölçü iş ve yaratıcılık için de korunmalıdır. Bir müşteri kaydı yalnızca yeni takip baskısı üretmemeli; bir ekibin karar alanını netleştirmelidir. Yaratıcı bir not yalnızca arşivi büyütmemeli; hangi fikrin hâlâ canlı, hangisinin şimdilik beklemede olduğunu görünür kılmalıdır.",
               "Saule’nin değeri bazen bir şeyi göstermesinde, bazen bir şeyi ertelemesinde, bazen bir şeyi sessize almasında, bazen de hiçbir şey yapmamasında ortaya çıkabilir.",
               "Sessizlik geçerli bir durum olmalıdır. Dikkati koruyan bir sistem, yalnızca konuşmayı değil, susmayı da ürün davranışı olarak tasarlamalıdır."
             ]
@@ -392,9 +400,10 @@
           "Kullanıcı, öğrenilmiş kesinti kurallarını her zaman geçersiz kılabilmelidir.",
           "Erişilebilirlik varsayılmamalı, mümkün olduğunca açık biçimde iletilmelidir.",
           "Dikkat sonuçları sürekli gözetimle değil, hafif yansıtma ve kullanıcının onayıyla değerlendirilmelidir.",
+          "Aynı dikkat ilkesi bireysel yaşam, iş akışları ve yaratıcı üretim arasında tutarlı biçimde çalışmalıdır.",
           "Saule bazı anlarda sessiz kalmayı ürün davranışı olarak tasarlamalıdır."
         ],
-        "future_evolution": "Bu bölüm ileride dikkat kalıplarının nasıl temsil edileceği, bildirimlerin hangi koşullarda gruplanacağı, korunan odak dönemlerinin nasıl tasarlanacağı ve kullanıcının kendi dikkat politikasını nasıl inceleyip düzenleyebileceği üzerine genişletilecektir.\n\nGelecek sürümlerde ayrıca dikkat desteğinin farklı yaşam durumlarına göre nasıl değişeceği incelenecektir: ebeveynlik, iş arama, freelance çalışma, bakım sorumluluğu, ilişki yönetimi, eğitim, sağlık ve yüksek belirsizlik dönemleri.\n\nBu bölümün ilerideki amacı, Saule’nin yalnızca görev planlayan değil, kullanıcının dikkat alanını koruyan bir sistem olarak nasıl tasarlanacağını netleştirmektir.",
+        "future_evolution": "Bu bölüm ileride dikkat kalıplarının nasıl temsil edileceği, bildirimlerin hangi koşullarda gruplanacağı, korunan odak dönemlerinin nasıl tasarlanacağı ve kullanıcının kendi dikkat politikasını nasıl inceleyip düzenleyebileceği üzerine genişletilecektir.\n\nGelecek sürümlerde ayrıca dikkat desteğinin bireysel yaşam, ekip operasyonu ve yaratıcı üretim bağlamlarında nasıl farklılaşacağı incelenecektir: ebeveynlik, iş arama, freelance çalışma, bakım sorumluluğu, ilişki yönetimi, eğitim, sağlık, müşteri operasyonları, ekip içi karar akışları ve yüksek belirsizlik dönemleri.\n\nBu bölümün ilerideki amacı, Saule’nin yalnızca görev planlayan değil, kullanıcının dikkat alanını yaşam, iş ve yaratıcılık düzeylerinde koruyan bir sistem olarak nasıl tasarlanacağını netleştirmektir.",
         "references": [
           "Simon, H. A. (1971). Designing organizations for an information-rich world. In M. Greenberger (Ed.), Computers, Communications, and the Public Interest (pp. 38–52). Johns Hopkins Press.",
           "Stothart, C., Mitchum, A., & Yehnert, C. (2015). The attentional cost of receiving a cell phone notification. Journal of Experimental Psychology: Human Perception and Performance, 41(4), 893–897.",
@@ -410,52 +419,104 @@
           {
             "heading": "1. Tamamlanmamış Olan Neden Aktif Kalır?",
             "paragraphs": [
-              "Açık döngü zihnin tamamlanmamış saydığı her şeydir: görev, söz, karar, soru ya da duygusal alışveriş. Beyin gelecekte bir eylem beklediği fakat güvenilir bir sonuç veya dönüş noktası bulamadığı için aktif kalır.",
-              "Her tamamlanmamış öğe eşit yük taşımaz. Belirsiz döngüler, net biçimde ertelenmiş olanlardan daha çok dikkat tüketir; çünkü zihin sürekli bunun ne anlama geldiğini ve acil olup olmadığını sorar."
+              "Açık döngü, zihnin henüz sonuca bağlanmamış saydığı bir niyet, görev, karar, soru, söz ya da ilişkisel meseledir. Bu ifade tek başına klinik bir tanı veya psikolojide sınırları kesinleşmiş tek bir yapı değildir; gündelik hayatta tamamlanmamış olanın neden tekrar tekrar dikkat alanımıza döndüğünü anlatmaya yarayan kullanışlı bir çerçevedir.",
+              "Yanıtlanmamış bir mesaj, seçilmemiş bir sağlık planı, verilip tutulmamış bir söz, başkasından beklenen bir karar, yarıda kalmış bir başvuru veya henüz anlamı çözülememiş bir konuşma aynı biçimde tamamlanmamıştır. Fakat zihin açısından bunların yükü eşit değildir. Birinin yalnızca küçük bir eyleme, diğerinin cesaret, bilgi, zaman, yas veya başka bir insanın katılımına ihtiyacı olabilir.",
+              "Bluma Zeigarnik'in 1920'lerdeki deneyleri, kesintiye uğrayan görevlerin bazı koşullarda tamamlananlardan daha iyi hatırlanabildiğini gösterdi. Colin MacLeod'un tarihsel ve deneysel değerlendirmesi ise bu etkinin popüler anlatılardaki kadar evrensel ve değişmez olmadığını hatırlatır. Tamamlanmamış her işin zihni otomatik olarak işgal edeceği sonucuna varmak araştırmanın taşıyabileceğinden daha güçlü bir iddiadır.",
+              "Daha sağlam çıkarım şudur: Bir hedef önemliyse, hâlâ geçerliyse ve ona nasıl dönüleceği belirsizse, hedefle ilişkili düşünceler başka faaliyetler sırasında yeniden ortaya çıkabilir. Masicampo ve Baumeister'ın deneylerinde tamamlanmamış hedefler, ilgisiz görevler sırasında müdahaleci düşünceler ve performans maliyetleriyle ilişkilendi; ancak hedefe dönmek için belirli bir plan yapmak bu bilişsel etkileri azaltabildi.",
+              "Bu bulgu tamamlamanın tek rahatlama yolu olmadığını düşündürür. Zihin bazen sonucun kendisinden önce güvenilir bir devam yolu arar. 'Bunu şimdi yapmıyorum ama cuma günü saat 10.00'da şu belgeyle yeniden açacağım' biçimindeki bir plan, 'bunu sonra yapmalıyım' biçimindeki belirsiz niyetten farklıdır.",
+              "Dolayısıyla açık döngünün ağırlığını yalnızca yaşına veya görev büyüklüğüne bakarak anlayamayız. Belirsizlik, kişisel önem, duygusal anlam, toplumsal sonuç, geri dönüş güvencesi ve kişinin mevcut kapasitesi birlikte belirleyicidir. Saule'nin ilk görevi açık olan her şeyi acil ilan etmek değil, neyin neden açık kaldığını ayırt etmektir.",
+              "Açık döngüler yalnızca bireylerde yaşanmaz. Cevaplanmamış müşteri talepleri, kapanmamış ticket’lar, unutulmuş satış takipleri, sahibi belirsiz kararlar, bekleyen onaylar ve tekrar eden operasyonel problemler de kurumların zihinsel yüküdür. Yaratıcı üretimde ise yarım kalmış fikirler, tamamlanmamış taslaklar, bekleyen revizyonlar ve “bir gün yaparız” diye taşınan olasılıklar aynı baskının başka biçimleridir."
             ]
           },
           {
             "heading": "2. Farklı Döngüler Farklı Sonlar Gerektirir",
             "paragraphs": [
-              "Bazı döngüler eylemle; bazıları karar, konuşma, kabullenme, devretme, takvimleme ya da bilinçli vazgeçmeyle kapanır. Her döngüyü görev saymak, belirsizliği çözmek yerine koruyan uzun listeler üretir.",
-              "Kapanış bu nedenle anlamsaldır. Kişi bir sonraki adımı seçmeden önce ne tür bir eksiklik taşıdığını bilmelidir."
+              "Üretkenlik sistemlerinin sık yaptığı hata, tamamlanmamış her şeyi yapılacaklar listesine çevirmektir. Oysa 'annemle konuş', 'kariyerimi düşün', 'sonuç bekle', 'bu kaybı kabullen' ve 'formu gönder' aynı tür öğeler değildir. Aynı arayüzde yan yana durabilirler ama aynı sonu istemezler.",
+              "Eylem döngüsü, gözlemlenebilir bir sonraki adımla ilerler: formu doldurmak, randevu almak, dosyayı göndermek. Karar döngüsü daha fazla eylemden önce seçeneklerin, ölçütlerin veya son karar tarihinin netleşmesini ister. Karar verilmemişken görev üretmek, hareket görüntüsü yaratıp asıl belirsizliği koruyabilir.",
+              "Bekleme döngüsünde sıradaki hareket kullanıcıya ait değildir. Başkasının yanıtı, bir kurumun sonucu, bir teslimat veya belirli bir tarih beklenir. Böyle bir öğeyi her gün görev gibi göstermek, kişinin kontrol edemediği bir durumu kişisel yetersizlik duygusuna çevirebilir. Burada ihtiyaç duyulan şey eylem değil, sahiplik ve takip koşuludur.",
+              "İlişkisel döngü bir konuşma, beklentinin açıklanması, özür, sınır koyma veya karşılıklı anlaşma gerektirebilir. Duygusal döngü ise bazen çözüm değil; adlandırma, yas, zaman, kabullenme ya da belirsizlikle bir süre yaşayabilme alanı ister. Her rahatsızlığı tamamlanabilir bir göreve çevirmek insan deneyimini gereğinden fazla mekanikleştirir.",
+              "Keşif döngüleri de vardır: bir fikir, olasılık, kitap, seyahat isteği veya gelecekteki proje henüz taahhüt değildir. Sistem bunları yapılmamış borçlar gibi taşırsa merakın kendisi baskıya dönüşür. Bir olasılığın saklanması, onun gerçekleştirileceğine dair verilmiş söz anlamına gelmemelidir.",
+              "Bu ayrım birey, şirket ve yaratıcılık düzeyinde korunmalıdır. Her açık döngü yapılacaklar listesi değildir; bazı müşteri meseleleri karar ister, bazı ekip sorunları sahiplik netliği ister, bazı yaratıcı fikirler ise yalnızca korunacak bir bağlam ister. Yanlış kapanış türü, döngüyü kapatmak yerine uzatabilir.",
+              "Bu nedenle Saule en azından şu kapanış türlerini birbirinden ayırmalıdır: yap, karar ver, bekle, konuş, devret, planla, düşün, kabul et ve bırak. Bir öğe birden fazla tür taşıyabilir; sınıflandırma mutlak hüküm değil, kullanıcıya daha doğru bir sonraki soru sunan geçici bir yorum olmalıdır."
             ]
           },
           {
             "heading": "3. Dış Belleğin Temeli Güvendir",
             "paragraphs": [
-              "Bir hatırlatıcı ancak kullanıcı zamanlamasına, ifadesine ve gideceği yere güvendiğinde zihinsel baskıyı azaltır. Çok erken, geç ya da bağlamsız gelen hatırlatmalar zihne kendi başına hatırlamaya devam etmesi gerektiğini öğretir.",
-              "Güvenilir sistem geri dönüş yolunu görünür kılar. Bir şeyin neden önemli olduğunu, neyin ilerleme sayılacağını ve kişinin onu ne zaman yeniden görmek istediğini kaydeder."
+              "İleriye dönük bellek, gelecekte yapılması amaçlanan bir eylemi doğru zamanda hatırlama kapasitesidir. Bir ilacı akşam almak, toplantıdan sonra birine yazmak veya eve dönerken bir şeyi satın almak yalnızca geçmiş bilgiyi hatırlamayı değil, niyeti uygun koşulda yeniden etkinleştirmeyi gerektirir.",
+              "İnsanlar bu yükü yalnızca biyolojik belleğe bırakmaz. Takvimler, alarmlar, kapının yanına konan nesneler, notlar ve dijital hatırlatıcılar niyeti dışarı taşır. Gilbert ve arkadaşlarının niyet dışsallaştırması üzerine incelemesi, bu araçların gecikmiş niyetleri yerine getirmede güçlü biçimde yardımcı olabildiğini; fakat insanların neyi dışarı taşıyacağına dair kararlarının kendi belleklerine ilişkin güvenlerinden ve görev maliyetinden etkilendiğini gösterir.",
+              "Dışarıya aktarmak tek başına güven yaratmaz. Kayıt bulunamıyorsa, bağlamı eksikse, yanlış zamanda beliriyorsa veya sistem çok sayıda önemsiz uyarı üretiyorsa kişi niyeti zihninde taşımaya devam eder. Böylece görev bir yerde yazılı olsa bile zihinsel döngü kapanmaz; çünkü geri dönüş yolu güvenilir değildir.",
+              "Hatırlatıcının içeriği kadar tetikleyicisi de önemlidir. 'Pasaportu yenile' ifadesi, kişi hangi belgeye ihtiyaç duyduğunu bilmiyorsa veya kurum kapalıyken gösteriliyorsa yardım etmeyebilir. 'Salı 09.00'da, bilgisayar başındayken, şu sayfadan randevu al' biçimindeki bağlam ise eylemin nerede başlayacağını görünür kılar.",
+              "Güven hata kabul edebilen bir ilişki gerektirir. Saule her dönüşü doğru zamanda yapacağını varsaymamalı; kullanıcıya neden şimdi gösterdiğini açıklamalı, zamanlamayı düzeltme ve benzer önerileri azaltma olanağı vermelidir. Yanlış hatırlatma yalnızca küçük bir ürün hatası değildir; dış belleğe duyulan güveni aşındırabilir.",
+              "Bu nedenle her ertelenmiş döngü bir geri dönüş sözleşmesi taşımalıdır: ne zaman, hangi olay gerçekleştiğinde, hangi bağlamda veya kimin yanıtından sonra yeniden açılacak? Güvenilir dış bellek, her şeyi sürekli görünür tutan değil, görünmez olduğunda bile doğru koşulda geri döneceğine inanılabilen bellektir."
             ]
           },
           {
-            "heading": "4. Vazgeçme Hakkı",
+            "heading": "4. Belirsiz Niyetten Uygulanabilir Plana",
             "paragraphs": [
-              "Birçok döngü, bırakmak başarısızlık gibi hissettirdiği için yaşar. Eski hedefler, geçerliliğini yitirmiş yükümlülükler ve başkalarından miras beklentiler kişiye hizmet etmeyi bıraktıktan sonra bile kalır.",
-              "Saule bilinçli bırakmayı desteklemelidir. Silmek, reddetmek ya da bir taahhüdü yeniden tanımlamak netlik eylemi olabilir. Sistem her geçmiş niyeti kalıcı borca çevirmemelidir."
+              "Bir niyeti kaydetmek ile onu uygulanabilir hale getirmek aynı şey değildir. 'Daha çok hareket et', 'portföyü bitir' veya 'ilişkiyi düzelt' önemli olabilir; fakat neyin başlangıç sayılacağını söylemez. Belirsiz hedefler, her karşılaşmada yeniden yorum ve karar istediği için açık kalmaya devam edebilir.",
+              "Uygulama niyetleri araştırması, belirli bir koşulu belirli bir davranışa bağlayan 'eğer–o halde' planlarının hedefe ulaşmayı destekleyebildiğini gösterir. Gollwitzer ve Sheeran'ın meta-analizi bu planların genel olarak yararlı etkiler bildirdiğini; sonraki çalışmalar ise etkinin hedefin niteliğine, kişinin gerçek niyetine ve bağlama göre değiştiğini gösterir. Plan, zayıf veya başkasına ait bir hedefi otomatik olarak anlamlı hale getirmez.",
+              "İyi bir plan dört soruyu cevaplayabilir: Ne olacak? Hangi koşulda başlayacak? İlk görünür hareket ne? Başlanamazsa ne zaman yeniden değerlendirilecek? Bu sorular geleceğin tamamını kontrol etmeye çalışmaz; yalnızca niyet ile davranış arasındaki ilk geçişi daha az belirsiz hale getirir.",
+              "Plan gereğinden fazla ayrıntılandırıldığında yeni bir bakım yükü yaratabilir. Hayat değiştikçe onlarca alt adımı güncellemek, asıl işi yapmaktan daha zor hale gelebilir. Saule en küçük yeterli planı aramalı; kullanıcı ilerledikçe ayrıntıyı gerektiği kadar açmalıdır.",
+              "Erteleme de ancak dönüş koşulu varsa karardır. 'Sonra bakarım' açık döngüyü yalnızca geleceğe iter. 'Maaş yattığında bütçeyle birlikte yeniden değerlendir', 'rapor gelince karar ver' veya 'iki hafta içinde yanıt yoksa bir kez takip et' gibi ifadeler ise beklemenin hangi koşulda sona ereceğini tanımlar.",
+              "Planın amacı kullanıcıyı plana itaat ettirmek değil, niyeti yeniden kurma maliyetini azaltmaktır. Koşullar değiştiğinde planın güncellenmesi başarısızlık sayılmamalıdır; değişen hayat karşısında eski bir planı körü körüne korumak bazen esneklik değil, ek yük üretir."
             ]
           },
           {
-            "heading": "5. Kapanış Odaklı Bir Sistem",
+            "heading": "5. Vazgeçme Hakkı",
             "paragraphs": [
-              "Saule kullanıcının çözümlenmemiş döngüleri küçük ve bağlama uygun gruplar halinde gözden geçirmesine düzenli olarak yardım etmelidir. İnceleme; döngünün eylem, karar, konuşma, ileri bir tarih ya da bırakma gerektirip gerektirmediğini sormalıdır.",
-              "Amaç sıfır açık döngüye ulaşmak değildir; insan yaşamı her zaman bir ölçüde tamamlanmamış kalır. Amaç, tamamlanmamış yaşamın görünmez baskıya dönüşmesini önlemektir."
+              "Birçok döngü, hâlâ değerli olduğu için değil, bırakmak başarısızlık gibi hissettirdiği için yaşamaya devam eder. Eski hedefler, geçerliliğini yitirmiş yükümlülükler, başkalarından miras beklentiler ve artık mümkün olmayan planlar kişinin bugünkü hayatıyla bağını kaybettikten sonra bile ahlaki bir borç gibi taşınabilir.",
+              "Hedeften ayrılma araştırmaları, ulaşılamaz hedeflerden esnek biçimde çekilebilmenin ve anlamlı alternatif hedeflere yeniden bağlanabilmenin iyi oluşla ilişkili olabildiğini gösterir. Barlow, Wrosch ve McGrath'ın meta-analizinde bu ilişkiler ortalama olarak mütevazıdır ve bağlama göre değişir. Dolayısıyla 'vazgeçmek her zaman iyidir' sonucu da 'ısrar her zaman erdemdir' sonucu kadar aşırıdır.",
+              "Bilinçli bırakma ile kaçınmacı terk aynı şey değildir. Kişi korktuğu için değer verdiği bir hedeften uzaklaşıyor olabilir; başka bir durumda ise maliyeti artmış, anlamı azalmış veya artık mümkün olmayan bir hedefi sürdürmek ona zarar veriyor olabilir. Saule bu ayrımı tek başına kesin biçimde yapamaz.",
+              "Sistem hüküm vermek yerine düşünme alanı açabilir: Bu hedef hâlâ senin mi? Hâlâ mümkün mü? Bedeli ne oldu? Onu sürdürmek hangi değeri koruyor? Bırakırsan neye yer açılacak? Kararı bugün vermek gerekli mi? Bu sorular vazgeçmeyi teşvik etmek için değil, otomatik ısrarı görünür kılmak için kullanılmalıdır.",
+              "Aynı hak iş ve yaratıcı projeler için de geçerlidir. Her müşteri segmenti sonsuza kadar takip edilmeyebilir, her eski karar taşınmayabilir, her fikir ürüne dönüşmeyebilir, her kampanya geliştirilmeyebilir. Bazen sağlıklı kapanış, daha çok sürdürmekten değil; artık taşınmayacak olanı dürüstçe adlandırmaktan doğar.",
+              "Bırakma da bir tür kapanış kaydı taşıyabilir. Kullanıcı isterse neden bıraktığını, hangi koşulda yeniden düşünebileceğini veya neden bir daha dönmek istemediğini kısa biçimde belirtebilir. Ama bu açıklama zorunlu bir savunmaya dönüşmemelidir; insan her silme kararını sisteme gerekçelendirmek zorunda değildir.",
+              "Saule silme, arşivleme ve sona erdirme arasındaki farkı açık tutmalıdır. Arşiv geri dönüş ihtimalini korur; sona erdirme taahhüdün bittiğini belirtir; silme ise kaydın tutulmamasını sağlar. Sistem her geçmiş niyeti kalıcı borca veya sonsuza kadar saklanan bir karakter belgesine çevirmemelidir."
             ]
           },
           {
-            "heading": "6. Ortak ve İlişkisel Döngüler",
+            "heading": "6. Kapanış Odaklı Bir Sistem",
             "paragraphs": [
-              "Birçok döngü insanlar arasında yaşar: verilmiş bir yanıt sözü, belirsiz bir beklenti, ortak bir karar, bakım sorumluluğu ya da henüz konuşulmamış bir ihtiyaç.",
-              "Saule başka bir kişinin niyetini bildiğini iddia etmeden kullanıcının anlayışını kaydetmelidir. Bir soru hazırlayabilir, bağlamı koruyabilir veya saygılı bir takip önerebilir; ancak ilişkisel baskıyı otomatikleştirmemelidir.",
-              "Kapanış asimetrik de olabilir. Bir kişi kendi payına düşeni yapmışken ilişki hâlâ belirsiz kalabilir. Sistemin tamamlanma kadar sınırların çizilmesi için de bir dile ihtiyacı vardır."
+              "Kapanış odaklı bir sistemin hedefi boş bir gelen kutusu veya sıfır açık döngü değildir. İnsan hayatı doğası gereği tamamlanmamıştır: çocuk büyütmek, bir ilişkiyi sürdürmek, meslekte gelişmek, sağlıkla ilgilenmek veya bir fikri araştırmak tek bir onay kutusuyla bitmez. Sıfır hedefi, yaşamın sürekliliğini başarısızlık gibi gösterebilir.",
+              "Daha anlamlı hedef, her açık öğenin anlaşılır bir duruma sahip olmasıdır: şimdi eylem, planlandı, yanıt bekliyor, düşünülüyor, başkasına devredildi, koşul bekliyor, bilinçli olarak bırakıldı veya tamamlandı. Durum, öğenin neden görünür olduğunu ve sıradaki kararın kime ait olduğunu açıklamalıdır.",
+              "Gözden geçirme bütün arşivi aynı anda açmamalıdır. Saule bağlama, yaşa, son değişikliğe, yaklaşan koşula ve kullanıcının mevcut kapasitesine göre küçük kümeler sunmalıdır. Beş net soru, yüz maddelik bir borç ekranından daha fazla kapanış sağlayabilir.",
+              "'Tamamlandı' ifadesinin anlamı da döngüye göre değişir. Bir form için gönderim kaydı yeterli olabilir; bir konuşma için kullanıcının kendi payına düşeni ifade etmesi; bir karar için seçimin kaydedilmesi; duygusal bir mesele için ise yalnızca artık sistem müdahalesi istenmediğinin belirtilmesi yeterli olabilir. Saule tamamlanmayı tek bir davranış kalıbına indirgememelidir.",
+              "Sistem bazı kanıtları önerebilir fakat sürekli gözetimle tamamlanma ispatı toplamamalıdır. Bir e-postanın gönderildiğini görmek ile o konuşmanın kullanıcı açısından kapandığını bilmek aynı şey değildir. Son söz kullanıcıda kalmalı ve yanlışlıkla kapatılan bir döngü kolayca yeniden açılabilmelidir.",
+              "Kapanış rozet, seri veya puan üretme bahanesi olmamalıdır. Amaç kullanıcının daha çok öğe kapatması değil, daha az belirsizlik taşımasıdır. Bazen en iyi inceleme bir işi tamamlamakla, bazen doğru tarihe ertelemekle, bazen de artık yapılmayacağını kabul etmekle biter."
             ]
           },
           {
-            "heading": "7. Eskime, Sona Erme ve Yenileme",
+            "heading": "7. Ortak ve İlişkisel Döngüler",
             "paragraphs": [
-              "Bir döngü sonsuza kadar aynı aciliyette kalmamalıdır. Bazı taahhütlerin süresi dolar, bazıları anlamını yitirir, bazılarıysa koşullar değiştiğinde açıkça yenilenmelidir.",
-              "Saule yaşı başarısızlığın kanıtı değil, netleştirme daveti olarak kullanabilir. Öğenin hâlâ önemli olup olmadığını, sahibinin veya koşullarının değişip değişmediğini ve onu tutmanın gerçek bir yararı bulunup bulunmadığını sormalıdır.",
-              "Böylece sonuç gerektirdiğinde kalıcı, yaşam ilerlediğinde geçici ve her zaman kullanıcının kararına açık daha sağlıklı bir bellek oluşur."
+              "Birçok açık döngü insanlar arasında yaşar: verilmiş bir yanıt sözü, ortak karar, belirsiz beklenti, bakım sorumluluğu, geri ödeme, iş teslimi, özür veya henüz konuşulmamış bir ihtiyaç. Bu döngüler yalnızca bireysel planlama sorunu değildir; sahiplik, karşılıklılık ve güven meselesidir.",
+              "Saule ilişkisel öğelerde en az üç şeyi ayırmalıdır: kullanıcının kendi sorumluluğu, başka birinden beklenen hareket ve ortaklaşa netleştirilmesi gereken alan. 'Ben yanıt vereceğim', 'ondan yanıt bekliyorum' ve 'birlikte karar vermemiz gerekiyor' aynı durum değildir. Bu ayrım yapılmadığında kişi başkasının payını da kendi açık görevi gibi taşıyabilir.",
+              "Sistem yalnızca kullanıcının gördüğü veriye dayanarak diğer kişinin niyetini, duygusunu veya güvenilirliğini çıkarmamalıdır. 'Üç gündür yanıt vermedi' gözlemi mümkündür; 'seni önemsemiyor' yorumu değildir. Saule olguyu, kullanıcının yorumunu ve belirsizliği birbirinden ayırmalıdır.",
+              "İş ilişkileri de aynı dikkatle ele alınmalıdır: müşteri beklentisi, ekip içi sorumluluk, ortak karar, geciken yanıt, geri bildirim, özür, sınır ve sahiplik aynı anda hem operasyonel hem ilişkisel olabilir. Bir görevin kapanması, ilişkiyi kapatmakla aynı şey değildir; bazen tam tersine, ilişkiyi korumak için daha dikkatli bir kapanış gerekir.",
+              "İlişkisel kapanış her zaman karşılıklı uzlaşma anlamına gelmez. Kullanıcı kendi payına düşeni yapmış, sınırını ifade etmiş veya bir kez saygılı biçimde takip etmiş olabilir; diğer kişi yine de yanıt vermeyebilir. Böyle durumlarda döngü 'tam anlaşma' ile değil, kullanıcının bundan sonra ne yapmayacağına karar vermesiyle kapanabilir.",
+              "Hatırlatma ilişkisel baskıyı otomatikleştirmemelidir. Sistem sürekli takip mesajları üretir, insanları gecikme sürelerine göre puanlar veya sessizliği düşmanlık olarak yorumlarsa ilişki zekâsı değil, baskı mekanizması kurar. Saule soru hazırlayabilir ve bağlamı koruyabilir; iletişimin gönderilmesi ve tonu kullanıcıya ait kalmalıdır.",
+              "Bu alan aynı zamanda güçlü mahremiyet sınırları gerektirir. Başka insanlara ilişkin notlar, onların rızası olmadan kapsamlı profillere dönüşmemeli; ilişkisel bağlam yalnızca kullanıcının yön bulması için gereken en az ayrıntıyla tutulmalıdır. Bir açık döngüyü anlamak, döngüdeki herkesi veri nesnesine çevirmeyi gerektirmez."
+            ]
+          },
+          {
+            "heading": "8. Eskime, Sona Erme ve Yenileme",
+            "paragraphs": [
+              "Bir döngü sonsuza kadar aynı aciliyette kalmamalıdır. Zaman geçtikçe bazı taahhütlerin değeri artar, bazılarının süresi dolar, bazıları koşullar değiştiği için anlamını kaybeder. Yaş tek başına öncelik ölçütü değildir; eski olan her şey ne acildir ne de önemsizdir.",
+              "Klasik görev listeleri eski maddeleri çoğu zaman iki biçimde cezalandırır: ya listenin dibinde görünmez hale getirir ya da gecikme rengini giderek sertleştirir. Her iki yaklaşım da şu soruyu atlayabilir: Bu öğe hâlâ geçerli mi? Saule yaşı suçluluk üretmek için değil, yeniden doğrulama anı olarak kullanmalıdır.",
+              "Bazı döngüler için sona erme kuralı baştan konabilir. Bir etkinlik önerisi tarih geçince, geçici bir fiyat araştırması karar verildikten sonra veya düşük önem taşıyan bir fikir belirli süre dokunulmadığında yeniden değerlendirmeye girebilir. Ancak sağlık, hukuk, para, bakım ve önemli ilişkiler gibi yüksek sonuçlu alanlar sessizce otomatik silinmemelidir.",
+              "Yeniden gösterme, öğeyi eski haliyle ön plana fırlatmak yerine değişen bağlamı sormalıdır: Bunu kaydettiğinden beri ne değişti? Hâlâ senin sorumluluğun mu? Son tarih veya beklenen kişi aynı mı? Tutmak, dönüştürmek, devretmek ya da bırakmak mı daha doğru? Böylece yaş, baskı değil anlam güncellemesi üretir.",
+              "Hayat geçişleri toplu yeniden değerlendirme gerektirebilir. Taşınma, iş değişimi, hastalık, ebeveynlik, ayrılık veya maddi koşullardaki değişim, yüzlerce eski niyetin statüsünü aynı anda etkileyebilir. Saule her öğeyi tek tek savunmaya zorlamak yerine kullanıcıya dönemsel bir sıfırlama ve seçici taşıma yolu sunmalıdır.",
+              "Sağlıklı dijital bellek yalnızca hatırlayan değil, sona erdirebilen bellektir. Saklama süresi, arşivleme, unutma ve kalıcı silme birbirinden açıkça ayrılmalı; kullanıcının silme kararı sonraki öneriler tarafından gizlice geri alınmamalıdır."
+            ]
+          },
+          {
+            "heading": "9. Saule İçin Açık Döngü İlkesi",
+            "paragraphs": [
+              "Bu bölüm Saule için temel bir ilke doğurur: Saule tamamlanmamış hayatın alacaklısı değil, belirsizliğin nazik bir tercümanı olmalıdır. Görevi kullanıcıya bütün eski niyetlerini ödetmek değil, bugün hangilerinin hâlâ anlam ve sorumluluk taşıdığını görmesine yardım etmektir.",
+              "Bu açık döngü ilkesi yalnızca bireysel yaşam için değil, Saule Core’un yaşam, iş ve yaratıcılık katmanlarının tamamı için temel bir tasarım prensibidir. Çünkü açık kalan şey bazen bir kişisel görev, bazen bir ekip kararı, bazen de bir yaratıcı olasılıktır; ama hepsinde ihtiyaç duyulan şey aynı değildir: görünür sahiplik, güvenilir geri dönüş ve anlamlı kapanış.",
+              "Her açık döngü mümkün olduğunca sade bir yapıyla temsil edilmelidir: bu nedir, neden açık, sıradaki hareket kime ait, hangi kapanış türünü istiyor ve hangi koşulda yeniden görülecek? Sistem emin olmadığında bunu açıkça söylemeli; geçici yorumunu kalıcı gerçek gibi saklamamalıdır.",
+              "Yeniden gösterilen her öğe bir gerekçe ve kolay bir çıkış taşımalıdır. Kullanıcı erteleyebilmeli, durumu değiştirebilmeli, başkasına devredebilmeli, tamamlandı diyebilmeli, bırakabilmeli veya kalıcı olarak silebilmelidir. Saule'nin zekâsı yalnızca doğru şeyi getirmesinde değil, yanlış getirdiğinde hızla geri çekilebilmesinde de görünür.",
+              "Başarı ölçütü kapatılan döngü sayısı değildir. Daha anlamlı sorular şunlardır: Kullanıcı neyin kendisine ait olduğunu daha net görüyor mu? Bir niyeti zihninde prova etmeden güvenle bırakabiliyor mu? Beklediği şeyle yapması gerekeni ayırabiliyor mu? Geçersiz hedefleri suçluluk duymadan sona erdirebiliyor mu? İnceleme sonrasında daha hafif ve daha yön sahibi hissediyor mu?",
+              "Saule bütün döngüleri kapatmayı vaat etmemelidir. Bazı meseleler zaman, ilişki, cesaret, maddi kaynak veya insan desteği gerektirir; bazıları hiçbir zaman kusursuz bir sonuca ulaşmaz. İyi sistem tamamlanmamışlığı ortadan kaldırmaz. Onun görünmez baskıya, unutulmuş sorumluluğa veya kalıcı öz suçlamaya dönüşmesini azaltır."
             ]
           }
         ],
@@ -541,24 +602,29 @@
         ],
         "design_decisions": [
           "Açık döngüler ihtiyaç duydukları kapanış türüne göre sınıflandırılmalıdır.",
-          "Erteleme her zaman güvenilir bir geri dönüş koşulu içermelidir.",
+          "Her döngü mümkün olduğunca sahiplik, mevcut durum ve geri dönüş koşulu taşımalıdır.",
+          "Erteleme belirsiz bir 'sonra' değil, güvenilir bir zaman, olay veya bağlam koşulu içermelidir.",
+          "Planlama en küçük yeterli adımla başlamalı, sistemi sürdürmek işin kendisinden ağır hale gelmemelidir.",
           "Kullanıcı cezalandırıcı dil olmadan taahhütlerinden vazgeçebilmelidir.",
           "İlişkisel ve duygusal döngüler görev tamamlamaya indirgenmemelidir.",
           "İncelemeler kapsamlı değil, küçük ve bağlamsal olmalıdır.",
           "Sistem tek taraflı veriden başka bir kişinin niyetini çıkarmamalıdır.",
-          "Eski döngüler kalıcı aciliyet yerine yenileme veya sona erme daveti almalıdır."
+          "Açık döngü modeli yaşam, iş ve yaratıcılık katmanlarında ortak ilkeyi koruyup bağlama göre esneyebilmelidir.",
+          "Eski döngüler kalıcı aciliyet yerine yenileme veya sona erme daveti almalıdır.",
+          "Tamamlanma kanıtı döngünün türüne göre değişmeli ve son karar kullanıcıda kalmalıdır.",
+          "Sıfır açık döngü bir ürün hedefi veya kullanıcı başarı ölçütü olmamalıdır."
         ],
-        "future_evolution": "Bu bölüm; eylem, karar, devir, konuşma, kabullenme ve bilinçli bırakmayı kapsayan bir kapanış modeline dönüşecektir.",
+        "future_evolution": "Bu bölüm ileride eylem, karar, bekleme, devir, konuşma, kabullenme ve bilinçli bırakmayı kapsayan biçimsel bir açık döngü modeline dönüşecektir. Sonraki sürümlerde sahiplik durumları, geri dönüş koşulları, tamamlanma kanıtları, eskime ve sona erme politikaları ile ilişkisel döngüler için mahremiyet sınırları tanımlanacaktır. Ayrıca bu modelin bireysel yaşam, iş operasyonları ve yaratıcı üretim arasında hangi ortak yapıları paylaştığı ve hangi noktalarda ayrıştığı netleştirilecektir. Saule'nin daha çok görev kapatmayı değil, daha az belirsizlik ve zihinsel tekrar üretmeyi nasıl ölçeceği de araştırılacaktır.",
         "references": [
-          "Zeigarnik etkisi",
-          "İleriye dönük bellek",
-          "Uygulama niyetleri",
-          "Hedeften ayrılma araştırmaları",
-          "Dış biliş ve güvenilir sistemler",
-          "Taahhüt ve hedef koruma",
-          "İlişkisel koordinasyon",
-          "Zamansal iskonto",
-          "Dijital bellek ve sona erme"
+          "Zeigarnik, B. (1927). Das Behalten erledigter und unerledigter Handlungen. Psychologische Forschung, 9, 1–85.",
+          "MacLeod, C. M. (2020). Zeigarnik and von Restorff: The memory effects and the stories behind them. Memory & Cognition, 48, 1073–1088.",
+          "Masicampo, E. J., & Baumeister, R. F. (2011). Consider it done! Plan making can eliminate the cognitive effects of unfulfilled goals. Journal of Personality and Social Psychology, 101(4), 667–683.",
+          "Gollwitzer, P. M. (1999). Implementation intentions: Strong effects of simple plans. American Psychologist, 54(7), 493–503.",
+          "Gollwitzer, P. M., & Sheeran, P. (2006). Implementation intentions and goal achievement: A meta-analysis of effects and processes. Advances in Experimental Social Psychology, 38, 69–119.",
+          "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. Trends in Cognitive Sciences, 20(9), 676–688.",
+          "Gilbert, S. J., Boldt, A., Sachdeva, C., & Scarampi, C. (2023). Outsourcing memory to external tools: A review of intention offloading. Psychonomic Bulletin & Review, 30, 60–76.",
+          "Wrosch, C., Scheier, M. F., Miller, G. E., Schulz, R., & Carver, C. S. (2003). Adaptive self-regulation of unattainable goals: Goal disengagement, goal reengagement, and subjective well-being. Personality and Social Psychology Bulletin, 29(12), 1494–1508.",
+          "Barlow, M. A., Wrosch, C., & McGrath, J. J. (2020). Goal adjustment capacities and quality of life: A meta-analytic review. Journal of Personality, 88(2), 307–323."
         ]
       }
     },

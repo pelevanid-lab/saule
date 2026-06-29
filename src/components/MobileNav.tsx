@@ -142,10 +142,63 @@ export default function MobileNav({
 
             {/* Navigation Links */}
             <nav className="flex-1 overflow-y-auto px-6 py-8 flex flex-col space-y-6">
-              {/* Main Website Navigation */}
+              {/* Products Navigation */}
               <div className="space-y-3">
                 <span className="text-[10px] font-sans font-bold tracking-widest text-charcoal-muted/50 uppercase block">
-                  Saule
+                  Products
+                </span>
+                <ul className="space-y-2">
+                  <li>
+                    <Link
+                      href={`/${locale}`}
+                      onClick={closeMenu}
+                      className={`block font-sans text-sm font-semibold py-1.5 ${
+                        pathname === `/${locale}` ? 'text-sage-dark font-bold' : 'text-charcoal-muted hover:text-charcoal'
+                      }`}
+                    >
+                      {dict.header.nav_core || 'Core'}
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href={`/${locale}/life`}
+                      onClick={closeMenu}
+                      className={`block font-sans text-sm font-semibold py-1.5 ${
+                        pathname === `/${locale}/life` ? 'text-sage-dark font-bold' : 'text-charcoal-muted hover:text-charcoal'
+                      }`}
+                    >
+                      {dict.header.nav_life || 'Life'}
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href={`/${locale}/business`}
+                      onClick={closeMenu}
+                      className={`block font-sans text-sm font-semibold py-1.5 ${
+                        pathname.startsWith(`/${locale}/business`) ? 'text-sage-dark font-bold' : 'text-charcoal-muted hover:text-charcoal'
+                      }`}
+                    >
+                      {dict.header.nav_business || 'Business'}
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href={`/${locale}/creative`}
+                      onClick={closeMenu}
+                      className={`block font-sans text-sm font-semibold py-1.5 ${
+                        pathname === `/${locale}/creative` ? 'text-sage-dark font-bold' : 'text-charcoal-muted hover:text-charcoal'
+                      }`}
+                    >
+                      {dict.header.nav_creative || 'Creative'}
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+
+              {/* Main Website Navigation */}
+              <div className="space-y-3 pt-4 border-t border-sand-300/40">
+                <span className="text-[10px] font-sans font-bold tracking-widest text-charcoal-muted/50 uppercase block">
+                  Core
                 </span>
                 <ul className="space-y-2">
                   <li>
@@ -181,17 +234,6 @@ export default function MobileNav({
                       }`}
                     >
                       {dict.header.nav_community || 'Community'}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href={`/${locale}/access`}
-                      onClick={closeMenu}
-                      className={`block font-sans text-sm font-semibold py-1.5 ${
-                        pathname === `/${locale}/access` ? 'text-sage-dark font-bold' : 'text-charcoal-muted hover:text-charcoal'
-                      }`}
-                    >
-                      {dict.header.nav_access || 'Erken Erişim'}
                     </Link>
                   </li>
                 </ul>

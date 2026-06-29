@@ -32,10 +32,14 @@
     "nav_home": "Ana Sayfa",
     "nav_book": "Yaşayan Kitap",
     "nav_community": "Topluluk",
-    "nav_access": "Erken Erişim"
+    "nav_access": "Erken Erişim",
+    "nav_life": "Life",
+    "nav_business": "Business",
+    "nav_creative": "Creative",
+    "nav_core": "Core"
   },
   "footer": {
-    "owner": "Pool IQ",
+    "owner": "Saule",
     "warning": "Saule Yaşayan Kitabı henüz erken tanımlama aşamasındadır. Bu açık kaynak yaşayan kitap, araştırma ve ürün geliştirme süreci ilerledikçe güncellenecektir."
   },
   "early_access": {
@@ -1709,26 +1713,6 @@
       "key_question": "Saule insanın değişken bedensel kapasitesine sağlık takibi iddiası taşımadan nasıl eşlik edebilir?"
     }
   },
-  "homepage": {
-    "hero_title": "Saule",
-    "hero_subtitle": "Yaşam için uyumlanabilir zekâ.",
-    "hero_desc": "Saule, modern insanın zihinsel dağınıklık, açık döngüler, dikkat krizi ve karar yüküyle başa çıkmasına yardım edecek insan öncelikli bir yaşam zekâsı olarak geliştirilmektedir.",
-    "cta_read_book": "Yaşayan Kitabı Oku",
-    "cta_request_access": "Erken Erişim Talep Et",
-    "cta_join_community": "Topluluğa Katıl",
-    "problem_title": "Modern hayat zihni taşıyamayacağı kadar çok açık döngüyle dolduruyor.",
-    "problem_text": "Görevler, mesajlar, kararlar, ilişkiler, belirsizlikler ve yarım kalmış niyetler aynı zihinsel alanda birikiyor. Çoğu üretkenlik aracı bu yükü daha iyi düzenlemeyi teklif eder; Saule önce bu yükün insan üzerinde nasıl yaşandığını anlamaya çalışır.",
-    "open_book_title": "Açık Kitap, Kapalı Uygulama",
-    "open_book_text": "Saule’nin düşünsel temeli herkes tarafından okunabilir. Ancak uygulama erken aşamada halka açık kayıtla değil, davetli erişimle ilerleyecektir. Çünkü Saule kişisel bellek, dikkat, kararlar, ilişkiler ve zihinsel yük gibi hassas alanlara temas eder. Bu nedenle önce ilkeler açıkça yazılır, sonra uygulama kontrollü biçimde geliştirilir.",
-    "open_book_cta": "Kitabı Oku",
-    "community_title": "Topluluk destekli gelişim",
-    "community_text": "Saule yalnızca kapalı bir ürün olarak değil, yaşayan kitap ve erken topluluk geri bildirimiyle gelişen bir araştırma alanı olarak tasarlanmaktadır. Topluluk, ürünün dilini, etik sınırlarını ve gerçek insan deneyimine uygunluğunu denetleyen öğrenme alanıdır.",
-    "community_cta": "Topluluk Sayfasına Git",
-    "access_title": "Uygulama erişimi davetlidir",
-    "access_text": "Saule uygulaması erken aşamada herkese açık olmayacaktır. Erişim, web sitesi üzerinden yapılan başvuru ve değerlendirme sonrasında davet bağlantısı ile sağlanacaktır.",
-    "access_cta": "Erken Erişim Talep Et",
-    "what_saule_is_not": "Saule tıbbi, klinik veya terapötik bir hizmet değildir. Teşhis koymayı, tedavi önermeyi veya insan desteğinin yerini almayı amaçlamaz. Saule gözlem yapar ama hüküm vermez; örüntü gösterir ama kimlik dayatmaz; destek sunar ama kullanıcının iradesini devralmaz."
-  },
   "community_page": {
     "title": "Saule Topluluğu",
     "subtitle": "Zihinsel dağınıklık, dikkat krizi ve insan öncelikli yapay zekâ üzerine açık öğrenme alanı.",
@@ -1770,6 +1754,105 @@
     "form_feedback": "Geri bildirim vermeye açık mısın?",
     "form_consent": "Saule’nin klinik destek olmadığını anlıyorum",
     "form_submit": "Erken Erişim Talep Et",
-    "form_submit_disabled": "Form Gönderimi Yakında Açılacak"
+    "form_submit_disabled": "Form Gönderimi Yakında Açılacak",
+    "form_product_label": "Hangi ürünle ilgileniyorsunuz?",
+    "form_product_life": "Saule Life",
+    "form_product_business": "Saule Business",
+    "form_product_creative": "Saule Creative",
+    "form_product_core": "Tüm Platform (Full Platform)"
+  },
+  "life_page": {
+    "hero_title": "Saule",
+    "hero_subtitle": "Yaşam için uyumlanabilir zekâ.",
+    "hero_desc": "Saule, modern insanın zihinsel dağınıklık, açık döngüler, dikkat krizi ve karar yüküyle başa çıkmasına yardım edecek insan öncelikli bir yaşam zekâsı olarak geliştirilmektedir.",
+    "cta_read_book": "Yaşayan Kitabı Oku",
+    "cta_request_access": "Erken Erişim Talep Et",
+    "cta_join_community": "Topluluğa Katıl",
+    "problem_title": "Modern hayat zihni taşıyamayacağı kadar çok açık döngüyle dolduruyor.",
+    "problem_text": "Görevler, mesajlar, kararlar, ilişkiler, belirsizlikler ve yarım kalmış niyetler aynı zihinsel alanda birikiyor. Çoğu üretkenlik aracı bu yükü daha iyi düzenlemeyi teklif eder; Saule önce bu yükün insan üzerinde nasıl yaşandığını anlamaya çalışır.",
+    "open_book_title": "Açık Kitap, Kapalı Uygulama",
+    "open_book_text": "Saule’nin düşünsel temeli herkes tarafından okunabilir. Ancak uygulama erken aşamada halka açık kayıtla değil, davetli erişimle ilerleyecektir. Çünkü Saule kişisel bellek, dikkat, kararlar, ilişkiler ve zihinsel yük gibi hassas alanlara temas eder. Bu nedenle önce ilkeler açıkça yazılır, sonra uygulama kontrollü biçimde geliştirilir.",
+    "open_book_cta": "Kitabı Oku",
+    "community_title": "Topluluk destekli gelişim",
+    "community_text": "Saule yalnızca kapalı bir ürün olarak değil, yaşayan kitap ve erken topluluk geri bildirimiyle gelişen bir araştırma alanı olarak tasarlanmaktadır. Topluluk, ürünün dilini, etik sınırlarını ve gerçek insan deneyimine uygunluğunu denetleyen öğrenme alanıdır.",
+    "community_cta": "Topluluk Sayfasına Git",
+    "access_title": "Uygulama erişimi davetlidir",
+    "access_text": "Saule uygulaması erken aşamada herkese açık olmayacaktır. Erişim, web sitesi üzerinden yapılan başvuru ve değerlendirme sonrasında davet bağlantısı ile sağlanacaktır.",
+    "access_cta": "Erken Erişim Talep Et",
+    "what_saule_is_not": "Saule tıbbi, klinik veya terapötik bir hizmet değildir. Teşhis koymayı, tedavi önermeyi veya insan desteğinin yerini almayı amaçlamaz. Saule gözlem yapar ama hüküm vermez; örüntü gösterir ama kimlik dayatmaz; destek sunar ama kullanıcının iradesini devralmaz."
+  },
+  "core_homepage": {
+    "hero_title": "Saule",
+    "hero_subtitle": "Uyumlanabilir Zeka Platformu",
+    "hero_desc": "Saule yaşam, iş ve yaratım için tek bir uyumlanabilir zeka platformudur. İnsan, müşteri ve yaratım deneyimlerini belleğe, örüntülere ve daha iyi kararlara dönüştürür.",
+    "cta_life": "Saule Life'ı Keşfet →",
+    "cta_business": "Saule Business'ı Keşfet →",
+    "cta_creative": "Saule Creative'i Gör →",
+    "cta_book": "Yaşayan Kitabı Oku →",
+    "cta_community": "Topluluğa Katıl →",
+    "cta_access": "Erken Erişim Talep Et →",
+    "section_core_title": "Bir Core, Üç Uygulama",
+    "card_life_title": "Saule Life",
+    "card_life_desc": "Yaşam için uyumlanabilir zeka. Kişisel yansıtma, planlama, günlük tutma, koçluk ve Yaşayan Kitap'tan ilham alan yaşam zekası katmanı.",
+    "card_business_title": "Saule Business",
+    "card_business_desc": "İş için uyumlanabilir zeka. Biletleri, geri bildirimleri, müşteri konuşmalarını ve operasyonları belleğe, örüntülere, kılavuzlara, senaryolara ve iyileştirme eylemlerine dönüştüren öğrenen bir CRM ve müşteri zekası sistemi.",
+    "card_creative_title": "Saule Creative",
+    "card_creative_desc": "Yaratım için uyumlanabilir zeka. Kampanyalar, marka belleği, yaratıcı brief'ler, içerik fikirleri, hedef kitle içgörüleri, reklam iş akışları ve yaratıcı performans öğrenimi için bir yapay zeka yaratıcı zeka çalışma alanı.",
+    "section_eco_title": "Çekirdek Ekosistem",
+    "eco_book_title": "Yaşayan Kitap",
+    "eco_book_desc": "Saule'nin felsefi temeli. Neden modern yaşam, iş ve yaratıcılık için uyumlanabilir zekaya ihtiyaç duyulduğunu açıklar.",
+    "eco_community_title": "Topluluk",
+    "eco_community_desc": "Uyumlanabilir zeka ile daha iyi yaşamlar, daha iyi müşteri sistemleri ve daha iyi yaratıcı iş akışları inşa eden insanlar için ortak bir öğrenme alanı.",
+    "eco_access_title": "Erken Erişim",
+    "eco_access_desc": "Saule Life, Saule Business, Saule Creative veya tüm platforma erişim talep edin.",
+    "section_tech_title": "Çekirdek Teknolojisi",
+    "tech_desc": "Tüm ürünler paylaşılan tek bir Saule Adaptive Intelligence Core tarafından desteklenmektedir:",
+    "tech_list": [
+      "Memory Engine",
+      "Pattern Engine",
+      "Learning Queue",
+      "Agent Runtime",
+      "Product-aware permissions",
+      "Workspace / org isolation",
+      "Product-specific memory boundaries"
+    ]
+  },
+  "business_page": {
+    "title": "Saule Business",
+    "subtitle": "İş için uyumlanabilir zeka.",
+    "positioning": "Müşteri etkileşimlerini belleğe, örüntülere, playbooklara, senaryolara, görevlere ve iyileştirme eylemlerine dönüştüren öğrenen bir CRM ve müşteri zekası sistemi.",
+    "features": [
+      "Müşteri 360",
+      "Şirket 360",
+      "Omnichannel Gelen Kutusu",
+      "Talepler (Tickets)",
+      "İçgörüler",
+      "Örüntü Belleği",
+      "Playbook'lar",
+      "Senaryolar (Scripts)",
+      "Görevler",
+      "SLA Öğrenimi",
+      "Sürekli İyileşen CRM"
+    ],
+    "cta": "Saule Business'a Giriş Yap",
+    "capabilities_title": "Yetenekler"
+  },
+  "creative_page": {
+    "title": "Saule Creative",
+    "subtitle": "Yaratım için uyumlanabilir zeka.",
+    "positioning": "Reklamcılık, pazarlama, marka stratejisi ve yaratıcı üretimden ilham alan yapay zeka tabanlı yaratıcı zeka çalışma alanı.",
+    "features": [
+      "Marka Belleği",
+      "Kampanya Belleği",
+      "Yaratıcı Brief'ler",
+      "Hedef Kitle İçgörüler",
+      "İçerik Fikirleri",
+      "Reklam Konseptleri",
+      "Kreatif Testler",
+      "Performans Öğrenimi",
+      "Yapay Zeka Reklam Ajansı İş Akışı"
+    ],
+    "cta": "Saule Creative'e Giriş Yap",
+    "capabilities_title": "Yetenekler"
   }
 }
