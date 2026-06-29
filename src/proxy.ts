@@ -4,27 +4,6 @@ import type { NextRequest } from 'next/server';
 const locales = ['en', 'tr', 'es', 'ru', 'zh-CN', 'ja', 'ko'];
 const defaultLocale = 'en';
 
-function getLocale(request: NextRequest) {
-  const acceptLanguage = request.headers.get('accept-language');
-  if (!acceptLanguage) return defaultLocale;
-
-  const requestedLocales = acceptLanguage.split(',').map((lang) => 
-    lang.split(';')[0].trim()
-  );
-
-  for (const locale of requestedLocales) {
-    if (locales.includes(locale)) {
-      return locale;
-    }
-    const shortLocale = locale.substring(0, 2).toLowerCase();
-    const matchedLocale = locales.find(l => l === shortLocale || l.startsWith(`${shortLocale}-`));
-    if (matchedLocale) {
-      return matchedLocale;
-    }
-  }
-  return defaultLocale;
-}
-
 export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
@@ -40,10 +19,9 @@ export function proxy(request: NextRequest) {
 
   if (pathnameHasLocale) return;
 
-  // Redirect to prepend the matched locale prefix
-  const locale = getLocale(request);
+  // Redirect to prepend the default locale prefix
   const url = request.nextUrl.clone();
-  url.pathname = `/${locale}${pathname === '/' ? '' : pathname}`;
+  url.pathname = `/${defaultLocale}${pathname}`;
   return NextResponse.redirect(url);
 }
 
