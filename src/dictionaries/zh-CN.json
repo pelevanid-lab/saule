@@ -146,6 +146,16 @@
       "title": "注意力危机",
       "purpose": "理解现代环境如何使注意力碎片化，以及 Saule 应如何保护而非争夺人的注意力。",
       "key_question": "当外部系统不断争夺注意力时，人如何重新获得对自身注意力的主导权？"
+    },
+    "open-loops": {
+      "title": "未闭环事项",
+      "purpose": "理解为什么未完成的意图会持续占据心智，以及 Saule 如何在不把生活变成任务清单的前提下，帮助人们获得有意义的收束。",
+      "key_question": "Saule 应如何帮助人们识别、重新审视、完成、委托、接受或有意识地放下仍未解决的事项？"
+    },
+    "escape-loops-and-addictions": {
+      "title": "逃避循环与成瘾",
+      "purpose": "探讨人为什么会为了逃离不堪重负而转向分心、冲动和麻木式循环，以及以人为中心的设计应当如何理解这些模式。",
+      "key_question": "为什么人会一次又一次回到那些能带来短暂缓解、却长期制造更多混乱的行为？"
     }
   },
   "community_page": {
@@ -300,7 +310,7 @@
     "card_life_title": "Saule Life",
     "card_life_desc": "Adaptive intelligence for life. Personal reflection, planning, journaling, coaching, and the Living Book-inspired life intelligence layer.",
     "card_business_title": "Saule Business",
-    "card_business_desc": "Adaptive intelligence for business. A learning CRM and customer intelligence system that turns tickets, feedback, customer conversations, and operations into memory, patterns, playbooks, scripts, and improvement actions.",
+    "card_business_desc": "Adaptive intelligence for business. A adaptive intelligence and corporate memory platform that turns tickets, feedback, customer conversations, and operations into memory, patterns, playbooks, scripts, and improvement actions.",
     "card_creative_title": "Saule Creative",
     "card_creative_desc": "Adaptive intelligence for creation. An AI creative intelligence workspace for campaigns, brand memory, creative briefs, content ideas, audience insights, advertising workflows, and creative performance learning.",
     "section_eco_title": "Core Ecosystem",
@@ -325,7 +335,7 @@
   "business_page": {
     "title": "Saule Business",
     "subtitle": "Adaptive intelligence for business.",
-    "positioning": "A learning CRM and customer intelligence system that helps companies turn customer interactions into memory, patterns, playbooks, scripts, tasks, and improvement actions.",
+    "positioning": "A adaptive intelligence and corporate memory platform that helps companies turn customer interactions into memory, patterns, playbooks, scripts, tasks, and improvement actions.",
     "features": [
       "客户360",
       "公司360",
@@ -337,7 +347,7 @@
       "脚本",
       "任务",
       "SLA学习",
-      "持续改进CRM"
+      "持续改进平台"
     ],
     "cta": "登录 Saule Business",
     "capabilities_title": "功能"

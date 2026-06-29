@@ -1,0 +1,249 @@
+{
+  "draft": {
+    "sections": [
+      {
+        "heading": "1. Başarısız Olan İnsan mı, Sistem mi?",
+        "paragraphs": [
+          "Üretkenlik sistemleri genellikle aynı vaadi farklı biçimlerde sunar: yapılacakları doğru yere yaz, öncelikleri belirle, zamanı bloklara ayır, alışkanlıkları izle, notları birbirine bağla ve düzenli gözden geçir. Bu yöntemlerin her biri belirli koşullarda yararlı olabilir. Bir liste çalışma belleğinin yükünü azaltabilir, takvim gerçek zaman sınırlarını görünür kılabilir, pano ortak işin durumunu gösterebilir, rutin ise tekrar eden kararları hafifletebilir.",
+          "Sorun, yöntemin hiçbir zaman işe yaramaması değildir. Sorun, yöntemin işe yaradığı koşullar ortadan kalktığında başarısızlığın çoğu kez kullanıcıya yazılmasıdır. İnsan sistemi sürdüremediğinde kendini düzensiz, iradesiz veya yetersiz sayar; oysa sistem de değişen kapasiteye, beklenmedik olaylara, duygusal yüke ve hayatın düzensiz ritmine uyum sağlayamamış olabilir.",
+          "Bu ayrım önemlidir. Bir araç, düzen kurmak için kendisine sürekli düzen verilmesini istiyorsa desteğin bir kısmını kullanıcıdan geri talep eder. Gelen kutusunu temizlemek, etiketleri korumak, tarihleri güncellemek, eski planları ayıklamak ve haftalık incelemeyi aksatmamak ikinci bir sorumluluk katmanı yaratır. Sistem, taşıması gereken yükün bir bölümüne dönüşebilir.",
+          "Dolayısıyla bu bölümün sorusu ‘en iyi üretkenlik yöntemi hangisidir?’ değildir. Daha temel soru şudur: İnsan hayatı değişkenken neden bu kadar çok sistem sabit kapasite, öngörülebilir zaman ve kesintisiz bakım varsayar? Bir yöntemin gerçek sınavı, kullanıcının en düzenli haftasında ne kadar güzel göründüğü değil; hastalık, bakım sorumluluğu, belirsizlik, yoğun iş, yas, taşınma veya yalnızca kötü bir gün geldiğinde ne yaptığıdır.",
+          "Bölümün merkez önermesi buradan çıkar: Güvenilir bir üretkenlik sistemi kusursuz itaati değil, toparlanabilirliği tasarlamalıdır. İnsan sistemden koptuğunda onu cezalandırmadan karşılamalı; neyin hâlâ geçerli olduğunu, neyin eskidiğini ve bugün hangi küçük yönün anlamlı olduğunu yeniden kurabilmelidir."
+        ]
+      },
+      {
+        "heading": "2. Niyet ile Davranış Arasında Gerçek Bir Boşluk Vardır",
+        "paragraphs": [
+          "Bir şeyi istemek, onun neden önemli olduğunu bilmek ve onu yapmaya karar vermek davranış için gereklidir; fakat her zaman yeterli değildir. Webb ve Sheeran’ın deneysel çalışmaları bir araya getiren meta-analizi, niyette orta ile büyük ölçekte bir değişimin davranışta daha küçük bir değişime karşılık gelebildiğini gösterdi. Bu bulgu, gündelik hayatta iyi tanınan bir gerçeği bilimsel olarak da ciddiye almamızı sağlar: İnsanlar yalnızca ne yapacaklarını bilmedikleri için zorlanmazlar.",
+          "Niyet ile eylem arasına başlama sürtünmesi, belirsiz ilk adım, duygusal kaçınma, çelişen hedefler, çevresel ipuçları, yorgunluk, başkasına bağımlılık ve gerçekçi olmayan zaman tahminleri girebilir. ‘Önceliğini seç’ komutu, kişi önceliği biliyor fakat ona yaklaşırken kaygı yaşıyorsa sorunu çözmez. ‘Takvime koy’ önerisi de görev başka birinin yanıtına veya henüz verilmemiş bir karara bağlıysa yalnızca belirsizliği tarihli hâle getirir.",
+          "Gollwitzer ve Sheeran’ın uygulama niyetleri üzerine meta-analizi, belirli bir durumu belirli bir davranışla bağlayan ‘eğer–o hâlde’ planlarının hedefe ulaşmayı destekleyebildiğini gösterir. Ancak bu, her niyetin daha ayrıntılı plana çevrilmesi gerektiği anlamına gelmez. Planın etkisi hedefe bağlılık, bağlam ve davranışın niteliğiyle değişir; isteksizliği, anlam çatışmasını veya yapısal imkânsızlığı yalnızca daha çok alt adıma bölerek gideremeyiz.",
+          "Üretkenlik araçları niyet-eylem boşluğunu yalnızca kayıt eksikliği gibi gördüğünde daha fazla liste, daha fazla hatırlatma ve daha fazla takip üretir. Oysa kullanıcının ihtiyacı bazen hatırlamak değil; görevin anlamını netleştirmek, duygusal eşiği düşürmek, bir başkasından yardım istemek, koşulu değiştirmek veya hedefin artık kendisine ait olmadığını kabul etmektir.",
+          "Saule bu boşluğu karakter kusuru olarak yorumlamamalıdır. ‘Bunu üç kez erteledin’ gözlemi mümkündür; ‘yeterince istemiyorsun’ sonucu değildir. Sistem niyeti, kapasiteyi, bağlamı ve sürtünmeyi ayrı ayrı görebilmeli; bilmediği nedeni kullanıcı adına tamamlamamalıdır."
+        ]
+      },
+      {
+        "heading": "3. İnsan Kapasitesi Sabit Bir Kaynak Değildir",
+        "paragraphs": [
+          "Birçok yöntem, dün yapılabilen bir şeyin bugün de aynı maliyetle yapılabileceğini varsayar. Oysa dikkat, çalışma belleği, engelleme, görev değiştirme ve planlama gibi yürütücü işlevler tek bir düğme değildir; birbirleriyle ilişkili ama ayrışabilen süreçlerdir. Miyake ve arkadaşlarının kurucu çalışması da yürütücü işlevlerin hem ortak hem ayrı bileşenler taşıdığını gösterir. ‘İrade’ sözcüğü bu çeşitliliği tek bir ahlaki ölçüye indirgediğinde açıklamak yerine bulanıklaştırabilir.",
+          "Kapasite gün içinde ve hayat dönemleri arasında değişir. Akut stresin yürütücü işlevler üzerindeki etkilerini inceleyen Shields ve arkadaşlarının meta-analizi, etkinin işlev türüne ve stresin özelliklerine göre değiştiğini; özellikle çalışma belleği ve bilişsel esneklik gibi alanlarda maliyetler görülebildiğini bildirir. Bu, herkes için aynı sonucu öngören basit bir yasa değildir; fakat üretkenliğin yalnızca niyet gücüyle açıklanamayacağını gösterir.",
+          "Uyku, ağrı, bakım yükü, ekonomik baskı, çatışma, yalnızlık, hastalık, yoğun uyarılma ve çevresel kesintiler aynı planın bugün daha pahalı hâle gelmesine yol açabilir. Kullanıcı geçen hafta on maddelik bir planı taşıdı diye bu hafta da taşıyabileceği varsayılamaz. Kapasite azalınca planı korumak için gereken bakım da artıyorsa sistem tam ihtiyaç anında ters yönde çalışır.",
+          "Burada dikkatli bir klinik sınır gerekir. Başlatma, zamanlama veya dikkat güçlüğü bazı nörogelişimsel ya da ruh sağlığı durumlarıyla ilişkili olabilir; fakat aynı davranışlar gündelik stres, kötü tasarlanmış iş, uykusuzluk veya geçici aşırı yük altında da ortaya çıkabilir. Saule birkaç erteleme kaydından tanı çıkaramaz, tedavi öneremez ve normal insan değişkenliğini hastalık diliyle açıklayamaz.",
+          "Daha dürüst ürün varsayımı şudur: Kapasite dalgalanır ve sistem bu dalgalanmayı kişiliğe dönüştürmemelidir. Bu, özellikle Saule Life için kurucu bir ilkedir: Bugün daha küçük bir plan önermek, kullanıcının standartlarını kalıcı olarak düşürmek değil; mevcut gerçeğe temas etmektir. Yarın koşullar değiştiğinde destek de yeniden değişebilmelidir."
+        ]
+      },
+      {
+        "heading": "4. Plan, Geleceğin Kendisi Değil Bir Tahmindir",
+        "paragraphs": [
+          "Plan yapmak geleceği düzenler; ama onu garanti etmez. Buehler, Griffin ve Ross’un planlama yanılgısı üzerine çalışmaları, insanların geçmişteki gecikmeleri bilmelerine rağmen kendi işlerinin tamamlanma sürelerini iyimser biçimde tahmin edebildiğini gösterdi. Plan, çoğu zaman sürprizsiz bir gelecek taslağıdır; gerçek hayat ise kesintiler, bağımlılıklar, yeniden çalışma ve duygusal maliyet içerir.",
+          "Takvim blokları bu nedenle kötü değildir; yalnızca gerçeğin kendisi değildir. İki saatlik bir ‘rapor yaz’ bloğu, gerekli verinin hazır olduğunu, görevin kapsamının anlaşılmış bulunduğunu, başka bir acil iş çıkmayacağını ve kişinin o saatte yazabilecek durumda olacağını varsayar. Bu varsayımlardan biri bozulduğunda plan bozulabilir; bozulma otomatik olarak kişinin başarısızlığı değildir.",
+          "Katı sistemler plan ile söz arasındaki farkı silebilir. Takvime konan her blok ahlaki taahhüt, her ertelenen madde tutulmamış söz, her kaçırılan rutin karakter kanıtı gibi hissedilmeye başlar. Böylece planın asıl işlevi olan yön verme yerini, geçmiş tahminleri savunma yüküne bırakır.",
+          "İş ortamında bu hata bireysel olmaktan çıkar. Bir ekip kapasiteyi dolu takvimler üzerinden planladığında görünmeyen koordinasyonu, müşteri sürprizlerini, bakım işini ve yeniden çalışmayı hesaba katmayabilir. Gecikme olduğunda sistem varsayımlarını incelemek yerine çalışanlardan daha hızlı koşmalarını ister. Yaratıcı süreçte ise keşif, kuluçka, başarısız deneme ve geri dönüş doğrusal kilometre taşlarına sığdırıldığında üretimin doğası bozulur.",
+          "Saule planları kesin emirler değil, gözden geçirilebilir modeller olarak tutmalıdır. Bir planın hangi varsayımlara dayandığını görünür kılmalı, koşul değiştiğinde sessizce suç biriktirmek yerine yeniden tahmin önermeli ve kullanıcının planı küçültmesine, taşımasına, dönüştürmesine veya bırakmasına izin vermelidir."
+        ]
+      },
+      {
+        "heading": "5. Dış Bellek Yardımcıdır; Fakat Güven ve Bakım İster",
+        "paragraphs": [
+          "İnsan zihni niyetleri dışarı taşıyarak kendine alan açar. Risko ve Gilbert’ın bilişsel dışsallaştırma incelemesi, insanların bilişsel talebi azaltmak için çevredeki fiziksel ve dijital araçlardan sistematik biçimde yararlandığını gösterir. Liste, takvim, not ve alarm bu açıdan zayıflık işareti değil; insan bilişinin çevreyle birlikte çalışma biçimidir.",
+          "Fakat bir niyeti dışarı aktarmak onu otomatik olarak güvenli kılmaz. Kayıt bulunamıyorsa, yanlış yerdeyse, bağlamı eskidiyse, tekrar eden kopyalara bölündüyse veya doğru zamanda geri gelmiyorsa kişi hem sisteme bakmak hem de zihninde hatırlamak zorunda kalır. Dış bellek destek olmak yerine çift kayıt düzeni yaratır.",
+          "Her yöntem kendi bakım dilini üretir: etiket taksonomisi, proje hiyerarşisi, klasör yapısı, pano sütunları, bağlantılı notlar, rutin şablonları ve gözden geçirme periyotları. Başlangıçta açıklık sağlayan bu yapı, hayat değiştikçe gerçeği temsil etmeyi bırakabilir. Eski öncelikler güncelmiş gibi kalır; tamamlanmış meseleler açık görünür; bir gün için yazılan notlar kalıcı borca dönüşür.",
+          "Bu bir bakım borcudur. Teknik borç gibi, ilk anda işleri hızlandıran kararlar zamanla ek düzeltme maliyeti üretir. Kullanıcı uygulamayı açtığında önce hayatına değil, sistemde birikmiş eski hayatına bakar. Gerçeğe dönmek için yüzlerce maddeyi temizlemesi gerekiyorsa araç destek eşiğini yükseltmiş olur.",
+          "Saule Core’un belleği bu nedenle yalnızca daha çok şeyi saklamamalıdır. Kaynağı, tarihi, güven düzeyi ve geçerlilik koşulu görülebilen bir bellek kurmalı; eskimeyi, birleştirmeyi, arşivlemeyi ve unutmayı doğal süreçler saymalıdır. Kullanıcı haftalar sonra döndüğünde ondan geçmiş bütün düzeni onarmasını istemek yerine, bugünkü gerçeği yeniden kurabileceği küçük bir başlangıç sunmalıdır."
+        ]
+      },
+      {
+        "heading": "6. Sistem Bakımı İkinci Bir İşe Dönüştüğünde",
+        "paragraphs": [
+          "Üretkenlik sistemi hayatı temsil etmek için kurulurken zamanla kendisinin temsil edilmesini talep edebilir. Görev tamamlanmıştır ama kutu işaretlenmemiştir; karar değişmiştir ama proje kartı güncellenmemiştir; toplantıda çözülmüş mesele hâlâ listede görünür. Sistem ile hayat arasındaki fark büyüdükçe kullanıcı iki dünyayı senkronize etmeye çalışır.",
+          "Bu ek iş her zaman görünür değildir. Bir görevi yapmanın yanında onu yakalamak, sınıflandırmak, tarihlendirmek, önceliklendirmek, taşımak, açıklamak ve kapatmak gerekir. Tek tek küçük görünen bu hareketler yüzlerce öğede çoğaldığında sistemin koordinasyon maliyeti asıl işe yaklaşabilir. Özellikle düşük kapasite dönemlerinde ‘önce sistemi toparla, sonra hayata dön’ sırası gerçekçi değildir.",
+          "Melissa Gregg, üretkenlik kültürünün kişiyi yalnızca işini yapan biri olmaktan çıkarıp kendi çalışma kapasitesini sürekli yöneten bir özneye dönüştürdüğünü anlatır. Judy Wajcman da hız kazandıran teknolojilerin her zaman daha fazla zaman hissi üretmediğini; beklentileri ve eşzamanlı talepleri büyütebildiğini gösterir. Araç zaman kazandırırken o zamanı yeni yükümlülüklerle yeniden doldurabilir.",
+          "Kurumlarda bakım borcu ortak panolar, CRM alanları, raporlama şablonları ve durum toplantıları üzerinden büyür. Her ekip görünürlük isterken çalışan aynı işi birden fazla sisteme anlatmak zorunda kalabilir. Saule Business için zekâ, daha çok alan doldurtmak değil; mevcut izlerden yeterli bağlamı çıkarabilmek, belirsizliği açıkça işaretlemek ve insanı tekrar veri girişi memuruna çevirmemektir.",
+          "Yaratıcı işte de benzer bir tuzak vardır. Fikirleri korumak için kurulan arşiv, her fikrin etiketlenmesi ve geliştirilmesi gereken bir koleksiyona dönüşebilir. Üretim yerine sistem kürasyonu yapılır. Saule Creative fikrin bağlamını saklayabilmeli; fakat her kıvılcımı projeye, her taslağı teslim borcuna ve her deneyi performans verisine çevirmemelidir."
+        ]
+      },
+      {
+        "heading": "7. Ölçüm Destekten Gözetleme Hissine Kayabilir",
+        "paragraphs": [
+          "Ölçüm belirsizliği azaltabilir. Tamamlanan görev sayısı, odak süresi, rutin devamlılığı veya proje akışı kişinin örüntüleri görmesine yardım edebilir. Fakat ölçülebilen şey kolayca amaç yerine geçtiğinde sistem insanın ne yaşadığını değil, arayüzün ne sayabildiğini optimize etmeye başlar.",
+          "Bir seri sayacı devamlılığı görünür kılarken tek bir aksamanın bütün ilerlemeyi silmiş gibi hissedilmesine yol açabilir. Tamamlama oranı yükselirken kullanıcı yalnızca kolay işleri seçebilir. Odak süresi artarken yanlış probleme daha uzun süre bakılıyor olabilir. Gelen kutusu boşalırken önemli bir ilişki veya zor bir karar hâlâ açık kalabilir. Metrik doğru olabilir; ama temsil ettiği anlam eksik olabilir.",
+          "Li, Dey ve Forlizzi’nin kişisel bilişim modeli, öz izleme sistemlerinde hazırlık, veri toplama, bütünleştirme, yansıtma ve eylemin ayrı zorluklar taşıdığını gösterir. Epstein ve arkadaşlarının ‘yaşanan bilişim’ modeli ise izlemeye ara verme, bırakma ve yeniden başlama dönemlerinin gerçek kullanımın normal parçaları olduğunu vurgular. Kesintisiz veri, insan hayatının doğal biçimi değil; ürünün arzu ettiği özel bir durumdur.",
+          "Bu nedenle boşluk her zaman başarısızlık veya risk sinyali değildir. Kişi tatile çıkmış, yas yaşamış, cihaz değiştirmiş, izlemekten yorulmuş veya artık ölçmeye ihtiyaç duymamış olabilir. Saule veri yokluğunu kullanıcı hakkında olumsuz bir hükümle doldurmamalı; ‘bu dönemde ne olduğunu bilmiyorum’ diyebilmelidir.",
+          "İyi ölçüm kullanıcıya geri verilir: Neden toplandığı anlaşılır, nasıl yorumlandığı görünür, düzeltilebilir ve gerektiğinde kapatılabilir. Başarı, uygulamada geçirilen süre veya kesintisiz seriyle değil; kişinin daha az bakım yaparak daha net yön bulması, daha gerçekçi karar vermesi ve istemediği izlemeyi kolayca durdurabilmesiyle değerlendirilmelidir."
+        ]
+      },
+      {
+        "heading": "8. Rutinler Bağlama Bağlıdır, İnsan Kimliği Değildir",
+        "paragraphs": [
+          "Alışkanlıklar tekrar eden davranışı daha az müzakereyle başlatabildiği için değerlidir. Wood ve Rünger’in incelemesi, alışkanlıkların istikrarlı bağlamlarda tekrar edilen tepkiler olarak geliştiğini ve amaçlı davranışla birlikte çalışabildiğini anlatır. Bu bakış, rutini yalnızca iradenin zaferi olarak görmekten daha gerçekçidir: Davranışı taşıyan kişi kadar onu çağıran çevre de vardır.",
+          "Lally ve arkadaşlarının gerçek yaşamda alışkanlık oluşumunu izleyen çalışması, otomatikleşme süresinin davranışlar ve insanlar arasında geniş ölçüde değiştiğini; tek bir davranışın bir kez kaçırılmasının süreci otomatik olarak bozmadığını gösterdi. Buna rağmen popüler sistemler sık sık evrensel süreler ve kırılmaması gereken seriler sunar. Değişken bir öğrenme süreci, katı bir sadakat sınavına çevrilir.",
+          "Taşınma, yeni iş, vardiya değişimi, çocuk sahibi olma, hastalık veya ekip yapısındaki dönüşüm eski ipuçlarını ortadan kaldırabilir. Önceden zahmetsiz olan rutin birden zorlaşır. Bu, kişinin eski kimliğini kaybettiğini değil; davranışı taşıyan bağlamın değiştiğini gösterebilir.",
+          "Saule bir rutinin aksamasını hemen motivasyon düşüşü olarak yorumlamamalıdır. Önce bağlamı sormalıdır: Zaman, yer, araç, enerji, sosyal destek veya görevin anlamı değişti mi? Rutin hâlâ değerli mi? Aynı işlevi gören daha uygun bir biçim var mı? Bazen doğru hareket eski zinciri onarmak, bazen yeni bir ipucu kurmak, bazen de rutini sona erdirmektir.",
+          "İnsan rutininin bekçisi olmak zorunda değildir. Rutin insana hizmet ettiği sürece değerlidir. Saule’nin görevi seriyi korumak değil; davranış ile değer arasındaki bağı korumak, kırılma olduğunda geri dönüşü küçültmek ve artık yaşamayan alışkanlıkları suç üretmeden bırakabilmektir."
+        ]
+      },
+      {
+        "heading": "9. Dış Disiplin İç Yönün Yerini Tutmaz",
+        "paragraphs": [
+          "Bir sistem çok iyi yapılandırılmış olabilir ve yine de kullanıcı için yanlış yöne çalışabilir. İnsan başkasının hedefini verimli biçimde sürdürebilir, anlamını kaybetmiş bir projeyi kusursuz yönetebilir veya yalnızca suçluluktan doğan bir rutini aylarca koruyabilir. Düzen, tek başına doğruluk değildir.",
+          "Ryan ve Deci’nin öz belirleme kuramı, davranışın niteliğini yalnızca miktarıyla değil; özerklik, yeterlik ve ilişki ihtiyaçlarıyla birlikte ele alır. Dış baskıyla sürdürülen davranış ile kişi tarafından benimsenmiş davranış aynı görünse bile aynı deneyimi üretmez. Kontrol edici ödül, tehdit veya suçluluk kısa vadede hareket yaratabilir; fakat ürünün amacı insanı kendi iradesinden uzaklaştıran sürekli bir dış yönetim kurmak olmamalıdır.",
+          "Üretkenlik uygulamaları bildirim, puan, seri, rozet, kırmızı gecikme işareti ve yapay aciliyetle dış baskıyı büyütebilir. Kullanıcı nedenini düşünmeden yalnızca sistemin huzursuzluğunu susturmak için görev kapatmaya başlar. Böyle bir araç düzenli kullanım elde edebilir; fakat kullanıcının yön duygusunu zayıflatabilir.",
+          "Saule öneri ile emir arasındaki farkı korumalıdır. Bir sonraki adımı neden önerdiğini açıklayabilmeli, belirsizliğini görünür kılmalı ve ‘şimdi değil’, ‘bu yanlış’, ‘bunu istemiyorum’ yanıtlarını sistem hatası saymamalıdır. Kullanıcının veto hakkı, zekânın önündeki engel değil; güvenilir uyumlanmanın veri kaynağıdır.",
+          "Özerklik sınırsız yalnızlık anlamına gelmez. İnsan bazen yapı, hatırlatma, ortak sorumluluk ve kararlı bir sınır ister. Önemli olan desteğin açık rızayla kurulması, gerektiğinde gevşetilebilmesi ve kişinin kendi nedenlerini güçlendirmesidir. Saule insan adına irade üretmemeli; iradenin yeniden duyulabileceği koşulları desteklemelidir."
+        ]
+      },
+      {
+        "heading": "10. Tek Bir Sistem Hayatın Bütün Türlerini Taşıyamaz",
+        "paragraphs": [
+          "Görev, karar, bekleme, ilişki, bakım, araştırma, fikir, yas ve dinlenme aynı tür öğeler değildir. Hepsini yapılacaklar listesine çevirmek görünürde birlik sağlar; fakat gerçek farklılıkları siler. ‘Faturayı öde’ tamamlanabilir bir eylemdir. ‘Babamla ilişkimi düşün’, ‘ürünün yönünü seç’ veya ‘roman için doğru sesi bul’ aynı kapanış mantığına uymaz.",
+          "Bu hata bireysel yaşamda duyguları göreve, ilişkileri takibe ve dinlenmeyi ödüle dönüştürür. İnsan ancak işlerini bitirince yaşamaya hakkı varmış gibi hisseder. Oysa bazı meseleler çözülmez; taşınır, konuşulur, beklenir, kabul edilir veya zamanla biçim değiştirir. Sağlıklı sistem, tamamlanamaz olanı sonsuz gecikmiş görev gibi göstermemelidir.",
+          "Kurumlarda da işin tamamı kartlara sığmaz. Güven kurma, yeni bir ekip arkadaşına bağlam aktarma, gerilimi erken fark etme, müşterinin söylemediği ihtiyacı anlama ve kararların ardındaki gerekçeyi koruma ölçülmesi zor ama gerçek emektir. Saule Business görünürlüğü artırırken görünmeyen emeği değersizleştirmemeli; kolay sayılan çıktıları insan ilişkilerinin yerine koymamalıdır.",
+          "Yaratıcı üretim daha da doğrusal değildir. Araştırma bazen ilerleme, bazen kaçınma; boşluk bazen kuluçka, bazen kopuş; revizyon bazen derinleşme, bazen mükemmeliyetçilik olabilir. Saule Creative bu farkları yalnızca zaman ve çıktı sayısından çıkaramaz. Kişinin yorumu, eserin aşaması ve bağlamın niteliği belirleyici kalmalıdır.",
+          "Uyumlanabilir sistem her şeyi tek şemaya sokmaz. Öğenin ne tür bir son istediğini, sahipliğin kimde olduğunu ve bugün hangi müdahalenin gerçekten yararlı olacağını ayırt etmeye çalışır. Bazen konuşur, bazen yalnızca bağlamı saklar, bazen de hiçbir öneri üretmeden sessiz kalır."
+        ]
+      },
+      {
+        "heading": "11. Saule Core İçin İlke: Kusursuz Sistem Değil, Güvenilir Dönüş",
+        "paragraphs": [
+          "Mevcut üretkenlik sistemlerinin ortak kırılma noktası, insanı sabit ve sistemi sürekli güncel varsaymalarıdır. Hayat bu varsayımları bozduğunda bakım borcu, suçluluk ve veri eskimesi birlikte büyür. Kullanıcı çoğu zaman yöntemi terk etmez; yöntemin içinde birikmiş eski benliğiyle karşılaşmaktan kaçınır.",
+          "Saule Core’un farkı daha fazla plan üretmek olamaz. Önce kişinin bugün nerede olduğunu, hangi kayıtların hâlâ geçerli sayılabileceğini, hangi açık döngünün gerçekten önemli olduğunu ve desteğin ne kadarına izin verildiğini anlamaya çalışmalıdır. Çıkarım yaptığında dayanağını göstermeli; kullanıcı düzeltince eski hükmü korumamalıdır.",
+          "Sistem zarifçe bozulabilmelidir. Birkaç gün veri gelmediğinde alarm diline geçmemeli, haftalar sonra geri dönen kişiyi dev bir temizlikle karşılamamalı, eski planları otomatik olarak bugünün borcu saymamalıdır. Önce küçük bir yeniden giriş sunmalıdır: ‘O zamandan beri ne değişti? Bunlardan hangisi hâlâ senin? Bugün yalnızca neyi korumak istersin?’",
+          "Klinik ve etik sınır burada da korunur. Sürekli erteleme, dağınıklık veya rutin kaybı bir tanı değildir. Saule, nedenini bilmediği davranışı hastalık, tembellik ya da motivasyon eksikliği diye etiketleyemez. Kullanıcı belirgin işlev kaybı veya yoğun sıkıntı ifade ettiğinde ürün kendi sınırını bilmeli ve uygun insan desteğini teşvik edebilmelidir; fakat gündelik değişkenliği gereksiz yere patolojikleştirmemelidir.",
+          "Başarı ölçütü daha çok görev, daha uzun seri veya daha sık uygulama açılışı değildir. Daha insani ölçütler şunlardır: Kullanıcı koptuğunu daha erken fark edebiliyor mu? Sisteme dönerken daha az suçluluk ve daha az bakım yükü yaşıyor mu? Bugünün gerçeğini geçmiş planlardan ayırabiliyor mu? Önemli olana daha dürüst biçimde yeniden bağlanabiliyor mu?",
+          "Bölüm 7’nin tasarım sonucu budur: İyi sistem insanı kendi bakımına bağımlı kılan sistem değil, insanın hayatına geri dönmesini kolaylaştıran sistemdir. Saule Core düzenin efendisi değil; bağlam değiştiğinde yönü yeniden kuran, gerektiğinde hafızasını gevşeten ve son sözü insanda bırakan uyumlanabilir bir zekâ olmalıdır."
+        ]
+      }
+    ],
+    "open_questions": [
+      {
+        "id": "pf-1",
+        "question": "Saule kullanıcının geri dönüşünde hangi kayıtları güncel varsaymalı, hangilerini yeniden doğrulamalıdır?",
+        "status": "open",
+        "decisionArea": "Yeniden Giriş",
+        "answeredInChapters": [
+          "Bölüm 22 — Unutma",
+          "Bölüm 25 — Uyumlanabilir Bellek"
+        ]
+      },
+      {
+        "id": "pf-2",
+        "question": "Azalan kapasite, geçici bağlam değişimi ve hedefin anlamını yitirmesi birbirinden nasıl ayrılmalıdır?",
+        "status": "open",
+        "decisionArea": "Kapasite ve Anlam",
+        "answeredInChapters": [
+          "Bölüm 16 — Anlam",
+          "Bölüm 19 — Uyumlanabilir Zekâ"
+        ]
+      },
+      {
+        "id": "pf-3",
+        "question": "Bir planın bakım maliyeti kullanıcı için ne zaman sağladığı açıklığı aşmış sayılmalıdır?",
+        "status": "open",
+        "decisionArea": "Bakım Bütçesi",
+        "answeredInChapters": [
+          "Bölüm 19 — Uyumlanabilir Zekâ",
+          "Bölüm 31 — Planlama Zekâsı"
+        ]
+      },
+      {
+        "id": "pf-4",
+        "question": "Sistem, eski görevleri kullanıcıyı tek tek savunmaya zorlamadan nasıl eskitebilir veya topluca yeniden değerlendirebilir?",
+        "status": "open",
+        "decisionArea": "Kademeli Eskime",
+        "answeredInChapters": [
+          "Bölüm 22 — Unutma",
+          "Bölüm 36 — Mühendislik İlkeleri"
+        ]
+      },
+      {
+        "id": "pf-5",
+        "question": "Öneri, hatırlatma ve kontrol edici baskı arasındaki ürün sınırı hangi kullanıcı denetimleriyle korunmalıdır?",
+        "status": "open",
+        "decisionArea": "İrade ve Rıza",
+        "answeredInChapters": [
+          "Bölüm 20 — Güven",
+          "Bölüm 24 — İrade"
+        ]
+      },
+      {
+        "id": "pf-6",
+        "question": "Ölçüm boşluğu hangi durumlarda anlamlı bir sinyal, hangi durumlarda yalnızca bilinmeyen olarak kalmalıdır?",
+        "status": "open",
+        "decisionArea": "Ölçüm Tevazusu",
+        "answeredInChapters": [
+          "Bölüm 23 — Etik",
+          "Bölüm 34 — Saule’nin Kendi Zekâsı"
+        ]
+      },
+      {
+        "id": "pf-7",
+        "question": "Ortak iş sistemlerinde görünürlük ihtiyacı ile çalışanların veri girişi ve gözetlenme yükü nasıl dengelenmelidir?",
+        "status": "open",
+        "decisionArea": "Business Bağlamı",
+        "answeredInChapters": [
+          "Bölüm 23 — Etik",
+          "Bölüm 37 — Gizlilik"
+        ]
+      },
+      {
+        "id": "pf-8",
+        "question": "Yaratıcı kuluçka, kaçınma ve yön kaybı kullanıcı yorumu dışında hangi dikkatli sinyallerle ayırt edilebilir?",
+        "status": "open",
+        "decisionArea": "Creative Bağlamı",
+        "answeredInChapters": [
+          "Bölüm 15 — Yansıtma",
+          "Bölüm 26 — Bağlam Motoru"
+        ]
+      },
+      {
+        "id": "pf-9",
+        "question": "Saule’nin hiç konuşmaması, bir öneri sunmasından daha yararlı olduğunda bunu hangi eşikler belirlemelidir?",
+        "status": "open",
+        "decisionArea": "Sessiz Destek",
+        "answeredInChapters": [
+          "Bölüm 20 — Güven",
+          "Bölüm 33 — Ses"
+        ]
+      },
+      {
+        "id": "pf-10",
+        "question": "Toparlanabilirlik; görev sayısı ve uygulama kullanımı yerine hangi insani ve kullanıcı tarafından doğrulanabilir ölçütlerle izlenmelidir?",
+        "status": "open",
+        "decisionArea": "Başarı Ölçütleri",
+        "answeredInChapters": [
+          "Bölüm 23 — Etik",
+          "Bölüm 39 — İş Modeli"
+        ]
+      }
+    ],
+    "design_decisions": [
+      "Saule üretkenlik güçlüğünü otomatik olarak irade, karakter veya motivasyon eksikliği diye yorumlamamalıdır.",
+      "Sistem insan kapasitesini sabit değil; bağlama ve zamana göre değişken kabul etmelidir.",
+      "Planlar kesin sözler olarak değil, dayandıkları varsayımlarla birlikte güncellenebilir tahminler olarak tutulmalıdır.",
+      "Kullanıcının sisteme geri dönüşü, geçmiş bütün birikimi temizleme koşuluna bağlanmamalıdır.",
+      "Bellek kayıtları kaynak, tarih, güven ve geçerlilik bilgisi taşımalı; eskime, birleştirme, arşivleme ve silme kullanıcı denetiminde olmalıdır.",
+      "Veri yokluğu olumsuz bir kişilik veya risk çıkarımıyla doldurulmamalıdır.",
+      "Seriler, puanlar ve tamamlama oranları kullanıcı üzerinde kontrol edici baskı kuracak biçimde temel başarı ölçütüne dönüştürülmemelidir.",
+      "Rutin bozulduğunda önce bağlam değişikliği araştırılmalı; eski rutini onarmak tek varsayılan çözüm olmamalıdır.",
+      "Öneriler gerekçelendirilebilir, reddedilebilir, ertelenebilir ve kullanıcı tarafından düzeltilebilir olmalıdır.",
+      "Life, Business ve Creative bağlamlarında ortak uyum ilkesi korunmalı; fakat görev, ilişki, ortak iş ve yaratıcı süreç tek bir şemaya zorlanmamalıdır.",
+      "Saule gündelik zorlanmaları klinik tanıya dönüştürmemeli; belirgin sıkıntı veya işlev kaybında kendi sınırını bilerek insan desteğine alan açmalıdır.",
+      "Başarı, kusursuz sürdürmeyle değil; daha az bakım borcu, daha güvenilir yön bulma, daha nazik yeniden giriş ve korunmuş kullanıcı iradesiyle değerlendirilmelidir."
+    ],
+    "future_evolution": "Bu bölüm ileride Saule Core’un toparlanabilirlik mimarisine dönüştürülecektir: plan varsayımları, bakım bütçesi, veri eskime eşikleri, kapasiteye duyarlı görünüm, düşük baskılı yeniden giriş, kullanıcı veto sinyalleri ve sessiz destek kipleri biçimsel olarak tanımlanacaktır. Saule Life için hayat geçişleri ve kişisel kapasite değişimleri; Saule Business için ortak sistemlerde görünürlük, koordinasyon ve veri girişi yükü; Saule Creative için doğrusal olmayan üretim, kuluçka ve yaratıcı geri dönüş yolları ayrı örüntülerle ele alınacaktır. Ürün değerlendirmesinde görev tamamlama ve etkileşim metriklerinin yanına kullanıcı tarafından doğrulanan yön açıklığı, bakım yükü, geri dönüş kolaylığı, baskı hissi ve öneriyi reddetme güvenliği eklenecektir.",
+    "references": [
+      "Webb, T. L., & Sheeran, P. (2006). Does changing behavioral intentions engender behavior change? A meta-analysis of the experimental evidence. Psychological Bulletin, 132(2), 249–268. https://doi.org/10.1037/0033-2909.132.2.249",
+      "Gollwitzer, P. M., & Sheeran, P. (2006). Implementation intentions and goal achievement: A meta-analysis of effects and processes. Advances in Experimental Social Psychology, 38, 69–119. https://doi.org/10.1016/S0065-2601(06)38002-1",
+      "Miyake, A., Friedman, N. P., Emerson, M. J., Witzki, A. H., Howerter, A., & Wager, T. D. (2000). The unity and diversity of executive functions and their contributions to complex ‘frontal lobe’ tasks: A latent variable analysis. Cognitive Psychology, 41(1), 49–100. https://doi.org/10.1006/cogp.1999.0734",
+      "Shields, G. S., Sazma, M. A., & Yonelinas, A. P. (2016). The effects of acute stress on core executive functions: A meta-analysis and comparison with cortisol. Neuroscience & Biobehavioral Reviews, 68, 651–668. https://doi.org/10.1016/j.neubiorev.2016.06.038",
+      "Buehler, R., Griffin, D., & Ross, M. (1994). Exploring the planning fallacy: Why people underestimate their task completion times. Journal of Personality and Social Psychology, 67(3), 366–381. https://doi.org/10.1037/0022-3514.67.3.366",
+      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. Trends in Cognitive Sciences, 20(9), 676–688. https://doi.org/10.1016/j.tics.2016.07.002",
+      "Li, I., Dey, A., & Forlizzi, J. (2010). A stage-based model of personal informatics systems. Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, 557–566. https://doi.org/10.1145/1753326.1753409",
+      "Epstein, D. A., Ping, A., Fogarty, J., & Munson, S. A. (2015). A lived informatics model of personal informatics. Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing, 731–742. https://doi.org/10.1145/2750858.2804250",
+      "Wood, W., & Rünger, D. (2016). Psychology of habit. Annual Review of Psychology, 67, 289–314. https://doi.org/10.1146/annurev-psych-122414-033417",
+      "Lally, P., van Jaarsveld, C. H. M., Potts, H. W. W., & Wardle, J. (2010). How are habits formed: Modelling habit formation in the real world. European Journal of Social Psychology, 40(6), 998–1009. https://doi.org/10.1002/ejsp.674",
+      "Ryan, R. M., & Deci, E. L. (2000). Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being. American Psychologist, 55(1), 68–78. https://doi.org/10.1037/0003-066X.55.1.68",
+      "Gregg, M. (2018). Counterproductive: Time Management in the Knowledge Economy. Duke University Press. https://doi.org/10.1215/9781478002390",
+      "Wajcman, J. (2015). Pressed for Time: The Acceleration of Life in Digital Capitalism. University of Chicago Press."
+    ]
+  }
+}

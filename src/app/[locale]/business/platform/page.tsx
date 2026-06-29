@@ -1,4 +1,4 @@
-import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+import BusinessPlatformSite from '@/components/business-site/BusinessPlatformSite';
 import type { Metadata } from 'next';
 
 export async function generateMetadata({
@@ -35,5 +35,5 @@ export default async function Page({
 }) {
   const { locale } = await params;
 
-  return <BusinessCrmSite locale={locale} page="home" />;
+  return <BusinessPlatformSite locale={locale} page="home" />;
 }

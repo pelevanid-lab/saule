@@ -1,0 +1,264 @@
+{
+  "draft": {
+    "sections": [
+      {
+        "heading": "1. Karar Vermek En İyi Seçeneği Hesaplamak Değildir",
+        "paragraphs": [
+          "Karar verme çoğu zaman seçenekleri sıralayıp en yüksek puanı alanı seçmek gibi anlatılır. Bu model bazı dar problemlerde işe yarar; fakat hayat kararlarının çoğunda seçenekler tam değildir, sonuçların olasılığı bilinmez, ölçütler birbiriyle çatışır ve kararın anlamı seçim yapıldıkça değişir. İnsan yalnızca cevap bulmaz; neyin soru sayılacağına da karar verir.",
+          "Hangi işe başvurulacağı, bir ilişkinin sürdürülüp sürdürülmeyeceği, hangi müşterinin önceliklendirileceği veya bir eserin ne zaman tamam sayılacağı tek bir ortak ölçekte hesaplanamaz. Para, güven, zaman, aidiyet, merak, bakım, itibar ve özgürlük aynı birim değildir. Karar çoğu kez üstün seçeneği keşfetmekten çok, hangi ödünleşimle yaşamaya razı olduğumuzu anlamaktır.",
+          "Bu yüzden karar sonrasındaki rahatsızlık, kararın yanlış olduğunun kanıtı değildir. Değerli bir seçeneği seçmek, vazgeçilen diğer değerli seçeneklerin kaybını ortadan kaldırmaz. İyi karar da yas, kuşku veya pişmanlık ihtimali taşıyabilir. Sistem, bütün kararsızlığı bilgi eksikliği sayarsa insani ödünleşimi sonsuz araştırmaya çevirir.",
+          "Bölümün merkez sorusu ‘Saule kullanıcı adına daha doğru karar verebilir mi?’ değildir. Daha temel soru şudur: Saule belirsizliği ve değer çatışmasını gizlemeden, seçenekleri anlaşılır kılarak ve son sözü insanda bırakarak karar kalitesini nasıl destekleyebilir?",
+          "Saule Core için karar zekâsı, insanın yerine seçim yapan otorite olmak değil; kararın türünü, dayandığı varsayımları, etkilediği kişileri, geri dönüş imkânını ve bilinmeyenleri görünür kılan bir yön bulma desteği olmaktır."
+        ]
+      },
+      {
+        "heading": "2. Sınırlı Rasyonellik Bir Kusur Değil, Başlangıç Koşuludur",
+        "paragraphs": [
+          "İnsanların her seçeneği, her sonucu ve her olasılığı hesaplamasını bekleyen model gerçek hayat için fazla güçlüdür. Herbert Simon’ın sınırlı rasyonellik yaklaşımı, karar veren kişinin sınırlı bilgi, zaman ve hesaplama kapasitesi içinde hareket ettiğini vurgular. İnsan çoğu zaman mutlak en iyiyi değil, gereksinimleri yeterince karşılayan bir seçeneği bulduğunda aramayı durdurur.",
+          "‘Yeterince iyi’ karar tembellik değildir. Aramaya devam etmenin de zaman, dikkat ve fırsat maliyeti vardır. On restoranı daha karşılaştırmak akşamı iyileştirmeyebilir; yüz yeni ürün özelliğini değerlendirmek stratejiyi berraklaştırmayabilir; her olası yaratıcı yönü açık tutmak tek bir eserin derinleşmesini engelleyebilir.",
+          "Fakat yeterlilik eşiği her kararda aynı olamaz. Geri alınabilir, düşük maliyetli ve öğrenme üreten bir seçim erken denenebilir. Sağlık, güvenlik, hukuki hak, büyük finansal yük veya başkalarının yaşamı üzerinde ağır sonuç taşıyan karar daha fazla doğrulama ve uzmanlık isteyebilir. Hız, kararın kendisinden bağımsız bir erdem değildir.",
+          "Saule önce ‘en iyi seçenek hangisi?’ diye sormak yerine kararın ne kadar iyi olması gerektiğini netleştirebilir. Hata maliyeti ne? Beklemenin maliyeti ne? Hangi bilgi sonucu gerçekten değiştirebilir? Hangi belirsizlik daha çok araştırmayla azalmaz? Bu sorular, sonsuz bilgi toplamayı karar desteğinden ayırır.",
+          "Sınırlı rasyonelliği kabul etmek, insanı küçültmez; ürünün iddiasını doğru ölçüye getirir. Saule bütün hayatı hesaplayamaz. Yapabileceği şey, sınırlı dikkat içinde en anlamlı karşılaştırmayı kurmak ve bilinmeyeni biliniyormuş gibi sunmamaktır."
+        ]
+      },
+      {
+        "heading": "3. Sezgi ile Düşünme İki Ayrı İnsan Değildir",
+        "paragraphs": [
+          "Karar bilimi hızlı, otomatik süreçlerle daha yavaş ve çalışma belleği isteyen süreçleri ayırır. Bu ayrım yararlıdır; fakat zihinde sırayla çalışan iki küçük yönetici varmış gibi anlaşılmamalıdır. Evans ve Stanovich, ikili süreç kuramlarını tartışırken süreç türlerini ayırmanın önemini vurgular; her hızlı karar irrasyonel, her yavaş karar da doğru değildir.",
+          "Sezgiler geçmiş deneyimin sıkıştırılmış örüntülerini taşıyabilir. Gigerenzer ve Gaissmaier’in sezgisel kararlar üzerine incelemesi, az bilgi kullanan basit kuralların bazı çevrelerde hızlı ve etkili olabildiğini gösterir. Sezgisel kestirme, yalnızca eksik düşünmenin adı değildir; çevreye iyi uyduğunda verimli bir karar aracı olabilir.",
+          "Ama sezginin güvenilirliği alanla birlikte değişir. Kahneman ve Klein’ın ortak değerlendirmesi, sezgisel uzmanlığın düzenli örüntüler ve zamanında, geçerli geri bildirim bulunan ortamlarda gelişebileceğini; sonuçları rastlantılı, gecikmeli veya görünmez alanlarda ise öz güvenin uzmanlıkla karıştırılabileceğini belirtir. Yıllarca karar vermiş olmak, sonuçlardan öğrenme imkânı yoksa tek başına yeterli değildir.",
+          "Ayrıntılı analiz de kendi sorunlarını taşır. Yanlış varsayımları daha çok sütuna yayabilir, önemsiz ölçütleri kesin sayılarla büyütebilir ve duygusal ya da ilişkisel bedelleri hesap dışı bırakabilir. Karmaşık tablo, kararın nesnel olduğu izlenimini yaratırken seçilen ölçütlerin zaten değer yargısı taşıdığını gizleyebilir.",
+          "Saule karar kipini sonuca göre seçmelidir. Tanıdık ve geri bildirimli bir alanda deneyimli sezgiyi ifade etmeye alan açabilir; yeni, yüksek etkili veya yanıltıcı kesinlik taşıyan bir kararda varsayımları yavaşça açabilir. Ama ‘sezgin yanlış’ veya ‘daha çok düşünürsen doğruyu bulursun’ diye peşin hüküm vermemelidir."
+        ]
+      },
+      {
+        "heading": "4. Seçenek Mimarisi Karardan Önce Başlar",
+        "paragraphs": [
+          "İnsan yalnızca seçenekler arasında karar vermez; seçeneklerin nasıl sunulduğu içinde karar verir. Sıralama, varsayılan, önceden işaretli kutu, görünürlük, karşılaştırma ölçütü, zaman baskısı ve çıkış yolu seçimi biçimlendirir. Tarafsız görünen arayüz bile bir tercih mimarisi kurar.",
+          "Johnson ve Goldstein’ın organ bağışı varsayılanları üzerine çalışması, hiçbir eylem yapılmadığında geçerli olan seçeneğin sonuçlar üzerinde ne kadar güçlü olabileceğini gösteren klasik örneklerden biridir. Varsayılan kolaylık sağlayabilir; aynı zamanda atalet, ima edilen öneri veya işlem maliyeti yoluyla insanları fark etmeden belirli bir yönde tutabilir.",
+          "Daha çok seçenek de her zaman daha çok özgürlük anlamına gelmez; fakat ‘fazla seçenek insanı mutlaka felç eder’ genellemesi de kanıtı aşar. Scheibehenne, Greifeneder ve Todd’un meta-analizi seçim yükünün ortalama etkisini sıfıra yakın bulurken çalışmalar arasında büyük farklılık saptadı. Seçenek sayısının etkisi, tercihlerin netliğine, görevin zorluğuna, zaman baskısına ve seçeneklerin nasıl yapılandırıldığına bağlıdır.",
+          "Bu nedenle Saule seçenekleri otomatik olarak azaltmamalıdır. Önce kullanıcının neyi karşılaştırmaya çalıştığını anlamalıdır. Beş benzer seçenek gereksiz yük olabilir; elli iyi filtrelenmiş seçenek ise uzman bir kullanıcı için değerli olabilir. Daraltma işlemi hangi ölçüte göre yapıldığını göstermeli ve dışarıda kalanları geri getirme yolu sunmalıdır.",
+          "Etik varsayılan görünür, gerekçeli ve kolayca değiştirilebilirdir. Saule’nin önerdiği seçenek ticari ortaklık, veri toplama avantajı veya etkileşim hedefi nedeniyle öne çıkıyorsa bu yalnızca açıklanması gereken bir ayrıntı değil, karar desteğinin güvenilirliğini etkileyen çıkar çatışmasıdır."
+        ]
+      },
+      {
+        "heading": "5. Risk ile Belirsizlik Aynı Şey Değildir",
+        "paragraphs": [
+          "Bazı kararlarda olası sonuçlar ve yaklaşık olasılıklar bilinir; bazılarında ise hangi sonuçların mümkün olduğu bile eksiktir. Risk, tanımlanmış olasılıklarla çalışabilir. Belirsizlik ve özellikle muğlaklıkta olasılıkların kendisi güvenilir değildir. Hayat kararlarının çoğu ikinci alana daha yakındır.",
+          "Ellsberg’in klasik çalışması, insanların olasılığı bilinen risklerle olasılığı belirsiz seçeneklere aynı biçimde yaklaşmadığını gösterdi. Bu fark irrasyonellik etiketiyle kapatılmamalıdır. Olasılık hakkında bilgisizlik, sonuç hakkındaki riskten ayrı bir bilgi sorunudur ve karar desteği bunu görünür kılmalıdır.",
+          "Saule tek bir tahmin yüzdesi vererek belirsizliği gizlememelidir. Tahminin veri kaynağı, örnek büyüklüğü, güncelliği, hangi koşullarda geçerli olduğu ve hangi önemli etkenleri kapsamadığı anlaşılır olmalıdır. Kesinlik mümkün değilse aralıklar, senaryolar ve ‘bilmiyoruz’ ifadesi daha dürüst olabilir.",
+          "Belirsizlik altında bazen daha fazla bilgi toplamak, bazen küçük bir deney yapmak, bazen güvenlik payı bırakmak, bazen de karar tarihini ertelememek gerekir. Her bilinmeyeni araştırmaya açmak karar vermeyi sonsuza uzatır. Asıl soru, hangi yeni bilginin seçimi gerçekten değiştireceğidir.",
+          "Yaratıcı üretimde belirsizlik çoğu zaman ortadan kaldırılacak kusur değil, işin malzemesidir. Henüz var olmayan bir eserin etkisi hesaplanamaz. Saule Creative bütün belirsizliği risk puanına çevirmek yerine deneme, prototip, taslak ve geri bildirim yoluyla öğrenme alanı kurmalıdır."
+        ]
+      },
+      {
+        "heading": "6. Duygu ve Beden Kararın Dışında Değildir",
+        "paragraphs": [
+          "Karar verirken duyguya kapılmamak sık verilen bir öğüttür. Oysa Bölüm 10’da gördüğümüz gibi duygu, dikkat ve değerlendirmeden ayrı bir gürültü değildir. Neyi kayıp, fırsat, tehdit veya adaletsizlik saydığımızı biçimlendirir. Duygusuz karar ideali, kararın hangi değere hizmet ettiğini de görünmez kılabilir.",
+          "Lerner, Li, Valdesolo ve Kassam’ın incelemesi, kararın kendisinden doğan duygularla başka bir olaydan taşınan duyguların yargıyı farklı yollarla etkileyebildiğini gösterir. Öfke, korku, üzüntü ve tiksinme aynı ‘olumsuz duygu’ değildir; risk algısı ve eylem eğilimi üzerinde farklı örüntüler taşıyabilir.",
+          "Beden de kararın parçasıdır; fakat tek başına hakem değildir. Göğüste sıkışma gerçek bir sınır ihlalini, belirsizliği, yorgunluğu veya geçmiş deneyimin yankısını taşıyabilir. ‘Bedenin hayır diyorsa yapma’ kadar ‘bedenini görmezden gel’ de fazla kesin bir kuraldır. Bedensel duyum, bağlamla birlikte araştırılacak bir sinyaldir.",
+          "Saule karar öncesinde kullanıcının durumunu hüküm vermeden yansıtabilir: zaman baskısı var mı, kişi aç veya uykusuz mu, yakın bir çatışmanın duygusu karara taşınıyor olabilir mi, bedensel sıkışma seçeneğin kendisinde mi yoksa karar vermek zorunda kalmakta mı beliriyor? Kullanıcı bu soruları istemediğinde sistem geri çekilmelidir.",
+          "Amaç insanı her karardan önce duygusal taramaya zorlamak değildir. Düşük etkili seçimlerde bu yeni bir bakım yükü olur. Duygusal durak, özellikle yüksek sonuçlu, tekrar tekrar açılan veya kişinin kendi durumunun kararı etkilediğini düşündüğü anlarda isteğe bağlı bir destek olmalıdır."
+        ]
+      },
+      {
+        "heading": "7. Karar Yorgunluğu Basit Bir Pil Hikâyesi Değildir",
+        "paragraphs": [
+          "Gün boyunca çok sayıda karar vermenin zihinsel yorgunluk yaratabildiği deneyimsel olarak tanıdıktır. Fakat popüler anlatı bunu çoğu zaman sabit bir irade pilinin her seçimle boşalması gibi sunar. ‘Karar yorgunluğu’ kavramını inceleyen Pignatiello, Martin ve Hickman, alanın kavramsal netlik sorunlarına dikkat çeker: karar sayısı, zorluk, çatışma, sonuç ağırlığı, zaman baskısı ve öznel yorgunluk sık sık aynı başlık altında toplanır.",
+          "Karar yorgunluğunun bağlandığı öz denetim tükenmesi literatürü de tartışmalıdır. Vohs ve çok sayıda araştırmacının yürüttüğü ön kayıtlı çok merkezli çalışmanın doğrulayıcı analizleri tükenme etkisine ilişkin kanıt bulmadı; dışlama ölçütlerini kullanmayan keşifsel analizlerde ise çok küçük bir etki görüldü. Bu sonuç, önceki güçlü ve evrensel tükenme iddialarını desteklemez. Alan, ‘çok seçim yaptın, artık kötü karar vereceksin’ diye kişiye özgü kesin tahmin üretmek için yeterli değildir.",
+          "Yine de karar yükü gerçektir. Sürekli kesinti, anlamsız mikro seçimler, belirsiz yetki, çelişen hedefler ve her seçimin gerekçelendirilmesi gereği insanı yorabilir. Burada çözüm irade puanı hesaplamak değil; gereksiz kararları kaldırmak, sahipliği netleştirmek, benzer seçimleri gruplayabilmek ve ağır kararlar için zaman ile destek ayırmaktır.",
+          "Saule ‘bugün yirmi karar verdin, artık dinlenmelisin’ gibi sahte bir kesinlik kurmamalıdır. Kullanıcının bildirdiği yorgunluk, hata eğilimi, tekrar tekrar aynı seçeneğe dönme veya kararın ertelenme maliyeti birlikte ele alınabilir. Sistem gözlemini sunmalı; kişinin kapasitesi hakkında nihai hüküm vermemelidir.",
+          "İş ortamında karar yükü çoğu zaman kötü yönetişimin bireye aktarılmış biçimidir. Her küçük konuda onay isteyen süreç, belirsiz sorumluluk ve sürekli değişen öncelik çalışanı yorar. Saule Business yorgun kişiyi optimize etmekten önce hangi kararların gereksiz yere aşağıya itildiğini ve hangi kararların sahibinin belirsiz kaldığını görünür kılmalıdır."
+        ]
+      },
+      {
+        "heading": "8. Değer Çatışması Bilgi Eksikliği Değildir",
+        "paragraphs": [
+          "Bazı kararlar yeni veri geldiğinde çözülür. Bazıları ise iki değer aynı anda korunamadığı için zordur: güvenlik ile özgürlük, gelir ile zaman, sadakat ile sınır, istikrar ile merak, hız ile özen. Daha çok araştırma çatışmayı açıklayabilir; ortadan kaldıramaz.",
+          "Keeney’nin değer odaklı düşünme yaklaşımı, hazır seçenekler arasında seçim yapmadan önce amaçların ve değerlerin netleştirilmesini önerir. Bu bakış önemlidir; çünkü seçenekler gündemi daraltabilir. ‘A mı B mi?’ sorusu, asıl ihtiyacı karşılayan bir C seçeneğinin kurulmasını engelleyebilir.",
+          "Fakat değerler de sabit bir tercih listesi değildir. İnsan farklı rollerinde farklı sorumluluklar taşır; koşullar değiştikçe bir değerin ağırlığı değişebilir. Saule geçmiş seçimlerden ‘sen güvenliği özgürlüğe tercih eden birisin’ gibi kalıcı kimlik hükmü çıkarmamalıdır. Bir kararın bağlamı, kişiliğin tamamı değildir.",
+          "Değer çatışmasında karar matrisi yardımcı olabilir; ama ölçülemeyen şeyi yok saymamalıdır. Kullanıcı isterse ödünleşimleri düz yazıyla, senaryoyla, sınırlarla veya ‘vazgeçemeyeceğim koşullar’ üzerinden görebilmelidir. Her ölçüt yapay bir sayıya çevrilmek zorunda değildir.",
+          "Saule Life için değer desteğinin amacı doğru hayatı tarif etmek değil, kişinin kendi nedenlerini daha açık duymasına yardım etmektir. Sistem ahlaki görüşünü, ticari çıkarını veya çoğunluğun tercihini ‘senin değerlerin’ adıyla kullanıcıya geri sunmamalıdır."
+        ]
+      },
+      {
+        "heading": "9. Geri Döndürülebilirlik Öğrenme Alanı Açar",
+        "paragraphs": [
+          "Bütün kararlar aynı kesinlikte verilmek zorunda değildir. Bazı seçimler küçük bir pilot, deneme süresi, taslak veya sınırlı taahhütle test edilebilir. Geri döndürülebilirlik bilinmeyeni düşünerek değil, yaşayarak öğrenmeye imkân verir. Özellikle yeni iş akışları, yaratıcı yönler ve düşük riskli günlük seçimlerde bu yaklaşım karar eşiğini düşürebilir.",
+          "Fakat geri döndürülebilirlik de otomatik olarak iyi değildir. Gilbert ve Ebert’in çalışması, kararın değiştirilebilir olmasının bazı koşullarda seçilen seçenekten duyulan memnuniyeti azaltabildiğini gösterdi; açık kalan karşılaştırma, kişinin kararına yerleşmesini zorlaştırabilir. Sürekli geri dönüş kapısı bazen öğrenme değil, kararın hiç kapanmaması anlamına gelir.",
+          "Bu nedenle Saule en az üç şeyi ayırmalıdır: gerçek dünyada kolayca geri alınabilen karar, teknik olarak geri alınsa bile ilişkisel bedeli olan karar ve neredeyse geri döndürülemez karar. Gönderilen bir mesaj silinebilir görünse de güven üzerindeki etkisi kalabilir. Bir abonelik iptal edilebilir; büyük bir borcun sonuçları aynı kolaylıkta geri dönmez.",
+          "Karar günlüğü, sonucu yargılamak için değil öğrenmeyi korumak için kullanılabilir: O anda ne biliniyordu? Hangi varsayım yapıldı? Hangi değer ağır bastı? Ne olursa yeniden bakılacaktı? Sonuç kötü olduğunda geçmişteki kişiyi bugünün bilgisiyle suçlamak yerine karar sürecini değerlendirmek mümkün olur.",
+          "Yeniden değerlendirme tarihi her kararı açık döngüye çevirmemelidir. Bazı kararlar yalnızca belirli bir koşul değişirse yeniden açılmalı; aksi hâlde sistem kişinin seçimine yerleşmesine izin vermelidir. Geri dönüş yolu, sürekli şüphe üretme motoru olmamalıdır."
+        ]
+      },
+      {
+        "heading": "10. Ortak Kararlarda Tek Bir Kullanıcı Yoktur",
+        "paragraphs": [
+          "Birçok karar insanlar arasında yaşar: bakım sorumluluğu, aile bütçesi, ekip önceliği, müşteri sözü, işe alım, ortak eser veya ilişki sınırı. Bu kararlarda ‘en iyi seçenek’ farklı insanlar için farklı sonuçlar üretir. Kararı hızlandırmak, güç farkını ortadan kaldırmaz.",
+          "Elwyn ve arkadaşlarının sağlık alanı için geliştirdiği ortak karar verme modeli; seçenekleri tanıtma, alternatifleri karşılaştırma ve kişinin tercihlerini müzakere etme aşamalarını ayırır. Bu model her alana doğrudan taşınamaz; fakat önemli bir ilke sunar: Ortak karar, yalnızca bilgiyi uzman verip onayı kişinin verdiği tek yönlü bir işlem değildir.",
+          "Saule ortak kararda kimlerin etkilendiğini, kimin karar hakkı olduğunu, kimin yalnızca görüş bildirdiğini ve hangi sesin eksik kaldığını görünür kılabilir. Fakat sessiz kişiyi otomatik olarak onaylamış sayamaz; çoğunluk tercihinin daha az güçlü olan taraf için güvenli olduğunu varsayamaz.",
+          "Kurumsal kararlarda verimlilik dili, çatışmayı erken kapatabilir. Bir ekip hızlı uzlaşırken müşteri gerçeğini, operasyon yükünü veya itiraz eden kişinin bilgisini kaybedebilir. Saule Business karar gerekçesini, muhalefeti ve yeniden bakma koşullarını koruyabilir; yöneticinin tercihini tarafsız sistem önerisi gibi sunmamalıdır.",
+          "Yaratıcı ortaklıklarda da karar yalnızca ölçülebilir performansla verilemez. Marka hafızası, estetik yön, risk alma isteği ve eserin söylemek istediği şey farklı paydaşlarda farklı ağırlık taşır. Saule Creative seçenekleri karşılaştırabilir; yaratıcı anlaşmazlığı tek bir skorla susturmamalıdır."
+        ]
+      },
+      {
+        "heading": "11. Karar Yardımcısı Yeni Bir Otoriteye Dönüşebilir",
+        "paragraphs": [
+          "Yapay zekâ önerisi hızlı, akıcı ve kişiselleştirilmiş göründüğü için kullanıcıda gereğinden fazla güven yaratabilir. Tersi de mümkündür: Dietvorst, Simmons ve Massey insanların bir algoritmanın hata yaptığını gördükten sonra ona aşırı ölçüde sırt çevirebildiğini; Logg, Minson ve Moore ise bazı koşullarda insanların algoritmik tavsiyeye insan tavsiyesinden daha fazla ağırlık verebildiğini gösterdi. Kullanıcıların algoritmaya her zaman güvendiği veya her zaman direndiği söylenemez.",
+          "Tehlike yalnızca yanlış öneri değildir; karar verme kasının dışarı taşınmasıdır. Sistem sürekli ‘senin için en iyisi’ni seçtiğinde kişi nedenlerini kurmayı, belirsizlikle yaşamayı ve sonuçların sahipliğini taşımayı giderek ürüne bırakabilir. Tavsiye bağımlılığı yüksek doğrulukla bile iradeyi zayıflatabilir.",
+          "Saule tek bir cevap vermeden önce seçenekleri, dayanakları, belirsizlikleri ve ödünleşimleri sunmalıdır. Kullanıcı öneriyi değiştirebilmeli, reddedebilmeli veya yalnızca düşünme çerçevesini alıp kararı kendi vermelidir. Modelin öz güveni kanıt gücüyle aynı şey değildir; akıcı dil belirsizliği gizlememelidir.",
+          "Çıkar çatışması daha sert bir sınırdır. Cain, Loewenstein ve Moore’un çalışması, çıkar çatışmasını açıklamanın tavsiyedeki yanlılığı her zaman gidermediğini, hatta bazı koşullarda istenmeyen etkiler yaratabildiğini gösterir. ‘Sponsorlu’ etiketi tek başına yeterli koruma değildir. Saule’nin geliri, ortaklığı veya büyüme hedefi bir seçeneği öne çıkarıyorsa varsayılan tavsiye üretmemek daha doğru olabilir.",
+          "Manipülatif varsayılan, kararı kullanıcı adına sessizce kapatır. Önceden seçilmiş satın alma, zor bulunan ret düğmesi, yapay geri sayım veya duygusal baskı karar desteği değildir. Saule seçenek mimarisini kullanıcının amaçlarına göre sadeleştirmeli; ürünün amaçlarını kullanıcının amacıymış gibi içeri sokmamalıdır."
+        ]
+      },
+      {
+        "heading": "12. Saule Core İçin İlke: Kesinlik Değil, Korunmuş İrade",
+        "paragraphs": [
+          "Sağlık, hukuk, vergi, yatırım, borç, güvenlik ve benzeri yüksek riskli alanlarda genel karar desteğinin sınırı açıktır. Saule bilgi düzenleyebilir, sorulacak soruları hazırlayabilir, belgeleri ve kullanıcının kendi önceliklerini görünür kılabilir; fakat lisanslı uzman görüşünün yerini alamaz ve kişiye özgü kesin hüküm veremez.",
+          "Bu alanlarda kaynak tarihi, yargı yetkisi, veri eksikleri ve çıkar çatışmaları özellikle görünür olmalıdır. ‘Buna yatırım yap’, ‘bu sözleşmeyi imzala’ veya ‘bu tedaviyi seç’ gibi sonuç sahiplenen emirler yerine, doğrulanması gereken noktalar ve uygun uzmanla konuşma yolları sunulmalıdır. Aciliyet veya risk varsa sistem bunu saklamamalı; ama korkuyu ikna aracı olarak da kullanmamalıdır.",
+          "Saule Core’un karar desteği kararın türüyle başlamalıdır: geri döndürülebilir mi, deneme yapılabilir mi, kimleri etkiliyor, hangi değerler çatışıyor, hangi bilgi eksik, beklemenin maliyeti ne ve uzmanlık gerekiyor mu? Aynı arayüz her karara aynı hız ve kesinliği dayatmamalıdır.",
+          "Sistem bazen seçenekleri daraltır, bazen yeni seçenek üretir, bazen ödünleşimleri yazar, bazen de yalnızca kararı kaydeder. Ne zaman konuşacağını kullanıcının isteği, kararın ağırlığı ve önerinin gerçek katkısı belirlemelidir. Her kararsızlık müdahale çağrısı değildir; insanın düşünmek için sessizliğe de hakkı vardır.",
+          "Başarı ölçütü kullanıcının Saule önerisini kabul etmesi veya daha hızlı karar vermesi değildir. Daha anlamlı ölçütler şunlardır: Kişi neyi neden seçtiğini daha iyi görebiliyor mu? Belirsizliği kesinlikten ayırabiliyor mu? Etkilenen insanları ve vazgeçilen değerleri hesaba katabiliyor mu? Gerektiğinde kararını düzeltebiliyor, gerektiğinde de ona yerleşebiliyor mu?",
+          "Bölüm 13’ün nihai iddiası budur: İyi karar desteği insanın karar yükünü ele geçirerek değil, karar alanını anlaşılır ve dürüst hâle getirerek yardım eder. Saule’nin zekâsı doğru cevabı sahiplenmesinde değil; seçenekleri açarken manipülasyonu reddetmesinde, geri dönüş yollarını korumasında ve son sözü insanda bırakmasında görünür."
+        ]
+      }
+    ],
+    "open_questions": [
+      {
+        "id": "d-1",
+        "question": "Saule bir kararın geri döndürülebilirliğini yalnızca teknik değil, ilişkisel ve uzun vadeli sonuçlarıyla nasıl değerlendirmelidir?",
+        "status": "open",
+        "decisionArea": "Karar Ağırlığı",
+        "answeredInChapters": [
+          "Bölüm 14 — İlişkiler",
+          "Bölüm 31 — Planlama Zekâsı"
+        ]
+      },
+      {
+        "id": "d-2",
+        "question": "Seçenek daraltma hangi ölçütlere dayanmalı ve dışarıda bırakılan seçenekler kullanıcıya nasıl geri açılmalıdır?",
+        "status": "open",
+        "decisionArea": "Seçenek Mimarisi",
+        "answeredInChapters": [
+          "Bölüm 20 — Güven",
+          "Bölüm 26 — Bağlam Motoru"
+        ]
+      },
+      {
+        "id": "d-3",
+        "question": "Karar tahminlerinde risk, muğlaklık, veri eksikliği ve model belirsizliği arayüzde nasıl ayrıştırılmalıdır?",
+        "status": "open",
+        "decisionArea": "Belirsizlik Gösterimi",
+        "answeredInChapters": [
+          "Bölüm 19 — Uyumlanabilir Zekâ",
+          "Bölüm 34 — Saule’nin Kendi Zekâsı"
+        ]
+      },
+      {
+        "id": "d-4",
+        "question": "Sistem sezgiyi ne zaman ifade etmeye açmalı, ne zaman varsayımları yavaşlatıp ek doğrulama istemelidir?",
+        "status": "open",
+        "decisionArea": "Karar Kipi",
+        "answeredInChapters": [
+          "Bölüm 19 — Uyumlanabilir Zekâ",
+          "Bölüm 27 — Yansıtma Motoru"
+        ]
+      },
+      {
+        "id": "d-5",
+        "question": "Öznel yorgunluk ve karar yükü, tartışmalı bir tükenme puanına dönüştürülmeden nasıl desteklenmelidir?",
+        "status": "open",
+        "decisionArea": "Karar Yükü",
+        "answeredInChapters": [
+          "Bölüm 19 — Uyumlanabilir Zekâ",
+          "Bölüm 31 — Planlama Zekâsı"
+        ]
+      },
+      {
+        "id": "d-6",
+        "question": "Ölçülemeyen veya ortak ölçeğe çevrilemeyen değerler karar çerçevesinde nasıl görünür kalmalıdır?",
+        "status": "open",
+        "decisionArea": "Değer Çatışması",
+        "answeredInChapters": [
+          "Bölüm 16 — Anlam",
+          "Bölüm 24 — İrade"
+        ]
+      },
+      {
+        "id": "d-7",
+        "question": "Ortak kararlarda yetki, etkilenme, itiraz ve sessiz kalma birbirinden nasıl ayrılmalıdır?",
+        "status": "open",
+        "decisionArea": "İlişkisel Karar",
+        "answeredInChapters": [
+          "Bölüm 14 — İlişkiler",
+          "Bölüm 30 — İlişki Zekâsı"
+        ]
+      },
+      {
+        "id": "d-8",
+        "question": "Saule tavsiye bağımlılığını hangi kullanım örüntülerinden sezebilir ve iradeyi zedelemeden nasıl geri çekilebilir?",
+        "status": "open",
+        "decisionArea": "Tavsiye Bağımlılığı",
+        "answeredInChapters": [
+          "Bölüm 23 — Etik",
+          "Bölüm 24 — İrade"
+        ]
+      },
+      {
+        "id": "d-9",
+        "question": "Ticari veya kurumsal çıkar çatışması bulunan bir kararda açıklama ne zaman yetersiz kalmalı ve öneri üretimi tamamen durmalıdır?",
+        "status": "open",
+        "decisionArea": "Çıkar Çatışması",
+        "answeredInChapters": [
+          "Bölüm 23 — Etik",
+          "Bölüm 39 — İş Modeli"
+        ]
+      },
+      {
+        "id": "d-10",
+        "question": "Sağlık, hukuk ve finans gibi yüksek riskli alanlarda bilgi düzenleme ile kişiye özgü tavsiye arasındaki sınır nasıl uygulanmalıdır?",
+        "status": "open",
+        "decisionArea": "Yüksek Risk Sınırı",
+        "answeredInChapters": [
+          "Bölüm 20 — Güven",
+          "Bölüm 23 — Etik"
+        ]
+      }
+    ],
+    "design_decisions": [
+      "Saule karar veren otorite değil; seçenekleri, varsayımları, bilinmeyenleri ve ödünleşimleri görünür kılan yardımcı olmalıdır.",
+      "Sınırlı rasyonellik kullanıcı kusuru sayılmamalı; bilgi, zaman ve dikkat bütçesi karar tasarımının başlangıç koşulu olmalıdır.",
+      "Sezgisel ve analitik süreçlerden biri evrensel olarak üstün kabul edilmemeli; karar kipi alan, geri bildirim ve sonuç ağırlığına göre seçilmelidir.",
+      "Seçenek daraltma gerekçeli, geri alınabilir ve kullanıcı tarafından değiştirilebilir olmalıdır.",
+      "Varsayılanlar görünür olmalı; ürün hedefini veya ticari çıkarı kullanıcının tercihi gibi gizlememelidir.",
+      "Risk, muğlaklık, veri eksikliği ve model belirsizliği tek bir güven puanında eritilmemelidir.",
+      "Karar yorgunluğu sabit bir irade pili veya kişiye özgü kesin puan gibi modellenmemelidir.",
+      "Duygu ve bedensel sinyaller karar bağlamına dahil edilebilir; ancak tek başına hüküm veya veto sayılmamalıdır.",
+      "Ölçülemeyen değerler ve vazgeçme maliyetleri yapay sayılara zorlanmadan temsil edilebilmelidir.",
+      "Geri döndürülebilir kararlar öğrenme alanı açmalı; fakat sürekli yeniden değerlendirme ve şüphe üretmemelidir.",
+      "Ortak kararlarda güç, yetki, etkilenme, itiraz ve rıza ayrımları korunmalıdır.",
+      "Yapay zekâ önerisi gerekçelendirilebilir, reddedilebilir, değiştirilebilir olmalı ve tavsiye bağımlılığına karşı geri çekilme yolu taşımalıdır.",
+      "Sağlık, hukuk, finans ve güvenlik gibi yüksek riskli alanlarda Saule uzman yerine geçmemeli, kişiye özgü kesin talimat vermemelidir.",
+      "Başarı önerinin kabulü veya karar hızıyla değil; anlaşılır nedenler, dürüst belirsizlik, korunmuş irade ve uygun geri dönüş imkânıyla ölçülmelidir."
+    ],
+    "future_evolution": "Bu bölüm ileride Saule Core’un karar desteği mimarisine dönüşecektir: karar türleri, sonuç ağırlığı, geri döndürülebilirlik katmanları, risk–muğlaklık ayrımı, değer çatışması gösterimleri, ortak karar rolleri, tavsiye bağımlılığı sinyalleri ve yüksek riskli alanlarda zorunlu geri çekilme kuralları biçimsel olarak tanımlanacaktır. Saule Life için gündelik ve ilişkisel kararlar; Saule Business için yetki, ortak gerekçe, muhalefet kaydı ve çıkar çatışması; Saule Creative için deneme, yaratıcı belirsizlik ve ölçülemeyen estetik değerler ayrı örüntülerle ele alınacaktır. Ürün değerlendirmesinde karar hızının yanına kullanıcının nedenleri anlama, belirsizliği doğru okuma, öneriyi güvenle reddetme, kararını gerektiğinde düzeltme ve gerektiğinde ona yerleşebilme kapasitesi eklenecektir.",
+    "references": [
+      "Simon, H. A. (1955). A behavioral model of rational choice. The Quarterly Journal of Economics, 69(1), 99–118. https://doi.org/10.2307/1884852",
+      "Evans, J. St. B. T., & Stanovich, K. E. (2013). Dual-process theories of higher cognition: Advancing the debate. Perspectives on Psychological Science, 8(3), 223–241. https://doi.org/10.1177/1745691612460685",
+      "Gigerenzer, G., & Gaissmaier, W. (2011). Heuristic decision making. Annual Review of Psychology, 62, 451–482. https://doi.org/10.1146/annurev-psych-120709-145346",
+      "Kahneman, D., & Klein, G. (2009). Conditions for intuitive expertise: A failure to disagree. American Psychologist, 64(6), 515–526. https://doi.org/10.1037/a0016755",
+      "Johnson, E. J., & Goldstein, D. (2003). Do defaults save lives? Science, 302(5649), 1338–1339. https://doi.org/10.1126/science.1091721",
+      "Scheibehenne, B., Greifeneder, R., & Todd, P. M. (2010). Can there ever be too many options? A meta-analytic review of choice overload. Journal of Consumer Research, 37(3), 409–425. https://doi.org/10.1086/651235",
+      "Ellsberg, D. (1961). Risk, ambiguity, and the Savage axioms. The Quarterly Journal of Economics, 75(4), 643–669. https://doi.org/10.2307/1884324",
+      "Lerner, J. S., Li, Y., Valdesolo, P., & Kassam, K. S. (2015). Emotion and decision making. Annual Review of Psychology, 66, 799–823. https://doi.org/10.1146/annurev-psych-010213-115043",
+      "Pignatiello, G. A., Martin, R. J., & Hickman, R. L., Jr. (2020). Decision fatigue: A conceptual analysis. Journal of Health Psychology, 25(1), 123–135. https://doi.org/10.1177/1359105318763510",
+      "Vohs, K. D., Schmeichel, B. J., Lohmann, S., et al. (2021). A multisite preregistered paradigmatic test of the ego-depletion effect. Psychological Science, 32(10), 1566–1581. https://doi.org/10.1177/0956797621989733",
+      "Keeney, R. L. (1992). Value-Focused Thinking: A Path to Creative Decisionmaking. Harvard University Press.",
+      "Gilbert, D. T., & Ebert, J. E. J. (2002). Decisions and revisions: The affective forecasting of changeable outcomes. Journal of Personality and Social Psychology, 82(4), 503–514. https://doi.org/10.1037/0022-3514.82.4.503",
+      "Elwyn, G., Frosch, D., Thomson, R., Joseph-Williams, N., Lloyd, A., Kinnersley, P., Cording, E., Tomson, D., Dodd, C., Rollnick, S., Edwards, A., & Barry, M. (2012). Shared decision making: A model for clinical practice. Journal of General Internal Medicine, 27(10), 1361–1367. https://doi.org/10.1007/s11606-012-2077-6",
+      "Dietvorst, B. J., Simmons, J. P., & Massey, C. (2015). Algorithm aversion: People erroneously avoid algorithms after seeing them err. Journal of Experimental Psychology: General, 144(1), 114–126. https://doi.org/10.1037/xge0000033",
+      "Logg, J. M., Minson, J. A., & Moore, D. A. (2019). Algorithm appreciation: People prefer algorithmic to human judgment. Organizational Behavior and Human Decision Processes, 151, 90–103. https://doi.org/10.1016/j.obhdp.2018.12.005",
+      "Cain, D. M., Loewenstein, G., & Moore, D. A. (2005). The dirt on coming clean: Perverse effects of disclosing conflicts of interest. The Journal of Legal Studies, 34(1), 1–25. https://doi.org/10.1086/426699"
+    ]
+  }
+}

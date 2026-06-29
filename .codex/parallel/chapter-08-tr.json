@@ -1,0 +1,264 @@
+{
+  "draft": {
+    "sections": [
+      {
+        "heading": "1. Bellek Bir Arşiv Değil, Bir Sistemler Ailesidir",
+        "paragraphs": [
+          "Bellek denildiğinde çoğu insanın aklına geçmişin saklandığı büyük bir depo gelir. Oysa insan belleği, yaşananları eksiksiz kaydeden tek bir arşiv değildir. Bir telefon numarasını birkaç saniye akılda tutmak, bisiklete binmek, bir kavramın anlamını bilmek, geçen yaz yaşanan bir konuşmayı hatırlamak ve yarın birini aramayı unutmamak aynı bilişsel işi yapmaz. Bunlar birbiriyle ilişki kuran, fakat farklı işlevler üstlenen bellek süreçleridir.",
+          "Larry Squire'ın bellek sistemleri üzerine yaptığı ayrım, özellikle bildirimsel bellek ile beceri, alışkanlık ve koşullanma gibi bildirimsel olmayan öğrenme biçimlerinin aynı yapıya indirgenemeyeceğini gösterir. Endel Tulving'in epizodik ve semantik bellek ayrımı da kişinin yaşadığı belirli bir ana geri dönmesiyle bir olgunun anlamını bilmesi arasındaki farkı görünür kılar. Belleğin çoğul yapısı, gündelik unutkanlığın da tek bir nedenle açıklanamayacağı anlamına gelir.",
+          "Bu nedenle 'belleğim kötü' cümlesi çoğu zaman fazla geniştir. Sorun ilk anda dikkat edilmemesi, çalışma belleğinin yük altında kalması, bilginin anlamlı biçimde öğrenilmemesi, uygun ipucunun bulunamaması, benzer anıların birbirine karışması ya da gelecekte yapılacak bir niyetin doğru anda hatırlanmaması olabilir. Aynı belirti, farklı mekanizmalardan doğabilir.",
+          "Saule Core belleği tek bir puana dönüştürmemelidir. İnsanın söylediği her şeyi biriktirmek de onun belleğini anlamak değildir. Asıl tasarım sorusu, hangi bilginin hangi işleve hizmet ettiği, ne kadar süre geçerli kaldığı, hangi bağlamda geri çağrılması gerektiği ve kullanıcının bu süreç üzerinde ne kadar denetime sahip olduğudur.",
+          "Bölüm 8'in merkez ilkesi buradan doğar: iyi bir yapay zekâ belleği her şeyi hatırlayan bellek değildir; doğru şeyi, kaynağını ve belirsizliğini koruyarak geri getiren, eskimiş olanı bırakabilen ve insanın kendi hatırlama kapasitesini gölgelemeyen bellektir."
+        ]
+      },
+      {
+        "heading": "2. Çalışma Belleği Zihnin Geçici Çalışma Alanıdır",
+        "paragraphs": [
+          "Bir cümleyi okurken başını akılda tutmak, iki seçenek arasında karşılaştırma yapmak, zihinden hesaplamak veya verilen bir yönergeyi uygulamak için bilginin kısa süre boyunca etkin kalması gerekir. Çalışma belleği bu geçici tutma ve işleme alanını anlatır. Kapasitesi sınırsız değildir; dikkat bölündüğünde, stres yükseldiğinde veya aynı anda çok fazla öğe işlendiğinde performansın düşmesi kişilik kusuru değil, sistemin doğal sınırıdır.",
+          "Alan Baddeley'nin çok bileşenli modeli, çalışma belleğini yalnızca kısa süreli bir kutu olarak değil; sözel ve görsel-uzamsal bilgiyi geçici olarak taşıyan bileşenlerle bunları yöneten dikkat süreçlerinin etkileşimi olarak ele alır. Baddeley'nin daha sonra eklediği epizodik tampon, farklı kaynaklardan gelen bilgilerin geçici ve bütünlüklü bir temsil içinde bağlanmasına dikkat çeker. Bu model tek ve tartışmasız açıklama değildir; fakat çalışma belleğinin depolama ile aktif düzenlemeyi birlikte içerdiğini anlatmak için güçlü bir çerçevedir.",
+          "Gündelik hayatta çalışma belleği sınırı, toplantı sırasında gelen mesajla konuşmanın izini kaybetmekte, alışveriş listesi akıldayken yeni bir soruyla karşılaşınca bir maddeyi unutmakta veya yaratıcı bir fikrin biçimi daha yazıya geçmeden dağılmasında görünür olur. Saule Business bağlamında ardışık bildirimler ve sahipliği belirsiz talepler yalnızca zaman kaybettirmez; karar için aynı anda etkin tutulması gereken bağlamı da parçalar.",
+          "Saule bu sınıra karşı daha fazla hatırlatma üreterek çalışmamalıdır. Her bildirim çalışma alanına yeni bir talep ekler. Bazen en iyi bellek desteği bir öğeyi öne çıkarmak, bazen ilgili parçaları tek bağlamda birleştirmek, bazen de kullanıcı yeniden hazır olana kadar sessiz kalmaktır. Sistem kendi yardımının da bilişsel yük yaratabileceğini hesaba katmalıdır.",
+          "Çalışma belleği performansından zekâ, niyet veya ahlaki yeterlilik sonucu çıkarılmamalıdır. Uykusuzluk, kaygı, ağrı, yaş, çevresel kesinti ve görev yapısı performansı değiştirebilir. Saule gözlediği güçlüğü kalıcı bir kullanıcı özelliğine çevirmeden önce bağlamı ve geçiciliği korumalıdır."
+        ]
+      },
+      {
+        "heading": "3. Uzun Süreli Bellek Tek Biçimde Öğrenmez",
+        "paragraphs": [
+          "Uzun süreli bellek, birkaç dakikadan bir ömre uzanabilen izleri kapsar; ancak bu geniş zaman aralığı tek bir saklama biçimi anlamına gelmez. Bir ülkenin başkentini bilmek semantik bilgiye, ilk iş gününün belirli ayrıntılarını hatırlamak epizodik belleğe, klavyede bakmadan yazmak ise büyük ölçüde beceri öğrenimine dayanır. İnsan bu bilgi türlerinin bazılarını sözle açıklayabilir, bazılarını ise ancak yaparken gösterebilir.",
+          "Tulving'e göre epizodik hatırlama yalnızca bir bilginin doğru olduğunu bilmekten fazlasıdır; kişi kendisini belirli bir zaman ve yerde yaşanmış olaya zihinsel olarak yeniden bağlar. Semantik bellek ise bilginin kişisel edinim anı silikleşse bile anlamın korunabilmesini sağlar. Squire'ın nöropsikolojik bulgularla geliştirdiği bellek sistemleri yaklaşımı, becerilerin ve alışkanlıkların açık olay hatırlamasından farklı yollarla öğrenilebildiğini gösterir.",
+          "Bu ayrım ürün tasarımında önemlidir. Bir kullanıcının 'daha önce böyle hissetmiştin' diye belirli bir olaya götürülmesiyle 'yoğun haftalarda daha kısa planları tercih ediyorsun' biçiminde genellenmiş bir örüntü sunulması aynı müdahale değildir. İlki kişisel bir anıyı yeniden açar; ikincisi birçok deneyimden çıkarılmış bir model önerir. Kaynak, hassasiyet ve hata riski farklıdır.",
+          "Saule Creative için de yalnızca bitmiş dosyaları saklamak yeterli değildir. Bir tekniğin nasıl uygulandığı, hangi denemelerin işe yaramadığı, bir fikrin hangi sorudan doğduğu ve hangi estetik kararların zaman içinde yerleştiği farklı bellek türlerine karşılık gelir. Bunları tek bir kronolojik akışta tutmak, yaratıcı gelişimin yapısını görünmez kılabilir.",
+          "Bir yapay zekâ, insan beynindeki bu sistemlerin aynısını kurduğunu iddia etmemelidir. 'Bellek' sözcüğü burada işlevsel bir benzetmedir. Saule Core'un veri saklama ve geri çağırma katmanları insan belleğiyle aynı mekanizma değildir; tasarımın görevi, benzerliği abartmak değil insanın farklı hatırlama ihtiyaçlarına uygun sınırlar kurmaktır."
+        ]
+      },
+      {
+        "heading": "4. Otobiyografik Bellek Kimliği Taşır, Ama Onu Dondurmamalıdır",
+        "paragraphs": [
+          "Otobiyografik bellek, kişinin yaşamına ilişkin tek tek olayları, dönemleri ve kendisi hakkındaki daha genel bilgileri bir araya getirir. Martin Conway ve Christopher Pleydell-Pearce'ın benlik-bellek sistemi yaklaşımında anılar, yalnızca geçmişten çekilen kayıtlar değildir; kişinin güncel hedefleri ve benlik anlayışıyla ilişki içinde kurulur. Bu yüzden aynı olay farklı yaşam dönemlerinde başka ayrıntılarıyla ve başka anlamlarla hatırlanabilir.",
+          "Bir ayrılığın ilk ayında hatırlananlarla yıllar sonra hatırlananlar aynı olmayabilir. Bu değişim otomatik olarak çarpıtma veya inkâr anlamına gelmez. Kişinin o olaya hangi soruyla döndüğü, bugün neyi anlamaya çalıştığı ve yaşam anlatısında ona nasıl bir yer verdiği geri çağırmayı biçimlendirir. Bellek süreklilik sağlar; fakat sağlıklı süreklilik, geçmiş yorumların sonsuza kadar sabit kalması değildir.",
+          "Saule Life eski bir ifadeyi geri getirirken 'sen hep böylesin' sonucuna sıçramamalıdır. Kullanıcının iki yıl önce söylediği bir cümle, bugünkü kimliğinin hükmü değildir. Sistem geçmişi kanıt gibi kullanırsa gelişimi görünmez kılar; kişinin kendi değişimini açıklama ve eski bir kaydı geçersiz sayma hakkını zedeler.",
+          "Öte yandan, uygun biçimde geri getirilen bir iz sürekliliği destekleyebilir. Kullanıcı zor bir dönemde daha önce hangi kaynaklara dayandığını, uzun süredir koruduğu bir değeri veya unuttuğu bir yaratıcı yönelimi yeniden görebilir. Yararlı hatırlama insanı eski haline geri çağırmaz; geçmişle bugün arasında konuşulabilir bir köprü kurar.",
+          "Bu nedenle otobiyografik malzemenin geri çağrılması, sıradan görev verisinden daha yüksek bir izin eşiği taşımalıdır. Kişi bir anının görünmesini, özetlenmesini, başka bir bağlamla ilişkilendirilmesini veya tamamen silinmesini ayrı ayrı denetleyebilmelidir. Duygusal önem, sistemin daha çok yetki almasının gerekçesi olamaz."
+        ]
+      },
+      {
+        "heading": "5. Hatırlamak Geçmişi Yeniden Kurmaktır",
+        "paragraphs": [
+          "İnsan hatırlarken geçmişin değişmez bir kopyasını oynatmaz. Olayın bazı parçalarını, genel bilgiyi, beklentileri, sonradan öğrenilenleri ve bugünkü bakışını bir araya getirir. Daniel Schacter ve Donna Addis'in yapıcı epizodik bellek yaklaşımı, bu esnekliğin yalnızca bir hata kaynağı olmadığını; geçmişin parçalarından olası gelecekleri tasarlama ve yeni durumları düşünme kapasitesiyle bağlantılı olduğunu öne sürer.",
+          "Yapıcılık faydalıdır, fakat bedelsiz değildir. Elizabeth Loftus'un yanlış bilgi etkisi üzerine onlarca yıla yayılan çalışmaları, bir olaydan sonra karşılaşılan yanıltıcı bilgilerin geçmişe ilişkin bildirimi değiştirebildiğini gösterir. Bir anının canlı veya kendinden emin biçimde anlatılması, tek başına tarihsel doğruluğunun garantisi değildir. İnsanlar yalan söylemeden de yanlış hatırlayabilir.",
+          "Saule bu nedenle kullanıcıyla anı yarışına girmemelidir. Bir kayıtla kişinin hatırladığı şey uyuşmadığında 'gerçekte böyle oldu' diye hüküm vermek yerine kaynakları ayırmalıdır: 'Bu ifade 12 Mart tarihli notta geçiyor; sen bugün olayı farklı hatırlıyorsun.' Kayıt da eksik, bağlamsız veya yanlış olabilir. Sistem kanıtın türünü gösterir; yorumu tekeline almaz.",
+          "Saule Business ortamında toplantı özetleri ve karar kayıtları kurumsal gerçeği biçimlendirebilir. Bir yapay zekâ özeti, tartışmadaki belirsizliği veya muhalefeti silip tek bir karar anlatısı üretirse daha sonra herkes o anlatıya dayanabilir. Saule Creative bağlamında da bir fikrin kime ait olduğu, hangi versiyondan türediği veya neden elendiği yanlış özetlendiğinde yalnızca bellek değil emek ve itibar da etkilenir.",
+          "Yapay zekâ belleğinin temel kuralı bu yüzden 'özet, kaynak değildir' olmalıdır. Özet yol gösterir; fakat gerektiğinde özgün nota, konuşmaya, dosya sürümüne veya kullanıcı tarafından doğrulanmış kayda dönülebilmelidir. Kaynağa erişim yoksa Saule kesinlik üretmemelidir."
+        ]
+      },
+      {
+        "heading": "6. Unutmak Belleğin Kusuru Değil, Düzenleme Biçimidir",
+        "paragraphs": [
+          "Unutma çoğu zaman belleğin bozulması gibi konuşulur. Oysa her ayrıntının aynı güçte ve sonsuza kadar erişilebilir kalması, yaşayan bir sistem için yararlı değildir. Benzer bilgiler birbirine karışır, kullanılmayan ayrıntılar zayıflar, yeni bağlamlar eski ipuçlarının etkisini değiştirir. Unutma, gürültüyü azaltabilir ve güncel olana yer açabilir.",
+          "Michael Anderson ve Justin Hulbert'in aktif unutma üzerine değerlendirmesi, unutmanın yalnızca pasif aşınmadan ibaret olmadığını; kimi durumlarda bilişsel denetimin istenmeyen geri çağırmayı azaltabildiğini gösteren geniş bir literatürü bir araya getirir. Bu bulgu, her unutmanın bilinçli olarak seçildiği anlamına gelmez. Unutma; zaman, girişim, bağlam değişimi, yetersiz öğrenme ve etkin bastırma gibi farklı süreçlerden doğabilir.",
+          "Daniel Schacter'ın belleğin 'yedi günahı' çerçevesi de geçicilik, dalgınlık ve erişim tıkanması gibi görünen kusurların belleğin seçici ve uyarlanabilir yapısından tamamen ayrı düşünülemeyeceğini hatırlatır. Hedef kusursuz kayıt değil, yaşam için yeterince güvenilir ve esnek bir hatırlamadır.",
+          "Dijital sistemler unutmanın bu düzenleyici işlevini kolayca bozar. Eski fotoğraflar, bitmiş ilişkiler, terk edilmiş hedefler ve geçerliliğini yitirmiş değerlendirmeler yıllar sonra bağlamsız biçimde yeniden yüzeye çıkabilir. Teknik olarak saklanabilen her şeyin psikolojik olarak yeniden gösterilmesi gerekmez. Sessiz kalmak bazen eksiklik değil, özenli tasarımdır.",
+          "Saule'de unutma, yalnızca silme düğmesi değil bir ürün yeteneği olmalıdır: süre sonu, görünürlüğü azaltma, bağlam dışına taşıma, hassasiyete göre yaşlandırma ve kullanıcı talebiyle geri döndürülemez silme ayrı seçeneklerdir. Unutma hakkı, yapay zekâ belleğinin sonradan eklenen gizlilik özelliği değil kurucu mimari ilkesi olmalıdır."
+        ]
+      },
+      {
+        "heading": "7. Hatırlama Doğru İpucu ve Etkin Geri Çağırmayla Güçlenir",
+        "paragraphs": [
+          "Bir bilgi bellekte bulunup yine de o anda erişilemeyebilir. Hatırlama; yer, kişi, amaç, duygu, zaman veya ilişkili bir fikir gibi ipuçlarına duyarlıdır. Bu yüzden iyi bir hatırlatma yalnızca 'bunu unutma' demez; niyetin hangi koşulda yeniden anlam kazanacağını da taşır. Eczanenin yanından geçerken ilacı hatırlamak ile her sabah genel bir bildirim almak aynı şey değildir.",
+          "Gelecekte yapılacak bir eylemi doğru zamanda hatırlama, ileriye dönük bellek olarak incelenir. Mark McDaniel ve Gilles Einstein'ın çalışmaları, niyetin kendisini saklamak kadar uygun geri çağırma koşullarının da önemli olduğunu gösterir. Saule, bir niyeti yalnızca takvim tarihine değil, mümkün olduğunda bağlama ve hazırlık durumuna bağlayabilmelidir.",
+          "Hatırlama yalnızca erişim değil, öğrenme olayıdır. Henry Roediger ve Jeffrey Karpicke'ın deneyleri, bilginin etkin biçimde geri çağrılmasının uzun süreli kalıcılığı yalnızca tekrar okumaktan daha fazla destekleyebildiğini gösterdi. Bu sonuç her durumda sürekli sınav yapmak gerektiği anlamına gelmez; öğrenmek istenen bilgi için ölçülü geri çağırma pratiğinin pasif maruziyetten farklı olduğunu gösterir.",
+          "Saule Life bir kişinin kendi ilkelerini onun yerine sürekli söylememeli; kimi zaman düşünmesi için küçük bir ipucu bırakmalıdır. Saule Creative çalışmada bir fikrin tamamını geri vermek yerine onu doğuran soruyu hatırlatmak, kişinin yaratıcı yolu yeniden kurmasına izin verebilir. Destek, hatırlamanın yerini tamamen aldığında kısa vadeli kolaylık uzun vadeli sahiplik duygusunu azaltabilir.",
+          "Yine de güçlük yapay biçimde yüceltilmemelidir. Demans, beyin hasarı, yoğun stres, nöroçeşitlilik veya gündelik kapasite değişimleri yaşayan herkes için aynı 'önce kendin hatırla' ilkesi uygun değildir. İpucunun büyüklüğü, yardımın zamanı ve doğrudanlık derecesi kullanıcı tarafından ayarlanabilmeli; sistem zorluğu bir karakter eğitimi aracına çevirmemelidir."
+        ]
+      },
+      {
+        "heading": "8. Dışsal Bellek Araçları Zihni Zayıflatmak Zorunda Değildir",
+        "paragraphs": [
+          "İnsanlar belleği yüzyıllardır bedenlerinin dışında örgütler: düğümler, defterler, takvimler, fotoğraflar, kütüphaneler, haritalar ve başka insanlar bunun parçalarıdır. Bir şeyi dışarıya kaydetmek tembellik değil, sınırlı bilişsel kaynakları düzenleme stratejisidir. Evan Risko ve Sam Gilbert bu davranışı bilişsel dışsallaştırma olarak ele alır; insanlar içsel işlem yükünü azaltmak için çevrede fiziksel veya dijital eylemler kurar.",
+          "Bilişsel dışsallaştırma yarar sağlayabilir. Benjamin Storm ve Sean Stone'un deneylerinde bir dosyayı güvenilir biçimde kaydetmek, katılımcıların ardından öğrendikleri yeni bilgiyi hatırlamasını kolaylaştırdı. Kaydetmenin güvenilmez olduğu düşünüldüğünde aynı yarar görülmedi. Dış belleğin rahatlatıcı etkisi yalnızca kayıt varlığına değil, ona duyulan güvene bağlıdır.",
+          "Ancak dışsallaştırmanın neyi değiştirdiğini bilmek gerekir. Betsy Sparrow, Jenny Liu ve Daniel Wegner'in deneyleri, insanlar bilgiye bilgisayar üzerinden yeniden ulaşabileceklerini beklediklerinde içeriğin kendisinden çok ona nereden erişeceklerini hatırlamaya yönelebildiklerini gösterdi. Linda Henkel'in müze çalışması da bazı fotoğraf çekme koşullarında nesnelerin ayrıntılarına ilişkin belleğin zayıflayabildiğini buldu. Bunlar 'teknoloji belleği yok eder' sonucunu taşımaz; dikkat ve öğrenme stratejisinin araç beklentisine göre değişebildiğini gösterir.",
+          "İyi dışsal bellek, zihni boşaltırken dünyayla teması azaltmamalıdır. Her konuşmayı kaydetmek, her fikri otomatik özetlemek veya her deneyimi fotoğraflamak kişiyi arşiv yöneticisine dönüştürebilir. Kayıt kolaylaştıkça seçme, anlamlandırma ve geri dönme emeği ortadan kalkmaz; yalnızca sistemin başka bir katmanına taşınır.",
+          "Saule'nin başarısı ne kadar veri topladığıyla değil, insanın gereksiz zihinsel provasını ne ölçüde azalttığı ve önemli şeylerle yeniden temasını ne ölçüde güçlendirdiğiyle değerlendirilmelidir. Araç ortadan kalktığında kişi bütünüyle yönsüz kalıyorsa destek bağımlı bir altyapıya dönüşmüş olabilir."
+        ]
+      },
+      {
+        "heading": "9. Paylaşılan Bellek Aynı Zamanda Güç ve Sorumluluktur",
+        "paragraphs": [
+          "Bellek yalnızca bireyin içinde veya cihazında bulunmaz. Yakın ilişkilerde insanlar kimin neyi daha iyi hatırladığını öğrenir; ekipler süreçleri kişilere, belgelere ve araçlara dağıtır. Daniel Wegner ve çalışma arkadaşlarının geçişli bellek araştırmaları, yakın ilişkilerde ortakların bilgi alanlarını paylaşarak birlikte daha geniş bir hatırlama sistemi kurabildiğini gösterir.",
+          "Bu dağılım verimlidir, fakat kırılgandır. Bir ailede randevuları tek kişinin, bir şirkette müşteri geçmişini tek çalışanın, yaratıcı bir ekipte tüm sürüm mantığını tek tasarımcının taşıması görünmez emek ve tek hata noktası yaratır. Kişi ayrıldığında yalnızca bilgi değil, bilginin nerede ve neden tutulduğuna ilişkin harita da kaybolabilir.",
+          "Saule Business kurumsal belleği kişilerden çekilip alınacak bir maden gibi görmemelidir. Müşteri konuşmaları, performans notları, iç itirazlar ve gayriresmî öğrenmeler farklı izin ve sahiplik düzeyleri taşır. Bir ekibin öğrenmesini korumak, çalışanların her sözünü kalıcı ve aranabilir hale getirmeyi gerektirmez.",
+          "Ortak kayıtlarda 'kimin bakışı?' sorusu korunmalıdır. Bir çatışmanın tek özeti, taraflardan birinin yorumunu kurumsal gerçek haline getirebilir. Bir karar kaydı; katılımcıları, dayanakları, karşı görüşleri, belirsizlikleri ve sonradan yapılan düzeltmeleri gösterebilmelidir. Çoğul bakış, veri kirliliği değil adalet koşuludur.",
+          "Saule Creative için kaynak zinciri ayrıca önemlidir. Bir fikrin ilk kıvılcımı, onu geliştiren katkılar ve son biçimi farklı kişilere ait olabilir. Yapay zekâ, ortak üretimi tek bir 'yaratıcı deha' anlatısına indirmemeli; sürümler ve katkılar arasında izlenebilir, itiraz edilebilir bir bağ kurmalıdır."
+        ]
+      },
+      {
+        "heading": "10. Yapay Zekâ Aracılı Bellek Hatırlamak Kadar Yeniden Yazabilir",
+        "paragraphs": [
+          "Yapay zekâ destekli bellek, geleneksel aramadan farklı bir ara katman oluşturur. Sistem yalnızca saklanmış parçayı bulmaz; çoğu zaman parçaları seçer, özetler, ilişkilendirir ve akıcı bir anlatı halinde yeniden üretir. Bu yetenek büyük kolaylık sağlar, fakat geri çağırma ile üretim arasındaki sınırı bulanıklaştırır. Akıcı bir cümlenin kayıtta aynen bulunması gerekmez.",
+          "Bu risk, insan belleğinin yapıcı ve telkine açık olmasıyla birleşir. Pat Pataranutaporn ve çalışma arkadaşlarının 2025'te yayımlanan kontrollü çalışması, büyük dil modeli tabanlı sohbetlerde ince biçimde eklenen yanlış bilgilerin sonraki hatırlamayı etkileyebildiğini gösterdi. Bu çalışma belirli deney koşullarına aittir ve bütün yapay zekâ kullanımlarına doğrudan genellenemez; yine de hatırlama sistemlerinde yönlendirici dilin neden özel dikkat gerektirdiğine dair somut bir uyarıdır.",
+          "Saule bir anıyı tamamlamamalıdır. Kaynakta bulunmayan tarih, niyet, duygu veya nedenleri olasılıklı dil kullanmadan eklemek, kullanıcının geçmişine ilişkin yeni bir anlatı üretir. Özellikle çocukluk, travma, çatışma, suçlama, sağlık ve hukuki olaylarda sistemin çağrışım üretmesi ile kanıt sunması kesin biçimde ayrılmalıdır.",
+          "Her geri çağırmada en az üç katman görünür olmalıdır: özgün kaynak, sistemin yaptığı dönüşüm ve güven düzeyi. 'Geçen yıl bu projeden vazgeçtin' yerine '17 Mayıs tarihli notunda projeyi şimdilik durdurmayı düşündüğünü yazmışsın; bunun kalıcı bir karar olup olmadığı belirsiz' demek daha uzundur, fakat bellekte dürüstlük bazen sürtünme gerektirir.",
+          "Yapay zekâ belleği ayrıca tekrar yoluyla önem üretebilir. Sistem sık geri getirdiği için bir olay merkezi görünmeye, özetlediği biçim tekrarlandığı için tek doğru anlatı gibi hissedilmeye başlayabilir. Saule yalnızca neyi hatırladığını değil, kendi geri çağırma davranışının kullanıcının öz anlatısını nasıl ağırlıklandırdığını da denetlemelidir."
+        ]
+      },
+      {
+        "heading": "11. Mahremiyet ve Klinik Sınır Belleğin Merkezindedir",
+        "paragraphs": [
+          "Bellek verisi çoğu zaman sıradan profil verisinden daha hassastır. Bir insanın korkuları, ilişkileri, sağlık kaygıları, pişmanlıkları, konumları ve değişen inançları zaman içinde bir araya geldiğinde, tek tek kayıtlardan daha güçlü bir yaşam modeli oluşur. Bu yüzden izin yalnızca ilk kayıt anında alınan genel bir onay olamaz; saklama, ilişkilendirme, çıkarım, yeniden gösterme ve paylaşma için bağlama özgü olmalıdır.",
+          "Helen Nissenbaum'un bağlamsal bütünlük yaklaşımı, mahremiyetin yalnızca bilginin gizli kalmasıyla değil, içinde üretildiği bağlama uygun akışlarla ilgili olduğunu vurgular. Bir günlük notunun kişisel yansıtmada kullanılmasıyla performans değerlendirmesine taşınması aynı veri işlemi değildir. Teknik erişim mümkün olsa bile bağlamsal izin bulunmayabilir.",
+          "Kullanıcının unutkanlık, hafıza kaybı veya geçmişe ilişkin boşluklardan söz etmesi Saule'ye tanı koyma yetkisi vermez. Bellek değişimleri uykusuzluktan strese, ilaçlardan nörolojik durumlara kadar çok farklı nedenlerle ilişkili olabilir. Sistem klinik hüküm vermemeli; belirgin, yeni, ilerleyici veya güvenliği etkileyen bir değişim anlatıldığında uygun profesyonel değerlendirmeyi teşvik etmelidir.",
+          "Travmatik anılar ve yoğun duygusal malzeme için de aynı sınır geçerlidir. Saule bastırılmış bir anıyı 'ortaya çıkardığını' iddia edemez, boşlukları dolduramaz veya kullanıcıyı belirli bir anlatıya yönlendiremez. Kişi isterse kayıtlarını düzenlemesine ve destek kaynaklarını bulmasına yardımcı olabilir; fakat terapist, tanık sorgulayıcısı veya tarihsel hakem rolüne geçmemelidir.",
+          "Bellek üzerinde temel haklar açık olmalıdır: görme, kaynağa ulaşma, düzeltme, farklı yorum ekleme, dışa aktarma, görünürlüğü azaltma, ilişkilendirmeyi durdurma ve silme. Silinen bir şeyin model türevi veya yedekler üzerinden gizlice yaşamaya devam etmemesi için teknik sınırlar da anlaşılır biçimde açıklanmalıdır."
+        ]
+      },
+      {
+        "heading": "12. Saule Core İçin İlke: Hatırlamayı İnsanın Elinde Tut",
+        "paragraphs": [
+          "Saule Core'un amacı insanın yerine geçmişi taşımak değil, onun geçmişiyle kurduğu ilişkiyi daha güvenilir ve daha hafif hale getirmektir. Bunun için bellek üç şeyi aynı anda korumalıdır: devamlılık, düzeltilebilirlik ve unutma. Bu üçünden biri eksildiğinde sistem ya gürültülü bir arşive, ya değişmez bir dosyaya ya da güvenilemeyen bir asistana dönüşür.",
+          "Saule konuşmadan önce geri getirmenin amacını sormalıdır. Bu bilgi şu anki karara gerçekten yardım ediyor mu? Kullanıcı bunu bu bağlamda görmeyi bekler mi? Kaynak yeterince açık mı? Bilgi hâlâ geçerli mi? Geri çağırma yarardan çok utanç, baskı veya yönlendirme üretebilir mi? Bellek yeteneği, yalnızca bulma doğruluğu değil uygun susma yeteneğidir.",
+          "Saule Life bağlamında bu ilke kişinin değerlerine, ilişkilerine ve gündelik niyetlerine daha az zihinsel prova ile dönebilmesini destekler. Saule Business bağlamında kararların dayanaklarını, sorumluluğu ve kurumsal öğrenmeyi görünür kılar; çalışan gözetimini meşrulaştırmaz. Saule Creative bağlamında fikirlerin kökenini ve dönüşümünü korur; üretimi geçmiş kalıplara hapsetmez.",
+          "Kullanıcı her önemli bellek işleminde ortak yazar olarak kalmalıdır. Sistem bir örüntü çıkardığında kişi onu düzeltebilmeli; bir kaydı eskimiş sayabilmeli; bir ilişkinin artık kurulmasını istemediğinde bağlantıyı kesebilmelidir. Saule'nin modeli kullanıcı hakkında son söz değil, kullanıcıyla birlikte gözden geçirilen geçici bir öneridir.",
+          "Başarı ölçütü hatırlanan öğe sayısı, arşiv büyüklüğü veya kullanıcının sisteme dönme sıklığı değildir. Daha insani ölçüt şudur: kişi önemli olana daha az kaygılı tekrarla dönebiliyor mu, geçmiş ile sistem üretimini ayırabiliyor mu, hatayı onarabiliyor mu ve artık taşımak istemediğini gerçekten bırakabiliyor mu? İyi bellek insanı kendisine bağımlı kılmaz; kendi yaşamının güvenilir anlatıcısı olarak daha güçlü bırakır."
+        ]
+      }
+    ],
+    "open_questions": [
+      {
+        "id": "m-1",
+        "question": "Saule hangi bilgiyi geçici çalışma bağlamı, hangisini uzun süreli kullanıcı belleği olarak ele almalıdır?",
+        "status": "open",
+        "decisionArea": "Bellek Katmanları",
+        "answeredInChapters": [
+          "Bölüm 22 — Unutma",
+          "Bölüm 25 — Uyumlanabilir Bellek"
+        ]
+      },
+      {
+        "id": "m-2",
+        "question": "Bir kaydın özgün kaynak, sistem özeti ve çıkarım katmanları kullanıcıya ne kadar ayrıntıyla gösterilmelidir?",
+        "status": "open",
+        "decisionArea": "Kaynak ve İzlenebilirlik",
+        "answeredInChapters": [
+          "Bölüm 20 — Güven",
+          "Bölüm 25 — Uyumlanabilir Bellek"
+        ]
+      },
+      {
+        "id": "m-3",
+        "question": "Saule bir hatırlamanın güncelliğini, geçerliliğini ve belirsizliğini hangi göstergelerle anlatmalıdır?",
+        "status": "open",
+        "decisionArea": "Bellek Güveni",
+        "answeredInChapters": [
+          "Bölüm 20 — Güven",
+          "Bölüm 26 — Bağlam Motoru"
+        ]
+      },
+      {
+        "id": "m-4",
+        "question": "Eski bir anı veya karar ne zaman kendiliğinden geri getirilmeli, ne zaman yalnızca açık istek üzerine görünmelidir?",
+        "status": "open",
+        "decisionArea": "Yeniden Gösterme Politikası",
+        "answeredInChapters": [
+          "Bölüm 22 — Unutma",
+          "Bölüm 24 — İrade"
+        ]
+      },
+      {
+        "id": "m-5",
+        "question": "Kullanıcının kendi hatırlama kapasitesini korumak için Saule ne zaman doğrudan yanıt, ne zaman yalnızca bir ipucu vermelidir?",
+        "status": "open",
+        "decisionArea": "Destek Yoğunluğu",
+        "answeredInChapters": [
+          "Bölüm 19 — Uyumlanabilir Zekâ",
+          "Bölüm 24 — İrade"
+        ]
+      },
+      {
+        "id": "m-6",
+        "question": "Ortak anılar ve kurumsal kararlar farklı bakışları tek bir gerçek anlatısına dönüştürmeden nasıl temsil edilmelidir?",
+        "status": "open",
+        "decisionArea": "Paylaşılan Bellek",
+        "answeredInChapters": [
+          "Bölüm 14 — İlişkiler",
+          "Bölüm 30 — İlişki Zekâsı"
+        ]
+      },
+      {
+        "id": "m-7",
+        "question": "Bir yaratıcı fikrin kaynak zinciri ve katkı sahipliği hangi düzeyde kalıcılaştırılmalıdır?",
+        "status": "open",
+        "decisionArea": "Saule Creative Kaynak Zinciri",
+        "answeredInChapters": [
+          "Bölüm 22 — Unutma",
+          "Bölüm 35 — Yapay Zekâ Mimarisi"
+        ]
+      },
+      {
+        "id": "m-8",
+        "question": "Silme talebi kayıtlar, türetilmiş örüntüler, özetler ve yedekler boyunca teknik olarak nasıl uygulanmalıdır?",
+        "status": "open",
+        "decisionArea": "Unutma ve Silme",
+        "answeredInChapters": [
+          "Bölüm 22 — Unutma",
+          "Bölüm 37 — Gizlilik"
+        ]
+      },
+      {
+        "id": "m-9",
+        "question": "Bellek güçlüğü gündelik destek sınırını aştığında Saule bunu tanı koymadan nasıl fark etmeli ve insan desteğine nasıl alan açmalıdır?",
+        "status": "open",
+        "decisionArea": "Klinik Sınır",
+        "answeredInChapters": [
+          "Bölüm 23 — Etik",
+          "Bölüm 28 — Koçluk Motoru"
+        ]
+      },
+      {
+        "id": "m-10",
+        "question": "Saule kendi tekrarlarının kullanıcının öz anlatısında belirli olayları gereğinden fazla merkezîleştirmesini nasıl ölçmeli ve sınırlamalıdır?",
+        "status": "open",
+        "decisionArea": "Anlatısal Etki",
+        "answeredInChapters": [
+          "Bölüm 9 — Kimlik",
+          "Bölüm 27 — Yansıtma Motoru"
+        ]
+      }
+    ],
+    "design_decisions": [
+      "Saule belleği tek bir depo veya kullanıcı özelliği olarak değil, farklı işlev ve hassasiyet düzeyleri olan katmanlar olarak modellemelidir.",
+      "Çalışma belleği güçlüğünden zekâ, niyet, disiplin veya kalıcı kişilik sonucu çıkarılmamalıdır.",
+      "Her önemli geri çağırmada özgün kaynak, sistem dönüşümü ve güven düzeyi birbirinden ayrılmalıdır.",
+      "Sistem özeti hiçbir zaman özgün kaydın yerine geçen tek gerçek olarak sunulmamalıdır.",
+      "Otobiyografik malzeme, lojistik görev verisinden daha yüksek ve bağlama özgü izin eşiği taşımalıdır.",
+      "Saule kullanıcının anısındaki boşlukları tamamlamamalı; özellikle travma, çatışma, sağlık ve hukuk bağlamlarında çağrışım ile kanıtı kesin biçimde ayırmalıdır.",
+      "Unutma; süre sonu, yaşlandırma, görünürlüğü azaltma, bağlantıyı kesme ve silme seçenekleriyle birinci sınıf ürün yeteneği olmalıdır.",
+      "Hatırlatma yoğunluğu kullanıcının kapasitesine ve amacına uyarlanmalı; yardımın kendisi yeni bir dikkat yüküne dönüşmemelidir.",
+      "Dışsal bellek insanın kendi öğrenme ve hatırlama kapasitesini bütünüyle devre dışı bırakmayacak biçimde, gerektiğinde ipucu kademeleriyle çalışmalıdır.",
+      "Paylaşılan ve kurumsal bellekte karşı görüşler, katkı sahipliği, karar dayanakları ve sonradan yapılan düzeltmeler korunmalıdır.",
+      "Bellek verileri başka bir ürün bağlamına taşınırken teknik erişim değil bağlamsal izin belirleyici olmalıdır.",
+      "Kullanıcı kayıtları ve türetilmiş örüntüleri görebilmeli, düzeltebilmeli, eskimiş sayabilmeli, dışa aktarabilmeli ve silebilmelidir.",
+      "Saule klinik değerlendirme yapmamalı; belirgin veya güvenliği etkileyen bellek değişimlerinde uygun insan ve profesyonel desteğini teşvik etmelidir.",
+      "Başarı arşiv büyüklüğüyle değil; daha az zihinsel prova, daha güvenilir geri dönüş, daha yüksek düzeltilebilirlik ve gerçek bırakabilme kapasitesiyle ölçülmelidir."
+    ],
+    "future_evolution": "Bu bölüm ileride Saule Core'un bellek mimarisine çevrilecektir: geçici çalışma bağlamı, kullanıcı tarafından doğrulanmış uzun süreli kayıt, sistem çıkarımı, epizodik kaynak, semantik örüntü ve ileriye dönük niyet birbirinden ayrılacaktır. Her bellek öğesi için kaynak zinciri, oluşma zamanı, son doğrulama, geçerlilik süresi, hassasiyet, izin bağlamı, güven düzeyi ve unutma politikası tanımlanacaktır. Saule Life'ta otobiyografik geri çağırma ile gündelik hatırlatma; Saule Business'ta ortak karar belleği ile çalışan gözetimi; Saule Creative'te ilham izi ile katkı sahipliği farklı kurallara bağlanacaktır. Sonraki sürümler, yapay zekâ özetlerinin kaynak metinden sapmasını denetleyen karşılaştırmaları, tekrar yoluyla anlatısal ağırlık üretimini ölçen görünürlük sınırlarını ve kullanıcının sistemi kapattığında da yaşamını sürdürebilmesini gözeten bağımlılık karşıtı bellek ölçütlerini içerecektir.",
+    "references": [
+      "Baddeley, A. (2000). The episodic buffer: A new component of working memory? Trends in Cognitive Sciences, 4(11), 417–423. https://doi.org/10.1016/S1364-6613(00)01538-2",
+      "Squire, L. R. (2004). Memory systems of the brain: A brief history and current perspective. Neurobiology of Learning and Memory, 82(3), 171–177. https://doi.org/10.1016/j.nlm.2004.06.005",
+      "Tulving, E. (2002). Episodic memory: From mind to brain. Annual Review of Psychology, 53, 1–25. https://doi.org/10.1146/annurev.psych.53.100901.135114",
+      "Conway, M. A., & Pleydell-Pearce, C. W. (2000). The construction of autobiographical memories in the self-memory system. Psychological Review, 107(2), 261–288. https://doi.org/10.1037/0033-295X.107.2.261",
+      "Schacter, D. L., Addis, D. R., & Buckner, R. L. (2007). Remembering the past to imagine the future: The prospective brain. Nature Reviews Neuroscience, 8(9), 657–661. https://doi.org/10.1038/nrn2213",
+      "Schacter, D. L. (1999). The seven sins of memory: Insights from psychology and cognitive neuroscience. American Psychologist, 54(3), 182–203. https://doi.org/10.1037/0003-066X.54.3.182",
+      "Loftus, E. F. (2005). Planting misinformation in the human mind: A 30-year investigation of the malleability of memory. Learning & Memory, 12(4), 361–366. https://doi.org/10.1101/lm.94705",
+      "Anderson, M. C., & Hulbert, J. C. (2021). Active forgetting: Adaptation of memory by prefrontal control. Annual Review of Psychology, 72, 1–36. https://doi.org/10.1146/annurev-psych-072720-094140",
+      "Roediger, H. L., III, & Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological Science, 17(3), 249–255. https://doi.org/10.1111/j.1467-9280.2006.01693.x",
+      "McDaniel, M. A., & Einstein, G. O. (2007). Prospective Memory: An Overview and Synthesis of an Emerging Field. SAGE Publications.",
+      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. Trends in Cognitive Sciences, 20(9), 676–688. https://doi.org/10.1016/j.tics.2016.07.002",
+      "Sparrow, B., Liu, J., & Wegner, D. M. (2011). Google effects on memory: Cognitive consequences of having information at our fingertips. Science, 333(6043), 776–778. https://doi.org/10.1126/science.1207745",
+      "Storm, B. C., & Stone, S. M. (2015). Saving-enhanced memory: The benefits of saving on the learning and remembering of new information. Psychological Science, 26(2), 182–188. https://doi.org/10.1177/0956797614559285",
+      "Henkel, L. A. (2014). Point-and-shoot memories: The influence of taking photos on memory for a museum tour. Psychological Science, 25(2), 396–402. https://doi.org/10.1177/0956797613504438",
+      "Wegner, D. M., Erber, R., & Raymond, P. (1991). Transactive memory in close relationships. Journal of Personality and Social Psychology, 61(6), 923–929. https://doi.org/10.1037/0022-3514.61.6.923",
+      "Pataranutaporn, P., Archiwaranguprok, C., Chan, S., Loftus, E. F., & Maes, P. (2025). Slip through the chat: Subtle injection of false information in LLM chatbot conversations increases false memory formation. Proceedings of the 30th International Conference on Intelligent User Interfaces, 1297–1313. https://doi.org/10.1145/3708359.3712112",
+      "Nissenbaum, H. (2004). Privacy as contextual integrity. Washington Law Review, 79(1), 119–157."
+    ]
+  }
+}

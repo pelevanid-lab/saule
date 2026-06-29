@@ -408,63 +408,115 @@
       "draft": {
         "sections": [
           {
-            "heading": "1. Por qué lo inacabado permanece activo",
+            "heading": "1. ¿Por qué lo inacabado permanece activo?",
             "paragraphs": [
-              "Un ciclo abierto es cualquier cosa que la mente considera incompleta: una tarea, promesa, decisión, pregunta o intercambio emocional. Permanece activo porque el cerebro espera una acción futura pero carece de un desenlace o punto de retorno fiable.",
-              "No todos los elementos inacabados exigen lo mismo. Los ciclos ambiguos consumen más atención que los aplazados con claridad porque la mente debe preguntar repetidamente qué significan y si se han vuelto urgentes."
+              "Un ciclo abierto es una intención, tarea, decisión, pregunta, promesa o asunto relacional que la mente aún no considera resuelto. El término no es un diagnóstico clínico ni una construcción única con límites firmemente establecidos en psicología; es un marco útil para explicar por qué asuntos inacabados regresan repetidamente a nuestro campo de atención en la vida cotidiana.",
+              "Un mensaje sin respuesta, un plan de atención médica no elegido, una promesa hecha pero no cumplida, una decisión que se espera de otra persona, una solicitud a medio terminar o una conversación cuyo significado aún no se ha entendido están todos inacabados de diferentes maneras. Sin embargo, su peso no es igual en la mente. Uno puede requerir sólo una pequeña acción, mientras que otro puede requerir coraje, información, tiempo, dolor o la participación de otra persona.",
+              "Los experimentos de Bluma Zeigarnik en la década de 1920 demostraron que, bajo ciertas condiciones, las tareas interrumpidas podían recordarse mejor que las completadas. Sin embargo, la reseña histórica y experimental de Colin MacLeod nos recuerda que este efecto no es tan universal o inmutable como sugieren los relatos populares. Concluir que cada tarea inconclusa ocupa automáticamente la mente sería una afirmación más fuerte de lo que la investigación puede respaldar.",
+              "Una conclusión más defendible es la siguiente: cuando una meta importa, sigue siendo válida y el camino de regreso a ella es incierta, los pensamientos relacionados con esa meta pueden reaparecer durante otras actividades. En experimentos de Masicampo y Baumeister, las metas incumplidas se asociaron con pensamientos intrusivos y costos de desempeño durante tareas no relacionadas; Sin embargo, hacer un plan específico para regresar a la meta podría reducir estos efectos cognitivos.",
+              "Este hallazgo sugiere que la finalización no es el único camino hacia el alivio. A veces la mente busca un camino de retorno confiable antes de buscar el resultado mismo. Un plan como \"No haré esto ahora, pero lo reabriré el viernes a las 10:00 con este documento\" difiere de la vaga intención \"Debería hacerlo más tarde\".",
+              "Por lo tanto, no podemos entender el peso de un ciclo abierto mirando sólo su antigüedad o el tamaño de la tarea. La incertidumbre, la importancia personal, el significado emocional, las consecuencias sociales, la confianza a cambio y la capacidad actual de la persona importan en conjunto. La primera tarea de Saule no es declarar urgente todo lo abierto, sino distinguir por qué cada asunto permanece abierto.",
+              "Los ciclos abiertos no existen sólo dentro de los individuos. Las solicitudes de clientes sin respuesta, los tickets sin resolver, los seguimientos de ventas olvidados, las decisiones sin dueño, las aprobaciones pendientes y los problemas operativos recurrentes también constituyen la carga mental de una organización. En el trabajo creativo, las ideas a medio formar, los borradores inacabados, las revisiones pendientes y las posibilidades planteadas como “algo que tal vez hagamos algún día” son otras formas de la misma presión."
             ]
           },
           {
-            "heading": "2. Ciclos distintos necesitan finales distintos",
+            "heading": "2. Diferentes ciclos requieren diferentes finales",
             "paragraphs": [
-              "Algunos ciclos se cierran mediante acción. Otros mediante una decisión, conversación, aceptación, delegación, programación o abandono deliberado. Tratar cada ciclo como tarea produce listas largas que conservan la incertidumbre en vez de resolverla.",
-              "El cierre es, por tanto, semántico. Antes de elegir el siguiente paso, la persona necesita saber qué tipo de asunto incompleto está cargando."
+              "Un error común en los sistemas de productividad es convertir todo lo inacabado en una tarea. Sin embargo, “hablar con mi madre”, “pensar en mi carrera”, “esperar el resultado”, “aceptar esta pérdida” y “presentar el formulario” no son el mismo tipo de ítems. Pueden aparecer uno al lado del otro en una interfaz, pero no solicitan el mismo final.",
+              "Un ciclo de acción avanza a través de un siguiente paso observable: completar el formulario, programar la cita, enviar el archivo. Un ciclo de decisiones necesita que las opciones, los criterios o la fecha de la decisión final queden claros antes de tomar medidas adicionales. Producir tareas antes de tomar una decisión puede crear la apariencia de movimiento y al mismo tiempo preservar la incertidumbre subyacente.",
+              "En un ciclo de espera, el siguiente movimiento no pertenece al usuario. Se espera una respuesta de otra persona, un resultado institucional, una entrega o una fecha determinada. Mostrar cada día un elemento de este tipo como si fuera una tarea puede convertir una situación fuera del control de la persona en un sentimiento de insuficiencia personal. Lo que se necesita aquí no es acción, sino claridad en la apropiación y las condiciones de seguimiento.",
+              "Un ciclo relacional puede requerir una conversación, expectativas aclaradas, una disculpa, un límite o un acuerdo mutuo. A veces, un ciclo emocional puede necesitar no una solución sino un nombre, dolor, tiempo, aceptación o espacio para vivir con incertidumbre por un tiempo. Convertir cada malestar en una tarea realizable mecaniza la experiencia humana más de lo que debería.",
+              "También hay ciclos de exploración: una idea, una posibilidad, un libro, un deseo de viajar o un proyecto de futuro aún no es un compromiso. Si un sistema las carga como deudas impagas, la curiosidad misma se convierte en presión. Preservar una posibilidad no debe considerarse como una promesa de que se realizará.",
+              "Esta distinción debe preservarse en los niveles personal, organizacional y creativo. No todos los ciclos abiertos son tareas pendientes; algunos asuntos de los clientes requieren una decisión, algunos asuntos del equipo requieren una propiedad clara y algunas ideas creativas solo requieren un contexto preservado. El tipo de cierre incorrecto puede prolongar un ciclo en lugar de cerrarlo.",
+              "Por lo tanto, Saule debería distinguir al menos estas formas de cierre: hacer, decidir, esperar, hablar, delegar, planificar, reflexionar, aceptar y dejar ir. Un artículo puede tener más de una forma; La clasificación no debe ser un veredicto absoluto, sino una interpretación provisional que ayude a presentar al usuario una mejor siguiente pregunta."
             ]
           },
           {
-            "heading": "3. La confianza es la memoria externa",
+            "heading": "3. La confianza es la base de la memoria externa",
             "paragraphs": [
-              "Un recordatorio solo reduce presión mental cuando la persona confía en su momento, formulación y destino. Si llega demasiado pronto, tarde o sin contexto, la mente aprende que debe seguir recordando por su cuenta.",
-              "Un sistema fiable hace visible el camino de regreso. Registra por qué importa algo, qué contaría como progreso y cuándo desea la persona volver a verlo."
+              "La memoria prospectiva es la capacidad de recordar una acción prevista en el momento adecuado en el futuro. Tomar medicamentos por la noche, escribirle a alguien después de una reunión o comprar algo de camino a casa requiere más que recordar información pasada; requiere reactivar una intención en las condiciones adecuadas.",
+              "La gente no deja esta carga únicamente a la memoria biológica. Calendarios, alarmas, objetos colocados junto a la puerta, notas y recordatorios digitales trasladan las intenciones al entorno. La revisión de Gilbert y sus colegas sobre la descarga de intenciones muestra que estas herramientas pueden respaldar firmemente las intenciones retrasadas, mientras que las decisiones de las personas sobre qué descargar están influenciadas por su confianza en su propia memoria y por el costo de la tarea.",
+              "La descarga por sí sola no genera confianza. Si no se puede encontrar un registro, carece de contexto, aparece en el momento equivocado o el sistema produce demasiadas alertas sin importancia, la persona continúa llevando la intención mentalmente. Por tanto, el ciclo mental permanece abierto aunque la tarea haya sido escrita, porque el camino de regreso no es fiable.",
+              "El desencadenante importa tanto como el contenido del recordatorio. Es posible que “renovar el pasaporte” no ayude si la persona no sabe qué documento necesita o lo ve mientras la oficina está cerrada. “A las 09:00 del martes, mientras estás en el ordenador, pide cita a través de esta página” deja visible el punto de entrada.",
+              "La confianza requiere una relación que pueda admitir errores. Saule no debe asumir que cada regreso ocurrirá en el momento adecuado; debe explicar por qué se muestra un elemento ahora y permitir al usuario corregir el momento o reducir sugerencias similares. Un recordatorio inoportuno no es simplemente un pequeño error del producto; puede erosionar la confianza en la memoria externa.",
+              "Por lo tanto, cada ciclo diferido debería conllevar un contrato de retorno: ¿cuándo, después de qué evento, en qué contexto o tras la respuesta de quién se reabrirá? La memoria externa confiable no es una memoria que mantiene todo continuamente visible, sino una memoria en la que se puede confiar para recuperar algo en las condiciones adecuadas incluso cuando está fuera de la vista."
             ]
           },
           {
-            "heading": "4. El derecho a abandonar",
+            "heading": "4. De una intención vaga a un plan viable",
             "paragraphs": [
-              "Muchos ciclos sobreviven porque abandonarlos parece un fracaso. Metas antiguas, obligaciones caducadas y expectativas heredadas siguen presentes mucho después de haber dejado de servir.",
-              "Saule debe apoyar la renuncia consciente. Borrar, rechazar o redefinir un compromiso puede ser un acto de claridad. El sistema no debe convertir cada intención pasada en una deuda permanente."
+              "Registrar una intención y hacerla viable no es lo mismo. “Avanzar más”, “terminar la cartera” o “reparar la relación” pueden importar, pero no dicen qué contaría como un comienzo. Los objetivos vagos pueden permanecer abiertos porque cada encuentro con ellos exige una nueva interpretación y otra decisión.",
+              "Las investigaciones sobre las intenciones de implementación muestran que los planes “si-entonces” que vinculan una condición específica con un comportamiento específico pueden apoyar el logro de objetivos. El metanálisis de Gollwitzer y Sheeran informó efectos generalmente beneficiosos, mientras que estudios posteriores muestran que la efectividad varía según la naturaleza del objetivo, la intención genuina de la persona y el contexto. Un plan no convierte automáticamente en significativo un objetivo débil o impuesto externamente.",
+              "Un buen plan puede responder cuatro preguntas: ¿Qué pasará? ¿Bajo qué condiciones comenzará? ¿Cuál es la primera acción visible? Si no puede comenzar, ¿cuándo se reconsiderará? Estas preguntas no intentan controlar todo el futuro; simplemente hacen que la primera transición de la intención a la conducta sea menos incierta.",
+              "Cuando un plan está demasiado especificado, puede crear una nueva carga de mantenimiento. Actualizar docenas de subpasos a medida que la vida cambia puede resultar más difícil que hacer el trabajo en sí. Saule debe buscar el plano más pequeño y revelar más detalles sólo a medida que el usuario avanza.",
+              "El aplazamiento es una decisión sólo cuando incluye una condición de devolución. “Lo miraré más tarde” simplemente empuja el ciclo abierto hacia el futuro. “Reevaluarlo con el presupuesto cuando llegue el salario”, “decidir cuándo llega el informe” o “hacer un seguimiento una vez si no hay respuesta dentro de dos semanas” define la condición bajo la cual termina la espera.",
+              "El propósito de un plan no es hacer que el usuario lo obedezca, sino reducir el costo de reconstruir una intención. Actualizar el plan cuando las circunstancias cambian no debe considerarse un fracaso; Preservar ciegamente un viejo plan en una vida cambiada puede producir una carga adicional en lugar de flexibilidad."
             ]
           },
           {
-            "heading": "5. Un sistema orientado al cierre",
+            "heading": "5. El derecho a dejar ir",
             "paragraphs": [
-              "Saule debería ayudar periódicamente a revisar ciclos sin resolver en grupos pequeños y sensibles al contexto. La revisión debe preguntar si requieren acción, decisión, conversación, una fecha posterior o liberación.",
-              "El propósito no es llegar a cero ciclos abiertos. La vida humana siempre permanecerá inacabada. El propósito es evitar que la vida inconclusa se convierta en presión invisible."
+              "Muchos ciclos permanecen vivos no porque sigan siendo valiosos, sino porque dejarlos ir se siente como un fracaso. Las viejas metas, las obligaciones que han perdido su validez, las expectativas heredadas de otros y los planes que ya no son posibles pueden seguir cargándose como deudas morales mucho después de haber perdido su conexión con la vida presente de la persona.",
+              "Las investigaciones sobre la falta de compromiso con los objetivos sugieren que retirarse con flexibilidad de objetivos inalcanzables y volver a comprometerse con alternativas significativas puede estar asociado con el bienestar. En el metanálisis de Barlow, Wrosch y McGrath, estas relaciones fueron modestas en promedio y variaron según el contexto. “Rendirse siempre es bueno” es, por tanto, una conclusión tan extrema como “la persistencia es siempre una virtud”.",
+              "El abandono consciente no es lo mismo que el abandono evitativo. Una persona puede retirarse de una meta valiosa por miedo; en otra situación, continuar con un objetivo cuyo costo ha aumentado, su significado ha disminuido o su viabilidad ha desaparecido puede ser perjudicial. Saule no puede determinar por sí solo esta distinción con certeza.",
+              "En lugar de emitir un veredicto, el sistema puede crear un espacio para la reflexión: ¿sigue siendo este objetivo el suyo? ¿Aún es posible? ¿Cuánto ha empezado a costar? ¿Qué valor protege continuar? ¿Para qué dejaría espacio dejarlo ir? ¿La decisión debe tomarse hoy? Estas preguntas no deberían fomentar el abandono; deberían hacer visible la persistencia automática.",
+              "El mismo derecho se aplica al trabajo y a los proyectos creativos. No es necesario perseguir indefinidamente cada segmento de clientes, ni llevar adelante cada antigua decisión, convertir cada idea en un producto o desarrollar cada campaña. A veces, un cierre saludable no proviene de continuar más allá, sino de nombrar honestamente lo que ya no se llevará a cabo.",
+              "Dejar ir también puede tener un historial de cierre. Si el usuario lo desea, podrá indicar brevemente por qué dejó de hacerlo, en qué condiciones podría reconsiderarlo o por qué no quiere volver. Esta explicación, sin embargo, no debe convertirse en una defensa obligatoria; la gente no debería tener que justificar cada eliminación del sistema.",
+              "Saule debe mantener distintas la eliminación, el archivado y la finalización. El archivo preserva la posibilidad de devolución; finalizar indica que el compromiso ha terminado; La eliminación significa que el registro no se conservará. El sistema no debe convertir cada intención pasada en una deuda permanente o en un registro de carácter almacenado interminablemente."
             ]
           },
           {
-            "heading": "6. Ciclos compartidos y relacionales",
+            "heading": "6. Un sistema orientado al cierre",
             "paragraphs": [
-              "Muchos ciclos existen entre personas: una respuesta prometida, una expectativa confusa, una decisión pendiente de acuerdo o un cuidado que no puede reducirse a transacción. Su estado no siempre puede inferirse de los datos de una sola persona.",
-              "Saule debe registrar la comprensión de la persona usuaria sin afirmar que conoce la intención ajena. Puede preparar una pregunta, conservar contexto o sugerir un seguimiento respetuoso, pero no automatizar presión relacional.",
-              "El cierre también puede ser asimétrico. Alguien puede haber cumplido su parte correspondiente y la relación seguir incierta. El sistema necesita un lenguaje para trazar límites además de para la finalización."
+              "El objetivo de un sistema orientado al cierre no es una bandeja de entrada vacía o cero ciclos abiertos. La vida humana está inacabada por naturaleza: criar a un niño, mantener una relación, crecer en una profesión, cuidar la salud o explorar una idea no se puede completar con una sola marca de verificación. Un objetivo cero puede hacer que la continuidad de la vida parezca un fracaso.",
+              "Un objetivo más significativo es que cada elemento abierto tenga un estado inteligible: actuar ahora, programado, esperando respuesta, bajo reflexión, delegado, esperando una condición, liberado conscientemente o completado. El Estado debe explicar por qué el elemento es visible y a quién corresponde la siguiente decisión.",
+              "Una revisión no debería abrir todo el archivo a la vez. Saule debe presentar grupos pequeños según el contexto, la edad, el último cambio, una condición próxima y la capacidad actual del usuario. Cinco preguntas claras pueden crear más conclusiones que una pantalla de deuda que contenga cien elementos.",
+              "El significado de \"completado\" también varía según el ciclo. Para un formulario, un registro de envío puede ser suficiente; para una conversación, expresando la propia parte; para una decisión, dejando constancia de la elección; para una cuestión emocional, simplemente afirmando que no se desea ninguna intervención adicional del sistema. Saule no debería reducir la finalización a un patrón de comportamiento.",
+              "El sistema puede sugerir ciertas pruebas, pero no debe recopilar pruebas de su finalización mediante una vigilancia constante. Ver que se envió un correo electrónico no es lo mismo que saber que la conversación se siente cerrada para el usuario. La última palabra debe quedar en manos del usuario, y un ciclo cerrado por error debería ser fácil de reabrir.",
+              "El cierre no debe convertirse en una excusa para producir insignias, rachas o puntuaciones. El objetivo no es que el usuario cierre más elementos, sino que cargue con menos incertidumbre. A veces la mejor revisión termina al completar una tarea, a veces aplazarla hasta la fecha adecuada y a veces aceptar que no se realizará."
             ]
           },
           {
-            "heading": "7. Desgaste, caducidad y renovación",
+            "heading": "7. Ciclos compartidos y relacionales",
             "paragraphs": [
-              "Un ciclo no debe conservar la misma urgencia para siempre. Algunos compromisos caducan, otros dejan de importar y otros requieren renovación explícita cuando cambian las circunstancias.",
-              "Saule puede usar la antigüedad como invitación a aclarar, no como prueba de fracaso. Debe preguntar si el elemento sigue importando, si cambió su responsable o condición y si conservarlo ofrece un beneficio real.",
-              "Así se crea una memoria más sana: duradera cuando las consecuencias lo exigen, temporal cuando la vida ha avanzado y siempre sujeta a la decisión de la persona."
+              "Entre las personas viven muchos ciclos abiertos: una respuesta prometida, una decisión compartida, una expectativa poco clara, una responsabilidad de cuidado, un pago, una entrega de trabajo, una disculpa o una necesidad que aún no ha sido expresada. Estos ciclos no son meros problemas de planificación personal; son cuestiones de propiedad, reciprocidad y confianza.",
+              "Saule debería distinguir al menos tres cosas en los ítems relacionales: la propia responsabilidad del usuario, una acción que se espera de otra persona y un área que debe aclararse en conjunto. “Responderé”, “Estoy esperando su respuesta” y “tenemos que decidir juntos” no son el mismo estado. Sin esta distinción, una persona puede llevar la parte de otra persona como si fuera su propia tarea abierta.",
+              "El sistema no debe inferir la intención, emoción o confiabilidad de otra persona a partir de datos visibles únicamente para el usuario. “Hace tres días que no responden” es un hecho observable; “no les importas” no lo es. Saule debe separar los hechos, la interpretación del usuario y la incertidumbre.",
+              "Las relaciones laborales requieren el mismo cuidado: las expectativas de los clientes, las responsabilidades del equipo, las decisiones compartidas, las respuestas retrasadas, los comentarios, las disculpas, los límites y la propiedad pueden ser tanto operativos como relacionales. Cerrar una tarea no es lo mismo que cerrar una relación; A veces, proteger la relación requiere un cierre más cuidadoso.",
+              "El cierre de una relación no siempre significa un acuerdo mutuo. Es posible que el usuario haya hecho su parte, haya expresado un límite o haya hecho un seguimiento respetuoso una vez, mientras que la otra persona aún no responde. En tales casos, el ciclo puede cerrarse no mediante un acuerdo total, sino cuando el usuario decide lo que ya no hará.",
+              "Los recordatorios no deberían automatizar la presión relacional. Si un sistema genera continuamente mensajes de seguimiento, califica a las personas según el tiempo de respuesta o interpreta el silencio como hostilidad, construye un mecanismo de presión en lugar de inteligencia relacional. Saule puede preparar una pregunta y preservar el contexto; El envío de la comunicación y la elección del tono deben quedar en manos del usuario.",
+              "Esta área también requiere fuertes límites de privacidad. Las notas sobre otras personas no deben convertirse en perfiles extensos sin su consentimiento; El contexto relacional debe conservarse con sólo el mínimo detalle necesario para ayudar al usuario a encontrar la dirección. Comprender un ciclo abierto no requiere convertir a todos los que participan en él en objetos de datos."
+            ]
+          },
+          {
+            "heading": "8. Obsolescencia, vencimiento y renovación",
+            "paragraphs": [
+              "Un ciclo no debería seguir siendo igualmente urgente para siempre. A medida que pasa el tiempo, algunos compromisos ganan valor, otros caducan y otros pierden significado porque las circunstancias cambian. La edad por sí sola no es una medida de prioridad; No todo lo viejo es urgente ni carece de importancia.",
+              "Las listas de tareas tradicionales a menudo castigan los elementos antiguos de dos maneras: o los hacen desaparecer al final de la lista o los muestran con colores cada vez más severos y atrasados. Ambos enfoques pueden saltarse la pregunta esencial: ¿este artículo sigue siendo válido? Saule debería utilizar la edad no para producir culpa, sino para invitar a la revalidación.",
+              "Algunos ciclos pueden tener una regla de caducidad desde el principio. La sugerencia de un evento puede reconsiderarse después de que pasa su fecha, una investigación de precios temporal después de que se toma una decisión o una idea de poca importancia después de haber permanecido intacta durante un período determinado. Sin embargo, las áreas de gran importancia como la salud, el derecho, el dinero, los cuidados y las relaciones importantes no deben eliminarse automáticamente y de forma silenciosa.",
+              "La renovación de superficie no debe limitarse a devolver un elemento a la vista sin cambios; debería preguntar qué ha cambiado: ¿Qué ha cambiado desde que grabaste esto? ¿Sigue siendo tu responsabilidad? ¿La fecha límite y la persona que estás esperando siguen siendo las mismas? ¿Sería mejor conservarlo, transformarlo, delegarlo o liberarlo? La edad produce entonces un significado actualizado en lugar de presión.",
+              "Las transiciones de la vida pueden requerir una reevaluación colectiva. Una mudanza, un cambio de trabajo, una enfermedad, la paternidad, una separación o un cambio en las circunstancias financieras pueden alterar el estado de cientos de viejas intenciones a la vez. En lugar de obligar al usuario a defender cada elemento individualmente, Saule debería ofrecer un reinicio periódico y una forma de continuar con los elementos seleccionados.",
+              "Una memoria digital sana no sólo recuerda; también puede poner fin a las cosas. Los períodos de retención, archivado, olvido y eliminación permanente deben distinguirse claramente, y la decisión del usuario de eliminar no debe ser revertida silenciosamente por sugerencias posteriores."
+            ]
+          },
+          {
+            "heading": "9. El principio de ciclo abierto de Saule",
+            "paragraphs": [
+              "Este capítulo da origen a un principio fundamental para Saule: Saule no debe ser acreedor de una vida inacabada, sino un amable intérprete de la incertidumbre. Su tarea no es hacer que los usuarios devuelvan sus antiguas intenciones, sino ayudarles a ver cuáles todavía tienen significado y responsabilidad en la actualidad.",
+              "Este principio de ciclo abierto es un principio de diseño fundamental no sólo para la vida individual, sino para todas las capas de vida, trabajo y creatividad de Saule Core. Lo que queda abierto puede ser una tarea personal, una decisión de equipo o una posibilidad creativa; lo que cada uno requiere no es idéntico, pero todos necesitan una propiedad visible, un retorno confiable y un cierre significativo.",
+              "Cada ciclo abierto debe representarse de la forma más sencilla posible: ¿Qué es? ¿Por qué está abierto? ¿A quién pertenece el próximo movimiento? ¿Qué tipo de cierre necesita? ¿En qué condiciones debería reaparecer? Cuando el sistema es incierto, debe decirlo y no debe almacenar una interpretación provisional como una verdad permanente.",
+              "Cada elemento resurgido debe incluir una razón y una salida fácil. El usuario debería poder aplazarlo, cambiar su estado, delegarlo, marcarlo como completo, dejarlo ir o eliminarlo permanentemente. La inteligencia de Saule es visible no sólo al presentar lo correcto, sino también al retirarse rápidamente cuando presenta lo incorrecto.",
+              "El éxito no se mide por el número de ciclos cerrados. Preguntas más significativas son: ¿Puede el usuario ver más claramente lo que le pertenece? ¿Pueden establecer con seguridad una intención sin ensayarla mentalmente? ¿Pueden distinguir lo que esperan de lo que deben hacer? ¿Podrán poner fin a objetivos que han dejado de ser válidos sin sentirse culpables? ¿Se sienten más ligeros y dirigidos después de una revisión?",
+              "Saule no debería prometer cerrar todos los círculos. Algunos asuntos requieren tiempo, relación, coraje, recursos financieros o apoyo humano; algunos nunca llegan a un final perfecto. Un buen sistema no elimina lo incompleto. Reduce la posibilidad de que lo incompleto se convierta en una presión invisible, una responsabilidad olvidada o una culpa permanente."
             ]
           }
         ],
         "open_questions": [
           {
             "id": "ol-1",
-            "question": "¿Cómo puede detectar Saule que un ciclo ha quedado obsoleto?",
+            "question": "¿Cómo puede Saule reconocer que un ciclo se ha vuelto obsoleto?",
             "status": "open",
-            "decisionArea": "Detección de obsolescencia",
+            "decisionArea": "Detección de estancamiento",
             "answeredInChapters": [
               "Capítulo 25 — Memoria adaptativa",
               "Capítulo 31 — Inteligencia de planificación"
@@ -472,27 +524,27 @@
           },
           {
             "id": "ol-2",
-            "question": "¿Qué evidencia basta para marcar un ciclo como completado?",
+            "question": "¿Qué evidencia es suficiente para considerar un ciclo completo?",
             "status": "open",
-            "decisionArea": "Semántica de finalización",
+            "decisionArea": "Significado de finalización",
             "answeredInChapters": [
-              "Capítulo 26 — Motor de contexto",
+              "Capítulo 26: Motor de contexto",
               "Capítulo 31 — Inteligencia de planificación"
             ]
           },
           {
             "id": "ol-3",
-            "question": "¿Cuándo debería el sistema sugerir abandonar una meta?",
+            "question": "¿Cuándo debería el sistema sugerir desvincularse de una meta?",
             "status": "open",
-            "decisionArea": "Liberación de metas",
+            "decisionArea": "Desconexión de objetivos",
             "answeredInChapters": [
               "Capítulo 24 — Agencia humana",
-              "Capítulo 28 — Motor de acompañamiento"
+              "Capítulo 28: Motor de entrenamiento"
             ]
           },
           {
             "id": "ol-4",
-            "question": "¿Cómo representar ciclos relacionales sin puntuar a las personas?",
+            "question": "¿Cómo se pueden representar los ciclos relacionales sin puntuar a las personas?",
             "status": "open",
             "decisionArea": "Contexto relacional",
             "answeredInChapters": [
@@ -502,63 +554,68 @@
           },
           {
             "id": "ol-5",
-            "question": "¿Con qué frecuencia deben revisarse los ciclos sin resolver?",
+            "question": "¿Con qué frecuencia se deben revisar los ciclos no resueltos?",
             "status": "open",
-            "decisionArea": "Ritmo de revisión",
+            "decisionArea": "Frecuencia de revisión",
             "answeredInChapters": [
               "Capítulo 31 — Inteligencia de planificación"
             ]
           },
           {
             "id": "ol-6",
-            "question": "¿Cómo debe representar Saule un ciclo que depende de otra persona?",
+            "question": "¿Cómo debería representar Saule un ciclo que depende de otra persona?",
             "status": "open",
-            "decisionArea": "Estado del ciclo compartido",
+            "decisionArea": "Estado de ciclo compartido",
             "answeredInChapters": [
               "Capítulo 30 — Inteligencia relacional"
             ]
           },
           {
             "id": "ol-7",
-            "question": "¿Qué compromisos deben caducar automáticamente y cuáles requieren confirmación?",
+            "question": "¿Qué compromisos deberían caducar automáticamente y cuáles deberían requerir confirmación?",
             "status": "open",
-            "decisionArea": "Reglas de caducidad",
+            "decisionArea": "Reglas de vencimiento",
             "answeredInChapters": [
-              "Capítulo 22 — Olvido",
+              "Capítulo 22 — Olvidando",
               "Capítulo 25 — Memoria adaptativa"
             ]
           },
           {
             "id": "ol-8",
-            "question": "¿Cómo distinguir aceptación de abandono por evitación?",
+            "question": "¿Cómo puede el sistema distinguir la aceptación del abandono evitativo?",
             "status": "open",
-            "decisionArea": "Calidad de liberación",
+            "decisionArea": "Cualidad de dejar ir",
             "answeredInChapters": [
-              "Capítulo 27 — Motor de reflexión",
-              "Capítulo 28 — Motor de acompañamiento"
+              "Capítulo 27: Motor de reflexión",
+              "Capítulo 28: Motor de entrenamiento"
             ]
           }
         ],
         "design_decisions": [
-          "Los ciclos abiertos deben clasificarse según el tipo de cierre que necesitan.",
-          "Todo aplazamiento debe incluir una condición fiable de retorno.",
-          "La persona debe poder abandonar compromisos sin lenguaje punitivo.",
-          "Los ciclos relacionales y emocionales no deben reducirse a completar tareas.",
-          "Las revisiones deben ser pequeñas y contextuales, no exhaustivas.",
-          "El sistema no debe inferir la intención ajena a partir de datos unilaterales.",
-          "Los ciclos antiguos deben invitar a renovación o caducidad, no conservar urgencia permanente."
+          "Los ciclos abiertos deben clasificarse según el tipo de cierre que requieren.",
+          "Cada ciclo debe tener propiedad, un estado actual y una condición para su retorno siempre que sea posible.",
+          "El aplazamiento debe incluir una condición de tiempo, evento o contexto confiable en lugar de un \"más tarde\" indefinido.",
+          "La planificación debe comenzar con el paso más pequeño y el mantenimiento del sistema no debe ser más pesado que el trabajo mismo.",
+          "Los usuarios deberían poder desvincularse de sus compromisos sin lenguaje punitivo.",
+          "Los ciclos relacionales y emocionales no deben reducirse a la finalización de la tarea.",
+          "Las revisiones deben ser pequeñas y contextuales en lugar de exhaustivas.",
+          "El sistema no debe inferir la intención de otra persona a partir de datos unilaterales.",
+          "El modelo de ciclo abierto debe preservar un principio compartido en la vida, el trabajo y la creatividad, adaptándose al mismo tiempo al contexto.",
+          "Los ciclos antiguos deberían recibir una invitación a renovarse o caducar en lugar de una urgencia permanente.",
+          "La evidencia de finalización debe variar según el tipo de ciclo y la decisión final debe quedar en manos del usuario.",
+          "Los ciclos abiertos cero no deben convertirse en el objetivo del producto ni en una medida del éxito del usuario."
         ],
-        "future_evolution": "Este capítulo evolucionará hacia un modelo de cierre que abarque acción, decisión, delegación, conversación, aceptación y liberación deliberada.",
+        "future_evolution": "Más adelante, este capítulo evolucionará hasta convertirse en un modelo formal de ciclo abierto que abarca la acción, la decisión, la espera, la delegación, la conversación, la aceptación y el abandono consciente. Las versiones futuras definirán los estados de propiedad, las condiciones de retorno, la evidencia de finalización, las políticas de obsolescencia y vencimiento, y los límites de privacidad para los ciclos relacionales. También aclararán qué estructuras comparte este modelo en la vida individual, las operaciones comerciales y el trabajo creativo, y dónde divergen esos contextos. La investigación también examinará cómo Saule puede medir la producción de menos incertidumbre y repetición mental en lugar de simplemente el cierre de más tareas.",
         "references": [
-          "Efecto Zeigarnik",
-          "Memoria prospectiva",
-          "Intenciones de implementación",
-          "Investigación sobre desvinculación de metas",
-          "Cognición externa y sistemas fiables",
-          "Compromiso y protección de metas",
-          "Coordinación relacional",
-          "Descuento temporal",
-          "Memoria digital y caducidad"
+          "Zeigarnik, B. (1927). Das Behalten erledigter und unerledigter Handlungen. Psychologische Forschung, 9, 1–85.",
+          "MacLeod, C. M. (2020). Zeigarnik and von Restorff: The memory effects and the stories behind them. Memory & Cognition, 48, 1073–1088.",
+          "Masicampo, E. J., & Baumeister, R. F. (2011). Consider it done! Plan making can eliminate the cognitive effects of unfulfilled goals. Journal of Personality and Social Psychology, 101(4), 667–683.",
+          "Gollwitzer, P. M. (1999). Implementation intentions: Strong effects of simple plans. American Psychologist, 54(7), 493–503.",
+          "Gollwitzer, P. M., & Sheeran, P. (2006). Implementation intentions and goal achievement: A meta-analysis of effects and processes. Advances in Experimental Social Psychology, 38, 69–119.",
+          "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. Trends in Cognitive Sciences, 20(9), 676–688.",
+          "Gilbert, S. J., Boldt, A., Sachdeva, C., & Scarampi, C. (2023). Outsourcing memory to external tools: A review of intention offloading. Psychonomic Bulletin & Review, 30, 60–76.",
+          "Wrosch, C., Scheier, M. F., Miller, G. E., Schulz, R., & Carver, C. S. (2003). Adaptive self-regulation of unattainable goals: Goal disengagement, goal reengagement, and subjective well-being. Personality and Social Psychology Bulletin, 29(12), 1494–1508.",
+          "Barlow, M. A., Wrosch, C., & McGrath, J. J. (2020). Goal adjustment capacities and quality of life: A meta-analytic review. Journal of Personality, 88(2), 307–323."
         ]
       }
     },
@@ -885,79 +942,121 @@
       "draft": {
         "sections": [
           {
-            "heading": "1. Salir del Momento sin Salir del Problema",
+            "heading": "1. ¿Qué Intenta Resolver un Bucle de Escape?",
             "paragraphs": [
-              "Cuando la presión sube, la persona suele buscar algo inmediato: desplazarse por redes sociales, jugar, picar comida, comprar, apostar, pornografía, trading impulsivo, investigación interminable, limpieza compulsiva o alguna tarea pequeña que parezca más fácil que la real. La forma cambia, pero el patrón es parecido. Aparece una emoción difícil y la mente busca una salida rápida.",
-              "Estos bucles no siempre comienzan como autodestrucción. Muchos empiezan como intentos comprensibles de alivio. El problema es que el alivio breve puede convertirse en un camino automático mientras la fuente original de presión sigue sin resolverse."
+              "Un bucle de escape es un giro repetido hacia algo que ofrece alivio a corto plazo cuando aumentan la presión, la vergüenza, el miedo, la soledad, el aburrimiento, la incertidumbre o la sobrecarga interior. El desplazamiento por redes sociales, los videojuegos, comer por impulso, comprar, apostar, la pornografía, el trading impulsivo, la investigación compulsiva, los cambios incontrolados de pantalla o las tareas pequeñas que parecen más fáciles que la real pueden ser rostros distintos del mismo patrón.",
+              "Lo que estas conductas comparten no es tanto su contenido como su función. A menudo la persona no recurre a ellas solo porque le gusten, sino porque en ese momento no soporta otra cosa. El escape suele ser un intento de reducir tensión, alejarse de la presión o bajar el volumen de una emoción difícil de sostener.",
+              "Por eso la pregunta central de este capítulo no es “¿por qué la gente es débil de voluntad?”. Una pregunta más honesta es esta: ¿por qué ciertas formas de alivio breve producen con el tiempo más desorden, más culpa, más pérdida de control y más necesidad de volver a escapar?",
+              "Esto no pertenece solo a la vida privada. Una persona puede escapar de una emoción, de una responsabilidad o de la soledad; un equipo puede escapar de conversaciones difíciles o del costo de decidir; una persona creativa puede escapar de la incertidumbre, del miedo a no dar la talla o del perfeccionismo. La superficie cambia, pero la dinámica de fondo sigue siendo reconocible.",
+              "Por eso Saule no debería leer este patrón únicamente a través del lenguaje de la debilidad moral o de los malos hábitos. La conducta de escape suele ser una señal contextual, emocional, relacional y ambiental. La tarea del producto no es castigar esa señal, sino comprenderla y, cuando sea posible, ofrecer un camino de regreso más seguro."
             ]
           },
           {
-            "heading": "2. El Escape Suele Ser una Forma de Regulación",
+            "heading": "2. El Alivio Puede Aprenderse Mediante Refuerzo Negativo",
             "paragraphs": [
-              "Las personas no entran en bucles de escape solo porque busquen placer. También buscan distancia de la vergüenza, el miedo, el aburrimiento, la soledad, la incertidumbre o la sobrecarga mental. La conducta puede reducir la fricción interna durante unos minutos incluso cuando más tarde crea una fricción mayor.",
-              "Por eso un sistema humano debería preguntar primero qué está regulando el bucle antes de preguntar cómo detenerlo. Sin esa comprensión, toda intervención se convierte en consejo moral dirigido a la superficie y no en apoyo dirigido a la presión real."
+              "Una línea importante en la literatura sobre adicción y compulsión muestra que la conducta no se aprende solo buscando recompensa, sino también reduciendo estados internos aversivos. El trabajo de Koob sobre el refuerzo negativo y el “lado oscuro de la compulsividad” ofrece un marco potente para entender por qué las personas pueden volver una y otra vez a conductas que les dan una salida rápida del malestar.",
+              "Esto no significa que toda conducta de escape sea una adicción clínica. Pero sí aclara algo importante: incluso cuando un patrón es dañino a largo plazo, puede convertirse en un maestro poderoso si reduce la presión de manera confiable a corto plazo. La mente suele registrar antes la caída inmediata de la tensión que el costo futuro.",
+              "Para Saule, esto significa que no basta con preguntar cuánto ocurrió una conducta. Las preguntas más reveladoras son qué pasó justo antes y qué quedó justo después. ¿En qué estado estaba la persona cuando giró hacia allí? ¿La conducta realmente la restauró o solo la silenció un rato? ¿Volvió con más claridad o con menos?",
+              "Esta distinción puede permanecer invisible en el trabajo y en la vida creativa. Un equipo puede escapar de una reunión difícil mediante revisiones interminables de presentaciones. Una persona gestora puede esconderse en paneles métricos en lugar de enfrentar la realidad del cliente. Una persona creadora puede perderse en investigación, herramientas, moodboards o “preparación” en lugar de hacer la obra. Estas conductas pueden parecer productivas y, aun así, funcionar como escape.",
+              "Un sistema humano necesita por eso notar cuándo algo que parece útil en la superficie se ha convertido en una vía para alejarse de lo que realmente importa. El escape no siempre llega vestido como una conducta obviamente “mala”."
             ]
           },
           {
-            "heading": "3. Los Entornos Digitales Hacen Baratas las Vías de Escape",
+            "heading": "3. Los Entornos Digitales Vuelven el Escape Casi Sin Fricción",
             "paragraphs": [
-              "Los entornos modernos ofrecen caminos instantáneos para salir de la dificultad. Una persona puede dejar una tarea emocionalmente exigente y entrar en un flujo infinito de novedad en segundos. Las plataformas están optimizadas para la continuidad, no para el regreso.",
-              "Esto importa porque el escape ya no es raro ni costoso. Está disponible en el mismo dispositivo que contiene trabajo, relaciones, planificación y descanso. La frontera entre afrontamiento, distracción y compulsión se vuelve más borrosa."
+              "El entorno digital moderno ha construido una economía del escape que habría sido difícil de imaginar en otras épocas. Una persona puede pasar en segundos de una tarea emocionalmente difícil, una preocupación irresuelta o un trabajo lento a otro estímulo. Hace falta muy poca preparación para abandonar el momento.",
+              "Ese cambio vuelve el escape no solo más visible, sino también más barato y más frecuente. El mismo dispositivo puede contener trabajo, relaciones, entretenimiento, investigación, consumo y adormecimiento. Por lo tanto, las personas no viven solo con sus propias vulnerabilidades, sino también con un entorno diseñado para hacer que el alivio rápido esté siempre disponible.",
+              "Saule no puede leer la deriva repetida de la atención únicamente como un problema de disciplina. Parte del problema es que el entorno hace extraordinariamente accesibles las salidas inmediatas. Un diseño que ignore esta realidad carga demasiada culpa individual sobre la persona usuaria.",
+              "La misma dinámica aparece en las organizaciones y en el trabajo creativo. Los equipos pueden deslizarse del trabajo difícil al trabajo superficial bajo presión comunicativa. Las personas creativas pueden moverse del riesgo a una ocupación medible. En la vida cotidiana, los momentos de vacío, ansiedad o soledad pueden llenarse con sedación digital antes incluso de poder nombrarlos.",
+              "Por eso el Capítulo 5 no trata solo de psicología individual. Trata también de la economía de la atención y del perfil de fricción de los entornos modernos. Saule Core debe leer el escape no solo como una debilidad personal, sino como una conducta moldeada por el contexto, el entorno y la presión de autorregularse en soledad."
             ]
           },
           {
-            "heading": "4. No Toda Repetición Es Igual",
+            "heading": "4. No Toda Conducta Repetida Es Igual",
             "paragraphs": [
-              "Algunas conductas repetidas son hábitos, otras son evitación, otras respuestas al estrés y otras adquieren forma de dependencia. Saule no debería colapsar toda repetición en una sola categoría ni hacer afirmaciones clínicas que no puede sostener.",
-              "Lo importante en esta etapa no es etiquetar a la persona. Lo importante es notar cuándo una conducta aparece repetidamente después de la sobrecarga, roba más tiempo o atención de la deseada y deja a la persona con menos claridad, agencia o descanso que antes."
+              "Los bucles de escape no deben colapsarse en la misma categoría que los hábitos, las respuestas al estrés, las compulsiones y las adicciones en sentido clínico. Llamar “adicción” a toda repetición es científicamente descuidado y dañino para quien usa el sistema.",
+              "El marco de la ICD-11 de la Organización Mundial de la Salud y el lenguaje de adicciones conductuales de la American Psychiatric Association usan umbrales mucho más estrechos, como control deteriorado, impacto funcional significativo y continuidad pese al daño. Esto importa para Saule: el producto no debe usar categorías clínicas como metáforas cotidianas. La advertencia de Billieux y sus colegas contra la patologización excesiva de la vida diaria es especialmente relevante aquí.",
+              "Al mismo tiempo, los patrones no necesitan cruzar un umbral clínico para importar. Si una conducta aparta repetidamente a la persona de su intención, la deja con más niebla que restauración, distorsiona el tiempo, produce vergüenza y eleva el costo de regresar, Saule debe tomarla en serio. Pero debe hacerlo con un lenguaje de reconocimiento de patrones y no de diagnóstico.",
+              "La distinción más profunda no está en la etiqueta de la conducta sino en su efecto. El mismo uso de redes sociales puede ser descanso para una persona, evitación para otra y un patrón cercano a la pérdida de control para una tercera. Lo mismo vale para la investigación, el juego, las compras, el ejercicio, la limpieza, el trabajo e incluso el “trabajar de más”.",
+              "Por eso Saule debería preguntar: ¿qué está regulando esta conducta? ¿Qué deja detrás? ¿Con qué frecuencia aparece bajo condiciones similares? ¿Interfiere con lo que la persona valora? ¿Hace más fácil el regreso o más difícil?"
             ]
           },
           {
-            "heading": "5. El Camino de Regreso Importa Más que la Advertencia",
+            "heading": "5. El Escape También Funciona a Través de la Vergüenza y la Soledad",
             "paragraphs": [
-              "La mayoría de los sistemas tratan la conducta de escape como un fallo que debe bloquearse, castigarse o avergonzarse. Ese enfoque puede aumentar el secreto sin aumentar la comprensión. Un mejor diseño ayuda a la persona a volver: ¿de qué estaba huyendo, qué necesitaba y qué haría más suave la reentrada?",
-              "La meta no es la vigilancia. Es reducir la distancia entre la interrupción y la recuperación. La persona debería poder notar el bucle, recuperar contexto y elegir el siguiente paso sin ser tratada como sospechosa dentro de su propia vida."
+              "Muchas conductas de escape no están impulsadas solo por la búsqueda de placer, sino por emociones difíciles de sostener. La vergüenza es especialmente importante. Una persona puede sentir vergüenza por haber escapado, esa vergüenza aumenta la presión, y esa presión crea una nueva necesidad de escapar. Entonces el bucle no está hecho solo de la conducta, sino también del autojuicio tejido a su alrededor.",
+              "La soledad puede funcionar de manera parecida. La literatura sobre adicción suele señalar la relevancia de la desconexión, el aislamiento y la falta de sostén relacional sentido. Las personas pueden apegarse no solo a la conducta misma, sino también a la sensación temporal de contacto, relleno u ocupación que esta les ofrece. El marco de evitación experiencial de Hayes y sus colegas es útil aquí: a veces lo que se refuerza no es la conducta en sí, sino la posibilidad de alejarse de una experiencia interior que se siente insoportable.",
+              "Esto importa profundamente porque una persona que “hace demasiado de algo” también puede estar cargando sola una emoción. Los equipos pueden esconderse en el lenguaje del rendimiento para evitar la vergüenza por un experimento fallido, una relación con clientes que se deteriora o una coordinación débil. Las personas creadoras pueden huir de la exposición de crear, del miedo a no ser suficientes o del rechazo.",
+              "Por eso el lenguaje de este capítulo no debería centrarse en “contrólalo, bloquéalo, limítalo”. Debería preguntar: ¿qué se ha vuelto difícil de sostener, qué se está volviendo demasiado ruidoso, qué tipo de soledad o vergüenza está activa aquí? Saule Core no puede leer a las personas solo desde la superficie de la conducta; también debe respetar la función de la emoción.",
+              "Eso no significa que el producto se convierta en terapia. El papel de Saule no es producir interpretaciones clínicas, sino ofrecer un espacio donde las personas puedan ver sus propios patrones con más honestidad, sin vergüenza amplificada, con un contexto más limpio y con el apoyo humano tratado como un siguiente paso válido cuando hace falta."
             ]
           },
           {
-            "heading": "6. Alivio sin Dependencia",
+            "heading": "6. El Camino de Regreso Importa Más que el Bloqueo",
             "paragraphs": [
-              "Saule debe respetar que las personas necesitan consuelo, entretenimiento y descanso. No debe presentar todo placer como peligro ni insinuar que toda conducta de escape sea patológica. La vida humana incluye pausas, suavidad y formas elegidas de alivio temporal.",
-              "La pregunta de diseño es más estrecha: ¿cuándo un patrón de alivio interfiere repetidamente con lo que la persona valora y cómo puede ayudar el sistema sin convertirse en otra fuerza de control? El apoyo debe ampliar la elección, no reducirla."
+              "Muchos sistemas digitales guardan silencio frente a la conducta de escape o responden de forma restrictiva. La vida real es más desordenada. Las personas no siempre pueden detener una conducta de una vez y para siempre. La pregunta más humana es cómo regresan después, porque la parte más dañina del bucle suele no ser el acto en sí, sino el desorden, el tiempo perdido, la vergüenza y la incapacidad de recomenzar que vienen luego.",
+              "Aquí puede aparecer la ventaja de diseño de Saule. En lugar de castigar el escape, el sistema puede reducir el costo de la reentrada. La persona debería poder ver a dónde está regresando, cuál es el siguiente paso más pequeño, qué contexto se conservó y qué ya no pertenece a hoy.",
+              "Este principio importa no solo para el uso individual, sino también para los procesos compartidos de trabajo y de creación. Si un equipo evitó una reunión difícil, el camino hacia la siguiente conversación honesta debería ser visible. Si una persona creadora se alejó del trabajo, el punto de reentrada debería ser pequeño, no vergonzante y realmente practicable. La inteligencia de Saule Core no se ve en empujar a las personas hacia un rendimiento ideal, sino en reconectarlas con suavidad a la realidad.",
+              "Por eso el reflejo básico del sistema no debería ser la alarma. Una voz de producto que diga “lo hiciste otra vez” puede endurecer un espacio de autorregulación que ya es frágil. Una respuesta más útil es: “te desconectaste aquí; si quieres, este es el camino más pequeño de regreso”.",
+              "El diseño del regreso es el principio central de este capítulo. Como también sugiere la tradición de prevención de recaídas de Marlatt y Donovan, la cuestión no es solo cómo prohibir una conducta, sino cómo fortalecer la capacidad de reorientación de una persona después de una ruptura. Saule debería ser un sistema que devuelve en lugar de atrapar, que ayuda a encontrar dirección en lugar de avergonzar, y que reduce fricción en lugar de añadir control."
             ]
           },
           {
-            "heading": "7. De los Bucles de Escape al Contexto Honesto",
+            "heading": "7. El Descanso Elegido no es lo Mismo que el Alivio Evitativo",
             "paragraphs": [
-              "Con el tiempo, Saule puede ayudar a la persona a ver secuencias recurrentes: sobrecarga, evitación, alivio breve, culpa, más desorden y luego presión renovada. Ver la secuencia importa porque convierte el juicio propio en contexto legible.",
-              "Una vez visible el patrón, la intervención puede hacerse más pequeña y más amable. A veces el siguiente paso es un descanso. A veces es un reinicio diminuto. A veces es nombrar la emoción evitada. A veces es abandonar la meta. El sistema debe apoyar un regreso honesto, no un rendimiento forzado."
+              "La vida humana no está hecha solo de tareas. También necesita pausa, juego, placer, suavidad y vacío intencional. Saule no debe convertirse en un sistema puritano de productividad que trate toda conducta gratificante con sospecha. El descanso es una parte legítima de la vida.",
+              "La pregunta no es si el alivio existe, sino cuándo un patrón de alivio empieza a chocar repetidamente con los valores de una persona, a dificultar su regreso, a perturbar su relación consigo misma y a desdibujar sus estructuras de vida. El descanso puede renovar. La evitación suele solo posponer.",
+              "Esta distinción no siempre puede leerse desde fuera. El mismo episodio de una serie puede ser descanso consciente un día y evitación intensa otro. El mismo paseo puede ser regulación real un día y una vía para alejarse de una conversación insoportable otro. El trabajo de Wood y Rünger sobre la psicología del hábito ayuda aquí: las conductas repetidas pueden automatizarse de maneras que parecen casi independientes de la intención declarada. Saule debería entender esta diferencia a través del patrón, el momento y la consecuencia, y no mediante veredictos automáticos.",
+              "Una pregunta práctica es esta: ¿la persona vuelve más regulada, más clara y más selectiva, o más nebulosa, dispersa y reacia? La misma pregunta puede hacerse en la vida de equipo y en el trabajo creativo. ¿La pausa realmente restaura el sistema o ayuda a que la realidad difícil permanezca fuera de la vista?",
+              "Un diseño humano, por tanto, no estrecha todas las zonas de disfrute. Ayuda a sentir la diferencia entre una restauración real y formas de alivio que alejan silenciosamente a la persona de sí misma."
+            ]
+          },
+          {
+            "heading": "8. Límites: ¿Cuándo Debe Callar Saule y Cuándo Debe Fomentar Apoyo Humano?",
+            "paragraphs": [
+              "Los bucles de escape y los patrones con forma de adicción exigen límites de producto cuidadosos. Algunas conductas no se quedan en el nivel del hábito o la distracción; pueden implicar pérdida clara de control, daño, deterioro funcional, riesgo de seguridad o una carga emocional severa. Cuando eso ocurre, el producto necesita conocer el borde de su papel.",
+              "Si una persona usuaria describe explícitamente daño serio, pérdida de control, riesgo para sí o para otras personas, deterioro funcional importante o una necesidad urgente de apoyo, Saule no debe actuar como una inteligencia autosuficiente capaz de resolver la situación por sí sola. Ese límite no es solo ético; forma parte de la honestidad del producto.",
+              "Animar a buscar apoyo humano debe hacerse sin producir vergüenza. “Puede ayudar incorporar una red humana de apoyo en esto” es muy distinto de “esto te supera”. La tarea de Saule no es excluir a la persona, sino normalizar la búsqueda de ayuda cuando una carga no debería llevarse en soledad.",
+              "El mismo límite importa en contextos laborales y creativos. El agotamiento, el sobretrabajo compulsivo, la evitación de crisis, el daño claro o los riesgos de seguridad dentro de un equipo no pueden enmarcarse solo como problemas de productividad. Los patrones destructivos o compulsivos graves en la vida creativa tampoco son solo problemas de hacer obra.",
+              "La columna ética de este capítulo es, por tanto, clara: Saule puede volver más visibles los patrones, simplificar los caminos de regreso y actuar como puente hacia apoyo humano, pero no puede reclamar autoridad clínica. Los marcos clínicos más estrechos de la OMS y de la APA sostienen esa humildad. La arquitectura de confianza de Saule Core depende de ello."
+            ]
+          },
+          {
+            "heading": "9. El Principio del Bucle de Escape para Saule Core",
+            "paragraphs": [
+              "La consecuencia de diseño de este capítulo es sencilla y exigente: Saule Core no debería ser un sistema de control que prometa eliminar el escape. Debería ser una inteligencia para la vida que entienda la función del escape, reduzca el costo del regreso y amplíe el conjunto de opciones reguladoras disponibles.",
+              "Ese principio conserva el mismo núcleo en la vida, el trabajo y la creatividad: cuando nos desconectamos bajo presión, la tarea no es disciplinarnos con mayor dureza, sino reconectarnos de manera más honesta y más práctica con aquello de lo que nos alejamos.",
+              "Esto es más profundo que intentar volver a la persona más disciplinada. La meta no es un autocontrol más duro, sino un contacto más honesto con una misma, un regreso más fiable, menos culpa invisible y formas más humanas de regular la presión.",
+              "Un sistema así ve patrones sin congelarlos en etiquetas. Reconoce el alivio sin criminalizar todo placer. Nota la tensión sin convertirla en un juicio de carácter. Puede guardar silencio, reflejar, preservar contexto o abrir espacio para apoyo humano cuando haga falta.",
+              "La medida del éxito no es que una persona “no vuelva a escapar nunca más”. Una medida mejor es esta: ¿puede darse cuenta antes de que el escape está ocurriendo? ¿Puede volver con más amabilidad, más practicidad y menos culpa? ¿Puede ver con más honestidad qué condiciones hacen regresar el mismo bucle? ¿Se vuelve el camino de regreso, con el tiempo, un poco más visible, un poco más pequeño y un poco más humano?",
+              "Esa es la afirmación final del Capítulo 5: los bucles de escape no son manchas que deban suprimirse. Leídos mal, crecen. Leídos bien, revelan qué se ha vuelto demasiado difícil de cargar, qué hace falta y dónde siguen faltando mejores estructuras, mejores vínculos y mejores ritmos. Saule Core debe aprender a orientar esas señales a favor de la persona y no en su contra."
             ]
           }
         ],
         "open_questions": [
           {
             "id": "ea-1",
-            "question": "¿Cómo puede Saule detectar un bucle de escape sin tratar cada pausa como un problema?",
+            "question": "¿Cómo debería Saule distinguir, mediante señales de contexto y no juicios morales, entre descanso elegido y alivio evitativo?",
             "status": "open",
-            "decisionArea": "Detección de Patrones",
+            "decisionArea": "Calidad del Alivio",
             "answeredInChapters": [
               "Capítulo 19 — Inteligencia Adaptativa",
-              "Capítulo 26 — Motor de Contexto"
+              "Capítulo 27 — Motor de Reflexión"
             ]
           },
           {
             "id": "ea-2",
-            "question": "¿Qué señales sugieren que una conducta restaura a la persona en lugar de drenarla?",
+            "question": "¿Cuál es la cantidad mínima de contexto necesaria para comprender la función de una conducta sin extralimitarse?",
             "status": "open",
-            "decisionArea": "Calidad del Alivio",
+            "decisionArea": "Modelo de Patrón",
             "answeredInChapters": [
-              "Capítulo 27 — Motor de Reflexión",
-              "Capítulo 28 — Motor de Acompañamiento"
+              "Capítulo 26 — Motor de Contexto",
+              "Capítulo 34 — La Inteligencia Propia de Saule"
             ]
           },
           {
             "id": "ea-3",
-            "question": "¿Cómo debería hablar el sistema sobre conducta compulsiva sin vergüenza ni lenguaje clínico?",
+            "question": "¿Cómo puede Saule reflejar patrones de escape recurrentes sin amplificar la vergüenza?",
             "status": "open",
             "decisionArea": "Lenguaje de Apoyo",
             "answeredInChapters": [
@@ -967,47 +1066,47 @@
           },
           {
             "id": "ea-4",
-            "question": "¿Cuándo debería Saule preservar contexto para el regreso en vez de interrumpir directamente el bucle?",
+            "question": "¿De qué tamaño debería ser un paso de regreso tras un episodio de escape?",
             "status": "open",
             "decisionArea": "Diseño del Regreso",
             "answeredInChapters": [
-              "Capítulo 31 — Inteligencia de Planificación",
-              "Capítulo 32 — Contexto del Teléfono"
+              "Capítulo 24 — Agencia Humana",
+              "Capítulo 31 — Inteligencia de Planificación"
             ]
           },
           {
             "id": "ea-5",
-            "question": "¿Qué señales del entorno pueden explicar por qué un bucle aparece en ciertos momentos?",
+            "question": "¿Cómo deben distinguirse los bucles de escape organizacionales de los individuales?",
             "status": "open",
-            "decisionArea": "Señales de Contexto",
+            "decisionArea": "Contexto Business",
             "answeredInChapters": [
-              "Capítulo 26 — Motor de Contexto",
-              "Capítulo 32 — Contexto del Teléfono"
+              "Capítulo 30 — Inteligencia Relacional",
+              "Capítulo 39 — Modelo de Negocio"
             ]
           },
           {
             "id": "ea-6",
-            "question": "¿Cómo puede Saule distinguir el descanso elegido del alivio evitativo?",
+            "question": "¿Cómo debe distinguirse la evitación creativa de la incubación creativa?",
             "status": "open",
-            "decisionArea": "Descanso vs Evasión",
+            "decisionArea": "Contexto Creative",
             "answeredInChapters": [
-              "Capítulo 24 — Agencia Humana",
-              "Capítulo 27 — Motor de Reflexión"
+              "Capítulo 15 — Reflexión",
+              "Capítulo 21 — Aprendizaje"
             ]
           },
           {
             "id": "ea-7",
-            "question": "¿Qué debería ocurrir tras bucles repetidos si la persona no quiere intervención activa?",
+            "question": "¿Qué formas silenciosas de apoyo deberían seguir disponibles cuando la persona no desea intervención activa?",
             "status": "open",
             "decisionArea": "Apoyo No Intrusivo",
             "answeredInChapters": [
               "Capítulo 20 — Confianza",
-              "Capítulo 23 — Ética"
+              "Capítulo 37 — Privacidad"
             ]
           },
           {
             "id": "ea-8",
-            "question": "¿Cuándo debería Saule sugerir alejarse de la herramienta y buscar apoyo humano?",
+            "question": "¿En qué umbral debería el producto dar un paso atrás y fomentar de manera más explícita apoyo humano o profesional?",
             "status": "open",
             "decisionArea": "Límites del Apoyo",
             "answeredInChapters": [
@@ -1017,26 +1116,28 @@
           }
         ],
         "design_decisions": [
-          "La conducta de escape debe entenderse primero como contexto, no como debilidad de carácter, falta de voluntad o fracaso personal.",
-          "Saule no debe usar etiquetas diagnósticas ni clínicas para bucles recurrentes.",
-          "El sistema debe preservar un camino de regreso amable en lugar de amplificar la vergüenza.",
-          "El descanso, el placer y el entretenimiento elegido no deben presentarse como problemas automáticos.",
-          "El apoyo debe ampliar las opciones bajo presión y no imponer pureza.",
-          "Los patrones observados deben seguir siendo visibles y corregibles por la persona.",
-          "Cuando la confianza sea baja, Saule debe preguntar o reflejar en lugar de inferir.",
-          "Cuando la persona exprese pérdida de control, riesgo de daño o un deterioro serio del funcionamiento, Saule debe reconocer sus límites y animar a buscar apoyo humano o profesional."
+          "La conducta de escape debe leerse primero como un intento contextual de regulación y no como un defecto de carácter.",
+          "Saule no debe hablar en lenguaje diagnóstico ni usar categorías de adicción como metáforas cotidianas.",
+          "El sistema debe atender más a la función, a los antecedentes y a las secuelas que al nombre de la conducta misma.",
+          "El diseño del regreso debe ser una conducta de producto más primaria que el bloqueo o la vergüenza.",
+          "El descanso, el placer y el vacío elegido no deben tratarse como señales automáticas de alarma.",
+          "La vergüenza, la soledad y la desconexión relacional pueden formar parte del bucle, pero Saule no debe reclamar certeza terapéutica.",
+          "El mismo principio central debe mantenerse en vida, trabajo y creatividad, mientras el lenguaje se adapta al contexto.",
+          "Cuando las personas expresen riesgo, daño, pérdida marcada de control o deterioro funcional serio, Saule debe reconocer sus límites y abrir espacio para apoyo humano.",
+          "Los datos sobre patrones deben permanecer visibles, revisables y retirables por la persona usuaria.",
+          "El éxito no debe medirse por eliminar el escape, sino por notarlo antes, volver con más suavidad y cargar con menos culpa invisible."
         ],
-        "future_evolution": "Este capítulo definirá más adelante arquetipos de bucles de escape, patrones de diseño para el regreso y límites sobre cuándo el producto debe callar, reflejar o animar a buscar apoyo humano.",
+        "future_evolution": "Más adelante, este capítulo se convertirá en un modelo más formal de Saule Core sobre los bucles de escape: se describirán con mayor precisión las condiciones desencadenantes, las emociones reguladas, los tipos de alivio a corto plazo, los costos del regreso, los umbrales de repetición, los componentes de vergüenza y soledad, y las opciones de regulación específicas del contexto. Las versiones futuras distinguirán entre arquetipos personales en Saule Life, formas organizacionales y operativas de escape en Saule Business, y demoras perfeccionistas o rodeos en Saule Creative. También definirán cuándo el camino de regreso debe ser silencioso, reflexivo, protector o un puente hacia apoyo humano.",
         "references": [
-          "Investigación sobre adicciones conductuales",
-          "Literatura sobre afrontamiento y evitación",
-          "Refuerzo negativo",
-          "Investigación sobre regulación emocional",
-          "Formación de hábitos digitales",
-          "Diseño de la economía de la atención",
-          "Investigación sobre autocontrol y recaída",
-          "Interacción persona-computadora sobre uso compulsivo",
-          "Investigación sobre vergüenza y cambio de conducta"
+          "Koob, G. F. (2021). Drug addiction: Hyperkatifeia/negative reinforcement as a framework for medications development. Pharmacological Reviews, 73(1), 163–201.",
+          "Koob, G. F. (2009). Neurobiological substrates for the dark side of compulsivity in addiction. Neuropharmacology, 56(Suppl 1), 18–31.",
+          "Hayes, S. C., Wilson, K. G., Gifford, E. V., Follette, V. M., & Strosahl, K. (1996). Experiential avoidance and behavioral disorders: A functional dimensional approach to diagnosis and treatment. Journal of Consulting and Clinical Psychology, 64(6), 1152–1168.",
+          "World Health Organization. (2019). ICD-11 for Mortality and Morbidity Statistics: Gaming disorder.",
+          "American Psychiatric Association. (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., text rev.). American Psychiatric Association Publishing.",
+          "Wood, W., & Rünger, D. (2016). Psychology of habit. Annual Review of Psychology, 67, 289–314.",
+          "Marlatt, G. A., & Donovan, D. M. (Eds.). (2005). Relapse Prevention: Maintenance Strategies in the Treatment of Addictive Behaviors (2nd ed.). Guilford Press.",
+          "Brevers, D., & Turel, O. (2019). Strategies for self-controlling social media use: Classification and role in preventing social media addiction symptoms. Journal of Behavioral Addictions, 8(3), 554–563.",
+          "Billieux, J., Schimmenti, A., Khazaal, Y., Maurage, P., & Heeren, A. (2015). Are we overpathologizing everyday life? A tenable blueprint for behavioral addiction research. Journal of Behavioral Addictions, 4(3), 119–123."
         ]
       }
     }

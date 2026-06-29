@@ -31,9 +31,9 @@ export default function LocaleChrome({
   navItems,
 }: LocaleChromeProps) {
   const pathname = usePathname();
-  const isBusinessCrmSite = pathname.startsWith(`/${locale}/business/crm`);
+  const isBusinessPlatformSite = pathname.startsWith(`/${locale}/business/platform`);
 
-  if (isBusinessCrmSite) {
+  if (isBusinessPlatformSite) {
     return (
       <div className="min-h-screen bg-sand-100 selection:bg-sage/15 selection:text-sage-dark">
         {children}

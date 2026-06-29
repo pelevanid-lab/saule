@@ -27,7 +27,7 @@ export default async function Page({
       {/* 2. LOGIN BUTTON (MOVED UP & ENLARGED) */}
       <div className="text-center py-4">
         <Link
-          href={`/${locale}/business/crm`}
+          href={`/${locale}/business/platform`}
           className="inline-block px-12 py-5 bg-clay text-sand-100 font-sans font-bold text-sm uppercase tracking-widest rounded shadow-lg hover:bg-clay/90 hover:shadow-xl transition-all duration-300 cursor-pointer"
         >
           {dict.business_page?.cta || "Saule Business'a Giriş Yap"}

@@ -1,0 +1,248 @@
+{
+  "draft": {
+    "sections": [
+      {
+        "heading": "1. Kimlik Bir Veri Profili Değildir",
+        "paragraphs": [
+          "İnsan kendisini sabit özelliklerden oluşan bir kayıt gibi yaşamaz. Aynı kişi cesur ve çekingen, kararlı ve kararsız, yalnızlığa ihtiyaç duyan ve yakınlık arayan biri olabilir. Bu çelişkiler mutlaka tutarsızlık değildir; farklı ilişkilerin, sorumlulukların, yaşam dönemlerinin ve güvenlik koşullarının insanın başka yanlarını görünür kılmasıdır.",
+          "Dijital sistemler ise kişiyi özetlemek zorundadır. Tercih, sıklık, kategori, puan ve tahmin üretirler. Bu özetler belirli bir amaç için yararlı olabilir; fakat kolayca amaçlarını aşarak insanın kim olduğu hakkında geniş hükümlere dönüşebilir. Birinin gece çalışması onun gece insanı olduğunu, bir projeyi ertelemesi güvenilmez olduğunu, belirli içerikleri tüketmesi kalıcı bir dünya görüşüne sahip olduğunu kanıtlamaz.",
+          "Kimlik ile profil arasındaki temel fark burada başlar. Profil, belirli verilerden belirli bir amaç için çıkarılmış geçici bir temsildir. Kimlik ise kişinin bedeninde, ilişkilerinde, hafızasında, kültüründe, seçimlerinde, kayıplarında ve henüz gerçekleşmemiş imkânlarında yaşar. Temsil insanı anlatabilir; insanın yerine geçemez.",
+          "Saule Core bu farkı ürün mimarisine yerleştirmelidir. Kullanıcı hakkında tuttuğu her çıkarımın kısmi, bağlama bağlı ve eskimeye açık olduğunu kabul etmeli; kişiyi en sık tekrarladığı davranışa indirgememelidir. Sistem için okunabilir olan, insanın tamamı değildir.",
+          "Bölümün merkez önermesi şudur: Saule kimliği keşfettiğini iddia eden bir otorite değil, kişinin süreklilik ve değişim arasındaki kendi anlatısını daha özgürce kurmasına yardım eden düzeltilebilir bir ayna olmalıdır."
+        ]
+      },
+      {
+        "heading": "2. Anlatısal Kimlik Geçmişi ve Geleceği Birbirine Bağlar",
+        "paragraphs": [
+          "İnsan hayatındaki her olayı aynı ağırlıkla taşımaz. Bazı anları başlangıç, bazılarını kırılma, bazılarını kayıp, bazılarını da dönüşüm olarak anlatır. Böylece yaşanmış olayların tamamından değil, seçilen ve yorumlanan sahnelerden bir hayat hikâyesi kurulur. Bu hikâye geçmişin eksiksiz kaydı değil, bugünden bakılarak sürdürülen bir anlamlandırma çalışmasıdır.",
+          "McAdams ve McLean anlatısal kimliği, yeniden kurulan geçmiş ile hayal edilen geleceği bir ölçüde birlik ve amaç duygusu verecek biçimde bütünleştiren, içselleştirilmiş ve gelişen bir yaşam öyküsü olarak tanımlar. Buradaki gelişen sözcüğü önemlidir: Kimlik anlatısı tamamlanmış bir metin değil, yeni deneyimler ve yeni bakış açılarıyla tekrar tekrar düzenlenen canlı bir yapıdır.",
+          "Anlatı yalnız başına yazılmaz. Aile içinde hangi hikâyelerin tekrarlandığı, toplumun hangi hayatları saygın bulduğu, bir ilişkinin kişiye nasıl ayna tuttuğu ve hangi dilde kendini anlatabildiği kimliğin kuruluşunu etkiler. İnsan kendi hayatının yazarıdır; ama kullandığı kelimeler, tanıklar ve mümkün senaryolar her zaman yalnızca ona ait değildir.",
+          "Bu nedenle Saule kullanıcının geçmişini tek bir dramatik çizgiye zorlamamalıdır. Her zorluk büyüme hikâyesine, her kayıp derse, her başarısızlık kaçınılmaz bir dönüm noktasına çevrilmek zorunda değildir. Bazı deneyimler uzun süre çözümsüz, çelişkili veya adsız kalabilir. Anlam sunmak ile anlam dayatmak arasındaki sınır burada belirleyicidir.",
+          "İyi bir yansıtma, kişinin söylediğini daha etkileyici bir hikâyeye dönüştürmekten önce onun hangi yorumu kendisine ait hissettiğini sorar. Saule anlatıyı güzelleştiren bir biyografi yazarı değil, anlatının sahipliğini kullanıcıda tutan bir düşünme ortağı olmalıdır."
+        ]
+      },
+      {
+        "heading": "3. Bellek Kimliği Taşır, Kimlik de Belleği Seçer",
+        "paragraphs": [
+          "Kimlik ile bellek arasında tek yönlü bir ilişki yoktur. Anılar kişiye kim olduğunu söyler; fakat kişinin şu anki amaçları, korkuları ve benlik anlayışı da hangi anılara ulaşabildiğini ve onları nasıl yorumladığını etkiler. Aynı olay yıllar sonra başka bir yaşam bağlamında yeni bir anlam kazanabilir.",
+          "Conway ve Pleydell-Pearce'in benlik–bellek sistemi modeli, otobiyografik anıları sabit dosyalar olarak değil, otobiyografik bilgi ile çalışan benliğin güncel hedefleri arasındaki etkileşim içinde kurulan zihinsel yapılar olarak ele alır. Bu çerçeve, hatırlamanın basitçe depodan kayıt çekmek olmadığını; seçme, erişme ve yeniden kurma içerdiğini gösterir.",
+          "Saule'nin bellek desteği bu nedenle tarafsız bir arşiv değildir. Hangi anıyı ne sıklıkla öne çıkardığı, hangi başarıları hatırlattığı, hangi çatışmaları özetlediği ve hangi dönemleri sessiz bıraktığı kullanıcının kendine dair süreklilik hissini etkileyebilir. Sistem yalnızca geçmişi saklamaz; erişim düzeni üzerinden geçmişin bugünkü ağırlığını da biçimlendirebilir.",
+          "Bu güç, daha çok saklamanın her zaman daha iyi olduğu varsayımını geçersiz kılar. Bazı kayıtlar artık temsil edici değildir; bazıları başka insanların mahremiyetini taşır; bazıları kişinin geride bırakmak istediği bir döneme aittir. Unutma, zayıflama, bağlamdan düşürme ve emekliye ayırma kimlik desteğinin kusuru değil, insanın değişebilmesinin koşulları olabilir.",
+          "Saule bir anıyı geri getirirken yalnızca benzerlik puanına bakmamalıdır. Bu hatırlatma şu an gerçekten yararlı mı, kişi bunu görmek istiyor mu, anı hangi bağlamda kaydedilmişti ve bugünkü benliğe hâlâ adil davranıyor mu? Bazen doğru destek hatırlatmak, bazen yeniden çerçevelemek, bazen de sessiz kalmaktır."
+        ]
+      },
+      {
+        "heading": "4. Süreklilik Değişimin Karşıtı Değildir",
+        "paragraphs": [
+          "İnsan zaman içinde kendisiyle bir bağ hissetmek ister; ancak bu bağ hiç değişmemek anlamına gelmez. Süreklilik, her dönemde aynı davranmak yerine değişimin içinde neyin korunduğunu, neyin dönüştüğünü ve neyin artık bırakıldığını anlayabilmektir. Bir insan eski hedefinden vazgeçebilir ve yine de kendisine ihanet etmiş olmayabilir.",
+          "Campbell ve arkadaşlarının benlik kavramı açıklığı çalışmaları, kişinin kendine ilişkin inançlarını ne kadar açık, güvenli, tutarlı ve istikrarlı yaşadığını ölçmeye çalışır. Bu araştırma çizgisi açıklığın psikolojik açıdan anlamlı olabileceğini gösterir; fakat Saule bunu herkesin erişmesi gereken tek bir ideal katılık olarak yorumlamamalıdır. Geçiş, yas, göç, hastalık, yeni ebeveynlik veya mesleki dönüşüm dönemlerinde belirsizlik bazen bozulma değil, yeniden kuruluşun doğal alanıdır.",
+          "Markus ve Nurius'un mümkün benlikler kavramı, kimliğin yalnızca şu anda ne olduğumuzdan oluşmadığını hatırlatır. Olmak istediğimiz, olmaktan korktuğumuz ve olabileceğimizi düşündüğümüz benlikler bugünkü kararlarımıza yön verir. Bu gelecek tasarıları motivasyon sağlayabilir; ama koşullar ve destek yolları görünmediğinde yalnızca baskı da üretebilir.",
+          "Saule geçmiş örüntüleri gösterirken mümkün benliklere de yer açmalıdır. Kullanıcı daha önce yapmadığı bir şeyi denemek istediğinde sistem bunu geçmiş veriye aykırı diye zayıflatmamalıdır. Dün tercih edilmemiş bir yol, bugün anlamsız değildir. Tahmin doğruluğu insanın değişme hakkından daha üstün bir değer olamaz.",
+          "Bu nedenle kimlik desteğinin sorusu kim olduğuna karar verdin mi değildir. Daha açık soru şudur: Şu an hangi yönünü korumak, hangisini yeniden yorumlamak, hangisini denemek ve hangisini bırakmak istiyorsun?"
+        ]
+      },
+      {
+        "heading": "5. Kimlik Kişisel Olduğu Kadar İlişkisel ve Kültüreldir",
+        "paragraphs": [
+          "Kişiyi yalnızca iç özellikleriyle tanımlamak, kimliğin ilişkisel tarafını eksik bırakır. İnsan kimi zaman değerlerini bir bağın içinde, sorumluluğunu bir toplulukta, cesaretini bir başkasını korurken veya kırılganlığını güvende hissettiği bir ilişkide tanır. Benlik yalnızca ben dediğimiz yerde değil, biz dediğimiz yerde de şekillenir.",
+          "Brewer ve Gardner kişisel, ilişkisel ve kolektif benlik temsillerinin farklı kaynaklara ve güdülere sahip olabileceğini gösterir. Markus ve Kitayama ise bağımsız ve karşılıklı bağımlı benlik anlayışlarının kültürle birlikte düşünme, duygu ve motivasyonu etkileyebildiğini savunur. Bu çalışmalar tek tek insanları kültürel kalıplara hapsetmez; kimlik hakkında evrensel sandığımız varsayımların belirli kültürel bakışlardan gelebileceğini hatırlatır.",
+          "Aynı kişi evde, işte, arkadaşlıkta, inanç topluluğunda veya yaratıcı üretimde farklı bir dil ve sorumluluk düzeni içinde bulunabilir. Bu, ortada gerçek bir benlik ve sahte roller olduğu anlamına gelmez. Bazı roller baskılayıcı olabilir; bazıları ise kişinin tek başına erişemediği bir yanını yaşamasına olanak verir.",
+          "Saule Life kullanıcının ilişkilerini yalnızca hedeflere destek veren çevresel değişkenler olarak görmemelidir. Kimin yanında nasıl hissettiği, hangi bağda neyi korumaya çalıştığı ve hangi kültürel dilin ona anlam verdiği önemlidir. Fakat sistem aile, kültür veya topluluk adına kişiye kim olması gerektiğini de söyleyemez.",
+          "Bağlamsal kimlik desteği, kişiyi stereotipe dönüştürmeden farklı benlik alanlarını birlikte taşıyabilmelidir. Sistem bir bağlamda gözlediği davranışı bütün yaşama genellememeli; kullanıcının isterse roller arasında sınır, bağlantı veya gerilim tanımlamasına izin vermelidir."
+        ]
+      },
+      {
+        "heading": "6. İnsan Yeni Kimlikleri Deneyerek Kurar",
+        "paragraphs": [
+          "Kimlik değişimi çoğu zaman önce kesin bir karar, sonra kusursuz uygulama şeklinde ilerlemez. İnsan yeni bir rolün dilini, alışkanlıklarını ve sınırlarını küçük denemelerle öğrenir. Bir süre hem eski hem yeni benlik yan yana yaşayabilir. Kararsız görünen bu dönem, aslında dönüşümün çalışma alanıdır.",
+          "Ibarra'nın mesleki geçişler üzerine araştırması, insanların yeni rollere uyum sağlarken geçici benlikler denediğini gösterir. Kişi rol modellerini gözler, olası davranışları dener, iç ölçütleri ve çevreden gelen geri bildirimle neyi koruyup neyi bırakacağına karar verir. Profesyonel kimlik böylece bir kerede keşfedilmekten çok, pratik içinde sınanır.",
+          "Bu içgörü iş yaşamının dışına da taşar. Ebeveyn olmaya, bir kayıptan sonra yeniden yaşamaya, yeni bir ülkede yer edinmeye, sınır koymaya veya daha görünür bir yaratıcı olmaya çalışan kişi de geçici biçimler deneyebilir. Her deneme kalıcı taahhüt değildir; vazgeçmek her zaman başarısızlık anlamına gelmez.",
+          "Saule Business çalışanı tek bir yetenek etiketiyle yönetmemelidir. Bugünün uzmanı yarının liderliğini, yöneticisi yeniden üretici rolü, sessiz ekip üyesi daha görünür bir katkı biçimini deneyebilir. Geçmiş performans kaydı, rol hareketliliğinin tavanına dönüşmemelidir. Sistem yöneticinin çalışan hakkındaki hükmünü güçlendirmekten önce kişinin kendi gelişim denemelerini korumalıdır.",
+          "Yaratıcı alanda da kişi yalnızca sevilen tarzını tekrar ederek büyümez. Yeni bir ses, araç veya tür ilk başta daha zayıf görünebilir. Saule Creative erken denemeleri eski başarının ölçütleriyle yargılarsa keşfi boğar. Kimlik desteği, ustalığın yanında acemiliğe de güvenli bir alan açmalıdır."
+        ]
+      },
+      {
+        "heading": "7. Dijital İzler İnsanı Gösterir, Ama Onun Yerine Konuşamaz",
+        "paragraphs": [
+          "Arama geçmişi, tıklamalar, konumlar, yazışma ritmi, satın alma davranışı, çalışma saatleri ve içerik tercihleri kişi hakkında güçlü sinyaller taşıyabilir. Fakat bu sinyaller niyeti doğrudan açıklamaz. Aynı arama meraktan, korkudan, bir başkasına yardım etmekten, iş görevinden veya tesadüfi bir karşılaşmadan doğabilir.",
+          "Kosinski, Stillwell ve Graepel'in Facebook beğenileri üzerine çalışması, sıradan görünen dijital kayıtlardan bazı hassas özelliklerin istatistiksel olarak tahmin edilebildiğini göstermiştir. Bu bulgu her bireyin doğru okunabileceği anlamına gelmez; belirli bir veri seti ve örneklemde grup düzeyinde tahmin gücünü gösterir. Yine de mahremiyet açısından uyarısı açıktır: İnsanların açıkça söylemediği şeyler davranış izlerinden çıkarılabilir.",
+          "Bir çıkarımın teknik olarak mümkün olması, etik olarak meşru olduğu anlamına gelmez. Kullanıcı takvim desteği verdi diye inancı, cinsel yönelimi, ruh sağlığı, politik görüşü, ilişki durumu veya kişilik yapısı hakkında tahmin yapılmasına izin vermiş sayılmaz. Amaç için verilen veri, sınırsız kimlik çıkarımı lisansı değildir.",
+          "Ayrıca doğruluk tek başına yeterli ölçüt değildir. Bir çıkarım istatistiksel olarak olası olsa bile kişinin kendini tanımlama hakkını ihlal edebilir, bağlamı yanlış okuyabilir veya başkasının verisini ona mal edebilir. Hatalı çıkarımlar zarar verir; doğru fakat izinsiz çıkarımlar da zarar verebilir.",
+          "Saule Core her kimlik çıkarımında üç sınırı görünür kılmalıdır: Bu sonuç hangi veriden üretildi, hangi amaç için kullanılacak ve kullanıcı bunu görüp reddedebiliyor mu? Bu üç sorudan biri cevapsızsa sistemin daha az bilmesi, daha etik bir zekâ biçimi olabilir."
+        ]
+      },
+      {
+        "heading": "8. Algoritmik Ayna Zamanla Kafese Dönüşebilir",
+        "paragraphs": [
+          "Kullanıcı hakkında kurulan model yalnızca onu tarif etmez; ona sunulan dünyayı da değiştirir. Sistem geçmiş davranışa göre içerik, görev, ilişki, fırsat veya yaratıcı yön önerdiğinde bazı yollar daha görünür, bazıları daha uzak hale gelir. İnsan sonra bu daraltılmış alanda seçim yapar ve yeni davranışı modelin önceki hükmünü doğrular gibi görünür.",
+          "Cheney-Lippold algoritmik kimlik kavramıyla çevrim içi sistemlerin kişilere tarama davranışlarından hareketle değişken kategoriler atayabildiğini anlatır. Bu kategoriler kişinin açık öz tanımından değil, kodun amaçları ve sınıflandırma mantığından doğar. Kullanıcı çoğu zaman hangi kimliğin kendisine atandığını, ne zaman değiştiğini veya hangi sonucu etkilediğini göremez.",
+          "Chaney, Stewart ve Engelhardt'ın öneri sistemleri üzerine simülasyonları da algoritmanın kendi önerilerinden etkilenmiş davranışları yeniden eğitim verisi olarak kullanmasının geri besleme yaratabileceğini gösterir. Böyle bir döngü davranışları daha homojen hale getirirken sistem bunu kullanıcının doğal tercihi sanabilir. Kimlik açısından tehlike şudur: Geçmişin dar bir örüntüsü, geleceğin seçenek alanını giderek küçültür.",
+          "Saule kullanıcının daha önce seçtiklerini kolaylaştırabilir; fakat yalnızca benzerini önermekle yetinmemelidir. Kişinin keşif, sürpriz, çelişki ve yön değiştirme hakkı korunmalıdır. Bazen sistemin en akıllı hareketi yüksek olasılıklı tahmini sunmak değil, kullanıcının hiç denemediği bir yolu görünür kılmak veya öneri üretmeden boş alan bırakmaktır.",
+          "Bu nedenle kişiselleştirme kimliğe sadakat testi olamaz. Sen böyle birisin dili yerine, şu koşullarda bunu birkaç kez seçtin; bu hâlâ seni temsil ediyor mu dili kullanılmalıdır. İlki hüküm verir, ikincisi konuşmaya açar."
+        ]
+      },
+      {
+        "heading": "9. Kimlik Çıkarımı İtiraz, Düzeltme ve Unutma Hakkı Gerektirir",
+        "paragraphs": [
+          "Ham veriyi düzeltmek ile bu veriden üretilen yorumu düzeltmek aynı şey değildir. Takvim kaydı doğru olabilir; fakat sistemin bundan çıkardığı aşırı çalışmayı seven kişi yorumu yanlış olabilir. Kullanıcı yalnızca girdileri değil, kendisi hakkında üretilen anlamı da görebilmeli ve değiştirebilmelidir.",
+          "Wachter ve Mittelstadt, büyük veri ve yapay zekâ çağında makul çıkarımlar hakkını tartışırken mevcut veri koruma yaklaşımının çıkarımlar karşısında önemli boşluklar taşıdığını belirtir. Onların çerçevesi özellikle yüksek riskli çıkarımların neden meşru, ilgili ve güvenilir olduğunun gerekçelendirilmesini; sonradan da itiraz edilebilmesini savunur. Saule için bu, yalnızca hukuki uyum değil, ürün güveninin temelidir.",
+          "Her kimlik notu kaynağını, oluşturulma zamanını, kullanım amacını, belirsizlik düzeyini ve sona erme koşulunu taşımalıdır. Kullanıcı bir yorumu yanlış, eski, bağlamsız, hassas veya artık yararsız diye işaretleyebilmelidir. Düzeltme sessizce yeni veri eklemek değil, hatalı çıkarımın gelecekteki etkisini gerçekten durdurmak anlamına gelmelidir.",
+          "Silme de göstermelik olmamalıdır. Bir etiket arayüzden kaldırılıp öneri modelinde, yedeklerde veya ekip raporlarında yaşamaya devam ediyorsa kişi anlatısının denetimini geri almamıştır. Sistem hangi katmanda neyin silindiğini, neyin yasal veya teknik nedenle geçici olarak tutulduğunu anlaşılır biçimde açıklamalıdır.",
+          "Bazı kimlik verileri paylaşılmamalı, hatta hiç üretilmemelidir. Saule Business'ta çalışanın kişilik, sadakat, duygusal durum veya ayrılma ihtimali gibi hassas çıkarımları yöneticilere sunmak ciddi güç asimetrisi yaratır. Kullanıcının kendi yansıtması için verdiği veri, kurumsal değerlendirme aracına dönüşmemelidir."
+        ]
+      },
+      {
+        "heading": "10. Yapay Zekâ İnsanın Otantik Benliğine Karar Veremez",
+        "paragraphs": [
+          "İnsan bazen kendini anlamak için bir başkasının sorusuna, tanıklığına veya diline ihtiyaç duyar. Yapay zekâ da tekrar eden temaları toparlayabilir, unutulmuş bağlantıları gösterebilir ve kişinin kendi sözlerini ona geri sunabilir. Fakat akıcı bir özetin ikna edici görünmesi, onun nihai olarak doğru olduğu anlamına gelmez.",
+          "Otantik benlik fikri özellikle dikkat gerektirir. Sistem kullanıcının gündelik davranışları ile beyan ettiği değerler arasında fark gördüğünde gerçek sen aslında busun diyemez. Davranış baskı, yoksunluk, korku, bakım yükü veya sınırlı seçeneklerden doğabilir; beyan edilen değer de arzu, sosyal beklenti veya henüz yaşanamayan bir yön olabilir. Hangisinin daha gerçek olduğuna ürün karar veremez.",
+          "Saule yansıtıcı sorular sorabilir: Bu tanım sana ait geliyor mu? Hangi bağlamda doğru, hangi bağlamda eksik? Artık taşımak istemediğin bir hikâye var mı? Hangi ihtimaline daha çok yer açmak istiyorsun? Ama cevap vermesi için kişiyi sıkıştıramaz, sessizliği direnç diye yorumlayamaz veya tekrar eden sohbeti duygusal bağımlılığa çeviremez.",
+          "Kimlikte belirsizlik, rol çatışması veya değişim tek başına klinik bozukluk göstergesi değildir. Bazı kimlik güçlükleri yoğun sıkıntı, travma, dissosiyasyon, ciddi işlev kaybı veya başka klinik durumlarla ilişkili olabilir; ancak Saule konuşma ve davranış verilerinden tanı koyamaz. Ürün kendisini terapist gibi sunmamalı, ağır sıkıntı veya güvenlik riski ifade edildiğinde uygun insan desteğine yönelmeyi normalleştirmelidir.",
+          "Bu sınır zayıflık değil, epistemik dürüstlüktür. İnsan kendisi hakkında bile zaman içinde yeni şeyler öğrenirken bir modelin onu bütünüyle çözdüğünü iddia etmesi güven değil, aşırı yetki üretir. Saule'nin rolü benliği açıklayıp kapatmak değil, kişinin kendine daha dikkatli ve daha özgür bakabildiği bir alan açmaktır."
+        ]
+      },
+      {
+        "heading": "11. Saule Core İçin Kimlik İlkesi: Tanımlama Değil, Yazarlığı Koruma",
+        "paragraphs": [
+          "Bu bölümün ürün sonucu nettir: Saule Core, kimlik modeli kurabilir; fakat bu modeli kullanıcı hakkında gizli bir hakikat deposu gibi işletemez. Model geçici bir çalışma varsayımıdır. Kullanıcının sözü, bağlamı, itirazı ve değişimi karşısında geri çekilebilmelidir.",
+          "Saule Life'ta bu ilke, insanın yaşam dönemleri arasında süreklilik kurmasına; ilişkisel rollerini birlikte görmesine; eski öz yargıları gevşetmesine ve mümkün benliklerine küçük denemelerle yaklaşmasına yardım eder. Ama hayatı tek bir gelişim çizgisine dönüştürmez. Bazen ilerleme yeniden anlatmak, bazen yas tutmak, bazen vazgeçmek, bazen de hiçbir sonuca varmadan durabilmektir.",
+          "İş yaşamında kimlik desteği çalışanın geçmiş performansını kaderleştirmemeli; rol denemelerini ve gelişim yönünü kişinin denetiminde tutmalıdır. Yaratıcı alanda ise tanınmış tarzı optimize etmekten önce sapmaya, acemiliğe ve henüz adı konmamış üretime alan açmalıdır. Her iki durumda da sistemin görevi insanı daha öngörülebilir hale getirmek değil, kendi yönünü seçebilme kapasitesini korumaktır.",
+          "Saule ne zaman konuşacağını da öğrenmelidir. Kullanıcı eski bir etiketin etkisiyle kendini sınırladığında veya bugünkü kararını artık temsil etmeyen bir kayda dayandırdığında nazik bir yansıtma yararlı olabilir. Ancak kişi keşif içindeyken, çelişkiyi çözmek istemediğinde veya kimlik konusu mevcut amaçla ilgili olmadığında sistem sessiz kalabilmelidir.",
+          "Başarı, Saule'nin kullanıcıyı daha isabetli sınıflandırması değildir. Daha insani ölçütler şunlardır: Kullanıcı sistemin kendisi hakkında ne düşündüğünü görebiliyor mu? Yanlış yorumu etkili biçimde düzeltebiliyor mu? Geçmişini taşıyıp ona hapsolmadan yeni yönler deneyebiliyor mu? İlişkisel ve kültürel bağlamı stereotipe dönüşmeden temsil ediliyor mu? Sistem gerektiğinde unutabiliyor ve susabiliyor mu?",
+          "Kimlik desteğinin nihai ilkesi budur: İnsan kendi anlatısının tek ve mutlak hâkimi olmayabilir; hafıza, ilişki, kültür ve koşullar bu anlatıya katılır. Yine de hiçbir yapay zekâ onun yazarlığını elinden alamaz. Saule'nin zekâsı insanı tanımlamasında değil, insanın kendini yeniden tanımlama hakkını korumasında görünür."
+        ]
+      }
+    ],
+    "open_questions": [
+      {
+        "id": "i-1",
+        "question": "Saule gözlenen davranış ile kullanıcının açık öz tanımı çatıştığında hangisini nasıl ve hangi dille yansıtmalıdır?",
+        "status": "open",
+        "decisionArea": "Kimlik Çıkarımı",
+        "answeredInChapters": [
+          "Bölüm 19 — Uyumlanabilir Zekâ",
+          "Bölüm 20 — Güven"
+        ]
+      },
+      {
+        "id": "i-2",
+        "question": "Bir kimlik varsayımının kaynağı, belirsizliği, kullanım amacı ve eskime tarihi kullanıcıya nasıl gösterilmelidir?",
+        "status": "open",
+        "decisionArea": "Çıkarım Şeffaflığı",
+        "answeredInChapters": [
+          "Bölüm 20 — Güven",
+          "Bölüm 37 — Gizlilik"
+        ]
+      },
+      {
+        "id": "i-3",
+        "question": "Hangi kimlik çıkarımları açık izin bulunsa bile hiç üretilmemeli veya saklanmamalıdır?",
+        "status": "open",
+        "decisionArea": "Hassas Çıkarım Sınırı",
+        "answeredInChapters": [
+          "Bölüm 23 — Etik",
+          "Bölüm 37 — Gizlilik"
+        ]
+      },
+      {
+        "id": "i-4",
+        "question": "Kullanıcı hatalı bir kimlik yorumunu sildiğinde bu düzeltme öneri, bellek ve ekip sistemlerine nasıl yayılmalıdır?",
+        "status": "open",
+        "decisionArea": "Etkili Düzeltme",
+        "answeredInChapters": [
+          "Bölüm 22 — Unutma",
+          "Bölüm 25 — Uyumlanabilir Bellek"
+        ]
+      },
+      {
+        "id": "i-5",
+        "question": "Saule geçmiş tercihlere saygı gösterirken kullanıcının sürpriz, keşif ve yön değiştirme alanını nasıl koruyabilir?",
+        "status": "open",
+        "decisionArea": "Kimlik ve Keşif",
+        "answeredInChapters": [
+          "Bölüm 19 — Uyumlanabilir Zekâ",
+          "Bölüm 24 — İrade"
+        ]
+      },
+      {
+        "id": "i-6",
+        "question": "Kişisel, ilişkisel ve kolektif kimlik katmanları kültürel stereotip üretmeden nasıl temsil edilebilir?",
+        "status": "open",
+        "decisionArea": "Bağlamsal Kimlik",
+        "answeredInChapters": [
+          "Bölüm 14 — İlişkiler",
+          "Bölüm 30 — İlişki Zekâsı"
+        ]
+      },
+      {
+        "id": "i-7",
+        "question": "Mesleki ve yaratıcı geçici benlik denemeleri kalıcı profil etiketlerine dönüşmeden nasıl desteklenebilir?",
+        "status": "open",
+        "decisionArea": "Mümkün Benlikler",
+        "answeredInChapters": [
+          "Bölüm 21 — Şefkat",
+          "Bölüm 28 — Koçluk Motoru"
+        ]
+      },
+      {
+        "id": "i-8",
+        "question": "Bir anıyı kimlik yansıtması için geri getirmenin yararlı, bağlamsız veya zarar verici olduğu nasıl ayırt edilmelidir?",
+        "status": "open",
+        "decisionArea": "Bellek–Kimlik Sınırı",
+        "answeredInChapters": [
+          "Bölüm 22 — Unutma",
+          "Bölüm 25 — Uyumlanabilir Bellek"
+        ]
+      },
+      {
+        "id": "i-9",
+        "question": "Saule kimlik üzerine yansıtma teklifini ne zaman sunmalı, ne zaman kullanıcının belirsizliğine ve sessizliğine alan açmalıdır?",
+        "status": "open",
+        "decisionArea": "Yansıtma Zamanlaması",
+        "answeredInChapters": [
+          "Bölüm 27 — Yansıtma Motoru",
+          "Bölüm 33 — Ses"
+        ]
+      },
+      {
+        "id": "i-10",
+        "question": "Kimlik desteğinin başarısı sınıflandırma doğruluğu yerine hangi özerklik ve değişim ölçütleriyle değerlendirilebilir?",
+        "status": "open",
+        "decisionArea": "Başarı Ölçütleri",
+        "answeredInChapters": [
+          "Bölüm 24 — İrade",
+          "Bölüm 39 — İş Modeli"
+        ]
+      }
+    ],
+    "design_decisions": [
+      "Saule kimliği sabit öz, tek profil, kişilik puanı veya davranış etiketi olarak temsil etmemelidir.",
+      "Her kimlik çıkarımı bağlam, kaynak, oluşturulma zamanı, kullanım amacı, belirsizlik ve sona erme koşulu taşımalıdır.",
+      "Kimlik çıkarımları kesin gerçek değil, kullanıcı tarafından görülebilen ve tartışılabilen çalışma varsayımları olarak sunulmalıdır.",
+      "Kullanıcı ham verinin yanında bu veriden üretilen yorumu da düzeltebilmeli, reddedebilmeli ve silebilmelidir.",
+      "Bir düzeltme ilgili öneri, bellek ve karar katmanlarında hatalı çıkarımın etkisini gerçekten durdurmalıdır.",
+      "Geçmiş davranış gelecekteki seçenekleri daraltmamalı; keşif, çelişki, acemilik ve yön değiştirme için görünür alan korunmalıdır.",
+      "Sistem kişisel, ilişkisel ve kolektif kimlik katmanlarını zorla birleştirmemeli veya kültürel stereotipe dönüştürmemelidir.",
+      "Kullanıcının öz yansıtma amacıyla verdiği kimlik verileri işveren değerlendirmesi, reklam profili veya üçüncü taraf risk skoru için kullanılmamalıdır.",
+      "İnanç, sağlık, ruh sağlığı, cinsel yönelim, politik görüş ve benzeri hassas kimlik çıkarımları amaç dışı veriden üretilmemelidir.",
+      "Bellek geri çağırma sistemi her kayıt için unutma, zayıflatma, emekliye ayırma ve bağlamdan düşürme seçenekleri sağlamalıdır.",
+      "Saule kullanıcıya otantik benliğinin ne olduğunu söylememeli; davranış ile değer arasındaki farkı açık sorularla ve hüküm vermeden yansıtmalıdır.",
+      "Kimlik belirsizliği veya rol çatışması klinik belirti gibi sunulmamalı; Saule tanı veya tedavi rolü üstlenmemelidir.",
+      "Başarı sınıflandırma doğruluğuyla değil; anlatı yazarlığı, etkili düzeltme, geçmişe hapsolmadan değişebilme, mahremiyet ve sistemin gerektiğinde susabilmesiyle ölçülmelidir."
+    ],
+    "future_evolution": "Sonraki sürümler kullanıcı denetimli kimlik varsayımı kayıtlarını, çıkarım kaynağı ve belirsizlik görünümünü, anlatı düzeltmelerinin bütün sistem katmanlarına yayılmasını, anıların zayıflatılması ve emekliye ayrılmasını, mümkün benlik denemeleri için mahrem alanları ve öneri sistemlerindeki kimlik geri besleme döngülerini sınayacak mekanizmaları ayrıntılandırmalıdır. Araştırma; farklı kültürel benlik anlayışlarını, göç ve bakım deneyimlerini, mesleki geçişleri, yaratıcı kimlikleri ve nöroçeşitli kullanıcıların öz tanımlama biçimlerini tek bir norm üretmeden kapsamalıdır. Saule Core'un kimlik modeli zamanla gelişebilir; ancak hiçbir sürüm kullanıcının kendini yeniden adlandırma, çelişkili kalma, unutma ve sistemi şaşırtma hakkından daha yetkili hale gelmemelidir.",
+    "references": [
+      "McAdams, D. P., & McLean, K. C. (2013). Narrative identity. Current Directions in Psychological Science, 22(3), 233–238. https://doi.org/10.1177/0963721413475622",
+      "Conway, M. A., & Pleydell-Pearce, C. W. (2000). The construction of autobiographical memories in the self-memory system. Psychological Review, 107(2), 261–288. https://doi.org/10.1037/0033-295X.107.2.261",
+      "Campbell, J. D., Trapnell, P. D., Heine, S. J., Katz, I. M., Lavallee, L. F., & Lehman, D. R. (1996). Self-concept clarity: Measurement, personality correlates, and cultural boundaries. Journal of Personality and Social Psychology, 70(1), 141–156. https://doi.org/10.1037/0022-3514.70.1.141",
+      "Markus, H., & Nurius, P. (1986). Possible selves. American Psychologist, 41(9), 954–969. https://doi.org/10.1037/0003-066X.41.9.954",
+      "Brewer, M. B., & Gardner, W. (1996). Who is this ‘we’? Levels of collective identity and self representations. Journal of Personality and Social Psychology, 71(1), 83–93. https://doi.org/10.1037/0022-3514.71.1.83",
+      "Markus, H. R., & Kitayama, S. (1991). Culture and the self: Implications for cognition, emotion, and motivation. Psychological Review, 98(2), 224–253. https://doi.org/10.1037/0033-295X.98.2.224",
+      "Ibarra, H. (1999). Provisional selves: Experimenting with image and identity in professional adaptation. Administrative Science Quarterly, 44(4), 764–791. https://doi.org/10.2307/2667055",
+      "Kosinski, M., Stillwell, D., & Graepel, T. (2013). Private traits and attributes are predictable from digital records of human behavior. Proceedings of the National Academy of Sciences, 110(15), 5802–5805. https://doi.org/10.1073/pnas.1218772110",
+      "Cheney-Lippold, J. (2011). A new algorithmic identity: Soft biopolitics and the modulation of control. Theory, Culture & Society, 28(6), 164–181. https://doi.org/10.1177/0263276411424420",
+      "Chaney, A. J. B., Stewart, B. M., & Engelhardt, B. E. (2018). How algorithmic confounding in recommendation systems increases homogeneity and decreases utility. Proceedings of the 12th ACM Conference on Recommender Systems, 224–232. https://doi.org/10.1145/3240323.3240370",
+      "Wachter, S., & Mittelstadt, B. (2019). A right to reasonable inferences: Re-thinking data protection law in the age of Big Data and AI. Columbia Business Law Review, 2019(2), 494–620. https://doi.org/10.7916/cblr.v2019i2.3424"
+    ]
+  }
+}

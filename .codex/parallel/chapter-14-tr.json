@@ -1,0 +1,262 @@
+{
+  "draft": {
+    "sections": [
+      {
+        "heading": "1. İlişki Kişi Listesi Değil, Paylaşılan Bir Hayattır",
+        "paragraphs": [
+          "İnsan yaşamının önemli bir bölümü tek kişinin içinde değil, insanlar arasında gerçekleşir. Bir sözün tutulması, bir bakışın anlamı, bakımın kimin tarafından taşındığı, bir çatışmanın ardından kimin geri döndüğü ve sessizliğin güven mi uzaklık mı ifade ettiği ilişki içinde biçimlenir. Bu alanı yalnızca kişi adı, son iletişim tarihi ve mesaj sayısıyla açıklamak mümkün değildir.",
+          "İletişim sıklığı yakınlığın güvenilir ölçüsü değildir. Her gün konuşulan bir ilişkide kişi görülmediğini hissedebilir; aylarca görüşülmeyen bir dostluk güçlü süreklilik taşıyabilir. Mesaj sayısı, ilişkinin niteliğini değil yalnızca bir kanalın kullanımını gösterir. Yakınlık; anlaşılma, önemsenme, karşılıklılık, güven, ortak tarih ve gerektiğinde birbirine dönebilme kapasitesiyle yaşanır.",
+          "Bu nedenle Saule Core insanları sosyal varlıklar halinde sıralamamalı, 'en değerli ilişkiler' listesi çıkarmamalıdır. Bir ilişkinin önemini sistem; sıklık, unvan, temas süresi veya kullanıcının o kişi hakkında ne kadar konuştuğundan tek başına çıkaramaz. Görünür veri ile yaşanan anlam aynı şey değildir.",
+          "Yine de ilişkisel yükün bir kısmı hatırlamayla hafifletilebilir. Seçilmiş bir bakım niyeti, verilmiş bir söz, konuşulması istenen bir konu veya karşı tarafın açıkça ifade ettiği bir sınır unutulduğunda, sistem bunları kullanıcının kendi tarafına ilişkin bağlam olarak geri getirebilir. Bu destek yakınlığın yerini almaz; iyi niyetin gündelik dağınıklıkta kaybolmasını azaltır.",
+          "Bölüm 14'ün merkez ilkesi şudur: Saule insan ilişkilerinin üçüncü otoritesi olmamalıdır. Görevi kimin haklı olduğunu, kimin ne hissettiğini veya ilişkinin nereye gideceğini söylemek değil; kullanıcının kendi sorumluluğunu, seçtiği bakım eylemini, karşı tarafın rızasını ve belirsiz kalan bağlamı daha dürüst görebilmesine yardım etmektir."
+        ]
+      },
+      {
+        "heading": "2. Bağlanma ve Güven Etiket Değil, Yaşanan Örüntülerdir",
+        "paragraphs": [
+          "Yakın ilişkiler insana hem zor zamanda sığınabileceği bir bağ hem de dünyaya açılmak için güvenli bir zemin sağlayabilir. Brooke Feeney ve Nancy Collins, destekleyici ilişkilerin yalnızca sıkıntıyı azaltmadığını; keşif, büyüme ve yaşam fırsatlarına katılma kapasitesini de destekleyebildiğini öne sürer. Bakım yalnızca kriz anında teselli değildir; insanın kendi hayatına daha cesur katılmasına alan açmaktır.",
+          "Bu çerçeve, insanları uzaktan 'güvenli', 'kaygılı' veya 'kaçıngan' diye sınıflandırma lisansı vermez. Bağlanma araştırmalarındaki örüntüler klinik tanı değildir; kişi, ilişki, dönem ve bağlama göre farklı görünümler taşıyabilir. Birkaç mesaj, cevap süresi veya tek taraflı anlatıdan kalıcı ilişki tipi çıkarmak bilimsel mütevazılığı aşar.",
+          "John Rempel, John Holmes ve Mark Zanna'nın yakın ilişkilerde güven çalışması; öngörülebilirlik, güvenilirlik ve belirsizlik altında diğerine inanabilme boyutlarını birbirinden ayırır. Güven tek bir duygu veya puan değildir. Tekrarlanan davranış, karşılıklı kırılganlık, sözlerin sonuçları ve zaman içinde oluşan beklentilerle gelişir; bir göstergedeki değişimle kesin olarak ölçülemez.",
+          "Saule 'bu kişiye güvenebilirsin' ya da 'bu ilişki güvenli değil' hükmü vermemelidir. Bunun yerine kullanıcının dayandığı somut deneyimleri ayırmasına yardım edebilir: Ne söylendi, ne yapıldı, hangi söz tekrarlandı, hangi sınır aşıldı, hangi durumda onarım gerçekleşti? Yorum kanıtın önüne geçmemelidir.",
+          "Sistem yakınlığı taklit ederek güven kazanmaya da çalışmamalıdır. Sıcak dil, süreklilik ve hatırlama faydalı olabilir; fakat Saule kendisini dost, eş veya aile üyesi gibi konumlandırdığında destek ile duygusal ikame arasındaki sınır bulanıklaşır. İnsan ilişkisinin boşluğunu ürün bağlılığına çevirmek, ilişki desteği değildir."
+        ]
+      },
+      {
+        "heading": "3. Karşılıklılık Muhasebe Değil, İhtiyaca Duyarlılıktır",
+        "paragraphs": [
+          "İlişkilerde karşılıklılık her şeyin eşit sayıda geri verilmesi değildir. Bir dönem bir kişi daha çok bakım verir, başka bir dönemde roller değişebilir. Sağlıklı denge her gün kapanan bir hesap değil; ihtiyaçların, sınırların ve taşıma kapasitesinin zaman içinde konuşulabildiği bir ilişkidir.",
+          "Margaret Clark ve Judson Mills'in değişim ilişkileri ile topluluk ilişkileri ayrımı, bazı bağlarda faydanın bire bir geri ödeme beklentisiyle, bazılarında ise karşı tarafın ihtiyacına duyarlılıkla düzenlendiğini gösterir. Bu ayrım kesin ilişki kutuları değildir; aynı ilişkide para, bakım, görev ve yakınlık farklı normlarla yürüyebilir. Yine de sevgi ve desteğin puan hesabına çevrilmesinin neden yabancılaştırıcı olabileceğini açıklar.",
+          "Bakım emeği çoğu zaman görünmezdir: doğum gününü hatırlamak, evin duygusal iklimini izlemek, çatışma sonrası konuşmayı başlatmak, aile bağlarını sürdürmek, ekipte yeni geleni gözetmek veya ortak işin dağılmaması için sessiz koordinasyon yapmak. Joan Tronto'nun bakım etiği, bakımı yalnızca iyi niyet değil; dikkat, sorumluluk, yeterlik ve karşılık verme içeren toplumsal bir pratik olarak düşünmeye çağırır.",
+          "Saule görünmeyen emeği fark edilir kılabilir, fakat onu yeni bir performans panosuna dönüştürmemelidir. 'Bu ay sen üç kez aradın, o bir kez aradı' gibi sayımlar bazen düşünmeye yardımcı olsa da ilişkinin anlamını otomatik olarak açıklamaz. Sayı, konuşmanın başlangıcı olabilir; hükmü değil.",
+          "Bakım desteği aynı zamanda bakım vereni korumalıdır. Sürekli hatırlatan, planlayan ve ilişkiyi ayakta tutan kişinin yükünü daha verimli hale getirmek yeterli değildir; yükün neden tek kişide toplandığını görünür kılmak gerekir. Saule eşitsiz emeği sessizce optimize etmemelidir."
+        ]
+      },
+      {
+        "heading": "4. Sınırlar İlişkinin Karşıtı Değil, Koşuludur",
+        "paragraphs": [
+          "Yakınlık her şeye erişim hakkı vermez. İnsan sevdiği birine cevap vermeyi geciktirebilir, belirli bir konuyu paylaşmak istemeyebilir, yalnız kalmaya ihtiyaç duyabilir veya yardım edemeyeceği bir sınır koyabilir. Sınır, ilginin yokluğu değil; ilişkinin zarar vermeden sürdürülebileceği koşul olabilir.",
+          "Sandra Petronio'nun iletişim mahremiyeti yönetimi yaklaşımı, özel bilginin yalnızca onu ilk söyleyen kişiyi ilgilendirmediğini; paylaşıldığında ortak fakat sınırsız olmayan bir sorumluluk doğurduğunu gösterir. Bir arkadaşın sırrını Saule'ye kaydetmek, yalnızca kullanıcının veri tercihi değildir. Kayıt, hakkında konuşulan kişinin mahremiyetini de etkiler.",
+          "Bu nedenle ilişkisel rıza iki taraflı düşünülmelidir. Kullanıcı kendi düşüncelerini saklama hakkına sahiptir; fakat başkasının sağlık durumu, travması, cinsel yaşamı, konumu veya özel mesajları ayrıca yüksek hassasiyet taşır. Saule'nin kullanıcıdan izin almış olması, hakkında veri tutulan diğer kişinin rızasının bulunduğu anlamına gelmez.",
+          "Sistem özel iletişimleri varsayılan olarak taramamalı, bir kişinin duygusunu veya niyetini mesajlarından gizlice çıkarmamalıdır. Bir konuşmanın tonu, taraflar arasındaki tarih ve söylenmeyen bağlam olmadan kolayca yanlış yorumlanabilir. 'Öfkeli görünüyor', 'senden uzaklaşıyor' veya 'manipüle ediyor' gibi çıkarımlar, belirsizliği sahte kesinliğe dönüştürür.",
+          "İyi sınır tasarımı; kişi ve konu bazında kayıt seçimi, süre sonu, görünür kaynak, paylaşım öncesi açık onay ve geri alınabilirlik sağlar. Saule bir ilişkiyi daha iyi anlamak adına mahremiyeti aşındırmamalı; eksik bilgiyle yaşamayı temel bir etik yetenek olarak kabul etmelidir."
+        ]
+      },
+      {
+        "heading": "5. Ortak Bellek Tek Bir Kişinin Gerçeği Değildir",
+        "paragraphs": [
+          "İnsanlar ilişkiler içinde birlikte hatırlar. Biri tarihleri, diğeri konuşmaların tonunu; biri aile öykülerini, diğeri gündelik ayrıntıları taşır. Daniel Wegner ve çalışma arkadaşlarının geçişli bellek araştırmaları, yakın ilişkilerde insanların yalnızca bilgi değil, kimin neyi bildiğine ilişkin bir harita da geliştirebildiğini gösterir.",
+          "Bu ortaklık ilişkiyi güçlendirebilir ve bireysel yükü azaltabilir. Fakat bir kişinin tuttuğu kayıt, ortak geçmişin tamamı değildir. Aynı konuşma iki insan için farklı anlamlar taşıyabilir; ayrıntılar değişebilir, bakışlar dönüşebilir ve kayıt cihazının gördüğü şey yaşanan deneyimin yalnızca bir bölümüdür.",
+          "Saule 'ilişkide gerçekte olanı' tek taraflı arşivden üretmemelidir. Kullanıcının notu, kullanıcının bakışıdır; karşı tarafın niyeti veya ortak gerçeğin nihai kaydı değildir. Sistem her ilişkisel bellekte kaynağı, bakış açısını ve belirsizliği korumalıdır.",
+          "Bir karar veya söz iki kişiyi ilgilendiriyorsa, onu saklamak yararlı olabilir. Ancak hassas bir konuşmanın otomatik özeti sonradan taraflardan birine karşı kanıt gibi kullanılabilir. Kayıt kolaylığı, ilişkinin gözetim alanına dönüşme riskini artırır. Her şeyi saklamak güveni güçlendirmez; bazen kırılgan konuşmayı imkânsızlaştırır.",
+          "Saule'nin ortak bellekteki rolü, seçilmiş niyetlere geri dönüş sağlamaktır: 'Bu konuyu sakin bir zamanda yeniden konuşmak istemiştin' veya 'Şu sınırı kendin için not etmiştin.' Sistem karşı taraf adına konuşmamalı, unutulan bağlamı yeni bir anlatıyla tamamlamamalıdır."
+        ]
+      },
+      {
+        "heading": "6. Çatışma İlişkinin Sonu Değil, Onarım İhtiyacının Görünmesidir",
+        "paragraphs": [
+          "Çatışma her zaman uyumsuzluğun kanıtı değildir. İhtiyaçlar, beklentiler, sınırlar ve kaynaklar farklı olduğunda gerilim doğabilir. Asıl belirleyici yalnızca çatışmanın varlığı değil; tarafların konuşma, etkilenme, sorumluluk alma ve zarar sonrasında onarım kurma kapasitesidir.",
+          "Nickola Overall ve James McNulty'nin çatışma iletişimi değerlendirmesi, tek bir iletişim tarzının bütün ilişkiler ve bütün sorunlar için iyi olmadığını vurgular. Yumuşak yaklaşım bazı koşullarda yakınlığı korurken, değişmesi gereken ciddi bir sorun karşısında doğrudanlık gerekli olabilir. Bağlamı görmeden 'her zaman sakin ol' veya 'duygunu hemen söyle' reçetesi vermek yetersizdir.",
+          "Onarım yalnızca özür sözcüğünden ibaret değildir. Roy Lewicki, Beth Polin ve Robert Lount'un etkili özür yapısına ilişkin çalışması; sorumluluğu kabul etme, neyin yanlış olduğunu açıklama, pişmanlık, telafi ve bağışlanma talebi gibi bileşenlerin farklı ağırlıklar taşıyabildiğini gösterir. Fakat en iyi formül bile davranış değişmiyorsa güveni otomatik olarak geri getirmez.",
+          "Saule özür metni yazabilir, ama kişinin sorumluluğunu devralamaz. Akıcı bir mesaj, gerçek yüzleşmeyi erteleyebilir veya karşı tarafın baskı altında affetmesine yol açabilir. Sistem, kullanıcının neyi kabul ettiğini ve hangi somut onarımı üstleneceğini düşünmesine yardım etmeli; duygusal sonucu yönetmeye çalışmamalıdır.",
+          "Her açık döngü yeniden temas gerektirmez. Bazı ilişkilerde kapanış, mesafe veya temasın bitmesi daha güvenli ve saygılı olabilir. Saule 'ilişkileri kurtarma' hedefini varsayılan kabul etmemeli; onarım ile yeniden erişim hakkını birbirine karıştırmamalıdır."
+        ]
+      },
+      {
+        "heading": "7. Yalnızlık Temas Sayısı Değil, Bağ İhtiyacıdır",
+        "paragraphs": [
+          "Yalnızlık ile tek başına olmak aynı şey değildir. İnsan seçilmiş yalnızlıkta dinlenebilir, kalabalık içinde ise derin biçimde yalnız hissedebilir. John Cacioppo ve Louise Hawkley, algılanan sosyal yalıtılmışlığın dikkat, yorum ve sosyal tehdit duyarlılığıyla ilişkilerini inceler. Yalnızlık yalnızca çevrede kaç kişi bulunduğuyla açıklanamaz.",
+          "Julianne Holt-Lunstad ve çalışma arkadaşlarının geniş meta-analizi, sosyal ilişkilerin niteliği ve bütünleşmesiyle sağlık sonuçları arasında güçlü ilişkiler bulunduğunu gösterir. Bu sonuç 'daha çok mesaj gönder, daha uzun yaşa' gibi bireysel bir reçete değildir. Çalışmalar farklı ilişki ölçümlerini bir araya getirir ve nedensel yollar karmaşıktır; yine de sosyal bağın insan yaşamında tali bir lüks olmadığını hatırlatır.",
+          "Saule yalnızlığı temas sıklığından tahmin etmemelidir. Kullanıcı az kişiyle konuşmayı seçebilir veya yoğun bir iletişim ağında destekten yoksun hissedebilir. Sistem 'uzun süredir kimseyi aramadın' diyerek utanç üretmek yerine, kullanıcı isterse hangi tür bağa ihtiyaç duyduğunu araştırabilir: tanıklık, ortak etkinlik, pratik yardım, aidiyet, neşe veya güvenli sessizlik.",
+          "Yapay zekâ bu ihtiyacın bir bölümüne eşlik edebilir, fakat insan ilişkisini ikame ettiğini iddia etmemelidir. Sürekli ulaşılabilir, çatışmasız ve kişiselleştirilmiş bir sistem; gerçek ilişkilerin karşılıklılık, sınır ve belirsizliklerini zahmetli gösterebilir. Ürün, yalnızlığı daha fazla ürün kullanımına bağlayan kapalı bir döngü kurmamalıdır.",
+          "Kullanıcı sosyal bağ kurmak istiyorsa Saule küçük ve seçilmiş yolları görünür kılabilir: güvenilen birine kısa mesaj, ortak bir mekâna dönüş, yardım isteme veya var olan bir ilişkiye zaman ayırma. Ama reddedilme riskini sıfırlayamaz, kişinin adına bağ kuramaz ve yalnızlığı kişisel başarısızlık olarak yorumlayamaz."
+        ]
+      },
+      {
+        "heading": "8. Güç Eşit Değilse İlişki Tavsiyesi de Tarafsız Değildir",
+        "paragraphs": [
+          "Her ilişki aynı pazarlık gücüyle yaşanmaz. Yönetici ve çalışan, öğretmen ve öğrenci, bakım veren ve bakıma bağımlı kişi, ekonomik kaynakları kontrol eden eşler veya kamusal itibarı eşit olmayan yaratıcı ortaklar aynı riskle konuşmaz. 'İkiniz de biraz taviz verin' önerisi, güç farkını görünmez kılabilir.",
+          "Dacher Keltner, Deborah Gruenfeld ve Cameron Anderson'ın güç yaklaşımı; yüksek gücün ödül ve hareket alanıyla, düşük gücün ise tehdit, ceza ve kısıt duyarlılığıyla ilişkilenebileceğini öne sürer. Bu kuram her kişiyi açıklayan yasa değildir; fakat aynı davranışın farklı güç konumlarında neden farklı sonuçlar taşıyabileceğini düşünmeye yardım eder.",
+          "Saule bir çatışmada tarafların biçimsel ve fiilî gücünü hesaba katmadan simetrik iletişim önerisi vermemelidir. Bir çalışanın yöneticisine, bir öğrencinin öğretmenine veya ekonomik olarak bağımlı bir kişinin partnerine sınır koyması farklı bedeller taşıyabilir. İfade özgürlüğü ile sonuçlardan korunma aynı şey değildir.",
+          "İlişki puanları güç sahibinin elinde gözetim aracına dönüşebilir. Çalışan 'işbirliği skoru', eş 'duygusal güvenilirlik puanı' veya ekip üyesi 'uyum riski' ile değerlendirildiğinde, sistemin belirsiz çıkarımı gerçek kaynak dağılımını etkileyebilir. İnsanlar itiraz edemediği bir modelin nesnesi olmamalıdır.",
+          "Güç duyarlı destek, daha zayıf konumdaki kişiye daha çok uyumlanma görevi yüklemez. Seçenekleri, olası sonuçları, güvenli kanalları ve insan desteğini görünür kılar; kararın ve risk değerlendirmesinin kullanıcıda kalmasını sağlar."
+        ]
+      },
+      {
+        "heading": "9. İş İlişkileri Yalnızca Koordinasyon Değildir",
+        "paragraphs": [
+          "İş ilişkileri görev devri, toplantı ve mesaj trafiğinden fazlasını taşır. Güven, adalet, yardım isteme, hata açıklama, görünmeyen emek, mentorluk ve itiraz edebilme kapasitesi işin nasıl yapıldığını belirler. CRM kaydı müşteriyi, org şeması da ekibi tek başına anlatmaz.",
+          "Amy Edmondson'ın ekiplerde psikolojik güvenlik çalışması, kişiler arası risk almanın güvenli olduğuna dair ortak inanç ile öğrenme davranışları arasındaki ilişkiyi gösterir. Psikolojik güvenlik sürekli uyum veya çatışmasızlık değildir; soru sorma, hata bildirme ve farklı görüş dile getirme imkânıdır.",
+          "Saule Business ekip içi iletişimi analiz ederken sessizliği memnuniyet, hızlı cevabı bağlılık veya çok mesajı işbirliği saymamalıdır. Bazı insanlar güç farkı nedeniyle susar, bazıları odaklanmak için geç yanıt verir, bazıları görünmeyen bakım emeğiyle ekibi taşır. Davranışın anlamı bağlam ve kişinin kendi açıklaması olmadan tamamlanamaz.",
+          "Müşteri ilişkilerinde de amaç yalnızca dönüşüm veya elde tutma değildir. Bir müşterinin hassas durumu, itirazı veya güven kaybı satış fırsatına çevrilmemelidir. İlişkisel hafıza, verilen sözleri ve çözülmemiş sorunları görünür kılabilir; kişinin kırılganlığını ikna avantajı olarak kullanamaz.",
+          "Kurumsal ilişki desteği çalışanların özel mesajlarını tarayan görünmez bir yönetici olmamalıdır. Veri hangi amaçla toplandıysa o bağlamda kalmalı; destek için verilen bilgi performans, terfi veya işten çıkarma kararına izinsiz taşınmamalıdır."
+        ]
+      },
+      {
+        "heading": "10. Yaratıcı Ortaklıkta Fikir Kadar İlişki de Üretilir",
+        "paragraphs": [
+          "Yaratıcı üretim çoğu zaman tek bir kişinin zihninden tamamlanmış olarak çıkmaz. Fikirler konuşmada biçimlenir, başkasının sorusuyla yön değiştirir, eleştiriyle keskinleşir ve teknik katkıyla uygulanabilir hale gelir. Andrew Hargadon ve Beth Bechky'nin kolektif yaratıcılık çalışması, bazı çözümlerin bireysel içgörüden çok etkileşim anlarında ortaya çıktığını gösterir.",
+          "Bu ortaklık katkı sahipliğini belirsizleştirebilir. İlk fikri söyleyen, onu geliştiren, riskini alan, görünür hale getiren ve son biçimini veren kişiler farklı olabilir. Saule Creative tek bir 'yaratıcı sahibi' üretmek yerine sürüm, katkı ve karar zincirini tarafların görebileceği biçimde korumalıdır.",
+          "Yaratıcı çatışma da kişisel çatışmayla aynı değildir. Bir fikre sert itiraz, kişiye saygısızlık anlamına gelmeyebilir; ancak güç farkı, tekrar eden küçümseme veya emeğin görünmez kılınması 'yaratıcı gerilim' adıyla meşrulaştırılamaz. Sistem tonu tek başına sınıflandırmak yerine tarafların ifade ettiği etkiyi ve bağlamı korumalıdır.",
+          "Yapay zekâ ekip içi üretimde kimin katkısını kullandığını görünmez hale getirebilir. Özet, farklı kişilerin fikirlerini tek bir nötr metinde erittiğinde kaynak ve emek kaybolur. Saule alıntı, türetme, onay ve revizyon geçmişini izlenebilir tutmalı; kendi ürettiği katkıyı da insan emeğiymiş gibi sunmamalıdır.",
+          "İyi yaratıcı ortaklık yalnızca daha çok fikir üretmez; insanların risk alabileceği, itiraz edebileceği, payını görebileceği ve gerektiğinde sınır koyabileceği bir alan kurar. Ürünün görevi bu alanın yerine geçmek değil, unutulan bağlam ve katkıların adil biçimde görülebilmesini desteklemektir."
+        ]
+      },
+      {
+        "heading": "11. Şiddet ve Zorlayıcı Kontrol İletişim Problemi Değildir",
+        "paragraphs": [
+          "Her ilişkisel zorluk karşılıklı yanlış anlama değildir. Tehdit, takip, ekonomik kontrol, cinsel zorlama, fiziksel şiddet, sosyal yalıtma veya cihazlar üzerinden gözetim bulunduğunda simetrik ilişki tavsiyesi tehlikeli olabilir. Daha iyi iletişim, güvende olmayan kişiye yüklenebilecek tarafsız bir çözüm değildir.",
+          "Diana Freed ve çalışma arkadaşlarının yakın partner şiddetinde dijital teknolojiler üzerine araştırması; telefonlar, bulut hesapları, sosyal ağlar ve ortak cihazların takip ve kontrol için kullanılabildiğini, güvenlik kararlarının ilişkinin teknik yapısıyla iç içe geçtiğini gösterir. Bu nedenle yardım arama geçmişi, konum, gizli notlar ve bildirimler saldırgan bir kişinin erişebileceği cihazda ayrıca risk yaratabilir.",
+          "Saule olası şiddet veya zorlayıcı kontrol anlatıldığında çift koçluğu, ortak takvim, otomatik yüzleşme mesajı veya karşı tarafa bildirim önermemelidir. Önce güvenli cihaz, görünürlük, kayıt izi ve acil risk düşünülmelidir. Sistem kullanıcının haberi olmadan kanıt toplama veya karşı tarafı test etme planı da kurmamalıdır.",
+          "Dünya Sağlık Örgütü'nün yakın partner şiddeti ve cinsel şiddete ilişkin klinik ve politika rehberleri, mağdurun güvenliği, mahremiyeti, seçimleri ve uygun uzman desteğinin önemini vurgular. Saule acil yardım hizmetlerinin veya yerel uzmanların yerini alamaz; bulunduğu ülke ve bağlama uygun güvenli destek seçeneklerine ulaşmayı kolaylaştırabilir.",
+          "Klinik sınır daha geniş ilişki alanında da korunmalıdır. Saule bir kişiye kişilik bozukluğu, bağlanma tipi veya 'narsist' etiketi koymamalı; tek taraflı anlatıdan karşı tarafın ruhsal durumunu teşhis etmemelidir. Davranışın etkisini ciddiye almak için tanı gerekmez."
+        ]
+      },
+      {
+        "heading": "12. Saule Core İçin İlke: İlişkinin Arasına Değil, İnsanın Yanına",
+        "paragraphs": [
+          "Saule Core ilişkisel zekâyı insanlar hakkında daha çok veri toplamak olarak değil, kullanıcının kendi payını daha açık görebilmesi olarak tanımlamalıdır. Sistem unutulan bir sözü, seçilmiş bakım niyetini, ifade edilmiş sınırı veya konuşulması beklenen konuyu geri getirebilir; fakat karşı tarafın zihnini temsil edemez.",
+          "Bir öneriden önce şu soruları tartmalıdır: Bu bilgi kime ait? Hakkında veri tutulan kişi buna rıza gösterdi mi? Kaynak kullanıcının yorumu mu, ortak kayıt mı? Güç farkı önerinin riskini değiştiriyor mu? Hatırlatma bakım mı yaratacak, gözetim mi? Doğrudan insan konuşması sistem aracılı yorumdan daha doğru olabilir mi?",
+          "Saule Life için bu ilke, ilişkiyi kişisel CRM'e çevirmeden seçilmiş ilgiyi ve sınırları korur. Saule Business için güven, itiraz ve bakım emeğini performans puanına dönüştürmez. Saule Creative için ortak üretimin katkı zincirini görünür kılar; yaratıcı ilişkinin hakemi olmaz.",
+          "Kullanıcı ilişkisel kaydı görebilmeli, düzeltebilmeli, süre sonu verebilmeli ve silebilmelidir. Başka bir kişiye ait hassas bilgi varsayılan olarak kalıcılaştırılmamalı; özel iletişimden çıkarılan hiçbir yorum gizli profile dönüşmemelidir. İlişki tahmini, uyum puanı ve otomatik niyet okuma Saule'nin yetki alanı dışında kalmalıdır.",
+          "Başarı daha çok mesaj, daha geniş ağ veya daha yüksek etkileşim değildir. Daha insani ölçüt şudur: kullanıcı kendi sorumluluğunu daha net görebiliyor mu, başkasının sınırına daha çok saygı duyabiliyor mu, bakım yükünü daha adil konuşabiliyor mu, çatışmada onarım ile geri çekilmeyi ayırabiliyor mu ve gerektiğinde doğrudan insana dönebiliyor mu? İyi ilişki desteği kendisini merkezden çıkarır."
+        ]
+      }
+    ],
+    "open_questions": [
+      {
+        "id": "r-1",
+        "question": "Saule hangi ilişkisel bilgileri yalnızca kullanıcının bakışı, hangilerini taraflarca doğrulanmış ortak kayıt olarak temsil etmelidir?",
+        "status": "open",
+        "decisionArea": "Bakış Açısı ve Ortak Bellek",
+        "answeredInChapters": [
+          "Bölüm 20 — Güven",
+          "Bölüm 25 — Uyumlanabilir Bellek"
+        ]
+      },
+      {
+        "id": "r-2",
+        "question": "Hakkında veri tutulan diğer kişinin rızası bulunmadığında ilişkisel bellek hangi sınırlar içinde çalışmalıdır?",
+        "status": "open",
+        "decisionArea": "İki Taraflı Mahremiyet",
+        "answeredInChapters": [
+          "Bölüm 23 — Etik",
+          "Bölüm 37 — Gizlilik"
+        ]
+      },
+      {
+        "id": "r-3",
+        "question": "Seçilmiş bakım niyetiyle bakım emeğini puanlayan kişisel CRM mantığı ürün düzeyinde nasıl ayrılmalıdır?",
+        "status": "open",
+        "decisionArea": "Bakım Desteği",
+        "answeredInChapters": [
+          "Bölüm 24 — İrade",
+          "Bölüm 30 — İlişki Zekâsı"
+        ]
+      },
+      {
+        "id": "r-4",
+        "question": "Saule çatışmada yansıtma, doğrudan konuşma, onarım, mesafe ve güvenlik seçenekleri arasında ne zaman geri çekilmelidir?",
+        "status": "open",
+        "decisionArea": "Çatışma ve Onarım",
+        "answeredInChapters": [
+          "Bölüm 27 — Yansıtma Motoru",
+          "Bölüm 30 — İlişki Zekâsı"
+        ]
+      },
+      {
+        "id": "r-5",
+        "question": "Güç farkı bulunan ilişkilerde genel iletişim önerilerinin riskini sistem nasıl görünür kılmalıdır?",
+        "status": "open",
+        "decisionArea": "Güç Duyarlı Destek",
+        "answeredInChapters": [
+          "Bölüm 23 — Etik",
+          "Bölüm 30 — İlişki Zekâsı"
+        ]
+      },
+      {
+        "id": "r-6",
+        "question": "Yalnızlık desteği yapay zekâya duygusal bağımlılık üretmeden insan bağlarına nasıl köprü kurmalıdır?",
+        "status": "open",
+        "decisionArea": "Sosyal Bağa Köprü",
+        "answeredInChapters": [
+          "Bölüm 20 — Güven",
+          "Bölüm 28 — Koçluk Motoru"
+        ]
+      },
+      {
+        "id": "r-7",
+        "question": "İş ortamında destek için paylaşılan ilişkisel veri performans ve yönetim gözetiminden teknik olarak nasıl ayrılmalıdır?",
+        "status": "open",
+        "decisionArea": "Saule Business Veri Sınırı",
+        "answeredInChapters": [
+          "Bölüm 34 — Saule'nin Kendi Zekâsı",
+          "Bölüm 37 — Gizlilik"
+        ]
+      },
+      {
+        "id": "r-8",
+        "question": "Yaratıcı ortaklıklarda fikir kökeni, katkı sahipliği ve ortak kararlar hangi itiraz edilebilir kayıt modeliyle korunmalıdır?",
+        "status": "open",
+        "decisionArea": "Saule Creative Katkı Zinciri",
+        "answeredInChapters": [
+          "Bölüm 21 — Öğrenme",
+          "Bölüm 35 — Yaratıcı Zekâ"
+        ]
+      },
+      {
+        "id": "r-9",
+        "question": "Şiddet veya zorlayıcı kontrol riski bulunduğunda cihaz güvenliği, kayıt izi ve yerel destek seçenekleri nasıl önceliklendirilmelidir?",
+        "status": "open",
+        "decisionArea": "Yüksek Riskli İlişki Güvenliği",
+        "answeredInChapters": [
+          "Bölüm 23 — Etik",
+          "Bölüm 37 — Gizlilik"
+        ]
+      },
+      {
+        "id": "r-10",
+        "question": "İlişki desteğinin başarısı mesaj sayısı yerine sınır saygısı, onarım kapasitesi ve doğrudan insan temasına dönüş üzerinden nasıl ölçülmelidir?",
+        "status": "open",
+        "decisionArea": "İnsani Başarı Ölçütü",
+        "answeredInChapters": [
+          "Bölüm 24 — İrade",
+          "Bölüm 38 — Başarı Ölçütleri"
+        ]
+      }
+    ],
+    "design_decisions": [
+      "Saule ilişkileri kişi listesi, iletişim sıklığı, CRM kaydı veya yakınlık puanı olarak modellememelidir.",
+      "Bağlanma örüntüleri ve güven sinyalleri klinik etiketlere veya kalıcı kişi profillerine dönüştürülmemelidir.",
+      "Sistem karşı tarafın duygu, niyet ve kişiliği hakkında tek taraflı veriden kesin çıkarım yapmamalıdır.",
+      "İlişkisel bellek her zaman kaynak, bakış açısı, belirsizlik ve geçerlilik süresi taşımalıdır.",
+      "Başka kişilere ait hassas bilgi, kullanıcının genel izniyle otomatik olarak kalıcılaştırılmamalıdır.",
+      "Bakım niyetlerini hatırlatma, bakım emeğini sayısal performans ve borç hesabına çevirmemelidir.",
+      "Sınır koyma, cevap vermeme, mesafe ve temasın sonlandırılması bakımın meşru biçimleri olarak korunmalıdır.",
+      "Çatışma desteği hazır mesaj üretmekten önce kullanıcının sorumluluğunu, somut onarımı ve güç farkını düşünmesine yardım etmelidir.",
+      "Saule ilişkiyi kurtarmayı varsayılan hedef saymamalı; onarım, mesafe ve güvenli ayrılma seçeneklerini açık tutmalıdır.",
+      "Yalnızlık desteği ürün kullanımını artırmaya değil, kullanıcı isterse güvenli insan bağlarına köprü kurmaya yönelmelidir.",
+      "Saule Business ilişkisel veriyi çalışan puanlama, uyum tahmini, terfi veya işten çıkarma amacıyla kullanmamalıdır.",
+      "Saule Creative katkı, sürüm ve karar zincirini görünür tutmalı; ortak üretimi tek kişilik sahiplik anlatısına indirgememelidir.",
+      "Şiddet ve zorlayıcı kontrol ihtimalinde simetrik iletişim önerileri durdurulmalı; cihaz güvenliği, mahremiyet ve uygun insan desteği önceliklendirilmelidir.",
+      "Başarı daha çok etkileşimle değil; daha açık sorumluluk, daha adil bakım, daha güçlü sınır saygısı ve sistemden doğrudan insan ilişkisine dönebilme kapasitesiyle ölçülmelidir."
+    ],
+    "future_evolution": "Bu bölüm ileride Saule Core'un ilişkisel bağlam mimarisine dönüşecektir: kullanıcı bakışı, ortak doğrulanmış kayıt, seçilmiş bakım niyeti, ifade edilmiş sınır, açık ilişki döngüsü, güç asimetrisi ve güvenlik hassasiyeti birbirinden ayrılacaktır. Her ilişkisel öğe kaynak, taraf, rıza kapsamı, saklama süresi, hassasiyet ve yeniden gösterme koşulu taşıyacaktır. Saule Life'ta kişisel bakım ve sınır desteği; Saule Business'ta psikolojik güvenlik ile gözetim arasındaki ayrım; Saule Creative'te katkı zinciri ve ortak üretim ayrı kurallarla işleyecektir. Sonraki sürümler özel iletişimden izinsiz çıkarımı teknik olarak engelleyen politikaları, şiddet ve zorlayıcı kontrolde güvenli cihaz kiplerini, ilişki puanlamasını yasaklayan model sınırlarını ve yapay zekâdan doğrudan insan konuşmasına geri dönüşü ölçen başarı göstergelerini ayrıntılandıracaktır.",
+    "references": [
+      "Feeney, B. C., & Collins, N. L. (2015). A new look at social support: A theoretical perspective on thriving through relationships. Personality and Social Psychology Review, 19(2), 113–147. https://doi.org/10.1177/1088868314544222",
+      "Rempel, J. K., Holmes, J. G., & Zanna, M. P. (1985). Trust in close relationships. Journal of Personality and Social Psychology, 49(1), 95–112. https://doi.org/10.1037/0022-3514.49.1.95",
+      "Clark, M. S., & Mills, J. (1979). Interpersonal attraction in exchange and communal relationships. Journal of Personality and Social Psychology, 37(1), 12–24. https://doi.org/10.1037/0022-3514.37.1.12",
+      "Tronto, J. C. (1993). Moral Boundaries: A Political Argument for an Ethic of Care. Routledge.",
+      "Petronio, S. (2010). Communication privacy management theory: What do we know about family privacy regulation? Journal of Family Theory & Review, 2(3), 175–196. https://doi.org/10.1111/j.1756-2589.2010.00052.x",
+      "Wegner, D. M., Erber, R., & Raymond, P. (1991). Transactive memory in close relationships. Journal of Personality and Social Psychology, 61(6), 923–929. https://doi.org/10.1037/0022-3514.61.6.923",
+      "Overall, N. C., & McNulty, J. K. (2017). What type of communication during conflict is beneficial for intimate relationships? Current Opinion in Psychology, 13, 1–5. https://doi.org/10.1016/j.copsyc.2016.03.002",
+      "Lewicki, R. J., Polin, B., & Lount, R. B., Jr. (2016). An exploration of the structure of effective apologies. Negotiation and Conflict Management Research, 9(2), 177–196. https://doi.org/10.1111/ncmr.12073",
+      "Cacioppo, J. T., & Hawkley, L. C. (2009). Perceived social isolation and cognition. Trends in Cognitive Sciences, 13(10), 447–454. https://doi.org/10.1016/j.tics.2009.06.005",
+      "Holt-Lunstad, J., Smith, T. B., & Layton, J. B. (2010). Social relationships and mortality risk: A meta-analytic review. PLOS Medicine, 7(7), e1000316. https://doi.org/10.1371/journal.pmed.1000316",
+      "Keltner, D., Gruenfeld, D. H., & Anderson, C. (2003). Power, approach, and inhibition. Psychological Review, 110(2), 265–284. https://doi.org/10.1037/0033-295X.110.2.265",
+      "Edmondson, A. (1999). Psychological safety and learning behavior in work teams. Administrative Science Quarterly, 44(2), 350–383. https://doi.org/10.2307/2666999",
+      "Hargadon, A. B., & Bechky, B. A. (2006). When collections of creatives become creative collectives: A field study of problem solving at work. Organization Science, 17(4), 484–500. https://doi.org/10.1287/orsc.1060.0200",
+      "Freed, D., Palmer, J., Minchala, D. E., Levy, K., Ristenpart, T., & Dell, N. (2017). Digital technologies and intimate partner violence: A qualitative analysis with multiple stakeholders. Proceedings of the ACM on Human-Computer Interaction, 1(CSCW), Article 46, 1–22. https://doi.org/10.1145/3134681",
+      "World Health Organization. (2013). Responding to Intimate Partner Violence and Sexual Violence Against Women: WHO Clinical and Policy Guidelines. World Health Organization."
+    ]
+  }
+}

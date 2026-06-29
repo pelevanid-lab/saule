@@ -146,6 +146,16 @@
       "title": "주의력 위기",
       "purpose": "현대 환경이 주의를 어떻게 파편화하는지, Saule이 주의를 빼앗지 않고 어떻게 보호해야 하는지 이해한다.",
       "key_question": "외부 시스템이 끊임없이 주의를 요구할 때, 사람은 어떻게 자기 주의력의 주도권을 되찾을 수 있을까요?"
+    },
+    "open-loops": {
+      "title": "미완결 루프",
+      "purpose": "완료되지 않은 의도가 왜 계속 마음에 남는지 이해하고, Saule이 삶을 할 일 목록으로 만들지 않으면서 의미 있는 마무리를 어떻게 지원할 수 있는지 살펴본다.",
+      "key_question": "Saule은 사람들이 아직 해결되지 않은 일을 인식하고, 다시 검토하고, 완료하고, 위임하고, 받아들이거나 의식적으로 놓아주도록 어떻게 도와야 하는가?"
+    },
+    "escape-loops-and-addictions": {
+      "title": "회피 루프와 중독",
+      "purpose": "사람이 압도감을 피하기 위해 왜 산만함, 충동, 무감각의 루프로 향하는지, 그리고 인간 중심 설계가 그 패턴에서 무엇을 읽어야 하는지 살핀다.",
+      "key_question": "사람은 왜 잠깐은 편안하게 하지만 시간이 갈수록 더 큰 혼란을 만드는 행동으로 반복해서 돌아가는가?"
     }
   },
   "community_page": {
@@ -300,7 +310,7 @@
     "card_life_title": "Saule Life",
     "card_life_desc": "Adaptive intelligence for life. Personal reflection, planning, journaling, coaching, and the Living Book-inspired life intelligence layer.",
     "card_business_title": "Saule Business",
-    "card_business_desc": "Adaptive intelligence for business. A learning CRM and customer intelligence system that turns tickets, feedback, customer conversations, and operations into memory, patterns, playbooks, scripts, and improvement actions.",
+    "card_business_desc": "Adaptive intelligence for business. A adaptive intelligence and corporate memory platform that turns tickets, feedback, customer conversations, and operations into memory, patterns, playbooks, scripts, and improvement actions.",
     "card_creative_title": "Saule Creative",
     "card_creative_desc": "Adaptive intelligence for creation. An AI creative intelligence workspace for campaigns, brand memory, creative briefs, content ideas, audience insights, advertising workflows, and creative performance learning.",
     "section_eco_title": "Core Ecosystem",
@@ -325,7 +335,7 @@
   "business_page": {
     "title": "Saule Business",
     "subtitle": "Adaptive intelligence for business.",
-    "positioning": "A learning CRM and customer intelligence system that helps companies turn customer interactions into memory, patterns, playbooks, scripts, tasks, and improvement actions.",
+    "positioning": "A adaptive intelligence and corporate memory platform that helps companies turn customer interactions into memory, patterns, playbooks, scripts, tasks, and improvement actions.",
     "features": [
       "고객 360",
       "기업 360",
@@ -337,7 +347,7 @@
       "스크립트",
       "작업",
       "SLA 학습",
-      "지속적 개선 CRM"
+      "지속적 개선 플랫폼"
     ],
     "cta": "Saule Business 로그인",
     "capabilities_title": "기능"

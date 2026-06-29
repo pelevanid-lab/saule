@@ -678,3 +678,1706 @@ Debug info:
  GET /tr/business/crm 200 in 74ms (next.js: 19ms, proxy.ts: 8ms, generate-params: 7ms, application-code: 47ms)
  GET /tr/business/crm/demo 200 in 76ms (next.js: 18ms, proxy.ts: 11ms, application-code: 47ms)
  GET /tr 200 in 92ms (next.js: 19ms, proxy.ts: 9ms, generate-params: 7ms, application-code: 64ms)
+✓ Compiled in 369ms
+ GET /tr 200 in 2.4s (next.js: 381ms, proxy.ts: 660ms, generate-params: 17ms, application-code: 1346ms)
+ GET /tr 200 in 1182ms (next.js: 24ms, proxy.ts: 19ms, generate-params: 107µs, application-code: 1139ms)
+ GET /tr 200 in 1154ms (next.js: 393ms, proxy.ts: 48ms, generate-params: 70µs, application-code: 713ms)
+ GET /tr 200 in 1161ms (next.js: 65ms, proxy.ts: 47ms, generate-params: 93µs, application-code: 1049ms)
+ GET /tr 200 in 1168ms (next.js: 236ms, proxy.ts: 46ms, generate-params: 64µs, application-code: 886ms)
+ GET /tr 200 in 1161ms (next.js: 627ms, proxy.ts: 48ms, generate-params: 75µs, application-code: 486ms)
+ GET /tr 200 in 328ms (next.js: 54ms, proxy.ts: 58ms, generate-params: 124µs, application-code: 216ms)
+ GET /tr 200 in 2.4s (next.js: 336ms, proxy.ts: 14ms, generate-params: 27ms, application-code: 2.1s)
+ GET /tr 200 in 1760ms (next.js: 253ms, proxy.ts: 317ms, generate-params: 64µs, application-code: 1190ms)
+ GET /tr 200 in 1078ms (next.js: 86ms, proxy.ts: 55ms, generate-params: 49µs, application-code: 938ms)
+ GET /tr 200 in 1058ms (next.js: 415ms, proxy.ts: 43ms, generate-params: 49µs, application-code: 600ms)
+ GET /tr 200 in 1072ms (next.js: 200ms, proxy.ts: 48ms, generate-params: 58µs, application-code: 825ms)
+ GET /tr 200 in 1061ms (next.js: 592ms, proxy.ts: 43ms, generate-params: 46µs, application-code: 426ms)
+ GET /tr 200 in 252ms (next.js: 45ms, proxy.ts: 30ms, generate-params: 47µs, application-code: 176ms)
+ GET /tr 200 in 1312ms (next.js: 236ms, proxy.ts: 11ms, generate-params: 8ms, application-code: 1065ms)
+ GET /tr 200 in 1040ms (next.js: 20ms, proxy.ts: 114ms, generate-params: 31µs, application-code: 906ms)
+ GET /tr 200 in 951ms (next.js: 164ms, proxy.ts: 34ms, generate-params: 33µs, application-code: 753ms)
+ GET /tr 200 in 949ms (next.js: 284ms, proxy.ts: 36ms, generate-params: 43µs, application-code: 629ms)
+ GET /tr 200 in 957ms (next.js: 47ms, proxy.ts: 33ms, generate-params: 32µs, application-code: 877ms)
+ GET /tr 200 in 949ms (next.js: 380ms, proxy.ts: 39ms, generate-params: 44µs, application-code: 530ms)
+ GET /tr 200 in 217ms (next.js: 29ms, proxy.ts: 26ms, generate-params: 47µs, application-code: 162ms)
+ GET /tr 200 in 719ms (next.js: 132ms, proxy.ts: 10ms, generate-params: 7ms, application-code: 577ms)
+ GET /tr 200 in 491ms (next.js: 15ms, proxy.ts: 8ms, generate-params: 29µs, application-code: 468ms)
+ GET /tr 200 in 396ms (next.js: 37ms, proxy.ts: 23ms, generate-params: 31µs, application-code: 336ms)
+ GET /tr 200 in 395ms (next.js: 100ms, proxy.ts: 25ms, generate-params: 32µs, application-code: 270ms)
+ GET /tr 200 in 394ms (next.js: 170ms, proxy.ts: 27ms, generate-params: 24µs, application-code: 198ms)
+ GET /tr 200 in 394ms (next.js: 247ms, proxy.ts: 28ms, generate-params: 62µs, application-code: 120ms)
+ GET /tr 200 in 1138ms (next.js: 160ms, proxy.ts: 12ms, generate-params: 8ms, application-code: 966ms)
+ GET /tr 200 in 868ms (next.js: 76ms, proxy.ts: 16ms, generate-params: 48µs, application-code: 775ms)
+ GET /tr 200 in 635ms (next.js: 159ms, proxy.ts: 38ms, generate-params: 29µs, application-code: 438ms)
+ GET /tr 200 in 625ms (next.js: 393ms, proxy.ts: 33ms, generate-params: 60µs, application-code: 199ms)
+ GET /tr 200 in 632ms (next.js: 270ms, proxy.ts: 35ms, generate-params: 35µs, application-code: 327ms)
+ GET /tr 200 in 651ms (next.js: 50ms, proxy.ts: 45ms, generate-params: 44µs, application-code: 557ms)
+ GET /tr 200 in 760ms (next.js: 126ms, proxy.ts: 17ms, generate-params: 8ms, application-code: 617ms)
+ GET /tr 200 in 551ms (next.js: 10ms, proxy.ts: 6ms, generate-params: 51µs, application-code: 535ms)
+ GET /tr 200 in 434ms (next.js: 188ms, proxy.ts: 31ms, generate-params: 27µs, application-code: 215ms)
+ GET /tr 200 in 441ms (next.js: 40ms, proxy.ts: 28ms, generate-params: 25µs, application-code: 372ms)
+ GET /tr 200 in 441ms (next.js: 110ms, proxy.ts: 28ms, generate-params: 33µs, application-code: 303ms)
+ GET /tr 200 in 442ms (next.js: 257ms, proxy.ts: 30ms, generate-params: 75µs, application-code: 154ms)
+ GET /tr 200 in 1571ms (next.js: 415ms, proxy.ts: 12ms, generate-params: 18ms, application-code: 1144ms)
+ GET /tr 200 in 931ms (next.js: 47ms, proxy.ts: 20ms, generate-params: 43µs, application-code: 864ms)
+ GET /tr 200 in 699ms (next.js: 453ms, proxy.ts: 56ms, generate-params: 69µs, application-code: 191ms)
+ GET /tr 200 in 711ms (next.js: 189ms, proxy.ts: 63ms, generate-params: 49µs, application-code: 459ms)
+ GET /tr 200 in 717ms (next.js: 58ms, proxy.ts: 64ms, generate-params: 55µs, application-code: 594ms)
+ GET /tr 200 in 700ms (next.js: 305ms, proxy.ts: 56ms, generate-params: 49µs, application-code: 339ms)
+✓ Compiled in 174ms
+ GET /tr 200 in 1017ms (next.js: 177ms, proxy.ts: 13ms, generate-params: 8ms, application-code: 828ms)
+ GET /tr 200 in 746ms (next.js: 30ms, proxy.ts: 110ms, generate-params: 27µs, application-code: 606ms)
+ GET /tr 200 in 758ms (next.js: 49ms, proxy.ts: 24ms, generate-params: 59µs, application-code: 685ms)
+ GET /tr 200 in 758ms (next.js: 141ms, proxy.ts: 25ms, generate-params: 27µs, application-code: 591ms)
+ GET /tr 200 in 756ms (next.js: 303ms, proxy.ts: 32ms, generate-params: 56µs, application-code: 421ms)
+ GET /tr 200 in 760ms (next.js: 209ms, proxy.ts: 30ms, generate-params: 29µs, application-code: 521ms)
+ GET /tr 200 in 316ms (next.js: 45ms, proxy.ts: 23ms, generate-params: 61µs, application-code: 248ms)
+ GET /tr 200 in 1511ms (next.js: 210ms, proxy.ts: 15ms, generate-params: 13ms, application-code: 1286ms)
+ GET /tr 200 in 1100ms (next.js: 26ms, proxy.ts: 13ms, generate-params: 45µs, application-code: 1061ms)
+ GET /tr 200 in 949ms (next.js: 55ms, proxy.ts: 53ms, generate-params: 44µs, application-code: 842ms)
+ GET /tr 200 in 941ms (next.js: 207ms, proxy.ts: 46ms, generate-params: 57µs, application-code: 688ms)
+ GET /tr 200 in 942ms (next.js: 398ms, proxy.ts: 44ms, generate-params: 53µs, application-code: 500ms)
+ GET /tr 200 in 940ms (next.js: 578ms, proxy.ts: 39ms, generate-params: 48µs, application-code: 322ms)
+✓ Compiled in 229ms
+ GET /tr 200 in 1669ms (next.js: 405ms, proxy.ts: 11ms, generate-params: 22ms, application-code: 1253ms)
+ GET /tr 200 in 1177ms (next.js: 30ms, proxy.ts: 214ms, generate-params: 39µs, application-code: 934ms)
+ GET /tr 200 in 1052ms (next.js: 47ms, proxy.ts: 29ms, generate-params: 28µs, application-code: 975ms)
+ GET /tr 200 in 1052ms (next.js: 148ms, proxy.ts: 30ms, generate-params: 125µs, application-code: 874ms)
+ GET /tr 200 in 1051ms (next.js: 264ms, proxy.ts: 31ms, generate-params: 107µs, application-code: 756ms)
+ GET /tr 200 in 1051ms (next.js: 381ms, proxy.ts: 32ms, generate-params: 48µs, application-code: 638ms)
+ GET /tr 200 in 606ms (next.js: 228ms, proxy.ts: 38ms, generate-params: 81µs, application-code: 341ms)
+ GET /tr 200 in 2.3s (next.js: 256ms, proxy.ts: 15ms, generate-params: 13ms, application-code: 1997ms)
+ GET /tr 200 in 1567ms (next.js: 178ms, proxy.ts: 141ms, generate-params: 66µs, application-code: 1248ms)
+ GET /tr 200 in 1169ms (next.js: 424ms, proxy.ts: 96ms, generate-params: 49µs, application-code: 649ms)
+ GET /tr 200 in 1179ms (next.js: 280ms, proxy.ts: 94ms, generate-params: 131µs, application-code: 804ms)
+ GET /tr 200 in 1176ms (next.js: 553ms, proxy.ts: 105ms, generate-params: 102µs, application-code: 519ms)
+ GET /tr 200 in 1290ms (next.js: 696ms, proxy.ts: 88ms, generate-params: 42µs, application-code: 506ms)
+ GET /tr 200 in 607ms (next.js: 47ms, proxy.ts: 22ms, generate-params: 32µs, application-code: 538ms)
+ GET /tr 200 in 581ms (next.js: 74ms, proxy.ts: 125ms, generate-params: 11ms, application-code: 382ms)
+ GET /tr 200 in 289ms (next.js: 54ms, proxy.ts: 30ms, generate-params: 52µs, application-code: 205ms)
+ GET /tr/business 200 in 408ms (next.js: 235ms, proxy.ts: 10ms, generate-params: 8ms, application-code: 163ms)
+ GET /tr/business/crm 200 in 318ms (next.js: 176ms, proxy.ts: 8ms, generate-params: 8ms, application-code: 134ms)
+ GET /tr/business/crm 200 in 70ms (next.js: 15ms, proxy.ts: 5ms, generate-params: 6ms, application-code: 49ms)
+ GET /tr 200 in 71ms (next.js: 17ms, proxy.ts: 5ms, generate-params: 8ms, application-code: 49ms)
+ GET /tr/book 200 in 1319ms (next.js: 1197ms, proxy.ts: 9ms, generate-params: 1074ms, application-code: 113ms)
+ GET /tr/business 200 in 116ms (next.js: 28ms, proxy.ts: 11ms, generate-params: 12ms, application-code: 76ms)
+ GET /tr/business/crm 200 in 158ms (next.js: 53ms, proxy.ts: 12ms, generate-params: 12ms, application-code: 93ms)
+ GET /tr 200 in 79ms (next.js: 16ms, proxy.ts: 5ms, generate-params: 7ms, application-code: 58ms)
+ GET /tr/book 200 in 150ms (next.js: 27ms, proxy.ts: 8ms, generate-params: 9ms, application-code: 114ms)
+✓ Compiled in 285ms
+ GET /tr/book 200 in 1289ms (next.js: 247ms, proxy.ts: 16ms, generate-params: 9ms, application-code: 1027ms)
+ GET /tr/book 200 in 1083ms (next.js: 14ms, proxy.ts: 105ms, generate-params: 33µs, application-code: 964ms)
+ GET /tr/book 200 in 891ms (next.js: 487ms, proxy.ts: 43ms, generate-params: 35µs, application-code: 361ms)
+ GET /tr/book 200 in 901ms (next.js: 288ms, proxy.ts: 42ms, generate-params: 40µs, application-code: 570ms)
+ GET /tr/book 200 in 899ms (next.js: 390ms, proxy.ts: 43ms, generate-params: 50µs, application-code: 466ms)
+ GET /tr/book 200 in 907ms (next.js: 61ms, proxy.ts: 39ms, generate-params: 31µs, application-code: 807ms)
+ GET /tr/book 200 in 446ms (next.js: 31ms, proxy.ts: 16ms, generate-params: 46µs, application-code: 399ms)
+ GET /tr/book 200 in 283ms (next.js: 41ms, proxy.ts: 14ms, generate-params: 54µs, application-code: 228ms)
+ GET /tr 200 in 1009ms (next.js: 621ms, proxy.ts: 30ms, generate-params: 37ms, application-code: 358ms)
+
+-----
+[1m[31mFATAL[39m[0m: An unexpected Turbopack error occurred. A panic log has been written to C:\Users\enesp\AppData\Local\Temp\next-panic-47f3dd03c94a43733218cc1458b41428.log.
+
+To help make Turbopack better, report this error by clicking here: https://bugs.nextjs.org/search?category=turbopack-error-report&title=Turbopack%20Error%3A%20Input%20image%20not%20found&body=Turbopack%20version%3A%20%60f37fad94%60%0ANext.js%20version%3A%20%600.0.0%60%0A%0AError%20message%3A%0A%60%60%60%0AInput%20image%20not%20found%0A%0ADebug%20info%3A%0A-%20Execution%20of%20hmr_update_with_issues_operation%20failed%0A-%20Execution%20of%20PlainIssue%3A%3Afrom_issue%20failed%0A-%20Execution%20of%20PlainSource%3A%3Afrom_source%20failed%0A-%20Execution%20of%20%3CStructuredImageFileSource%20as%20Asset%3E%3A%3Acontent%20failed%0A-%20Execution%20of%20get_meta_data%20failed%0A-%20Input%20image%20not%20found%0A%60%60%60&labels=Turbopack,Turbopack%20Panic%20Backtrace
+-----
+
+⨯ ./src/app/[locale]/business/crm/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m [33mBusinessCrmSite[0m [36mfrom[0m [32m'@/components/business-site/BusinessCrmSite'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m [36mtype[0m { [33mMetadata[0m } [36mfrom[0m [32m'next'[0m;
+  [90m3 |[0m
+  [90m4 |[0m [36mexport[0m [36masync[0m [36mfunction[0m generateMetadata({
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/[locale]/business/crm/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m [33mBusinessCrmSite[0m [36mfrom[0m [32m'@/components/business-site/BusinessCrmSite'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m [36mtype[0m { [33mMetadata[0m } [36mfrom[0m [32m'next'[0m;
+  [90m3 |[0m
+  [90m4 |[0m [36mexport[0m [36masync[0m [36mfunction[0m generateMetadata({
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/[locale]/business/crm/[...slug]/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m [33mBusinessCrmSite[0m [36mfrom[0m [32m'@/components/business-site/BusinessCrmSite'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m [36mtype[0m { [33mMetadata[0m } [36mfrom[0m [32m'next'[0m;
+  [90m3 |[0m
+  [90m4 |[0m [36mtype[0m [33mSitePage[0m =
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/[locale]/business/crm/[...slug]/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m [33mBusinessCrmSite[0m [36mfrom[0m [32m'@/components/business-site/BusinessCrmSite'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m [36mtype[0m { [33mMetadata[0m } [36mfrom[0m [32m'next'[0m;
+  [90m3 |[0m
+  [90m4 |[0m [36mtype[0m [33mSitePage[0m =
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[Server HMR] Subscription error: Error [TurbopackInternalError]: Input image not found
+
+Debug info:
+- Execution of hmr_update_with_issues_operation failed
+- Execution of PlainIssue::from_issue failed
+- Execution of PlainSource::from_source failed
+- Execution of <StructuredImageFileSource as Asset>::content failed
+- Execution of get_meta_data failed
+- Input image not found
+    at <unknown> (TurbopackInternalError: Input image not found) {
+  location: undefined
+}
+[Server HMR] Subscription error: Error [TurbopackInternalError]: Input image not found
+
+Debug info:
+- Execution of hmr_update_with_issues_operation failed
+- Execution of PlainIssue::from_issue failed
+- Execution of PlainSource::from_source failed
+- Execution of <StructuredImageFileSource as Asset>::content failed
+- Execution of get_meta_data failed
+- Input image not found
+    at <unknown> (TurbopackInternalError: Input image not found) {
+  location: undefined
+}
+[Server HMR] Subscription error: Error [TurbopackInternalError]: Input image not found
+
+Debug info:
+- Execution of hmr_update_with_issues_operation failed
+- Execution of PlainIssue::from_issue failed
+- Execution of PlainSource::from_source failed
+- Execution of <StructuredImageFileSource as Asset>::content failed
+- Execution of get_meta_data failed
+- Input image not found
+    at <unknown> (TurbopackInternalError: Input image not found) {
+  location: undefined
+}
+[Server HMR] Subscription error: Error [TurbopackInternalError]: Input image not found
+
+Debug info:
+- Execution of hmr_update_with_issues_operation failed
+- Execution of PlainIssue::from_issue failed
+- Execution of PlainSource::from_source failed
+- Execution of <StructuredImageFileSource as Asset>::content failed
+- Execution of get_meta_data failed
+- Input image not found
+    at <unknown> (TurbopackInternalError: Input image not found) {
+  location: undefined
+}
+[Server HMR] Subscription error: Error [TurbopackInternalError]: Input image not found
+
+Debug info:
+- Execution of hmr_update_with_issues_operation failed
+- Execution of PlainIssue::from_issue failed
+- Execution of PlainSource::from_source failed
+- Execution of <StructuredImageFileSource as Asset>::content failed
+- Execution of get_meta_data failed
+- Input image not found
+    at <unknown> (TurbopackInternalError: Input image not found) {
+  location: undefined
+}
+[Server HMR] Subscription error: Error [TurbopackInternalError]: Input image not found
+
+Debug info:
+- Execution of hmr_update_with_issues_operation failed
+- Execution of PlainIssue::from_issue failed
+- Execution of PlainSource::from_source failed
+- Execution of <StructuredImageFileSource as Asset>::content failed
+- Execution of get_meta_data failed
+- Input image not found
+    at <unknown> (TurbopackInternalError: Input image not found) {
+  location: undefined
+}
+[Server HMR] Subscription error: Error [TurbopackInternalError]: Input image not found
+
+Debug info:
+- Execution of hmr_update_with_issues_operation failed
+- Execution of PlainIssue::from_issue failed
+- Execution of PlainSource::from_source failed
+- Execution of <StructuredImageFileSource as Asset>::content failed
+- Execution of get_meta_data failed
+- Input image not found
+    at <unknown> (TurbopackInternalError: Input image not found) {
+  location: undefined
+}
+[Server HMR] Subscription error: Error [TurbopackInternalError]: Input image not found
+
+Debug info:
+- Execution of hmr_update_with_issues_operation failed
+- Execution of PlainIssue::from_issue failed
+- Execution of PlainSource::from_source failed
+- Execution of <StructuredImageFileSource as Asset>::content failed
+- Execution of get_meta_data failed
+- Input image not found
+    at <unknown> (TurbopackInternalError: Input image not found) {
+  location: undefined
+}
+[Server HMR] Subscription error: Error [TurbopackInternalError]: Input image not found
+
+Debug info:
+- Execution of hmr_update_with_issues_operation failed
+- Execution of PlainIssue::from_issue failed
+- Execution of PlainSource::from_source failed
+- Execution of <StructuredImageFileSource as Asset>::content failed
+- Execution of get_meta_data failed
+- Input image not found
+    at <unknown> (TurbopackInternalError: Input image not found) {
+  location: undefined
+}
+[Server HMR] Subscription error: Error [TurbopackInternalError]: Input image not found
+
+Debug info:
+- Execution of hmr_update_with_issues_operation failed
+- Execution of PlainIssue::from_issue failed
+- Execution of PlainSource::from_source failed
+- Execution of <StructuredImageFileSource as Asset>::content failed
+- Execution of get_meta_data failed
+- Input image not found
+    at <unknown> (TurbopackInternalError: Input image not found) {
+  location: undefined
+}
+[Server HMR] Subscription error: Error [TurbopackInternalError]: Input image not found
+
+Debug info:
+- Execution of hmr_update_with_issues_operation failed
+- Execution of PlainIssue::from_issue failed
+- Execution of PlainSource::from_source failed
+- Execution of <StructuredImageFileSource as Asset>::content failed
+- Execution of get_meta_data failed
+- Input image not found
+    at <unknown> (TurbopackInternalError: Input image not found) {
+  location: undefined
+}
+✓ Compiled in 811ms
+ GET /tr 500 in 740ms (next.js: 345ms, proxy.ts: 109ms, application-code: 286ms)
+ GET /tr 500 in 52ms (next.js: 23ms, proxy.ts: 6ms, application-code: 23ms)
+ GET /tr 500 in 67ms (next.js: 33ms, proxy.ts: 10ms, application-code: 23ms)
+ GET /tr 500 in 101ms (next.js: 57ms, proxy.ts: 8ms, application-code: 36ms)
+[browser] Uncaught Error: ./src/app/[locale]/business/crm/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | export async function generateMetadata({
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./src/app/[locale]/business/crm/page.tsx:1:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (Error: (./src/app/[locale]/business/crm/page.tsx:1:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+ GET /favicon.ico 500 in 11ms
+[browser] ./src/app/[locale]/business/crm/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | export async function generateMetadata({
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/[...slug]/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | type SitePage =
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | export async function generateMetadata({
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/[...slug]/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | type SitePage =
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | export async function generateMetadata({
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/[...slug]/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | type SitePage =
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | export async function generateMetadata({
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/[...slug]/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | type SitePage =
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | export async function generateMetadata({
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/[...slug]/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | type SitePage =
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | export async function generateMetadata({
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/[...slug]/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | type SitePage =
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | export async function generateMetadata({
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/[...slug]/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | type SitePage =
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | export async function generateMetadata({
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/[...slug]/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | type SitePage =
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | export async function generateMetadata({
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/[...slug]/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | type SitePage =
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | export async function generateMetadata({
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/[...slug]/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | type SitePage =
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+ GET /tr 500 in 60ms (next.js: 21ms, proxy.ts: 17ms, application-code: 22ms)
+[browser] Uncaught Error: ./src/app/[locale]/business/crm/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | export async function generateMetadata({
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./src/app/[locale]/business/crm/page.tsx:1:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (Error: (./src/app/[locale]/business/crm/page.tsx:1:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+[browser] ./src/app/[locale]/business/crm/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | export async function generateMetadata({
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/[...slug]/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | type SitePage =
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | export async function generateMetadata({
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/[...slug]/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | type SitePage =
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+ GET /favicon.ico 500 in 15ms
+[browser] ./src/app/[locale]/business/crm/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | export async function generateMetadata({
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/[...slug]/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | type SitePage =
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | export async function generateMetadata({
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/[...slug]/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | type SitePage =
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | export async function generateMetadata({
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/[...slug]/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | type SitePage =
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | export async function generateMetadata({
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/[...slug]/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | type SitePage =
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | export async function generateMetadata({
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/[...slug]/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | type SitePage =
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | export async function generateMetadata({
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/[...slug]/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | type SitePage =
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | export async function generateMetadata({
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/[...slug]/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | type SitePage =
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | export async function generateMetadata({
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/[...slug]/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | type SitePage =
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | export async function generateMetadata({
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/[...slug]/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | type SitePage =
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | export async function generateMetadata({
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/[...slug]/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | type SitePage =
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | export async function generateMetadata({
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/[...slug]/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | type SitePage =
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | export async function generateMetadata({
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/[...slug]/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | type SitePage =
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | export async function generateMetadata({
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/[...slug]/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | type SitePage =
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | export async function generateMetadata({
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/[...slug]/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | type SitePage =
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | export async function generateMetadata({
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/[...slug]/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | type SitePage =
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | export async function generateMetadata({
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/[...slug]/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | type SitePage =
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | export async function generateMetadata({
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+[browser] ./src/app/[locale]/business/crm/[...slug]/page.tsx:1:1
+Module not found: Can't resolve '@/components/business-site/BusinessCrmSite'
+> 1 | import BusinessCrmSite from '@/components/business-site/BusinessCrmSite';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import type { Metadata } from 'next';
+  3 |
+  4 | type SitePage =
+
+Import map: aliased to relative './src/components/business-site/BusinessCrmSite' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+    at handleErrors (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+    at processMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2835:28)
+    at <unknown> (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2680:13)
+    at WebSocket.handleMessage (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2325:17) (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_client_16lnmlo._.js:2774:21)
+ GET /tr 200 in 1215ms (next.js: 221ms, proxy.ts: 176ms, generate-params: 11ms, application-code: 819ms)
+✓ Compiled in 161ms
+ GET /tr 200 in 2.4s (next.js: 422ms, proxy.ts: 16ms, generate-params: 15ms, application-code: 1980ms)
+ GET /tr 200 in 1619ms (next.js: 85ms, proxy.ts: 356ms, generate-params: 43µs, application-code: 1178ms)
+ GET /tr 200 in 1006ms (next.js: 129ms, proxy.ts: 61ms, generate-params: 51µs, application-code: 816ms)
+ GET /tr 200 in 1003ms (next.js: 311ms, proxy.ts: 64ms, generate-params: 73µs, application-code: 627ms)
+ GET /tr 200 in 997ms (next.js: 656ms, proxy.ts: 93ms, generate-params: 47µs, application-code: 248ms)
+ GET /tr 200 in 1003ms (next.js: 489ms, proxy.ts: 87ms, generate-params: 475µs, application-code: 427ms)
+ GET /tr/book 200 in 345ms (next.js: 165ms, proxy.ts: 9ms, generate-params: 9ms, application-code: 171ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477:13)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 1744ms (next.js: 1556ms, proxy.ts: 8ms, generate-params: 1470ms, application-code: 179ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 680ms (next.js: 18ms, proxy.ts: 9ms, generate-params: 7ms, application-code: 653ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 1703ms (next.js: 332ms, proxy.ts: 14ms, generate-params: 12ms, application-code: 1358ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 1436ms (next.js: 24ms, proxy.ts: 138ms, generate-params: 82µs, application-code: 1273ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 1156ms (next.js: 72ms, proxy.ts: 42ms, generate-params: 55µs, application-code: 1042ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 1166ms (next.js: 227ms, proxy.ts: 40ms, generate-params: 110µs, application-code: 899ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 1165ms (next.js: 396ms, proxy.ts: 38ms, generate-params: 79µs, application-code: 731ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 1163ms (next.js: 592ms, proxy.ts: 42ms, generate-params: 58µs, application-code: 529ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 379ms (next.js: 164ms, proxy.ts: 36ms, generate-params: 44µs, application-code: 180ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 1653ms (next.js: 66ms, proxy.ts: 17ms, generate-params: 21ms, application-code: 1570ms)
+✓ Compiled in 299ms
+ GET /tr/chapter/escape-loops-and-addictions 200 in 1039ms (next.js: 333ms, proxy.ts: 23ms, generate-params: 11ms, application-code: 683ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 478ms (next.js: 74ms, proxy.ts: 212ms, generate-params: 55µs, application-code: 192ms)
+✓ Compiled in 365ms
+ GET /tr/business 200 in 581ms (next.js: 290ms, proxy.ts: 7ms, generate-params: 11ms, application-code: 284ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477:13)
+
+-----
+[1m[31mFATAL[39m[0m: An unexpected Turbopack error occurred. A panic log has been written to C:\Users\enesp\AppData\Local\Temp\next-panic-47f3dd03c94a43733218cc1458b41428.log.
+
+To help make Turbopack better, report this error by clicking here: https://bugs.nextjs.org/search?category=turbopack-error-report&title=Turbopack%20Error%3A%20Input%20image%20not%20found&body=Turbopack%20version%3A%20%60f37fad94%60%0ANext.js%20version%3A%20%600.0.0%60%0A%0AError%20message%3A%0A%60%60%60%0AInput%20image%20not%20found%0A%0ADebug%20info%3A%0A-%20Execution%20of%20hmr_update_with_issues_operation%20failed%0A-%20Execution%20of%20PlainIssue%3A%3Afrom_issue%20failed%0A-%20Execution%20of%20PlainSource%3A%3Afrom_source%20failed%0A-%20Execution%20of%20%3CStructuredImageFileSource%20as%20Asset%3E%3A%3Acontent%20failed%0A-%20Execution%20of%20get_meta_data%20failed%0A-%20Input%20image%20not%20found%0A%60%60%60&labels=Turbopack,Turbopack%20Panic%20Backtrace
+-----
+
+○ Compiling /[locale]/business/platform ...
+[Server HMR] Subscription error: Error [TurbopackInternalError]: Input image not found
+
+Debug info:
+- Execution of hmr_update_with_issues_operation failed
+- Execution of PlainIssue::from_issue failed
+- Execution of PlainSource::from_source failed
+- Execution of <StructuredImageFileSource as Asset>::content failed
+- Execution of get_meta_data failed
+- Input image not found
+    at <unknown> (TurbopackInternalError: Input image not found) {
+  location: undefined
+}
+[Server HMR] Subscription error: Error [TurbopackInternalError]: Input image not found
+
+Debug info:
+- Execution of hmr_update_with_issues_operation failed
+- Execution of PlainIssue::from_issue failed
+- Execution of PlainSource::from_source failed
+- Execution of <StructuredImageFileSource as Asset>::content failed
+- Execution of get_meta_data failed
+- Input image not found
+    at <unknown> (TurbopackInternalError: Input image not found) {
+  location: undefined
+}
+[Server HMR] Subscription error: Error [TurbopackInternalError]: Input image not found
+
+Debug info:
+- Execution of hmr_update_with_issues_operation failed
+- Execution of PlainIssue::from_issue failed
+- Execution of PlainSource::from_source failed
+- Execution of <StructuredImageFileSource as Asset>::content failed
+- Execution of get_meta_data failed
+- Input image not found
+    at <unknown> (TurbopackInternalError: Input image not found) {
+  location: undefined
+}
+[Server HMR] Subscription error: Error [TurbopackInternalError]: Input image not found
+
+Debug info:
+- Execution of hmr_update_with_issues_operation failed
+- Execution of PlainIssue::from_issue failed
+- Execution of PlainSource::from_source failed
+- Execution of <StructuredImageFileSource as Asset>::content failed
+- Execution of get_meta_data failed
+- Input image not found
+    at <unknown> (TurbopackInternalError: Input image not found) {
+  location: undefined
+}
+[Server HMR] Subscription error: Error [TurbopackInternalError]: Input image not found
+
+Debug info:
+- Execution of hmr_update_with_issues_operation failed
+- Execution of PlainIssue::from_issue failed
+- Execution of PlainSource::from_source failed
+- Execution of <StructuredImageFileSource as Asset>::content failed
+- Execution of get_meta_data failed
+- Input image not found
+    at <unknown> (TurbopackInternalError: Input image not found) {
+  location: undefined
+}
+[Server HMR] Subscription error: Error [TurbopackInternalError]: Input image not found
+
+Debug info:
+- Execution of hmr_update_with_issues_operation failed
+- Execution of PlainIssue::from_issue failed
+- Execution of PlainSource::from_source failed
+- Execution of <StructuredImageFileSource as Asset>::content failed
+- Execution of get_meta_data failed
+- Input image not found
+    at <unknown> (TurbopackInternalError: Input image not found) {
+  location: undefined
+}
+[Server HMR] Subscription error: Error [TurbopackInternalError]: Input image not found
+
+Debug info:
+- Execution of hmr_update_with_issues_operation failed
+- Execution of PlainIssue::from_issue failed
+- Execution of PlainSource::from_source failed
+- Execution of <StructuredImageFileSource as Asset>::content failed
+- Execution of get_meta_data failed
+- Input image not found
+    at <unknown> (TurbopackInternalError: Input image not found) {
+  location: undefined
+}
+[Server HMR] Subscription error: Error [TurbopackInternalError]: Input image not found
+
+Debug info:
+- Execution of hmr_update_with_issues_operation failed
+- Execution of PlainIssue::from_issue failed
+- Execution of PlainSource::from_source failed
+- Execution of <StructuredImageFileSource as Asset>::content failed
+- Execution of get_meta_data failed
+- Input image not found
+    at <unknown> (TurbopackInternalError: Input image not found) {
+  location: undefined
+}
+[Server HMR] Subscription error: Error [TurbopackInternalError]: Input image not found
+
+Debug info:
+- Execution of hmr_update_with_issues_operation failed
+- Execution of PlainIssue::from_issue failed
+- Execution of PlainSource::from_source failed
+- Execution of <StructuredImageFileSource as Asset>::content failed
+- Execution of get_meta_data failed
+- Input image not found
+    at <unknown> (TurbopackInternalError: Input image not found) {
+  location: undefined
+}
+[Server HMR] Subscription error: Error [TurbopackInternalError]: Input image not found
+
+Debug info:
+- Execution of hmr_update_with_issues_operation failed
+- Execution of PlainIssue::from_issue failed
+- Execution of PlainSource::from_source failed
+- Execution of <StructuredImageFileSource as Asset>::content failed
+- Execution of get_meta_data failed
+- Input image not found
+    at <unknown> (TurbopackInternalError: Input image not found) {
+  location: undefined
+}
+[Server HMR] Subscription error: Error [TurbopackInternalError]: Input image not found
+
+Debug info:
+- Execution of hmr_update_with_issues_operation failed
+- Execution of PlainIssue::from_issue failed
+- Execution of PlainSource::from_source failed
+- Execution of <StructuredImageFileSource as Asset>::content failed
+- Execution of get_meta_data failed
+- Input image not found
+    at <unknown> (TurbopackInternalError: Input image not found) {
+  location: undefined
+}
+ GET /tr/business/platform 200 in 8.6s (next.js: 7.9s, proxy.ts: 15ms, generate-params: 3.0s, application-code: 717ms)
+ GET /tr/business/platform 200 in 1775ms (next.js: 60ms, proxy.ts: 977ms, generate-params: 21ms, application-code: 738ms)
+ GET /tr/business/platform 200 in 2.4s (next.js: 117ms, proxy.ts: 39ms, generate-params: 59µs, application-code: 2.2s)
+ GET /tr/business/platform 200 in 2.1s (next.js: 96ms, proxy.ts: 62ms, generate-params: 75µs, application-code: 1957ms)
+ GET /tr/business/platform 200 in 2.3s (next.js: 954ms, proxy.ts: 69ms, generate-params: 168µs, application-code: 1301ms)
+ GET /tr/business/platform 200 in 2.3s (next.js: 392ms, proxy.ts: 58ms, generate-params: 86µs, application-code: 1893ms)
+ GET /tr/business/platform 200 in 2.4s (next.js: 610ms, proxy.ts: 67ms, generate-params: 62µs, application-code: 1717ms)
+ GET /tr/business/platform 200 in 1386ms (next.js: 197ms, proxy.ts: 133ms, generate-params: 59µs, application-code: 1056ms)
+ GET /tr/business/platform 200 in 1178ms (next.js: 71ms, proxy.ts: 79ms, generate-params: 59µs, application-code: 1027ms)
+ GET /tr/business/platform 200 in 911ms (next.js: 120ms, proxy.ts: 106ms, generate-params: 38µs, application-code: 685ms)
+ GET /tr/business/platform 200 in 834ms (next.js: 281ms, proxy.ts: 70ms, generate-params: 53µs, application-code: 483ms)
+ GET /tr/business/platform 200 in 853ms (next.js: 498ms, proxy.ts: 61ms, generate-params: 66µs, application-code: 294ms)
+[browser] Image with src "/saule-avatar-v1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477:13)
+
+-----
+[1m[31mFATAL[39m[0m: An unexpected Turbopack error occurred. A panic log has been written to C:\Users\enesp\AppData\Local\Temp\next-panic-47f3dd03c94a43733218cc1458b41428.log.
+
+To help make Turbopack better, report this error by clicking here: https://bugs.nextjs.org/search?category=turbopack-error-report&title=Turbopack%20Error%3A%20Input%20image%20not%20found&body=Turbopack%20version%3A%20%60f37fad94%60%0ANext.js%20version%3A%20%600.0.0%60%0A%0AError%20message%3A%0A%60%60%60%0AInput%20image%20not%20found%0A%0ADebug%20info%3A%0A-%20Execution%20of%20hmr_update_with_issues_operation%20failed%0A-%20Execution%20of%20PlainIssue%3A%3Afrom_issue%20failed%0A-%20Execution%20of%20PlainSource%3A%3Afrom_source%20failed%0A-%20Execution%20of%20%3CStructuredImageFileSource%20as%20Asset%3E%3A%3Acontent%20failed%0A-%20Execution%20of%20get_meta_data%20failed%0A-%20Input%20image%20not%20found%0A%60%60%60&labels=Turbopack,Turbopack%20Panic%20Backtrace
+-----
+
+[Server HMR] Subscription error: Error [TurbopackInternalError]: Input image not found
+
+Debug info:
+- Execution of hmr_update_with_issues_operation failed
+- Execution of PlainIssue::from_issue failed
+- Execution of PlainSource::from_source failed
+- Execution of <StructuredImageFileSource as Asset>::content failed
+- Execution of get_meta_data failed
+- Input image not found
+    at <unknown> (TurbopackInternalError: Input image not found) {
+  location: undefined
+}
+[Server HMR] Subscription error: Error [TurbopackInternalError]: Input image not found
+
+Debug info:
+- Execution of hmr_update_with_issues_operation failed
+- Execution of PlainIssue::from_issue failed
+- Execution of PlainSource::from_source failed
+- Execution of <StructuredImageFileSource as Asset>::content failed
+- Execution of get_meta_data failed
+- Input image not found
+    at <unknown> (TurbopackInternalError: Input image not found) {
+  location: undefined
+}
+[Server HMR] Subscription error: Error [TurbopackInternalError]: Input image not found
+
+Debug info:
+- Execution of hmr_update_with_issues_operation failed
+- Execution of PlainIssue::from_issue failed
+- Execution of PlainSource::from_source failed
+- Execution of <StructuredImageFileSource as Asset>::content failed
+- Execution of get_meta_data failed
+- Input image not found
+    at <unknown> (TurbopackInternalError: Input image not found) {
+  location: undefined
+}
+[Server HMR] Subscription error: Error [TurbopackInternalError]: Input image not found
+
+Debug info:
+- Execution of hmr_update_with_issues_operation failed
+- Execution of PlainIssue::from_issue failed
+- Execution of PlainSource::from_source failed
+- Execution of <StructuredImageFileSource as Asset>::content failed
+- Execution of get_meta_data failed
+- Input image not found
+    at <unknown> (TurbopackInternalError: Input image not found) {
+  location: undefined
+}
+[Server HMR] Subscription error: Error [TurbopackInternalError]: Input image not found
+
+Debug info:
+- Execution of hmr_update_with_issues_operation failed
+- Execution of PlainIssue::from_issue failed
+- Execution of PlainSource::from_source failed
+- Execution of <StructuredImageFileSource as Asset>::content failed
+- Execution of get_meta_data failed
+- Input image not found
+    at <unknown> (TurbopackInternalError: Input image not found) {
+  location: undefined
+}
+[Server HMR] Subscription error: Error [TurbopackInternalError]: Input image not found
+
+Debug info:
+- Execution of hmr_update_with_issues_operation failed
+- Execution of PlainIssue::from_issue failed
+- Execution of PlainSource::from_source failed
+- Execution of <StructuredImageFileSource as Asset>::content failed
+- Execution of get_meta_data failed
+- Input image not found
+    at <unknown> (TurbopackInternalError: Input image not found) {
+  location: undefined
+}
+[Server HMR] Subscription error: Error [TurbopackInternalError]: Input image not found
+
+Debug info:
+- Execution of hmr_update_with_issues_operation failed
+- Execution of PlainIssue::from_issue failed
+- Execution of PlainSource::from_source failed
+- Execution of <StructuredImageFileSource as Asset>::content failed
+- Execution of get_meta_data failed
+- Input image not found
+    at <unknown> (TurbopackInternalError: Input image not found) {
+  location: undefined
+}
+[Server HMR] Subscription error: Error [TurbopackInternalError]: Input image not found
+
+Debug info:
+- Execution of hmr_update_with_issues_operation failed
+- Execution of PlainIssue::from_issue failed
+- Execution of PlainSource::from_source failed
+- Execution of <StructuredImageFileSource as Asset>::content failed
+- Execution of get_meta_data failed
+- Input image not found
+    at <unknown> (TurbopackInternalError: Input image not found) {
+  location: undefined
+}
+[Server HMR] Subscription error: Error [TurbopackInternalError]: Input image not found
+
+Debug info:
+- Execution of hmr_update_with_issues_operation failed
+- Execution of PlainIssue::from_issue failed
+- Execution of PlainSource::from_source failed
+- Execution of <StructuredImageFileSource as Asset>::content failed
+- Execution of get_meta_data failed
+- Input image not found
+    at <unknown> (TurbopackInternalError: Input image not found) {
+  location: undefined
+}
+[Server HMR] Subscription error: Error [TurbopackInternalError]: Input image not found
+
+Debug info:
+- Execution of hmr_update_with_issues_operation failed
+- Execution of PlainIssue::from_issue failed
+- Execution of PlainSource::from_source failed
+- Execution of <StructuredImageFileSource as Asset>::content failed
+- Execution of get_meta_data failed
+- Input image not found
+    at <unknown> (TurbopackInternalError: Input image not found) {
+  location: undefined
+}
+[Server HMR] Subscription error: Error [TurbopackInternalError]: Input image not found
+
+Debug info:
+- Execution of hmr_update_with_issues_operation failed
+- Execution of PlainIssue::from_issue failed
+- Execution of PlainSource::from_source failed
+- Execution of <StructuredImageFileSource as Asset>::content failed
+- Execution of get_meta_data failed
+- Input image not found
+    at <unknown> (TurbopackInternalError: Input image not found) {
+  location: undefined
+}
+ GET /tr/business/platform/platform/adaptive-ai 200 in 3.3s (next.js: 3.0s, proxy.ts: 6ms, application-code: 239ms)
+ GET /tr/business/platform/platform/adaptive-ai 200 in 246ms (next.js: 37ms, proxy.ts: 110ms, application-code: 98ms)
+ GET /tr/business/platform/platform/adaptive-ai 200 in 101ms (next.js: 23ms, proxy.ts: 8ms, application-code: 70ms)
+ GET /tr/business/platform 200 in 150ms (next.js: 42ms, proxy.ts: 11ms, generate-params: 10ms, application-code: 97ms)
+ GET /tr/business/platform/pricing 200 in 67ms (next.js: 18ms, proxy.ts: 4ms, application-code: 45ms)
+ GET /tr/business/platform/resources/adaptive-crm-nedir 200 in 69ms (next.js: 18ms, proxy.ts: 7ms, application-code: 45ms)
+✓ Compiled in 187ms
+ GET /tr/business/platform/resources/adaptive-crm-nedir 200 in 364ms (next.js: 260ms, proxy.ts: 20ms, application-code: 84ms)
+ GET /tr/business/platform/resources/adaptive-crm-nedir 200 in 1407ms (next.js: 298ms, proxy.ts: 15ms, application-code: 1095ms)
+ GET /tr/business/platform/resources/adaptive-crm-nedir 200 in 1713ms (next.js: 63ms, proxy.ts: 419ms, application-code: 1231ms)
+ GET /tr/business/platform/resources/adaptive-crm-nedir 200 in 1473ms (next.js: 271ms, proxy.ts: 105ms, application-code: 1098ms)
+ GET /tr/business/platform/resources/adaptive-crm-nedir 200 in 1489ms (next.js: 182ms, proxy.ts: 41ms, application-code: 1266ms)
+ GET /tr/business/platform/resources/adaptive-crm-nedir 200 in 1479ms (next.js: 435ms, proxy.ts: 109ms, application-code: 935ms)
+ GET /tr/business/platform/resources/adaptive-crm-nedir 200 in 1368ms (next.js: 98ms, proxy.ts: 594ms, application-code: 675ms)
+ GET /tr/business/platform/resources/adaptive-crm-nedir 200 in 1007ms (next.js: 277ms, proxy.ts: 59ms, application-code: 672ms)
+ GET /tr/business/platform/resources/adaptive-crm-nedir 200 in 558ms (next.js: 31ms, proxy.ts: 58ms, application-code: 470ms)
+ GET /tr/business/platform/resources/adaptive-crm-nedir 200 in 372ms (next.js: 43ms, proxy.ts: 33ms, application-code: 296ms)
+ GET /en/business/platform/resources/adaptive-crm-nedir 200 in 136ms (next.js: 23ms, proxy.ts: 8ms, application-code: 104ms)
+ GET /ru/business/platform/resources/adaptive-crm-nedir 200 in 255ms (next.js: 29ms, proxy.ts: 14ms, application-code: 212ms)
+ GET /en/business/platform/resources/adaptive-crm-nedir 200 in 96ms (next.js: 18ms, proxy.ts: 6ms, application-code: 72ms)
+ GET /tr/business/platform/resources/adaptive-crm-nedir 200 in 246ms (next.js: 20ms, proxy.ts: 12ms, application-code: 214ms)
+ GET /en/business/platform/resources/adaptive-crm-nedir 200 in 97ms (next.js: 20ms, proxy.ts: 4ms, application-code: 73ms)
+ GET /tr/business/platform/resources/adaptive-crm-nedir 200 in 130ms (next.js: 16ms, proxy.ts: 5ms, application-code: 109ms)
+ GET /tr/business/platform/crm 200 in 127ms (next.js: 22ms, proxy.ts: 10ms, application-code: 95ms)
+ GET /tr/business/platform 200 in 352ms (next.js: 187ms, proxy.ts: 9ms, generate-params: 8ms, application-code: 157ms)
+ GET /tr/business/platform/crm 200 in 86ms (next.js: 20ms, proxy.ts: 8ms, application-code: 58ms)
+ GET /tr/business/platform/platform/adaptive-ai 200 in 126ms (next.js: 33ms, proxy.ts: 13ms, application-code: 80ms)
+ GET /tr/business/platform/pricing 200 in 95ms (next.js: 24ms, proxy.ts: 8ms, application-code: 63ms)
+ GET /tr/business/platform/resources/adaptive-crm-nedir 200 in 71ms (next.js: 19ms, proxy.ts: 6ms, application-code: 46ms)
+ GET /tr 200 in 297ms (next.js: 197ms, proxy.ts: 7ms, generate-params: 8ms, application-code: 93ms)
+ GET /tr/book 200 in 242ms (next.js: 122ms, proxy.ts: 5ms, generate-params: 6ms, application-code: 115ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 271ms (next.js: 117ms, proxy.ts: 5ms, generate-params: 6ms, application-code: 148ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 2.5s (next.js: 584ms, proxy.ts: 12ms, generate-params: 15ms, application-code: 1879ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 1800ms (next.js: 54ms, proxy.ts: 206ms, generate-params: 61µs, application-code: 1541ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 1507ms (next.js: 146ms, proxy.ts: 68ms, generate-params: 45µs, application-code: 1293ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 1494ms (next.js: 493ms, proxy.ts: 63ms, generate-params: 50µs, application-code: 937ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 1499ms (next.js: 343ms, proxy.ts: 61ms, generate-params: 41µs, application-code: 1095ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 1600ms (next.js: 635ms, proxy.ts: 65ms, generate-params: 56µs, application-code: 900ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 820ms (next.js: 69ms, proxy.ts: 198ms, generate-params: 41µs, application-code: 553ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 620ms (next.js: 33ms, proxy.ts: 175ms, generate-params: 64µs, application-code: 412ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 379ms (next.js: 48ms, proxy.ts: 19ms, generate-params: 39µs, application-code: 312ms)
+✓ Compiled in 255ms
+ GET /tr/chapter/escape-loops-and-addictions 200 in 2.1s (next.js: 338ms, proxy.ts: 374ms, generate-params: 15ms, application-code: 1396ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 1209ms (next.js: 26ms, proxy.ts: 17ms, generate-params: 59µs, application-code: 1166ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 1137ms (next.js: 132ms, proxy.ts: 42ms, generate-params: 126µs, application-code: 964ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 1148ms (next.js: 333ms, proxy.ts: 41ms, generate-params: 187µs, application-code: 774ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 1146ms (next.js: 495ms, proxy.ts: 42ms, generate-params: 55µs, application-code: 609ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 1149ms (next.js: 660ms, proxy.ts: 44ms, generate-params: 36µs, application-code: 445ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 434ms (next.js: 48ms, proxy.ts: 27ms, generate-params: 49µs, application-code: 360ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 291ms (next.js: 60ms, proxy.ts: 14ms, generate-params: 37µs, application-code: 218ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 250ms (next.js: 112ms, proxy.ts: 17ms, generate-params: 39µs, application-code: 121ms)
+✓ Compiled in 233ms
+ GET /tr/chapter/escape-loops-and-addictions 200 in 2.3s (next.js: 398ms, proxy.ts: 372ms, generate-params: 16ms, application-code: 1573ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 1547ms (next.js: 294ms, proxy.ts: 33ms, generate-params: 53µs, application-code: 1220ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 1102ms (next.js: 280ms, proxy.ts: 63ms, generate-params: 35µs, application-code: 759ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 1099ms (next.js: 481ms, proxy.ts: 101ms, generate-params: 106µs, application-code: 517ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 1118ms (next.js: 123ms, proxy.ts: 71ms, generate-params: 55µs, application-code: 923ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 1119ms (next.js: 360ms, proxy.ts: 93ms, generate-params: 57µs, application-code: 666ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 683ms (next.js: 41ms, proxy.ts: 31ms, generate-params: 40µs, application-code: 612ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 390ms (next.js: 74ms, proxy.ts: 27ms, generate-params: 179µs, application-code: 288ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 333ms (next.js: 24ms, proxy.ts: 151ms, generate-params: 27µs, application-code: 157ms)
+✓ Compiled in 595ms
+ GET /tr/chapter/escape-loops-and-addictions 200 in 2.8s (next.js: 762ms, proxy.ts: 53ms, generate-params: 10ms, application-code: 2.0s)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 1922ms (next.js: 458ms, proxy.ts: 210ms, generate-params: 39µs, application-code: 1254ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 1060ms (next.js: 332ms, proxy.ts: 43ms, generate-params: 45µs, application-code: 685ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 1156ms (next.js: 429ms, proxy.ts: 48ms, generate-params: 52µs, application-code: 679ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 1167ms (next.js: 239ms, proxy.ts: 40ms, generate-params: 57µs, application-code: 888ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 1174ms (next.js: 117ms, proxy.ts: 41ms, generate-params: 43µs, application-code: 1016ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 1002ms (next.js: 49ms, proxy.ts: 26ms, generate-params: 15ms, application-code: 927ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 685ms (next.js: 27ms, proxy.ts: 12ms, generate-params: 24µs, application-code: 645ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 642ms (next.js: 50ms, proxy.ts: 32ms, generate-params: 117µs, application-code: 559ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 699ms (next.js: 257ms, proxy.ts: 31ms, generate-params: 39µs, application-code: 411ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 702ms (next.js: 142ms, proxy.ts: 30ms, generate-params: 39µs, application-code: 531ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 701ms (next.js: 353ms, proxy.ts: 31ms, generate-params: 44µs, application-code: 318ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 234ms (next.js: 22ms, proxy.ts: 35ms, generate-params: 38µs, application-code: 177ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 134ms (next.js: 22ms, proxy.ts: 12ms, generate-params: 28µs, application-code: 100ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 1253ms (next.js: 205ms, proxy.ts: 19ms, generate-params: 9ms, application-code: 1029ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 941ms (next.js: 18ms, proxy.ts: 17ms, generate-params: 62µs, application-code: 906ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 1038ms (next.js: 87ms, proxy.ts: 25ms, generate-params: 49µs, application-code: 926ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 1037ms (next.js: 242ms, proxy.ts: 29ms, generate-params: 48µs, application-code: 765ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 1041ms (next.js: 402ms, proxy.ts: 32ms, generate-params: 27µs, application-code: 606ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 1155ms (next.js: 515ms, proxy.ts: 33ms, generate-params: 27µs, application-code: 607ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 472ms (next.js: 54ms, proxy.ts: 34ms, generate-params: 42µs, application-code: 383ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 238ms (next.js: 36ms, proxy.ts: 51ms, generate-params: 30µs, application-code: 151ms)
+✓ Compiled in 147ms
+ GET /tr/appendix/volume-1-references 200 in 3.3s (next.js: 1840ms, proxy.ts: 99ms, generate-params: 1467ms, application-code: 1383ms)
+ GET /tr/appendix/volume-1-references 200 in 1253ms (next.js: 49ms, proxy.ts: 16ms, generate-params: 18ms, application-code: 1187ms)
+ GET /tr/appendix/volume-1-references 200 in 2.1s (next.js: 622ms, proxy.ts: 81ms, generate-params: 27µs, application-code: 1354ms)
+ GET /tr/appendix/volume-1-references 200 in 2.1s (next.js: 182ms, proxy.ts: 60ms, generate-params: 51µs, application-code: 1841ms)
+ GET /tr/appendix/volume-1-references 200 in 2.1s (next.js: 511ms, proxy.ts: 59ms, generate-params: 48µs, application-code: 1508ms)
+ GET /tr/appendix/volume-1-references 200 in 2.1s (next.js: 732ms, proxy.ts: 88ms, generate-params: 29µs, application-code: 1253ms)
+ GET /tr/appendix/volume-1-references 200 in 1156ms (next.js: 39ms, proxy.ts: 27ms, generate-params: 85µs, application-code: 1089ms)
+ GET /tr/appendix/volume-1-references 200 in 2.0s (next.js: 442ms, proxy.ts: 21ms, generate-params: 12ms, application-code: 1550ms)
+ GET /tr/appendix/volume-1-references 200 in 1511ms (next.js: 49ms, proxy.ts: 183ms, generate-params: 70µs, application-code: 1279ms)
+ GET /tr/appendix/volume-1-references 200 in 1152ms (next.js: 127ms, proxy.ts: 31ms, generate-params: 63µs, application-code: 994ms)
+ GET /tr/appendix/volume-1-references 200 in 1326ms (next.js: 318ms, proxy.ts: 36ms, generate-params: 57µs, application-code: 972ms)
+ GET /tr/appendix/volume-1-references 200 in 1324ms (next.js: 665ms, proxy.ts: 61ms, generate-params: 47µs, application-code: 598ms)
+ GET /tr/appendix/volume-1-references 200 in 1333ms (next.js: 505ms, proxy.ts: 46ms, generate-params: 43µs, application-code: 782ms)
+ GET /tr/appendix/volume-1-references 200 in 747ms (next.js: 77ms, proxy.ts: 23ms, generate-params: 37µs, application-code: 646ms)
+ GET /tr/appendix/volume-1-references 200 in 509ms (next.js: 32ms, proxy.ts: 19ms, generate-params: 27µs, application-code: 458ms)
+ GET /tr/appendix/volume-1-references 200 in 320ms (next.js: 34ms, proxy.ts: 21ms, generate-params: 52µs, application-code: 265ms)
+ GET /tr/appendix/volume-1-references 200 in 314ms (next.js: 152ms, proxy.ts: 23ms, generate-params: 25µs, application-code: 139ms)
+ GET /tr/business 200 in 381ms (next.js: 232ms, proxy.ts: 10ms, generate-params: 10ms, application-code: 139ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477:13)
+ GET /tr/business/platform 200 in 316ms (next.js: 203ms, proxy.ts: 9ms, generate-params: 7ms, application-code: 105ms)
+[browser] Image with src "/saule-avatar-v1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477:13)
+ GET /tr/business/platform/platform/adaptive-ai 200 in 288ms (next.js: 181ms, proxy.ts: 8ms, application-code: 99ms)
+ GET /tr/business/platform 200 in 77ms (next.js: 18ms, proxy.ts: 5ms, generate-params: 7ms, application-code: 54ms)
+ GET /tr/business/platform 200 in 63ms (next.js: 17ms, proxy.ts: 6ms, generate-params: 6ms, application-code: 40ms)
+ GET /tr/business/platform/pricing 200 in 68ms (next.js: 14ms, proxy.ts: 4ms, application-code: 49ms)
+ GET /tr/business/platform/resources/uyumlanabilir-zeka-nedir 200 in 63ms (next.js: 15ms, proxy.ts: 5ms, application-code: 43ms)
+ GET /tr/business/platform 200 in 88ms (next.js: 24ms, proxy.ts: 10ms, generate-params: 9ms, application-code: 53ms)
+ GET /tr 200 in 252ms (next.js: 144ms, proxy.ts: 9ms, generate-params: 6ms, application-code: 99ms)
+ GET /tr/book 200 in 344ms (next.js: 164ms, proxy.ts: 5ms, generate-params: 10ms, application-code: 175ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 265ms (next.js: 110ms, proxy.ts: 4ms, generate-params: 6ms, application-code: 151ms)
+✓ Compiled in 298ms
+ GET /tr/chapter/escape-loops-and-addictions 200 in 1448ms (next.js: 287ms, proxy.ts: 180ms, generate-params: 16ms, application-code: 981ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 808ms (next.js: 29ms, proxy.ts: 12ms, generate-params: 43µs, application-code: 767ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 756ms (next.js: 60ms, proxy.ts: 40ms, generate-params: 41µs, application-code: 657ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 853ms (next.js: 296ms, proxy.ts: 43ms, generate-params: 30µs, application-code: 513ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 850ms (next.js: 372ms, proxy.ts: 43ms, generate-params: 49µs, application-code: 435ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 864ms (next.js: 181ms, proxy.ts: 42ms, generate-params: 40µs, application-code: 640ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 518ms (next.js: 34ms, proxy.ts: 14ms, generate-params: 110µs, application-code: 470ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 377ms (next.js: 21ms, proxy.ts: 14ms, generate-params: 33µs, application-code: 342ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 258ms (next.js: 26ms, proxy.ts: 20ms, generate-params: 32µs, application-code: 212ms)
+ GET /tr/chapter/escape-loops-and-addictions 200 in 250ms (next.js: 116ms, proxy.ts: 17ms, generate-params: 35µs, application-code: 118ms)
+ GET /tr/chapter/cost-of-constant-context-switching 200 in 3.4s (next.js: 984ms, proxy.ts: 15ms, generate-params: 18ms, application-code: 2.4s)
+ GET /tr/chapter/cost-of-constant-context-switching 200 in 2.0s (next.js: 318ms, proxy.ts: 259ms, generate-params: 49µs, application-code: 1472ms)
+ GET /tr/chapter/cost-of-constant-context-switching 200 in 2.3s (next.js: 927ms, proxy.ts: 64ms, generate-params: 59µs, application-code: 1286ms)
+ GET /tr/chapter/cost-of-constant-context-switching 200 in 2.2s (next.js: 737ms, proxy.ts: 62ms, generate-params: 50µs, application-code: 1449ms)
+ GET /tr/chapter/cost-of-constant-context-switching 200 in 2.3s (next.js: 404ms, proxy.ts: 66ms, generate-params: 37µs, application-code: 1801ms)
+ GET /tr/chapter/cost-of-constant-context-switching 200 in 2.3s (next.js: 567ms, proxy.ts: 64ms, generate-params: 48µs, application-code: 1643ms)
+ GET /tr/chapter/cost-of-constant-context-switching 200 in 1249ms (next.js: 69ms, proxy.ts: 34ms, generate-params: 58µs, application-code: 1146ms)
+✓ Compiled in 351ms
+ GET /tr/chapter/meaning 200 in 2.1s (next.js: 308ms, proxy.ts: 526ms, generate-params: 17ms, application-code: 1272ms)
+ GET /tr/chapter/meaning 200 in 1073ms (next.js: 22ms, proxy.ts: 20ms, generate-params: 32µs, application-code: 1031ms)
+ GET /tr/chapter/meaning 200 in 2.3s (next.js: 273ms, proxy.ts: 46ms, generate-params: 49µs, application-code: 1980ms)
+ GET /tr/chapter/meaning 200 in 2.3s (next.js: 99ms, proxy.ts: 37ms, generate-params: 114µs, application-code: 2.2s)
+ GET /tr/chapter/meaning 200 in 2.3s (next.js: 577ms, proxy.ts: 51ms, generate-params: 54µs, application-code: 1666ms)
+ GET /tr/chapter/meaning 200 in 2.3s (next.js: 418ms, proxy.ts: 48ms, generate-params: 42µs, application-code: 1834ms)
+ GET /tr/chapter/meaning 200 in 1570ms (next.js: 123ms, proxy.ts: 21ms, generate-params: 68µs, application-code: 1425ms)
+ GET /tr/business 200 in 280ms (next.js: 163ms, proxy.ts: 6ms, generate-params: 7ms, application-code: 110ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477:13)
+ GET /tr/business/platform 200 in 302ms (next.js: 134ms, proxy.ts: 7ms, generate-params: 7ms, application-code: 161ms)
+[browser] Image with src "/saule-avatar-v1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes (file://C:/Users/enesp/saule per/saule/.next/dev/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477:13)
+ GET /tr 200 in 291ms (next.js: 153ms, proxy.ts: 4ms, generate-params: 13ms, application-code: 134ms)
+ GET /tr/book 200 in 376ms (next.js: 223ms, proxy.ts: 9ms, generate-params: 9ms, application-code: 144ms)
+✓ Compiled in 542ms
+ GET /tr/book 200 in 3.5s (next.js: 383ms, proxy.ts: 16ms, generate-params: 12ms, application-code: 3.1s)
+ GET /tr/book 200 in 3.1s (next.js: 1093ms, proxy.ts: 188ms, generate-params: 47µs, application-code: 1805ms)
+ GET /tr/book 200 in 1483ms (next.js: 129ms, proxy.ts: 54ms, generate-params: 48µs, application-code: 1300ms)
+ GET /tr/book 200 in 1517ms (next.js: 701ms, proxy.ts: 83ms, generate-params: 51µs, application-code: 733ms)
+ GET /tr/book 200 in 1523ms (next.js: 522ms, proxy.ts: 71ms, generate-params: 63µs, application-code: 930ms)
+ GET /tr/book 200 in 1545ms (next.js: 273ms, proxy.ts: 85ms, generate-params: 42µs, application-code: 1188ms)
+ GET /tr/book 200 in 1191ms (next.js: 151ms, proxy.ts: 35ms, generate-params: 53µs, application-code: 1004ms)
+ GET /tr/book 200 in 844ms (next.js: 147ms, proxy.ts: 31ms, generate-params: 46µs, application-code: 665ms)
+ GET /tr/book 200 in 762ms (next.js: 73ms, proxy.ts: 258ms, generate-params: 10ms, application-code: 431ms)
+ GET /tr/book 200 in 545ms (next.js: 207ms, proxy.ts: 50ms, generate-params: 56µs, application-code: 288ms)
+ GET /tr/book 200 in 546ms (next.js: 324ms, proxy.ts: 52ms, generate-params: 43µs, application-code: 171ms)
+ GET /tr/book 200 in 2.7s (next.js: 671ms, proxy.ts: 12ms, generate-params: 15ms, application-code: 2.0s)
+ GET /tr/book 200 in 1797ms (next.js: 54ms, proxy.ts: 178ms, generate-params: 66µs, application-code: 1565ms)
+ GET /tr/book 200 in 1533ms (next.js: 128ms, proxy.ts: 69ms, generate-params: 48µs, application-code: 1336ms)
+ GET /tr/book 200 in 1522ms (next.js: 750ms, proxy.ts: 69ms, generate-params: 42µs, application-code: 703ms)
+ GET /tr/book 200 in 1690ms (next.js: 481ms, proxy.ts: 70ms, generate-params: 53µs, application-code: 1139ms)
+ GET /tr/book 200 in 1684ms (next.js: 960ms, proxy.ts: 70ms, generate-params: 67µs, application-code: 654ms)
+ GET /tr/book 200 in 1007ms (next.js: 70ms, proxy.ts: 23ms, generate-params: 40µs, application-code: 914ms)
+ GET /tr/book 200 in 815ms (next.js: 57ms, proxy.ts: 23ms, generate-params: 99µs, application-code: 736ms)
+ GET /tr/book 200 in 579ms (next.js: 345ms, proxy.ts: 28ms, generate-params: 75µs, application-code: 206ms)
+ GET /tr/book 200 in 618ms (next.js: 66ms, proxy.ts: 32ms, generate-params: 46µs, application-code: 520ms)
+ GET /tr/book 200 in 617ms (next.js: 218ms, proxy.ts: 35ms, generate-params: 43µs, application-code: 363ms)
+ GET /tr/book 200 in 2.5s (next.js: 486ms, proxy.ts: 11ms, generate-params: 14ms, application-code: 2.0s)
+ GET /tr/book 200 in 1827ms (next.js: 36ms, proxy.ts: 169ms, generate-params: 97µs, application-code: 1622ms)
+ GET /tr/book 200 in 1601ms (next.js: 656ms, proxy.ts: 167ms, generate-params: 51µs, application-code: 778ms)
+ GET /tr/book 200 in 1592ms (next.js: 652ms, proxy.ts: 472ms, generate-params: 40µs, application-code: 468ms)
+ GET /tr/book 200 in 1614ms (next.js: 431ms, proxy.ts: 164ms, generate-params: 42µs, application-code: 1020ms)
+ GET /tr/book 200 in 1604ms (next.js: 797ms, proxy.ts: 170ms, generate-params: 42µs, application-code: 638ms)
+ GET /tr/book 200 in 719ms (next.js: 59ms, proxy.ts: 26ms, generate-params: 46µs, application-code: 634ms)
+ GET /tr/book 200 in 536ms (next.js: 31ms, proxy.ts: 20ms, generate-params: 42µs, application-code: 485ms)
+ GET /tr/book 200 in 396ms (next.js: 34ms, proxy.ts: 21ms, generate-params: 40µs, application-code: 341ms)
+ GET /tr/book 200 in 423ms (next.js: 148ms, proxy.ts: 19ms, generate-params: 87µs, application-code: 256ms)

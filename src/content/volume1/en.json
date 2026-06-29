@@ -408,61 +408,113 @@
       "draft": {
         "sections": [
           {
-            "heading": "1. Why the Unfinished Stays Active",
+            "heading": "1. Why Does the Unfinished Remain Active?",
             "paragraphs": [
-              "An open loop is anything the mind treats as incomplete: a task, promise, decision, question, or emotional exchange. It remains active because the brain expects future action but lacks a trusted conclusion or return point.",
-              "Not every unfinished item is equally demanding. Ambiguous loops consume more attention than clearly deferred ones because the mind must repeatedly ask what the item means and whether it has become urgent."
+              "An open loop is an intention, task, decision, question, promise, or relational matter that the mind does not yet regard as resolved. The term is neither a clinical diagnosis nor a single construct with firmly established boundaries in psychology; it is a useful framework for explaining why unfinished matters repeatedly return to our field of attention in everyday life.",
+              "An unanswered message, an unchosen healthcare plan, a promise made but not kept, a decision expected from someone else, a half-finished application, or a conversation whose meaning has not yet been understood are all unfinished in different ways. Yet their weight is not equal in the mind. One may require only a small action, while another may call for courage, information, time, grief, or another person’s participation.",
+              "Bluma Zeigarnik’s experiments in the 1920s showed that, under certain conditions, interrupted tasks could be remembered better than completed ones. Colin MacLeod’s historical and experimental review, however, reminds us that this effect is not as universal or immutable as popular accounts suggest. Concluding that every unfinished task automatically occupies the mind would be a stronger claim than the research can support.",
+              "A more defensible conclusion is this: when a goal matters, remains valid, and the way back to it is uncertain, thoughts related to that goal may reappear during other activities. In experiments by Masicampo and Baumeister, unfulfilled goals were associated with intrusive thoughts and performance costs during unrelated tasks; making a specific plan for returning to the goal, however, could reduce these cognitive effects.",
+              "This finding suggests that completion is not the only route to relief. Sometimes the mind seeks a reliable path of return before it seeks the outcome itself. A plan such as “I am not doing this now, but I will reopen it on Friday at 10:00 with this document” differs from the vague intention “I should do this later.”",
+              "We therefore cannot understand the weight of an open loop by looking only at its age or the size of the task. Uncertainty, personal importance, emotional meaning, social consequences, confidence in return, and the person’s current capacity all matter together. Saule’s first task is not to declare everything open urgent, but to distinguish why each matter remains open.",
+              "Open loops do not exist only within individuals. Unanswered customer requests, unresolved tickets, forgotten sales follow-ups, ownerless decisions, pending approvals, and recurring operational problems also make up an organization’s mental load. In creative work, half-formed ideas, unfinished drafts, pending revisions, and possibilities carried as “something we may do one day” are other forms of the same pressure."
             ]
           },
           {
-            "heading": "2. Different Loops Need Different Endings",
+            "heading": "2. Different Loops Require Different Endings",
             "paragraphs": [
-              "Some loops close through action. Others close through a decision, a conversation, acceptance, delegation, scheduling, or deliberate abandonment. Treating every loop as a task produces long lists that preserve uncertainty rather than resolving it.",
-              "Closure is therefore semantic. The person needs to know what kind of incompleteness they are carrying before choosing the next step."
+              "A common mistake in productivity systems is to turn everything unfinished into a task. Yet “talk to my mother,” “think about my career,” “wait for the result,” “come to terms with this loss,” and “submit the form” are not the same kind of item. They may appear side by side in one interface, but they do not ask for the same ending.",
+              "An action loop advances through an observable next step: complete the form, make the appointment, send the file. A decision loop needs the options, criteria, or final decision date to become clear before further action. Producing tasks before a decision has been made can create the appearance of movement while preserving the underlying uncertainty.",
+              "In a waiting loop, the next move does not belong to the user. A reply from another person, an institutional result, a delivery, or a particular date is awaited. Showing such an item every day as if it were a task can turn a situation outside the person’s control into a feeling of personal inadequacy. What is needed here is not action, but clarity of ownership and follow-up conditions.",
+              "A relational loop may require a conversation, clarified expectations, an apology, a boundary, or mutual agreement. An emotional loop may sometimes need not a solution but naming, grief, time, acceptance, or room to live with uncertainty for a while. Turning every discomfort into a completable task mechanizes human experience more than it should.",
+              "There are also exploration loops: an idea, possibility, book, desire to travel, or future project is not yet a commitment. If a system carries these as unpaid debts, curiosity itself becomes pressure. Preserving a possibility must not be treated as a promise that it will be realized.",
+              "This distinction must be preserved across the personal, organizational, and creative levels. Not every open loop is a to-do item; some customer matters require a decision, some team issues require clear ownership, and some creative ideas require only preserved context. The wrong kind of closure can prolong a loop instead of closing it.",
+              "Saule should therefore distinguish at least these forms of closure: do, decide, wait, talk, delegate, plan, reflect, accept, and let go. An item may carry more than one form; classification should not be an absolute verdict, but a provisional interpretation that helps present the user with a better next question."
             ]
           },
           {
-            "heading": "3. Trust Is the External Memory",
+            "heading": "3. Trust Is the Foundation of External Memory",
             "paragraphs": [
-              "A reminder only reduces mental pressure when the user trusts its timing, wording, and destination. If reminders arrive too early, too late, or without context, the mind learns that it must continue remembering on its own.",
-              "A trusted system makes the return path visible. It records why something matters, what would count as progress, and when the person wants to see it again."
+              "Prospective memory is the capacity to remember an intended action at the appropriate time in the future. Taking medicine in the evening, writing to someone after a meeting, or buying something on the way home requires more than recalling past information; it requires reactivating an intention under the right conditions.",
+              "People do not leave this burden solely to biological memory. Calendars, alarms, objects placed by the door, notes, and digital reminders move intentions into the environment. Gilbert and colleagues’ review of intention offloading shows that these tools can strongly support delayed intentions, while people’s decisions about what to offload are influenced by their confidence in their own memory and by the cost of the task.",
+              "Offloading alone does not create trust. If a record cannot be found, lacks context, appears at the wrong time, or the system produces too many unimportant alerts, the person continues to carry the intention mentally. The mental loop therefore remains open even though the task has been written down, because the path of return is not reliable.",
+              "The trigger matters as much as the reminder’s content. “Renew passport” may not help if the person does not know which document is needed or sees it while the office is closed. “At 09:00 on Tuesday, while at the computer, book an appointment through this page” makes the point of entry visible.",
+              "Trust requires a relationship that can admit error. Saule should not assume that every return will occur at the right moment; it should explain why an item is being shown now and allow the user to correct the timing or reduce similar suggestions. A mistimed reminder is not merely a small product error; it can erode trust in external memory.",
+              "Every deferred loop should therefore carry a return contract: when, after which event, in what context, or following whose response will it reopen? Reliable external memory is not memory that keeps everything continuously visible, but memory that can be trusted to bring something back under the right conditions even while it is out of sight."
             ]
           },
           {
-            "heading": "4. The Right to Abandon",
+            "heading": "4. From Vague Intention to Actionable Plan",
             "paragraphs": [
-              "Many loops survive because abandoning them feels like failure. Old goals, stale obligations, and inherited expectations remain present long after they have stopped serving the person.",
-              "Saule should support conscious release. Deleting, declining, or redefining a commitment can be an act of clarity. The system must not turn every past intention into permanent debt."
+              "Recording an intention and making it actionable are not the same thing. “Move more,” “finish the portfolio,” or “repair the relationship” may matter, but they do not say what would count as a beginning. Vague goals can remain open because every encounter with them demands fresh interpretation and another decision.",
+              "Research on implementation intentions shows that “if–then” plans linking a specific condition to a specific behavior can support goal attainment. Gollwitzer and Sheeran’s meta-analysis reported generally beneficial effects, while later studies show that effectiveness varies with the nature of the goal, the person’s genuine intention, and the context. A plan does not automatically make a weak or externally imposed goal meaningful.",
+              "A good plan can answer four questions: What will happen? Under what condition will it begin? What is the first visible action? If it cannot begin, when will it be reconsidered? These questions do not attempt to control the whole future; they merely make the first transition from intention to behavior less uncertain.",
+              "When a plan is over-specified, it can create a new maintenance burden. Updating dozens of substeps as life changes may become harder than doing the work itself. Saule should seek the smallest sufficient plan and reveal more detail only as the user moves forward.",
+              "Deferral is a decision only when it includes a condition for return. “I will look at it later” merely pushes the open loop into the future. “Reassess it with the budget when the salary arrives,” “decide when the report comes in,” or “follow up once if there is no answer within two weeks” defines the condition under which waiting ends.",
+              "The purpose of a plan is not to make the user obey it, but to reduce the cost of reconstructing an intention. Updating the plan when circumstances change should not count as failure; blindly preserving an old plan in a changed life can produce additional burden rather than flexibility."
             ]
           },
           {
-            "heading": "5. A Closure-Oriented System",
+            "heading": "5. The Right to Let Go",
             "paragraphs": [
-              "Saule should periodically help the user review unresolved loops in small, context-aware groups. The review should ask whether the loop needs action, a decision, a conversation, a later date, or release.",
-              "The purpose is not to reach zero open loops. Human life will always remain unfinished. The purpose is to ensure that unfinished life does not become invisible pressure."
+              "Many loops remain alive not because they are still valuable, but because letting go feels like failure. Old goals, obligations that have lost their validity, expectations inherited from others, and plans that are no longer possible can continue to be carried as moral debts long after they have lost their connection to the person’s present life.",
+              "Research on goal disengagement suggests that flexibly withdrawing from unattainable goals and reengaging with meaningful alternatives can be associated with well-being. In Barlow, Wrosch, and McGrath’s meta-analysis, these relationships were modest on average and varied by context. “Giving up is always good” is therefore as extreme a conclusion as “persistence is always a virtue.”",
+              "Conscious letting go is not the same as avoidant abandonment. A person may withdraw from a valued goal out of fear; in another situation, continuing a goal whose cost has risen, meaning has declined, or feasibility has disappeared may be harmful. Saule cannot determine this distinction with certainty on its own.",
+              "Instead of issuing a verdict, the system can create space for reflection: Is this goal still yours? Is it still possible? What has it begun to cost? Which value does continuing protect? What would letting it go make room for? Must the decision be made today? These questions should not encourage abandonment; they should make automatic persistence visible.",
+              "The same right applies to work and creative projects. Not every customer segment must be pursued forever, every old decision carried forward, every idea turned into a product, or every campaign developed. Sometimes healthy closure comes not from continuing further, but from honestly naming what will no longer be carried.",
+              "Letting go may also have a closure record. If the user wishes, they may briefly note why they stopped, under what conditions they might reconsider, or why they do not want to return. This explanation, however, must not become a mandatory defense; people should not have to justify every deletion to the system.",
+              "Saule should keep deletion, archiving, and ending distinct. Archiving preserves the possibility of return; ending indicates that the commitment is over; deletion means the record will not be retained. The system must not turn every past intention into a permanent debt or an endlessly stored character record."
             ]
           },
           {
-            "heading": "6. Shared and Relational Loops",
+            "heading": "6. A Closure-Oriented System",
             "paragraphs": [
-              "Many loops exist between people: a promised reply, an unclear expectation, a decision awaiting agreement, or care that cannot be reduced to a transaction. Their status cannot always be inferred from one person's data.",
-              "Saule should record the user's understanding without claiming to know another person's intention. It can prepare a question, preserve context, or suggest a respectful follow-up, but it must not automate relational pressure.",
-              "Closure may also be asymmetric. One person may have done their share while the relationship remains uncertain. The system needs language for drawing boundaries as well as completion."
+              "The aim of a closure-oriented system is not an empty inbox or zero open loops. Human life is unfinished by nature: raising a child, sustaining a relationship, growing in a profession, caring for health, or exploring an idea cannot be completed with a single checkmark. A zero target can make the continuity of life look like failure.",
+              "A more meaningful aim is for each open item to have an intelligible state: act now, scheduled, awaiting response, under reflection, delegated, awaiting a condition, consciously released, or completed. The state should explain why the item is visible and who owns the next decision.",
+              "A review should not open the entire archive at once. Saule should present small groups based on context, age, the latest change, an approaching condition, and the user’s current capacity. Five clear questions may create more closure than a debt screen containing a hundred items.",
+              "The meaning of “completed” also varies by loop. For a form, a submission record may be enough; for a conversation, expressing one’s own part; for a decision, recording the choice; for an emotional matter, simply stating that no further system intervention is wanted. Saule should not reduce completion to one behavioral pattern.",
+              "The system may suggest certain evidence, but it should not gather proof of completion through constant surveillance. Seeing that an email was sent is not the same as knowing that the conversation feels closed to the user. The final word should remain with the user, and a loop closed by mistake should be easy to reopen.",
+              "Closure must not become an excuse to produce badges, streaks, or scores. The goal is not for the user to close more items, but to carry less uncertainty. Sometimes the best review ends by completing a task, sometimes by deferring it to the right date, and sometimes by accepting that it will not be done."
             ]
           },
           {
-            "heading": "7. Decay, Expiration, and Renewal",
+            "heading": "7. Shared and Relational Loops",
             "paragraphs": [
-              "A loop should not remain equally urgent forever. Some commitments expire, some become irrelevant, and others require explicit renewal when circumstances change.",
-              "Saule can use age as a prompt for clarification, not as proof of failure. It should ask whether the item still matters, whether its owner or conditions changed, and whether keeping it has a real benefit.",
-              "This creates a healthier memory: durable where consequences demand it, temporary where life has moved on, and always subject to the user's decision."
+              "Many open loops live between people: a promised reply, a shared decision, an unclear expectation, a care responsibility, a repayment, a work delivery, an apology, or a need that has not yet been voiced. These loops are not merely personal planning problems; they are matters of ownership, reciprocity, and trust.",
+              "Saule should distinguish at least three things in relational items: the user’s own responsibility, an action expected from someone else, and an area that must be clarified together. “I will reply,” “I am waiting for their reply,” and “we need to decide together” are not the same state. Without this distinction, a person may carry someone else’s share as if it were their own open task.",
+              "The system should not infer another person’s intention, emotion, or reliability from data visible only to the user. “They have not replied for three days” is an observable fact; “they do not care about you” is not. Saule should separate fact, the user’s interpretation, and uncertainty.",
+              "Work relationships require the same care: customer expectations, team responsibilities, shared decisions, delayed replies, feedback, apologies, boundaries, and ownership can be both operational and relational. Closing a task is not the same as closing a relationship; sometimes protecting the relationship requires more careful closure.",
+              "Relational closure does not always mean mutual agreement. The user may have done their part, expressed a boundary, or followed up respectfully once, while the other person still does not reply. In such cases, the loop may close not through full agreement, but through the user deciding what they will no longer do.",
+              "Reminders should not automate relational pressure. If a system continually generates follow-up messages, scores people by response time, or interprets silence as hostility, it builds a pressure mechanism rather than relational intelligence. Saule may prepare a question and preserve context; sending the communication and choosing its tone must remain with the user.",
+              "This area also requires strong privacy boundaries. Notes about other people must not become extensive profiles without their consent; relational context should be retained with only the minimum detail needed to help the user find direction. Understanding an open loop does not require turning everyone in it into a data object."
+            ]
+          },
+          {
+            "heading": "8. Staleness, Expiration, and Renewal",
+            "paragraphs": [
+              "A loop should not remain equally urgent forever. As time passes, some commitments grow in value, some expire, and some lose meaning because circumstances change. Age alone is not a measure of priority; not everything old is urgent, nor is it unimportant.",
+              "Traditional task lists often punish old items in one of two ways: they either make them disappear at the bottom of the list or display them with increasingly severe overdue colors. Both approaches can skip the essential question: Is this item still valid? Saule should use age not to produce guilt, but to invite revalidation.",
+              "Some loops can have an expiration rule from the outset. An event suggestion may be reconsidered after its date passes, temporary price research after a decision is made, or a low-importance idea after it has remained untouched for a certain period. High-consequence areas such as health, law, money, care, and important relationships, however, must not be silently deleted automatically.",
+              "Resurfacing should not simply throw an item back into view unchanged; it should ask what has shifted: What has changed since you recorded this? Is it still your responsibility? Are the deadline and the person you are waiting for still the same? Would it be better to keep, transform, delegate, or release it? Age then produces updated meaning rather than pressure.",
+              "Life transitions may require a collective reassessment. Moving, changing jobs, illness, parenthood, separation, or a change in financial circumstances can alter the status of hundreds of old intentions at once. Instead of forcing the user to defend each item individually, Saule should offer a periodic reset and a way to carry selected items forward.",
+              "Healthy digital memory not only remembers; it can also bring things to an end. Retention periods, archiving, forgetting, and permanent deletion must be clearly distinguished, and the user’s decision to delete must not be quietly reversed by later suggestions."
+            ]
+          },
+          {
+            "heading": "9. The Open-Loop Principle for Saule",
+            "paragraphs": [
+              "This chapter gives rise to a foundational principle for Saule: Saule should not be a creditor of unfinished life, but a gentle interpreter of uncertainty. Its task is not to make users repay every old intention, but to help them see which ones still carry meaning and responsibility today.",
+              "This open-loop principle is a foundational design principle not only for individual life, but for all the life, work, and creativity layers of Saule Core. What remains open may be a personal task, a team decision, or a creative possibility; what each requires is not identical, but all need visible ownership, reliable return, and meaningful closure.",
+              "Each open loop should be represented as simply as possible: What is it? Why is it open? Who owns the next move? What kind of closure does it need? Under what condition should it reappear? When the system is uncertain, it should say so and must not store a provisional interpretation as permanent truth.",
+              "Every resurfaced item should include a reason and an easy way out. The user should be able to defer it, change its state, delegate it, mark it complete, let it go, or delete it permanently. Saule’s intelligence is visible not only in bringing forward the right thing, but also in withdrawing quickly when it brings forward the wrong one.",
+              "Success is not measured by the number of loops closed. More meaningful questions are: Can the user see more clearly what belongs to them? Can they safely set down an intention without rehearsing it mentally? Can they distinguish what they are waiting for from what they must do? Can they end invalid goals without guilt? Do they feel lighter and more directed after a review?",
+              "Saule should not promise to close every loop. Some matters require time, relationship, courage, financial resources, or human support; some never reach a perfect ending. A good system does not eliminate incompleteness. It reduces the chance that incompleteness will become invisible pressure, forgotten responsibility, or permanent self-blame."
             ]
           }
         ],
         "open_questions": [
           {
             "id": "ol-1",
-            "question": "How can Saule detect that a loop has become stale?",
+            "question": "How can Saule recognize that a loop has become stale?",
             "status": "open",
             "decisionArea": "Staleness Detection",
             "answeredInChapters": [
@@ -472,9 +524,9 @@
           },
           {
             "id": "ol-2",
-            "question": "What evidence is sufficient to mark a loop complete?",
+            "question": "What evidence is sufficient to consider a loop complete?",
             "status": "open",
-            "decisionArea": "Completion Semantics",
+            "decisionArea": "Meaning of Completion",
             "answeredInChapters": [
               "Chapter 26 — Context Engine",
               "Chapter 31 — Planning Intelligence"
@@ -482,11 +534,11 @@
           },
           {
             "id": "ol-3",
-            "question": "When should the system suggest abandoning a goal?",
+            "question": "When should the system suggest disengaging from a goal?",
             "status": "open",
-            "decisionArea": "Goal Release",
+            "decisionArea": "Goal Disengagement",
             "answeredInChapters": [
-              "Chapter 24 — Will",
+              "Chapter 24 — Human Agency",
               "Chapter 28 — Coaching Engine"
             ]
           },
@@ -494,7 +546,7 @@
             "id": "ol-4",
             "question": "How can relational loops be represented without scoring people?",
             "status": "open",
-            "decisionArea": "Relationship Context",
+            "decisionArea": "Relational Context",
             "answeredInChapters": [
               "Chapter 14 — Relationships",
               "Chapter 30 — Relationship Intelligence"
@@ -504,7 +556,7 @@
             "id": "ol-5",
             "question": "How often should unresolved loops be reviewed?",
             "status": "open",
-            "decisionArea": "Review Cadence",
+            "decisionArea": "Review Frequency",
             "answeredInChapters": [
               "Chapter 31 — Planning Intelligence"
             ]
@@ -520,7 +572,7 @@
           },
           {
             "id": "ol-7",
-            "question": "Which commitments should expire automatically and which require confirmation?",
+            "question": "Which commitments should expire automatically, and which should require confirmation?",
             "status": "open",
             "decisionArea": "Expiration Rules",
             "answeredInChapters": [
@@ -532,7 +584,7 @@
             "id": "ol-8",
             "question": "How can the system distinguish acceptance from avoidant abandonment?",
             "status": "open",
-            "decisionArea": "Release Quality",
+            "decisionArea": "Quality of Letting Go",
             "answeredInChapters": [
               "Chapter 27 — Reflection Engine",
               "Chapter 28 — Coaching Engine"
@@ -540,25 +592,30 @@
           }
         ],
         "design_decisions": [
-          "Open loops must be classified by the kind of closure they need.",
-          "Deferral must always include a trustworthy return condition.",
-          "Users must be able to abandon commitments without punitive language.",
+          "Open loops should be classified by the kind of closure they require.",
+          "Every loop should carry ownership, a current state, and a condition for return whenever possible.",
+          "Deferral should include a reliable time, event, or context condition rather than an indefinite “later.”",
+          "Planning should begin with the smallest sufficient step, and maintaining the system must not become heavier than the work itself.",
+          "Users should be able to disengage from commitments without punitive language.",
           "Relational and emotional loops must not be reduced to task completion.",
           "Reviews should be small and contextual rather than exhaustive.",
-          "The system must not infer another person's intentions from one-sided data.",
-          "Old loops must invite renewal or expiration rather than permanent urgency."
+          "The system must not infer another person’s intention from one-sided data.",
+          "The open-loop model should preserve a shared principle across life, work, and creativity while adapting to context.",
+          "Old loops should receive an invitation to renew or expire rather than permanent urgency.",
+          "Evidence of completion should vary by loop type, and the final decision should remain with the user.",
+          "Zero open loops must not become a product goal or a measure of user success."
         ],
-        "future_evolution": "This chapter will evolve into a closure model covering action, decision, delegation, conversation, acceptance, and deliberate release.",
+        "future_evolution": "This chapter will later evolve into a formal open-loop model covering action, decision, waiting, delegation, conversation, acceptance, and conscious letting go. Future versions will define ownership states, return conditions, evidence of completion, staleness and expiration policies, and privacy boundaries for relational loops. They will also clarify which structures this model shares across individual life, business operations, and creative work, and where those contexts diverge. Research will also examine how Saule can measure the production of less uncertainty and mental repetition rather than simply the closing of more tasks.",
         "references": [
-          "The Zeigarnik effect",
-          "Prospective memory",
-          "Implementation intentions",
-          "Goal disengagement research",
-          "External cognition and trusted systems",
-          "Commitment and goal shielding",
-          "Relational coordination",
-          "Temporal discounting",
-          "Digital memory and expiration"
+          "Zeigarnik, B. (1927). Das Behalten erledigter und unerledigter Handlungen. Psychologische Forschung, 9, 1–85.",
+          "MacLeod, C. M. (2020). Zeigarnik and von Restorff: The memory effects and the stories behind them. Memory & Cognition, 48, 1073–1088.",
+          "Masicampo, E. J., & Baumeister, R. F. (2011). Consider it done! Plan making can eliminate the cognitive effects of unfulfilled goals. Journal of Personality and Social Psychology, 101(4), 667–683.",
+          "Gollwitzer, P. M. (1999). Implementation intentions: Strong effects of simple plans. American Psychologist, 54(7), 493–503.",
+          "Gollwitzer, P. M., & Sheeran, P. (2006). Implementation intentions and goal achievement: A meta-analysis of effects and processes. Advances in Experimental Social Psychology, 38, 69–119.",
+          "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. Trends in Cognitive Sciences, 20(9), 676–688.",
+          "Gilbert, S. J., Boldt, A., Sachdeva, C., & Scarampi, C. (2023). Outsourcing memory to external tools: A review of intention offloading. Psychonomic Bulletin & Review, 30, 60–76.",
+          "Wrosch, C., Scheier, M. F., Miller, G. E., Schulz, R., & Carver, C. S. (2003). Adaptive self-regulation of unattainable goals: Goal disengagement, goal reengagement, and subjective well-being. Personality and Social Psychology Bulletin, 29(12), 1494–1508.",
+          "Barlow, M. A., Wrosch, C., & McGrath, J. J. (2020). Goal adjustment capacities and quality of life: A meta-analytic review. Journal of Personality, 88(2), 307–323."
         ]
       }
     },
@@ -885,79 +942,121 @@
       "draft": {
         "sections": [
           {
-            "heading": "1. Leaving the Moment Without Leaving the Problem",
+            "heading": "1. What Is an Escape Loop Trying to Solve?",
             "paragraphs": [
-              "When pressure rises, people often reach for something immediate: social media scrolling, gaming, snacking, shopping, gambling, pornography, impulsive trading, endless research, compulsive cleaning, or yet another small task that feels easier than the real one. The form changes, but the pattern is similar. A difficult feeling appears, and the mind looks for a fast exit.",
-              "These loops do not always begin as self-destruction. Many begin as understandable attempts at relief. The problem is that short relief can become an automatic path, while the original source of pressure remains unresolved."
+              "An escape loop is a repeated turn toward something that offers short-term relief when pressure, shame, fear, loneliness, boredom, uncertainty, or inner overload rises. Social media scrolling, gaming, snacking, shopping, gambling, pornography, impulsive trading, compulsive research, uncontrolled screen switching, or smaller tasks that feel easier than the real one can all be different faces of the same pattern.",
+              "What these behaviors share is less their content than their function. People often do not turn toward them because they simply like them, but because they cannot bear something else in that moment. Escape is frequently an attempt to reduce tension, move away from pressure, or lower the volume of a feeling that is hard to carry.",
+              "The central question of this chapter is therefore not “why are people weak-willed?” A more honest question is this: why do some forms of short relief produce more clutter, more guilt, more loss of control, and more need to escape again over time?",
+              "This is not only a matter of private life. A person may escape a feeling, a responsibility, or loneliness; a team may escape difficult conversations or decision costs; a creative person may escape uncertainty, the fear of inadequacy, or perfectionism. The surface changes, but the underlying dynamic remains recognizably similar.",
+              "Saule should therefore not read this pattern through moral weakness or bad-habit language alone. Escape behavior is often a contextual, emotional, relational, and environmental signal. The product’s task is not to punish that signal, but to understand it and, when possible, provide a safer path back."
             ]
           },
           {
-            "heading": "2. Escape Is Often About Regulation",
+            "heading": "2. Relief Can Be Learned Through Negative Reinforcement",
             "paragraphs": [
-              "People do not enter escape loops only because they want pleasure. They also do it because they want distance from shame, fear, boredom, loneliness, uncertainty, or mental overload. The behavior may reduce internal friction for a few minutes even when it creates larger friction later.",
-              "A humane system should therefore ask what the loop is regulating before it asks how to stop it. Without that understanding, every intervention becomes moral advice directed at the surface rather than support directed at the real pressure."
+              "A major line in addiction and compulsion literature shows that behavior is not learned only through reward-seeking, but also through the reduction of aversive inner states. Koob’s work on negative reinforcement and the “dark side of compulsivity” offers a powerful frame for understanding why people may return again and again to behaviors that provide a rapid exit from distress.",
+              "This does not mean that every escape behavior is a clinical addiction. But it does clarify something important: even when a pattern is harmful in the long run, it can still become a strong teacher if it reliably lowers pressure in the short run. The mind often records the immediate drop in tension before it records the future cost.",
+              "For Saule, that means it is not enough to ask only how much a behavior happened. The more revealing questions are what came just before it and what remained just after it. What state was the person in when they turned there? Did the behavior actually restore them, or only quiet them for a while? Did they return with more clarity, or less?",
+              "This distinction can stay invisible in work and creative life. A team may escape a difficult decision meeting through endless slide revisions. A manager may hide inside metrics dashboards instead of facing customer reality. A creator may disappear into research, tools, moodboards, or “preparation” instead of making the work itself. These behaviors can look productive while still functioning as escape.",
+              "A humane system therefore needs to notice when something that looks useful on the surface has become a pathway away from what actually matters. Escape does not always arrive wearing the costume of an obviously “bad” behavior."
             ]
           },
           {
-            "heading": "3. Digital Environments Make Exit Ramps Cheap",
+            "heading": "3. Digital Environments Make Escape Nearly Frictionless",
             "paragraphs": [
-              "Modern environments provide instant pathways away from difficulty. A person can leave an emotionally demanding task and enter an endless stream of novelty in seconds. Platforms are optimized for continuation, not for return.",
-              "This matters because escape is no longer rare or costly. It is available in the same device that also holds work, relationships, planning, and rest. The boundary between coping, distraction, and compulsion becomes easier to blur."
+              "The modern digital environment has built an economy of escape that would have been difficult to imagine in many earlier eras. A person can move from an emotionally difficult task, an unresolved worry, or a slow piece of work into another stimulus in seconds. There is very little preparation required to leave the moment.",
+              "That shift makes escape not only more visible, but cheaper and more frequent. The same device can hold work, relationships, entertainment, research, consumption, and numbing. People are therefore living not only with their own vulnerabilities, but also with an environment architected to make rapid relief constantly available.",
+              "Saule cannot read repeated attention drift as a discipline problem alone. Part of the problem is that the environment makes immediate exits extraordinarily accessible. A design that ignores this reality loads too much individual blame onto the user.",
+              "The same dynamic appears in organizations and creative work. Teams can slide from difficult work into surface work under communication pressure. Creative people can move from risk into measurable busyness. In ordinary life, moments of emptiness, anxiety, or loneliness can be filled with digital sedation before they can even be named.",
+              "Chapter 5 is therefore not only about individual psychology. It is also about the attention economy and the friction profile of modern environments. Saule Core must read escape not only as a personal weakness, but as a behavior shaped by context, environment, and the pressure to self-regulate alone."
             ]
           },
           {
-            "heading": "4. Not Every Repetition Is the Same",
+            "heading": "4. Not Every Repeated Behavior Is the Same",
             "paragraphs": [
-              "Some repeating behaviors are habits, some are avoidance, some are stress responses, and some become dependency-shaped patterns. Saule should not collapse all repetition into one category or make clinical claims it cannot justify.",
-              "What matters at this stage is not labeling the person. It is noticing when a behavior repeatedly appears after overload, steals more time or attention than intended, and leaves the person with less clarity, agency, or rest than before."
+              "Escape loops should not be collapsed into the same category as habits, stress responses, compulsions, and clinical-level addictions. Calling every repetition an “addiction” is scientifically sloppy and user-facingly harmful.",
+              "The World Health Organization’s ICD-11 frame and the American Psychiatric Association’s behavioral-addiction language use much narrower thresholds, including impaired control, significant functional impact, and continuation despite harm. That matters for Saule: the product must not use clinical categories as casual metaphors. Billieux and colleagues’ warning against overpathologizing everyday life is especially relevant here.",
+              "At the same time, patterns do not need to cross a clinical threshold to matter. If a behavior repeatedly pulls a person away from intention, leaves them with more fog than restoration, distorts time, produces shame, and raises the cost of returning, Saule should take it seriously. It should do so, however, in a language of pattern recognition rather than diagnosis.",
+              "The deeper distinction is not the label of the behavior but its effect. The same social-media use can be rest for one person, avoidance for another, and a near loss-of-control pattern for someone else. The same is true for research, gaming, shopping, exercise, cleaning, work, and even “overworking.”",
+              "Saule should therefore ask: what is this behavior regulating? What does it leave behind? How often does it appear under similar conditions? Does it interfere with what the person cares about? Does it make return easier, or harder?"
             ]
           },
           {
-            "heading": "5. The Return Path Matters More Than the Warning",
+            "heading": "5. Escape Works Through Shame and Loneliness Too",
             "paragraphs": [
-              "Most systems treat escape behavior as a failure that must be blocked, punished, or shamed. That approach may increase secrecy without increasing understanding. A better design helps the person return: what were they leaving, what were they needing, and what would make re-entry gentler?",
-              "The goal is not surveillance. It is reducing the distance between disruption and recovery. A person should be able to notice the loop, recover context, and choose the next step without being treated like a suspect inside their own life."
+              "Many escape behaviors are driven not only by pleasure-seeking, but by difficult emotions that become hard to carry. Shame is especially important. A person may feel ashamed that they escaped, that shame increases pressure, and that pressure creates renewed need to escape. The loop is then made not only of the behavior itself, but also of the self-judgment woven around it.",
+              "Loneliness can work in a similar way. Addiction literature often notes the relevance of disconnection, isolation, and lack of felt relational holding. People may not attach only to the behavior itself, but to the temporary sense of contact, filler, or occupiedness that it provides. Hayes and colleagues’ experiential-avoidance frame is useful here: sometimes what becomes reinforcing is not the behavior itself, but the possibility of getting away from an inner experience that feels unbearable.",
+              "That matters deeply because a person who “keeps doing too much of something” may also be carrying a feeling alone. Teams can hide inside performance language to avoid shame about a failed experiment, a deteriorating customer relationship, or weak coordination. Creators can flee the exposedness of making, the fear of inadequacy, or rejection.",
+              "The language of this chapter should therefore not center on “control it, block it, limit it.” It should ask: what is becoming uncarryable, what is getting too loud, what kind of loneliness or shame is active here? Saule Core cannot read people only from the surface of behavior; it must also respect the function of the feeling.",
+              "That does not mean the product becomes therapy. Saule’s role is not to produce clinical interpretations, but to offer a space in which people can see their own patterns more honestly, without amplified shame, with cleaner context, and with human support treated as a valid next step when necessary."
             ]
           },
           {
-            "heading": "6. Relief Without Dependency",
+            "heading": "6. The Return Path Matters More Than the Block",
             "paragraphs": [
-              "Saule should respect that people need comfort, entertainment, and rest. It must not present all pleasure as danger or imply that every escape behavior is pathological. Human life includes pauses, softness, and chosen forms of temporary relief.",
-              "The design question is narrower: when does a relief pattern repeatedly interfere with what the person cares about, and how can the system help without becoming another controlling force? Support should widen choice, not narrow it."
+              "Many digital systems are either silent about escape behavior or aggressively restrictive toward it. Real life is messier. People cannot always stop a behavior once and for all. The more humane question is how they return afterward, because the most damaging part of the loop is often not the act itself, but the clutter, lost time, shame, and inability to restart that follow it.",
+              "This is where Saule’s design advantage can emerge. Instead of punishing the escape, the system can reduce the cost of re-entry. A person should be able to see where they are returning to, what the smallest next step is, what context has been preserved, and what no longer belongs to today.",
+              "This principle matters not only for individual use, but for shared work and creative processes too. If a team avoided a difficult meeting, the path toward the next honest conversation should be visible. If a creative person drifted away from the work, the re-entry point should be small, non-shaming, and genuinely workable. The intelligence of Saule Core is visible not in pushing people back into ideal performance, but in reconnecting them gently to reality.",
+              "That is why the system’s basic reflex should not be alarm. A product voice that says “you did it again” can harden an already fragile self-regulation space. A more helpful response is: “you broke away here; if you want, this is the smallest path back.”",
+              "Return design is the central principle of this chapter. As Marlatt and Donovan’s relapse-prevention tradition also implies, the question is not only how to forbid a behavior, but how to strengthen a person’s capacity to reorient after a break. Saule should be a system that brings people back rather than catches them, that helps them find direction rather than shames them, and that reduces friction rather than adds control."
             ]
           },
           {
-            "heading": "7. From Escape Loops to Honest Context",
+            "heading": "7. Chosen Rest Is Not the Same as Avoidant Relief",
             "paragraphs": [
-              "Over time, Saule can help a person see recurring sequences: overload, avoidance, brief relief, guilt, more clutter, and then renewed pressure. Seeing the sequence matters because it turns self-judgment into legible context.",
-              "Once the pattern is visible, the intervention can become smaller and kinder. Sometimes the next step is a break. Sometimes it is one tiny restart. Sometimes it is naming the avoided feeling. Sometimes it is leaving the goal. The system should support honest return, not forced performance."
+              "Human life is not made only of tasks. It also needs pause, play, pleasure, softness, and intentional emptiness. Saule must not become a puritan productivity system that treats all rewarding behavior with suspicion. Rest is a legitimate part of life.",
+              "The question is not whether relief exists, but when a relief pattern starts repeatedly colliding with a person’s values, making return harder, disrupting their relationship to themselves, and blurring their life structures. Rest can renew. Avoidance often only postpones.",
+              "This distinction cannot always be read from the outside. The same TV episode can be conscious rest one day and heavy avoidance another. The same walk can be real regulation one day and a route away from a conversation that cannot be tolerated on another. Wood and Rünger’s work on habit psychology is useful here: repeated behaviors can become automatic in ways that feel almost independent of stated intention. Saule should understand that difference through pattern, timing, and consequence rather than automatic verdicts.",
+              "One practical question is this: does the person return more regulated, more clear, and more selective, or more foggy, scattered, and reluctant? The same question can be asked in team life and in creative work. Does the pause actually restore the system, or does it help difficult reality remain unseen?",
+              "A humane design therefore does not narrow every zone of enjoyment. It helps people feel the difference between real restoration and forms of relief that quietly take them further away from themselves."
+            ]
+          },
+          {
+            "heading": "8. Boundaries: When Should Saule Fall Silent, and When Should It Encourage Human Support?",
+            "paragraphs": [
+              "Escape loops and addiction-shaped patterns require careful product boundaries. Some behaviors do not remain at the level of habit or distraction; they can involve clear loss of control, harm, functional decline, safety risk, or severe emotional strain. When that happens, the product needs to know the edge of its role.",
+              "If a user explicitly describes serious harm, loss of control, risk to self or others, heavy functional impairment, or urgent support needs, Saule should not act like a self-sufficient intelligence that can solve the situation alone. That limit is not only ethical; it is part of product honesty.",
+              "Encouraging human support should be done without producing shame. “It may help to bring a human support system into this” is very different from “this is beyond you.” Saule’s task is not to exclude the user, but to normalize help-seeking when a burden should not be carried alone.",
+              "The same boundary matters in work and creative contexts. Burnout, compulsive overwork, crisis avoidance, clear harm, or safety risks inside a team cannot be framed merely as productivity issues. Severe destructive or compulsive patterns in creative life are not only making problems either.",
+              "The ethical spine of this chapter is therefore clear: Saule can make patterns more visible, simplify paths back, and act as a bridge toward human support, but it cannot claim clinical authority. The narrower clinical frames of the WHO and APA support that humility. Saule Core’s trust architecture depends on it."
+            ]
+          },
+          {
+            "heading": "9. The Escape-Loop Principle for Saule Core",
+            "paragraphs": [
+              "The design consequence of this chapter is simple and demanding: Saule Core should not be a control system that promises to eliminate escape. It should be a life intelligence that understands the function of escape, lowers the cost of return, and widens the set of available regulating options.",
+              "That principle keeps the same core across life, work, and creativity: when we break away under strain, the task is not to discipline us harder, but to reconnect us more honestly and more practically to where we left off.",
+              "This is deeper than trying to make the user more disciplined. The goal is not harsher self-control, but more honest contact with oneself, more reliable return, less invisible guilt, and more human ways of regulating pressure.",
+              "Such a system sees patterns without freezing them into labels. It recognizes relief without criminalizing all pleasure. It notices strain without converting it into character judgment. It can stay quiet, reflect, preserve context, or make room for human support when needed.",
+              "The measure of success is not that a person “never escapes again.” A better measure is this: can they notice earlier when escape is happening? Can they return with more kindness, more practicality, and less guilt? Can they see more honestly what conditions bring the same loop back? Is the path back becoming a little more visible, a little smaller, and a little more human over time?",
+              "That is the final claim of Chapter 5: escape loops are not stains to suppress. Read poorly, they grow. Read well, they reveal what has become too hard to carry, what is needed, and where better structures, better bonds, and better rhythms are still missing. Saule Core must learn to turn those signals toward the person’s good rather than against them."
             ]
           }
         ],
         "open_questions": [
           {
             "id": "ea-1",
-            "question": "How can Saule detect an escape loop without treating every pause as a problem?",
+            "question": "How should Saule distinguish chosen rest from avoidant relief through contextual signals rather than moral judgments?",
             "status": "open",
-            "decisionArea": "Pattern Detection",
+            "decisionArea": "Relief Quality",
             "answeredInChapters": [
               "Chapter 19 — Adaptive Intelligence",
-              "Chapter 26 — Context Engine"
+              "Chapter 27 — Reflection Engine"
             ]
           },
           {
             "id": "ea-2",
-            "question": "Which signs suggest that a behavior is restoring the user versus draining them?",
+            "question": "What is the minimum amount of context needed to understand the function of a behavior without overreaching?",
             "status": "open",
-            "decisionArea": "Relief Quality",
+            "decisionArea": "Pattern Model",
             "answeredInChapters": [
-              "Chapter 27 — Reflection Engine",
-              "Chapter 28 — Coaching Engine"
+              "Chapter 26 — Context Engine",
+              "Chapter 34 — Saule’s Own Intelligence"
             ]
           },
           {
             "id": "ea-3",
-            "question": "How should the system talk about compulsive behavior without shame or clinical language?",
+            "question": "How can Saule mirror recurring escape patterns without amplifying shame?",
             "status": "open",
             "decisionArea": "Support Language",
             "answeredInChapters": [
@@ -967,47 +1066,47 @@
           },
           {
             "id": "ea-4",
-            "question": "When should Saule preserve context for return instead of interrupting the escape loop directly?",
+            "question": "What size should a return step be after an escape episode?",
             "status": "open",
             "decisionArea": "Return Design",
             "answeredInChapters": [
-              "Chapter 31 — Planning Intelligence",
-              "Chapter 32 — Phone Context"
+              "Chapter 24 — Will",
+              "Chapter 31 — Planning Intelligence"
             ]
           },
           {
             "id": "ea-5",
-            "question": "What environmental signals can help explain why a loop appears at certain times?",
+            "question": "How should organizational escape loops be distinguished from individual ones?",
             "status": "open",
-            "decisionArea": "Context Signals",
+            "decisionArea": "Business Context",
             "answeredInChapters": [
-              "Chapter 26 — Context Engine",
-              "Chapter 32 — Phone Context"
+              "Chapter 30 — Relationship Intelligence",
+              "Chapter 39 — Business Model"
             ]
           },
           {
             "id": "ea-6",
-            "question": "How can Saule distinguish chosen rest from avoidant relief?",
+            "question": "How should creative avoidance be distinguished from incubation?",
             "status": "open",
-            "decisionArea": "Rest vs Avoidance",
+            "decisionArea": "Creative Context",
             "answeredInChapters": [
-              "Chapter 24 — Will",
-              "Chapter 27 — Reflection Engine"
+              "Chapter 15 — Reflection",
+              "Chapter 21 — Learning"
             ]
           },
           {
             "id": "ea-7",
-            "question": "What should happen after repeated loops if the user does not want active intervention?",
+            "question": "What quiet forms of support should remain available when the user does not want active intervention?",
             "status": "open",
             "decisionArea": "Non-Intrusive Support",
             "answeredInChapters": [
               "Chapter 20 — Trust",
-              "Chapter 23 — Ethics"
+              "Chapter 37 — Privacy"
             ]
           },
           {
             "id": "ea-8",
-            "question": "When should Saule suggest stepping away from the tool and toward human support?",
+            "question": "At what threshold should the product step back and encourage human or professional support more explicitly?",
             "status": "open",
             "decisionArea": "Support Boundaries",
             "answeredInChapters": [
@@ -1017,26 +1116,28 @@
           }
         ],
         "design_decisions": [
-          "Escape behavior must first be understood as context, not interpreted as weak character, lack of will, or personal failure.",
-          "Saule must not use diagnostic or clinical labels for recurring loops.",
-          "The system should preserve a gentle return path rather than escalate shame.",
-          "Rest, pleasure, and chosen entertainment must not be framed as automatic problems.",
-          "Support should focus on widening options under pressure, not enforcing purity.",
-          "Observed patterns must remain inspectable and correctable by the user.",
-          "When confidence is low, Saule should ask or reflect rather than infer.",
-          "When the user expresses loss of control, risk of harm, or serious functional decline, Saule should recognize its limits and encourage human or professional support."
+          "Escape behavior should first be read as a contextual attempt at regulation, not as a character defect.",
+          "Saule must not speak in diagnostic language or use addiction categories as everyday metaphors.",
+          "The system should attend more to function, antecedents, and aftermath than to the name of the behavior itself.",
+          "Return design should be a more primary product behavior than blocking or shaming.",
+          "Rest, pleasure, and chosen emptiness must not be treated as automatic warning signs.",
+          "Shame, loneliness, and relational disconnection may be part of the loop, but Saule must not claim therapeutic certainty.",
+          "The same core principle should hold across life, work, and creativity while the language adapts to context.",
+          "When users express risk, harm, marked loss of control, or serious functional decline, Saule must recognize its limits and make room for human support.",
+          "Pattern data must remain visible, revisable, and withdrawable by the user.",
+          "Success should be measured not by eliminating escape, but by earlier noticing, gentler return, and less invisible guilt."
         ],
-        "future_evolution": "This chapter will later define escape-loop archetypes, return-path design patterns, and boundaries for when the product should stay quiet, reflect, or encourage human support.",
+        "future_evolution": "This chapter will later become a more formal Saule Core model of escape loops: triggering conditions, regulated emotions, short-term relief types, return costs, repetition thresholds, shame and loneliness components, and context-specific regulation options will be described more explicitly. Later versions will separate personal archetypes in Saule Life, organizational and operational escape forms in Saule Business, and perfectionistic delay or circling in Saule Creative. They will also define when the path back should be silent, reflective, protective, or bridge-building toward human support.",
         "references": [
-          "Behavioral addiction research",
-          "Coping and avoidance literature",
-          "Negative reinforcement",
-          "Emotion regulation research",
-          "Digital habit formation",
-          "Attention economy design",
-          "Self-control and relapse research",
-          "Human-computer interaction on compulsive use",
-          "Research on shame and behavior change"
+          "Koob, G. F. (2021). Drug addiction: Hyperkatifeia/negative reinforcement as a framework for medications development. Pharmacological Reviews, 73(1), 163–201.",
+          "Koob, G. F. (2009). Neurobiological substrates for the dark side of compulsivity in addiction. Neuropharmacology, 56(Suppl 1), 18–31.",
+          "Hayes, S. C., Wilson, K. G., Gifford, E. V., Follette, V. M., & Strosahl, K. (1996). Experiential avoidance and behavioral disorders: A functional dimensional approach to diagnosis and treatment. Journal of Consulting and Clinical Psychology, 64(6), 1152–1168.",
+          "World Health Organization. (2019). ICD-11 for Mortality and Morbidity Statistics: Gaming disorder.",
+          "American Psychiatric Association. (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., text rev.). American Psychiatric Association Publishing.",
+          "Wood, W., & Rünger, D. (2016). Psychology of habit. Annual Review of Psychology, 67, 289–314.",
+          "Marlatt, G. A., & Donovan, D. M. (Eds.). (2005). Relapse Prevention: Maintenance Strategies in the Treatment of Addictive Behaviors (2nd ed.). Guilford Press.",
+          "Brevers, D., & Turel, O. (2019). Strategies for self-controlling social media use: Classification and role in preventing social media addiction symptoms. Journal of Behavioral Addictions, 8(3), 554–563.",
+          "Billieux, J., Schimmenti, A., Khazaal, Y., Maurage, P., & Heeren, A. (2015). Are we overpathologizing everyday life? A tenable blueprint for behavioral addiction research. Journal of Behavioral Addictions, 4(3), 119–123."
         ]
       }
     }

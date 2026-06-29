@@ -7,6 +7,8 @@ const translatedChapterSlugs = new Set([
   'why-we-are-overwhelmed',
   'mental-clutter',
   'the-attention-crisis',
+  'open-loops',
+  'escape-loops-and-addictions',
 ]);
 
 const translatedAppendixSlugs = new Set([

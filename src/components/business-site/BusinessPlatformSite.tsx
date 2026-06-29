@@ -6,7 +6,7 @@ import { useEffect, useMemo, useState } from 'react';
 
 type SitePage =
   | 'home'
-  | 'crm'
+  | 'intelligence'
   | 'adaptive-ai'
   | 'company-memory'
   | 'pricing'
@@ -85,9 +85,9 @@ type Copy = {
       highlighted?: boolean;
     }>;
   };
-  finalCta: { title: string; copy: string; crmCta: string; coreCta: string };
+  finalCta: { title: string; copy: string; platformCta: string; coreCta: string };
   pages: {
-    crm: { eyebrow: string; title: string; copy: string; pillars: FeatureItem[]; workflowTitle: string; workflow: string[] };
+    intelligence: { eyebrow: string; title: string; copy: string; pillars: FeatureItem[]; workflowTitle: string; workflow: string[] };
     adaptiveAi: { eyebrow: string; title: string; copy: string; layers: FeatureItem[]; noteTitle: string; noteCopy: string };
     companyMemory: { eyebrow: string; title: string; copy: string; signalsTitle: string; signals: FeatureItem[]; outcomeTitle: string; outcomes: string[] };
     pricing: { eyebrow: string; title: string; copy: string };
@@ -112,17 +112,17 @@ const trCopy: Copy = {
   },
   hero: [
     {
-      eyebrow: 'Kurumsal Hafıza',
+      eyebrow: 'Uyumlanabilir Zeka',
       title: 'Her etkileşimden',
-      accent: 'öğrenen CRM',
+      accent: 'öğrenen platform',
       body: 'Saule; müşteri görüşmelerini iç görülere, kılavuzlara ve aksiyonlara dönüştürür.',
       kind: 'memory',
     },
     {
-      eyebrow: 'Yaşayan Saule Asistan',
+      eyebrow: 'Akıllı Konuşma Penceresi',
       title: 'İşinizi tanıyan',
-      accent: 'yaşayan asistan',
-      body: 'Soruları yanıtlar, sizin için not alır, şirketinizi öğrenir ve onayınızla CRM aksiyonlarını gerçekleştirir.',
+      accent: 'akıllı asistan',
+      body: 'Soruları yanıtlar, sizin için not alır, şirketinizi öğrenir ve onayınızla otomatik aksiyonları gerçekleştirir.',
       kind: 'assistant',
     },
     {
@@ -178,9 +178,9 @@ const trCopy: Copy = {
     steps: ['Etkileşim', 'İçgörü', 'Hafıza', 'Uygulama planı / Yanıt metni / Aksiyon', 'Öğrenme'],
   },
   crmBody: {
-    eyebrow: 'CRM gövdesi',
-    title: 'Operasyonu yöneten ürün katmanı',
-    copy: 'Saule, gelişmiş bir müşteri operasyonları platformunun ihtiyaç duyduğu temel CRM yüzeylerini tek, temiz ve ekip odaklı bir deneyimde toplar.',
+    eyebrow: 'Akıllı Çalışma Alanı',
+    title: 'Operasyonu yöneten uyumlanabilir zeka',
+    copy: 'Saule, müşteri operasyonlarının ihtiyaç duyduğu tüm temel araçları, konuşma penceresi ve yapay zeka ile desteklenen tek, temiz bir deneyimde toplar.',
     features: [
       { title: 'Çok Kanallı Gelen Kutusu', description: 'E-posta, WhatsApp, canlı sohbet, çağrı ve sosyal temasları tek akışta yönetin.', status: 'Yakında', icon: '✉️' },
       { title: 'Talep Yönetimi', description: 'Atama, öncelik, durum, iç not, hizmet seviyesi ve takip akışlarıyla destek operasyonunu olgunlaştırın.', status: 'Mevcut', icon: '🎫' },
@@ -191,9 +191,9 @@ const trCopy: Copy = {
     ],
   },
   intelligence: {
-    eyebrow: 'Öğrenen Zeka',
-    title: "Saule'yi klasik CRM'den ayıran zeka katmanı",
-    copy: 'Klasik CRM veriyi saklar. Saule veriden öğrenir; tekrar eden sinyalleri hafızaya, hafızayı uygulama planlarına ve aksiyonlara dönüştürür.',
+    eyebrow: 'Uyumlanabilir Zeka',
+    title: "Saule'yi öne çıkaran akıllı altyapı",
+    copy: 'Saule veriyi sadece saklamaz, ondan öğrenir; tekrar eden sinyalleri kurumsal hafızaya, hafızayı uygulama planlarına ve otonom aksiyonlara dönüştürür.',
     features: [
       { title: 'İçgörü Çıkarma', description: 'Müşteri temaslarından kategori, duygu, kanıt ve önerilen aksiyon çıkarır.', status: 'Mevcut', icon: '✨' },
       { title: 'Kurumsal Hafıza', description: 'Tekrar eden müşteri problemlerini kalıcı örüntülere dönüştürür.', status: 'Mevcut', icon: '🧠' },
@@ -224,7 +224,7 @@ const trCopy: Copy = {
   roadmap: {
     eyebrow: 'Ürün yolculuğu',
     title: 'Bugünden yarına öğrenen müşteri operasyonları platformu',
-    current: ['Manuel CRM kayıtları', 'Müşteriler', 'Şirketler', 'Talepler', 'Görevler', 'Etkileşimler', 'Yapay zeka ile içgörü çıkarma', 'Hafıza örüntüleri', 'Uygulama planları', 'Yanıt metinleri', 'İyileştirme aksiyonları', 'Şirket 360', 'Müşteri 360 görünümü', 'Hizmet seviyesi takibi', 'Gelir Zekası'],
+    current: ['Akıllı müşteri profilleri', 'Müşteriler', 'Şirketler', 'Talepler', 'Görevler', 'Etkileşimler', 'Yapay zeka ile içgörü çıkarma', 'Hafıza örüntüleri', 'Uygulama planları', 'Yanıt metinleri', 'İyileştirme aksiyonları', 'Şirket 360', 'Müşteri 360 görünümü', 'Hizmet seviyesi takibi', 'Gelir Zekası'],
     coming: ['Yaşayan Saule Asistan', 'Rol bazlı kullanıcı deneyimi', 'Yönlendirmeli ilk kurulum', 'Gelir aksiyonu onay akışları', 'Operasyonel darboğaz analizi', 'Kapalı döngü öğrenme altyapısı'],
     planned: ['E-posta entegrasyonu', 'WhatsApp entegrasyonu', 'Web canlı destek', 'VoIP ve çağrı zekası', 'HubSpot entegrasyonu', 'Salesforce entegrasyonu', 'Slack entegrasyonu', 'API erişimi'],
   },
@@ -232,37 +232,37 @@ const trCopy: Copy = {
     eyebrow: 'Güven',
     title: 'Müşteri verisi için ciddi ve kontrollü mimari',
     copy: 'Saule, müşteri operasyonları verisinin hassasiyetini merkeze alır. Mimari çalışma alanı izolasyonu, rol bazlı erişim ve kurumsal hazırlık prensipleriyle gelişir.',
-    items: ['Çalışma alanı izolasyonu', 'Rol bazlı erişim', 'Denetim kayıtları', "KVKK'ya hazır mimari", 'Güvenli CRM veri modeli', 'Kurumsal hazırlık', 'Yerel destek'],
+    items: ['Çalışma alanı izolasyonu', 'Rol bazlı erişim', 'Denetim kayıtları', "KVKK'ya hazır mimari", 'Güvenli veri modeli', 'Kurumsal hazırlık', 'Yerel destek'],
   },
   pricingPreview: {
     eyebrow: 'Paketler',
     title: "Yapay zeka ayrı eklenti değil, Saule'nin kendisi",
-    copy: 'Bütün Adaptive CRM ve yapay zeka özellikleri her pakette standarttır. Paketler ekip büyüklüğüne ve AI kullanım kredisine göre ölçeklenir.',
+    copy: 'Bütün Adaptive Intelligence ve platform özellikleri her pakette standarttır. Paketler ekip büyüklüğüne ve AI kullanım kredisine göre ölçeklenir.',
     note: 'Fiyatlar yıllık paket fiyatı baz alınarak listelenmiştir. Kullanılmayan krediler devreder. Kurumsal paket için entegrasyon ve başlangıç ihtiyaçlarına göre özel planlama yapılır.',
     plans: [
-      { name: 'Başlangıç', audience: '1-5 Kullanıcı', price: '$2,400 / Yıl', description: 'Çekirdek ekipler için tüm platform özellikleri ve temel kredi hacmi.', features: ['Tüm CRM ve yapay zeka özellikleri', '5 kullanıcıya kadar erişim', '100.000 AI kullanım kredisi', 'Standart destek'], cta: 'Demo Planla' },
-      { name: 'Büyüme', audience: '6-20 Kullanıcı', price: '$8,900 / Yıl', description: 'Büyüyen operasyonlar için genişletilmiş yıllık kredi ve artan kullanıcı kapasitesi.', features: ['Tüm CRM ve yapay zeka özellikleri', '20 kullanıcıya kadar erişim', '500.000 AI kullanım kredisi', 'Öncelikli destek'], cta: 'Büyüme Demosu Planla', highlighted: true },
-      { name: 'Ölçek', audience: '21-50 Kullanıcı', price: '$21,900 / Yıl', description: 'Yüksek müşteri etkileşimi olan ekipler için devasa kredi havuzu.', features: ['Tüm CRM ve yapay zeka özellikleri', '50 kullanıcıya kadar erişim', '1.500.000 AI kullanım kredisi', 'Özel Müşteri Temsilcisi'], cta: 'Ölçek Demosu Planla' },
+      { name: 'Başlangıç', audience: '1-5 Kullanıcı', price: '$2,400 / Yıl', description: 'Çekirdek ekipler için tüm platform özellikleri ve temel kredi hacmi.', features: ['Tüm platform ve yapay zeka özellikleri', '5 kullanıcıya kadar erişim', '100.000 AI kullanım kredisi', 'Standart destek'], cta: 'Demo Planla' },
+      { name: 'Büyüme', audience: '6-20 Kullanıcı', price: '$8,900 / Yıl', description: 'Büyüyen operasyonlar için genişletilmiş yıllık kredi ve artan kullanıcı kapasitesi.', features: ['Tüm platform ve yapay zeka özellikleri', '20 kullanıcıya kadar erişim', '500.000 AI kullanım kredisi', 'Öncelikli destek'], cta: 'Büyüme Demosu Planla', highlighted: true },
+      { name: 'Ölçek', audience: '21-50 Kullanıcı', price: '$21,900 / Yıl', description: 'Yüksek müşteri etkileşimi olan ekipler için devasa kredi havuzu.', features: ['Tüm platform ve yapay zeka özellikleri', '50 kullanıcıya kadar erişim', '1.500.000 AI kullanım kredisi', 'Özel Müşteri Temsilcisi'], cta: 'Ölçek Demosu Planla' },
       { name: 'Kurumsal', audience: '50+ Kullanıcı', price: 'Özel', description: 'Sınırsız kullanıcı mimarisi, özel entegrasyonlar ve esnek kredi modelleri.', features: ['Sınırsız kullanıcı', 'Özel AI kullanım kredisi planı', 'Özel entegrasyonlar ve API', 'Kurumsal güvenlik ve destek'], cta: 'Satış Ekibiyle Görüş' },
     ],
   },
   finalCta: {
     title: 'Müşteri verisini kaydetmekten fazlasını yapın.',
     copy: 'Her görüşmeden öğrenen, hafıza kuran ve ekibinize gelişim aksiyonları üreten bir CRM deneyimine geçin.',
-    crmCta: "Saule CRM'i İncele",
+    platformCta: "Platformu İncele",
     coreCta: "Core'a dön",
   },
   pages: {
-    crm: {
+    intelligence: {
       eyebrow: 'Saule Adaptive CRM',
-      title: 'Müşteri operasyonları için CRM gövdesi, gelişim için kurumsal hafıza',
-      copy: 'Saule CRM; gelen kutusu, talep yönetimi, müşteri ve şirket kayıtları, Müşteri 360, uygulama planı, yanıt metni ve aksiyon katmanlarını aynı öğrenme döngüsünde birleştirir.',
+      title: 'Müşteri operasyonları için zeka altyapısı, gelişim için kurumsal hafıza',
+      copy: 'Saule; gelen kutusu, talep yönetimi, müşteri ve şirket kayıtları, Müşteri 360, uygulama planı, yanıt metni ve aksiyon katmanlarını aynı öğrenme döngüsünde birleştirir.',
       pillars: [
         { title: 'Operasyonel netlik', description: 'Talep, gelen kutusu, hizmet seviyesi ve görevlerle ekiplerin günlük işini düzenler.', icon: '📋' },
         { title: 'Müşteri bağlamı', description: 'Her müşteri ve şirket için geçmiş, risk, duygu durumu ve açık konuları bir araya getirir.', icon: '👥' },
         { title: 'Öğrenen hafıza', description: 'Etkileşimlerden örüntü çıkarır ve ekibin davranışını geliştiren aksiyonlar üretir.', icon: '🧠' },
       ],
-      workflowTitle: 'Saule CRM çalışma akışı',
+      workflowTitle: 'Saule akıllı çalışma akışı',
       workflow: ['Müşteri teması yakalanır', 'Talep veya etkileşim kaydına bağlanır', 'Yapay zeka içgörü çıkarır', 'Örüntü kurumsal hafızaya işlenir', 'Uygulama planı, yanıt metni veya aksiyon üretilir', 'Sonuçlar takip edilir'],
     },
     adaptiveAi: {
@@ -280,7 +280,7 @@ const trCopy: Copy = {
     },
     companyMemory: {
       eyebrow: 'Kurumsal Hafıza',
-      title: 'Talep kapanınca bilginin kaybolmadığı yeni CRM katmanı',
+      title: 'Talep kapanınca bilginin kaybolmadığı yeni zeka katmanı',
       copy: 'Kurumsal hafıza, müşteri konuşmalarındaki tekrar eden sinyalleri ekiplerin kullanabileceği kalıcı bilgiye dönüştürür.',
       signalsTitle: 'Saule hangi sinyalleri hafızaya alır?',
       signals: [
@@ -295,14 +295,14 @@ const trCopy: Copy = {
     pricing: {
       eyebrow: 'Paketler',
       title: "Yapay zeka ayrı eklenti değil, Saule'nin kendisi",
-      copy: 'Bütün Adaptive CRM ve yapay zeka özellikleri her pakette standarttır. Paketler ekip büyüklüğüne ve AI kullanım kredisine göre ölçeklenir.',
+      copy: 'Bütün Adaptive Intelligence ve platform özellikleri her pakette standarttır. Paketler ekip büyüklüğüne ve AI kullanım kredisine göre ölçeklenir.',
     },
     security: {
       eyebrow: 'Güvenlik ve KVKK',
       title: 'Müşteri verisi ciddi bir mimari ister',
       copy: 'Saule, müşteri konuşmalarının ticari ve kişisel hassasiyetini dikkate alarak çalışma alanı izolasyonu, rol bazlı erişim ve denetlenebilirlik prensipleriyle tasarlanır.',
       principles: [
-        { title: 'Çalışma alanı izolasyonu', description: 'CRM verisi çalışma alanı sınırları içinde ayrıştırılır.', icon: '🧱' },
+        { title: 'Çalışma alanı izolasyonu', description: 'Platform verisi çalışma alanı sınırları içinde ayrıştırılır.', icon: '🧱' },
         { title: 'Rol bazlı erişim', description: 'Kullanıcı, ekip ve yetki modeli kurumsal kullanım için olgunlaştırılır.', icon: '🔐' },
         { title: 'Denetim kayıtları', description: 'Kritik aksiyonlar ve veri hareketleri izlenebilirlik için kayıt altına alınır.', icon: '📄' },
         { title: "KVKK'ya hazır yaklaşım", description: 'Veri minimizasyonu, erişim kontrolü ve silme süreçleri ürün yaklaşımına dahil edilir.', icon: '⚖️' },
@@ -312,13 +312,13 @@ const trCopy: Copy = {
     },
     resource: {
       eyebrow: 'Kaynak',
-      title: 'Adaptive CRM nedir?',
-      copy: 'Adaptive CRM, müşteri verisini sadece saklayan değil, bu veriden öğrenerek şirket davranışını geliştiren CRM yaklaşımıdır.',
+      title: 'Uyumlanabilir Zeka Nedir?',
+      copy: 'Uyumlanabilir Zeka, müşteri verisini sadece saklayan değil, bu veriden öğrenerek şirket davranışını geliştiren bir platform yaklaşımıdır.',
       sections: [
-        { title: 'Klasik CRM ne yapar?', body: 'Klasik CRM müşteri kayıtlarını, satış fırsatlarını, talepleri ve iletişim geçmişini düzenler. Bu gereklidir fakat tek başına şirketin öğrenmesini garanti etmez.' },
-        { title: 'Adaptive CRM neyi değiştirir?', body: 'Adaptive CRM her müşteri temasından içgörü çıkarır, tekrar eden sinyalleri kurumsal hafızaya alır ve ekiplerin kullanacağı uygulama planı, yanıt metni ve aksiyonlar üretir.' },
+        { title: 'Geleneksel sistemler ne yapar?', body: 'Geleneksel sistemler müşteri kayıtlarını, satış fırsatlarını, talepleri ve iletişim geçmişini düzenler. Bu gereklidir fakat tek başına şirketin öğrenmesini garanti etmez.' },
+        { title: 'Uyumlanabilir Zeka neyi değiştirir?', body: 'Uyumlanabilir Zeka her müşteri temasından içgörü çıkarır, tekrar eden sinyalleri kurumsal hafızaya alır ve ekiplerin kullanacağı uygulama planı, yanıt metni ve aksiyonlar üretir.' },
         { title: 'Neden şimdi?', body: 'Şirketler artık çok kanallı müşteri verisine sahip. Çağrı, WhatsApp, e-posta, canlı destek ve satış notları birbirinden kopuk kaldığında gerçek öğrenme oluşmaz.' },
-        { title: 'Saule yaklaşımı', body: 'Saule, CRM gövdesini öğrenen yapay zeka ile birleştirir. Amaç sadece veriyi göstermek değil; müşteri operasyonlarının daha iyi çalışmasını sağlamaktır.' },
+        { title: 'Saule yaklaşımı', body: 'Saule, temel operasyonları öğrenen yapay zeka ile birleştirir. Amaç sadece veriyi göstermek değil; müşteri operasyonlarının daha iyi çalışmasını sağlamaktır.' },
       ],
     },
     legal: {
@@ -345,7 +345,7 @@ const trCopy: Copy = {
     demo: {
       eyebrow: 'Dummy Demo',
       title: 'Demo planlama akışı için ayrılmış ekran',
-      copy: 'Demo Planla butonları artık business/crm evreninde kendi sayfasına akıyor. Şimdilik bu alan placeholder.',
+      copy: 'Demo Planla butonları artık business platform evreninde kendi sayfasına akıyor. Şimdilik bu alan placeholder.',
       cardTitle: 'Demo Planla',
       cardCopy: 'Buraya daha sonra form, takvim ya da yönlendirme akışı bağlayabiliriz.',
       bullets: ['Takvim entegrasyonu', 'Ekip bilgisi formu', 'İhtiyaç seçimi', 'Satış yönlendirmesi'],
@@ -478,7 +478,7 @@ const enCopy: Copy = {
   roadmap: {
     eyebrow: 'Product journey',
     title: 'A customer operations platform that learns, from today into tomorrow',
-    current: ['Manual CRM records', 'Customers', 'Companies', 'Tickets', 'Tasks', 'Interactions', 'AI insight extraction', 'Memory patterns', 'Playbooks', 'Scripts', 'Improvement actions', 'Company 360', 'Customer 360 view', 'SLA tracking', 'Revenue Intelligence'],
+    current: ['Smart customer profiles', 'Customers', 'Companies', 'Tickets', 'Tasks', 'Interactions', 'AI insight extraction', 'Memory patterns', 'Playbooks', 'Scripts', 'Improvement actions', 'Company 360', 'Customer 360 view', 'SLA tracking', 'Revenue Intelligence'],
     coming: ['Living Saule Assistant', 'Role-based UX', 'Guided onboarding', 'Revenue action approvals', 'Operational bottleneck analysis', 'Closed-loop learning infrastructure'],
     planned: ['Email integration', 'WhatsApp integration', 'Web live chat', 'VoIP and call intelligence', 'HubSpot integration', 'Salesforce integration', 'Slack integration', 'API access'],
   },
@@ -486,7 +486,7 @@ const enCopy: Copy = {
     eyebrow: 'Trust',
     title: 'A serious and controlled architecture for customer data',
     copy: 'Saule treats customer operations data as sensitive. The architecture grows with workspace isolation, role-based access and enterprise readiness.',
-    items: ['Workspace isolation', 'Role-based access', 'Audit logs', 'Privacy-ready architecture', 'Secure CRM data model', 'Enterprise readiness', 'Local support'],
+    items: ['Workspace isolation', 'Role-based access', 'Audit logs', 'Privacy-ready architecture', 'Secure data model', 'Enterprise readiness', 'Local support'],
   },
   pricingPreview: {
     eyebrow: 'Plans',
@@ -503,11 +503,11 @@ const enCopy: Copy = {
   finalCta: {
     title: 'Do more than store customer data.',
     copy: 'Move to a CRM experience that learns from every conversation, builds memory and creates improvement actions for your team.',
-    crmCta: 'Explore Saule CRM',
+    platformCta: 'Explore Platform',
     coreCta: 'Back to Core',
   },
   pages: {
-    crm: {
+    intelligence: {
       eyebrow: 'Saule Adaptive CRM',
       title: 'A CRM foundation for customer operations, and company memory for improvement',
       copy: 'Saule CRM brings inbox, ticketing, customer and company records, Customer 360, playbooks, scripts and actions into one learning loop.',
@@ -516,7 +516,7 @@ const enCopy: Copy = {
         { title: 'Customer context', description: 'Brings together history, risk, sentiment, and open topics for every customer and company.', icon: '👥' },
         { title: 'Learning memory', description: 'Extracts patterns from interactions and generates actions that improve team behavior.', icon: '🧠' },
       ],
-      workflowTitle: 'Saule CRM workflow',
+      workflowTitle: 'Saule smart workflow',
       workflow: ['Customer contact is captured', 'It is attached to a ticket or interaction record', 'AI extracts insight', 'The pattern is written into company memory', 'A plan, script or action is generated', 'Results are followed up'],
     },
     adaptiveAi: {
@@ -534,7 +534,7 @@ const enCopy: Copy = {
     },
     companyMemory: {
       eyebrow: 'Company Memory',
-      title: 'A new CRM layer where knowledge does not disappear when the ticket closes',
+      title: 'A new intelligence layer where knowledge does not disappear when the ticket closes',
       copy: 'Company memory turns recurring signals in customer conversations into durable knowledge teams can actually use.',
       signalsTitle: 'Which signals does Saule store in memory?',
       signals: [
@@ -556,7 +556,7 @@ const enCopy: Copy = {
       title: 'Customer data requires a serious architecture',
       copy: 'Saule is designed around workspace isolation, role-based access and auditability, with the commercial and personal sensitivity of customer conversations in mind.',
       principles: [
-        { title: 'Workspace isolation', description: 'CRM data is segregated within workspace boundaries.', icon: '🧱' },
+        { title: 'Workspace isolation', description: 'Platform data is segregated within workspace boundaries.', icon: '🧱' },
         { title: 'Role-based access', description: 'User, team, and permission models are matured for enterprise use.', icon: '🔐' },
         { title: 'Audit logs', description: 'Critical actions and data movements are logged for traceability.', icon: '📄' },
         { title: 'Privacy-ready approach', description: 'Data minimization, access control, and deletion processes are embedded in the product.', icon: '⚖️' },
@@ -566,11 +566,11 @@ const enCopy: Copy = {
     },
     resource: {
       eyebrow: 'Resource',
-      title: 'What is Adaptive CRM?',
+      title: 'What is Adaptive Intelligence?',
       copy: 'Adaptive CRM is an approach that does not just store customer data, but learns from it to improve company behavior.',
       sections: [
-        { title: 'What does classic CRM do?', body: 'Classic CRM organizes customer records, sales opportunities, tickets and communication history. That matters, but does not guarantee learning on its own.' },
-        { title: 'What changes with Adaptive CRM?', body: 'Adaptive CRM extracts insight from every contact, stores recurring signals in company memory and generates plans, scripts and actions teams can use.' },
+        { title: 'What do traditional systems do?', body: 'Traditional systems organize customer records, sales opportunities, tickets and communication history. That matters, but does not guarantee learning on its own.' },
+        { title: 'What changes with Adaptive CRM?', body: 'Adaptive Intelligence extracts insight from every contact, stores recurring signals in company memory and generates plans, scripts and actions teams can use.' },
         { title: 'Why now?', body: 'Companies now have multi-channel customer data. When calls, WhatsApp, email, live support and sales notes stay fragmented, real learning does not emerge.' },
         { title: 'The Saule approach', body: 'Saule combines the CRM foundation with adaptive intelligence. The goal is not only to display data, but to make customer operations work better.' },
       ],
@@ -733,7 +733,7 @@ const ruCopy: Copy = {
   roadmap: {
     eyebrow: 'Развитие продукта',
     title: 'Платформа клиентских операций, которая учится сегодня и завтра',
-    current: ['Ручные записи CRM', 'Клиенты', 'Компании', 'Тикеты', 'Задачи', 'Взаимодействия', 'Извлечение инсайтов ИИ', 'Шаблоны памяти', 'Плейбуки', 'Скрипты', 'Действия по улучшению', 'Профиль Компании 360', 'Просмотр Клиента 360', 'Отслеживание SLA', 'Аналитика Выручки'],
+    current: ['Умные профили клиентов', 'Клиенты', 'Компании', 'Тикеты', 'Задачи', 'Взаимодействия', 'Извлечение инсайтов ИИ', 'Шаблоны памяти', 'Плейбуки', 'Скрипты', 'Действия по улучшению', 'Профиль Компании 360', 'Просмотр Клиента 360', 'Отслеживание SLA', 'Аналитика Выручки'],
     coming: ['Живой ассистент Saule', 'Ролевой интерфейс', 'Интерактивный онбординг', 'Одобрение финансовых действий', 'Анализ операционных узких мест', 'Инфраструктура закрытого цикла обучения'],
     planned: ['Интеграция с Email', 'Интеграция с WhatsApp', 'Живой чат на сайте', 'VoIP и аналитика звонков', 'Интеграция с HubSpot', 'Интеграция с Salesforce', 'Интеграция с Slack', 'Доступ к API'],
   },
@@ -741,7 +741,7 @@ const ruCopy: Copy = {
     eyebrow: 'Доверие',
     title: 'Серьезная и контролируемая архитектура для данных клиентов',
     copy: 'Saule относится к данным клиентских операций как к чувствительным. Архитектура растет с изоляцией рабочих областей, доступом по ролям и готовностью к корпоративному использованию.',
-    items: ['Изоляция рабочих областей', 'Доступ по ролям', 'Журналы аудита', 'Конфиденциальная архитектура', 'Безопасная модель данных CRM', 'Enterprise-готовность', 'Локальная поддержка'],
+    items: ['Изоляция рабочих областей', 'Доступ по ролям', 'Журналы аудита', 'Конфиденциальная архитектура', 'Безопасная модель данных', 'Enterprise-готовность', 'Локальная поддержка'],
   },
   pricingPreview: {
     eyebrow: 'Тарифы',
@@ -758,11 +758,11 @@ const ruCopy: Copy = {
   finalCta: {
     title: 'Делайте больше, чем просто хранить данные.',
     copy: 'Перейдите к CRM, который учится на каждом разговоре, строит память и создает улучшения для вашей команды.',
-    crmCta: 'Изучить Saule CRM',
+    platformCta: 'Изучить платформу',
     coreCta: 'Назад в Core',
   },
   pages: {
-    crm: {
+    intelligence: {
       eyebrow: 'Saule Adaptive CRM',
       title: 'Основа CRM для клиентских операций и память компании для улучшений',
       copy: 'Saule CRM объединяет входящие, тикеты, записи клиентов и компаний, Клиент 360, плейбуки, скрипты и действия в единый цикл обучения.',
@@ -771,7 +771,7 @@ const ruCopy: Copy = {
         { title: 'Контекст клиента', description: 'Объединяет историю, риски, настроение и открытые темы по каждому клиенту и компании.', icon: '👥' },
         { title: 'Обучающаяся память', description: 'Извлекает шаблоны из взаимодействий и создает действия, улучшающие работу команды.', icon: '🧠' },
       ],
-      workflowTitle: 'Рабочий процесс Saule CRM',
+      workflowTitle: 'Умный рабочий процесс Saule',
       workflow: ['Клиентский контакт зафиксирован', 'Привязан к тикету или записи взаимодействия', 'ИИ извлекает инсайт', 'Шаблон записывается в память компании', 'Создается план, скрипт или действие', 'Результаты отслеживаются'],
     },
     adaptiveAi: {
@@ -821,11 +821,11 @@ const ruCopy: Copy = {
     },
     resource: {
       eyebrow: 'Ресурс',
-      title: 'Что такое Adaptive CRM?',
+      title: 'Что такое Адаптивный ИИ?',
       copy: 'Adaptive CRM — это подход, который не просто хранит клиентские данные, а учится на них для улучшения поведения компании.',
       sections: [
-        { title: 'Что делает классическая CRM?', body: 'Классическая CRM упорядочивает записи клиентов, возможности продаж, тикеты и история коммуникаций. Это важно, но само по себе не гарантирует обучение.' },
-        { title: 'Что меняется с Adaptive CRM?', body: 'Adaptive CRM извлекает инсайты из каждого контакта, сохраняет повторяющиеся сигналы в памяти компании и генерирует планы, сценарии и действия, которые могут использовать команды.' },
+        { title: 'Что делают традиционные системы?', body: 'Традиционные системы упорядочивают записи клиентов, возможности продаж, тикеты и история коммуникаций. Это важно, но само по себе не гарантирует обучение.' },
+        { title: 'Что меняется с Adaptive CRM?', body: 'Адаптивный ИИ извлекает инсайты из каждого контакта, сохраняет повторяющиеся сигналы в памяти компании и генерирует планы, сценарии и действия, которые могут использовать команды.' },
         { title: 'Почему сейчас?', body: 'Компании теперь имеют многоканальные данные о клиентах. Когда звонки, WhatsApp, почта, живая поддержка и заметки о продазах остаются разрозненными, реальное обучение не возникает.' },
         { title: 'Подход Saule', body: 'Saule сочетает основу CRM с адаптивным интеллектом. Цель состоит не только в отображении данных, но и в том, чтобы сделать клиентские операции более эффективными.' },
       ],
@@ -864,12 +864,12 @@ const ruCopy: Copy = {
 
 const pageSlugMap: Record<SitePage, string> = {
   home: '',
-  crm: 'crm',
+  intelligence: 'intelligence',
   'adaptive-ai': 'platform/adaptive-ai',
   'company-memory': 'features/company-memory',
   pricing: 'pricing',
   security: 'platform/security',
-  resource: 'resources/adaptive-crm-nedir',
+  resource: 'resources/uyumlanabilir-zeka-nedir',
   legal: 'legal',
   login: 'login',
   demo: 'demo',
@@ -886,7 +886,7 @@ function normalizeLocale(locale: string): LocaleCode {
 }
 
 function hrefFor(locale: string, page: SitePage) {
-  const base = `/${locale}/business/crm`;
+  const base = `/${locale}/business/platform`;
   const slug = pageSlugMap[page];
   return slug ? `${base}/${slug}` : base;
 }
@@ -910,9 +910,9 @@ function SectionHeader({
 }) {
   return (
     <div className={align === 'center' ? 'mx-auto max-w-3xl text-center' : 'max-w-3xl'}>
-      <p className="mb-3 text-xs font-black uppercase tracking-[0.16em] text-[#c97900]">{eyebrow}</p>
-      <h2 className="text-balance text-3xl font-black tracking-tight text-[#101828] sm:text-4xl">{title}</h2>
-      {copy ? <p className="mt-4 text-base leading-7 text-[#5b6472] sm:text-lg">{copy}</p> : null}
+      <p className="mb-3 text-xs font-serif font-bold uppercase tracking-[0.16em] text-[#c97900]">{eyebrow}</p>
+      <h2 className="text-balance text-3xl font-serif font-bold tracking-tight text-charcoal sm:text-4xl">{title}</h2>
+      {copy ? <p className="mt-4 text-base leading-7 text-charcoal-muted sm:text-lg">{copy}</p> : null}
     </div>
   );
 }
@@ -923,20 +923,20 @@ function FeatureGrid({ items, dark = false, locale }: { items: FeatureItem[]; da
       {items.map((item) => (
         <article
           key={item.title}
-          className={`rounded-lg border p-5 ${dark ? 'border-white/12 bg-white/[0.04]' : 'border-[#e6e1d8] bg-white'} `}
+          className={`rounded-lg border p-5 ${dark ? 'border-sand-100/12 bg-white/[0.04]' : 'border-sand-300 bg-white'} `}
         >
           <div className="mb-5 flex items-start justify-between gap-4">
-            <div className="flex size-10 items-center justify-center rounded-md bg-[#fff3d6] text-lg">
+            <div className="flex size-10 items-center justify-center rounded-md bg-sand-200 text-lg">
               {item.icon ?? '•'}
             </div>
             {item.status ? (
-              <span className={`rounded border px-2 py-1 text-[10px] font-black uppercase tracking-[0.11em] ${statusTone(item.status)}`}>
+              <span className={`rounded border px-2 py-1 text-[10px] font-serif font-bold uppercase tracking-[0.11em] ${statusTone(item.status)}`}>
                 {locale === 'tr' ? item.status : locale === 'ru' ? (item.status === 'Mevcut' ? 'Доступно' : item.status === 'Yakında' ? 'Скоро' : 'Запланировано') : (item.status === 'Mevcut' ? 'Available' : item.status === 'Yakında' ? 'Soon' : 'Planned')}
               </span>
             ) : null}
           </div>
-          <h3 className={`text-base font-black tracking-tight ${dark ? 'text-white' : 'text-[#101828]'}`}>{item.title}</h3>
-          <p className={`mt-2 text-sm leading-6 ${dark ? 'text-[#e8ddca]' : 'text-[#626b78]'}`}>{item.description}</p>
+          <h3 className={`text-base font-serif font-bold tracking-tight ${dark ? 'text-sand-100' : 'text-charcoal'}`}>{item.title}</h3>
+          <p className={`mt-2 text-sm leading-6 ${dark ? 'text-sand-200' : 'text-[#626b78]'}`}>{item.description}</p>
         </article>
       ))}
     </div>
@@ -952,11 +952,11 @@ function PricingPreview({ copy, locale }: { copy: Copy; locale: string }) {
           {copy.pricingPreview.plans.map((plan) => (
             <article
               key={plan.name}
-              className={`flex flex-col rounded-lg border p-5 ${plan.highlighted ? 'border-[#111827] bg-[#f7f8fb]' : 'border-[#e6e1d8] bg-white'}`}
+              className={`flex flex-col rounded-lg border p-5 ${plan.highlighted ? 'border-[#111827] bg-[#f7f8fb]' : 'border-sand-300 bg-white'}`}
             >
-              <p className="text-xs font-black uppercase tracking-[0.12em] text-[#c97900]">{plan.audience}</p>
-              <h3 className="mt-3 text-xl font-black text-[#101828]">{plan.name}</h3>
-              <p className="mt-3 text-2xl font-black text-[#111827]">{plan.price}</p>
+              <p className="text-xs font-serif font-bold uppercase tracking-[0.12em] text-[#c97900]">{plan.audience}</p>
+              <h3 className="mt-3 text-xl font-serif font-bold text-charcoal">{plan.name}</h3>
+              <p className="mt-3 text-2xl font-serif font-bold text-charcoal">{plan.price}</p>
               <p className="mt-3 min-h-20 text-sm leading-6 text-[#626b78]">{plan.description}</p>
               <div className="mt-5 grow space-y-2">
                 {plan.features.map((feature) => (
@@ -968,8 +968,8 @@ function PricingPreview({ copy, locale }: { copy: Copy; locale: string }) {
               </div>
               <Link
                 href={hrefFor(locale, 'demo')}
-                className={`mt-6 inline-flex h-10 w-full items-center justify-center rounded-md text-sm font-black transition-colors ${
-                  plan.highlighted ? 'bg-[#111827] text-white hover:bg-[#0b1220]' : 'border border-[#d9d0c1] bg-white text-[#111827] hover:bg-[#fff3d6]'
+                className={`mt-6 inline-flex h-10 w-full items-center justify-center rounded-md text-sm font-serif font-bold transition-colors ${
+                  plan.highlighted ? 'bg-charcoal text-sand-100 hover:bg-charcoal/90' : 'border border-sand-300 bg-white text-charcoal hover:bg-sand-200'
                 }`}
               >
                 {plan.cta}
@@ -985,21 +985,21 @@ function PricingPreview({ copy, locale }: { copy: Copy; locale: string }) {
 
 function FinalCta({ copy, locale }: { copy: Copy; locale: string }) {
   return (
-    <section className="bg-[#111827] px-4 py-20 text-white sm:px-6 lg:px-8">
+    <section className="bg-charcoal px-4 py-20 text-sand-100 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-4xl text-center">
-        <p className="mb-4 text-xs font-black uppercase tracking-[0.16em] text-[#f4c35b]">Saule</p>
-        <h2 className="text-balance text-4xl font-black tracking-tight sm:text-5xl">{copy.finalCta.title}</h2>
-        <p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-[#f4e6ce]">{copy.finalCta.copy}</p>
+        <p className="mb-4 text-xs font-serif font-bold uppercase tracking-[0.16em] text-[#f4c35b]">Saule</p>
+        <h2 className="text-balance text-4xl font-serif font-bold tracking-tight sm:text-5xl">{copy.finalCta.title}</h2>
+        <p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-sand-200">{copy.finalCta.copy}</p>
         <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
-          <Link href={hrefFor(locale, 'demo')} className="inline-flex h-12 items-center rounded-md bg-white px-5 text-sm font-black text-[#111827] transition-colors hover:bg-[#fff5df]">
+          <Link href={hrefFor(locale, 'demo')} className="inline-flex h-12 items-center rounded-md bg-white px-5 text-sm font-serif font-bold text-charcoal transition-colors hover:bg-sand-200">
             {copy.nav.demo}
           </Link>
-          <Link href={hrefFor(locale, 'crm')} className="inline-flex h-12 items-center rounded-md border border-white/22 px-5 text-sm font-black text-white transition-colors hover:bg-white/10">
-            {copy.finalCta.crmCta}
+          <Link href={hrefFor(locale, 'intelligence')} className="inline-flex h-12 items-center rounded-md border border-sand-100/22 px-5 text-sm font-serif font-bold text-sand-100 transition-colors hover:bg-sand-100/10">
+            {copy.finalCta.platformCta}
           </Link>
         </div>
         <div className="mt-8">
-          <Link href={`/${locale}`} className="text-sm font-bold text-[#f4e6ce] underline underline-offset-4 hover:text-white">
+          <Link href={`/${locale}`} className="text-sm font-bold text-sand-200 underline underline-offset-4 hover:text-sand-100">
             {copy.finalCta.coreCta}
           </Link>
         </div>
@@ -1010,23 +1010,23 @@ function FinalCta({ copy, locale }: { copy: Copy; locale: string }) {
 
 function ProductPanel({ copy }: { copy: Copy['productPanel'] }) {
   return (
-    <div className="relative mx-auto mt-12 w-full max-w-6xl overflow-hidden rounded-lg border border-[#d9d0c1] bg-white shadow-[0_28px_80px_rgba(20,44,38,0.16)]">
+    <div className="relative mx-auto mt-12 w-full max-w-6xl overflow-hidden rounded-lg border border-sand-300 bg-white shadow-[0_28px_80px_rgba(20,44,38,0.16)]">
       <div className="flex h-11 items-center justify-between border-b border-[#e8e2d8] bg-[#f7f8fb] px-4">
         <div className="flex items-center gap-2">
           <span className="size-2.5 rounded-full bg-[#e45858]" />
           <span className="size-2.5 rounded-full bg-[#e4b458]" />
           <span className="size-2.5 rounded-full bg-[#4fb981]" />
         </div>
-        <span className="text-xs font-black uppercase tracking-[0.16em] text-[#66756f]">{copy.title}</span>
+        <span className="text-xs font-serif font-bold uppercase tracking-[0.16em] text-[#66756f]">{copy.title}</span>
         <span className="hidden min-w-16 text-right text-xs font-bold text-[#9a9288] sm:inline">Saule</span>
       </div>
 
-      <div className="grid min-h-[430px] bg-[#fffdf8] lg:grid-cols-[240px_1fr_320px]">
+      <div className="grid min-h-[430px] bg-sand-50 lg:grid-cols-[240px_1fr_320px]">
         <aside className="hidden border-r border-[#e8e2d8] bg-[#f7f8fb] p-4 lg:block">
           <div className="mb-6 h-8 rounded bg-white" />
           {copy.sideNav.map((item, index) => (
-            <div key={item} className={`mb-2 flex h-9 items-center gap-2 rounded-md px-3 text-xs font-black ${index === 3 ? 'bg-[#111827] text-white' : 'text-[#626b78]'}`}>
-              <span className={`size-2 rounded-full ${index === 3 ? 'bg-[#f0b429]' : 'bg-[#cbd8d2]'}`} />
+            <div key={item} className={`mb-2 flex h-9 items-center gap-2 rounded-md px-3 text-xs font-serif font-bold ${index === 3 ? 'bg-charcoal text-sand-100' : 'text-[#626b78]'}`}>
+              <span className={`size-2 rounded-full ${index === 3 ? 'bg-clay' : 'bg-[#cbd8d2]'}`} />
               {item}
             </div>
           ))}
@@ -1035,19 +1035,19 @@ function ProductPanel({ copy }: { copy: Copy['productPanel'] }) {
         <main className="p-4 sm:p-6">
           <div className="mb-4 grid gap-3 sm:grid-cols-3">
             {copy.metrics.map((metric, index) => (
-              <div key={metric.label} className="rounded-lg border border-[#e6e1d8] bg-white p-4">
-                <p className="text-xs font-black uppercase tracking-[0.12em] text-[#9a9288]">{metric.label}</p>
-                <p className={`mt-3 inline-flex rounded px-2 py-1 text-2xl font-black ${index === 0 ? 'bg-[#fff3d6] text-[#8a4f00]' : index === 1 ? 'bg-[#fff4d8] text-[#855b05]' : 'bg-[#eef2f8] text-[#43546e]'}`}>{metric.value}</p>
+              <div key={metric.label} className="rounded-lg border border-sand-300 bg-white p-4">
+                <p className="text-xs font-serif font-bold uppercase tracking-[0.12em] text-[#9a9288]">{metric.label}</p>
+                <p className={`mt-3 inline-flex rounded px-2 py-1 text-2xl font-serif font-bold ${index === 0 ? 'bg-sand-200 text-[#8a4f00]' : index === 1 ? 'bg-[#fff4d8] text-[#855b05]' : 'bg-[#eef2f8] text-[#43546e]'}`}>{metric.value}</p>
               </div>
             ))}
           </div>
-          <div className="rounded-lg border border-[#e6e1d8] bg-white p-4">
+          <div className="rounded-lg border border-sand-300 bg-white p-4">
             <div className="mb-3 flex items-center justify-between gap-3">
               <div>
-                <p className="text-xs font-black uppercase tracking-[0.12em] text-[#c97900]">{copy.patternLabel}</p>
-                <h3 className="mt-1 text-lg font-black tracking-tight text-[#101828]">{copy.memory}</h3>
+                <p className="text-xs font-serif font-bold uppercase tracking-[0.12em] text-[#c97900]">{copy.patternLabel}</p>
+                <h3 className="mt-1 text-lg font-serif font-bold tracking-tight text-charcoal">{copy.memory}</h3>
               </div>
-              <span className="rounded border border-[#f3d9a1] bg-[#fff4d8] px-2 py-1 text-[10px] font-black uppercase tracking-[0.11em] text-[#855b05]">
+              <span className="rounded border border-[#f3d9a1] bg-[#fff4d8] px-2 py-1 text-[10px] font-serif font-bold uppercase tracking-[0.11em] text-[#855b05]">
                 {copy.trend}
               </span>
             </div>
@@ -1060,19 +1060,19 @@ function ProductPanel({ copy }: { copy: Copy['productPanel'] }) {
           </div>
           <div className="mt-4 grid gap-3 sm:grid-cols-5">
             {copy.loopSteps.map((step, index) => (
-              <div key={step} className="rounded-md border border-[#e6e1d8] bg-white p-3">
-                <p className="mb-2 text-[10px] font-black uppercase tracking-[0.12em] text-[#9a9288]">0{index + 1}</p>
-                <p className="text-xs font-black text-[#101828]">{step}</p>
+              <div key={step} className="rounded-md border border-sand-300 bg-white p-3">
+                <p className="mb-2 text-[10px] font-serif font-bold uppercase tracking-[0.12em] text-[#9a9288]">0{index + 1}</p>
+                <p className="text-xs font-serif font-bold text-charcoal">{step}</p>
               </div>
             ))}
           </div>
         </main>
 
         <aside className="border-t border-[#e8e2d8] bg-white p-4 lg:border-l lg:border-t-0">
-          <p className="mb-3 text-xs font-black uppercase tracking-[0.12em] text-[#c97900]">{copy.recommendationsTitle}</p>
+          <p className="mb-3 text-xs font-serif font-bold uppercase tracking-[0.12em] text-[#c97900]">{copy.recommendationsTitle}</p>
           {copy.recommendations.map((action, index) => (
             <div key={action} className="mb-3 flex items-start gap-3 rounded-md border border-[#e8e2d8] p-3">
-              <span className="mt-0.5 flex size-5 items-center justify-center rounded bg-[#fff3d6] text-[10px] font-black text-[#8a4f00]">
+              <span className="mt-0.5 flex size-5 items-center justify-center rounded bg-sand-200 text-[10px] font-serif font-bold text-[#8a4f00]">
                 {index + 1}
               </span>
               <p className="text-sm font-bold leading-5 text-[#3f4756]">{action}</p>
@@ -1086,8 +1086,8 @@ function ProductPanel({ copy }: { copy: Copy['productPanel'] }) {
 
 function ConsoleLine({ title, copy }: { title: string; copy: string }) {
   return (
-    <div className="rounded-md border border-[#e8e2d8] bg-[#fffdf8] p-3">
-      <p className="text-[10px] font-black uppercase tracking-[0.12em] text-[#9a9288]">{title}</p>
+    <div className="rounded-md border border-[#e8e2d8] bg-sand-50 p-3">
+      <p className="text-[10px] font-serif font-bold uppercase tracking-[0.12em] text-[#9a9288]">{title}</p>
       <p className="mt-2 text-sm font-semibold leading-5 text-[#3f4756]">{copy}</p>
     </div>
   );
@@ -1105,19 +1105,19 @@ function StandardPageHero({
   copy: string;
 }) {
   return (
-    <section className="relative overflow-hidden border-b border-[#e6e1d8] bg-[#fffdf8] px-4 py-20 sm:px-6 lg:px-8">
+    <section className="relative overflow-hidden border-b border-sand-300 bg-sand-50 px-4 py-20 sm:px-6 lg:px-8">
       <div className="absolute inset-0 bg-[linear-gradient(#ebe7dd_1px,transparent_1px),linear-gradient(90deg,#ebe7dd_1px,transparent_1px)] bg-[size:44px_44px] opacity-35" />
       <div className="relative mx-auto max-w-7xl">
-        <p className="mb-4 inline-flex rounded-md border border-[#f4cf87] bg-[#fff3d6] px-3 py-1.5 text-xs font-black uppercase tracking-[0.16em] text-[#8a4f00]">
+        <p className="mb-4 inline-flex rounded-md border border-[#f4cf87] bg-sand-200 px-3 py-1.5 text-xs font-serif font-bold uppercase tracking-[0.16em] text-[#8a4f00]">
           {eyebrow}
         </p>
-        <h1 className="max-w-5xl text-balance text-5xl font-black tracking-tight text-[#101828] sm:text-6xl">{title}</h1>
-        <p className="mt-6 max-w-3xl text-lg leading-8 text-[#5b6472]">{copy}</p>
+        <h1 className="max-w-5xl text-balance text-5xl font-serif font-bold tracking-tight text-charcoal sm:text-6xl">{title}</h1>
+        <p className="mt-6 max-w-3xl text-lg leading-8 text-charcoal-muted">{copy}</p>
         <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-          <Link href={hrefFor(locale, 'demo')} className="inline-flex h-12 w-fit items-center rounded-md bg-[#111827] px-5 text-sm font-black text-white transition-colors hover:bg-[#0b1220]">
+          <Link href={hrefFor(locale, 'demo')} className="inline-flex h-12 w-fit items-center rounded-md bg-charcoal px-5 text-sm font-serif font-bold text-sand-100 transition-colors hover:bg-charcoal/90">
             Demo Planla
           </Link>
-          <Link href={hrefFor(locale, 'home')} className="inline-flex h-12 w-fit items-center rounded-md border border-[#d9d0c1] bg-white px-5 text-sm font-black text-[#111827] transition-colors hover:bg-[#fff3d6]">
+          <Link href={hrefFor(locale, 'home')} className="inline-flex h-12 w-fit items-center rounded-md border border-sand-300 bg-white px-5 text-sm font-serif font-bold text-charcoal transition-colors hover:bg-sand-200">
             Business Ana Sayfa
           </Link>
         </div>
@@ -1138,7 +1138,7 @@ function HeroCarousel({ locale, copy }: { locale: string; copy: Copy }) {
   const current = slides[active];
 
   return (
-    <div className="relative min-h-[560px] overflow-hidden rounded-2xl border border-[#d9d0c1] bg-[#101828] shadow-[0_34px_90px_rgba(16,24,40,0.20)]">
+    <div className="relative min-h-[560px] overflow-hidden rounded-2xl border border-sand-300 bg-charcoal shadow-[0_34px_90px_rgba(16,24,40,0.20)]">
       {current.kind === 'memory' ? (
         <>
           <Image src="/marketing/saule-human-hero-v1.png" alt="" fill priority sizes="100vw" className="object-cover object-[66%_center]" />
@@ -1152,13 +1152,13 @@ function HeroCarousel({ locale, copy }: { locale: string; copy: Copy }) {
           <div className="absolute bottom-0 right-[5%] top-0 hidden w-[46%] lg:block">
             <Image src="/saule-avatar-v1.png" alt="" fill sizes="46vw" className="object-cover object-center opacity-95 [mask-image:linear-gradient(to_left,black_70%,transparent_100%)]" />
           </div>
-          <div className="absolute right-[8%] top-[13%] hidden w-72 rounded-[26px] border border-white/15 bg-white/10 p-4 shadow-2xl backdrop-blur-xl xl:block">
+          <div className="absolute right-[8%] top-[13%] hidden w-72 rounded-[26px] border border-sand-100/15 bg-sand-100/10 p-4 shadow-2xl backdrop-blur-xl xl:block">
             <div className="flex items-center gap-3">
               <div className="relative size-11 overflow-hidden rounded-full ring-2 ring-[#ffd15a]">
                 <Image src="/saule-avatar-v1.png" alt="" fill className="object-cover" />
               </div>
               <div>
-                <p className="text-sm font-black text-white">Saule</p>
+                <p className="text-sm font-serif font-bold text-sand-100">Saule</p>
                 <p className="text-[10px] font-bold uppercase tracking-wider text-indigo-200">Dinliyor</p>
               </div>
             </div>
@@ -1176,11 +1176,11 @@ function HeroCarousel({ locale, copy }: { locale: string; copy: Copy }) {
         <>
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_78%_45%,rgba(239,68,68,0.22),transparent_32%),linear-gradient(120deg,#0f172a_0%,#191827_52%,#231511_100%)]" />
           <div className="absolute right-[7%] top-1/2 hidden w-[39%] -translate-y-1/2 xl:block">
-            <div className="rounded-[28px] border border-white/12 bg-white/[0.08] p-5 shadow-2xl backdrop-blur-xl">
+            <div className="rounded-[28px] border border-sand-100/12 bg-white/[0.08] p-5 shadow-2xl backdrop-blur-xl">
               <div className="flex items-center justify-between">
                 <div>
-                  <p className="text-[10px] font-black uppercase tracking-[0.18em] text-slate-400">Gelir Koruma Sinyali</p>
-                  <p className="mt-1 text-lg font-black text-white">Acme Corp</p>
+                  <p className="text-[10px] font-serif font-bold uppercase tracking-[0.18em] text-slate-400">Gelir Koruma Sinyali</p>
+                  <p className="mt-1 text-lg font-serif font-bold text-sand-100">Acme Corp</p>
                 </div>
                 <div className="flex size-11 items-center justify-center rounded-2xl bg-rose-500/15 text-rose-300">!</div>
               </div>
@@ -1190,16 +1190,16 @@ function HeroCarousel({ locale, copy }: { locale: string; copy: Copy }) {
                   ['GELİR RİSKİ', 'Yüksek'],
                   ['ACİL TAKİP', '3'],
                 ].map(([label, value], i) => (
-                  <div key={label} className={`rounded-2xl border p-3 ${i === 0 ? 'border-rose-400/25 bg-rose-500/10' : 'border-white/10 bg-white/5'}`}>
-                    <p className="text-lg font-black text-white">{value}</p>
-                    <p className="mt-2 text-[8px] font-black uppercase tracking-wider text-slate-400">{label}</p>
+                  <div key={label} className={`rounded-2xl border p-3 ${i === 0 ? 'border-rose-400/25 bg-rose-500/10' : 'border-sand-100/10 bg-white/5'}`}>
+                    <p className="text-lg font-serif font-bold text-sand-100">{value}</p>
+                    <p className="mt-2 text-[8px] font-serif font-bold uppercase tracking-wider text-slate-400">{label}</p>
                   </div>
                 ))}
               </div>
               <div className="mt-4 rounded-2xl border border-amber-300/20 bg-amber-300/10 p-4">
-                <div className="flex items-center gap-2 text-xs font-black text-amber-200">✨ Saule fark etti</div>
+                <div className="flex items-center gap-2 text-xs font-serif font-bold text-amber-200">✨ Saule fark etti</div>
                 <p className="mt-2 text-xs leading-5 text-slate-200">Fiyatlandırma sürtünmesi ve açık bir SLA ihlali bu yenilemeyi riske atıyor. Saule bir yenileme riski tespit etti. Kurtarma planını inceleyin.</p>
-                <div className="mt-3 inline-flex rounded-lg bg-[#ffd15a] px-3 py-2 text-[10px] font-black text-slate-900">Öneriyi incele</div>
+                <div className="mt-3 inline-flex rounded-lg bg-clay px-3 py-2 text-[10px] font-serif font-bold text-slate-900">Öneriyi incele</div>
               </div>
             </div>
           </div>
@@ -1208,32 +1208,32 @@ function HeroCarousel({ locale, copy }: { locale: string; copy: Copy }) {
 
       <div className="relative z-20 flex min-h-[560px] max-w-7xl flex-col justify-center px-6 py-14 sm:px-10 lg:px-16">
         <div className="max-w-3xl">
-          <p className="mb-5 inline-flex rounded-md border border-[#f0bd4f]/45 bg-[#f0bd4f]/16 px-3 py-1.5 text-xs font-black uppercase tracking-[0.16em] text-[#ffd780]">{current.eyebrow}</p>
-          <h1 className="text-balance text-5xl font-black tracking-tight text-white sm:text-6xl lg:text-7xl">
-            {current.title} <span className="text-[#ffd15a]">{current.accent}</span>
+          <p className="mb-5 inline-flex rounded-md border border-clay/45 bg-clay/16 px-3 py-1.5 text-xs font-serif font-bold uppercase tracking-[0.16em] text-clay">{current.eyebrow}</p>
+          <h1 className="text-balance text-5xl font-serif font-bold tracking-tight text-sand-100 sm:text-6xl lg:text-7xl">
+            {current.title} <span className="text-clay">{current.accent}</span>
           </h1>
-          <p className="mt-6 max-w-2xl text-lg leading-8 text-[#f5ead8] sm:text-xl">{current.body}</p>
+          <p className="mt-6 max-w-2xl text-lg leading-8 text-sand-200 sm:text-xl">{current.body}</p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-            <Link href={hrefFor(locale, 'demo')} className="inline-flex h-12 w-fit items-center gap-2 rounded-md bg-[#f0b429] px-5 text-sm font-black text-[#111827] transition-colors hover:bg-[#ffd15a]">
+            <Link href={hrefFor(locale, 'demo')} className="inline-flex h-12 w-fit items-center gap-2 rounded-md bg-clay px-5 text-sm font-serif font-bold text-charcoal transition-colors hover:bg-clay">
               Demo Planla →
             </Link>
-            <Link href={hrefFor(locale, 'adaptive-ai')} className="inline-flex h-12 w-fit items-center rounded-md border border-white/28 bg-white/10 px-5 text-sm font-black text-white backdrop-blur transition-colors hover:bg-white/18">
+            <Link href={hrefFor(locale, 'adaptive-ai')} className="inline-flex h-12 w-fit items-center rounded-md border border-sand-100/28 bg-sand-100/10 px-5 text-sm font-serif font-bold text-sand-100 backdrop-blur transition-colors hover:bg-sand-100/18">
               Platformu İncele
             </Link>
           </div>
         </div>
       </div>
 
-      <button type="button" onClick={() => setActive((active - 1 + slides.length) % slides.length)} className="absolute left-4 top-1/2 z-30 hidden -translate-y-1/2 rounded-full border border-white/15 bg-black/20 p-3 text-white/75 transition hover:bg-black/40 hover:text-white sm:block" aria-label="Previous slide">
+      <button type="button" onClick={() => setActive((active - 1 + slides.length) % slides.length)} className="absolute left-4 top-1/2 z-30 hidden -translate-y-1/2 rounded-full border border-sand-100/15 bg-black/20 p-3 text-sand-100/75 transition hover:bg-black/40 hover:text-sand-100 sm:block" aria-label="Previous slide">
         ‹
       </button>
-      <button type="button" onClick={() => setActive((active + 1) % slides.length)} className="absolute right-4 top-1/2 z-30 hidden -translate-y-1/2 rounded-full border border-white/15 bg-black/20 p-3 text-white/75 transition hover:bg-black/40 hover:text-white sm:block" aria-label="Next slide">
+      <button type="button" onClick={() => setActive((active + 1) % slides.length)} className="absolute right-4 top-1/2 z-30 hidden -translate-y-1/2 rounded-full border border-sand-100/15 bg-black/20 p-3 text-sand-100/75 transition hover:bg-black/40 hover:text-sand-100 sm:block" aria-label="Next slide">
         ›
       </button>
 
       <div className="absolute bottom-6 left-1/2 z-30 flex -translate-x-1/2 items-center gap-2" role="tablist" aria-label="Select product highlight">
         {slides.map((slide, index) => (
-          <button key={slide.kind} type="button" onClick={() => setActive(index)} className={`h-1.5 rounded-full transition-all ${active === index ? 'w-16 bg-[#ffd15a]' : 'w-7 bg-white/25 hover:bg-white/45'}`} aria-label={`Slide ${index + 1}`} />
+          <button key={slide.kind} type="button" onClick={() => setActive(index)} className={`h-1.5 rounded-full transition-all ${active === index ? 'w-16 bg-clay' : 'w-7 bg-sand-100/25 hover:bg-sand-100/45'}`} aria-label={`Slide ${index + 1}`} />
         ))}
       </div>
     </div>
@@ -1243,17 +1243,17 @@ function HeroCarousel({ locale, copy }: { locale: string; copy: Copy }) {
 function Header({ locale, page, copy }: { locale: string; page: SitePage; copy: Copy }) {
   const currentSlug = pageSlugMap[page];
   const localeLinks = useMemo(
-    () => ['tr', 'en', 'ru'].map((lang) => ({ lang, href: currentSlug ? `/${lang}/business/crm/${currentSlug}` : `/${lang}/business/crm` })),
+    () => ['tr', 'en', 'ru'].map((lang) => ({ lang, href: currentSlug ? `/${lang}/business/platform/${currentSlug}` : `/${lang}/business/platform` })),
     [currentSlug],
   );
 
   return (
-    <header className="sticky top-0 z-50 border-b border-[#e6e1d8] bg-[#fffdf8]/92 backdrop-blur-xl">
+    <header className="sticky top-0 z-50 border-b border-sand-300 bg-sand-50/92 backdrop-blur-xl">
       <div className="mx-auto flex h-20 max-w-[1480px] items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href={hrefFor(locale, 'home')} className="flex items-center gap-2.5 animate-fade-in" aria-label="Saule home">
           <Image src="/saule-symbol.svg" alt="" width={36} height={36} priority />
           <div className="flex flex-col items-start leading-none">
-            <span className="text-base font-black tracking-tight text-[#101828]">Saule</span>
+            <span className="text-base font-serif font-bold tracking-tight text-charcoal">Saule</span>
             <span className="mt-0.5 rounded bg-gray-100 px-1.5 py-0.5 text-[10px] font-bold tracking-wider text-gray-600 uppercase font-sans">
               Business
             </span>
@@ -1261,30 +1261,30 @@ function Header({ locale, page, copy }: { locale: string; page: SitePage; copy: 
         </Link>
 
         <nav className="hidden items-center gap-2 lg:flex">
-          <Link href={hrefFor(locale, 'crm')} className="rounded-md px-3 py-2 text-sm font-semibold text-[#5b6472] transition-colors hover:bg-[#fff3d6] hover:text-[#101828]">{copy.nav.product}</Link>
-          <Link href={hrefFor(locale, 'adaptive-ai')} className="rounded-md px-3 py-2 text-sm font-semibold text-[#5b6472] transition-colors hover:bg-[#fff3d6] hover:text-[#101828]">{copy.nav.platform}</Link>
-          <Link href={`${hrefFor(locale, 'home')}#use-cases`} className="rounded-md px-3 py-2 text-sm font-semibold text-[#5b6472] transition-colors hover:bg-[#fff3d6] hover:text-[#101828]">{copy.nav.solutions}</Link>
-          <Link href={hrefFor(locale, 'pricing')} className="rounded-md px-3 py-2 text-sm font-semibold text-[#5b6472] transition-colors hover:bg-[#fff3d6] hover:text-[#101828]">{copy.nav.pricing}</Link>
-          <Link href={hrefFor(locale, 'resource')} className="rounded-md px-3 py-2 text-sm font-semibold text-[#5b6472] transition-colors hover:bg-[#fff3d6] hover:text-[#101828]">{copy.nav.resources}</Link>
+          <Link href={hrefFor(locale, 'intelligence')} className="rounded-md px-3 py-2 text-sm font-semibold text-charcoal-muted transition-colors hover:bg-sand-200 hover:text-charcoal">{copy.nav.product}</Link>
+          <Link href={hrefFor(locale, 'adaptive-ai')} className="rounded-md px-3 py-2 text-sm font-semibold text-charcoal-muted transition-colors hover:bg-sand-200 hover:text-charcoal">{copy.nav.platform}</Link>
+          <Link href={`${hrefFor(locale, 'home')}#use-cases`} className="rounded-md px-3 py-2 text-sm font-semibold text-charcoal-muted transition-colors hover:bg-sand-200 hover:text-charcoal">{copy.nav.solutions}</Link>
+          <Link href={hrefFor(locale, 'pricing')} className="rounded-md px-3 py-2 text-sm font-semibold text-charcoal-muted transition-colors hover:bg-sand-200 hover:text-charcoal">{copy.nav.pricing}</Link>
+          <Link href={hrefFor(locale, 'resource')} className="rounded-md px-3 py-2 text-sm font-semibold text-charcoal-muted transition-colors hover:bg-sand-200 hover:text-charcoal">{copy.nav.resources}</Link>
         </nav>
 
         <div className="flex items-center gap-2">
-          <div className="hidden items-center rounded-md border border-[#e6e1d8] bg-white p-1 sm:flex">
+          <div className="hidden items-center rounded-md border border-sand-300 bg-white p-1 sm:flex">
             {localeLinks.map((item) => (
               <Link
                 key={item.lang}
                 href={item.href}
-                className={`min-w-8 rounded px-2 py-1 text-center text-xs font-black uppercase transition-colors ${item.lang === normalizeLocale(locale) ? 'bg-[#111827] text-white' : 'text-[#5f6d68] hover:bg-[#fff3d6] hover:text-[#101828]'}`}
+                className={`min-w-8 rounded px-2 py-1 text-center text-xs font-serif font-bold uppercase transition-colors ${item.lang === normalizeLocale(locale) ? 'bg-charcoal text-sand-100' : 'text-charcoal-muted hover:bg-sand-200 hover:text-charcoal'}`}
                 hrefLang={item.lang}
               >
                 {item.lang}
               </Link>
             ))}
           </div>
-          <Link href={hrefFor(locale, 'login')} className="hidden rounded-md px-3 py-2 text-sm font-bold text-[#5b6472] transition-colors hover:bg-[#fff3d6] hover:text-[#101828] sm:inline-flex">
+          <Link href={hrefFor(locale, 'login')} className="hidden rounded-md px-3 py-2 text-sm font-bold text-charcoal-muted transition-colors hover:bg-sand-200 hover:text-charcoal sm:inline-flex">
             {copy.nav.signIn}
           </Link>
-          <Link href={hrefFor(locale, 'demo')} className="inline-flex h-12 items-center gap-2 rounded-md bg-[#111827] px-5 text-sm font-black text-white shadow-sm transition-colors hover:bg-[#0b1220]">
+          <Link href={hrefFor(locale, 'demo')} className="inline-flex h-12 items-center gap-2 rounded-md bg-charcoal px-5 text-sm font-serif font-bold text-sand-100 shadow-sm transition-colors hover:bg-charcoal/90">
             {copy.nav.demo} →
           </Link>
         </div>
@@ -1297,25 +1297,25 @@ function Footer({ locale }: { locale: string }) {
   const f = footerDicts[locale] ?? footerDicts['en'];
 
   return (
-    <footer className="border-t border-[#e6e1d8] bg-[#101828] text-white">
+    <footer className="border-t border-sand-300 bg-charcoal text-sand-100">
       <div className="mx-auto grid max-w-7xl gap-8 px-4 py-12 sm:px-6 lg:grid-cols-[1.4fr_1fr_1fr_1fr] lg:px-8">
         <div>
           <div className="mb-4 flex items-center gap-2.5">
             <Image src="/saule-symbol.svg" alt="" width={28} height={28} />
-            <span className="text-base font-black tracking-tight">Saule</span>
+            <span className="text-base font-serif font-bold tracking-tight">Saule</span>
           </div>
-          <p className="max-w-md text-sm leading-6 text-[#e8ddca]">{f.description}</p>
+          <p className="max-w-md text-sm leading-6 text-sand-200">{f.description}</p>
         </div>
-        <FooterGroup title={f.product} links={[{ label: f.adaptiveCrm, href: hrefFor(locale, 'crm') }, { label: f.companyMemory, href: hrefFor(locale, 'company-memory') }]} />
+        <FooterGroup title={f.product} links={[{ label: f.adaptiveCrm, href: hrefFor(locale, 'intelligence') }, { label: f.companyMemory, href: hrefFor(locale, 'company-memory') }]} />
         <FooterGroup title={f.platform} links={[{ label: f.adaptiveAi, href: hrefFor(locale, 'adaptive-ai') }, { label: f.security, href: hrefFor(locale, 'security') }]} />
         <FooterGroup title={f.company} links={[{ label: f.resources, href: hrefFor(locale, 'resource') }, { label: f.pricing, href: hrefFor(locale, 'pricing') }, { label: f.bookDemo, href: hrefFor(locale, 'demo') }, { label: f.signIn, href: hrefFor(locale, 'login') }]} />
       </div>
-      <div className="border-t border-white/10 px-4 py-5">
+      <div className="border-t border-sand-100/10 px-4 py-5">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 sm:flex-row">
-          <p className="text-xs font-semibold text-[#c8bda8]">{f.rights}</p>
+          <p className="text-xs font-semibold text-sand-300">{f.rights}</p>
           <div className="flex items-center gap-4">
-            <Link href={hrefFor(locale, 'legal')} className="text-xs font-semibold text-[#c8bda8] transition-colors hover:text-white">{f.kvkk}</Link>
-            <Link href={`/${locale}`} className="text-xs font-semibold text-[#c8bda8] transition-colors hover:text-white">{f.core}</Link>
+            <Link href={hrefFor(locale, 'legal')} className="text-xs font-semibold text-sand-300 transition-colors hover:text-sand-100">{f.kvkk}</Link>
+            <Link href={`/${locale}`} className="text-xs font-semibold text-sand-300 transition-colors hover:text-sand-100">{f.core}</Link>
           </div>
         </div>
       </div>
@@ -1341,9 +1341,9 @@ const footerDicts: Record<string, {
   core: string;
 }> = {
   tr: {
-    description: 'Saule, müşteri temaslarını kurumsal hafızaya ve gelişim aksiyonlarına dönüştüren Adaptive CRM platformudur.',
+    description: 'Saule, müşteri temaslarını kurumsal hafızaya ve gelişim aksiyonlarına dönüştüren Uyumlanabilir Zeka platformudur.',
     product: 'Ürün',
-    adaptiveCrm: 'Adaptive CRM',
+    adaptiveCrm: 'Uyumlanabilir Zeka',
     companyMemory: 'Kurumsal Hafıza',
     platform: 'Platform',
     adaptiveAi: 'Öğrenen Yapay Zeka',
@@ -1358,9 +1358,9 @@ const footerDicts: Record<string, {
     core: 'Core',
   },
   en: {
-    description: 'Saule is the Adaptive CRM platform that turns customer contacts into company memory and improvement actions.',
+    description: 'Saule is the Adaptive Intelligence platform that turns customer contacts into company memory and improvement actions.',
     product: 'Product',
-    adaptiveCrm: 'Adaptive CRM',
+    adaptiveCrm: 'Uyumlanabilir Zeka',
     companyMemory: 'Company Memory',
     platform: 'Platform',
     adaptiveAi: 'Adaptive AI',
@@ -1375,9 +1375,9 @@ const footerDicts: Record<string, {
     core: 'Core',
   },
   ru: {
-    description: 'Saule — это платформа Adaptive CRM, которая превращает контакты с клиентами в память компании и действия по улучшению.',
+    description: 'Saule — это платформа Адаптивного ИИ, которая превращает контакты с клиентами в память компании и действия по улучшению.',
     product: 'Продукт',
-    adaptiveCrm: 'Adaptive CRM',
+    adaptiveCrm: 'Uyumlanabilir Zeka',
     companyMemory: 'Память компании',
     platform: 'Платформа',
     adaptiveAi: 'Адаптивный ИИ',
@@ -1396,10 +1396,10 @@ const footerDicts: Record<string, {
 function FooterGroup({ title, links }: { title: string; links: Array<{ label: string; href: string }> }) {
   return (
     <div>
-      <h3 className="mb-3 text-xs font-black uppercase tracking-[0.14em] text-[#f0bd4f]">{title}</h3>
+      <h3 className="mb-3 text-xs font-serif font-bold uppercase tracking-[0.14em] text-clay">{title}</h3>
       <div className="space-y-2.5">
         {links.map((link) => (
-          <Link key={link.label} href={link.href} className="block text-sm font-semibold text-[#e8ddca] transition-colors hover:text-white">
+          <Link key={link.label} href={link.href} className="block text-sm font-semibold text-sand-200 transition-colors hover:text-sand-100">
             {link.label}
           </Link>
         ))}
@@ -1411,7 +1411,7 @@ function FooterGroup({ title, links }: { title: string; links: Array<{ label: st
 function HomePage({ locale, copy }: { locale: string; copy: Copy }) {
   return (
     <>
-      <section className="relative overflow-hidden border-b border-[#e6e1d8] bg-[#fffdf8]">
+      <section className="relative overflow-hidden border-b border-sand-300 bg-sand-50">
         <div className="absolute inset-0 bg-[linear-gradient(#ebe7dd_1px,transparent_1px),linear-gradient(90deg,#ebe7dd_1px,transparent_1px)] bg-[size:44px_44px] opacity-30" />
         <div className="relative mx-auto max-w-[1480px] px-3 pb-14 pt-5 sm:px-5 sm:pb-16 lg:px-8">
           <HeroCarousel locale={locale} copy={copy} />
@@ -1424,8 +1424,8 @@ function HomePage({ locale, copy }: { locale: string; copy: Copy }) {
           <SectionHeader eyebrow={copy.problem.eyebrow} title={copy.problem.title} copy={copy.problem.copy} />
           <div className="grid gap-3">
             {copy.problem.points.map((point, index) => (
-              <div key={point} className="flex items-start gap-4 rounded-lg border border-[#e6e1d8] bg-[#fffdf8] p-5">
-                <span className="flex size-8 shrink-0 items-center justify-center rounded-md bg-[#101828] text-xs font-black text-white">0{index + 1}</span>
+              <div key={point} className="flex items-start gap-4 rounded-lg border border-sand-300 bg-sand-50 p-5">
+                <span className="flex size-8 shrink-0 items-center justify-center rounded-md bg-charcoal text-xs font-serif font-bold text-sand-100">0{index + 1}</span>
                 <p className="text-base font-bold leading-7 text-[#3f4756]">{point}</p>
               </div>
             ))}
@@ -1433,14 +1433,14 @@ function HomePage({ locale, copy }: { locale: string; copy: Copy }) {
         </div>
       </section>
 
-      <section className="border-y border-[#e6e1d8] bg-[#f7f8fb] px-4 py-20 sm:px-6 lg:px-8">
+      <section className="border-y border-sand-300 bg-[#f7f8fb] px-4 py-20 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-7xl">
           <SectionHeader eyebrow={copy.loop.eyebrow} title={copy.loop.title} copy={copy.loop.copy} align="center" />
           <div className="mt-10 grid gap-3 lg:grid-cols-5">
             {copy.loop.steps.map((step, index) => (
-              <div key={step} className="rounded-lg border border-[#d9d0c1] bg-white p-5 text-center">
-                <p className="mx-auto mb-4 flex size-9 items-center justify-center rounded-md bg-[#111827] text-sm font-black text-white">{index + 1}</p>
-                <h3 className="text-sm font-black text-[#101828]">{step}</h3>
+              <div key={step} className="rounded-lg border border-sand-300 bg-white p-5 text-center">
+                <p className="mx-auto mb-4 flex size-9 items-center justify-center rounded-md bg-charcoal text-sm font-serif font-bold text-sand-100">{index + 1}</p>
+                <h3 className="text-sm font-serif font-bold text-charcoal">{step}</h3>
               </div>
             ))}
           </div>
@@ -1456,12 +1456,12 @@ function HomePage({ locale, copy }: { locale: string; copy: Copy }) {
         </div>
       </section>
 
-      <section className="border-y border-[#e6e1d8] bg-[#101828] px-4 py-20 text-white sm:px-6 lg:px-8">
+      <section className="border-y border-sand-300 bg-charcoal px-4 py-20 text-sand-100 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-7xl">
           <div className="max-w-3xl">
-            <p className="mb-3 text-xs font-black uppercase tracking-[0.16em] text-[#f4c35b]">{copy.intelligence.eyebrow}</p>
-            <h2 className="text-balance text-3xl font-black tracking-tight sm:text-4xl">{copy.intelligence.title}</h2>
-            <p className="mt-4 text-base leading-7 text-[#e8ddca] sm:text-lg">{copy.intelligence.copy}</p>
+            <p className="mb-3 text-xs font-serif font-bold uppercase tracking-[0.16em] text-[#f4c35b]">{copy.intelligence.eyebrow}</p>
+            <h2 className="text-balance text-3xl font-serif font-bold tracking-tight sm:text-4xl">{copy.intelligence.title}</h2>
+            <p className="mt-4 text-base leading-7 text-sand-200 sm:text-lg">{copy.intelligence.copy}</p>
           </div>
           <div className="mt-10">
             <FeatureGrid items={copy.intelligence.features} dark locale={locale} />
@@ -1474,15 +1474,15 @@ function HomePage({ locale, copy }: { locale: string; copy: Copy }) {
           <SectionHeader eyebrow={copy.memory.eyebrow} title={copy.memory.title} copy={copy.memory.copy} />
           <div className="grid gap-3 sm:grid-cols-2">
             {copy.memory.signals.map((signal) => (
-              <div key={signal} className="rounded-lg border border-[#e6e1d8] bg-[#fffdf8] p-4">
-                <p className="text-sm font-black text-[#101828]">{signal}</p>
+              <div key={signal} className="rounded-lg border border-sand-300 bg-sand-50 p-4">
+                <p className="text-sm font-serif font-bold text-charcoal">{signal}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      <section id="use-cases" className="border-y border-[#e6e1d8] bg-[#f7f8fb] px-4 py-20 sm:px-6 lg:px-8">
+      <section id="use-cases" className="border-y border-sand-300 bg-[#f7f8fb] px-4 py-20 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-7xl">
           <SectionHeader eyebrow={copy.useCases.eyebrow} title={copy.useCases.title} align="center" />
           <div className="mt-10">
@@ -1502,14 +1502,14 @@ function HomePage({ locale, copy }: { locale: string; copy: Copy }) {
         </div>
       </section>
 
-      <section className="border-y border-[#e6e1d8] bg-[#f7f8fb] px-4 py-20 sm:px-6 lg:px-8">
+      <section className="border-y border-sand-300 bg-[#f7f8fb] px-4 py-20 sm:px-6 lg:px-8">
         <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
           <SectionHeader eyebrow={copy.trust.eyebrow} title={copy.trust.title} copy={copy.trust.copy} />
           <div className="grid gap-3 sm:grid-cols-2">
             {copy.trust.items.map((item) => (
-              <div key={item} className="flex items-center gap-3 rounded-lg border border-[#d9d0c1] bg-white p-4">
+              <div key={item} className="flex items-center gap-3 rounded-lg border border-sand-300 bg-white p-4">
                 <span className="text-[#c97900]">🛡️</span>
-                <p className="text-sm font-black text-[#101828]">{item}</p>
+                <p className="text-sm font-serif font-bold text-charcoal">{item}</p>
               </div>
             ))}
           </div>
@@ -1530,8 +1530,8 @@ function RoadmapColumn({ title, items, tone }: { title: string; items: string[];
       : 'bg-[#eef2f8] text-[#43546e] border-[#d6dcea]';
 
   return (
-    <div className="rounded-lg border border-[#e6e1d8] bg-[#fffdf8] p-5">
-      <h3 className={`mb-4 inline-flex rounded border px-2 py-1 text-xs font-black uppercase tracking-[0.12em] ${styles}`}>
+    <div className="rounded-lg border border-sand-300 bg-sand-50 p-5">
+      <h3 className={`mb-4 inline-flex rounded border px-2 py-1 text-xs font-serif font-bold uppercase tracking-[0.12em] ${styles}`}>
         {title}
       </h3>
       <div className="grid gap-2">
@@ -1567,12 +1567,12 @@ function PlaceholderPage({
     <>
       <StandardPageHero locale={locale} eyebrow={eyebrow} title={title} copy={copy} />
       <section className="bg-white px-4 py-20 sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-5xl rounded-2xl border border-[#e6e1d8] bg-[#fffdf8] p-8 shadow-[0_18px_60px_rgba(16,24,40,0.08)]">
-          <h2 className="text-2xl font-black tracking-tight text-[#101828]">{cardTitle}</h2>
-          <p className="mt-4 max-w-2xl text-base leading-7 text-[#5b6472]">{cardCopy}</p>
+        <div className="mx-auto max-w-5xl rounded-2xl border border-sand-300 bg-sand-50 p-8 shadow-[0_18px_60px_rgba(16,24,40,0.08)]">
+          <h2 className="text-2xl font-serif font-bold tracking-tight text-charcoal">{cardTitle}</h2>
+          <p className="mt-4 max-w-2xl text-base leading-7 text-charcoal-muted">{cardCopy}</p>
           <div className="mt-8 grid gap-4 sm:grid-cols-2">
             {items.map((item) => (
-              <div key={item} className="rounded-lg border border-[#e6e1d8] bg-white p-4 text-sm font-bold text-[#3f4756]">
+              <div key={item} className="rounded-lg border border-sand-300 bg-white p-4 text-sm font-bold text-[#3f4756]">
                 {item}
               </div>
             ))}
@@ -1584,7 +1584,7 @@ function PlaceholderPage({
   );
 }
 
-export default function BusinessCrmSite({
+export default function BusinessPlatformSite({
   locale,
   page,
 }: {
@@ -1594,24 +1594,24 @@ export default function BusinessCrmSite({
   const copy = getCopy(locale);
 
   return (
-    <div className="min-h-screen bg-[#fffdf8] text-[#101828]">
+    <div className="min-h-screen bg-sand-50 text-charcoal">
       <Header locale={locale} page={page} copy={copy} />
       <main>
         {page === 'home' ? <HomePage locale={locale} copy={copy} /> : null}
 
-        {page === 'crm' ? (
+        {page === 'intelligence' ? (
           <>
             <StandardPageHero locale={locale} eyebrow={copy.pages.crm.eyebrow} title={copy.pages.crm.title} copy={copy.pages.crm.copy} />
             <section className="bg-white px-4 py-20 sm:px-6 lg:px-8">
               <div className="mx-auto max-w-7xl">
                 <FeatureGrid items={copy.pages.crm.pillars} locale={locale} />
-                <div className="mt-14 rounded-lg border border-[#e6e1d8] bg-[#f7f8fb] p-6 sm:p-8">
-                  <h2 className="text-2xl font-black tracking-tight text-[#101828]">{copy.pages.crm.workflowTitle}</h2>
+                <div className="mt-14 rounded-lg border border-sand-300 bg-[#f7f8fb] p-6 sm:p-8">
+                  <h2 className="text-2xl font-serif font-bold tracking-tight text-charcoal">{copy.pages.crm.workflowTitle}</h2>
                   <div className="mt-6 grid gap-3 lg:grid-cols-6">
                     {copy.pages.crm.workflow.map((step, index) => (
-                      <div key={step} className="rounded-md border border-[#d9d0c1] bg-white p-4">
-                        <p className="mb-3 text-[10px] font-black uppercase tracking-[0.12em] text-[#c97900]">0{index + 1}</p>
-                        <p className="text-sm font-black leading-5 text-[#101828]">{step}</p>
+                      <div key={step} className="rounded-md border border-sand-300 bg-white p-4">
+                        <p className="mb-3 text-[10px] font-serif font-bold uppercase tracking-[0.12em] text-[#c97900]">0{index + 1}</p>
+                        <p className="text-sm font-serif font-bold leading-5 text-charcoal">{step}</p>
                       </div>
                     ))}
                   </div>
@@ -1629,8 +1629,8 @@ export default function BusinessCrmSite({
               <div className="mx-auto max-w-7xl">
                 <FeatureGrid items={copy.pages.adaptiveAi.layers} locale={locale} />
                 <div className="mt-12 rounded-lg border border-[#111827] bg-[#f7f8fb] p-6 sm:p-8">
-                  <h2 className="text-2xl font-black tracking-tight text-[#101828]">{copy.pages.adaptiveAi.noteTitle}</h2>
-                  <p className="mt-4 max-w-4xl text-base leading-7 text-[#5b6472]">{copy.pages.adaptiveAi.noteCopy}</p>
+                  <h2 className="text-2xl font-serif font-bold tracking-tight text-charcoal">{copy.pages.adaptiveAi.noteTitle}</h2>
+                  <p className="mt-4 max-w-4xl text-base leading-7 text-charcoal-muted">{copy.pages.adaptiveAi.noteCopy}</p>
                 </div>
               </div>
             </section>
@@ -1649,12 +1649,12 @@ export default function BusinessCrmSite({
                 </div>
               </div>
             </section>
-            <section className="border-y border-[#e6e1d8] bg-[#f7f8fb] px-4 py-20 sm:px-6 lg:px-8">
+            <section className="border-y border-sand-300 bg-[#f7f8fb] px-4 py-20 sm:px-6 lg:px-8">
               <div className="mx-auto max-w-7xl">
                 <SectionHeader eyebrow={locale === 'tr' ? 'Kazanım' : locale === 'ru' ? 'Результат' : 'Outcome'} title={copy.pages.companyMemory.outcomeTitle} align="center" />
                 <div className="mt-10 grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
                   {copy.pages.companyMemory.outcomes.map((outcome) => (
-                    <div key={outcome} className="rounded-lg border border-[#d9d0c1] bg-white p-4 text-center text-sm font-black text-[#101828]">
+                    <div key={outcome} className="rounded-lg border border-sand-300 bg-white p-4 text-center text-sm font-serif font-bold text-charcoal">
                       {outcome}
                     </div>
                   ))}
@@ -1680,8 +1680,8 @@ export default function BusinessCrmSite({
               <div className="mx-auto max-w-7xl">
                 <FeatureGrid items={copy.pages.security.principles} locale={locale} />
                 <div className="mt-12 rounded-lg border border-[#f3d9a1] bg-[#fff9e8] p-6 sm:p-8">
-                  <h2 className="text-2xl font-black tracking-tight text-[#101828]">{copy.pages.security.noteTitle}</h2>
-                  <p className="mt-4 max-w-4xl text-base leading-7 text-[#5b6472]">{copy.pages.security.noteCopy}</p>
+                  <h2 className="text-2xl font-serif font-bold tracking-tight text-charcoal">{copy.pages.security.noteTitle}</h2>
+                  <p className="mt-4 max-w-4xl text-base leading-7 text-charcoal-muted">{copy.pages.security.noteCopy}</p>
                 </div>
               </div>
             </section>
@@ -1695,9 +1695,9 @@ export default function BusinessCrmSite({
             <article className="bg-white px-4 py-20 sm:px-6 lg:px-8">
               <div className="mx-auto max-w-3xl space-y-10">
                 {copy.pages.resource.sections.map((section) => (
-                  <section key={section.title} className="border-b border-[#e6e1d8] pb-10 last:border-b-0">
-                    <h2 className="text-2xl font-black tracking-tight text-[#101828]">{section.title}</h2>
-                    <p className="mt-4 text-lg leading-8 text-[#5b6472]">{section.body}</p>
+                  <section key={section.title} className="border-b border-sand-300 pb-10 last:border-b-0">
+                    <h2 className="text-2xl font-serif font-bold tracking-tight text-charcoal">{section.title}</h2>
+                    <p className="mt-4 text-lg leading-8 text-charcoal-muted">{section.body}</p>
                   </section>
                 ))}
               </div>
@@ -1708,14 +1708,14 @@ export default function BusinessCrmSite({
 
         {page === 'legal' ? (
           <>
-            <section className="relative overflow-hidden border-b border-[#e6e1d8] bg-[#fffdf8] px-4 py-16 sm:px-6 lg:px-8">
+            <section className="relative overflow-hidden border-b border-sand-300 bg-sand-50 px-4 py-16 sm:px-6 lg:px-8">
               <div className="absolute inset-0 bg-[linear-gradient(#ebe7dd_1px,transparent_1px),linear-gradient(90deg,#ebe7dd_1px,transparent_1px)] bg-[size:44px_44px] opacity-30" />
               <div className="relative mx-auto max-w-4xl">
-                <p className="mb-4 inline-flex rounded-md border border-[#f4cf87] bg-[#fff3d6] px-3 py-1.5 text-xs font-black uppercase tracking-[0.16em] text-[#8a4f00]">
+                <p className="mb-4 inline-flex rounded-md border border-[#f4cf87] bg-sand-200 px-3 py-1.5 text-xs font-serif font-bold uppercase tracking-[0.16em] text-[#8a4f00]">
                   {copy.pages.legal.eyebrow}
                 </p>
-                <h1 className="text-balance text-4xl font-black tracking-tight text-[#101828] sm:text-5xl">{copy.pages.legal.title}</h1>
-                <p className="mt-5 max-w-2xl text-base leading-7 text-[#5b6472]">{copy.pages.legal.copy}</p>
+                <h1 className="text-balance text-4xl font-serif font-bold tracking-tight text-charcoal sm:text-5xl">{copy.pages.legal.title}</h1>
+                <p className="mt-5 max-w-2xl text-base leading-7 text-charcoal-muted">{copy.pages.legal.copy}</p>
                 <p className="mt-3 text-xs font-semibold text-[#9a9288]">{copy.pages.legal.lastUpdated}</p>
               </div>
             </section>
@@ -1723,15 +1723,15 @@ export default function BusinessCrmSite({
               <div className="mx-auto max-w-3xl">
                 <div className="space-y-10">
                   {copy.pages.legal.sections.map((section) => (
-                    <section key={section.title} className="border-b border-[#e6e1d8] pb-10 last:border-b-0">
-                      <h2 className="text-xl font-black tracking-tight text-[#101828]">{section.title}</h2>
-                      <div className="mt-4 whitespace-pre-line text-base leading-8 text-[#5b6472]">{section.body}</div>
+                    <section key={section.title} className="border-b border-sand-300 pb-10 last:border-b-0">
+                      <h2 className="text-xl font-serif font-bold tracking-tight text-charcoal">{section.title}</h2>
+                      <div className="mt-4 whitespace-pre-line text-base leading-8 text-charcoal-muted">{section.body}</div>
                     </section>
                   ))}
                 </div>
-                <div className="mt-12 rounded-lg border border-[#e6e1d8] bg-[#f7f8fb] p-6">
-                  <h2 className="text-lg font-black tracking-tight text-[#101828]">{copy.pages.legal.contactTitle}</h2>
-                  <p className="mt-3 whitespace-pre-line text-sm font-semibold leading-6 text-[#5b6472]">{copy.pages.legal.contactBody}</p>
+                <div className="mt-12 rounded-lg border border-sand-300 bg-[#f7f8fb] p-6">
+                  <h2 className="text-lg font-serif font-bold tracking-tight text-charcoal">{copy.pages.legal.contactTitle}</h2>
+                  <p className="mt-3 whitespace-pre-line text-sm font-semibold leading-6 text-charcoal-muted">{copy.pages.legal.contactBody}</p>
                 </div>
               </div>
             </article>

@@ -1708,9 +1708,9 @@
       "key_question": "Modern insan neden kendi zihinsel yükünün tek başına yöneticisi hâline getirildi?"
     },
     "volume-2-appendix-1-body-energy-and-capacity": {
-      "title": "Beden, Enerji ve Kapasite",
-      "purpose": "İnsan zihninin bellek, duygu, motivasyon, alışkanlık ve karar katmanlarının bedenden bağımsız çalışmadığını açıklamak; Saule’nin kapasiteyi daha gerçekçi, daha şefkatli ve müdahaleci olmayan biçimde nasıl ele alması gerektiğini tanımlamak.",
-      "key_question": "Saule insanın değişken bedensel kapasitesine sağlık takibi iddiası taşımadan nasıl eşlik edebilir?"
+      "title": "Beden, Enerji, Kapasite ve Meditasyon",
+      "purpose": "İnsan zihninin bellek, duygu, motivasyon, alışkanlık ve karar katmanlarının bedenden bağımsız çalışmadığını; bedensel kapasite ile iç gözlem pratiklerinin birlikte ele alınması gerektiğini açıklamak. Saule’nin kapasiteyi daha gerçekçi, daha şefkatli, daha az müdahaleci ve meditasyonu performans baskısına çevirmeyen bir dille nasıl ele alması gerektiğini tanımlamak.",
+      "key_question": "Saule insanın değişken bedensel kapasitesine ve iç gözlem ihtiyacına sağlık takibi ya da ruhsal otorite iddiası taşımadan nasıl eşlik edebilir?"
     }
   },
   "community_page": {
@@ -1795,7 +1795,7 @@
     "card_life_title": "Saule Life",
     "card_life_desc": "Yaşam için uyumlanabilir zeka. Kişisel yansıtma, planlama, günlük tutma, koçluk ve Yaşayan Kitap'tan ilham alan yaşam zekası katmanı.",
     "card_business_title": "Saule Business",
-    "card_business_desc": "İş için uyumlanabilir zeka. Biletleri, geri bildirimleri, müşteri konuşmalarını ve operasyonları belleğe, örüntülere, kılavuzlara, senaryolara ve iyileştirme eylemlerine dönüştüren öğrenen bir CRM ve müşteri zekası sistemi.",
+    "card_business_desc": "İş için uyumlanabilir zeka. Biletleri, geri bildirimleri, müşteri konuşmalarını ve operasyonları belleğe, örüntülere, kılavuzlara, senaryolara ve iyileştirme eylemlerine dönüştüren uyumlanabilir zeka ve kurumsal hafıza platformu.",
     "card_creative_title": "Saule Creative",
     "card_creative_desc": "Yaratım için uyumlanabilir zeka. Kampanyalar, marka belleği, yaratıcı brief'ler, içerik fikirleri, hedef kitle içgörüleri, reklam iş akışları ve yaratıcı performans öğrenimi için bir yapay zeka yaratıcı zeka çalışma alanı.",
     "section_eco_title": "Çekirdek Ekosistem",
@@ -1820,7 +1820,7 @@
   "business_page": {
     "title": "Saule Business",
     "subtitle": "İş için uyumlanabilir zeka.",
-    "positioning": "Müşteri etkileşimlerini belleğe, örüntülere, playbooklara, senaryolara, görevlere ve iyileştirme eylemlerine dönüştüren öğrenen bir CRM ve müşteri zekası sistemi.",
+    "positioning": "Müşteri etkileşimlerini belleğe, örüntülere, playbooklara, senaryolara, görevlere ve iyileştirme eylemlerine dönüştüren uyumlanabilir zeka ve kurumsal hafıza platformu.",
     "features": [
       "Müşteri 360",
       "Şirket 360",
@@ -1832,7 +1832,7 @@
       "Senaryolar (Scripts)",
       "Görevler",
       "SLA Öğrenimi",
-      "Sürekli İyileşen CRM"
+      "Sürekli İyileşen Platform"
     ],
     "cta": "Saule Business'a Giriş Yap",
     "capabilities_title": "Yetenekler"

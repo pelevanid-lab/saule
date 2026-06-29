@@ -1719,7 +1719,7 @@
     "card_life_title": "Saule Life",
     "card_life_desc": "Adaptive intelligence for life. Personal reflection, planning, journaling, coaching, and the Living Book-inspired life intelligence layer.",
     "card_business_title": "Saule Business",
-    "card_business_desc": "Adaptive intelligence for business. A learning CRM and customer intelligence system that turns tickets, feedback, customer conversations, and operations into memory, patterns, playbooks, scripts, and improvement actions.",
+    "card_business_desc": "Adaptive intelligence for business. A adaptive intelligence and corporate memory platform that turns tickets, feedback, customer conversations, and operations into memory, patterns, playbooks, scripts, and improvement actions.",
     "card_creative_title": "Saule Creative",
     "card_creative_desc": "Adaptive intelligence for creation. An AI creative intelligence workspace for campaigns, brand memory, creative briefs, content ideas, audience insights, advertising workflows, and creative performance learning.",
     "section_eco_title": "Core Ecosystem",
@@ -1744,7 +1744,7 @@
   "business_page": {
     "title": "Saule Business",
     "subtitle": "Adaptive intelligence for business.",
-    "positioning": "A learning CRM and customer intelligence system that helps companies turn customer interactions into memory, patterns, playbooks, scripts, tasks, and improvement actions.",
+    "positioning": "A adaptive intelligence and corporate memory platform that helps companies turn customer interactions into memory, patterns, playbooks, scripts, tasks, and improvement actions.",
     "features": [
       "Cliente 360",
       "Empresa 360",
@@ -1756,7 +1756,7 @@
       "Scripts",
       "Tareas",
       "Aprendizaje de SLA",
-      "CRM de mejora continua"
+      "Plataforma de mejora continua"
     ],
     "cta": "Iniciar sesión en Saule Business",
     "capabilities_title": "Capacidades"
