@@ -2381,3 +2381,5 @@ Debug info:
  GET /tr/book 200 in 536ms (next.js: 31ms, proxy.ts: 20ms, generate-params: 42µs, application-code: 485ms)
  GET /tr/book 200 in 396ms (next.js: 34ms, proxy.ts: 21ms, generate-params: 40µs, application-code: 341ms)
  GET /tr/book 200 in 423ms (next.js: 148ms, proxy.ts: 19ms, generate-params: 87µs, application-code: 256ms)
+✓ Compiled in 188ms
+ GET /tr/book 200 in 561ms (next.js: 294ms, proxy.ts: 94ms, generate-params: 7ms, application-code: 172ms)

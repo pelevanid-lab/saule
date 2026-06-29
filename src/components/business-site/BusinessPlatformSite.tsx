@@ -1601,14 +1601,14 @@ export default function BusinessPlatformSite({
 
         {page === 'intelligence' ? (
           <>
-            <StandardPageHero locale={locale} eyebrow={copy.pages.crm.eyebrow} title={copy.pages.crm.title} copy={copy.pages.crm.copy} />
+            <StandardPageHero locale={locale} eyebrow={copy.pages.intelligence.eyebrow} title={copy.pages.intelligence.title} copy={copy.pages.intelligence.copy} />
             <section className="bg-white px-4 py-20 sm:px-6 lg:px-8">
               <div className="mx-auto max-w-7xl">
-                <FeatureGrid items={copy.pages.crm.pillars} locale={locale} />
+                <FeatureGrid items={copy.pages.intelligence.pillars} locale={locale} />
                 <div className="mt-14 rounded-lg border border-sand-300 bg-[#f7f8fb] p-6 sm:p-8">
-                  <h2 className="text-2xl font-serif font-bold tracking-tight text-charcoal">{copy.pages.crm.workflowTitle}</h2>
+                  <h2 className="text-2xl font-serif font-bold tracking-tight text-charcoal">{copy.pages.intelligence.workflowTitle}</h2>
                   <div className="mt-6 grid gap-3 lg:grid-cols-6">
-                    {copy.pages.crm.workflow.map((step, index) => (
+                    {copy.pages.intelligence.workflow.map((step, index) => (
                       <div key={step} className="rounded-md border border-sand-300 bg-white p-4">
                         <p className="mb-3 text-[10px] font-serif font-bold uppercase tracking-[0.12em] text-[#c97900]">0{index + 1}</p>
                         <p className="text-sm font-serif font-bold leading-5 text-charcoal">{step}</p>
