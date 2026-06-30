@@ -1,7 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import MobileNav from '@/components/MobileNav';
 import SauleLogo from '@/components/SauleLogo';
@@ -30,17 +29,6 @@ export default function LocaleChrome({
   localizedVolumes,
   navItems,
 }: LocaleChromeProps) {
-  const pathname = usePathname();
-  const isBusinessPlatformSite = pathname.startsWith(`/${locale}/business/platform`);
-
-  if (isBusinessPlatformSite) {
-    return (
-      <div className="min-h-screen bg-sand-100 selection:bg-sage/15 selection:text-sage-dark">
-        {children}
-      </div>
-    );
-  }
-
   return (
     <div className="flex flex-col min-h-screen bg-sand-100 selection:bg-sage/15 selection:text-sage-dark">
       <header className="sticky top-0 z-40 bg-sand-100/90 backdrop-blur-sm border-b border-sand-300/30">

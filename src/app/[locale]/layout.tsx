@@ -40,9 +40,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     },
     description: dict.meta.description,
     icons: {
-      icon: '/saule-symbol.svg',
-      shortcut: '/saule-symbol.svg',
-      apple: '/saule-symbol.svg',
+      icon: '/saule-logo.webp',
+      shortcut: '/saule-logo.webp',
+      apple: '/saule-logo.webp',
     },
     alternates: {
       canonical: `/${locale}`,

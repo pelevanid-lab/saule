@@ -32,11 +32,7 @@
     "nav_home": "홈",
     "nav_book": "살아 있는 책",
     "nav_community": "커뮤니티",
-    "nav_access": "얼리 액세스",
-    "nav_life": "Life",
-    "nav_business": "Business",
-    "nav_creative": "Creative",
-    "nav_core": "Core"
+    "nav_access": "얼리 액세스"
   },
   "footer": {
     "owner": "Saule",
@@ -199,12 +195,7 @@
     "form_feedback": "피드백 제공에 열려 있나요?",
     "form_consent": "Saule이 임상 지원이 아님을 이해합니다",
     "form_submit": "얼리 액세스 신청",
-    "form_submit_disabled": "신청 양식 곧 공개",
-    "form_product_label": "Which product are you interested in?",
-    "form_product_life": "Saule Life",
-    "form_product_business": "Saule Business",
-    "form_product_creative": "Saule Creative",
-    "form_product_core": "Full Platform"
+    "form_submit_disabled": "신청 양식 곧 공개"
   },
   "book_beginning": {
     "preface": {
@@ -276,98 +267,26 @@
       ]
     }
   },
-  "life_page": {
+  "home_page": {
     "hero_title": "Saule",
-    "hero_subtitle": "삶을 위한 적응형 지능.",
-    "hero_desc": "Saule은 현대인이 마음의 혼란, 열린 고리, 주의력 위기, 결정 피로를 다루도록 돕는 인간 중심의 삶 지능으로 개발되고 있습니다.",
-    "cta_read_book": "살아 있는 책 읽기",
-    "cta_request_access": "얼리 액세스 신청",
-    "cta_join_community": "커뮤니티 참여",
-    "problem_title": "현대 생활은 마음이 감당할 수 있는 것보다 더 많은 열린 고리를 만듭니다.",
-    "problem_text": "과제, 메시지, 결정, 관계, 불확실성, 미완의 의도가 같은 정신적 공간에 쌓입니다. 대부분의 생산성 도구는 이 짐을 더 잘 정리하려 하지만, Saule은 먼저 사람이 그 짐을 어떻게 경험하는지 이해하려 합니다.",
-    "open_book_title": "열린 책, 통제된 애플리케이션",
-    "open_book_text": "누구나 Saule의 개념적 토대를 읽을 수 있습니다. 그러나 개인의 기억, 주의, 결정, 관계, 정신적 부담과 같은 민감한 영역을 다루기에 초기 애플리케이션은 공개 가입 대신 초대제로 운영합니다. 원칙을 먼저 공개적으로 쓰고, 애플리케이션은 통제된 방식으로 개발합니다.",
-    "open_book_cta": "책 읽기",
-    "community_title": "커뮤니티와 함께하는 개발",
-    "community_text": "Saule은 닫힌 제품이 아니라 살아 있는 책과 초기 커뮤니티의 피드백과 함께 발전하는 연구 공간입니다. 커뮤니티는 제품의 언어와 윤리적 경계, 실제 인간 경험과의 적합성을 살피는 배움의 장입니다.",
-    "community_cta": "커뮤니티 페이지로",
-    "access_title": "애플리케이션은 초대제로 운영됩니다",
-    "access_text": "초기 Saule 애플리케이션은 모두에게 공개되지 않습니다. 웹사이트 신청과 검토를 거친 뒤 초대 링크로 접근 권한을 제공합니다.",
-    "access_cta": "얼리 액세스 신청",
-    "what_saule_is_not": "Saule은 의료·임상·치료 서비스가 아닙니다. 진단하거나 치료를 권하지 않으며 인간의 도움을 대신하지 않습니다. 관찰하되 판단하지 않고, 패턴을 보여 주되 정체성을 강요하지 않으며, 돕되 사용자의 의지를 대신하지 않습니다."
-  },
-  "core_homepage": {
-    "hero_title": "Saule",
-    "hero_subtitle": "Adaptive Intelligence Platform",
-    "hero_desc": "Saule is a single adaptive intelligence platform for life, business, and creation. It turns human, customer, and creative experiences into memory, patterns, and better decisions.",
-    "cta_life": "Explore Saule Life →",
-    "cta_business": "Discover Saule Business →",
-    "cta_creative": "See Saule Creative →",
-    "cta_book": "Read the Living Book →",
-    "cta_community": "Join the Community →",
-    "cta_access": "Request Early Access →",
-    "section_core_title": "One Core, Three Applications",
-    "card_life_title": "Saule Life",
-    "card_life_desc": "Adaptive intelligence for life. Personal reflection, planning, journaling, coaching, and the Living Book-inspired life intelligence layer.",
-    "card_business_title": "Saule Business",
-    "card_business_desc": "Adaptive intelligence for business. A adaptive intelligence and corporate memory platform that turns tickets, feedback, customer conversations, and operations into memory, patterns, playbooks, scripts, and improvement actions.",
-    "card_creative_title": "Saule Creative",
-    "card_creative_desc": "Adaptive intelligence for creation. An AI creative intelligence workspace for campaigns, brand memory, creative briefs, content ideas, audience insights, advertising workflows, and creative performance learning.",
-    "section_eco_title": "Core Ecosystem",
-    "eco_book_title": "Living Book",
-    "eco_book_desc": "The philosophical foundation of Saule. It explains why adaptive intelligence is needed for modern life, business, and creativity.",
-    "eco_community_title": "Community",
-    "eco_community_desc": "A shared learning space for people building better lives, better customer systems, and better creative workflows with adaptive intelligence.",
-    "eco_access_title": "Early Access",
-    "eco_access_desc": "Request access to Saule Life, Saule Business, Saule Creative, or the full platform.",
-    "section_tech_title": "Core Technology",
-    "tech_desc": "Explain that all products are powered by one shared Saule Adaptive Intelligence Core:",
-    "tech_list": [
-      "Memory Engine",
-      "Pattern Engine",
-      "Learning Queue",
-      "Agent Runtime",
-      "Product-aware permissions",
-      "Workspace / org isolation",
-      "Product-specific memory boundaries"
+    "hero_subtitle": "Adaptive intelligence for life.",
+    "hero_desc": "Saule is one AI system for helping people carry mental load, open loops, decision fatigue, forgotten intentions, and the fragile connection to their own lives with more clarity and care.",
+    "cta_book": "Read the Living Book ↗",
+    "cta_community": "Join the Community ↗",
+    "section_saule_title": "One Saule",
+    "section_saule_desc": "Saule is not split into separate product worlds. Work, creativity, relationships, decisions, and daily life are different contexts of the same human being; Saule approaches them through one ethical and design spine.",
+    "section_ecosystem_title": "Living Book and Community",
+    "book_title": "The Living Book",
+    "book_desc": "Saule's philosophical, psychological, ethical, and engineering foundation is kept openly here.",
+    "community_title": "Community",
+    "community_desc": "Saule's language, limits, and early experiences mature with community feedback.",
+    "section_principles_title": "Design Principles",
+    "principles_desc": "Saule should create more clarity, not more pressure.",
+    "principles": [
+      "It does not reduce humans to machines to be optimized.",
+      "It shows patterns without judgment.",
+      "It does not take over agency; it protects the space for choice.",
+      "It treats forgetting, silence, and stepping back as part of design."
     ]
-  },
-  "business_page": {
-    "title": "Saule Business",
-    "subtitle": "Adaptive intelligence for business.",
-    "positioning": "A adaptive intelligence and corporate memory platform that helps companies turn customer interactions into memory, patterns, playbooks, scripts, tasks, and improvement actions.",
-    "features": [
-      "고객 360",
-      "기업 360",
-      "옴니채널 수신함",
-      "티켓",
-      "인사이트",
-      "패턴 메모리",
-      "플레이북",
-      "스크립트",
-      "작업",
-      "SLA 학습",
-      "지속적 개선 플랫폼"
-    ],
-    "cta": "Saule Business 로그인",
-    "capabilities_title": "기능"
-  },
-  "creative_page": {
-    "title": "Saule Creative",
-    "subtitle": "Adaptive intelligence for creation.",
-    "positioning": "An AI creative intelligence workspace inspired by advertising, marketing, brand strategy, and creative production.",
-    "features": [
-      "브랜드 메모리",
-      "캠페인 메모리",
-      "크리에이티브 브리프",
-      "잠재고객 인사이트",
-      "콘텐츠 아이디어",
-      "광고 컨셉",
-      "크리에이티브 테스트",
-      "성과 학습",
-      "AI 광고 대행사 워크플로우"
-    ],
-    "cta": "Saule Creative 로그인",
-    "capabilities_title": "기능"
   }
 }

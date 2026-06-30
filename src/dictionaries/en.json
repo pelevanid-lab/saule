@@ -32,11 +32,7 @@
     "nav_home": "Home",
     "nav_book": "Living Book",
     "nav_community": "Community",
-    "nav_access": "Early Access",
-    "nav_life": "Life",
-    "nav_business": "Business",
-    "nav_creative": "Creative",
-    "nav_core": "Core"
+    "nav_access": "Early Access"
   },
   "footer": {
     "owner": "Saule",
@@ -59,7 +55,7 @@
     "version_label": "Edition",
     "last_updated_label": "Last Updated",
     "metric_volumes": "Volumes",
-    "metric_chapters": "Core Chapters",
+    "metric_chapters": "Chapters",
     "metric_written": "Drafted Chapters",
     "metric_sources": "Research Nodes",
     "metric_questions": "Open Questions",
@@ -515,7 +511,7 @@
             "status": "open",
             "decisionArea": "Success Metrics",
             "answeredInChapters": [
-              "Chapter 39 — Business Model",
+              "Chapter 39 — ???? Model",
               "Chapter 40 — Development Phases"
             ]
           },
@@ -549,7 +545,7 @@
             "answeredInChapters": [
               "Chapter 23 — Ethics",
               "Chapter 24 — Agency",
-              "Chapter 39 — Business Model"
+              "Chapter 39 — ???? Model"
             ]
           },
           {
@@ -673,7 +669,7 @@
             "decisionArea": "Manipulation Risk",
             "answeredInChapters": [
               "Chapter 23 — Ethics",
-              "Chapter 39 — Business Model",
+              "Chapter 39 — ???? Model",
               "Chapter 40 — Development Phases"
             ]
           },
@@ -842,7 +838,7 @@
             "decisionArea": "Self-Monitoring",
             "answeredInChapters": [
               "Chapter 23 — Ethics",
-              "Chapter 39 — Business Model",
+              "Chapter 39 — ???? Model",
               "Chapter 40 — Development Phases"
             ]
           }
@@ -1104,7 +1100,7 @@
             "answeredInChapters": [
               "Chapter 20 — Trust",
               "Chapter 23 — Ethics",
-              "Chapter 39 — Business Model"
+              "Chapter 39 — ???? Model"
             ]
           },
           {
@@ -1305,7 +1301,7 @@
             ]
           },
           {
-            "heading": "5. The Business Model Is Ethical Too",
+            "heading": "5. The ???? Model Is Ethical Too",
             "paragraphs": [
               "Revenue models shape behavior. If the system earns from distress, then distress becomes structurally incentivized. Saule’s sustainability must not depend on human fragility."
             ]
@@ -1328,10 +1324,10 @@
             "id": "v3-23-1",
             "question": "What concrete boundaries define a business model that does not exploit vulnerable moments?",
             "status": "open",
-            "decisionArea": "Business Model Ethics",
+            "decisionArea": "???? Model Ethics",
             "answeredInChapters": [
               "Chapter 20 — Trust",
-              "Chapter 39 — Business Model",
+              "Chapter 39 — ???? Model",
               "Chapter 40 — Development Phases"
             ]
           },
@@ -1343,7 +1339,7 @@
             "answeredInChapters": [
               "Chapter 24 — Agency",
               "Chapter 33 — Voice",
-              "Chapter 39 — Business Model"
+              "Chapter 39 — ???? Model"
             ]
           },
           {
@@ -1364,7 +1360,7 @@
             "decisionArea": "Success Metrics",
             "answeredInChapters": [
               null,
-              "Chapter 39 — Business Model",
+              "Chapter 39 — ???? Model",
               "Chapter 40 — Development Phases"
             ]
           },
@@ -1386,7 +1382,7 @@
             "decisionArea": "Governance",
             "answeredInChapters": [
               "Chapter 34 — Saule Native Intelligence",
-              "Chapter 39 — Business Model",
+              "Chapter 39 — ???? Model",
               "Chapter 40 — Development Phases"
             ]
           }
@@ -1522,7 +1518,7 @@
             "decisionArea": "Partnership Governance",
             "answeredInChapters": [
               "Chapter 23 — Ethics",
-              "Chapter 39 — Business Model",
+              "Chapter 39 — ???? Model",
               "Chapter 40 — Development Phases"
             ]
           }
@@ -1617,7 +1613,7 @@
       "key_question": "How do we secure the local runtime against hostile data extraction?"
     },
     "business-model": {
-      "title": "Business Model",
+      "title": "???? Model",
       "purpose": "Detail subscription sustainability, zero-ad commitment, and user-aligned monetization.",
       "key_question": "How do we generate revenue without ever compromising user data or attention?"
     },
@@ -1695,105 +1691,28 @@
     "form_feedback": "Are you open to giving feedback?",
     "form_consent": "I understand that Saule is not clinical support",
     "form_submit": "Request Early Access",
-    "form_submit_disabled": "Form Submission Opening Soon",
-    "form_product_label": "Which product are you interested in?",
-    "form_product_life": "Saule Life",
-    "form_product_business": "Saule Business",
-    "form_product_creative": "Saule Creative",
-    "form_product_core": "Full Platform"
+    "form_submit_disabled": "Form Submission Opening Soon"
   },
-  "life_page": {
+  "home_page": {
     "hero_title": "Saule",
     "hero_subtitle": "Adaptive intelligence for life.",
-    "hero_desc": "Saule is being developed as a human-first life intelligence to help the modern person handle mental clutter, open loops, attention crisis, and decision fatigue.",
-    "cta_read_book": "Read the Living Book",
-    "cta_request_access": "Request Early Access",
-    "cta_join_community": "Join Community",
-    "problem_title": "Modern life fills the mind with more open loops than it can carry.",
-    "problem_text": "Tasks, messages, decisions, relationships, uncertainties, and unfinished intentions accumulate in the same mental space. Most productivity tools propose to organize this load better; Saule first seeks to understand how this load is experienced on the human.",
-    "open_book_title": "Open Book, Closed Application",
-    "open_book_text": "The conceptual foundation of Saule can be read by everyone. However, the application will proceed with invite-only access rather than public registration in the early stages. Because Saule touches sensitive areas such as personal memory, attention, decisions, relationships, and mental load. Therefore, the principles are written openly first, and then the application is developed in a controlled manner.",
-    "open_book_cta": "Read the Book",
-    "community_title": "Community-supported development",
-    "community_text": "Saule is designed not just as a closed product, but as a research space evolving with a living book and early community feedback. The community is the learning space that inspects the language of the product, its ethical boundaries, and its suitability for real human experience.",
-    "community_cta": "Go to Community Page",
-    "access_title": "Application access is by invitation",
-    "access_text": "The Saule application will not be open to everyone in the early stages. Access will be provided via an invitation link after application and review via the website.",
-    "access_cta": "Request Early Access",
-    "what_saule_is_not": "Saule is not a medical, clinical, or therapeutic service. It does not aim to diagnose, suggest treatment, or replace human support. Saule observes but does not judge; it shows patterns but does not impose identity; it offers support but does not take over the user's will."
-  },
-  "core_homepage": {
-    "hero_title": "Saule",
-    "hero_subtitle": "Adaptive Intelligence Platform",
-    "hero_desc": "Saule is a single adaptive intelligence platform for life, business, and creation. It turns human, customer, and creative experiences into memory, patterns, and better decisions.",
-    "cta_life": "Explore Saule Life →",
-    "cta_business": "Discover Saule Business →",
-    "cta_creative": "See Saule Creative →",
-    "cta_book": "Read the Living Book →",
-    "cta_community": "Join the Community →",
-    "cta_access": "Request Early Access →",
-    "section_core_title": "One Core, Three Applications",
-    "card_life_title": "Saule Life",
-    "card_life_desc": "Adaptive intelligence for life. Personal reflection, planning, journaling, coaching, and the Living Book-inspired life intelligence layer.",
-    "card_business_title": "Saule Business",
-    "card_business_desc": "Adaptive intelligence for business. A adaptive intelligence and corporate memory platform that turns tickets, feedback, customer conversations, and operations into memory, patterns, playbooks, scripts, and improvement actions.",
-    "card_creative_title": "Saule Creative",
-    "card_creative_desc": "Adaptive intelligence for creation. An AI creative intelligence workspace for campaigns, brand memory, creative briefs, content ideas, audience insights, advertising workflows, and creative performance learning.",
-    "section_eco_title": "Core Ecosystem",
-    "eco_book_title": "Living Book",
-    "eco_book_desc": "The philosophical foundation of Saule. It explains why adaptive intelligence is needed for modern life, business, and creativity.",
-    "eco_community_title": "Community",
-    "eco_community_desc": "A shared learning space for people building better lives, better customer systems, and better creative workflows with adaptive intelligence.",
-    "eco_access_title": "Early Access",
-    "eco_access_desc": "Request access to Saule Life, Saule Business, Saule Creative, or the full platform.",
-    "section_tech_title": "Core Technology",
-    "tech_desc": "Explain that all products are powered by one shared Saule Adaptive Intelligence Core:",
-    "tech_list": [
-      "Memory Engine",
-      "Pattern Engine",
-      "Learning Queue",
-      "Agent Runtime",
-      "Product-aware permissions",
-      "Workspace / org isolation",
-      "Product-specific memory boundaries"
+    "hero_desc": "Saule is one AI system for helping people carry mental load, open loops, decision fatigue, forgotten intentions, and the fragile connection to their own lives with more clarity and care.",
+    "cta_book": "Read the Living Book ↗",
+    "cta_community": "Join the Community ↗",
+    "section_saule_title": "One Saule",
+    "section_saule_desc": "Saule is not split into separate product worlds. Work, creativity, relationships, decisions, and daily life are different contexts of the same human being; Saule approaches them through one ethical and design spine.",
+    "section_ecosystem_title": "Living Book and Community",
+    "book_title": "The Living Book",
+    "book_desc": "Saule's philosophical, psychological, ethical, and engineering foundation is kept openly here.",
+    "community_title": "Community",
+    "community_desc": "Saule's language, limits, and early experiences mature with community feedback.",
+    "section_principles_title": "Design Principles",
+    "principles_desc": "Saule should create more clarity, not more pressure.",
+    "principles": [
+      "It does not reduce humans to machines to be optimized.",
+      "It shows patterns without judgment.",
+      "It does not take over agency; it protects the space for choice.",
+      "It treats forgetting, silence, and stepping back as part of design."
     ]
-  },
-  "business_page": {
-    "title": "Saule Business",
-    "subtitle": "Adaptive intelligence for business.",
-    "positioning": "A adaptive intelligence and corporate memory platform that helps companies turn customer interactions into memory, patterns, playbooks, scripts, tasks, and improvement actions.",
-    "features": [
-      "Customer 360",
-      "Company 360",
-      "Omnichannel Inbox",
-      "Tickets",
-      "Insights",
-      "Pattern Memory",
-      "Playbooks",
-      "Scripts",
-      "Tasks",
-      "SLA learning",
-      "Continuous improvement platform"
-    ],
-    "cta": "Log in to Saule Business",
-    "capabilities_title": "Capabilities"
-  },
-  "creative_page": {
-    "title": "Saule Creative",
-    "subtitle": "Adaptive intelligence for creation.",
-    "positioning": "An AI creative intelligence workspace inspired by advertising, marketing, brand strategy, and creative production.",
-    "features": [
-      "Brand memory",
-      "Campaign memory",
-      "Creative briefs",
-      "Audience insights",
-      "Content ideas",
-      "Ad concepts",
-      "Creative testing",
-      "Performance learning",
-      "AI advertising agency workflow"
-    ],
-    "cta": "Log in to Saule Creative",
-    "capabilities_title": "Capabilities"
   }
 }

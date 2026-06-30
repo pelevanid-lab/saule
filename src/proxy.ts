@@ -28,6 +28,6 @@ export function proxy(request: NextRequest) {
 export const config = {
   // Intercept all paths except API routes, next static assets, and basic static files
   matcher: [
-    '/((?!api|_next/static|_next/image|favicon.ico|icon.png|saule-logo.png|apple-icon.png|images|assets).*)',
+    '/((?!api|_next/static|_next/image|favicon.ico|icon.png|saule-logo.png|saule-logo.webp|apple-icon.png|images|assets).*)',
   ],
 };

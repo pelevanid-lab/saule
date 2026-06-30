@@ -6,51 +6,41 @@ import { usePathname } from 'next/navigation';
 export default function DesktopNav({ locale, dict }: { locale: string; dict: any }) {
   const pathname = usePathname();
 
-  const isCore = pathname === `/${locale}`;
-  const isLife = pathname === `/${locale}/life`;
-  const isBusiness = pathname.startsWith(`/${locale}/business`);
-  const isCreative = pathname === `/${locale}/creative`;
+  const isHome = pathname === `/${locale}`;
+  const isBook =
+    pathname === `/${locale}/book` ||
+    pathname.includes('/chapter/') ||
+    pathname.includes('/appendix/') ||
+    pathname.includes('/volume/');
+  const isCommunity = pathname === `/${locale}/community`;
+  const isAccess = pathname === `/${locale}/access`;
 
   return (
-    <nav className="hidden md:flex flex-1 items-center justify-between ml-8 mr-6">
-      {/* Products (Left Side) */}
-      <div className="flex items-center space-x-6 text-sm font-sans font-semibold">
-        <Link 
-          href={`/${locale}`} 
-          className={`transition-colors ${isCore ? 'text-sage-dark font-bold' : 'text-charcoal-muted hover:text-charcoal'}`}
-        >
-          {dict.header.nav_core || 'Core'}
-        </Link>
-        <Link 
-          href={`/${locale}/life`} 
-          className={`transition-colors ${isLife ? 'text-sage-dark font-bold' : 'text-charcoal-muted hover:text-charcoal'}`}
-        >
-          {dict.header.nav_life || 'Life'}
-        </Link>
-        <Link 
-          href={`/${locale}/business`} 
-          className={`transition-colors ${isBusiness ? 'text-sage-dark font-bold' : 'text-charcoal-muted hover:text-charcoal'}`}
-        >
-          {dict.header.nav_business || 'Business'}
-        </Link>
-        <Link 
-          href={`/${locale}/creative`} 
-          className={`transition-colors ${isCreative ? 'text-sage-dark font-bold' : 'text-charcoal-muted hover:text-charcoal'}`}
-        >
-          {dict.header.nav_creative || 'Creative'}
-        </Link>
-      </div>
-
-      {/* Core Links (Right Side) */}
+    <nav className="hidden md:flex flex-1 items-center justify-end ml-8 mr-6">
       <div className="flex items-center space-x-6 text-sm font-sans font-semibold text-charcoal-muted">
-        <Link href={`/${locale}`} className="hover:text-sage-dark transition-colors">
+        <Link
+          href={`/${locale}`}
+          className={`transition-colors ${isHome ? 'text-sage-dark font-bold' : 'hover:text-sage-dark'}`}
+        >
           {dict.header.nav_home || 'Ana Sayfa'}
         </Link>
-        <Link href={`/${locale}/book`} className="hover:text-sage-dark transition-colors">
+        <Link
+          href={`/${locale}/book`}
+          className={`transition-colors ${isBook ? 'text-sage-dark font-bold' : 'hover:text-sage-dark'}`}
+        >
           {dict.header.nav_book || 'Yaşayan Kitap'}
         </Link>
-        <Link href={`/${locale}/community`} className="hover:text-sage-dark transition-colors">
+        <Link
+          href={`/${locale}/community`}
+          className={`transition-colors ${isCommunity ? 'text-sage-dark font-bold' : 'hover:text-sage-dark'}`}
+        >
           {dict.header.nav_community || 'Topluluk'}
+        </Link>
+        <Link
+          href={`/${locale}/access`}
+          className={`transition-colors ${isAccess ? 'text-sage-dark font-bold' : 'hover:text-sage-dark'}`}
+        >
+          {dict.header.nav_access || 'Erken Erişim'}
         </Link>
       </div>
     </nav>

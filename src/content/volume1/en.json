@@ -346,7 +346,7 @@
             "answeredInChapters": [
               "Chapter 20 — Trust",
               "Chapter 23 — Ethics",
-              "Chapter 39 — Business Model"
+              "Chapter 39 — ???? Model"
             ]
           },
           {
@@ -503,7 +503,7 @@
             "heading": "9. The Open-Loop Principle for Saule",
             "paragraphs": [
               "This chapter gives rise to a foundational principle for Saule: Saule should not be a creditor of unfinished life, but a gentle interpreter of uncertainty. Its task is not to make users repay every old intention, but to help them see which ones still carry meaning and responsibility today.",
-              "This open-loop principle is a foundational design principle not only for individual life, but for all the life, work, and creativity layers of Saule Core. What remains open may be a personal task, a team decision, or a creative possibility; what each requires is not identical, but all need visible ownership, reliable return, and meaningful closure.",
+              "This open-loop principle is a foundational design principle not only for individual life, but for all the life, work, and creativity layers of Saule. What remains open may be a personal task, a team decision, or a creative possibility; what each requires is not identical, but all need visible ownership, reliable return, and meaningful closure.",
               "Each open loop should be represented as simply as possible: What is it? Why is it open? Who owns the next move? What kind of closure does it need? Under what condition should it reappear? When the system is uncertain, it should say so and must not store a provisional interpretation as permanent truth.",
               "Every resurfaced item should include a reason and an easy way out. The user should be able to defer it, change its state, delegate it, mark it complete, let it go, or delete it permanently. Saule’s intelligence is visible not only in bringing forward the right thing, but also in withdrawing quickly when it brings forward the wrong one.",
               "Success is not measured by the number of loops closed. More meaningful questions are: Can the user see more clearly what belongs to them? Can they safely set down an intention without rehearsing it mentally? Can they distinguish what they are waiting for from what they must do? Can they end invalid goals without guilt? Do they feel lighter and more directed after a review?",
@@ -741,7 +741,7 @@
             "decisionArea": "Human Outcomes",
             "answeredInChapters": [
               "Chapter 23 — Ethics",
-              "Chapter 39 — Business Model"
+              "Chapter 39 — ???? Model"
             ]
           },
           {
@@ -967,8 +967,8 @@
               "The modern digital environment has built an economy of escape that would have been difficult to imagine in many earlier eras. A person can move from an emotionally difficult task, an unresolved worry, or a slow piece of work into another stimulus in seconds. There is very little preparation required to leave the moment.",
               "That shift makes escape not only more visible, but cheaper and more frequent. The same device can hold work, relationships, entertainment, research, consumption, and numbing. People are therefore living not only with their own vulnerabilities, but also with an environment architected to make rapid relief constantly available.",
               "Saule cannot read repeated attention drift as a discipline problem alone. Part of the problem is that the environment makes immediate exits extraordinarily accessible. A design that ignores this reality loads too much individual blame onto the user.",
-              "The same dynamic appears in organizations and creative work. Teams can slide from difficult work into surface work under communication pressure. Creative people can move from risk into measurable busyness. In ordinary life, moments of emptiness, anxiety, or loneliness can be filled with digital sedation before they can even be named.",
-              "Chapter 5 is therefore not only about individual psychology. It is also about the attention economy and the friction profile of modern environments. Saule Core must read escape not only as a personal weakness, but as a behavior shaped by context, environment, and the pressure to self-regulate alone."
+              "The same dynamic appears in organizations and creative work. Teams can slide from difficult work into surface work under communication pressure. ???? people can move from risk into measurable busyness. In ordinary life, moments of emptiness, anxiety, or loneliness can be filled with digital sedation before they can even be named.",
+              "Chapter 5 is therefore not only about individual psychology. It is also about the attention economy and the friction profile of modern environments. Saule must read escape not only as a personal weakness, but as a behavior shaped by context, environment, and the pressure to self-regulate alone."
             ]
           },
           {
@@ -987,7 +987,7 @@
               "Many escape behaviors are driven not only by pleasure-seeking, but by difficult emotions that become hard to carry. Shame is especially important. A person may feel ashamed that they escaped, that shame increases pressure, and that pressure creates renewed need to escape. The loop is then made not only of the behavior itself, but also of the self-judgment woven around it.",
               "Loneliness can work in a similar way. Addiction literature often notes the relevance of disconnection, isolation, and lack of felt relational holding. People may not attach only to the behavior itself, but to the temporary sense of contact, filler, or occupiedness that it provides. Hayes and colleagues’ experiential-avoidance frame is useful here: sometimes what becomes reinforcing is not the behavior itself, but the possibility of getting away from an inner experience that feels unbearable.",
               "That matters deeply because a person who “keeps doing too much of something” may also be carrying a feeling alone. Teams can hide inside performance language to avoid shame about a failed experiment, a deteriorating customer relationship, or weak coordination. Creators can flee the exposedness of making, the fear of inadequacy, or rejection.",
-              "The language of this chapter should therefore not center on “control it, block it, limit it.” It should ask: what is becoming uncarryable, what is getting too loud, what kind of loneliness or shame is active here? Saule Core cannot read people only from the surface of behavior; it must also respect the function of the feeling.",
+              "The language of this chapter should therefore not center on “control it, block it, limit it.” It should ask: what is becoming uncarryable, what is getting too loud, what kind of loneliness or shame is active here? Saule cannot read people only from the surface of behavior; it must also respect the function of the feeling.",
               "That does not mean the product becomes therapy. Saule’s role is not to produce clinical interpretations, but to offer a space in which people can see their own patterns more honestly, without amplified shame, with cleaner context, and with human support treated as a valid next step when necessary."
             ]
           },
@@ -996,7 +996,7 @@
             "paragraphs": [
               "Many digital systems are either silent about escape behavior or aggressively restrictive toward it. Real life is messier. People cannot always stop a behavior once and for all. The more humane question is how they return afterward, because the most damaging part of the loop is often not the act itself, but the clutter, lost time, shame, and inability to restart that follow it.",
               "This is where Saule’s design advantage can emerge. Instead of punishing the escape, the system can reduce the cost of re-entry. A person should be able to see where they are returning to, what the smallest next step is, what context has been preserved, and what no longer belongs to today.",
-              "This principle matters not only for individual use, but for shared work and creative processes too. If a team avoided a difficult meeting, the path toward the next honest conversation should be visible. If a creative person drifted away from the work, the re-entry point should be small, non-shaming, and genuinely workable. The intelligence of Saule Core is visible not in pushing people back into ideal performance, but in reconnecting them gently to reality.",
+              "This principle matters not only for individual use, but for shared work and creative processes too. If a team avoided a difficult meeting, the path toward the next honest conversation should be visible. If a creative person drifted away from the work, the re-entry point should be small, non-shaming, and genuinely workable. The intelligence of Saule is visible not in pushing people back into ideal performance, but in reconnecting them gently to reality.",
               "That is why the system’s basic reflex should not be alarm. A product voice that says “you did it again” can harden an already fragile self-regulation space. A more helpful response is: “you broke away here; if you want, this is the smallest path back.”",
               "Return design is the central principle of this chapter. As Marlatt and Donovan’s relapse-prevention tradition also implies, the question is not only how to forbid a behavior, but how to strengthen a person’s capacity to reorient after a break. Saule should be a system that brings people back rather than catches them, that helps them find direction rather than shames them, and that reduces friction rather than adds control."
             ]
@@ -1018,18 +1018,18 @@
               "If a user explicitly describes serious harm, loss of control, risk to self or others, heavy functional impairment, or urgent support needs, Saule should not act like a self-sufficient intelligence that can solve the situation alone. That limit is not only ethical; it is part of product honesty.",
               "Encouraging human support should be done without producing shame. “It may help to bring a human support system into this” is very different from “this is beyond you.” Saule’s task is not to exclude the user, but to normalize help-seeking when a burden should not be carried alone.",
               "The same boundary matters in work and creative contexts. Burnout, compulsive overwork, crisis avoidance, clear harm, or safety risks inside a team cannot be framed merely as productivity issues. Severe destructive or compulsive patterns in creative life are not only making problems either.",
-              "The ethical spine of this chapter is therefore clear: Saule can make patterns more visible, simplify paths back, and act as a bridge toward human support, but it cannot claim clinical authority. The narrower clinical frames of the WHO and APA support that humility. Saule Core’s trust architecture depends on it."
+              "The ethical spine of this chapter is therefore clear: Saule can make patterns more visible, simplify paths back, and act as a bridge toward human support, but it cannot claim clinical authority. The narrower clinical frames of the WHO and APA support that humility. Saule’s trust architecture depends on it."
             ]
           },
           {
-            "heading": "9. The Escape-Loop Principle for Saule Core",
+            "heading": "9. The Escape-Loop Principle for Saule",
             "paragraphs": [
-              "The design consequence of this chapter is simple and demanding: Saule Core should not be a control system that promises to eliminate escape. It should be a life intelligence that understands the function of escape, lowers the cost of return, and widens the set of available regulating options.",
+              "The design consequence of this chapter is simple and demanding: Saule should not be a control system that promises to eliminate escape. It should be a life intelligence that understands the function of escape, lowers the cost of return, and widens the set of available regulating options.",
               "That principle keeps the same core across life, work, and creativity: when we break away under strain, the task is not to discipline us harder, but to reconnect us more honestly and more practically to where we left off.",
               "This is deeper than trying to make the user more disciplined. The goal is not harsher self-control, but more honest contact with oneself, more reliable return, less invisible guilt, and more human ways of regulating pressure.",
               "Such a system sees patterns without freezing them into labels. It recognizes relief without criminalizing all pleasure. It notices strain without converting it into character judgment. It can stay quiet, reflect, preserve context, or make room for human support when needed.",
               "The measure of success is not that a person “never escapes again.” A better measure is this: can they notice earlier when escape is happening? Can they return with more kindness, more practicality, and less guilt? Can they see more honestly what conditions bring the same loop back? Is the path back becoming a little more visible, a little smaller, and a little more human over time?",
-              "That is the final claim of Chapter 5: escape loops are not stains to suppress. Read poorly, they grow. Read well, they reveal what has become too hard to carry, what is needed, and where better structures, better bonds, and better rhythms are still missing. Saule Core must learn to turn those signals toward the person’s good rather than against them."
+              "That is the final claim of Chapter 5: escape loops are not stains to suppress. Read poorly, they grow. Read well, they reveal what has become too hard to carry, what is needed, and where better structures, better bonds, and better rhythms are still missing. Saule must learn to turn those signals toward the person’s good rather than against them."
             ]
           }
         ],
@@ -1078,17 +1078,17 @@
             "id": "ea-5",
             "question": "How should organizational escape loops be distinguished from individual ones?",
             "status": "open",
-            "decisionArea": "Business Context",
+            "decisionArea": "???? Context",
             "answeredInChapters": [
               "Chapter 30 — Relationship Intelligence",
-              "Chapter 39 — Business Model"
+              "Chapter 39 — ???? Model"
             ]
           },
           {
             "id": "ea-6",
             "question": "How should creative avoidance be distinguished from incubation?",
             "status": "open",
-            "decisionArea": "Creative Context",
+            "decisionArea": "???? Context",
             "answeredInChapters": [
               "Chapter 15 — Reflection",
               "Chapter 21 — Learning"
@@ -1127,7 +1127,7 @@
           "Pattern data must remain visible, revisable, and withdrawable by the user.",
           "Success should be measured not by eliminating escape, but by earlier noticing, gentler return, and less invisible guilt."
         ],
-        "future_evolution": "This chapter will later become a more formal Saule Core model of escape loops: triggering conditions, regulated emotions, short-term relief types, return costs, repetition thresholds, shame and loneliness components, and context-specific regulation options will be described more explicitly. Later versions will separate personal archetypes in Saule Life, organizational and operational escape forms in Saule Business, and perfectionistic delay or circling in Saule Creative. They will also define when the path back should be silent, reflective, protective, or bridge-building toward human support.",
+        "future_evolution": "This chapter will later become a more formal Saule model of escape loops: triggering conditions, regulated emotions, short-term relief types, return costs, repetition thresholds, shame and loneliness components, and context-specific regulation options will be described more explicitly. Later versions will separate personal archetypes in Saule, organizational and operational escape forms in Saule, and perfectionistic delay or circling in Saule. They will also define when the path back should be silent, reflective, protective, or bridge-building toward human support.",
         "references": [
           "Koob, G. F. (2021). Drug addiction: Hyperkatifeia/negative reinforcement as a framework for medications development. Pharmacological Reviews, 73(1), 163–201.",
           "Koob, G. F. (2009). Neurobiological substrates for the dark side of compulsivity in addiction. Neuropharmacology, 56(Suppl 1), 18–31.",
@@ -1341,7 +1341,7 @@
             "answeredInChapters": [
               "Chapter 20 — Trust",
               "Chapter 23 — Ethics",
-              "Chapter 39 — Business Model",
+              "Chapter 39 — ???? Model",
               "Chapter 40 — Development Phases"
             ]
           },
@@ -1363,7 +1363,7 @@
             "decisionArea": "Sustainability Ethics",
             "answeredInChapters": [
               "Chapter 23 — Ethics",
-              "Chapter 39 — Business Model"
+              "Chapter 39 — ???? Model"
             ]
           },
           {
@@ -1396,7 +1396,7 @@
             "answeredInChapters": [
               "Chapter 23 — Ethics",
               "Chapter 33 — Voice",
-              "Chapter 39 — Business Model"
+              "Chapter 39 — ???? Model"
             ]
           },
           {

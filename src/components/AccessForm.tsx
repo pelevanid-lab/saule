@@ -15,7 +15,6 @@ export default function AccessForm({ dict }: AccessFormProps) {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    product: 'life',
     reason: '',
     struggle: '',
     takeaway: '',

@@ -10,9 +10,9 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const dict = await getDictionary(locale);
-  const title = dict.access_page.title || "Saule Erken Erişim";
+  const title = dict.access_page.title || 'Saule Erken Erişim';
   const description = dict.access_page.subtitle;
-  const path = `/life/access`;
+  const path = '/access';
 
   return {
     title,
@@ -47,9 +47,7 @@ export default async function Page({
         </p>
       </header>
 
-      {/* Info Sections */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-8 border-t border-sand-300/30">
-        {/* 1. WHY INVITED ACCESS */}
         <section className="space-y-3">
           <h2 className="font-serif text-lg font-bold text-charcoal">
             {dict.access_page.why_title}
@@ -59,7 +57,6 @@ export default async function Page({
           </p>
         </section>
 
-        {/* 2. PROCESS */}
         <section className="space-y-3">
           <h2 className="font-serif text-lg font-bold text-charcoal">
             {dict.access_page.process_title}
@@ -73,7 +70,6 @@ export default async function Page({
           </ol>
         </section>
 
-        {/* 3. EXPECTATIONS */}
         <section className="space-y-3 md:col-span-2 pt-6 border-t border-sand-300/20">
           <h2 className="font-serif text-lg font-bold text-charcoal">
             {dict.access_page.expectations_title}
@@ -88,7 +84,6 @@ export default async function Page({
         </section>
       </div>
 
-      {/* 4. APPLICATION FORM PLACEHOLDER */}
       <AccessForm dict={dict.access_page} />
     </div>
   );

@@ -2,6 +2,7 @@
 
 import { useRef, useEffect, useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { getTranslationMember, getTranslationObject, getTranslationValue } from '@/lib/translation';
 import type { Volume, ChapterMetadata, AppendixMetadata } from '@/lib/book';
 
@@ -129,7 +130,7 @@ const getBookBeginningContent = (locale: string, dictionary?: ContinuousReaderPr
               "Yaratıcı bir fikir ne zaman korunmalı, ne zaman geliştirilmeli, ne zaman bırakılmalıdır?"
             ] },
             { type: 'text', content: "Bu sorular yalnızca bir uygulamanın nasıl çalışacağıyla ilgili değildir. Aynı zamanda insanın kendi hayatını nasıl taşıdığı, ekiplerin neyi gözden kaçırdığı, şirketlerin neyi öğrenemeden kaybettiği ve yaratıcı süreçlerin hangi belirsizliklerle yarım kaldığıyla ilgilidir." },
-            { type: 'text', content: "Saule Core ve ona bağlı ürünler, bu kitabın dışında gelişmeyecektir. Her yapay zekâ davranışı, her bellek kararı, her hatırlatma mantığı, her unutma politikası, her topluluk ilkesi, her arayüz tercihi ve her mühendislik kararı, üründe yer almadan önce bu kitapta anlamını bulmalıdır." },
+            { type: 'text', content: "Saule, bu kitabın dışında gelişmeyecektir. Her yapay zekâ davranışı, her bellek kararı, her hatırlatma mantığı, her unutma politikası, her topluluk ilkesi, her arayüz tercihi ve her mühendislik kararı, üründe yer almadan önce bu kitapta anlamını bulmalıdır." },
             { type: 'bold-lead', lead: "Bu yüzden Saule Yaşayan Kitabı, Saule için bağlayıcı doğruluk kaynağıdır. ", text: "Ürünler ise bu kitabın hayata geçmiş, denenmiş ve sürekli öğrenen kanıtlarıdır." },
             { type: 'text', content: "Kitap değiştikçe Saule derinleşir. Saule geliştikçe kitap sınanır. Bu ilişki tek yönlü değildir. Kitap yön verir, ürün gerçeklikte test eder, topluluk ise bu öğrenmenin parçası olur." },
             { type: 'text', content: "Bu kitabı okuyan kişi yalnızca bir ürün fikrini takip etmez. Kendi ihtiyaçlarını, yüklerini ve gündelik hayatın içinde görünmez hâle gelen insan hâllerini; bunların işte ve yaratıcı üretimde nasıl yeniden ortaya çıktığını düşünmek için yeni bir alana girer." },
@@ -144,7 +145,7 @@ const getBookBeginningContent = (locale: string, dictionary?: ContinuousReaderPr
             "Bu kitap üç katmanda okunabilir: bireysel yaşam katmanı olarak zihinsel yük, dikkat, bellek, duygu ve ilişkiler üzerinden; iş ve organizasyon katmanı olarak müşteri ilişkileri, operasyonel hafıza, açık kararlar, takip sorumlulukları ve kurumsal öğrenme üzerinden; yaratıcılık katmanı olarak fikirlerin, projelerin, kampanyaların, karakterlerin, taslakların ve üretim süreçlerinin nasıl taşındığı üzerinden.",
             "Ekler ise kitabın açık kalan alanlarını toplar. Açık sorular, tasarım kararları, kaynaklar, ileride cevaplanacak teknik ve etik meseleler burada görünür hâle gelir. Bu nedenle ekler kitabın dışında kalan notlar değil, yaşayan yapının devamıdır.",
             "Okuyucu bu kitabı ister baştan sona okuyabilir, ister ihtiyaç duyduğu konuya göre belirli bölümlere dönebilir. Bazı bölümler bir kavramı anlamak için, bazıları bir tasarım kararını değerlendirmek için, bazıları ise Saule’nin hangi sınırlarda gelişeceğini görmek için okunabilir.",
-            "Bu nedenle Saule Yaşayan Kitabı yalnızca kişisel bir rehber değildir; Saule Core’un yaşam, iş ve yaratıcılık alanlarına yayılan felsefi işletim sistemidir.",
+            "Bu nedenle Saule Yaşayan Kitabı yalnızca kişisel bir rehber değildir; Saule’nin yaşam, iş ve yaratıcılık alanlarına temas eden felsefi işletim sistemidir.",
             "Bu kitap tamamlanmış bir sonuçtan çok, sürekli sınanan bir düşünme alanıdır. Bu yüzden okuma biçimi de tek değildir: anlamak, sorgulamak, geri dönmek, düzeltmek ve yeniden düşünmek bu kitabın doğal parçasıdır."
           ]
         }
@@ -706,7 +707,11 @@ export default function ContinuousReader({
             key={item.slug}
             id={item.slug}
             data-reading-section
-            className="pt-16 border-t border-sand-300/20 first:border-t-0 first:pt-0 relative space-y-12 sm:space-y-16 scroll-mt-20"
+            className={`border-t border-sand-300/20 first:border-t-0 first:pt-0 relative space-y-12 sm:space-y-16 scroll-mt-20 ${
+              item.slug === 'how-to-read'
+                ? 'pt-0 !mt-0 sm:!mt-0'
+                : 'pt-16'
+            }`}
           >
             {bookmark?.slug === item.slug && (
               <div className="absolute top-0 right-0 w-8 h-12 bg-clay text-sand-100 flex items-center justify-center shadow-md rounded-b animate-fade-in" title={t.saved}>
@@ -750,7 +755,7 @@ export default function ContinuousReader({
               </div>
             ) : isBookStartItem ? (
               /* BOOK START INTRO SECTIONS */
-              <div className="space-y-8 py-10">
+              <div className="space-y-6 pt-10 pb-0">
                 <header className="space-y-2">
                   <div className="flex items-center justify-between border-b-2 border-clay/30 pb-3 mb-6">
                     <span className="font-serif italic text-lg sm:text-xl text-charcoal-muted">{dictionary.header.nav_book}</span>
@@ -807,6 +812,8 @@ export default function ContinuousReader({
                     }
                   })()}
                 </div>
+
+                {/* Image block removed to close gap */}
               </div>
             ) : (
               /* STANDARD READING VIEW (Chapters, Appendices) */

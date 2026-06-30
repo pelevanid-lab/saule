@@ -5,7 +5,6 @@ import { adminDb } from '@/lib/firebase-admin';
 export async function submitAccessForm(formData: {
   name: string;
   email: string;
-  product: string;
   reason?: string;
   struggle?: string;
   takeaway?: string;
