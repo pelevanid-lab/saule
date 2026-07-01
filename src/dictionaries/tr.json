@@ -158,5 +158,18 @@
     "solution_title": "Anlamsal Bellek Katmanı",
     "solution_desc": "Saule, yeni bir yapay zekâ modeli inşa etmek yerine; gücünü hangi yapay zekâ modelinden alırsa alsın, bireyler, ekipler ve topluluklar boyunca anlamsal bağlamı koruyan bağımsız bir hafıza katmanı inşa eder.",
     "footer_cta": "Zekâ değişebilir. Hafıza değil."
+  },
+  "app": {
+    "title": "SML Terminal",
+    "subtitle": "Saule Anlamsal Bellek Katmanı",
+    "input_placeholder": "Bir anı ekleyin veya soru sorun...",
+    "send": "Gönder",
+    "empty_state": "SML Terminal'e hoş geldiniz. Hafızaya bir şeyler ekleyerek veya soru sorarak başlayın."
+  },
+  "auth": {
+    "login_title": "SML'e Giriş Yap",
+    "login_subtitle": "Kişisel belleğinin zekâsına erişmek için kimliğini doğrula.",
+    "sign_in_google": "Google ile Giriş Yap",
+    "sign_out": "Çıkış Yap"
   }
 }

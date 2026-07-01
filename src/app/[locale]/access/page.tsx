@@ -85,6 +85,17 @@ export default async function Page({
       </div>
 
       <AccessForm dict={dict.access_page} />
+
+      {/* Gizli uygulama bağlantısı (Sadece yerini bilenler için) */}
+      <div className="flex justify-center mt-8 pb-8">
+        <a 
+          href={`/${locale}/app`}
+          className="text-[10px] text-sand-300 hover:text-sage transition-colors select-none cursor-pointer"
+          title="Gizli Giriş"
+        >
+          ● SML Terminal
+        </a>
+      </div>
     </div>
   );
 }

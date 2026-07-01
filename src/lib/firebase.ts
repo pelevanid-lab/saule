@@ -1,5 +1,6 @@
 import { initializeApp, getApps, getApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
+import { getAuth } from 'firebase/auth';
 
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
@@ -10,6 +11,8 @@ const firebaseConfig = {
   appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
 };
 
+console.log("Firebase Config Initialization:", firebaseConfig.apiKey ? "API Key exists" : "API Key is missing/undefined");
+
 // Initialize Firebase only if config is provided
 const app = 
   getApps().length === 0 && firebaseConfig.apiKey
@@ -19,5 +22,6 @@ const app =
       : null;
 
 const db = app ? getFirestore(app) : null;
+const auth = app ? getAuth(app) : null;
 
-export { app, db };
+export { app, db, auth };

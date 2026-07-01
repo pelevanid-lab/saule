@@ -158,5 +158,18 @@
     "solution_title": "The Semantic Memory Layer",
     "solution_desc": "Instead of building a new AI model, Saule builds an independent memory layer that preserves semantic context across individuals, teams, and communities—no matter which AI model powers it.",
     "footer_cta": "Intelligence may change. Memory does not."
+  },
+  "app": {
+    "title": "SML Terminal",
+    "subtitle": "Saule Semantic Memory Layer",
+    "input_placeholder": "Add a memory or ask a question...",
+    "send": "Send",
+    "empty_state": "Welcome to the SML Terminal. Start by adding something to memory or asking a question."
+  },
+  "auth": {
+    "login_title": "Sign in to SML",
+    "login_subtitle": "Authenticate to access the intelligence of your personal memory.",
+    "sign_in_google": "Sign in with Google",
+    "sign_out": "Sign Out"
   }
 }
