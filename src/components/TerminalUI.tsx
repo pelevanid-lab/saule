@@ -12,7 +12,7 @@ interface Message {
   createdAt: any;
 }
 
-export default function TerminalUI({ dict, locale }: { dict: any; locale: string }) {
+export default function TerminalUI({ dict, locale, workspaceId }: { dict: any; locale: string; workspaceId: string }) {
   const { user } = useAuth();
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState('');
@@ -54,11 +54,12 @@ export default function TerminalUI({ dict, locale }: { dict: any; locale: string
       const response = await fetch('/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ uid: user.uid, text: textToSend, locale }),
+        body: JSON.stringify({ uid: user.uid, text: textToSend, locale, mode: 'auto', workspaceId }),
       });
 
       if (!response.ok) {
-        console.error('Failed to send message');
+        const errorData = await response.json().catch(() => ({}));
+        console.error('Failed to send message:', errorData.message || 'Unknown server error', errorData);
       }
     } catch (error) {
       console.error('Error sending message:', error);
@@ -76,6 +77,7 @@ export default function TerminalUI({ dict, locale }: { dict: any; locale: string
 
   return (
     <div className="flex flex-col h-[70vh]">
+
       {/* Chat History Area */}
       <div className="flex-1 overflow-y-auto mb-6 bg-white/50 backdrop-blur-sm rounded-lg border border-sand-300/30 p-6 flex flex-col space-y-4 shadow-inner">
         {messages.length === 0 ? (
@@ -83,18 +85,21 @@ export default function TerminalUI({ dict, locale }: { dict: any; locale: string
             {dict.empty_state}
           </div>
         ) : (
-          messages.map((msg) => (
-            <div
-              key={msg.id}
-              className={`max-w-[80%] rounded-lg p-4 font-sans text-sm shadow-sm ${
-                msg.source === 'user'
-                  ? 'bg-sage-dark text-white self-end rounded-br-none'
-                  : 'bg-white border border-sand-300 text-charcoal self-start rounded-bl-none'
-              }`}
-            >
-              {msg.content}
-            </div>
-          ))
+          messages.map((msg) => {
+            const isUser = msg.source === 'user' || msg.source === 'query';
+            return (
+              <div
+                key={msg.id}
+                className={`max-w-[80%] rounded-lg p-4 font-sans text-sm shadow-sm ${
+                  isUser
+                    ? 'bg-sage-dark text-white self-end rounded-br-none'
+                    : 'bg-white border border-sand-300 text-charcoal self-start rounded-bl-none'
+                }`}
+              >
+                {msg.content}
+              </div>
+            );
+          })
         )}
         {isSending && (
           <div className="bg-white border border-sand-300 text-charcoal-muted self-start rounded-lg rounded-bl-none p-4 font-sans text-sm shadow-sm flex items-center space-x-2">

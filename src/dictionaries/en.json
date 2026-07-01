@@ -164,12 +164,32 @@
     "subtitle": "Saule Semantic Memory Layer",
     "input_placeholder": "Add a memory or ask a question...",
     "send": "Send",
-    "empty_state": "Welcome to the SML Terminal. Start by adding something to memory or asking a question."
+    "empty_state": "Welcome to the SML Terminal. Start by adding something to memory or asking a question.",
+    "mode_save": "Record Memory",
+    "mode_query": "Ask Memory"
   },
   "auth": {
     "login_title": "Sign in to SML",
     "login_subtitle": "Authenticate to access the intelligence of your personal memory.",
     "sign_in_google": "Sign in with Google",
     "sign_out": "Sign Out"
+  },
+  "history": {
+    "title": "Memory Archive",
+    "subtitle": "All recorded memories and semantic data points.",
+    "search_placeholder": "Search memories...",
+    "no_memories": "No recorded memories found yet.",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "expiration": "Retention Duration",
+    "exp_forever": "Infinite (Never Forget)",
+    "exp_1day": "1 Day",
+    "exp_7days": "7 Days",
+    "exp_30days": "30 Days",
+    "exp_1year": "1 Year",
+    "delete_confirm": "Are you sure you want to delete this memory?",
+    "saving": "Saving..."
   }
 }

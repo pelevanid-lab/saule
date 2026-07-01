@@ -164,12 +164,32 @@
     "subtitle": "Saule Anlamsal Bellek Katmanı",
     "input_placeholder": "Bir anı ekleyin veya soru sorun...",
     "send": "Gönder",
-    "empty_state": "SML Terminal'e hoş geldiniz. Hafızaya bir şeyler ekleyerek veya soru sorarak başlayın."
+    "empty_state": "SML Terminal'e hoş geldiniz. Hafızaya bir şeyler ekleyerek veya soru sorarak başlayın.",
+    "mode_save": "Hafıza Kaydet",
+    "mode_query": "Hafızada Ara"
   },
   "auth": {
     "login_title": "SML'e Giriş Yap",
     "login_subtitle": "Kişisel belleğinin zekâsına erişmek için kimliğini doğrula.",
     "sign_in_google": "Google ile Giriş Yap",
     "sign_out": "Çıkış Yap"
+  },
+  "history": {
+    "title": "Hafıza Arşivi",
+    "subtitle": "Kaydettiğiniz tüm anı ve anlamsal veri noktaları.",
+    "search_placeholder": "Hafızalarda ara...",
+    "no_memories": "Henüz kaydedilmiş hafıza bulunamadı.",
+    "edit": "Düzenle",
+    "delete": "Sil",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "expiration": "Unutma Süresi",
+    "exp_forever": "Sonsuz (Asla Unutma)",
+    "exp_1day": "1 Gün",
+    "exp_7days": "7 Gün",
+    "exp_30days": "30 Gün",
+    "exp_1year": "1 Yıl",
+    "delete_confirm": "Bu hafızayı silmek istediğinize emin misiniz?",
+    "saving": "Kaydediliyor..."
   }
 }

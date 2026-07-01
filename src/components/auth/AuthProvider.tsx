@@ -28,8 +28,28 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       return;
     }
 
-    const unsubscribe = onAuthStateChanged(auth, (user) => {
+    const unsubscribe = onAuthStateChanged(auth, async (user) => {
       setUser(user);
+      
+      // Save user to Firestore users collection
+      if (user) {
+        try {
+          const { doc, setDoc } = await import('firebase/firestore');
+          const { db } = await import('@/lib/firebase');
+          if (db) {
+            await setDoc(doc(db, 'users', user.uid), {
+              uid: user.uid,
+              email: user.email,
+              displayName: user.displayName,
+              photoURL: user.photoURL,
+              lastLoginAt: new Date(),
+            }, { merge: true });
+          }
+        } catch (error) {
+          console.error("Error saving user to Firestore", error);
+        }
+      }
+      
       setLoading(false);
     });
 

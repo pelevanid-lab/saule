@@ -11,8 +11,6 @@ const firebaseConfig = {
   appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
 };
 
-console.log("Firebase Config Initialization:", firebaseConfig.apiKey ? "API Key exists" : "API Key is missing/undefined");
-
 // Initialize Firebase only if config is provided
 const app = 
   getApps().length === 0 && firebaseConfig.apiKey
