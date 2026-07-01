@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import MobileNav from '@/components/MobileNav';
 import SauleLogo from '@/components/SauleLogo';
@@ -29,6 +30,11 @@ export default function LocaleChrome({
   localizedVolumes,
   navItems,
 }: LocaleChromeProps) {
+  const pathname = usePathname();
+  const isBookPage = pathname.endsWith('/book') || 
+                     pathname.includes('/chapter/') || 
+                     pathname.includes('/appendix/') || 
+                     pathname.includes('/volume/');
   return (
     <div className="flex flex-col min-h-screen bg-sand-100 selection:bg-sage/15 selection:text-sage-dark">
       <header className="sticky top-0 z-40 bg-sand-100/90 backdrop-blur-sm border-b border-sand-300/30">
@@ -70,9 +76,11 @@ export default function LocaleChrome({
               <p className="font-semibold tracking-wide uppercase">
                 &copy; {new Date().getFullYear()} {dict.footer.owner}
               </p>
-              <p className="max-w-md text-left sm:text-right leading-relaxed italic">
-                {dict.footer.warning}
-              </p>
+              {isBookPage && (
+                <p className="max-w-md text-left sm:text-right leading-relaxed italic">
+                  {dict.footer.warning}
+                </p>
+              )}
             </div>
           </footer>
         </div>

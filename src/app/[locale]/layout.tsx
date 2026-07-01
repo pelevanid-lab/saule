@@ -77,20 +77,17 @@ export default async function LocaleLayout({
       { isHeader: true, label: volTitle, path: '' },
       ...vol.chapters.map((ch) => {
         const chTitle = getTranslationValue(dict, ch.purposeKey.replace('.purpose', '.title')) || '';
-        const numStr = ch.chapterNumber.toString().padStart(2, '0');
         return {
           isHeader: false,
-          label: `${numStr} ${chTitle}`,
+          label: chTitle,
           path: `/chapter/${ch.slug}`,
         };
       }),
       ...(vol.appendices || []).map((ap) => {
         const apTitle = getTranslationValue(dict, `appendices.${ap.slug}.title`) || '';
-        const numStr = ap.appendixNumber.toString();
-        const appendixLabel = dict.common.appendix || 'Appendix';
         return {
           isHeader: false,
-          label: `${appendixLabel} ${numStr}: ${apTitle}`,
+          label: apTitle,
           path: `/appendix/${ap.slug}`,
         };
       }),

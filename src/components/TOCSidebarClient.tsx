@@ -164,41 +164,6 @@ export default function TOCSidebarClient({ volumes, dict, locale }: TOCSidebarCl
         </div>
 
         <div className="space-y-6">
-          {/* Book Beginning Sections */}
-          <div className="space-y-2">
-            <span className="font-serif text-[11px] font-bold text-clay uppercase tracking-wider border-b border-sand-300/20 pb-1 block">
-              {dict.common.book_start || 'Book Start'}
-            </span>
-            <ul className="space-y-1">
-              <li>
-                <Link
-                  href={`/${locale}/book#preface`}
-                  onClick={(e) => handleLinkClick(e, 'preface', `/${locale}/book#preface`)}
-                  className={`block font-serif text-[15px] py-1.5 border-l-2 pl-3 transition-all duration-200 cursor-pointer ${
-                    activeSlug === 'preface'
-                      ? 'border-sage text-sage-dark font-bold bg-sand-200/40 rounded-r'
-                      : 'border-transparent text-charcoal-muted hover:text-charcoal hover:border-sand-300'
-                  }`}
-                >
-                  {dict.common.preface || 'Preface'}
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href={`/${locale}/book#how-to-read`}
-                  onClick={(e) => handleLinkClick(e, 'how-to-read', `/${locale}/book#how-to-read`)}
-                  className={`block font-serif text-[15px] py-1.5 border-l-2 pl-3 transition-all duration-200 cursor-pointer ${
-                    activeSlug === 'how-to-read'
-                      ? 'border-sage text-sage-dark font-bold bg-sand-200/40 rounded-r'
-                      : 'border-transparent text-charcoal-muted hover:text-charcoal hover:border-sand-300'
-                  }`}
-                >
-                  {dict.common.how_to_read || 'How should it be Read?'}
-                </Link>
-              </li>
-            </ul>
-          </div>
-
           {volumes.map((vol) => {
             const volTitle = getTranslationValue(dict, vol.titleKey) || '';
             return (
@@ -218,7 +183,6 @@ export default function TOCSidebarClient({ volumes, dict, locale }: TOCSidebarCl
                 <ul className="space-y-1">
                   {vol.chapters.map((ch) => {
                     const chTitle = getTranslationValue(dict, ch.purposeKey.replace('.purpose', '.title')) || '';
-                    const numStr = ch.chapterNumber.toString().padStart(2, '0');
                     const href = `/${locale}/chapter/${ch.slug}`;
                     const isActive = activeSlug === ch.slug;
                     
@@ -233,7 +197,7 @@ export default function TOCSidebarClient({ volumes, dict, locale }: TOCSidebarCl
                               : 'border-transparent text-charcoal-muted hover:text-charcoal hover:border-sand-300'
                           }`}
                         >
-                          {`${numStr} ${chTitle}`}
+                          {chTitle}
                         </Link>
                       </li>
                     );

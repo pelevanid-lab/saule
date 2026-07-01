@@ -12,7 +12,7 @@ export default function DesktopNav({ locale, dict }: { locale: string; dict: any
     pathname.includes('/chapter/') ||
     pathname.includes('/appendix/') ||
     pathname.includes('/volume/');
-  const isCommunity = pathname === `/${locale}/community`;
+
   const isAccess = pathname === `/${locale}/access`;
 
   return (
@@ -28,14 +28,9 @@ export default function DesktopNav({ locale, dict }: { locale: string; dict: any
           href={`/${locale}/book`}
           className={`transition-colors ${isBook ? 'text-sage-dark font-bold' : 'hover:text-sage-dark'}`}
         >
-          {dict.header.nav_book || 'Yaşayan Kitap'}
+          {dict.header.nav_book || 'White Paper'}
         </Link>
-        <Link
-          href={`/${locale}/community`}
-          className={`transition-colors ${isCommunity ? 'text-sage-dark font-bold' : 'hover:text-sage-dark'}`}
-        >
-          {dict.header.nav_community || 'Topluluk'}
-        </Link>
+
         <Link
           href={`/${locale}/access`}
           className={`transition-colors ${isAccess ? 'text-sage-dark font-bold' : 'hover:text-sage-dark'}`}

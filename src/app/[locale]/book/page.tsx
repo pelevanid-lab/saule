@@ -12,7 +12,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const dict = await getDictionary(locale);
-  const title = dict.header.nav_book || "Saule Yaşayan Kitabı";
+  const title = dict.header.nav_book || "Saule White Paper";
   const description = dict.meta.description;
   const path = `/book`;
 
@@ -38,7 +38,7 @@ export default async function Page({
   return (
     <ContinuousReader
       locale={locale}
-      initialSlug="preface"
+      initialSlug="summary"
       initialType="chapter"
       dictionary={dict}
       volumes={getVolumesForLocale(locale, volumes)}

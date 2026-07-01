@@ -23,16 +23,6 @@ const volumeOneContent = {
   ko: () => import('../content/volume1/ko.json').then((module) => module.default),
 } as const;
 
-const volumeTwoContent = {
-  en: () => import('../content/volume2/en.json').then((module) => module.default),
-  tr: () => import('../content/volume2/tr.json').then((module) => module.default),
-  es: () => import('../content/volume2/es.json').then((module) => module.default),
-  ru: () => import('../content/volume2/ru.json').then((module) => module.default),
-  'zh-CN': () => import('../content/volume2/zh-CN.json').then((module) => module.default),
-  ja: () => import('../content/volume2/ja.json').then((module) => module.default),
-  ko: () => import('../content/volume2/ko.json').then((module) => module.default),
-} as const;
-
 export type Dictionary = typeof import('../dictionaries/en.json');
 
 export function hasLocale(locale: string): locale is Locale {
@@ -93,27 +83,19 @@ export const getDictionary = async (locale: string): Promise<Dictionary> => {
     }
   }
 
-  const resolveVolumeContent = async <
-    T extends typeof volumeOneContent | typeof volumeTwoContent,
-  >(contentLoaders: T) => {
+  const resolveVolumeContent = async () => {
     if (resolvedLocale === 'en') {
-      return contentLoaders.en();
+      return volumeOneContent.en();
     }
 
     try {
-      return await contentLoaders[resolvedLocale]();
+      return await volumeOneContent[resolvedLocale]();
     } catch {
-      return contentLoaders.en();
+      return volumeOneContent.en();
     }
   };
 
-  const [volumeOne, volumeTwo] = await Promise.all([
-    resolveVolumeContent(volumeOneContent),
-    resolveVolumeContent(volumeTwoContent),
-  ]);
+  const volumeOne = await resolveVolumeContent();
 
-  return mergeDictionaries(
-    mergeDictionaries(localizedDictionary, volumeOne),
-    volumeTwo,
-  ) as Dictionary;
+  return mergeDictionaries(localizedDictionary, volumeOne) as Dictionary;
 };

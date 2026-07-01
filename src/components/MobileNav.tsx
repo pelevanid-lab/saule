@@ -73,14 +73,10 @@ export default function MobileNav({
     { href: `/${locale}`, label: dict.header.nav_home || 'Ana Sayfa', active: pathname === `/${locale}` },
     {
       href: `/${locale}/book`,
-      label: dict.header.nav_book || 'Yaşayan Kitap',
+      label: dict.header.nav_book || 'White Paper',
       active: isBookPage,
     },
-    {
-      href: `/${locale}/community`,
-      label: dict.header.nav_community || 'Topluluk',
-      active: pathname === `/${locale}/community`,
-    },
+
     {
       href: `/${locale}/access`,
       label: dict.header.nav_access || 'Erken Erişim',

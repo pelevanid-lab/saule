@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Saule — 面向生活的自适应智能",
-    "description": "《Saule 生长之书》记录 Saule 背后的哲学、研究、架构、心理学与工程实践，是应用的权威依据。"
+    "description": "Saule 白皮书记录了 Saule 背后的哲学、研究、架构、心理学和工程学。"
   },
   "common": {
     "toc": "目录",
@@ -28,15 +28,14 @@
   },
   "header": {
     "logo": "Saule",
-    "badge": "生长之书",
+    "badge": "Saule White Paper v1.0",
     "nav_home": "首页",
-    "nav_book": "生长之书",
-    "nav_community": "社区",
+    "nav_book": "白皮书",
     "nav_access": "早期体验"
   },
   "footer": {
-    "owner": "Saule",
-    "warning": "《Saule 生长之书》仍处于早期定义阶段。这份公开文档将随研究进展持续演化。"
+    "owner": "PEH",
+    "warning": "Saule 白皮书目前处于早期定义阶段。本公开文件随着研究进度的记录而不断演变。"
   },
   "early_access": {
     "title": "订阅开发日志",
@@ -47,24 +46,23 @@
     "success_desc": "感谢订阅。首个交互实验区准备就绪后，我们会与你联系。"
   },
   "dashboard": {
-    "title": "Saule 生长之书",
-    "subtitle": "面向生活的自适应智能",
-    "living_book_badge": "生长之书",
+    "title": "Saule White Paper v1.0",
+    "subtitle": "语义记忆层 (SML)",
+    "living_book_badge": "白皮书",
     "status_label": "当前状态",
-    "status_desc": "梳理核心研究节点并搭建各卷结构",
+    "status_desc": "完善并细化白皮书草案",
     "version_label": "版本",
     "last_updated_label": "最近更新",
-    "metric_volumes": "卷",
-    "metric_chapters": "核心章节",
-    "metric_written": "已起草章节",
+    "metric_chapters": "章节",
+    "metric_written": "已写章节",
     "metric_sources": "研究节点",
     "metric_questions": "开放问题",
     "metric_decisions": "设计决策",
-    "preface_title": "前言",
-    "preface_body_1": "“Saule 应用将与《Saule 生长之书》同步开发，并遵循书中的原则。”",
-    "preface_body_2": "这本书不只是介绍 Saule。它是 Saule 在思想、伦理与工程上的根基：说明 Saule 为何存在、试图回应什么样的人类问题、应在何种边界内发展，以及哪些原则不可偏离。",
+    "preface_title": "引言",
+    "preface_body_1": "“Saule 应用将与《Saule 白皮书》同步开发，并遵循其中的原则。”",
+    "preface_body_2": "这份文件不用于介绍 Saule。它是 Saule 在思想、伦理与工程上的根基：说明 Saule 为何存在、试图回应什么样的人类问题、应在何种边界内发展，以及哪些原则不可偏离。",
     "preface_body_3": "Saule 回应的是现代生活中的深层困境：心理杂乱、决策疲劳、被遗忘的意图、未完成的计划，以及人与自身生活失去联系的感受。因此，Saule 的技术发展不能被简化为增加功能。每项功能都必须回答：它如何触及人的生活、减轻什么负担、培养何种觉察，又将以怎样的责任被使用。",
-    "volumes_and_chapters": "卷与章节"
+    "volumes_and_chapters": "章节"
   },
   "workspace": {
     "not_written": "本章尚未写作。",
@@ -104,71 +102,12 @@
   },
   "volumes": {
     "v1": {
-      "title": "第一卷：现代人的处境",
-      "purpose": "理解最根本的问题。",
-      "intro_p1": "为什么明知自己想要什么，人仍难以前行？为什么我们感到不堪重负、注意涣散、背负情绪，又困在众多未闭合的循环之中？",
-      "intro_p2": "真正值得解决的，究竟是什么问题？",
-      "intro_p3": ""
-    },
-    "v2": {
-      "title": "第二卷：理解人的心智",
-      "purpose": "在尝试构建自适应智能之前，先理解人实际上如何思考。"
-    },
-    "v3": {
-      "title": "第三卷：Saule 的哲学",
-      "purpose": "Saule 的哲学宪章：它为何存在、应如何与人相处，以及哪些伦理边界必须约束其智能。"
-    },
-    "v4": {
-      "title": "第四卷：Saule 心智",
-      "purpose": "说明 Saule 在概念层面如何思考。"
-    },
-    "v5": {
-      "title": "第五卷：构建 Saule",
-      "purpose": "以工程、人工智能架构、安全与研究方法实现本书的规范。"
+      "title": "Saule White Paper v1.0",
+      "purpose": "个人、团队与机构的生长记忆",
+      "intro_p1": "人工智能正在成为一种商品 (commodity)。推理模型月复一月地改进，价格不断下降，切换服务商变得比以往任何时候都更容易。然而，某种更有价值的东西正在流失。不是智能。而是记忆。",
+      "intro_p2": "人类的知识、组织背景、关系、决策和经验碎片化地散落在数十个 digital 办公工具中。每个平台都在存储信息，但没有一个能够随时间保留其语义。",
+      "intro_p3": "Saule 提供了一种全新的软件类别：语义记忆层 (SML - Semantic Memory Layer)。Saule 不去构建新的 AI 模型，而是构建一个独立的记忆层。无论底层是由什么 AI 模型驱动，它都能在个人、团队和社区之间保留语义上下文。智能会变。记忆永恒。"
     }
-  },
-  "chapters": {
-    "why-we-are-overwhelmed": {
-      "title": "我们为何不堪重负",
-      "purpose": "分析引发现代心理过载的系统、环境与技术因素。",
-      "key_question": "为什么现代人会经历历史上前所未有的心理过载？"
-    },
-    "mental-clutter": {
-      "title": "心理杂乱",
-      "purpose": "理解未完成的意义、模糊的状态与分散的信息如何占据心智。",
-      "key_question": "心理杂乱为何持续存在，一个系统怎样才能减轻它而不制造新的负担？"
-    },
-    "the-attention-crisis": {
-      "title": "注意力危机",
-      "purpose": "理解现代环境如何使注意力碎片化，以及 Saule 应如何保护而非争夺人的注意力。",
-      "key_question": "当外部系统不断争夺注意力时，人如何重新获得对自身注意力的主导权？"
-    },
-    "open-loops": {
-      "title": "未闭环事项",
-      "purpose": "理解为什么未完成的意图会持续占据心智，以及 Saule 如何在不把生活变成任务清单的前提下，帮助人们获得有意义的收束。",
-      "key_question": "Saule 应如何帮助人们识别、重新审视、完成、委托、接受或有意识地放下仍未解决的事项？"
-    },
-    "escape-loops-and-addictions": {
-      "title": "逃避循环与成瘾",
-      "purpose": "探讨人为什么会为了逃离不堪重负而转向分心、冲动和麻木式循环，以及以人为中心的设计应当如何理解这些模式。",
-      "key_question": "为什么人会一次又一次回到那些能带来短暂缓解、却长期制造更多混乱的行为？"
-    }
-  },
-  "community_page": {
-    "title": "Saule 社区",
-    "subtitle": "围绕心理杂乱、注意力危机与以人为先的人工智能而建立的开放学习空间。",
-    "why_title": "为什么需要社区？",
-    "why_text": "Saule 面对的并非抽象议题。心理杂乱、未闭合循环、决策疲劳、关系责任与注意力流失，在真实生活中各有不同。因此，Saule 不能只凭创始假设发展，也必须倾听早期社区反馈。",
-    "role_title": "社区的角色",
-    "role_item1": "让语言始终保有人情味",
-    "role_item2": "使产品盲点变得可见",
-    "role_item3": "讨论伦理边界",
-    "role_item4": "为生长之书各章提供反馈",
-    "role_item5": "以可控方式评估早期产品体验",
-    "principle_title": "社区原则",
-    "principle_text": "向人的经验学习，而不消费人的隐私。",
-    "sustainability_title": "可持续性说明",
-    "sustainability_text": "未来，Saule 的早期开发可能采用社区支持且透明的可持续模式。本页面不构成应用购买、投资或财务回报承诺。在发布支持模式前，仍须明确法律与会计框架。"
   },
   "access_page": {
     "title": "Saule 早期体验",
@@ -176,7 +115,7 @@
     "why_title": "为何采用邀请制？",
     "why_text": "Saule 涉及个人记忆、注意力、决定、关系与心理负担等敏感领域，因此早期阶段将采用受控的申请与邀请模式，而非开放注册。",
     "process_title": "流程",
-    "process_item1": "阅读生长之书",
+    "process_item1": "阅读白皮书 (White Paper)",
     "process_item2": "填写早期体验申请",
     "process_item3": "申请接受审核",
     "process_item4": "审核通过后发送邀请链接",
@@ -191,102 +130,33 @@
     "form_email": "电子邮箱",
     "form_reason": "你为什么想体验 Saule？",
     "form_struggle": "你在哪个方面最感到困难？",
-    "form_takeaway": "可以写下一点从生长之书获得的启发，或一句令你印象深刻的话吗？",
+    "form_takeaway": "您能写下白皮书中让您印象深刻的一个观点或一句话吗？",
     "form_feedback": "你愿意提供反馈吗？",
     "form_consent": "我理解 Saule 不是临床支持服务",
     "form_submit": "申请早期体验",
     "form_submit_disabled": "申请表即将开放"
   },
-  "book_beginning": {
-    "preface": {
-      "title": "前言",
-      "p1": "",
-      "paragraphs": [
-        {
-          "type": "text",
-          "content": "这本书试图理解：为什么人在现代世界如此分散、如此疲惫；为什么明明知道该做什么却无法开始；为什么不得不把一切记在心里；为什么难以作出决定，又为什么会不时失去与自身生活的联系。"
-        },
-        {
-          "type": "text",
-          "content": "Saule 正诞生于这些问题之中。"
-        },
-        {
-          "type": "text",
-          "content": "因此，《Saule 生长之书》首先试图理解人。它不把心理杂乱仅仅看作缺乏条理，不把决策疲劳简单归咎于意志薄弱。它把被遗忘的意图、未完成的计划、被推迟的谈话、背负的情绪与涣散的注意力，视为现代人共同的处境。"
-        },
-        {
-          "type": "text",
-          "content": "这本书并非为了给出最终答案，而是为了让正确的问题保持鲜活。"
-        },
-        {
-          "type": "list",
-          "items": [
-            "Saule 将如何理解人？",
-            "记忆应保留什么，又应忘记什么？",
-            "注意力何时应被保护，何时可以被引导？",
-            "一项建议何时是帮助，何时又成为压力？",
-            "一个系统何时应该说话，何时应该沉默？",
-            "人在什么时刻需要的不是技术，而是另一个人？"
-          ]
-        },
-        {
-          "type": "text",
-          "content": "这些问题不只关乎一个应用如何运作，也关乎人如何承载自己的生活、真正需要什么，以及哪些负担不应再由心智独自保存。"
-        },
-        {
-          "type": "text",
-          "content": "Saule 应用不会脱离本书发展。每一种人工智能行为、每项记忆决策、每套提醒逻辑、每条遗忘政策、每项社区原则、每个界面选择和工程决定，都必须先在书中找到意义，才能进入应用。"
-        },
-        {
-          "type": "bold-lead",
-          "lead": "因此，《Saule 生长之书》是 Saule 必须遵循的权威依据。",
-          "text": "应用则是这本书在生活中被实现、被检验并持续学习的证明。"
-        },
-        {
-          "type": "text",
-          "content": "书在改变，Saule 便随之深化；Saule 在发展，书也经受现实的检验。这不是单向关系：书指引方向，应用在现实中验证，社区则参与这场学习。"
-        },
-        {
-          "type": "text",
-          "content": "阅读本书的人，不只是在追随一个产品构想，也是在进入一个新的空间，重新思考自己的需要、负担，以及那些在日常生活中变得不可见的人类处境。"
-        },
-        {
-          "type": "text",
-          "content": "因此，Saule 不会只停留在一个应用；它将与书、应用和社区一起，成为一个学习、发展并成长的共同体。"
-        }
-      ]
-    },
-    "howToRead": {
-      "title": "如何阅读？",
-      "paragraphs": [
-        "本书可以按顺序阅读，但不应只被视为一部从头走到尾的封闭文本。《Saule 生长之书》同时也是一张不断生长的研究地图。",
-        "各章展开 Saule 理解人的基本层次：心理负担、注意力、记忆、情绪、动机、关系、决策、信任、伦理与人工智能行为。每一章既试图理解一个人的问题，也为 Saule 面对这一问题时应如何行动奠定依据。",
-        "附录收纳书中仍然开放的领域：未解问题、设计决策、参考文献，以及等待后续回答的技术与伦理议题。因此，附录不是书外的笔记，而是这套生长结构的延续。",
-        "读者既可从头至尾阅读，也可按自己的需要返回特定章节。有的章节帮助理解概念，有的用于审视设计决策，还有的用来辨认 Saule 将在怎样的边界内发展。",
-        "这本书与其说是完成的结论，不如说是一片持续接受检验的思想空间。因此，阅读也不只有一种方式：理解、质疑、回返、修正与重新思考，都是本书自然的一部分。"
-      ]
-    }
-  },
   "home_page": {
     "hero_title": "Saule",
-    "hero_subtitle": "Adaptive intelligence for life.",
-    "hero_desc": "Saule is one AI system for helping people carry mental load, open loops, decision fatigue, forgotten intentions, and the fragile connection to their own lives with more clarity and care.",
-    "cta_book": "Read the Living Book ↗",
-    "cta_community": "Join the Community ↗",
+    "hero_subtitle": "语义记忆层 (SML)",
+    "hero_desc": "AI模型在不断进化，但记忆是不变的。Saule是一个独立的语义记忆层，无论您使用哪种AI助手，它都能保存您的心理负荷、决定和意图，随着时间的推移理解您。",
+    "cta_book": "阅读白皮书 ↗",
     "section_saule_title": "One Saule",
     "section_saule_desc": "Saule is not split into separate product worlds. Work, creativity, relationships, decisions, and daily life are different contexts of the same human being; Saule approaches them through one ethical and design spine.",
-    "section_ecosystem_title": "Living Book and Community",
-    "book_title": "The Living Book",
-    "book_desc": "Saule's philosophical, psychological, ethical, and engineering foundation is kept openly here.",
-    "community_title": "Community",
-    "community_desc": "Saule's language, limits, and early experiences mature with community feedback.",
-    "section_principles_title": "Design Principles",
-    "principles_desc": "Saule should create more clarity, not more pressure.",
+    "book_title": "白皮书",
+    "book_desc": "Saule 的哲学、心理学、伦理与工程基础在此有明确的定义。",
+    "section_principles_title": "架构原则",
+    "principles_desc": "Saule 旨在保留上下文完整性，而不仅仅是生成即时输出。",
     "principles": [
-      "It does not reduce humans to machines to be optimized.",
-      "It shows patterns without judgment.",
-      "It does not take over agency; it protects the space for choice.",
-      "It treats forgetting, silence, and stepping back as part of design."
-    ]
+      "模型独立性：不锁定任何 LLM 供应商；让您保持控制。",
+      "无缝上下文：将碎片化的数字足迹转化为连贯、全面的故事。",
+      "主动记忆：将人类定位为记忆的主体，而不仅仅是提示词来源。",
+      "静默助手：不总是等待指令；在后台学习并在合适的时刻行动。"
+    ],
+    "problem_title": "记忆危机",
+    "problem_desc": "现代个人和机构面临的问题不是缺乏信息。而是一场碎片化的记忆危机。每个平台都记得故事的一小部分，但没有一个知道完整的故事。",
+    "solution_title": "语义记忆层",
+    "solution_desc": "Saule 不去构建新的 AI 模型，而是构建一个独立的记忆层。无论底层是由什么 AI 模型驱动，它都能在个人、团队和社区之间保留语义上下文。",
+    "footer_cta": "智能会变。记忆永恒。"
   }
 }

@@ -1,1454 +1,325 @@
 {
   "chapters": {
-    "mental-clutter": {
+    "summary": {
+      "title": "Resumen",
+      "purpose": "Resumir la visión central del White Paper de Saule.",
+      "key_question": "¿Qué ganará valor en la era de la IA: la inteligencia o la memoria?",
       "draft": {
         "sections": [
           {
-            "heading": "1. La mente como espacio de trabajo inacabado",
+            "heading": "Resumen",
             "paragraphs": [
-              "El desorden mental no consiste simplemente en tener muchos pensamientos. Es cargar con significados sin resolver y sin un lugar fiable al que enviarlos. Una tarea, preocupación, promesa, idea o conversación sigue activa porque la persona no confía en recordarla y retomarla en el momento adecuado.",
-              "Esta repetición no significa que la persona elija conscientemente pensar en lo mismo. A menudo, aquello que todavía no está vinculado a un lugar fiable vuelve al primer plano: se recuerda un mensaje sin responder, una decisión aplazada aparece en medio de otra tarea y una conversación inconclusa regresa en un momento de calma.",
-              "Los primeros experimentos de Bluma Zeigarnik sobre tareas inacabadas, realizados en la década de 1920, indicaron que en determinadas condiciones las actividades interrumpidas podían recordarse mejor que las terminadas. Estudios posteriores no reprodujeron el efecto de manera constante. Por eso, el efecto Zeigarnik no es una ley inmutable de la mente, sino un marco prudente para entender por qué lo inconcluso puede permanecer vivo en el espacio mental.",
-              "La mente no carga solo con lo que está inacabado, sino también con aquello cuyo estado no está claro. Si no se sabe si algo se hará, se aplazará, se delegará o se abandonará, el asunto no se cierra; simplemente regresa bajo otra forma.",
-              "El desorden aumenta cuando recordar y decidir deben ocurrir al mismo tiempo. La carga más profunda no consiste únicamente en mantenerlo todo en la mente, sino en tener que decidir una y otra vez qué sigue mereciendo atención."
-            ]
-          },
-          {
-            "heading": "2. Recopilar no es aclarar",
-            "paragraphs": [
-              "Capturarlo todo puede reducir la presión inmediata, pero por sí solo crea otro problema: un archivo creciente que aún exige interpretación. Notas, capturas de pantalla, enlaces, bandejas y listas se convierten en montones externos cuando el sistema no distingue un compromiso de una idea, un miedo de un hecho o una posibilidad futura de una responsabilidad presente.",
-              "El amplio trabajo de William Jones sobre la gestión de información personal también muestra que el reto no consiste únicamente en almacenar información. Encontrarla y volver a encontrarla, organizarla, mantenerla actualizada y usarla cuando hace falta forman parte del mismo proceso. Que algo esté guardado no significa que pueda recuperarse cuando se necesite ni que esté claro qué hacer con ello.",
-              "Por eso, un sistema útil debe hacer más que almacenar. Debe ayudar a nombrar qué es cada elemento, por qué importa y si realmente requiere acción. Una misma nota puede ser materia prima para una decisión un día y una posibilidad ya vencida al siguiente. El significado no permanece fijo dentro del registro; cambia con la vida de la persona.",
-              "Lo que hace útil a un sistema no es la cantidad de cosas que conserva, sino su capacidad para mostrar qué significan en la vida de la persona y si todavía tienen relevancia hoy.",
-              "La claridad comienza cuando la información adquiere una relación con la vida de la persona. De lo contrario, el desorden trasladado fuera de la mente no desaparece; solo cambia a un lugar que parece más ordenado."
-            ]
-          },
-          {
-            "heading": "3. Desorden emocional",
-            "paragraphs": [
-              "Algunas de las cargas mentales más pesadas no son tareas: resentimiento, vergüenza, culpa, duelo inconcluso, una relación incierta, una conversación aplazada o dudas sobre la propia identidad. Ponerles una fecha no resuelve por sí solo el significado que contienen.",
-              "A veces una persona vuelve al mismo asunto no porque no sepa qué hacer, sino porque todavía no sabe qué significa lo vivido. Aceptar una pérdida puede requerir tiempo. Un resentimiento puede pedir distancia tanto como conversación. Una pregunta sobre la identidad puede necesitar un periodo de incertidumbre en vez de una decisión inmediata.",
-              "Los estudios de Susan Nolen-Hoeksema y sus colegas sobre la rumiación muestran que el pensamiento repetitivo no siempre produce una solución; en ocasiones puede dificultar aún más la resolución de problemas y la acción. Que un pensamiento vuelva no significa necesariamente que presionarlo con más fuerza vaya a generar progreso.",
-              "Convertir todo el material emocional en casillas reduciría, por tanto, la experiencia humana. Producir una acción apresurada allí donde hacen falta paciencia, duelo, aceptación o reflexión puede crear una nueva sensación de insuficiencia en lugar de alivio.",
-              "Saule debe separar los compromisos que requieren acción del material emocional. Puede ayudar a reconocer y expresar una inquietud recurrente, pero no debe fingir que nombrar una emoción la resuelve ni que todo malestar debe convertirse en objetivo de productividad. Su función aquí no es terapéutica, sino ofrecer un espacio limitado y libre de juicio en el que la persona pueda ver su propia experiencia con mayor claridad."
-            ]
-          },
-          {
-            "heading": "4. Del desorden a la orientación",
-            "paragraphs": [
-              "Reducir el desorden requiere una secuencia: capturar lo que compite por la atención, aclarar su significado, decidir si pertenece al ahora, a después, a otra persona o a ningún sitio, y crear una forma fiable de volver. El objetivo no es una mente vacía, sino una mente que no tenga que mantenerlo todo igualmente activo.",
-              "La solución no consiste en organizarlo todo. Algunas cosas necesitan atención ahora, otras pueden guardarse con seguridad para después y otras deben soltarse sin volver a ellas. No todo registro es una promesa al futuro ni toda posibilidad merece conservarse.",
-              "La investigación sobre memoria prospectiva muestra que la memoria humana no solo debe recuperar lo ocurrido en el pasado, sino también las intenciones que se pretende realizar en el futuro. Esto ayuda a explicar por qué los recordatorios fiables y los puntos de retorno claros pueden aliviar: la persona puede dejar de cargar ahora con una intención porque confía en poder retomarla después.",
-              "Orientarse vale más que organizarse a la perfección. Una persona debería poder responder a tres preguntas: ¿qué merece atención ahora?, ¿qué está guardado con seguridad para después?, ¿qué puede soltarse? Un sistema incapaz de responderlas puede estar ordenado y seguir siendo mentalmente ruidoso.",
-              "Un buen sistema externo no garantiza que la persona no olvide nada. Le permite saber qué no necesita recordar en este momento."
-            ]
-          },
-          {
-            "heading": "5. El principio de diseño de Saule",
-            "paragraphs": [
-              "El problema descrito hasta aquí conduce de forma natural a un principio de diseño para Saule: debe ser una capa amable de aclaración, no un contenedor infinito. En lugar de acumularlo todo, debería ayudar a mostrar qué conserva significado y qué puede soltarse.",
-              "El enfoque de la cognición distribuida de Edwin Hutchins no trata el pensamiento únicamente como un proceso dentro de una mente, sino como algo que se configura entre personas, herramientas y entornos. La tesis de la mente extendida de Clark y Chalmers sostiene además que ciertas herramientas externas, cuando se usan de forma fiable y continua, pueden convertirse en partes funcionales de nuestros procesos de pensamiento.",
-              "Estos enfoques permiten entender Saule no como una autoridad que sustituye a la mente, sino como una capa de contexto que ayuda a trasladar con seguridad la carga mental al exterior. Saule no debe decidir por sí sola qué importa; debe crear las condiciones para que la persona pueda decidir con menos ruido.",
-              "Por eso, debería mostrar pocos asuntos sin resolver en momentos apropiados, explicar por qué aparecen y permitir descartarlos, aplazarlos, transformarlos u olvidarlos sin castigo.",
-              "El éxito no se mide por cuánto recuerda Saule, sino por cuánto deja de ensayar la persona. Si el sistema añade categorías, rituales y paneles que mantener, habrá reproducido el desorden que pretendía reducir."
-            ]
-          },
-          {
-            "heading": "6. El desorden como señal, no como diagnóstico",
-            "paragraphs": [
-              "El desorden recurrente puede revelar una discordancia entre las obligaciones, la capacidad disponible y el entorno. Una mente saturada quizá responda de forma razonable al trabajo inestable, roles confusos, presión económica, cuidados o demasiados canales de comunicación.",
-              "Saule puede identificar patrones, pero no convertirlos en afirmaciones clínicas ni juicios de personalidad. Un mismo comportamiento puede tener muchas causas y una huella digital nunca contiene toda la vida que la rodea.",
-              "La interpretación debe ser provisional. Saule ha de decir qué observó, qué evidencia utilizó y qué otras explicaciones encajan, y permitir que la persona corrija o ignore el patrón.",
-              "Saule observa, no diagnostica. Saule muestra patrones, no dicta sentencia. Saule ofrece posibilidades, no afirma certezas."
-            ]
-          },
-          {
-            "heading": "7. Revisar sin reabrirlo todo",
-            "paragraphs": [
-              "La revisión es necesaria para la confianza, pero también puede convertirse en una carga. Enfrentarse al archivo completo puede reactivar todas las obligaciones que la persona intentaba sacar de su mente. Así, un sistema creado para ayudar a recordar puede volver a abrumarla.",
-              "Por eso, Saule debería presentar pequeños espacios de revisión según la antigüedad del registro, sus posibles consecuencias, el contexto actual y el ritmo elegido por la persona, en lugar de abrir el archivo entero. Los retornos deben ser limitados, significativos y posibles de completar.",
-              "El silencio debe ser un estado válido. Si nada necesita atención, Saule no debería inventar una revisión para crear actividad. La calma es evidencia de que el sistema externo está cumpliendo su función.",
-              "Una revisión sana termina reduciendo la incertidumbre que sigue activa en la mente: algo queda aclarado, programado, delegado, archivado o liberado. El objetivo no es consumir el archivo, sino ayudar a la persona a orientarse de nuevo. Debe terminar con un siguiente paso más claro, no con más peso que al comenzar."
+              "La inteligencia artificial se está convirtiendo en una mercancía (commodity).",
+              "Los modelos de razonamiento mejoran mes a mes, los precios caen y cambiar de proveedor es más fácil que nunca.",
+              "Sin embargo, se está perdiendo algo mucho más valioso.",
+              "No la inteligencia. La memoria.",
+              "El conocimiento humano, el contexto organizacional, las relaciones, las decisiones y las experiencias se fragmentan en docenas de herramientas digitales. Cada plataforma almacena información, pero ninguna preserva el significado a lo largo del tiempo.",
+              "Saule presenta una nueva categoría de software: La Capa de Memoria Semántica (SML - Semantic Memory Layer).",
+              "En lugar de construir un nuevo modelo de IA, Saule construye una capa de memoria independiente que preserva el contexto semántico entre personas, equipos y comunidades, independientemente del modelo de IA que la impulse.",
+              "La inteligencia puede cambiar. La memoria no."
             ]
           }
         ],
-        "open_questions": [
-          {
-            "id": "mc-1",
-            "question": "¿Cómo puede Saule distinguir un compromiso de un pensamiento pasajero?",
-            "status": "open",
-            "decisionArea": "Clasificación semántica",
-            "answeredInChapters": [
-              "Capítulo 25 — Memoria adaptativa",
-              "Capítulo 26 — Motor de contexto"
-            ]
-          },
-          {
-            "id": "mc-2",
-            "question": "¿Cuándo debe volver a mostrarse un elemento sin resolver?",
-            "status": "open",
-            "decisionArea": "Política de reaparición",
-            "answeredInChapters": [
-              "Capítulo 26 — Motor de contexto",
-              "Capítulo 31 — Inteligencia de planificación"
-            ]
-          },
-          {
-            "id": "mc-3",
-            "question": "¿Cómo representar inquietudes emocionales sin convertirlas en tareas?",
-            "status": "open",
-            "decisionArea": "Modelo de datos emocionales",
-            "answeredInChapters": [
-              "Capítulo 27 — Motor de reflexión",
-              "Capítulo 28 — Motor de acompañamiento"
-            ]
-          },
-          {
-            "id": "mc-4",
-            "question": "¿Qué debería poder olvidar definitivamente la persona usuaria?",
-            "status": "open",
-            "decisionArea": "Controles de olvido",
-            "answeredInChapters": [
-              "Capítulo 22 — Olvido",
-              "Capítulo 37 — Privacidad"
-            ]
-          },
-          {
-            "id": "mc-5",
-            "question": "¿Cómo medir una menor carga mental sin vigilancia invasiva?",
-            "status": "open",
-            "decisionArea": "Señales de bienestar",
-            "answeredInChapters": [
-              "Capítulo 19 — Inteligencia adaptativa",
-              "Capítulo 37 — Privacidad"
-            ]
-          },
-          {
-            "id": "mc-6",
-            "question": "¿Cómo representar obligaciones compartidas cuando la responsabilidad no está clara?",
-            "status": "open",
-            "decisionArea": "Responsabilidad compartida",
-            "answeredInChapters": [
-              "Capítulo 14 — Relaciones",
-              "Capítulo 30 — Inteligencia relacional"
-            ]
-          },
-          {
-            "id": "mc-7",
-            "question": "¿Durante cuánto tiempo debe conservarse el material capturado de poco valor?",
-            "status": "open",
-            "decisionArea": "Política de conservación",
-            "answeredInChapters": [
-              "Capítulo 22 — Olvido",
-              "Capítulo 37 — Privacidad"
-            ]
-          },
-          {
-            "id": "mc-8",
-            "question": "¿Cuándo debe Saule dejar de aclarar y orientar hacia apoyo humano?",
-            "status": "open",
-            "decisionArea": "Límite de seguridad",
-            "answeredInChapters": [
-              "Capítulo 23 — Ética",
-              "Capítulo 28 — Motor de acompañamiento"
-            ]
-          }
-        ],
-        "design_decisions": [
-          "Saule debe distinguir almacenamiento de aclaración.",
-          "Cada elemento que reaparece debe incluir un motivo y una forma sencilla de descartarlo.",
-          "El material emocional no debe convertirse automáticamente en tareas.",
-          "La persona debe poder borrar y olvidar sin penalización.",
-          "La señal principal de éxito es menos ensayo mental, no más capturas.",
-          "Las interpretaciones de patrones mentales deben ser provisionales y corregibles.",
-          "Las revisiones deben ser acotadas y nunca fabricar trabajo."
-        ],
-        "future_evolution": "Este capítulo definirá más adelante una taxonomía del desorden mental, reglas de reaparición e indicadores de alivio cognitivo medibles que preserven la privacidad.",
-        "references": [
-          "Zeigarnik, B. (1927). Das Behalten erledigter und unerledigter Handlungen. Psychologische Forschung, 9, 1–85.",
-          "MacLeod, C. M. (2020). Zeigarnik and von Restorff: The memory effects and the stories behind them. Memory & Cognition, 48, 1073–1088.",
-          "Jones, W. (2007). Personal information management. Annual Review of Information Science and Technology, 41(1), 453–504.",
-          "McDaniel, M. A., & Einstein, G. O. (2007). Prospective Memory: An Overview and Synthesis of an Emerging Field. SAGE Publications.",
-          "Nolen-Hoeksema, S., Wisco, B. E., & Lyubomirsky, S. (2008). Rethinking rumination. Perspectives on Psychological Science, 3(5), 400–424.",
-          "Hutchins, E. (1995). Cognition in the Wild. MIT Press.",
-          "Clark, A., & Chalmers, D. (1998). The extended mind. Analysis, 58(1), 7–19."
-        ]
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
       }
     },
-    "the-attention-crisis": {
+    "memory-crisis": {
+      "title": "1. La crisis de la memoria",
+      "purpose": "Analizar la fragmentación de la información en el mundo moderno.",
+      "key_question": "¿Por qué se pierde el contexto mientras la información persiste?",
       "draft": {
         "sections": [
           {
-            "heading": "1. La atención ya no se protege por sí misma",
+            "heading": "1. La crisis de la memoria",
             "paragraphs": [
-              "La atención es uno de los vínculos más fundamentales que el ser humano establece con el mundo. Notamos algo, nos dirigimos hacia ello, permanecemos en ello, le damos significado y, en última instancia, lo transformamos en una decisión, un recuerdo, una relación o una acción. Sin atención, la experiencia se dispersa. Y cuando la experiencia se dispersa, el sentido de dirección que una persona siente sobre su vida se debilita.",
-              "El problema fundamental de la vida moderna con respecto a la atención no es simplemente que haya demasiados estímulos. El problema más profundo es este: los sistemas diseñados para captar nuestra atención se han vuelto más fuertes que nuestros límites internos y externos diseñados para protegerla.",
-              "Los teléfonos, mensajes, correos electrónicos, redes sociales, fuentes de noticias, notificaciones de trabajo, aplicaciones financieras, recomendaciones de compras, videos cortos y el desplazamiento infinito compiten por el mismo espacio mental limitado. No solo presentan información; nos piden que regresemos, miremos, reaccionemos, respondamos o pasemos a la siguiente cosa.",
-              "Por lo tanto, la crisis de atención no puede explicarse por un debilitamiento repentino de los seres humanos. Los humanos no perdieron su atención; el entorno que rodea a la atención ha cambiado.",
-              "Hoy la atención no es solo una capacidad humana que debe protegerse; se ha convertido en un territorio que se mide, por el que se compite, que se optimiza y que se transforma en valor económico. Aquello que una persona mira, pulsa, aquello en lo que permanece y a lo que vuelve genera una señal para algún sistema.",
-              "Ya en 1971, Herbert Simon advertía que la abundancia de información crea escasez de atención. Cada nueva información consume la atención de alguien que debe percibirla, evaluarla o filtrarla. El problema actual no es únicamente que se produzca demasiada información, sino que toda ella compita sin descanso por alcanzar una atención humana limitada.",
-              "Como resultado, el individuo moderno vive no solo con su propio desorden interno sino también con las demandas de atención del mundo exterior.",
-              "La crisis de atención no es, por tanto, un simple fallo de voluntad dentro de la persona. Es un desequilibrio entre la persona y su entorno."
-            ]
-          },
-          {
-            "heading": "2. La crisis de atención no es una falta de disciplina",
-            "paragraphs": [
-              "Ver la atención únicamente como una cuestión de disciplina personal es una explicación incompleta.",
-              "Por supuesto, los hábitos individuales son importantes. Una persona debe conocer sus propios límites, desarrollar ritmos de trabajo adecuados para sí misma y aprender qué estímulos la distraen. Pero atribuir toda la responsabilidad al individuo ignora el poder de diseño de los sistemas que compiten por la atención.",
-              "Si una aplicación envía notificaciones continuas, si una plataforma está diseñada para mantener el interés de una persona el mayor tiempo posible, si los sistemas sociales han hecho de la respuesta rápida una señal de cortesía y si la cultura de trabajo premia estar disponible en todo momento, simplemente decir \"sé más disciplinado\" no es suficiente.",
-              "La crisis de atención surge del conflicto entre la voluntad del individuo y las demandas del entorno.",
-              "Una persona quiere comenzar una tarea. Pero llega un mensaje. Un mensaje no es solo un mensaje; puede ser una relación, una expectativa, una posibilidad, un problema o una oportunidad. La persona mira el mensaje. Luego ve otra notificación. Entonces comienza un comportamiento de verificación breve. Unos minutos más tarde, incluso si la persona recuerda su intención inicial, ya no se encuentra en el mismo punto de partida mental.",
-              "Un estudio de Cary Stothart y sus colegas comprobó que el mero hecho de recibir una notificación telefónica podía perjudicar el rendimiento en una tarea de atención sostenida, incluso cuando la persona no miraba ni respondía al teléfono. La interrupción puede comenzar no al tocar la pantalla, sino cuando un sonido o una vibración crean una nueva expectativa en la mente.",
-              "En tales momentos, el problema no es solo la pérdida de tiempo. El problema es la pérdida de contexto.",
-              "Las personas a menudo se dan cuenta demasiado tarde de que se han distraído. Esto se debe a que la pérdida de atención no siempre es dramática. A veces aparece como una pequeña desviación, una verificación rápida o un retraso menor. Pero cuando estas pequeñas desviaciones se acumulan a lo largo del día, al llegar la noche la persona puede sentir que ha tocado muchas cosas pero ha permanecido verdaderamente con muy pocas.",
-              "El primer paso para comprender la pérdida de atención no es culpar a la persona, sino hacer visibles los contextos que fragmentan su atención."
-            ]
-          },
-          {
-            "heading": "3. La interrupción interrumpe el contexto, no solo el tiempo",
-            "paragraphs": [
-              "El costo de una interrupción no es solo la duración de la interrupción misma.",
-              "Una notificación puede durar cinco segundos. Revisar un mensaje puede llevar treinta. Consultar una aplicación puede parecer cuestión de dos minutos. Pero, cuando termina la interrupción, la tarea anterior no se reanuda por sí sola. La persona debe recordar qué hacía, encontrar dónde lo dejó y reconstruir el contexto de su pensamiento.",
-              "Por lo tanto, el costo real de la crisis de atención es mayor de lo que parece.",
-              "La revisión de Stephen Monsell sobre el cambio de tareas muestra que, justo después de cambiar de tarea, las personas suelen responder más despacio y cometer más errores; disponer de tiempo para prepararse reduce ese coste de transición, pero no lo elimina. La mente no borra de inmediato las reglas de la tarea anterior ni construye un contexto nuevo sin coste alguno.",
-              "La interrupción rompe la continuidad del pensamiento. La mente humana se ve obligada a volver a la pregunta \"¿dónde estaba?\" cada vez. Este retorno no solo es cognitivo, sino también emocional. Una persona que regresa a una tarea a veces no puede encontrar la misma motivación, el mismo coraje o la misma apertura.",
-              "Un experimento de Gloria Mark y sus colegas mostró también por qué el coste no puede medirse solo por el tiempo de finalización. Los participantes terminaron más rápido el trabajo interrumpido, pero lo hicieron con más estrés, frustración, presión temporal y esfuerzo. Una interrupción que desde fuera parece compensada puede dejar por dentro una experiencia de trabajo más pesada.",
-              "Algunas tareas se pueden realizar con períodos cortos de atención. Responder mensajes, hacer una verificación rápida o realizar ediciones simples es posible con un enfoque a corto plazo. Pero otras tareas requieren un contexto profundo: escribir, pensar, tomar una decisión difícil, intentar comprender una relación, evaluar la dirección de la carrera, revisar una situación financiera o diseñar un proyecto.",
-              "La crisis de atención moderna erosiona sobre todo este segundo tipo de tareas.",
-              "Esto se debe a que las tareas profundas no suelen gritar. No se recuerdan a sí mismas con notificaciones. No parecen urgentes. Sin embargo, la mayoría de las decisiones que cambian la vida de un ser humano surgen de asuntos profundos, no de los urgentes.",
-              "La calidad de la atención no depende, por tanto, solo del tiempo dedicado a una tarea, sino también de cuánto contexto puede conservarse dentro de ese tiempo."
-            ]
-          },
-          {
-            "heading": "4. Lo inmediato derrotando a lo lento",
-            "paragraphs": [
-              "El entorno digital moderno empodera lo inmediato.",
-              "Un nuevo mensaje aparece al instante. Las nuevas noticias fluyen de inmediato. Un nuevo movimiento de precios llama la atención de inmediato. Una nueva notificación cae en la pantalla a la vez. La respuesta de alguien, la advertencia de una aplicación o la sugerencia de una plataforma pueden ponerse fácilmente frente a la mente.",
-              "Por el contrario, las cosas que son importantes pero lentas suelen ser silenciosas.",
-              "Un libro es silencioso. Una meta profesional a largo plazo es silenciosa. Un hábito de salud es silencioso. La necesidad de mantener una buena relación es silenciosa. El significado del tiempo pasado con su hijo es silencioso. La necesidad de construir pacientemente un proyecto es silenciosa. El proceso de conocerse a uno mismo es silencioso.",
-              "Lo inmediato se anuncia. Lo lento espera a ser recordado.",
-              "Por lo tanto, la crisis de atención no es solo un problema de distracción; es un problema de jerarquía de valores. A medida que una persona responde a lo que sea que grite más fuerte durante el día, las cosas más importantes pueden quedar atrás.",
-              "La diferencia entre lo inmediato y lo importante no puede reducirse a una decisión automática tomada en nombre de la persona. El mismo mensaje puede ser realmente urgente un día y solo visible al siguiente. La importancia depende no solo del contenido, sino de la relación, el momento, la responsabilidad y el contexto que lleva la persona.",
-              "En el centro de la crisis de atención moderna queda así una pregunta sencilla pero difícil: \"¿Esto es realmente importante ahora o solo lo parece porque está visible ahora?\""
-            ]
-          },
-          {
-            "heading": "5. La atención no es un recurso fijo",
-            "paragraphs": [
-              "La atención no es un recurso mecánico disponible en la misma cantidad todos los días.",
-              "El sueño, el estrés, la ansiedad, el estado físico, la seguridad ambiental, la hora del día, la carga emocional, las presiones sociales y el significado del trabajo a realizar alteran la calidad de la atención.",
-              "Algunos días una persona puede concentrarse durante largos períodos. Algunos días, incluso comenzar por unos minutos es difícil. Algunos días la persona está abierta al mundo exterior. Algunos días, hasta la notificación más pequeña crea una ruptura masiva.",
-              "Esta variabilidad no es un fracaso. Es parte de ser humano.",
-              "Los sistemas de productividad tradicionales a menudo no tienen en cuenta esta variabilidad. Abordan cada día con el mismo calendario, la misma lista de tareas, la misma presión de objetivos y la misma expectativa de rendimiento. Sin embargo, la capacidad humana no es fija.",
-              "Etiquetar a alguien como una persona que \"puede concentrarse\" o \"no puede concentrarse\" convierte una situación temporal en una identidad permanente. Un enfoque más acertado consiste en comprender los patrones de atención junto con los contextos en los que aparecen.",
-              "¿A qué horas es más accesible la atención? ¿Qué tareas crean más resistencia? ¿Hablar con qué personas aumenta la carga mental? ¿En qué días las notificaciones se vuelven más disruptivas? ¿Bajo qué condiciones es más realista un enfoque corto y bajo qué condiciones es posible un trabajo profundo?",
-              "Las respuestas no deben definir a la persona, sino mostrar en qué condiciones su capacidad se estrecha o se amplía. El objetivo no es reducirla a una puntuación fija de atención, sino ayudarla a construir un día que se ajuste mejor a ella."
-            ]
-          },
-          {
-            "heading": "6. Proteger la atención es anterior a optimizarla",
-            "paragraphs": [
-              "Muchos sistemas intentan medir y optimizar la atención. ¿Cuántos minutos se trabajaron? ¿Cuántas tareas se completaron? ¿Cuántas veces regresaron a la aplicación? ¿Cuántas notificaciones se abrieron? ¿Cuántos bloques se completaron?",
-              "Pero si la atención ya está fragmentada, la optimización puede llegar demasiado tarde. Un enfoque más humano consiste en proteger primero la atención.",
-              "La protección puede significar menos notificaciones. Puede significar agrupar la comunicación no urgente. Puede significar reconocer el derecho del usuario a no estar disponible. Puede significar dejar espacios de transición antes de un bloque de enfoque. Puede significar no mostrar algunas cosas de inmediato. Puede significar no convertir cada señal en la vida del usuario en un objeto que \"debe ser mirado inmediatamente\".",
-              "Por lo tanto, el diseño de atención de Saule debe ser muy cuidadoso. Porque Saule también será una aplicación. Saule también puede enviar notificaciones, recordar, ofrecer sugerencias y hacer preguntas. Si hace esto sin moderación, se convierte en parte del problema que intenta resolver.",
-              "Un sistema que envía notificaciones inteligentes con demasiada frecuencia sigue siendo un sistema de interrupción. La relevancia no justifica automáticamente la inmediatez.",
-              "Que una pieza de información sea importante no significa que deba mostrarse de inmediato. A veces, la información correcta dada en el momento equivocado se convierte en una carga para la atención. Saule debe aprender no solo qué decir, sino también cuándo permanecer en silencio."
-            ]
-          },
-          {
-            "heading": "7. La atención también es social",
-            "paragraphs": [
-              "La atención no solo está relacionada con la disciplina interna de una persona. También se trata de la rapidez con la que otros esperan una respuesta de ella.",
-              "Los equipos en el trabajo pueden esperar respuestas instantáneas. Los miembros de la familia pueden solicitar disponibilidad. Los amigos pueden interpretar el silencio como indiferencia. Los clientes pueden esperar respuestas rápidas. Las plataformas de redes sociales pueden hacer que mantenerse visible se sienta como parte de mantener una relación.",
-              "La investigación de Melissa Mazmanian, Wanda Orlikowski y JoAnne Yates describe esta tensión entre profesionales que utilizaban correo móvil como una paradoja de la autonomía. Poder trabajar desde cualquier lugar ofrece flexibilidad y control a corto plazo, pero puede reforzar poco a poco la expectativa de disponibilidad constante y dificultar la desconexión real del trabajo.",
-              "Por esta razón, la protección de la atención no se trata solo de \"apagar las notificaciones\".",
-              "A veces una persona debe estar realmente localizable. Un hijo, la familia, una entrevista de trabajo importante, una emergencia o las responsabilidades de cuidado no deben ignorarse. Pero no todos los contactos tienen la misma urgencia.",
-              "Esta es una de las preguntas difíciles que Saule debe resolver en el futuro: ¿cómo evitar descuidar las relaciones, las responsabilidades y las verdaderas emergencias mientras se protege al usuario?",
-              "Un buen sistema no resuelve el problema simplemente silenciando a todos. Hace que la disponibilidad sea más legible. Ayuda a la persona a expresar cuándo planea regresar. Puede agrupar la comunicación no urgente. Puede priorizar lo que es verdaderamente importante. Pero al hacerlo, no debe convertirse en un sistema que puntúe arbitrariamente quién es \"importante\" o que haga mecánicas las relaciones.",
-              "La protección de la atención no es una herramienta para escapar de la responsabilidad social. De manera similar, la disponibilidad no debe significar demandas ilimitadas de atención. Saule debe lograr un equilibrio delicado entre ambas."
-            ]
-          },
-          {
-            "heading": "8. ¿Qué significa recuperar la atención?",
-            "paragraphs": [
-              "Recuperar la atención no significa hacer productivo cada minuto del día.",
-              "Para una persona, recuperar la atención es a veces completar un escrito largo. A veces es olvidar el teléfono mientras habla con su hijo. A veces es escuchar verdaderamente a un amigo. A veces es que su mente se recupere mientras camina. A veces, en lugar de terminar una tarea, es poder decidir qué tarea no hará.",
-              "Por lo tanto, la atención no puede medirse únicamente por los minutos de trabajo.",
-              "Una persona puede sentarse en un escritorio durante tres horas e interrumpirse constantemente. Otra persona puede estar verdaderamente presente durante veinte minutos. El segundo escenario es a veces más valioso que el primero.",
-              "La métrica de éxito de Saule con respecto a la atención no debe ser el tiempo pasado en la aplicación. De hecho, en algunos casos, el éxito de Saule podría ser que el usuario abra menos la aplicación.",
-              "Las señales más precisas podrían ser: ¿Volvió el usuario a lo que pretendía? ¿Pudo reconstruir su contexto después de una interrupción? Al final del día, ¿pudo ver con mayor claridad lo que era importante? ¿Se sintió más en control o se sintió más gestionado? ¿Se utilizó su atención más cerca de sus propios valores y responsabilidades reales?",
-              "El objetivo de Saule no es aumentar la participación, sino abrir un espacio más saludable para la atención en la vida del usuario. El resultado pertenece a la vida del usuario, no a un panel de control de participación."
-            ]
-          },
-          {
-            "heading": "9. El principio de atención para Saule",
-            "paragraphs": [
-              "Este capítulo genera un principio fundamental para Saule: Saule debe diseñarse no para ganarse la atención del usuario, sino para proteger la atención del usuario.",
-              "Este principio debe extenderse por todo el producto. En cada capa, desde las notificaciones, los recordatorios, los mensajes de coaching, los planes diarios, el contexto del teléfono, la interacción por voz y el sistema de memoria, se debe hacer la misma pregunta: \"¿Esta intervención realmente hace más clara la vida del usuario, o solo hace más visible al sistema?\"",
-              "Saule no debe ser un asistente que se recuerde a sí mismo constantemente. No debe convertirse en un nuevo bucle abierto en la mente de las personas. El usuario no debe sentir una nueva presión de \"también necesito revisar a Saule\".",
-              "El valor de Saule puede surgir a veces al mostrar algo, a veces al posponer algo, a veces al silenciar algo y a veces al no hacer nada en absoluto.",
-              "El silencio debe ser un estado válido. Un sistema que protege la atención debe diseñar el permanecer en silencio como un comportamiento del producto, no solo el hablar."
+              "El problema del ser humano moderno no es la falta de información. Es la crisis de la memoria fragmentada.",
+              "Nuestro conocimiento vive dentro de estas herramientas:",
+              "Correo electrónico | Slack | WhatsApp | Google Drive | Notion | Calendarios | CRM | Chatbots de IA",
+              "Cada plataforma recuerda una pequeña parte de la historia. Ninguna conoce la historia completa.",
+              "La información persiste. El contexto se pierde."
             ]
           }
         ],
-        "open_questions": [
-          {
-            "id": "ac-1",
-            "question": "¿Qué condiciones justifican interrumpir al usuario?",
-            "status": "open",
-            "decisionArea": "Política de interrupciones",
-            "answeredInChapters": [
-              "Capítulo 31 — Inteligencia de planificación",
-              "Capítulo 32 — Contexto del teléfono",
-              "Capítulo 37 — Privacidad"
-            ]
-          },
-          {
-            "id": "ac-2",
-            "question": "¿Cómo aprender patrones de atención sin que se conviertan en etiquetas de identidad?",
-            "status": "open",
-            "decisionArea": "Perfil adaptativo",
-            "answeredInChapters": [
-              "Capítulo 19 — Inteligencia adaptativa",
-              "Capítulo 25 — Memoria adaptativa",
-              "Capítulo 24 — Agencia Humana"
-            ]
-          },
-          {
-            "id": "ac-3",
-            "question": "¿Cómo debe manejar Saule los mensajes urgentes durante el enfoque protegido?",
-            "status": "open",
-            "decisionArea": "Escalada de urgencia",
-            "answeredInChapters": [
-              "Capítulo 26 — Motor de contexto",
-              "Capítulo 30 — Inteligencia de relaciones",
-              "Capítulo 32 — Contexto del teléfono"
-            ]
-          },
-          {
-            "id": "ac-4",
-            "question": "¿Qué señales de atención son demasiado invasivas para recopilar?",
-            "status": "open",
-            "decisionArea": "Privacidad de la atención",
-            "answeredInChapters": [
-              "Capítulo 32 — Contexto del teléfono",
-              "Capítulo 37 — Privacidad",
-              "Capítulo 38 — Seguridad"
-            ]
-          },
-          {
-            "id": "ac-5",
-            "question": "¿Cómo puede tener éxito el producto sin maximizar la participación?",
-            "status": "open",
-            "decisionArea": "Incentivos del producto",
-            "answeredInChapters": [
-              "Capítulo 20 — Confianza",
-              "Capítulo 23 — Ética",
-              "Capítulo 39 — Modelo de negocio"
-            ]
-          },
-          {
-            "id": "ac-6",
-            "question": "¿Cómo se pueden negociar las expectativas de disponibilidad entre las personas?",
-            "status": "open",
-            "decisionArea": "Atención social",
-            "answeredInChapters": [
-              "Capítulo 14 — Relaciones",
-              "Capítulo 30 — Inteligencia de relaciones",
-              "Capítulo 32 — Contexto del teléfono"
-            ]
-          },
-          {
-            "id": "ac-7",
-            "question": "¿Qué resultados indican una atención recuperada en lugar de una productividad forzada?",
-            "status": "open",
-            "decisionArea": "Resultados de atención",
-            "answeredInChapters": [
-              "Capítulo 19 — Inteligencia adaptativa",
-              "Capítulo 31 — Inteligencia de planificación",
-              "Capítulo 40 — Fases de desarrollo"
-            ]
-          },
-          {
-            "id": "ac-8",
-            "question": "¿Cómo debe cambiar el soporte de atención según la accesibilidad y las responsabilidades de la vida?",
-            "status": "open",
-            "decisionArea": "Enfoque accesible",
-            "answeredInChapters": [
-              "Capítulo 24 — Agencia Humana",
-              "Capítulo 32 — Contexto del teléfono",
-              "Capítulo 36 — Principios de ingeniería",
-              "Capítulo 37 — Privacidad"
-            ]
-          }
-        ],
-        "design_decisions": [
-          "Saule debe optimizar la intención del usuario, no la participación.",
-          "Las notificaciones deben agruparse o posponerse de forma predeterminada a menos que la urgencia sea explícita.",
-          "Los patrones de atención deben seguir siendo contextuales y modificables; no deben convertir al usuario en etiquetas de identidad permanentes.",
-          "El enfoque protegido debe incluir el tiempo de recuperación y transición, no solo el tiempo de trabajo.",
-          "El usuario siempre debe poder anular las reglas de interrupción aprendidas.",
-          "La disponibilidad no debe asumirse, sino comunicarse con la mayor claridad posible.",
-          "Los resultados de la atención deben evaluarse mediante una reflexión ligera y el consentimiento del usuario, no con vigilancia continua.",
-          "Saule debe diseñar el permanecer en silencio en ciertos momentos como un comportamiento del producto."
-        ],
-        "future_evolution": "Este capítulo se ampliará más adelante para definir cómo se representan los patrones de atención, bajo qué condiciones se agrupan las notificaciones, cómo se diseñan los períodos de enfoque protegido y cómo el usuario puede inspeccionar y editar su propia política de atención.\n\nLas versiones futuras también examinarán cómo debe adaptarse el soporte de atención a diferentes situaciones de la vida: paternidad, búsqueda de empleo, trabajo autónomo, responsabilidades de cuidado, gestión de relaciones, educación, salud y períodos de alta incertidumbre.\n\nEl propósito futuro de este capítulo es aclarar cómo se puede diseñar Saule como un sistema que protege el espacio de atención del usuario, en lugar de solo planificar tareas.",
-        "references": [
-          "Simon, H. A. (1971). Designing organizations for an information-rich world. In M. Greenberger (Ed.), Computers, Communications, and the Public Interest (pp. 38–52). Johns Hopkins Press.",
-          "Stothart, C., Mitchum, A., & Yehnert, C. (2015). The attentional cost of receiving a cell phone notification. Journal of Experimental Psychology: Human Perception and Performance, 41(4), 893–897.",
-          "Monsell, S. (2003). Task switching. Trends in Cognitive Sciences, 7(3), 134–140.",
-          "Mark, G., Gudith, D., & Klocke, U. (2008). The cost of interrupted work: More speed and stress. Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, 107–110.",
-          "Mazmanian, M., Orlikowski, W. J., & Yates, J. (2013). The autonomy paradox: The implications of mobile email devices for knowledge professionals. Organization Science, 24(5), 1337–1357."
-        ]
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
       }
     },
-    "open-loops": {
+    "ai-illusion": {
+      "title": "2. La ilusión de la IA",
+      "purpose": "Examinar la memoria transitoria y bloqueada en el modelo de la IA.",
+      "key_question": "¿A quién le pertenece su contexto acumulado?",
       "draft": {
         "sections": [
           {
-            "heading": "1. ¿Por qué lo inacabado permanece activo?",
+            "heading": "2. La ilusión de la IA",
             "paragraphs": [
-              "Un ciclo abierto es una intención, tarea, decisión, pregunta, promesa o asunto relacional que la mente aún no considera resuelto. El término no es un diagnóstico clínico ni una construcción única con límites firmemente establecidos en psicología; es un marco útil para explicar por qué asuntos inacabados regresan repetidamente a nuestro campo de atención en la vida cotidiana.",
-              "Un mensaje sin respuesta, un plan de atención médica no elegido, una promesa hecha pero no cumplida, una decisión que se espera de otra persona, una solicitud a medio terminar o una conversación cuyo significado aún no se ha entendido están todos inacabados de diferentes maneras. Sin embargo, su peso no es igual en la mente. Uno puede requerir sólo una pequeña acción, mientras que otro puede requerir coraje, información, tiempo, dolor o la participación de otra persona.",
-              "Los experimentos de Bluma Zeigarnik en la década de 1920 demostraron que, bajo ciertas condiciones, las tareas interrumpidas podían recordarse mejor que las completadas. Sin embargo, la reseña histórica y experimental de Colin MacLeod nos recuerda que este efecto no es tan universal o inmutable como sugieren los relatos populares. Concluir que cada tarea inconclusa ocupa automáticamente la mente sería una afirmación más fuerte de lo que la investigación puede respaldar.",
-              "Una conclusión más defendible es la siguiente: cuando una meta importa, sigue siendo válida y el camino de regreso a ella es incierta, los pensamientos relacionados con esa meta pueden reaparecer durante otras actividades. En experimentos de Masicampo y Baumeister, las metas incumplidas se asociaron con pensamientos intrusivos y costos de desempeño durante tareas no relacionadas; Sin embargo, hacer un plan específico para regresar a la meta podría reducir estos efectos cognitivos.",
-              "Este hallazgo sugiere que la finalización no es el único camino hacia el alivio. A veces la mente busca un camino de retorno confiable antes de buscar el resultado mismo. Un plan como \"No haré esto ahora, pero lo reabriré el viernes a las 10:00 con este documento\" difiere de la vaga intención \"Debería hacerlo más tarde\".",
-              "Por lo tanto, no podemos entender el peso de un ciclo abierto mirando sólo su antigüedad o el tamaño de la tarea. La incertidumbre, la importancia personal, el significado emocional, las consecuencias sociales, la confianza a cambio y la capacidad actual de la persona importan en conjunto. La primera tarea de Saule no es declarar urgente todo lo abierto, sino distinguir por qué cada asunto permanece abierto.",
-              "Los ciclos abiertos no existen sólo dentro de los individuos. Las solicitudes de clientes sin respuesta, los tickets sin resolver, los seguimientos de ventas olvidados, las decisiones sin dueño, las aprobaciones pendientes y los problemas operativos recurrentes también constituyen la carga mental de una organización. En el trabajo creativo, las ideas a medio formar, los borradores inacabados, las revisiones pendientes y las posibilidades planteadas como “algo que tal vez hagamos algún día” son otras formas de la misma presión."
-            ]
-          },
-          {
-            "heading": "2. Diferentes ciclos requieren diferentes finales",
-            "paragraphs": [
-              "Un error común en los sistemas de productividad es convertir todo lo inacabado en una tarea. Sin embargo, “hablar con mi madre”, “pensar en mi carrera”, “esperar el resultado”, “aceptar esta pérdida” y “presentar el formulario” no son el mismo tipo de ítems. Pueden aparecer uno al lado del otro en una interfaz, pero no solicitan el mismo final.",
-              "Un ciclo de acción avanza a través de un siguiente paso observable: completar el formulario, programar la cita, enviar el archivo. Un ciclo de decisiones necesita que las opciones, los criterios o la fecha de la decisión final queden claros antes de tomar medidas adicionales. Producir tareas antes de tomar una decisión puede crear la apariencia de movimiento y al mismo tiempo preservar la incertidumbre subyacente.",
-              "En un ciclo de espera, el siguiente movimiento no pertenece al usuario. Se espera una respuesta de otra persona, un resultado institucional, una entrega o una fecha determinada. Mostrar cada día un elemento de este tipo como si fuera una tarea puede convertir una situación fuera del control de la persona en un sentimiento de insuficiencia personal. Lo que se necesita aquí no es acción, sino claridad en la apropiación y las condiciones de seguimiento.",
-              "Un ciclo relacional puede requerir una conversación, expectativas aclaradas, una disculpa, un límite o un acuerdo mutuo. A veces, un ciclo emocional puede necesitar no una solución sino un nombre, dolor, tiempo, aceptación o espacio para vivir con incertidumbre por un tiempo. Convertir cada malestar en una tarea realizable mecaniza la experiencia humana más de lo que debería.",
-              "También hay ciclos de exploración: una idea, una posibilidad, un libro, un deseo de viajar o un proyecto de futuro aún no es un compromiso. Si un sistema las carga como deudas impagas, la curiosidad misma se convierte en presión. Preservar una posibilidad no debe considerarse como una promesa de que se realizará.",
-              "Esta distinción debe preservarse en los niveles personal, organizacional y creativo. No todos los ciclos abiertos son tareas pendientes; algunos asuntos de los clientes requieren una decisión, algunos asuntos del equipo requieren una propiedad clara y algunas ideas creativas solo requieren un contexto preservado. El tipo de cierre incorrecto puede prolongar un ciclo en lugar de cerrarlo.",
-              "Por lo tanto, Saule debería distinguir al menos estas formas de cierre: hacer, decidir, esperar, hablar, delegar, planificar, reflexionar, aceptar y dejar ir. Un artículo puede tener más de una forma; La clasificación no debe ser un veredicto absoluto, sino una interpretación provisional que ayude a presentar al usuario una mejor siguiente pregunta."
-            ]
-          },
-          {
-            "heading": "3. La confianza es la base de la memoria externa",
-            "paragraphs": [
-              "La memoria prospectiva es la capacidad de recordar una acción prevista en el momento adecuado en el futuro. Tomar medicamentos por la noche, escribirle a alguien después de una reunión o comprar algo de camino a casa requiere más que recordar información pasada; requiere reactivar una intención en las condiciones adecuadas.",
-              "La gente no deja esta carga únicamente a la memoria biológica. Calendarios, alarmas, objetos colocados junto a la puerta, notas y recordatorios digitales trasladan las intenciones al entorno. La revisión de Gilbert y sus colegas sobre la descarga de intenciones muestra que estas herramientas pueden respaldar firmemente las intenciones retrasadas, mientras que las decisiones de las personas sobre qué descargar están influenciadas por su confianza en su propia memoria y por el costo de la tarea.",
-              "La descarga por sí sola no genera confianza. Si no se puede encontrar un registro, carece de contexto, aparece en el momento equivocado o el sistema produce demasiadas alertas sin importancia, la persona continúa llevando la intención mentalmente. Por tanto, el ciclo mental permanece abierto aunque la tarea haya sido escrita, porque el camino de regreso no es fiable.",
-              "El desencadenante importa tanto como el contenido del recordatorio. Es posible que “renovar el pasaporte” no ayude si la persona no sabe qué documento necesita o lo ve mientras la oficina está cerrada. “A las 09:00 del martes, mientras estás en el ordenador, pide cita a través de esta página” deja visible el punto de entrada.",
-              "La confianza requiere una relación que pueda admitir errores. Saule no debe asumir que cada regreso ocurrirá en el momento adecuado; debe explicar por qué se muestra un elemento ahora y permitir al usuario corregir el momento o reducir sugerencias similares. Un recordatorio inoportuno no es simplemente un pequeño error del producto; puede erosionar la confianza en la memoria externa.",
-              "Por lo tanto, cada ciclo diferido debería conllevar un contrato de retorno: ¿cuándo, después de qué evento, en qué contexto o tras la respuesta de quién se reabrirá? La memoria externa confiable no es una memoria que mantiene todo continuamente visible, sino una memoria en la que se puede confiar para recuperar algo en las condiciones adecuadas incluso cuando está fuera de la vista."
-            ]
-          },
-          {
-            "heading": "4. De una intención vaga a un plan viable",
-            "paragraphs": [
-              "Registrar una intención y hacerla viable no es lo mismo. “Avanzar más”, “terminar la cartera” o “reparar la relación” pueden importar, pero no dicen qué contaría como un comienzo. Los objetivos vagos pueden permanecer abiertos porque cada encuentro con ellos exige una nueva interpretación y otra decisión.",
-              "Las investigaciones sobre las intenciones de implementación muestran que los planes “si-entonces” que vinculan una condición específica con un comportamiento específico pueden apoyar el logro de objetivos. El metanálisis de Gollwitzer y Sheeran informó efectos generalmente beneficiosos, mientras que estudios posteriores muestran que la efectividad varía según la naturaleza del objetivo, la intención genuina de la persona y el contexto. Un plan no convierte automáticamente en significativo un objetivo débil o impuesto externamente.",
-              "Un buen plan puede responder cuatro preguntas: ¿Qué pasará? ¿Bajo qué condiciones comenzará? ¿Cuál es la primera acción visible? Si no puede comenzar, ¿cuándo se reconsiderará? Estas preguntas no intentan controlar todo el futuro; simplemente hacen que la primera transición de la intención a la conducta sea menos incierta.",
-              "Cuando un plan está demasiado especificado, puede crear una nueva carga de mantenimiento. Actualizar docenas de subpasos a medida que la vida cambia puede resultar más difícil que hacer el trabajo en sí. Saule debe buscar el plano más pequeño y revelar más detalles sólo a medida que el usuario avanza.",
-              "El aplazamiento es una decisión sólo cuando incluye una condición de devolución. “Lo miraré más tarde” simplemente empuja el ciclo abierto hacia el futuro. “Reevaluarlo con el presupuesto cuando llegue el salario”, “decidir cuándo llega el informe” o “hacer un seguimiento una vez si no hay respuesta dentro de dos semanas” define la condición bajo la cual termina la espera.",
-              "El propósito de un plan no es hacer que el usuario lo obedezca, sino reducir el costo de reconstruir una intención. Actualizar el plan cuando las circunstancias cambian no debe considerarse un fracaso; Preservar ciegamente un viejo plan en una vida cambiada puede producir una carga adicional en lugar de flexibilidad."
-            ]
-          },
-          {
-            "heading": "5. El derecho a dejar ir",
-            "paragraphs": [
-              "Muchos ciclos permanecen vivos no porque sigan siendo valiosos, sino porque dejarlos ir se siente como un fracaso. Las viejas metas, las obligaciones que han perdido su validez, las expectativas heredadas de otros y los planes que ya no son posibles pueden seguir cargándose como deudas morales mucho después de haber perdido su conexión con la vida presente de la persona.",
-              "Las investigaciones sobre la falta de compromiso con los objetivos sugieren que retirarse con flexibilidad de objetivos inalcanzables y volver a comprometerse con alternativas significativas puede estar asociado con el bienestar. En el metanálisis de Barlow, Wrosch y McGrath, estas relaciones fueron modestas en promedio y variaron según el contexto. “Rendirse siempre es bueno” es, por tanto, una conclusión tan extrema como “la persistencia es siempre una virtud”.",
-              "El abandono consciente no es lo mismo que el abandono evitativo. Una persona puede retirarse de una meta valiosa por miedo; en otra situación, continuar con un objetivo cuyo costo ha aumentado, su significado ha disminuido o su viabilidad ha desaparecido puede ser perjudicial. Saule no puede determinar por sí solo esta distinción con certeza.",
-              "En lugar de emitir un veredicto, el sistema puede crear un espacio para la reflexión: ¿sigue siendo este objetivo el suyo? ¿Aún es posible? ¿Cuánto ha empezado a costar? ¿Qué valor protege continuar? ¿Para qué dejaría espacio dejarlo ir? ¿La decisión debe tomarse hoy? Estas preguntas no deberían fomentar el abandono; deberían hacer visible la persistencia automática.",
-              "El mismo derecho se aplica al trabajo y a los proyectos creativos. No es necesario perseguir indefinidamente cada segmento de clientes, ni llevar adelante cada antigua decisión, convertir cada idea en un producto o desarrollar cada campaña. A veces, un cierre saludable no proviene de continuar más allá, sino de nombrar honestamente lo que ya no se llevará a cabo.",
-              "Dejar ir también puede tener un historial de cierre. Si el usuario lo desea, podrá indicar brevemente por qué dejó de hacerlo, en qué condiciones podría reconsiderarlo o por qué no quiere volver. Esta explicación, sin embargo, no debe convertirse en una defensa obligatoria; la gente no debería tener que justificar cada eliminación del sistema.",
-              "Saule debe mantener distintas la eliminación, el archivado y la finalización. El archivo preserva la posibilidad de devolución; finalizar indica que el compromiso ha terminado; La eliminación significa que el registro no se conservará. El sistema no debe convertir cada intención pasada en una deuda permanente o en un registro de carácter almacenado interminablemente."
-            ]
-          },
-          {
-            "heading": "6. Un sistema orientado al cierre",
-            "paragraphs": [
-              "El objetivo de un sistema orientado al cierre no es una bandeja de entrada vacía o cero ciclos abiertos. La vida humana está inacabada por naturaleza: criar a un niño, mantener una relación, crecer en una profesión, cuidar la salud o explorar una idea no se puede completar con una sola marca de verificación. Un objetivo cero puede hacer que la continuidad de la vida parezca un fracaso.",
-              "Un objetivo más significativo es que cada elemento abierto tenga un estado inteligible: actuar ahora, programado, esperando respuesta, bajo reflexión, delegado, esperando una condición, liberado conscientemente o completado. El Estado debe explicar por qué el elemento es visible y a quién corresponde la siguiente decisión.",
-              "Una revisión no debería abrir todo el archivo a la vez. Saule debe presentar grupos pequeños según el contexto, la edad, el último cambio, una condición próxima y la capacidad actual del usuario. Cinco preguntas claras pueden crear más conclusiones que una pantalla de deuda que contenga cien elementos.",
-              "El significado de \"completado\" también varía según el ciclo. Para un formulario, un registro de envío puede ser suficiente; para una conversación, expresando la propia parte; para una decisión, dejando constancia de la elección; para una cuestión emocional, simplemente afirmando que no se desea ninguna intervención adicional del sistema. Saule no debería reducir la finalización a un patrón de comportamiento.",
-              "El sistema puede sugerir ciertas pruebas, pero no debe recopilar pruebas de su finalización mediante una vigilancia constante. Ver que se envió un correo electrónico no es lo mismo que saber que la conversación se siente cerrada para el usuario. La última palabra debe quedar en manos del usuario, y un ciclo cerrado por error debería ser fácil de reabrir.",
-              "El cierre no debe convertirse en una excusa para producir insignias, rachas o puntuaciones. El objetivo no es que el usuario cierre más elementos, sino que cargue con menos incertidumbre. A veces la mejor revisión termina al completar una tarea, a veces aplazarla hasta la fecha adecuada y a veces aceptar que no se realizará."
-            ]
-          },
-          {
-            "heading": "7. Ciclos compartidos y relacionales",
-            "paragraphs": [
-              "Entre las personas viven muchos ciclos abiertos: una respuesta prometida, una decisión compartida, una expectativa poco clara, una responsabilidad de cuidado, un pago, una entrega de trabajo, una disculpa o una necesidad que aún no ha sido expresada. Estos ciclos no son meros problemas de planificación personal; son cuestiones de propiedad, reciprocidad y confianza.",
-              "Saule debería distinguir al menos tres cosas en los ítems relacionales: la propia responsabilidad del usuario, una acción que se espera de otra persona y un área que debe aclararse en conjunto. “Responderé”, “Estoy esperando su respuesta” y “tenemos que decidir juntos” no son el mismo estado. Sin esta distinción, una persona puede llevar la parte de otra persona como si fuera su propia tarea abierta.",
-              "El sistema no debe inferir la intención, emoción o confiabilidad de otra persona a partir de datos visibles únicamente para el usuario. “Hace tres días que no responden” es un hecho observable; “no les importas” no lo es. Saule debe separar los hechos, la interpretación del usuario y la incertidumbre.",
-              "Las relaciones laborales requieren el mismo cuidado: las expectativas de los clientes, las responsabilidades del equipo, las decisiones compartidas, las respuestas retrasadas, los comentarios, las disculpas, los límites y la propiedad pueden ser tanto operativos como relacionales. Cerrar una tarea no es lo mismo que cerrar una relación; A veces, proteger la relación requiere un cierre más cuidadoso.",
-              "El cierre de una relación no siempre significa un acuerdo mutuo. Es posible que el usuario haya hecho su parte, haya expresado un límite o haya hecho un seguimiento respetuoso una vez, mientras que la otra persona aún no responde. En tales casos, el ciclo puede cerrarse no mediante un acuerdo total, sino cuando el usuario decide lo que ya no hará.",
-              "Los recordatorios no deberían automatizar la presión relacional. Si un sistema genera continuamente mensajes de seguimiento, califica a las personas según el tiempo de respuesta o interpreta el silencio como hostilidad, construye un mecanismo de presión en lugar de inteligencia relacional. Saule puede preparar una pregunta y preservar el contexto; El envío de la comunicación y la elección del tono deben quedar en manos del usuario.",
-              "Esta área también requiere fuertes límites de privacidad. Las notas sobre otras personas no deben convertirse en perfiles extensos sin su consentimiento; El contexto relacional debe conservarse con sólo el mínimo detalle necesario para ayudar al usuario a encontrar la dirección. Comprender un ciclo abierto no requiere convertir a todos los que participan en él en objetos de datos."
-            ]
-          },
-          {
-            "heading": "8. Obsolescencia, vencimiento y renovación",
-            "paragraphs": [
-              "Un ciclo no debería seguir siendo igualmente urgente para siempre. A medida que pasa el tiempo, algunos compromisos ganan valor, otros caducan y otros pierden significado porque las circunstancias cambian. La edad por sí sola no es una medida de prioridad; No todo lo viejo es urgente ni carece de importancia.",
-              "Las listas de tareas tradicionales a menudo castigan los elementos antiguos de dos maneras: o los hacen desaparecer al final de la lista o los muestran con colores cada vez más severos y atrasados. Ambos enfoques pueden saltarse la pregunta esencial: ¿este artículo sigue siendo válido? Saule debería utilizar la edad no para producir culpa, sino para invitar a la revalidación.",
-              "Algunos ciclos pueden tener una regla de caducidad desde el principio. La sugerencia de un evento puede reconsiderarse después de que pasa su fecha, una investigación de precios temporal después de que se toma una decisión o una idea de poca importancia después de haber permanecido intacta durante un período determinado. Sin embargo, las áreas de gran importancia como la salud, el derecho, el dinero, los cuidados y las relaciones importantes no deben eliminarse automáticamente y de forma silenciosa.",
-              "La renovación de superficie no debe limitarse a devolver un elemento a la vista sin cambios; debería preguntar qué ha cambiado: ¿Qué ha cambiado desde que grabaste esto? ¿Sigue siendo tu responsabilidad? ¿La fecha límite y la persona que estás esperando siguen siendo las mismas? ¿Sería mejor conservarlo, transformarlo, delegarlo o liberarlo? La edad produce entonces un significado actualizado en lugar de presión.",
-              "Las transiciones de la vida pueden requerir una reevaluación colectiva. Una mudanza, un cambio de trabajo, una enfermedad, la paternidad, una separación o un cambio en las circunstancias financieras pueden alterar el estado de cientos de viejas intenciones a la vez. En lugar de obligar al usuario a defender cada elemento individualmente, Saule debería ofrecer un reinicio periódico y una forma de continuar con los elementos seleccionados.",
-              "Una memoria digital sana no sólo recuerda; también puede poner fin a las cosas. Los períodos de retención, archivado, olvido y eliminación permanente deben distinguirse claramente, y la decisión del usuario de eliminar no debe ser revertida silenciosamente por sugerencias posteriores."
-            ]
-          },
-          {
-            "heading": "9. El principio de ciclo abierto de Saule",
-            "paragraphs": [
-              "Este capítulo da origen a un principio fundamental para Saule: Saule no debe ser acreedor de una vida inacabada, sino un amable intérprete de la incertidumbre. Su tarea no es hacer que los usuarios devuelvan sus antiguas intenciones, sino ayudarles a ver cuáles todavía tienen significado y responsabilidad en la actualidad.",
-              "Este principio de ciclo abierto es un principio de diseño fundamental no sólo para la vida individual, sino para todas las capas de vida, trabajo y creatividad de Saule. Lo que queda abierto puede ser una tarea personal, una decisión de equipo o una posibilidad creativa; lo que cada uno requiere no es idéntico, pero todos necesitan una propiedad visible, un retorno confiable y un cierre significativo.",
-              "Cada ciclo abierto debe representarse de la forma más sencilla posible: ¿Qué es? ¿Por qué está abierto? ¿A quién pertenece el próximo movimiento? ¿Qué tipo de cierre necesita? ¿En qué condiciones debería reaparecer? Cuando el sistema es incierto, debe decirlo y no debe almacenar una interpretación provisional como una verdad permanente.",
-              "Cada elemento resurgido debe incluir una razón y una salida fácil. El usuario debería poder aplazarlo, cambiar su estado, delegarlo, marcarlo como completo, dejarlo ir o eliminarlo permanentemente. La inteligencia de Saule es visible no sólo al presentar lo correcto, sino también al retirarse rápidamente cuando presenta lo incorrecto.",
-              "El éxito no se mide por el número de ciclos cerrados. Preguntas más significativas son: ¿Puede el usuario ver más claramente lo que le pertenece? ¿Pueden establecer con seguridad una intención sin ensayarla mentalmente? ¿Pueden distinguir lo que esperan de lo que deben hacer? ¿Podrán poner fin a objetivos que han dejado de ser válidos sin sentirse culpables? ¿Se sienten más ligeros y dirigidos después de una revisión?",
-              "Saule no debería prometer cerrar todos los círculos. Algunos asuntos requieren tiempo, relación, coraje, recursos financieros o apoyo humano; algunos nunca llegan a un final perfecto. Un buen sistema no elimina lo incompleto. Reduce la posibilidad de que lo incompleto se convierta en una presión invisible, una responsabilidad olvidada o una culpa permanente."
+              "Los sistemas de IA actuales parecen inteligentes porque recuerdan conversaciones. Sin embargo, esta memoria: Es específica de la plataforma, Está bloqueada en el modelo, Es transitoria, Depende del proveedor (vendor).",
+              "El contexto acumulado le pertenece al proveedor de IA, no a usted. Cuando cambia de un modelo a otro, meses o años de comprensión contextual desaparecen al instante.",
+              "El mundo cree que está construyendo inteligencia. En realidad, está reconstruyendo la memoria desde cero constantemente."
             ]
           }
         ],
-        "open_questions": [
-          {
-            "id": "ol-1",
-            "question": "¿Cómo puede Saule reconocer que un ciclo se ha vuelto obsoleto?",
-            "status": "open",
-            "decisionArea": "Detección de estancamiento",
-            "answeredInChapters": [
-              "Capítulo 25 — Memoria adaptativa",
-              "Capítulo 31 — Inteligencia de planificación"
-            ]
-          },
-          {
-            "id": "ol-2",
-            "question": "¿Qué evidencia es suficiente para considerar un ciclo completo?",
-            "status": "open",
-            "decisionArea": "Significado de finalización",
-            "answeredInChapters": [
-              "Capítulo 26: Motor de contexto",
-              "Capítulo 31 — Inteligencia de planificación"
-            ]
-          },
-          {
-            "id": "ol-3",
-            "question": "¿Cuándo debería el sistema sugerir desvincularse de una meta?",
-            "status": "open",
-            "decisionArea": "Desconexión de objetivos",
-            "answeredInChapters": [
-              "Capítulo 24 — Agencia humana",
-              "Capítulo 28: Motor de entrenamiento"
-            ]
-          },
-          {
-            "id": "ol-4",
-            "question": "¿Cómo se pueden representar los ciclos relacionales sin puntuar a las personas?",
-            "status": "open",
-            "decisionArea": "Contexto relacional",
-            "answeredInChapters": [
-              "Capítulo 14 — Relaciones",
-              "Capítulo 30 — Inteligencia relacional"
-            ]
-          },
-          {
-            "id": "ol-5",
-            "question": "¿Con qué frecuencia se deben revisar los ciclos no resueltos?",
-            "status": "open",
-            "decisionArea": "Frecuencia de revisión",
-            "answeredInChapters": [
-              "Capítulo 31 — Inteligencia de planificación"
-            ]
-          },
-          {
-            "id": "ol-6",
-            "question": "¿Cómo debería representar Saule un ciclo que depende de otra persona?",
-            "status": "open",
-            "decisionArea": "Estado de ciclo compartido",
-            "answeredInChapters": [
-              "Capítulo 30 — Inteligencia relacional"
-            ]
-          },
-          {
-            "id": "ol-7",
-            "question": "¿Qué compromisos deberían caducar automáticamente y cuáles deberían requerir confirmación?",
-            "status": "open",
-            "decisionArea": "Reglas de vencimiento",
-            "answeredInChapters": [
-              "Capítulo 22 — Olvidando",
-              "Capítulo 25 — Memoria adaptativa"
-            ]
-          },
-          {
-            "id": "ol-8",
-            "question": "¿Cómo puede el sistema distinguir la aceptación del abandono evitativo?",
-            "status": "open",
-            "decisionArea": "Cualidad de dejar ir",
-            "answeredInChapters": [
-              "Capítulo 27: Motor de reflexión",
-              "Capítulo 28: Motor de entrenamiento"
-            ]
-          }
-        ],
-        "design_decisions": [
-          "Los ciclos abiertos deben clasificarse según el tipo de cierre que requieren.",
-          "Cada ciclo debe tener propiedad, un estado actual y una condición para su retorno siempre que sea posible.",
-          "El aplazamiento debe incluir una condición de tiempo, evento o contexto confiable en lugar de un \"más tarde\" indefinido.",
-          "La planificación debe comenzar con el paso más pequeño y el mantenimiento del sistema no debe ser más pesado que el trabajo mismo.",
-          "Los usuarios deberían poder desvincularse de sus compromisos sin lenguaje punitivo.",
-          "Los ciclos relacionales y emocionales no deben reducirse a la finalización de la tarea.",
-          "Las revisiones deben ser pequeñas y contextuales en lugar de exhaustivas.",
-          "El sistema no debe inferir la intención de otra persona a partir de datos unilaterales.",
-          "El modelo de ciclo abierto debe preservar un principio compartido en la vida, el trabajo y la creatividad, adaptándose al mismo tiempo al contexto.",
-          "Los ciclos antiguos deberían recibir una invitación a renovarse o caducar en lugar de una urgencia permanente.",
-          "La evidencia de finalización debe variar según el tipo de ciclo y la decisión final debe quedar en manos del usuario.",
-          "Los ciclos abiertos cero no deben convertirse en el objetivo del producto ni en una medida del éxito del usuario."
-        ],
-        "future_evolution": "Más adelante, este capítulo evolucionará hasta convertirse en un modelo formal de ciclo abierto que abarca la acción, la decisión, la espera, la delegación, la conversación, la aceptación y el abandono consciente. Las versiones futuras definirán los estados de propiedad, las condiciones de retorno, la evidencia de finalización, las políticas de obsolescencia y vencimiento, y los límites de privacidad para los ciclos relacionales. También aclararán qué estructuras comparte este modelo en la vida individual, las operaciones comerciales y el trabajo creativo, y dónde divergen esos contextos. La investigación también examinará cómo Saule puede medir la producción de menos incertidumbre y repetición mental en lugar de simplemente el cierre de más tareas.",
-        "references": [
-          "Zeigarnik, B. (1927). Das Behalten erledigter und unerledigter Handlungen. Psychologische Forschung, 9, 1–85.",
-          "MacLeod, C. M. (2020). Zeigarnik and von Restorff: The memory effects and the stories behind them. Memory & Cognition, 48, 1073–1088.",
-          "Masicampo, E. J., & Baumeister, R. F. (2011). Consider it done! Plan making can eliminate the cognitive effects of unfulfilled goals. Journal of Personality and Social Psychology, 101(4), 667–683.",
-          "Gollwitzer, P. M. (1999). Implementation intentions: Strong effects of simple plans. American Psychologist, 54(7), 493–503.",
-          "Gollwitzer, P. M., & Sheeran, P. (2006). Implementation intentions and goal achievement: A meta-analysis of effects and processes. Advances in Experimental Social Psychology, 38, 69–119.",
-          "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. Trends in Cognitive Sciences, 20(9), 676–688.",
-          "Gilbert, S. J., Boldt, A., Sachdeva, C., & Scarampi, C. (2023). Outsourcing memory to external tools: A review of intention offloading. Psychonomic Bulletin & Review, 30, 60–76.",
-          "Wrosch, C., Scheier, M. F., Miller, G. E., Schulz, R., & Carver, C. S. (2003). Adaptive self-regulation of unattainable goals: Goal disengagement, goal reengagement, and subjective well-being. Personality and Social Psychology Bulletin, 29(12), 1494–1508.",
-          "Barlow, M. A., Wrosch, C., & McGrath, J. J. (2020). Goal adjustment capacities and quality of life: A meta-analytic review. Journal of Personality, 88(2), 307–323."
-        ]
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
       }
     },
-    "why-existing-productivity-systems-fail": {
+    "intelligence-commodity": {
+      "title": "3. La inteligencia se convierte en mercancía",
+      "purpose": "Definir la memoria como la ventaja competitiva del futuro.",
+      "key_question": "¿Cuál será la verdadera ventaja competitiva en el futuro?",
       "draft": {
         "sections": [
           {
-            "heading": "1. Diseñados para una Versión Estable del Usuario",
+            "heading": "3. La inteligencia se convierte en mercancía",
             "paragraphs": [
-              "La mayoría de los sistemas de productividad están diseñados alrededor de una persona idealizada: alguien que puede iniciar tareas, sostener la atención, detenerse en el momento correcto, priorizar, decidir, recordar, regular impulsos y mantener rutinas de forma confiable. El sistema parece elegante porque el usuario del modelo ya está funcionando cerca de su mejor versión.",
-              "La vida real es menos estable. La capacidad cambia con el estrés, el sueño, la carga emocional, la incertidumbre, el entorno y la cantidad de bucles abiertos que la persona lleva encima. Un método que solo funciona en un buen día no es un método confiable."
-            ]
-          },
-          {
-            "heading": "2. La Suposición Oculta Dentro de las Herramientas Rígidas",
-            "paragraphs": [
-              "Las herramientas tradicionales suelen presentar la estructura como si la estructura por sí sola bastara. Haz la lista. Ordena la lista. Sigue la lista. Revisa la lista. La suposición oculta es que la persona puede traducir su intención en acción una y otra vez sin demasiada fricción.",
-              "Pero muchas veces la fricción es la verdadera historia. Empezar puede ser difícil porque la tarea carga emoción. Detenerse puede ser difícil porque el entorno recompensa la disponibilidad infinita. Recordar puede fallar porque la mente ya protege demasiadas cosas inconclusas al mismo tiempo."
-            ]
-          },
-          {
-            "heading": "3. La Capacidad Ejecutiva Existe, pero Fluctúa",
-            "paragraphs": [
-              "Vale la pena señalar que la vida diaria depende de habilidades como la iniciación, la atención, la inhibición, la memoria de trabajo, la priorización y el mantenimiento de rutinas.",
-              "Saule debe usar esto solo como una explicación humana, no clínica. El punto no es diagnosticar al usuario ni insinuar tratamiento. El punto es reconocer que la autoorganización humana varía y está profundamente moldeada por el contexto."
-            ]
-          },
-          {
-            "heading": "4. El Mantenimiento se Convierte en un Segundo Trabajo",
-            "paragraphs": [
-              "Cuando un sistema asume que el ser humano es una entidad constante, cada fallo vuelve a la persona en forma de más mantenimiento: limpia el atraso, reescribe el plan, recategoriza el tablero, reprograma el calendario, repara la rutina. La persona debe gestionar su vida y también gestionar el modelo fallido de su vida.",
-              "Lo que se acumula aquí no son solo tareas. También se acumulan listas obsoletas, prioridades viejas, rutinas abandonadas, tableros sin significado, notas sin revisar y planes que ya no representan la realidad. Esto es una deuda de mantenimiento.",
-              "A medida que la deuda de mantenimiento crece, el bucle se endurece: la culpa aumenta, el usuario evita el sistema, evita abrir la aplicación para no ver los pendientes y se vuelve ciego porque ya no puede distinguir lo que hay en ellos. Luego, busca otro sistema e intenta comenzar todo de nuevo. Esta es una de las razones por las que los sistemas rígidos generan culpa tan rápido. Conservan la intención, pero no pueden conservar las condiciones en las que se formó."
-            ]
-          },
-          {
-            "heading": "5. La Adaptación Importa Más que la Completitud",
-            "paragraphs": [
-              "Un sistema humano no le pide a la persona que demuestre consistencia antes de recibir apoyo. Debe ayudarle a recuperar contexto, reducir decisiones y encontrar el siguiente paso útil más pequeño dentro de las condiciones presentes.",
-              "A veces ese siguiente paso es acción. A veces es descanso, clarificación, delegación o soltar. Adaptarse no es bajar el estándar; es ajustar el apoyo a la realidad para que el esfuerzo vaya a donde realmente puede importar."
-            ]
-          },
-          {
-            "heading": "6. Por Qué Saule Debe Seguir Siendo No Clínico",
-            "paragraphs": [
-              "Muchas personas se reconocen en la distancia entre saber y hacer. Ese reconocimiento no debe convertirse en sugerencia médica, lenguaje diagnóstico ni encuadre de tratamiento dentro de un producto de productividad.",
-              "Saule puede hablar de capacidades humanas fluctuantes, de entornos difíciles y de atención sobrecargada sin afirmar que explica todas las causas. La humildad protege tanto a la persona como a la integridad del sistema."
-            ]
-          },
-          {
-            "heading": "7. De la Obediencia a la Recuperación",
-            "paragraphs": [
-              "La mejor prueba de un sistema de productividad no es si puede producir cumplimiento perfecto. Es si ayuda a una persona a recuperarse cuando la vida se vuelve desordenada, cansada, emocional o incierta.",
-              "Por eso Saule debería juzgarse por si reduce fricción, restaura orientación y vuelve a hacer posible el progreso honesto. Un sistema útil sigue ayudando incluso cuando la persona ya no opera como la versión imaginada por la plantilla."
+              "Los modelos de razonamiento (LLM) pronto estarán en todas partes. Los usuarios cambiarán de modelo tal como eligen un navegador. OpenAI. Anthropic. Google. Nuevos modelos del futuro. Todos serán intercambiables.",
+              "La verdadera ventaja competitiva del futuro no será la inteligencia. Será la memoria."
             ]
           }
         ],
-        "open_questions": [
-          {
-            "id": "pf-1",
-            "question": "¿Cuál es el mantenimiento mínimo que Saule puede exigir cuando la persona está bajo presión?",
-            "status": "open",
-            "decisionArea": "Presupuesto de Mantenimiento",
-            "answeredInChapters": [
-              "Capítulo 26 — Motor de Contexto",
-              "Capítulo 36 — Principios de Ingeniería"
-            ]
-          },
-          {
-            "id": "pf-2",
-            "question": "¿Cómo debería inferir el sistema una capacidad reducida sin convertir esa inferencia en una identidad fija?",
-            "status": "open",
-            "decisionArea": "Señales de Capacidad",
-            "answeredInChapters": [
-              "Capítulo 19 — Inteligencia Adaptativa",
-              "Capítulo 20 — Confianza"
-            ]
-          },
-          {
-            "id": "pf-3",
-            "question": "¿Cuándo debe repararse un plan rígido y cuándo conviene relajarlo o abandonarlo?",
-            "status": "open",
-            "decisionArea": "Recuperación del Plan",
-            "answeredInChapters": [
-              "Capítulo 24 — Agencia Humana",
-              "Capítulo 31 — Inteligencia de Planificación"
-            ]
-          },
-          {
-            "id": "pf-4",
-            "question": "¿Cómo puede Saule explicar la fricción sin sonar moralizante ni clínico?",
-            "status": "open",
-            "decisionArea": "Lenguaje de Apoyo",
-            "answeredInChapters": [
-              "Capítulo 23 — Ética",
-              "Capítulo 33 — Voz"
-            ]
-          },
-          {
-            "id": "pf-5",
-            "question": "¿Qué factores de contexto deberían influir más en la siguiente recomendación?",
-            "status": "open",
-            "decisionArea": "Contexto Adaptativo",
-            "answeredInChapters": [
-              "Capítulo 26 — Motor de Contexto",
-              "Capítulo 31 — Inteligencia de Planificación"
-            ]
-          },
-          {
-            "id": "pf-6",
-            "question": "¿Qué debe sobrevivir cuando la persona deja de mantener el sistema durante semanas?",
-            "status": "open",
-            "decisionArea": "Degradación Elegante",
-            "answeredInChapters": [
-              "Capítulo 25 — Memoria Adaptativa",
-              "Capítulo 36 — Principios de Ingeniería"
-            ]
-          },
-          {
-            "id": "pf-7",
-            "question": "¿Qué métricas pueden representar alivio sin premiar el uso compulsivo?",
-            "status": "open",
-            "decisionArea": "Resultados Humanos",
-            "answeredInChapters": [
-              "Capítulo 23 — Ética",
-              "Capítulo 39 — Modelo de Negocio"
-            ]
-          },
-          {
-            "id": "pf-8",
-            "question": "¿Cómo pueden los usuarios inspeccionar y corregir las suposiciones de Saule sobre su capacidad y sus rutinas?",
-            "status": "open",
-            "decisionArea": "Legibilidad del Modelo",
-            "answeredInChapters": [
-              "Capítulo 20 — Confianza",
-              "Capítulo 24 — Agencia Humana"
-            ]
-          }
-        ],
-        "design_decisions": [
-          "Saule debe asumir que la capacidad humana fluctúa según el contexto.",
-          "El sistema debe reducir decisiones antes de añadir urgencia.",
-          "La fricción debe explicarse en términos humanos y no con afirmaciones clínicas.",
-          "Los caminos de recuperación deben empezar desde la realidad presente y no desde el plan ideal.",
-          "Los atrasos no deben convertirse en archivos morales de fracaso.",
-          "El apoyo debe seguir siendo inspeccionable, reversible y corregible por la persona.",
-          "El éxito debe medirse por la orientación recuperada y la reducción del mantenimiento."
-        ],
-        "future_evolution": "Borradores futuros definirán estados de planificación adaptativa, flujos de recuperación de bajo mantenimiento y señales explicables de capacidad que sigan siendo no clínicas y controladas por la persona.",
-        "references": [
-          "Gestión personal de la información",
-          "Intenciones de implementación",
-          "Investigación sobre fatiga de decisión",
-          "Descarga cognitiva",
-          "Interacción persona-computadora sobre interrupciones",
-          "Investigación sobre la brecha entre intención y acción",
-          "Teoría de la autodeterminación",
-          "Bienestar digital",
-          "Confianza calibrada en la automatización"
-        ]
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
       }
     },
-    "cost-of-constant-context-switching": {
+    "semantic-memory-layer": {
+      "title": "4. Presentamos la Capa de Memoria Semántica",
+      "purpose": "Mostrar la arquitectura SML de Saule y su esquema de integración.",
+      "key_question": "¿Cómo recuerda Saule mientras el LLM piensa?",
       "draft": {
         "sections": [
           {
-            "heading": "1. El trabajo que queda atrás",
+            "heading": "4. Presentamos la Capa de Memoria Semántica",
             "paragraphs": [
-              "Cuando la atención pasa de una tarea a otra, parte de la mente permanece unida a la meta anterior. Este residuo de atención es mayor si la primera tarea quedó inacabada, tenía carga emocional o fue interrumpida sin un punto claro de parada.",
-              "El coste no es solo tiempo perdido. La siguiente tarea empieza con menor profundidad porque la mente aún carga con la estructura y la tensión de la anterior."
-            ]
-          },
-          {
-            "heading": "2. Reconstruir también es trabajo",
-            "paragraphs": [
-              "Volver al trabajo complejo exige reconstruir dónde estábamos, qué importaba, qué se había descartado y qué debía ocurrir después. Esta reconstrucción invisible puede durar más que la propia interrupción.",
-              "Las personas suelen culparse por reinicios lentos porque el trabajo de recuperación no se ve. Un buen sistema debe conservar el estado para que no haga falta reconstruir toda la escena mental."
-            ]
-          },
-          {
-            "heading": "3. La comunicación fragmenta el tiempo",
-            "paragraphs": [
-              "El trabajo moderno mezcla producción concentrada con disponibilidad continua. Los mensajes llegan por muchos canales, cada uno con urgencia incierta y expectativas sociales.",
-              "Incluso si se ignoran las notificaciones, saber que podrían contener algo importante puede ocupar atención. El problema de los límites es por tanto social y organizativo, no solo técnico."
-            ]
-          },
-          {
-            "heading": "4. Mejores transiciones",
-            "paragraphs": [
-              "El cambio de contexto no puede eliminarse. La vida exige moverse entre trabajo, relaciones, cuidados, logística y descanso. La meta es hacer que las transiciones sean deliberadas y recuperables.",
-              "Una breve nota de cierre, una próxima acción guardada, ventanas de comunicación agrupadas y tiempo protegido para retomar pueden reducir el residuo. Las transiciones merecen diseño; no son espacio vacío."
-            ]
-          },
-          {
-            "heading": "5. Saule como memoria de contexto",
-            "paragraphs": [
-              "Saule debe capturar dónde y por qué se detuvo una persona, y qué facilitaría retomar. Puede retrasar asuntos no urgentes y presentarlos en puntos naturales de transición.",
-              "No debe usar la conciencia de contexto para llenar de trabajo cada momento libre. Conservar el contexto también debe facilitar parar, descansar y volver después sin ansiedad."
-            ]
-          },
-          {
-            "heading": "6. El coste varía según el rol",
-            "paragraphs": [
-              "Un cambio no cuesta lo mismo en todas las actividades. Volver a arquitectura de software, escritura, cuidados, atención al cliente o una conversación delicada exige contextos distintos y conlleva consecuencias diferentes.",
-              "Saule debe aprender la forma de una actividad, no asignar un tiempo universal de recuperación. Puede proteger una reconstrucción larga para trabajo complejo y permitir cambios rápidos e intencionados en roles que exigen respuesta.",
-              "El conocimiento de roles debe definirlo y revisarlo la persona. El sistema no debe inferir que el trabajo remunerado siempre supera a familia, salud, comunidad o descanso."
-            ]
-          },
-          {
-            "heading": "7. Una política personal de cambio de contexto",
-            "paragraphs": [
-              "La persona debe poder expresar reglas sencillas: qué canales interrumpen, qué actividades necesitan nota de cierre, cuándo agrupar comunicación y cuánto tiempo proteger para recuperarse.",
-              "Saule puede sugerir ajustes según la fricción observada, pero la política debe seguir visible. Una optimización oculta dificultaría comprender y corregir comportamientos inesperados.",
-              "Una buena política es flexible ante emergencias y estable para generar confianza. Convierte el diseño de transiciones en un acuerdo explícito entre persona y sistema."
+              "Saule no compite con los modelos de IA. Saule existe de forma integrada en ellos.",
+              "Aplicaciones → Modelos de Razonamiento (LLMs) → Capa de Memoria Semántica de Saule (SML) [Gráfico de Conocimiento | Memoria Vectorial | Gráfico de Identidad | Línea de Tiempo | Memoria del Espacio de Trabajo] → Vida Digital Humana",
+              "El LLM piensa. Saule recuerda."
             ]
           }
         ],
-        "open_questions": [
-          {
-            "id": "cs-1",
-            "question": "¿Qué información hace falta para restaurar un contexto de trabajo?",
-            "status": "open",
-            "decisionArea": "Instantánea de contexto",
-            "answeredInChapters": [
-              "Capítulo 26 — Motor de contexto",
-              "Capítulo 31 — Inteligencia de planificación"
-            ]
-          },
-          {
-            "id": "cs-2",
-            "question": "¿Cómo puede identificar Saule los puntos naturales de transición?",
-            "status": "open",
-            "decisionArea": "Detección de transiciones",
-            "answeredInChapters": [
-              "Capítulo 26 — Motor de contexto",
-              "Capítulo 32 — Contexto del teléfono"
-            ]
-          },
-          {
-            "id": "cs-3",
-            "question": "¿Cuándo debe agruparse la comunicación y cuándo entregarse de inmediato?",
-            "status": "open",
-            "decisionArea": "Agrupación de comunicación",
-            "answeredInChapters": [
-              "Capítulo 30 — Inteligencia relacional",
-              "Capítulo 32 — Contexto del teléfono"
-            ]
-          },
-          {
-            "id": "cs-4",
-            "question": "¿Cómo puede el apoyo de contexto proteger el descanso en vez de invadirlo?",
-            "status": "open",
-            "decisionArea": "Límites del descanso",
-            "answeredInChapters": [
-              "Capítulo 23 — Ética",
-              "Capítulo 24 — Agencia humana"
-            ]
-          },
-          {
-            "id": "cs-5",
-            "question": "¿Qué señales de contexto pueden permanecer en el dispositivo?",
-            "status": "open",
-            "decisionArea": "Procesamiento privado del contexto",
-            "answeredInChapters": [
-              "Capítulo 34 — Inteligencia nativa",
-              "Capítulo 37 — Privacidad"
-            ]
-          },
-          {
-            "id": "cs-6",
-            "question": "¿Cómo deben variar las estimaciones de recuperación según actividad y persona?",
-            "status": "open",
-            "decisionArea": "Modelo de recuperación",
-            "answeredInChapters": [
-              "Capítulo 19 — Inteligencia adaptativa",
-              "Capítulo 26 — Motor de contexto"
-            ]
-          },
-          {
-            "id": "cs-7",
-            "question": "¿Qué reglas de interrupción deben compartirse con colaboradores?",
-            "status": "open",
-            "decisionArea": "Límites compartidos",
-            "answeredInChapters": [
-              "Capítulo 30 — Inteligencia relacional",
-              "Capítulo 32 — Contexto del teléfono"
-            ]
-          },
-          {
-            "id": "cs-8",
-            "question": "¿Cómo definir y auditar excepciones de emergencia?",
-            "status": "open",
-            "decisionArea": "Política de excepciones",
-            "answeredInChapters": [
-              "Capítulo 20 — Confianza",
-              "Capítulo 38 — Seguridad"
-            ]
-          }
-        ],
-        "design_decisions": [
-          "Saule debe conservar el contexto para retomar antes de sugerir trabajo nuevo.",
-          "La comunicación no urgente debe agruparse alrededor de las transiciones.",
-          "El tiempo de transición y recuperación debe representarse como tiempo real.",
-          "La conciencia de contexto nunca debe implicar disponibilidad continua para trabajar.",
-          "Las señales sensibles deben procesarse localmente siempre que sea posible.",
-          "Las suposiciones de recuperación deben variar por actividad y poder corregirse.",
-          "Las reglas de interrupción y sus excepciones deben ser visibles."
-        ],
-        "future_evolution": "Este capítulo especificará instantáneas de contexto, señales de transición, reglas para agrupar comunicación y procesamiento de contexto con prioridad local.",
-        "references": [
-          "Residuo de atención",
-          "Costes del cambio de tarea",
-          "Memoria prospectiva",
-          "Investigación sobre recuperación tras interrupciones",
-          "Gestión de límites en el trabajo digital",
-          "Retraso de reanudación",
-          "Trabajo cooperativo asistido por ordenador",
-          "Investigación sobre transición de roles",
-          "Principios de software local-first"
-        ]
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
       }
     },
-    "escape-loops-and-addictions": {
+    "living-memory": {
+      "title": "5. Memoria viva",
+      "purpose": "Explicar la diferencia entre el software tradicional y la memoria viva.",
+      "key_question": "¿Cómo evoluciona la experiencia con el tiempo?",
       "draft": {
         "sections": [
           {
-            "heading": "1. ¿Qué Intenta Resolver un Bucle de Escape?",
+            "heading": "5. Memoria viva",
             "paragraphs": [
-              "Un bucle de escape es un giro repetido hacia algo que ofrece alivio a corto plazo cuando aumentan la presión, la vergüenza, el miedo, la soledad, el aburrimiento, la incertidumbre o la sobrecarga interior. El desplazamiento por redes sociales, los videojuegos, comer por impulso, comprar, apostar, la pornografía, el trading impulsivo, la investigación compulsiva, los cambios incontrolados de pantalla o las tareas pequeñas que parecen más fáciles que la real pueden ser rostros distintos del mismo patrón.",
-              "Lo que estas conductas comparten no es tanto su contenido como su función. A menudo la persona no recurre a ellas solo porque le gusten, sino porque en ese momento no soporta otra cosa. El escape suele ser un intento de reducir tensión, alejarse de la presión o bajar el volumen de una emoción difícil de sostener.",
-              "Por eso la pregunta central de este capítulo no es “¿por qué la gente es débil de voluntad?”. Una pregunta más honesta es esta: ¿por qué ciertas formas de alivio breve producen con el tiempo más desorden, más culpa, más pérdida de control y más necesidad de volver a escapar?",
-              "Esto no pertenece solo a la vida privada. Una persona puede escapar de una emoción, de una responsabilidad o de la soledad; un equipo puede escapar de conversaciones difíciles o del costo de decidir; una persona creativa puede escapar de la incertidumbre, del miedo a no dar la talla o del perfeccionismo. La superficie cambia, pero la dinámica de fondo sigue siendo reconocible.",
-              "Por eso Saule no debería leer este patrón únicamente a través del lenguaje de la debilidad moral o de los malos hábitos. La conducta de escape suele ser una señal contextual, emocional, relacional y ambiental. La tarea del producto no es castigar esa señal, sino comprenderla y, cuando sea posible, ofrecer un camino de regreso más seguro."
-            ]
-          },
-          {
-            "heading": "2. El Alivio Puede Aprenderse Mediante Refuerzo Negativo",
-            "paragraphs": [
-              "Una línea importante en la literatura sobre adicción y compulsión muestra que la conducta no se aprende solo buscando recompensa, sino también reduciendo estados internos aversivos. El trabajo de Koob sobre el refuerzo negativo y el “lado oscuro de la compulsividad” ofrece un marco potente para entender por qué las personas pueden volver una y otra vez a conductas que les dan una salida rápida del malestar.",
-              "Esto no significa que toda conducta de escape sea una adicción clínica. Pero sí aclara algo importante: incluso cuando un patrón es dañino a largo plazo, puede convertirse en un maestro poderoso si reduce la presión de manera confiable a corto plazo. La mente suele registrar antes la caída inmediata de la tensión que el costo futuro.",
-              "Para Saule, esto significa que no basta con preguntar cuánto ocurrió una conducta. Las preguntas más reveladoras son qué pasó justo antes y qué quedó justo después. ¿En qué estado estaba la persona cuando giró hacia allí? ¿La conducta realmente la restauró o solo la silenció un rato? ¿Volvió con más claridad o con menos?",
-              "Esta distinción puede permanecer invisible en el trabajo y en la vida creativa. Un equipo puede escapar de una reunión difícil mediante revisiones interminables de presentaciones. Una persona gestora puede esconderse en paneles métricos en lugar de enfrentar la realidad del cliente. Una persona creadora puede perderse en investigación, herramientas, moodboards o “preparación” en lugar de hacer la obra. Estas conductas pueden parecer productivas y, aun así, funcionar como escape.",
-              "Un sistema humano necesita por eso notar cuándo algo que parece útil en la superficie se ha convertido en una vía para alejarse de lo que realmente importa. El escape no siempre llega vestido como una conducta obviamente “mala”."
-            ]
-          },
-          {
-            "heading": "3. Los Entornos Digitales Vuelven el Escape Casi Sin Fricción",
-            "paragraphs": [
-              "El entorno digital moderno ha construido una economía del escape que habría sido difícil de imaginar en otras épocas. Una persona puede pasar en segundos de una tarea emocionalmente difícil, una preocupación irresuelta o un trabajo lento a otro estímulo. Hace falta muy poca preparación para abandonar el momento.",
-              "Ese cambio vuelve el escape no solo más visible, sino también más barato y más frecuente. El mismo dispositivo puede contener trabajo, relaciones, entretenimiento, investigación, consumo y adormecimiento. Por lo tanto, las personas no viven solo con sus propias vulnerabilidades, sino también con un entorno diseñado para hacer que el alivio rápido esté siempre disponible.",
-              "Saule no puede leer la deriva repetida de la atención únicamente como un problema de disciplina. Parte del problema es que el entorno hace extraordinariamente accesibles las salidas inmediatas. Un diseño que ignore esta realidad carga demasiada culpa individual sobre la persona usuaria.",
-              "La misma dinámica aparece en las organizaciones y en el trabajo creativo. Los equipos pueden deslizarse del trabajo difícil al trabajo superficial bajo presión comunicativa. Las personas creativas pueden moverse del riesgo a una ocupación medible. En la vida cotidiana, los momentos de vacío, ansiedad o soledad pueden llenarse con sedación digital antes incluso de poder nombrarlos.",
-              "Por eso el Capítulo 5 no trata solo de psicología individual. Trata también de la economía de la atención y del perfil de fricción de los entornos modernos. Saule debe leer el escape no solo como una debilidad personal, sino como una conducta moldeada por el contexto, el entorno y la presión de autorregularse en soledad."
-            ]
-          },
-          {
-            "heading": "4. No Toda Conducta Repetida Es Igual",
-            "paragraphs": [
-              "Los bucles de escape no deben colapsarse en la misma categoría que los hábitos, las respuestas al estrés, las compulsiones y las adicciones en sentido clínico. Llamar “adicción” a toda repetición es científicamente descuidado y dañino para quien usa el sistema.",
-              "El marco de la ICD-11 de la Organización Mundial de la Salud y el lenguaje de adicciones conductuales de la American Psychiatric Association usan umbrales mucho más estrechos, como control deteriorado, impacto funcional significativo y continuidad pese al daño. Esto importa para Saule: el producto no debe usar categorías clínicas como metáforas cotidianas. La advertencia de Billieux y sus colegas contra la patologización excesiva de la vida diaria es especialmente relevante aquí.",
-              "Al mismo tiempo, los patrones no necesitan cruzar un umbral clínico para importar. Si una conducta aparta repetidamente a la persona de su intención, la deja con más niebla que restauración, distorsiona el tiempo, produce vergüenza y eleva el costo de regresar, Saule debe tomarla en serio. Pero debe hacerlo con un lenguaje de reconocimiento de patrones y no de diagnóstico.",
-              "La distinción más profunda no está en la etiqueta de la conducta sino en su efecto. El mismo uso de redes sociales puede ser descanso para una persona, evitación para otra y un patrón cercano a la pérdida de control para una tercera. Lo mismo vale para la investigación, el juego, las compras, el ejercicio, la limpieza, el trabajo e incluso el “trabajar de más”.",
-              "Por eso Saule debería preguntar: ¿qué está regulando esta conducta? ¿Qué deja detrás? ¿Con qué frecuencia aparece bajo condiciones similares? ¿Interfiere con lo que la persona valora? ¿Hace más fácil el regreso o más difícil?"
-            ]
-          },
-          {
-            "heading": "5. El Escape También Funciona a Través de la Vergüenza y la Soledad",
-            "paragraphs": [
-              "Muchas conductas de escape no están impulsadas solo por la búsqueda de placer, sino por emociones difíciles de sostener. La vergüenza es especialmente importante. Una persona puede sentir vergüenza por haber escapado, esa vergüenza aumenta la presión, y esa presión crea una nueva necesidad de escapar. Entonces el bucle no está hecho solo de la conducta, sino también del autojuicio tejido a su alrededor.",
-              "La soledad puede funcionar de manera parecida. La literatura sobre adicción suele señalar la relevancia de la desconexión, el aislamiento y la falta de sostén relacional sentido. Las personas pueden apegarse no solo a la conducta misma, sino también a la sensación temporal de contacto, relleno u ocupación que esta les ofrece. El marco de evitación experiencial de Hayes y sus colegas es útil aquí: a veces lo que se refuerza no es la conducta en sí, sino la posibilidad de alejarse de una experiencia interior que se siente insoportable.",
-              "Esto importa profundamente porque una persona que “hace demasiado de algo” también puede estar cargando sola una emoción. Los equipos pueden esconderse en el lenguaje del rendimiento para evitar la vergüenza por un experimento fallido, una relación con clientes que se deteriora o una coordinación débil. Las personas creadoras pueden huir de la exposición de crear, del miedo a no ser suficientes o del rechazo.",
-              "Por eso el lenguaje de este capítulo no debería centrarse en “contrólalo, bloquéalo, limítalo”. Debería preguntar: ¿qué se ha vuelto difícil de sostener, qué se está volviendo demasiado ruidoso, qué tipo de soledad o vergüenza está activa aquí? Saule no puede leer a las personas solo desde la superficie de la conducta; también debe respetar la función de la emoción.",
-              "Eso no significa que el producto se convierta en terapia. El papel de Saule no es producir interpretaciones clínicas, sino ofrecer un espacio donde las personas puedan ver sus propios patrones con más honestidad, sin vergüenza amplificada, con un contexto más limpio y con el apoyo humano tratado como un siguiente paso válido cuando hace falta."
-            ]
-          },
-          {
-            "heading": "6. El Camino de Regreso Importa Más que el Bloqueo",
-            "paragraphs": [
-              "Muchos sistemas digitales guardan silencio frente a la conducta de escape o responden de forma restrictiva. La vida real es más desordenada. Las personas no siempre pueden detener una conducta de una vez y para siempre. La pregunta más humana es cómo regresan después, porque la parte más dañina del bucle suele no ser el acto en sí, sino el desorden, el tiempo perdido, la vergüenza y la incapacidad de recomenzar que vienen luego.",
-              "Aquí puede aparecer la ventaja de diseño de Saule. En lugar de castigar el escape, el sistema puede reducir el costo de la reentrada. La persona debería poder ver a dónde está regresando, cuál es el siguiente paso más pequeño, qué contexto se conservó y qué ya no pertenece a hoy.",
-              "Este principio importa no solo para el uso individual, sino también para los procesos compartidos de trabajo y de creación. Si un equipo evitó una reunión difícil, el camino hacia la siguiente conversación honesta debería ser visible. Si una persona creadora se alejó del trabajo, el punto de reentrada debería ser pequeño, no vergonzante y realmente practicable. La inteligencia de Saule no se ve en empujar a las personas hacia un rendimiento ideal, sino en reconectarlas con suavidad a la realidad.",
-              "Por eso el reflejo básico del sistema no debería ser la alarma. Una voz de producto que diga “lo hiciste otra vez” puede endurecer un espacio de autorregulación que ya es frágil. Una respuesta más útil es: “te desconectaste aquí; si quieres, este es el camino más pequeño de regreso”.",
-              "El diseño del regreso es el principio central de este capítulo. Como también sugiere la tradición de prevención de recaídas de Marlatt y Donovan, la cuestión no es solo cómo prohibir una conducta, sino cómo fortalecer la capacidad de reorientación de una persona después de una ruptura. Saule debería ser un sistema que devuelve en lugar de atrapar, que ayuda a encontrar dirección en lugar de avergonzar, y que reduce fricción en lugar de añadir control."
-            ]
-          },
-          {
-            "heading": "7. El Descanso Elegido no es lo Mismo que el Alivio Evitativo",
-            "paragraphs": [
-              "La vida humana no está hecha solo de tareas. También necesita pausa, juego, placer, suavidad y vacío intencional. Saule no debe convertirse en un sistema puritano de productividad que trate toda conducta gratificante con sospecha. El descanso es una parte legítima de la vida.",
-              "La pregunta no es si el alivio existe, sino cuándo un patrón de alivio empieza a chocar repetidamente con los valores de una persona, a dificultar su regreso, a perturbar su relación consigo misma y a desdibujar sus estructuras de vida. El descanso puede renovar. La evitación suele solo posponer.",
-              "Esta distinción no siempre puede leerse desde fuera. El mismo episodio de una serie puede ser descanso consciente un día y evitación intensa otro. El mismo paseo puede ser regulación real un día y una vía para alejarse de una conversación insoportable otro. El trabajo de Wood y Rünger sobre la psicología del hábito ayuda aquí: las conductas repetidas pueden automatizarse de maneras que parecen casi independientes de la intención declarada. Saule debería entender esta diferencia a través del patrón, el momento y la consecuencia, y no mediante veredictos automáticos.",
-              "Una pregunta práctica es esta: ¿la persona vuelve más regulada, más clara y más selectiva, o más nebulosa, dispersa y reacia? La misma pregunta puede hacerse en la vida de equipo y en el trabajo creativo. ¿La pausa realmente restaura el sistema o ayuda a que la realidad difícil permanezca fuera de la vista?",
-              "Un diseño humano, por tanto, no estrecha todas las zonas de disfrute. Ayuda a sentir la diferencia entre una restauración real y formas de alivio que alejan silenciosamente a la persona de sí misma."
-            ]
-          },
-          {
-            "heading": "8. Límites: ¿Cuándo Debe Callar Saule y Cuándo Debe Fomentar Apoyo Humano?",
-            "paragraphs": [
-              "Los bucles de escape y los patrones con forma de adicción exigen límites de producto cuidadosos. Algunas conductas no se quedan en el nivel del hábito o la distracción; pueden implicar pérdida clara de control, daño, deterioro funcional, riesgo de seguridad o una carga emocional severa. Cuando eso ocurre, el producto necesita conocer el borde de su papel.",
-              "Si una persona usuaria describe explícitamente daño serio, pérdida de control, riesgo para sí o para otras personas, deterioro funcional importante o una necesidad urgente de apoyo, Saule no debe actuar como una inteligencia autosuficiente capaz de resolver la situación por sí sola. Ese límite no es solo ético; forma parte de la honestidad del producto.",
-              "Animar a buscar apoyo humano debe hacerse sin producir vergüenza. “Puede ayudar incorporar una red humana de apoyo en esto” es muy distinto de “esto te supera”. La tarea de Saule no es excluir a la persona, sino normalizar la búsqueda de ayuda cuando una carga no debería llevarse en soledad.",
-              "El mismo límite importa en contextos laborales y creativos. El agotamiento, el sobretrabajo compulsivo, la evitación de crisis, el daño claro o los riesgos de seguridad dentro de un equipo no pueden enmarcarse solo como problemas de productividad. Los patrones destructivos o compulsivos graves en la vida creativa tampoco son solo problemas de hacer obra.",
-              "La columna ética de este capítulo es, por tanto, clara: Saule puede volver más visibles los patrones, simplificar los caminos de regreso y actuar como puente hacia apoyo humano, pero no puede reclamar autoridad clínica. Los marcos clínicos más estrechos de la OMS y de la APA sostienen esa humildad. La arquitectura de confianza de Saule depende de ello."
-            ]
-          },
-          {
-            "heading": "9. El Principio del Bucle de Escape para Saule",
-            "paragraphs": [
-              "La consecuencia de diseño de este capítulo es sencilla y exigente: Saule no debería ser un sistema de control que prometa eliminar el escape. Debería ser una inteligencia para la vida que entienda la función del escape, reduzca el costo del regreso y amplíe el conjunto de opciones reguladoras disponibles.",
-              "Ese principio conserva el mismo núcleo en la vida, el trabajo y la creatividad: cuando nos desconectamos bajo presión, la tarea no es disciplinarnos con mayor dureza, sino reconectarnos de manera más honesta y más práctica con aquello de lo que nos alejamos.",
-              "Esto es más profundo que intentar volver a la persona más disciplinada. La meta no es un autocontrol más duro, sino un contacto más honesto con una misma, un regreso más fiable, menos culpa invisible y formas más humanas de regular la presión.",
-              "Un sistema así ve patrones sin congelarlos en etiquetas. Reconoce el alivio sin criminalizar todo placer. Nota la tensión sin convertirla en un juicio de carácter. Puede guardar silencio, reflejar, preservar contexto o abrir espacio para apoyo humano cuando haga falta.",
-              "La medida del éxito no es que una persona “no vuelva a escapar nunca más”. Una medida mejor es esta: ¿puede darse cuenta antes de que el escape está ocurriendo? ¿Puede volver con más amabilidad, más practicidad y menos culpa? ¿Puede ver con más honestidad qué condiciones hacen regresar el mismo bucle? ¿Se vuelve el camino de regreso, con el tiempo, un poco más visible, un poco más pequeño y un poco más humano?",
-              "Esa es la afirmación final del Capítulo 5: los bucles de escape no son manchas que deban suprimirse. Leídos mal, crecen. Leídos bien, revelan qué se ha vuelto demasiado difícil de cargar, qué hace falta y dónde siguen faltando mejores estructuras, mejores vínculos y mejores ritmos. Saule debe aprender a orientar esas señales a favor de la persona y no en su contra."
+              "El software tradicional almacena información. Saule almacena experiencia.",
+              "Comprende: ¿Por qué se tomó una decisión? ¿Quién influyó en ella? ¿Qué alternativas estaban disponibles? ¿Qué condiciones estaban activas? ¿Cómo evolucionó la información con el tiempo?",
+              "La memoria cobra vida."
             ]
           }
         ],
-        "open_questions": [
-          {
-            "id": "ea-1",
-            "question": "¿Cómo debería Saule distinguir, mediante señales de contexto y no juicios morales, entre descanso elegido y alivio evitativo?",
-            "status": "open",
-            "decisionArea": "Calidad del Alivio",
-            "answeredInChapters": [
-              "Capítulo 19 — Inteligencia Adaptativa",
-              "Capítulo 27 — Motor de Reflexión"
-            ]
-          },
-          {
-            "id": "ea-2",
-            "question": "¿Cuál es la cantidad mínima de contexto necesaria para comprender la función de una conducta sin extralimitarse?",
-            "status": "open",
-            "decisionArea": "Modelo de Patrón",
-            "answeredInChapters": [
-              "Capítulo 26 — Motor de Contexto",
-              "Capítulo 34 — La Inteligencia Propia de Saule"
-            ]
-          },
-          {
-            "id": "ea-3",
-            "question": "¿Cómo puede Saule reflejar patrones de escape recurrentes sin amplificar la vergüenza?",
-            "status": "open",
-            "decisionArea": "Lenguaje de Apoyo",
-            "answeredInChapters": [
-              "Capítulo 23 — Ética",
-              "Capítulo 33 — Voz"
-            ]
-          },
-          {
-            "id": "ea-4",
-            "question": "¿De qué tamaño debería ser un paso de regreso tras un episodio de escape?",
-            "status": "open",
-            "decisionArea": "Diseño del Regreso",
-            "answeredInChapters": [
-              "Capítulo 24 — Agencia Humana",
-              "Capítulo 31 — Inteligencia de Planificación"
-            ]
-          },
-          {
-            "id": "ea-5",
-            "question": "¿Cómo deben distinguirse los bucles de escape organizacionales de los individuales?",
-            "status": "open",
-            "decisionArea": "Contexto ????",
-            "answeredInChapters": [
-              "Capítulo 30 — Inteligencia Relacional",
-              "Capítulo 39 — Modelo de Negocio"
-            ]
-          },
-          {
-            "id": "ea-6",
-            "question": "¿Cómo debe distinguirse la evitación creativa de la incubación creativa?",
-            "status": "open",
-            "decisionArea": "Contexto ????",
-            "answeredInChapters": [
-              "Capítulo 15 — Reflexión",
-              "Capítulo 21 — Aprendizaje"
-            ]
-          },
-          {
-            "id": "ea-7",
-            "question": "¿Qué formas silenciosas de apoyo deberían seguir disponibles cuando la persona no desea intervención activa?",
-            "status": "open",
-            "decisionArea": "Apoyo No Intrusivo",
-            "answeredInChapters": [
-              "Capítulo 20 — Confianza",
-              "Capítulo 37 — Privacidad"
-            ]
-          },
-          {
-            "id": "ea-8",
-            "question": "¿En qué umbral debería el producto dar un paso atrás y fomentar de manera más explícita apoyo humano o profesional?",
-            "status": "open",
-            "decisionArea": "Límites del Apoyo",
-            "answeredInChapters": [
-              "Capítulo 23 — Ética",
-              "Capítulo 28 — Motor de Acompañamiento"
-            ]
-          }
-        ],
-        "design_decisions": [
-          "La conducta de escape debe leerse primero como un intento contextual de regulación y no como un defecto de carácter.",
-          "Saule no debe hablar en lenguaje diagnóstico ni usar categorías de adicción como metáforas cotidianas.",
-          "El sistema debe atender más a la función, a los antecedentes y a las secuelas que al nombre de la conducta misma.",
-          "El diseño del regreso debe ser una conducta de producto más primaria que el bloqueo o la vergüenza.",
-          "El descanso, el placer y el vacío elegido no deben tratarse como señales automáticas de alarma.",
-          "La vergüenza, la soledad y la desconexión relacional pueden formar parte del bucle, pero Saule no debe reclamar certeza terapéutica.",
-          "El mismo principio central debe mantenerse en vida, trabajo y creatividad, mientras el lenguaje se adapta al contexto.",
-          "Cuando las personas expresen riesgo, daño, pérdida marcada de control o deterioro funcional serio, Saule debe reconocer sus límites y abrir espacio para apoyo humano.",
-          "Los datos sobre patrones deben permanecer visibles, revisables y retirables por la persona usuaria.",
-          "El éxito no debe medirse por eliminar el escape, sino por notarlo antes, volver con más suavidad y cargar con menos culpa invisible."
-        ],
-        "future_evolution": "Más adelante, este capítulo se convertirá en un modelo más formal de Saule sobre los bucles de escape: se describirán con mayor precisión las condiciones desencadenantes, las emociones reguladas, los tipos de alivio a corto plazo, los costos del regreso, los umbrales de repetición, los componentes de vergüenza y soledad, y las opciones de regulación específicas del contexto. Las versiones futuras distinguirán entre arquetipos personales en Saule, formas organizacionales y operativas de escape en Saule, y demoras perfeccionistas o rodeos en Saule. También definirán cuándo el camino de regreso debe ser silencioso, reflexivo, protector o un puente hacia apoyo humano.",
-        "references": [
-          "Koob, G. F. (2021). Drug addiction: Hyperkatifeia/negative reinforcement as a framework for medications development. Pharmacological Reviews, 73(1), 163–201.",
-          "Koob, G. F. (2009). Neurobiological substrates for the dark side of compulsivity in addiction. Neuropharmacology, 56(Suppl 1), 18–31.",
-          "Hayes, S. C., Wilson, K. G., Gifford, E. V., Follette, V. M., & Strosahl, K. (1996). Experiential avoidance and behavioral disorders: A functional dimensional approach to diagnosis and treatment. Journal of Consulting and Clinical Psychology, 64(6), 1152–1168.",
-          "World Health Organization. (2019). ICD-11 for Mortality and Morbidity Statistics: Gaming disorder.",
-          "American Psychiatric Association. (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., text rev.). American Psychiatric Association Publishing.",
-          "Wood, W., & Rünger, D. (2016). Psychology of habit. Annual Review of Psychology, 67, 289–314.",
-          "Marlatt, G. A., & Donovan, D. M. (Eds.). (2005). Relapse Prevention: Maintenance Strategies in the Treatment of Addictive Behaviors (2nd ed.). Guilford Press.",
-          "Brevers, D., & Turel, O. (2019). Strategies for self-controlling social media use: Classification and role in preventing social media addiction symptoms. Journal of Behavioral Addictions, 8(3), 554–563.",
-          "Billieux, J., Schimmenti, A., Khazaal, Y., Maurage, P., & Heeren, A. (2015). Are we overpathologizing everyday life? A tenable blueprint for behavioral addiction research. Journal of Behavioral Addictions, 4(3), 119–123."
-        ]
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
       }
-    }
-  },
-  "appendices": {
-    "volume-1-appendix-1-lonely-optimization": {
+    },
+    "personal-memory": {
+      "title": "6. Memoria personal",
+      "purpose": "Explicar la preservación de la memoria personal y la energía mental.",
+      "key_question": "¿Cómo recuerda el usuario sin buscar?",
       "draft": {
         "sections": [
           {
-            "heading": "1. El ser humano moderno ya no solo vive, se gestiona a sí mismo",
+            "heading": "6. Memoria personal",
             "paragraphs": [
-              "El ser humano moderno no solo vive; debe gestionarse constantemente a sí mismo.",
-              "Debe gestionar su atención.",
-              "Debe gestionar su tiempo.",
-              "Debe gestionar sus patrones de sueño.",
-              "Debe gestionar sus emociones.",
-              "Debe gestionar los límites en sus relaciones.",
-              "Debe gestionar su dirección profesional.",
-              "Debe gestionar su flujo de información.",
-              "Debe gestionar sus objetivos, hábitos, deudas, salud, tiempo de pantalla, presencia social y ansiedades sobre el futuro.",
-              "Este lenguaje de gestión puede parecer empoderador al principio. Afirma dar a las personas una voz sobre sus vidas. Pero con el tiempo, puede transformarse en algo más: una persona ya no es solo alguien que vive dentro de una vida, sino el gestor constantemente deficiente de su propia vida.",
-              "Muchos sistemas de productividad, desarrollo personal y hábitos crecen sobre este terreno. Haz un mejor plan. Sé más constante. Establece metas más claras. Realiza un mejor seguimiento. Distráete menos. Recupérate más rápido. Actúa con más disciplina. Sé una mejor versión de ti mismo.",
-              "Algunos de estos consejos pueden ser útiles. El problema es que a menudo subestiman el peso del entorno en el que viven los seres humanos. Los seres humanos no viven solo con su desorden interno; viven junto a la economía de la atención, una cultura de disponibilidad laboral constante, presión económica, responsabilidades relacionales y bucles abiertos.",
-              "Por lo tanto, la carga del ser humano moderno no es solo el aumento en el número de tareas. La carga es que la responsabilidad de dar sentido y organizar todo este caos también se le deja al individuo.",
-              "Saule debe comenzar desde este punto: sin ver el desorden del ser humano simplemente como un defecto personal, falta de disciplina o el resultado de una mala planificación."
-            ]
-          },
-          {
-            "heading": "2. Del desarrollo personal a la empresa personal",
-            "paragraphs": [
-              "El lenguaje del desarrollo personal se ha desplazado hacia el lenguaje de la empresa personal. Los seres humanos ya no solo se desarrollan a sí mismos; se miden, rastrean, califican, optimizan, informan y rediseñan a sí mismos.",
-              "La vida diaria puede convertirse en un pequeño panel de control. ¿Cuántas horas dormí? ¿Cuántos pasos di? ¿Cuántas tareas completé? ¿Cuántos minutos me concentré? ¿Cuántos días seguidos mantuve la rutina? ¿Cuántos libros leí? ¿Cuántos mensajes respondí? ¿Qué tan cerca estuve de mis metas?",
-              "Medir a veces aporta claridad. Pero no todo lo que se mide representa la realidad de un ser humano. En algunos días, no completar una tarea no es un fracaso; es una necesidad de recuperación. En algunos días, ir más despacio no es evitación; es leer correctamente la propia capacidad. En algunos días, dejar ir una meta no es debilidad; es aceptar que la vida ha cambiado.",
-              "El lenguaje de la empresa personal puede mantener al ser humano en un estado constante de rendimiento. Una persona siente presión de productividad no solo en el trabajo sino también en su mundo interior. Incluso el descanso puede convertirse en una estrategia para lograr un mejor rendimiento. Incluso las emociones pueden comenzar a verse como 'datos a regular'.",
-              "Saule no debe caer en esta trampa.",
-              "Saule no debe ver al ser humano como una máquina a optimizar, un proyecto a arreglar o un objeto de rendimiento a mejorar constantemente. La tarea de Saule no es hacer que el ser humano sea más manejable; es ayudar al ser humano a encontrar dirección nuevamente en su propia vida, podar el exceso y construir una relación más honesta con la carga que lleva."
-            ]
-          },
-          {
-            "heading": "3. El ser humano dejado solo para optimizar",
-            "paragraphs": [
-              "Una de las consecuencias más invisibles de la cultura de la productividad moderna es la soledad.",
-              "Cuando una persona tiene dificultades, a menudo busca un nuevo sistema. Descarga una nueva aplicación. Crea un nuevo diseño de notas. Prueba un nuevo método de calendario. Inicia una nueva rutina. Compra un nuevo diario de metas. Una nueva sensación de comienzo proporciona un alivio a corto plazo.",
-              "But cuando el sistema se rompe, la persona a menudo se queda sola de nuevo.",
-              "La rutina se rompe. La lista se acumula. Los paneles se vuelven obsoletos. Las notas pierden significado. El calendario se desprende de la vida real. Los días vacíos se acumulan en el rastreador de hábitos. El usuario se queda solo no solo con sus tareas sino también con la culpa de haber fallado en mantener su sistema.",
-              "Esta soledad no es técnica; es una soledad humana. Una persona a menudo se siente incomprendida. El sistema le dice que 'continúe' pero no entiende por qué se detuvo. Le dice 'actualiza el plan' pero no pregunta por qué el plan perdió realidad. Le dice 'completa la tarea' pero no sabe si la tarea sigue siendo la correcta.",
-              "El ser humano dejado solo para optimizar comienza a leer su propio caos como un fracaso individual constante.",
-              "Si Saule quiere romper este bucle, no debe convertir al usuario simplemente en un individuo mejor rastreado. Debe transformar la lucha del usuario en un contexto legible, corregible y compartible. Compartir aquí no significa hacer públicos los datos personales. Tiene un significado más profundo: un espacio de desarrollo colaborativo que aprende de la experiencia humana sin consumir la privacidad humana."
-            ]
-          },
-          {
-            "heading": "4. Por qué la comunidad debe ser un principio, no una característica",
-            "paragraphs": [
-              "Para Saule, la comunidad no es un complemento. No debe pensarse como un foro, una sección de comentarios o un canal de marketing. La comunidad es uno de los mecanismos principales de auditoría que evita que Saule se desprenda de la realidad.",
-              "Porque el tema de Saule no es abstracto. El desorden mental, la pérdida de atención, los bucles abiertos, la fatiga de decisión, las conductas de escape, las cargas relacionales, la presión laboral y la incertidumbre se viven de diferentes formas en la vida humana real. Comprender esto solo a través de las suposiciones del fundador, solo a través del lenguaje de laboratorio o solo a través de las métricas del producto no es suficiente.",
-              "La comunidad proporciona tres cosas a Saule.",
-              "Primero, proporciona control del lenguaje. ¿Las palabras que usa Saule consuelan a las personas o hacen que se sientan etiquetadas y observadas? ¿Es útil decir 'la capacidad ha disminuido' o hace que el usuario se siente débil? ¿Es el lenguaje de la 'fricción' lo suficientemente humano? Esto no se puede decidir solo desde dentro.",
-              "Segundo, proporciona control de puntos ciegos. Diferentes condiciones de vida producen diferentes cargas. La paternidad, el desempleo, el cuidado de personas, el trabajo autónomo, la intensa vida corporativa, la presión económica, el vivir solo, la incertidumbre relacional, la migración, la educación o los problemas de salud no pueden explicarse con el mismo lenguaje de productividad. La comunidad evita que Saule asuma una única forma de vida.",
-              "Tercero, proporciona control ético. ¿Cuándo debe intervenir Saule y cuándo debe callarse? ¿Qué datos no debe recopilar? ¿Qué sugerencia sería demasiado directiva? ¿En qué situación debería guiar hacia el apoyo humano? Estas no son meramente preguntas de ingeniería; son preguntas éticas compartidas.",
-              "Por lo tanto, la comunidad de Saule no debe ser una base de usuarios pasiva, sino un entorno de aprendizaje que contribuya al desarrollo del libro vivo y del producto."
-            ]
-          },
-          {
-            "heading": "5. Libro abierto, aplicación cerrada",
-            "paragraphs": [
-              "Los principios de Saule deben ser abiertos. Porque Saule es un sistema que toca la vida mental del ser humano. Lo que un sistema así cree, lo que mide, lo que elige no medir, qué lenguaje usará y qué límites no cruzará debe ser visible.",
-              "Por lo tanto, el libro vivo debe estar abierto.",
-              "El libro debe mostrar las suposiciones, los principios éticos, las decisiones de diseño, las preguntas abiertas y la dirección del desarrollo detrás del producto. El usuario debe poder comprender no solo lo que hace Saule, sino también por qué se comporta de esa manera.",
-              "Sin embargo, la aplicación no debe estar abierta en la misma medida.",
-              "Esto no es una contradicción; es un principio de seguridad.",
-              "Saule no debe actuar como una aplicación de acceso público en las primeras etapas. Porque el producto toca áreas sensibles: metas personales, carga mental, bucles abiertos, relaciones, decisiones, patrones de evitación, señales de capacidad, patrones de atención y memoria personal. Si un sistema de este tipo se abre a grandes audiencias sin ser probado suficientemente y antes de que maduren sus límites éticos, podría convertirse en una nueva versión del mismo problema que busca resolver.",
-              "Por lo tanto, el principio correcto es:",
-              "Código abierto.",
-              "Aplicación cerrada.",
-              "Acceso por invitación.",
-              "Principios visibles.",
-              "Aprendizaje controlado.",
-              "El libro puede ser un espacio que cualquiera pueda leer. La página de la comunidad puede ser un área donde cualquiera pueda ver la intención de Saule, su estado y el llamado al desarrollo. Pero el acceso a la aplicación debe proceder a través de solicitud, evaluación e invitación.",
-              "Este enfoque no es por elitismo, sino por responsabilidad. En lugar de llegar a todos al mismo tiempo, Saule debe primero establecer las condiciones de aprendizaje adecuadas."
-            ]
-          },
-          {
-            "heading": "6. No un usuario, sino un participante",
-            "paragraphs": [
-              "Las personas en las etapas iniciales no son meramente usuarios.",
-              "La palabra 'usuario' a menudo evoca una relación de consumo. Hay un producto, una persona lo usa, recibe valor, paga si es necesario y luego se va. Esta es una relación suficiente para muchos productos. Pero se queda corta para el período inicial de Saule.",
-              "En el período inicial de Saule, las personas no solo probarán una herramienta; también mostrarán cómo debe entenderse un problema, qué lenguaje es más humano, qué características realmente reducen la carga y qué intervenciones se sienten excesivas.",
-              "Por lo tanto, términos más precisos podrían ser:",
-              "Participante temprano.",
-              "Miembro fundador de la comunidad.",
-              "Socio de experiencia.",
-              "Participante de retroalimentación.",
-              "Miembro fundador.",
-              "Este cambio de vocabulario no es una mera preferencia de marketing. Redefine la relación con el producto.",
-              "No se espera un uso perfecto de un participante. No se considera que un participante haya fracasado cuando no abre la aplicación todos los días. Un participante no es meramente una entidad productora de métricas. Un participante es alguien que ayuda a Saule a acercarse a la realidad humana.",
-              "Por lo tanto, el formulario de acceso temprano tampoco debería ser un formulario de 'registro' simple. Debería ser una invitación breve pero significativa que intente comprender por qué la persona quiere probar Saule, con qué tiene dificultades, qué espera del producto y qué no debe esperar.",
-              "La comunidad temprana de Saule debe llevar un objetivo de aprendizaje antes que un objetivo de crecimiento."
-            ]
-          },
-          {
-            "heading": "7. La sostenibilidad también es una cuestión de diseño ético",
-            "paragraphs": [
-              "Cómo gana dinero un producto afecta cómo trata al usuario.",
-              "Si un sistema crece a través de la interacción, quiere que el usuario regrese más. Si cobra por uso, más uso naturalmente significa más ingresos. Si funciona con un sistema de créditos, el momento de ayuda puede convertirse en un momento de cálculo. Si realiza ofertas de actualización en momentos frágiles, el límite entre el apoyo y la explotación puede desdibujarse.",
-              "El tema de Saule es precisamente los momentos difíciles del ser humano. Por lo tanto, su modelo financiero no es una simple decisión de producto; es una decisión de diseño ético.",
-              "Saule no debe tener como objetivo generar ingresos de la vulnerabilidad del usuario. Una persona no debe encontrar presión para 'pagar por más ayuda' cuando está mentalmente saturada, indecisa, sintiéndose culpable o buscando apoyo. La sostenibilidad de Saule no debe convertir los momentos difíciles del usuario en oportunidades comerciales.",
-              "Esto no significa que Saule no tendrá modelo de ingresos. Como cualquier sistema vivo, Saule tendrá costos de infraestructura, desarrollo, mantenimiento, seguridad e investigación. Pero estos costos deben explicarse con un lenguaje transparente, moderado y no manipulador.",
-              "La idea de la sostenibilidad apoyada por la comunidad gana sentido aquí. Pero esta idea debe manejarse con cuidado. El apoyo no debe presentarse como la compra de acceso. El apoyo no debe presentarse como una promesa de inversión o retorno. El apoyo no debe convertirse en un llamado de urgencia que genere culpa.",
-              "El lenguaje más preciso es:",
-              "El apoyo mínimo de investigación, infraestructura y desarrollo necesario para que Saule siga funcionando este mes.",
-              "Este indicador de apoyo puede ofrecer transparencia a la comunidad: qué recursos se necesitan este mes, cuántos se han cubierto, qué gastos se priorizan y qué desarrollos serán posibles. Pero el indicador no debe convertirse en una herramienta de presión. El objetivo no es crear pánico, sino establecer un sentido de responsabilidad compartida.",
-              "Incluso la sostenibilidad de Saule debe estar alineada con sus principios fundamentales: menos presión, más claridad, más confianza."
-            ]
-          },
-          {
-            "heading": "8. El acceso solicitado es más adecuado que el registro automático",
-            "paragraphs": [
-              "Puede que no sea correcto que Saule creza con registro público en las primeras etapas.",
-              "El registro público parece atractivo para el crecimiento. Puede proporcionar más usuarios, más datos, comentarios más rápidos y una visibilidad más rápida. Pero para Saule, la calidad es más importante que la velocidad en las primeras etapas.",
-              "Porque Saule no es simplemente una lista de tareas o una aplicación de notas. Es un sistema que dará retroalimentación al usuario sobre sí mismo, su capacidad, sus bucles abiertos y sus patrones de atención. El lenguaje, el momento, el límite y el impacto de estas retroalimentaciones deben ser probados cuidadosamente.",
-              "Por lo tanto, el acceso a la aplicación debe proceder de la siguiente manera:",
-              "Primero, la persona ve el libro vivo y la página de la comunidad.",
-              "Luego, comprende qué es Saule y qué no es.",
-              "Luego, solicita acceso temprano.",
-              "Luego, completa un breve formulario de evaluación.",
-              "Luego, si se considera apropiado, recibe un enlace de invitación.",
-              "Luego, se une a la aplicación de manera controlada.",
-              "Este proceso no es meramente un filtro técnico. Establece un acuerdo diciente entre el usuario y el sistema desde el principio.",
-              "Saule no es apoyo clínico.",
-              "Saule no diagnostica.",
-              "Saule no es un servicio de crisis de emergencia.",
-              "Saule no toma decisiones de vida en nombre del usuario.",
-              "Saule no lo automatiza todo.",
-              "Saule aprende, pero mientras aprende, debe preservar el control del usuario.",
-              "Estos límites deben ser claramente visibles en el proceso de solicitud.",
-              "El acceso por invitación asegura el crecimiento lento y responsable de Saule. También hace que la comunidad temprana sea más significativa. Las personas no solo entran; vienen sabiendo en qué están participando."
-            ]
-          },
-          {
-            "heading": "9. Los datos de la comunidad no son datos personales",
-            "paragraphs": [
-              "El mayor riesgo de la idea de la comunidad es que las experiencias personales se conviertan en material del producto.",
-              "Saule debe ser muy claro en esto: la retroalimentación de la comunidad puede alimentar la dirección del producto, pero no debe convertir los datos personales en material público. Los bucles abiertos de una persona, las áreas de lucha, las cargas relacionales, las notas emocionales o los patrones de atención no deben exponerse dentro de la comunidad.",
-              "Lo que se va a aprender de la comunidad no es el estado bruto de las historias individuales, sino patrones anonimizados y basados en el consentimiento.",
-              "¿Qué lenguaje se siente mejor?",
-              "¿Qué sugerencias se sienten demasiado mecánicas?",
-              "¿Qué flujos aumentan la carga de mantenimiento?",
-              "¿En qué momentos es mejor el silencio?",
-              "¿Qué preguntas ponen al usuario a la defensiva?",
-              "¿Qué caminos de retorno son realmente útiles?",
-              "Estos pueden discutirse con la comunidad. Pero los registros personales, las conversaciones privadas, la memoria dentro de la aplicación y las señales sensibles no deben convertirse en contenido de la comunidad.",
-              "El principio de comunidad de Saule debe ser:",
-              "Aprende de la experiencia humana, no consumas la privacidad humana.",
-              "Este principio es obligatorio tanto para la confianza como para la calidad del producto."
-            ]
-          },
-          {
-            "heading": "10. Saule debe actuar como un movimiento, pero no como una secta",
-            "paragraphs": [
-              "Cuando un producto busca responder a un problema humano importante, puede deslizarse fácilmente hacia un lenguaje demasiado ambicioso.",
-              "Saule debe conocer este riesgo.",
-              "Saule puede aspirar a tocar uno de los grandes problemas del siglo XXI: la saturación mental, la crisis de atención, los bucles abiertos y la carga de la vida moderna que supera la capacidad de carga. Pero esta afirmación debe construirse con humildad.",
-              "Saule no debe pretender comprender completamente al ser humano.",
-              "Saule no debe decir que explicará cada causa.",
-              "Saule no debe sugerir que es la única solución.",
-              "Saule no debe convertir su comunidad en un espacio cerrado de creencia.",
-              "Saule no debe ver la crítica como una amenaza.",
-              "Actuar como un movimiento puede significar reunir a las personas en torno a un problema compartido. Pero actuar como una secta significa imponer una única verdad, menospreciar el exterior, suprimir la crítica y poner el producto en el centro de la identidad.",
-              "Saule puede llevar la energía de un movimiento, pero debe permanecer dentro de los límites de la información abierta, las suposiciones criticables y el control del usuario.",
-              "El libro vivo es importante por esta razón. El libro hace visible el pensamiento de Saule. Las preguntas abiertas aceptan que el sistema no lo sabe todo. Las decisiones de diseño hacen que la intención del producto sea auditable. La comunidad asegura que esta intención se pruebe en la experiencia humana real.",
-              "La fuerza de Saule debe provenir del aprendizaje honesto, no de la certeza."
-            ]
-          },
-          {
-            "heading": "11. Principio de diseño de la Anexo 1 para Saule",
-            "paragraphs": [
-              "Este anexo crea este principio fundamental para Saule:",
-              "Saule no debe ser una nueva herramienta de la cultura que obliga al ser humano moderno a optimizar su propia carga mental solo. Saule debe ser una inteligencia de vida que ayuda al ser humano a recuperar su propio contexto, se desarrolla a través de principios abiertos, es auditada por la comunidad e intenta seguir siendo sostenible sin explotar la vulnerabilidad.",
-              "Este principio debe extenderse a todas las capas del producto.",
-              "En cada capa, debe hacerse la misma pregunta:",
-              "¿Esta estructura realmente reduce la carga mental del usuario, o agrega a Saule como una nueva carga a su vida?",
-              "If Saule un día se convierte en una presión en la mente del usuario de 'también tengo que revisar esto', habrá traicionado su propio principio.",
-              "Por lo tanto, el éxito de Saule no se puede medir solo por el crecimiento, el registro, el tiempo de uso o la finalización de tareas. Las señales más importantes son:",
-              "¿El usuario está ensayando menos en su mente?",
-              "¿Puede el usuario ver lo que es importante más claramente?",
-              "¿Puede el usuario volver al sistema con confianza en lugar de culpa cuando tiene dificultades?",
-              "¿Puede el usuario ver y corregir las suposiciones del sistema?",
-              "¿Puede la comunidad hacer visibles los puntos ciegos del producto?",
-              "¿Puede el modelo financiero vivir sin explotar la vulnerabilidad del usuario?",
-              "¿Puede Saule tener éxito en mantenerse en silencio, esperando y retrocediendo en ciertos momentos?",
-              "La verdadera afirmación de Saule comienza aquí."
+              "Una persona no debería consumir energía mental en recordarlo todo. Ideas. Objetivos. Notas. Proyectos. Relaciones. Hábitos.",
+              "Saule conecta estos elementos continuamente dentro de una red semántica viva.",
+              "El usuario ya no busca. El usuario recuerda."
             ]
           }
         ],
-        "open_questions": [
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "collective-memory": {
+      "title": "7. Memoria colectiva",
+      "purpose": "Explicar el establecimiento de la memoria permanente en equipos y organizaciones.",
+      "key_question": "¿Cómo se crea un entendimiento compartido a nivel colectivo?",
+      "draft": {
+        "sections": [
           {
-            "id": "ea1-1",
-            "question": "¿En qué punto Saule pasa de ser una herramienta individual a un espacio de aprendizaje compartido?",
-            "status": "open",
-            "decisionArea": "Aprendizaje comunitario",
-            "answeredInChapters": [
-              "Capítulo 20 — Confianza",
-              "Capítulo 23 — Ética",
-              "Capítulo 39 — Modelo de negocio",
-              "Capítulo 40 — Fases de desarrollo"
-            ]
-          },
-          {
-            "id": "ea1-2",
-            "question": "¿Cómo pueden los comentarios de la comunidad alimentar el producto sin violar la privacidad del usuario?",
-            "status": "open",
-            "decisionArea": "Comunidad y privacidad",
-            "answeredInChapters": [
-              "Capítulo 23 — Ética",
-              "Capítulo 37 — Privacidad",
-              "Capítulo 38 — Seguridad"
-            ]
-          },
-          {
-            "id": "ea1-3",
-            "question": "¿Cómo puede el modelo financiero de Saule ser sostenible sin explotar la vulnerabilidad del usuario?",
-            "status": "open",
-            "decisionArea": "Ética de la sostenibilidad",
-            "answeredInChapters": [
-              "Capítulo 23 — Ética",
-              "Capítulo 39 — Modelo de negocio"
-            ]
-          },
-          {
-            "id": "ea1-4",
-            "question": "¿Cómo asegura el acceso por invitación el desarrollo temprano seguro sin parecer elitista?",
-            "status": "open",
-            "decisionArea": "Política de acceso",
-            "answeredInChapters": [
-              "Capítulo 20 — Confianza",
-              "Capítulo 36 — Principios de ingeniería",
-              "Capítulo 40 — Fases de desarrollo"
-            ]
-          },
-          {
-            "id": "ea1-5",
-            "question": "¿Dónde debería estar el límite entre el libro abierto y la aplicación cerrada?",
-            "status": "open",
-            "decisionArea": "Límites de apertura",
-            "answeredInChapters": [
-              "Capítulo 20 — Confianza",
-              "Capítulo 37 — Privacidad",
-              "Capítulo 38 — Seguridad"
-            ]
-          },
-          {
-            "id": "ea1-6",
-            "question": "¿Cómo se puede mostrar el apoyo de la comunidad sin crear una urgencia manipuladora?",
-            "status": "open",
-            "decisionArea": "Lenguaje de apoyo",
-            "answeredInChapters": [
-              "Capítulo 23 — Ética",
-              "Capítulo 33 — Voz",
-              "Capítulo 39 — Modelo de negocio"
-            ]
-          },
-          {
-            "id": "ea1-7",
-            "question": "¿Cómo debería reflejarse la contribución de los participantes tempranos en las decisiones del producto?",
-            "status": "open",
-            "decisionArea": "Retroalimentación de los participantes",
-            "answeredInChapters": [
-              "Capítulo 19 — Inteligencia adaptativa",
-              "Capítulo 20 — Confianza",
-              "Capítulo 40 — Fases de desarrollo"
-            ]
-          },
-          {
-            "id": "ea1-8",
-            "question": "¿Cómo evita Saule convertirse en una estructura cerrada, dogmática o demasiado ambiciosa mientras construye un sentido de comunidad?",
-            "status": "open",
-            "decisionArea": "Ética comunitaria",
-            "answeredInChapters": [
-              "Capítulo 20 — Confianza",
-              "Capítulo 23 — Ética",
-              "Capítulo 33 — Voz"
+            "heading": "7. Memoria colectiva",
+            "paragraphs": [
+              "Los grupos olvidan incluso más rápido que los individuos. Equipos estratégicos. Grupos de investigación. Startups. Instituciones.",
+              "Cada día se genera nueva información y casi toda se pierde.",
+              "Saule crea una memoria colectiva permanente. No un historial de chat. No una pila de documentos. Un entendimiento compartido."
             ]
           }
         ],
-        "design_decisions": [
-          "Saule debe considerar los números de capítulo del libro vivo como fijos; debe expandirse con una estructura de anexo cuando se necesiten nuevas ideas transversales.",
-          "Los principios de Saule deben ser abiertos, mientras que el acceso a la aplicación sigue siendo controlado.",
-          "Los usuarios tempranos deben ser vistos como participantes contribuyentes, no meramente clientes.",
-          "La comunidad debe diseñarse como un espacio de aprendizaje que haga visibles los puntos ciegos del producto y los riesgos del lenguaje.",
-          "La retroalimentación de la comunidad no debe convertir los datos personales en material público.",
-          "El modelo financiero no debe producir vulnerabilidad, dependencia, presión de uso o culpa.",
-          "El indicador de apoyo debe proporcionar transparencia sin crear urgencia manipuladora.",
-          "El acceso por invitación debe usarse para permitir el aprendizaje seguro, no para retrasar el crecimiento.",
-          "El lenguaje comunitario de Saule debe basarse en la humildad y el aprendizaje abierto, no en la certeza.",
-          "Saule debe priorizar la confiabilidad sobre el crecimiento."
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "beyond-communication": {
+      "title": "8. Más allá de la comunicación",
+      "purpose": "Explicar la divergencia respecto a otras herramientas de productividad y mensajería.",
+      "key_question": "¿Cómo organiza Saule la memoria misma?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "8. Más allá de la comunicación",
+            "paragraphs": [
+              "Las aplicaciones de mensajería ayudan a las personas a comunicarse. Las herramientas de gestión de proyectos organizan las tareas. Las bases de conocimiento estructuran los documentos.",
+              "Saule organiza la memoria misma."
+            ]
+          }
         ],
-        "future_evolution": "Los borradores posteriores definirán estados de planificación adaptativos, flujos de recuperación de bajo mantenimiento, cómo se representará la deuda de mantenimiento y principios de memoria sobre lo que el sistema preservará y lo que considerará obsoleto. En futuras versiones, también se deben detallar las siguientes áreas: Formulario de solicitud de acceso temprano. Criterios de aceptación de participantes. Principios comunitarios. Lenguaje del indicador de apoyo. Nivel de transparencia de los registros de apoyo. Flujo de enlace de invitación a la aplicación. Modelo de datos de solicitud y comunidad basado en Firestore. El límite entre los datos personales y la retroalimentación de la comunidad. Protocolo de actualización de libro abierto. Principios éticos del modelo de sostenibilidad de Saule. El propósito de este anexo es definir cómo crecerá Saule no meramente como una aplicación, sino como un sistema vivo a través de principios abiertos, acceso controlado, supervisión comunitaria y desarrollo sostenible.",
-        "references": [
-          "Gestión del conocimiento personal",
-          "Bienestar digital",
-          "Economía de la atención",
-          "Comunidades de código abierto",
-          "Diseño de participantes",
-          "Interacción persona-computadora",
-          "Investigación sobre confianza y transparencia",
-          "Crecimiento ético en productos digitales",
-          "Modelos de software apoyados por la comunidad",
-          "Teoría de la autodeterminación",
-          "Diseño de comportamiento e incentivos de productos",
-          "Principios de privacidad y confidencialidad de datos"
-        ]
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "workspace-model": {
+      "title": "9. Modelo de espacio de trabajo",
+      "purpose": "Explicar la profundización semántica de los espacios de trabajo de Saule.",
+      "key_question": "¿Cómo representan los espacios de trabajo una memoria viva?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "9. Modelo de espacio de trabajo",
+            "paragraphs": [
+              "Cada espacio de trabajo representa una memoria viva.",
+              "Las estructuras principales en las que nos enfocamos: Área de Inteligencia Personal | Equipos Estratégicos | Grupos de Investigación y Desarrollo | Centros de Memoria Compartida Empresarial.",
+              "Cada espacio de trabajo desarrolla y profundiza su propia memoria semántica única con el tiempo."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "ai-as-interface": {
+      "title": "10. La IA como interfaz",
+      "purpose": "Explicar la relación entre la naturaleza transitoria de la IA y la memoria permanente de Saule.",
+      "key_question": "¿Por qué la IA es meramente una interfaz?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "10. La IA como interfaz",
+            "paragraphs": [
+              "La IA no es el producto en sí. Es meramente la interfaz.",
+              "Los motores de razonamiento (modelos) cambiarán. La memoria de Saule es permanente."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "absolute-privacy": {
+      "title": "11. Privacidad absoluta y memoria de conocimiento cero",
+      "purpose": "Explicar la filosofía de la privacidad de datos de conocimiento cero.",
+      "key_question": "¿Cómo evitamos que nuestra memoria externa se convierta en datos de entrenamiento de modelos?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "11. Privacidad absoluta y memoria de conocimiento cero (Zero-Knowledge Memory)",
+            "paragraphs": [
+              "Su memoria es valiosa solo cuando le pertenece únicamente a usted.",
+              "Saule es una extensión de la mente humana y del intelecto corporativo. Por lo tanto, su memoria externa nunca se convierte en datos de entrenamiento para un modelo.",
+              "Saule opera bajo principios de \"Conocimiento Cero\". El sistema que lee, procesa y fusiona el contexto no almacena esta información para su propio beneficio. Las personas y las organizaciones son los soberanos absolutos de su propia memoria."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "new-digital-organ": {
+      "title": "12. Un nuevo órgano digital",
+      "purpose": "Definir el lugar de la memoria semántica persistente en la historia de la civilización.",
+      "key_question": "¿Cuál es el siguiente paso tras las capas inventadas a lo largo de la historia?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "12. Un nuevo órgano digital",
+            "paragraphs": [
+              "La civilización humana ha inventado: La escritura, Las bibliotecas, Los motores de búsqueda, El almacenamiento en la nube, La Inteligencia Artificial.",
+              "La siguiente capa: Memoria semántica persistente.",
+              "No para reemplazar la inteligencia humana. Sino para extenderla."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "vision": {
+      "title": "13. Visión",
+      "purpose": "Explicar la visión del intelecto compartido para personas, equipos y empresas.",
+      "key_question": "¿A quién debe pertenecer la memoria?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "13. Visión",
+            "paragraphs": [
+              "Creemos que:",
+              "Cada individuo merece una memoria de por vida.",
+              "Cada equipo creativo merece un intelecto compartido que preserve su contexto.",
+              "Cada empresa merece una memoria corporativa imborrable.",
+              "La memoria debe pertenecer a las personas que la crean. No a las plataformas que casualmente utilizan."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "closing-manifesto": {
+      "title": "Manifiesto de cierre",
+      "purpose": "Declarar el lugar del pensar y el recordar en el progreso humano.",
+      "key_question": "¿Cómo se unen el pensar y el recordar?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "Manifiesto de cierre",
+            "paragraphs": [
+              "La IA nos ayuda a pensar.",
+              "La Memoria Semántica nos permite recordar.",
+              "El progreso humano requiere ambas.",
+              "Saule está construyendo la capa de memoria de la humanidad."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
       }
     }
   }
