@@ -1,5 +1,6 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import { adminDb } from '@/lib/firebase-admin';
+import { FieldValue } from 'firebase-admin/firestore';
 import { AIProviderService } from '../ai/ai-provider-service';
 
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || '');
@@ -93,7 +94,7 @@ export class VectorService {
       // Update package's updatedAt timestamp
       await adminDb.collection('context_packages').doc(bestMatchId).update({
         updatedAt: new Date().toISOString(),
-        messageCount: adminDb.FieldValue ? adminDb.FieldValue.increment(1) : 1
+        messageCount: FieldValue.increment(1)
       });
       return { packageId: bestMatchId, title: bestMatchTitle };
     }

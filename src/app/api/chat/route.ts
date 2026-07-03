@@ -135,7 +135,7 @@ Keep your response concise.`;
         if (extraction.type === 'calendar_event') collectionName = 'calendar_events';
         else if (extraction.type === 'strategic_learning') collectionName = 'strategic_learnings';
 
-        await adminDb.collection('workspaces')
+        await adminDb!.collection('workspaces')
           .doc(workspaceId || uid)
           .collection(collectionName)
           .add({

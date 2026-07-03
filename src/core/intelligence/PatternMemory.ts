@@ -1,5 +1,5 @@
 import { FirestorePatternStore } from './FirestorePatternStore';
-import { MemoryService } from '@/services/memoryService';
+import { VectorService as MemoryService } from './VectorService';
 import {
   filterWorkspaceRelevantMemory,
   resolveWorkspaceIdFromFingerprint,
@@ -170,51 +170,52 @@ export class PatternMemory {
     if (!existing) {
       existing = await FirestorePatternStore.getRecord(fingerprint) || this.createRecord(fingerprint);
     }
-    existing.workspaceId = workspaceId;
+    const record = existing as PatternRecord;
+    record.workspaceId = workspaceId;
 
     switch (outcome) {
       case 'saule_direct':
-        existing.saule_direct_count++;
-        existing.last_response = response;
+        record.saule_direct_count++;
+        record.last_response = response;
         break;
       case 'claude_override':
-        existing.claude_override_count++;
-        existing.golden_response = response;
+        record.claude_override_count++;
+        record.golden_response = response;
         if (failureReasons && failureReasons.length > 0) {
-          existing.last_failure_reasons = failureReasons;
+          record.last_failure_reasons = failureReasons;
         }
         break;
       case 'fallback':
-        existing.fallback_count++;
+        record.fallback_count++;
         break;
       case 'trusted_bypass':
         // A bypass is a successful Saule outcome — count it as a saule_direct win
         // so trust score does NOT decay on every bypass hit.
-        existing.saule_direct_count++;
+        record.saule_direct_count++;
         break;
     }
 
-    existing.total_count++;
-    if (plan) existing.plan = plan;
+    record.total_count++;
+    if (plan) record.plan = plan;
 
     // ─── Semantic Indexing ──────────────────────────────────────────────────
     // If it's a golden response or a direct success, update its embedding
     if (outcome === 'saule_direct' || outcome === 'claude_override') {
-      const textToEmbed = outcome === 'claude_override' ? existing.golden_response : existing.last_response;
+      const textToEmbed = outcome === 'claude_override' ? record.golden_response : record.last_response;
       if (textToEmbed) {
-        existing.embedding = await MemoryService.generateEmbedding(textToEmbed);
+        record.embedding = await MemoryService.generateEmbedding(textToEmbed);
       }
     }
 
     // Recompute trust score
-    existing.trust_score = this.computeTrust(existing);
-    existing.trusted = existing.trust_score >= TRUST_THRESHOLD && existing.total_count >= MIN_HITS_FOR_TRUST;
-    existing.updated_at = new Date().toISOString();
+    record.trust_score = this.computeTrust(record);
+    record.trusted = record.trust_score >= TRUST_THRESHOLD && record.total_count >= MIN_HITS_FOR_TRUST;
+    record.updated_at = new Date().toISOString();
 
-    this.cache.set(fingerprint, existing);
-    await FirestorePatternStore.saveRecord(existing);
+    this.cache.set(fingerprint, record);
+    await FirestorePatternStore.saveRecord(record);
 
-    console.log(`[PATTERN_MEMORY]: Recorded "${outcome}" for "${fingerprint}" — trust=${existing.trust_score.toFixed(2)}, hits=${existing.total_count}, semantic=${!!existing.embedding}`);
+    console.log(`[PATTERN_MEMORY]: Recorded "${outcome}" for "${fingerprint}" — trust=${record.trust_score.toFixed(2)}, hits=${record.total_count}, semantic=${!!record.embedding}`);
   }
 
   /**
@@ -229,17 +230,17 @@ export class PatternMemory {
     const db = await FirestorePatternStore.getAllRecords();
 
     const matches = db
-      .map(record => {
+      .map((record: PatternRecord) => {
         const workspaceId = record.workspaceId || resolveWorkspaceIdFromFingerprint(record.fingerprint);
         return {
           record: { ...record, workspaceId },
           score: record.embedding ? MemoryService.cosineSimilarity(queryVector, record.embedding) : 0
         };
       })
-      .filter(m => m.score > 0.75) // Minimum semantic threshold
-      .sort((a, b) => b.score - a.score)
+      .filter((m: any) => m.score > 0.75) // Minimum semantic threshold
+      .sort((a: any, b: any) => b.score - a.score)
       .slice(0, limit)
-      .map(m => m.record);
+      .map((m: any) => m.record);
 
     if (matches.length > 0) {
       console.log(`[PATTERN_MEMORY]: Semantic memory hit! Found ${matches.length} similar patterns.`);
@@ -261,17 +262,18 @@ export class PatternMemory {
     }
 
     if (!record) return;
+    const safeRecord = record as PatternRecord;
 
     const weight = IMPLICIT_WEIGHTS[signalType];
-    record.implicit_score = Math.max(-10, Math.min(10, record.implicit_score + weight));
-    record.trust_score = this.computeTrust(record);
-    record.trusted = record.trust_score >= TRUST_THRESHOLD && record.total_count >= MIN_HITS_FOR_TRUST;
-    record.updated_at = new Date().toISOString();
+    safeRecord.implicit_score = Math.max(-10, Math.min(10, safeRecord.implicit_score + weight));
+    safeRecord.trust_score = this.computeTrust(safeRecord);
+    safeRecord.trusted = safeRecord.trust_score >= TRUST_THRESHOLD && safeRecord.total_count >= MIN_HITS_FOR_TRUST;
+    safeRecord.updated_at = new Date().toISOString();
 
-    this.cache.set(fingerprint, record);
-    await FirestorePatternStore.saveRecord(record);
+    this.cache.set(fingerprint, safeRecord);
+    await FirestorePatternStore.saveRecord(safeRecord);
 
-    console.log(`[PATTERN_MEMORY]: Signal "${signalType}" (${weight > 0 ? '+' : ''}${weight}) for "${fingerprint}" — implicit_score=${record.implicit_score}`);
+    console.log(`[PATTERN_MEMORY]: Signal "${signalType}" (${weight > 0 ? '+' : ''}${weight}) for "${fingerprint}" — implicit_score=${safeRecord.implicit_score}`);
   }
 
   /**
@@ -325,18 +327,18 @@ export class PatternMemory {
     const workspaceRecords = await FirestorePatternStore.getWorkspaceRecords(workspaceId, 50);
 
     const matches = workspaceRecords
-      .map(record => {
+      .map((record: PatternRecord) => {
         const recWorkspaceId = record.workspaceId || resolveWorkspaceIdFromFingerprint(record.fingerprint);
         return {
           record: { ...record, workspaceId: recWorkspaceId },
           score: record.embedding ? MemoryService.cosineSimilarity(queryVector, record.embedding) : 0
         };
       })
-      .filter(m => m.score > 0.75) // Minimum semantic threshold
-      .sort((a, b) => b.score - a.score)
-      .map(m => m.record);
+      .filter((m: any) => m.score > 0.75) // Minimum semantic threshold
+      .sort((a: any, b: any) => b.score - a.score)
+      .map((m: any) => m.record);
 
-    const candidates = matches.map((record) => ({
+    const candidates = matches.map((record: PatternRecord) => ({
       id: record.fingerprint,
       sourceCollection: 'pattern_memory' as const,
       workspaceId: record.workspaceId || resolveWorkspaceIdFromFingerprint(record.fingerprint),
@@ -351,8 +353,8 @@ export class PatternMemory {
       prompt: query,
     });
 
-    const allowedIds = new Set(filtered.injected.map((item) => item.id));
-    const scopedMatches = matches.filter((record) => allowedIds.has(record.fingerprint)).slice(0, limit);
+    const allowedIds = new Set(filtered.injected.map((item: any) => item.id));
+    const scopedMatches = matches.filter((record: PatternRecord) => allowedIds.has(record.fingerprint)).slice(0, limit);
 
     if (filtered.excluded.length > 0) {
       console.log('[PATTERN_MEMORY_SCOPE]', JSON.stringify({
