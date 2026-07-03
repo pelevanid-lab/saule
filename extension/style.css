@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  /* Prevent style pollution in host sites */
+  .plasmo-reset {
+    all: initial;
+    font-family: 'Inter', sans-serif;
+  }
+}

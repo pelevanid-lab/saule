@@ -1,161 +1,161 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { adminDb } from '@/lib/firebase-admin';
-import { generateEmbedding } from '@/lib/embeddings';
-import { GoogleGenAI } from '@google/genai';
-import { FieldValue } from 'firebase-admin/firestore';
+import { AIProviderService } from '@/core/ai/ai-provider-service';
+import { MemoryExtractor } from '@/core/intelligence/MemoryExtractor';
+import { VectorService } from '@/core/intelligence/VectorService';
 
-const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+const corsHeaders = {
+  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+  "Access-Control-Allow-Headers": "Content-Type, Authorization",
+};
 
-async function analyzeIntent(text: string): Promise<'save' | 'query'> {
+export async function OPTIONS(req: NextRequest) {
+  return NextResponse.json({}, { headers: corsHeaders });
+}
+
+export async function GET(req: NextRequest) {
   try {
-    const response = await ai.models.generateContent({
-      model: 'gemini-2.5-flash',
-      contents: `You are an intent classifier for a personal memory system. The user says: "${text}".
-Is the user trying to save a new memory/fact/statement (reply SAVE), or are they asking a question/requesting information/advice (reply QUERY)?
-Reply with exactly one word: SAVE or QUERY.`,
-    });
+    const { searchParams } = new URL(req.url);
+    const packageId = searchParams.get('packageId');
+    const uid = searchParams.get('uid');
+
+    if (!packageId || !uid) {
+      return NextResponse.json({ error: "Missing packageId or uid" }, { status: 400, headers: corsHeaders });
+    }
     
-    const intent = response.text?.trim().toUpperCase() || 'SAVE';
-    return intent.includes('QUERY') ? 'query' : 'save';
-  } catch (error) {
-    console.error('Error analyzing intent:', error);
-    return 'save'; // default to save on error
+    if (!adminDb) throw new Error("DB not init");
+
+    const snapshot = await adminDb.collection('memories')
+      .where('userId', '==', uid)
+      .where('packageId', '==', packageId)
+      .orderBy('createdAt', 'asc')
+      .limit(50)
+      .get();
+      
+    const messages = snapshot.docs.map(doc => {
+      const data = doc.data();
+      return { role: data.source, text: data.content };
+    });
+
+    return NextResponse.json({ success: true, messages }, { headers: corsHeaders });
+  } catch (err: any) {
+    return NextResponse.json({ error: "Internal Error", message: err.message }, { status: 500, headers: corsHeaders });
   }
 }
 
 export async function POST(req: NextRequest) {
   try {
-    let { uid, text, locale, mode = 'auto', workspaceId } = await req.json();
+    const { uid, text, locale, workspaceId, provider = 'gemini', pageContext, forcePackageId } = await req.json();
 
     if (!uid || !text) {
-      return NextResponse.json({ error: "Missing data" }, { status: 400 });
+      return NextResponse.json({ error: "Missing data" }, { status: 400, headers: corsHeaders });
     }
 
     if (!adminDb) {
       throw new Error("Database not initialized");
     }
 
-    if (mode === 'auto') {
-      mode = await analyzeIntent(text);
-    }
-
-    // 1. Generate embedding for user's text
-    const embedding = await generateEmbedding(text);
-    
-    // 2. Query Firestore for similar past memories (RAG / Semantic Search)
-    let contextString = '';
-    try {
-      let queryBase: any = adminDb.collection('memories').where('userId', '==', uid);
-      if (workspaceId && workspaceId !== 'all') {
-        queryBase = queryBase.where('workspaceId', '==', workspaceId);
-      }
-
-      const vectorQuery = queryBase.findNearest('embedding', FieldValue.vector(embedding), {
-        limit: 3,
-        distanceMeasure: 'COSINE',
-      });
-      
-      const vectorSnapshot = await vectorQuery.get();
-      const memories: string[] = [];
-      vectorSnapshot.forEach((doc: any) => {
-        const data = doc.data();
-        
-        // Expiration check (Forgetting feature)
-        const expiresAt = data.expiresAt ? data.expiresAt.toDate() : null;
-        const isExpired = expiresAt ? expiresAt < new Date() : false;
-        
-        if (data.source === 'user' && !isExpired) {
-          memories.push(data.content);
-        }
-      });
-      
-      if (memories.length > 0) {
-        contextString = memories.map(m => `- ${m}`).join('\n');
-      }
-    } catch (indexError: any) {
-      console.warn("Vector search failed or index is missing. If index is missing, please click the Firebase console link in logs to create it:", indexError.message);
-    }
-
-    // 3. Save user's memory ONLY in 'save' mode
-    if (mode === 'save') {
-      await adminDb.collection('memories').add({
-        userId: uid,
-        content: text,
-        embedding: FieldValue.vector(embedding),
-        source: 'user',
-        createdAt: new Date(),
-        workspaceId: workspaceId || null,
-      });
-    }
-
-    // 4. Query Gemini for an response
+    const aiService = AIProviderService.getInstance();
     const languageStr = locale === 'tr' ? 'Turkish' : 'English';
-    
-    let systemPrompt = '';
-    if (mode === 'query') {
-      systemPrompt = `You are Saule, an Active Memory Assistant. The user is asking a question about their memory: "${text}". 
-      
-Here are their relevant past memories to help you answer:
-${contextString || '(No relevant memories found)'}
 
-Based ONLY on the provided memories, answer their question. If the memories do not contain the answer, say that you don't remember or have no record of it. Answer in a single, calm, helpful sentence in ${languageStr}.`;
+    // 1. Semantic Threading (Vector Clustering) via Saule Core
+    let packageId = forcePackageId;
+    let packageTitle = 'Genel Sohbet';
+    
+    if (!packageId) {
+       const routed = await VectorService.routeToPackage(uid, text, pageContext || '');
+       packageId = routed.packageId;
+       packageTitle = routed.title;
     } else {
-      systemPrompt = `You are Saule, an Active Memory Assistant. The user just shared this memory to be recorded: "${text}". 
-      
-Here are some relevant past memories of this user:
-${contextString || '(No relevant memories found)'}
-
-Acknowledge it briefly and use the context to connect the dots if relevant (e.g. "I've added this to your other memories about..."). Acknowledge and answer in a single, calm, short sentence in ${languageStr}. Do not be overly dramatic, just a calm, observing presence.`;
+       // Fetch existing title if forced
+       try {
+         const doc = await adminDb.collection('context_packages').doc(packageId).get();
+         if (doc.exists) packageTitle = doc.data()?.title || 'Genel Sohbet';
+       } catch (e) {}
     }
-    
-    const response = await ai.models.generateContent({
-      model: 'gemini-2.5-flash',
-      contents: systemPrompt,
+
+    // Fetch up to 10 previous messages from this package for context
+    const historySnap = await adminDb.collection('memories')
+      .where('userId', '==', uid)
+      .where('packageId', '==', packageId)
+      .orderBy('createdAt', 'desc')
+      .limit(10)
+      .get();
+      
+    // reverse to get chronological order
+    const chatHistory = historySnap.docs.reverse().map(doc => {
+      const data = doc.data();
+      return { role: data.source === 'saule' ? 'model' : 'user', content: data.content };
     });
-    
-    const replyText = response.text || (locale === 'tr' ? "Hafızana kaydedildi." : "Recorded in your memory.");
+    chatHistory.push({ role: 'user', content: text }); // Append current message
 
-    // 5. Save Saule's response or query result to Firestore (for chat history display)
-    // Even if query mode doesn't save the original prompt to 'memories', we save it as a chat message.
-    // Wait, to keep the chat history working seamlessly, we should save both as 'chat' logs, or just save them.
-    // Actually, saving query logs is good for session context, but we should make sure we distinguish them.
-    // Let's save them as memories, but with a different flag, or just save all.
-    // To keep it simple: we save ALL messages to Firestore so onSnapshot works, but for 'query' mode we don't include the 'embedding' field or we set source = 'query' so it is excluded from future vector searches!
-    // Yes! That's brilliant! If source = 'query' or source = 'saule_reply', they are not loaded into the memories list for vector indexing!
-    // Let's implement that:
-    
-    if (mode === 'query') {
-      // Save user's question (without embedding, source = 'query')
-      await adminDb.collection('memories').add({
-        userId: uid,
-        content: text,
-        source: 'query',
-        createdAt: new Date(),
-      });
-      // Save Saule's answer (source = 'saule_answer')
-      await adminDb.collection('memories').add({
-        userId: uid,
-        content: replyText,
-        source: 'saule_answer',
-        createdAt: new Date(),
-      });
-    } else {
-      // Save Saule's acknowledgment (source = 'saule')
-      await adminDb.collection('memories').add({
-        userId: uid,
-        content: replyText,
-        source: 'saule',
-        createdAt: new Date(),
-      });
+    // 2. Send the user message to the chosen AI Provider
+    let systemPrompt = `You are Saule, an Adaptive Intelligence System.
+The user is speaking to you. Answer in a calm, helpful manner in ${languageStr}.
+If they ask a question, answer it. If they are just making a statement, acknowledge it.
+Keep your response concise.`;
+
+    if (pageContext) {
+      systemPrompt += `\n\n[CONTEXT: The user is currently browsing the following webpage. You may use this context if the user's question relates to it.]\n${pageContext}`;
     }
 
-    return NextResponse.json({ success: true, reply: replyText });
+    const replyText = await aiService.generateChat(
+      chatHistory,
+      provider,
+      { systemPrompt, temperature: 0.7 }
+    );
+
+    // 3. Save chat history to Firestore (tagged with packageId)
+    await adminDb.collection('memories').add({
+      userId: uid,
+      content: text,
+      source: 'user',
+      createdAt: new Date(),
+      workspaceId: workspaceId || null,
+      packageId: packageId
+    });
+
+    await adminDb.collection('memories').add({
+      userId: uid,
+      content: replyText,
+      source: 'saule',
+      createdAt: new Date(),
+      workspaceId: workspaceId || null,
+      provider: provider,
+      packageId: packageId
+    });
+
+    // 4. Proactive Memory Extraction (Silent Aha! Moment)
+    MemoryExtractor.extractContext(text).then(async (extraction) => {
+      if (extraction && extraction.type !== 'none' && extraction.title) {
+        console.log(`[SAULE_NOTICED]: Extracted ${extraction.type} - ${extraction.title}`);
+        
+        let collectionName = 'notes';
+        if (extraction.type === 'calendar_event') collectionName = 'calendar_events';
+        else if (extraction.type === 'strategic_learning') collectionName = 'strategic_learnings';
+
+        await adminDb.collection('workspaces')
+          .doc(workspaceId || uid)
+          .collection(collectionName)
+          .add({
+            userId: uid,
+            title: extraction.title,
+            details: extraction.details || '',
+            date: extraction.date || null,
+            createdAt: new Date().toISOString(),
+            sourceMessage: text,
+            packageId: packageId
+          });
+      }
+    }).catch(err => console.error('[SAULE_NOTICED_ERROR]:', err));
+
+    return NextResponse.json({ success: true, reply: replyText, packageId, packageTitle }, { headers: corsHeaders });
   } catch (error: any) {
     console.error('Chat API Error:', error);
     return NextResponse.json({ 
       error: "Internal Error", 
       message: error.message || String(error),
-      details: error.stack || null
-    }, { status: 500 });
+    }, { status: 500, headers: corsHeaders });
   }
 }

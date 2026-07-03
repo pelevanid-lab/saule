@@ -1,0 +1,41 @@
+{
+  "name": "saule-extension",
+  "displayName": "Saule - Active Memory",
+  "version": "1.0.0",
+  "description": "Saule Floating Intelligence for any website",
+  "author": "SML",
+  "scripts": {
+    "dev": "plasmo dev",
+    "build": "plasmo build",
+    "package": "plasmo package"
+  },
+  "dependencies": {
+    "@plasmohq/storage": "^1.15.0",
+    "lucide-react": "^0.400.0",
+    "plasmo": "latest",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "manifest": {
+    "host_permissions": [
+      "https://*/*",
+      "http://localhost/*"
+    ],
+    "permissions": [
+      "storage",
+      "activeTab",
+      "scripting"
+    ]
+  },
+  "devDependencies": {
+    "@plasmohq/prettier-plugin-sort-imports": "latest",
+    "@types/chrome": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "^10.5.2",
+    "postcss": "^8.5.16",
+    "tailwindcss": "^3.4.19",
+    "typescript": "latest"
+  }
+}

@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { useAuth } from '@/components/auth/AuthProvider';
 import { db } from '@/lib/firebase';
-import { collection, query, where, orderBy, onSnapshot, Timestamp } from 'firebase/firestore';
+import { collection, query, where, orderBy, onSnapshot } from 'firebase/firestore';
 
 interface Message {
   id: string;
@@ -12,11 +12,14 @@ interface Message {
   createdAt: any;
 }
 
+export type ProviderType = 'gemini' | 'claude' | 'openai';
+
 export default function TerminalUI({ dict, locale, workspaceId }: { dict: any; locale: string; workspaceId: string }) {
   const { user } = useAuth();
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState('');
   const [isSending, setIsSending] = useState(false);
+  const [selectedProvider, setSelectedProvider] = useState<ProviderType>('gemini');
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -54,7 +57,7 @@ export default function TerminalUI({ dict, locale, workspaceId }: { dict: any; l
       const response = await fetch('/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ uid: user.uid, text: textToSend, locale, mode: 'auto', workspaceId }),
+        body: JSON.stringify({ uid: user.uid, text: textToSend, locale, mode: 'auto', workspaceId, provider: selectedProvider }),
       });
 
       if (!response.ok) {
@@ -77,6 +80,50 @@ export default function TerminalUI({ dict, locale, workspaceId }: { dict: any; l
 
   return (
     <div className="flex flex-col h-[70vh]">
+      
+      {/* Top Bar with Provider Selector and Proactivity Control */}
+      <div className="flex justify-between items-center mb-4 px-2">
+        <div className="flex flex-col">
+          <h2 className="text-lg font-semibold text-charcoal flex items-center gap-2">
+            SML Headquarters
+          </h2>
+          {user && (
+            <div className="text-[10px] text-charcoal-muted mt-1 flex items-center gap-1">
+              Extension Bağlantı Kodu (Token): <span className="font-mono bg-sand-200 px-1 py-0.5 rounded select-all">{user.uid}</span>
+            </div>
+          )}
+        </div>
+        <div className="flex items-center space-x-6 text-sm text-charcoal">
+          {/* Proactivity Level */}
+          <div className="flex items-center space-x-2">
+            <label htmlFor="proactivity-level" className="font-medium text-xs text-charcoal-muted">Proactivity:</label>
+            <select 
+              id="proactivity-level"
+              className="bg-transparent border-none font-medium px-1 focus:outline-none focus:ring-0 cursor-pointer"
+              defaultValue="calm"
+            >
+              <option value="passive">Passive (Silent)</option>
+              <option value="calm">Calm (Personal)</option>
+              <option value="active">Active (CRM Mode)</option>
+            </select>
+          </div>
+
+          {/* AI Provider */}
+          <div className="flex items-center space-x-2">
+            <label htmlFor="ai-provider" className="font-medium text-xs text-charcoal-muted">AI:</label>
+            <select 
+              id="ai-provider"
+              value={selectedProvider}
+              onChange={(e) => setSelectedProvider(e.target.value as ProviderType)}
+              className="bg-white border border-sand-300 rounded px-2 py-1 focus:outline-none focus:ring-1 focus:ring-sage cursor-pointer"
+            >
+              <option value="gemini">Gemini 2.5 Flash</option>
+              <option value="claude">Claude 3.5 Sonnet</option>
+              <option value="openai">OpenAI GPT-4o (Coming)</option>
+            </select>
+          </div>
+        </div>
+      </div>
 
       {/* Chat History Area */}
       <div className="flex-1 overflow-y-auto mb-6 bg-white/50 backdrop-blur-sm rounded-lg border border-sand-300/30 p-6 flex flex-col space-y-4 shadow-inner">
