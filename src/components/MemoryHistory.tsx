@@ -11,6 +11,7 @@ interface RawMemory {
   source: string;
   createdAt: any;
   expiresAt: any;
+  workspaceId?: string;
 }
 
 export default function MemoryHistory({ dict, locale, workspaceId }: { dict: any; locale: string; workspaceId: string }) {

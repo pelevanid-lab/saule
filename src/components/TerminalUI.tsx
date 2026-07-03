@@ -8,7 +8,7 @@ import { collection, query, where, orderBy, onSnapshot, Timestamp } from 'fireba
 interface Message {
   id: string;
   content: string;
-  source: 'user' | 'saule';
+  source: 'user' | 'saule' | 'query';
   createdAt: any;
 }
 
