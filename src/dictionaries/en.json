@@ -153,7 +153,7 @@
   "home_page": {
     "hero_title": "Saule",
     "hero_subtitle": "Semantic Memory Layer (SML)",
-    "hero_desc": "AI models can continuously evolve, but memory is constant. Saule is an independent Semantic Memory Layer that understands you over time, regardless of which AI assistant you use, by preserving your mental load, decisions, and intentions.",
+    "hero_desc": "AI models can continuously evolve, but memory is constant. Saule is an independent Semantic Memory Layer that understands you over time, regardless of which AI assistant you use, by preserving your mental load, decisions, and intentions. In its first release, Saule is designed to run exclusively inside the Beiwe Cognitive Browser.",
     "cta_book": "Read the White Paper ↗",
     "section_saule_title": "One Saule",
     "section_saule_desc": "Saule is not divided into separate product universes. Business, creativity, relationships, decisions, and daily life are different contexts of the same person; Saule strives to understand these contexts with a single ethical and design backbone.",
@@ -170,7 +170,7 @@
     "problem_title": "Memory Crisis",
     "problem_desc": "The problem for modern humans and institutions is not a lack of information. It is a fragmented memory crisis. Every platform remembers a small part of the story, but none knows the whole story.",
     "solution_title": "Semantic Memory Layer",
-    "solution_desc": "Instead of building a new AI model, Saule builds an independent memory layer that preserves semantic context across individuals, teams, and communities, regardless of which AI model it draws its power from.",
+    "solution_desc": "Instead of building a new AI model, Saule builds an independent memory layer that preserves semantic context across individuals, teams, and communities, regardless of which AI model it draws its power from. Saule's active memory and observation capabilities function exclusively inside the Beiwe browser during the initial phase.",
     "footer_cta": "Intelligence can change. Memory does not."
   },
   "app": {

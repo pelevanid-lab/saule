@@ -153,7 +153,7 @@
   "home_page": {
     "hero_title": "Saule",
     "hero_subtitle": "Anlamsal Bellek Katmanı (SML)",
-    "hero_desc": "Yapay zekâ modelleri sürekli gelişebilir, ancak hafıza sabittir. Saule; zihinsel yükünüzü, kararlarınızı ve niyetlerinizi koruyarak, hangi yapay zekâ asistanını kullanırsanız kullanın sizi zaman içinde anlayan bağımsız bir Anlamsal Bellek Katmanı'dır.",
+    "hero_desc": "Yapay zekâ modelleri sürekli gelişebilir, ancak hafıza sabittir. Saule; zihinsel yükünüzü, kararlarınızı ve niyetlerinizi koruyarak sizi zaman içinde anlayan bağımsız bir Anlamsal Bellek Katmanı'dır (SML). Saule, ilk sürümünde yalnızca Beiwe Bilişsel Tarayıcı ile tam entegre çalışacak şekilde tasarlanmıştır.",
     "cta_book": "White Paper'ı Oku ↗",
     "section_saule_title": "Tek Saule",
     "section_saule_desc": "Saule ayrı ürün evrenlerine bölünmez. İş, yaratıcılık, ilişki, karar ve gündelik yaşam aynı insanın farklı bağlamlarıdır; Saule bu bağlamları tek bir etik ve tasarım omurgasıyla anlamaya çalışır.",
@@ -170,7 +170,7 @@
     "problem_title": "Bellek Krizi",
     "problem_desc": "Modern insanın ve kurumların sorunu bilgi eksikliği değildir. Parçalanmış bellek krizidir. Her platform hikâyenin küçük bir parçasını hatırlar, ancak hiçbiri hikâyenin tamamını bilmez.",
     "solution_title": "Anlamsal Bellek Katmanı",
-    "solution_desc": "Saule, yeni bir yapay zekâ modeli inşa etmek yerine; gücünü hangi yapay zekâ modelinden alırsa alsın, bireyler, ekipler ve topluluklar boyunca anlamsal bağlamı koruyan bağımsız bir hafıza katmanı inşa eder.",
+    "solution_desc": "Saule, yeni bir yapay zekâ modeli inşa etmek yerine; gücünü hangi yapay zekâ modelinden alırsa alsın, bireyler, ekipler ve topluluklar boyunca anlamsal bağlamı koruyan bağımsız bir hafıza katmanı inşa eder. Saule'nin aktif hafıza ve gözlem yetenekleri, ilk aşamada yalnızca Beiwe tarayıcısı içinde çalışır.",
     "footer_cta": "Zekâ değişebilir. Hafıza değil."
   },
   "app": {

@@ -21,6 +21,8 @@ export default function TerminalUI({ dict, locale, workspaceId }: { dict: any; l
   const [isSending, setIsSending] = useState(false);
   const [selectedProvider, setSelectedProvider] = useState<ProviderType>('gemini');
   const [activePackageId, setActivePackageId] = useState<string>('');
+  const [autonomicMode, setAutonomicMode] = useState(false);
+  const [isRecording, setIsRecording] = useState(false);
   const [showEmbedModal, setShowEmbedModal] = useState(false);
   const [showExtensionModal, setShowExtensionModal] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
@@ -132,13 +134,45 @@ export default function TerminalUI({ dict, locale, workspaceId }: { dict: any; l
               <option value="claude">Claude 3.5 Sonnet</option>
               <option value="openai">OpenAI GPT-4o (Coming)</option>
             </select>
+
+            {/* SML Mode and Recording Indicator */}
+            <div className="flex items-center space-x-3 border-l border-sand-300 pl-4">
+              <span className="flex items-center gap-1.5 text-xs font-semibold text-charcoal">
+                <span className={`w-2.5 h-2.5 rounded-full ${isRecording ? 'bg-emerald-500 animate-pulse' : 'bg-gray-400'}`} />
+                {isRecording ? 'Kayıt Aktif' : 'Gözlem Standby'}
+              </span>
+
+              <select
+                value={autonomicMode ? 'autonomic' : 'interactive'}
+                onChange={(e) => {
+                  const mode = e.target.value === 'autonomic';
+                  setAutonomicMode(mode);
+                  if (!mode) setIsRecording(false); // Force stop recording if interactive selected
+                }}
+                className="bg-white border border-sand-300 rounded text-xs px-2 py-1 focus:outline-none focus:ring-1 focus:ring-sage cursor-pointer"
+              >
+                <option value="interactive">Etkileşimli Mod (Conscious)</option>
+                <option value="autonomic">Otonom Mod (Subconscious)</option>
+              </select>
+
+              <button
+                onClick={() => setIsRecording(!isRecording)}
+                className={`text-xs font-bold px-3 py-1.5 rounded transition-all shadow-sm ${
+                  isRecording 
+                    ? 'bg-red-500 hover:bg-red-600 text-white' 
+                    : 'bg-sage-dark hover:bg-sage text-white'
+                }`}
+              >
+                {isRecording ? '🛑 Kaydı Durdur' : '⏺️ Kaydı Başlat'}
+              </button>
+            </div>
             
             <button 
               onClick={() => setShowExtensionModal(true)}
               className="ml-4 bg-sand-200 hover:bg-sand-300 text-charcoal text-xs font-bold px-3 py-1.5 rounded transition-colors shadow-sm flex items-center gap-1"
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-              Eklenti İndir
+              {locale === 'tr' ? "Beiwe'yi İndir" : "Download Beiwe"}
             </button>
 
             <button 
@@ -232,36 +266,51 @@ export default function TerminalUI({ dict, locale, workspaceId }: { dict: any; l
           <div className="bg-white rounded-xl shadow-2xl p-6 max-w-lg w-full border border-sand-200">
             <h3 className="text-lg font-bold text-charcoal mb-2 flex items-center gap-2">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-              Eklentiyi İndir ve Kur (Beta)
+              {locale === 'tr' ? "Beiwe Tarayıcısını İndir (Beta)" : "Download Beiwe Browser (Beta)"}
             </h3>
             
             <div className="bg-sand-50 border border-sand-200 rounded-lg p-4 mb-5 text-sm text-charcoal font-medium leading-relaxed overflow-y-auto max-h-[300px]">
-              <p className="mb-3">Bu sürüm henüz Web Mağazasına yüklenmemiştir. Eklentiyi kurmak için şu 3 basit adımı izleyin:</p>
-              <ol className="list-decimal pl-5 space-y-2 text-charcoal-muted mb-4">
-                <li><strong className="text-charcoal">Aşağıdaki butondan ZIP dosyasını indirin</strong> ve masaüstünde bir klasöre çıkartın.</li>
-                <li>Chrome adres çubuğuna <code className="bg-sand-200 px-1 py-0.5 rounded text-sage-dark select-all">chrome://extensions/</code> yazıp Enter'a basın.</li>
-                <li>Sağ üstteki <strong>"Geliştirici modunu" (Developer mode)</strong> açın, sol üstteki <strong>"Paketlenmemiş öğe yükle" (Load unpacked)</strong> butonuna tıklayıp ZIP'ten çıkardığınız klasörü seçin.</li>
-              </ol>
-              <div className="bg-sand-200/50 p-3 rounded border border-sand-300 text-xs text-charcoal-muted">
-                <strong className="text-sage-dark block mb-1">🔄 Güncelleme Yapacaklar İçin Not:</strong>
-                Eğer eklentiyi daha önce kurduysanız; yeni indirdiğiniz klasörü eskisinin üzerine yazdırın ve eklentiler (<code className="bg-sand-200 px-1 rounded">chrome://extensions/</code>) sayfasındaki Saule eklentisi kartından <strong>Yenile (Refresh)</strong> butonuna basın.
-              </div>
+              {locale === 'tr' ? (
+                <>
+                  <p className="mb-3 font-semibold text-charcoal">
+                    Saule Anlamsal Bellek Katmanı (SML) ilk sürümünde yalnızca Beiwe bilişsel web tarayıcısı içinde çalışacak şekilde geliştirilmiştir.
+                  </p>
+                  <p className="mb-3">Beiwe tarayıcısını kurmak için aşağıdaki 3 basit adımı izleyin:</p>
+                  <ol className="list-decimal pl-5 space-y-2 text-charcoal-muted mb-4">
+                    <li><strong className="text-charcoal">Aşağıdaki butondan Beiwe kurulum paketini (ZIP) indirin</strong> ve bilgisayarınızda bir klasöre çıkartın.</li>
+                    <li>Kurulum kılavuzundaki adımları izleyerek Beiwe tarayıcısını kurun.</li>
+                    <li>Beiwe'yi açın ve sol taraftaki Saule Merkeze Bağlan panelinden <code className="bg-sand-200 px-1 py-0.5 rounded text-sage-dark font-mono select-all">{user?.uid}</code> token bağlantı kodunuzu girerek bilişsel hafızanızı anında aktifleştirin.</li>
+                  </ol>
+                </>
+              ) : (
+                <>
+                  <p className="mb-3 font-semibold text-charcoal">
+                    In its initial release, Saule Semantic Memory Layer (SML) is built to run exclusively inside the Beiwe cognitive web browser.
+                  </p>
+                  <p className="mb-3">To set up the Beiwe browser, follow these 3 simple steps:</p>
+                  <ol className="list-decimal pl-5 space-y-2 text-charcoal-muted mb-4">
+                    <li><strong className="text-charcoal">Download the Beiwe setup package (ZIP)</strong> from the button below and extract it to a folder.</li>
+                    <li>Follow the setup guide instructions to install the Beiwe browser.</li>
+                    <li>Launch Beiwe, and enter your SML Connection Token <code className="bg-sand-200 px-1 py-0.5 rounded text-sage-dark font-mono select-all">{user?.uid}</code> to activate your cognitive memory immediately.</li>
+                  </ol>
+                </>
+              )}
             </div>
 
             <div className="flex justify-between items-center">
               <a 
-                href="/saule-extension.zip" 
-                download="saule-extension.zip"
+                href="/beiwe-setup.zip" 
+                download="beiwe-setup.zip"
                 className="bg-sage-dark hover:bg-sage text-white font-bold text-sm px-5 py-2.5 rounded shadow-md transition-colors flex items-center gap-2"
                 onClick={() => setTimeout(() => setShowExtensionModal(false), 500)}
               >
-                📥 ZIP Olarak İndir (v1.0.0)
+                📥 {locale === 'tr' ? "Beiwe Kurulumunu İndir" : "Download Beiwe Setup"}
               </a>
               <button 
                 onClick={() => setShowExtensionModal(false)}
                 className="bg-sand-100 hover:bg-sand-200 text-charcoal-muted hover:text-charcoal font-bold text-sm px-4 py-2 rounded transition-colors"
               >
-                Kapat
+                {locale === 'tr' ? "Kapat" : "Close"}
               </button>
             </div>
           </div>
