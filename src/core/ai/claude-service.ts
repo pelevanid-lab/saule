@@ -7,8 +7,12 @@ export class ClaudeService implements AIProvider {
 
   private init() {
     if (this.client) return;
+    const apiKey = process.env.ANTHROPIC_API_KEY;
+    if (!apiKey) {
+      throw new Error("Anthropic API Key bulunamadı! Lütfen .env dosyanıza ANTHROPIC_API_KEY ekleyin veya modeli Gemini olarak değiştirin.");
+    }
     this.client = new Anthropic({
-      apiKey: process.env.ANTHROPIC_API_KEY || '',
+      apiKey: apiKey,
     });
   }
 
@@ -32,8 +36,9 @@ export class ClaudeService implements AIProvider {
   public async generateChat(history: {role: string, content: string}[], options?: AIProviderOptions): Promise<string> {
     this.init();
     try {
+      // Anthropic only accepts 'user' and 'assistant' roles. Map 'model' or 'saule' to 'assistant'
       const messages = history.map(m => ({
-        role: m.role as 'user' | 'assistant',
+        role: (m.role === 'user' ? 'user' : 'assistant') as 'user' | 'assistant',
         content: m.content
       }));
 

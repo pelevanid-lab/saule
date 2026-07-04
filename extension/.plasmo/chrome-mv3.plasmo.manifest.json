@@ -19,7 +19,7 @@
   },
   "version": "1.0.0",
   "author": "SML",
-  "name": "DEV | Saule - Active Memory",
+  "name": "Saule - Active Memory",
   "description": "Saule Floating Intelligence for any website",
   "background": {
     "service_worker": "./static/background/index.ts"

@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { useAuth } from '@/components/auth/AuthProvider';
 import { db } from '@/lib/firebase';
 import { collection, query, where, orderBy, onSnapshot } from 'firebase/firestore';
+import { Network, Search, Pencil, Trash2, Calendar, ChevronDown, ChevronRight, Globe } from 'lucide-react';
 
 interface RawMemory {
   id: string;
@@ -12,234 +13,282 @@ interface RawMemory {
   createdAt: any;
   expiresAt: any;
   workspaceId?: string;
+  packageId?: string;
+}
+
+interface ContextPackage {
+  id: string;
+  title: string;
+  parentId?: string | null;
+  updatedAt: any;
+}
+
+interface GraphNode {
+  pkg: ContextPackage;
+  memories: RawMemory[];
+  children: GraphNode[];
 }
 
 export default function MemoryHistory({ dict, locale, workspaceId }: { dict: any; locale: string; workspaceId: string }) {
   const { user } = useAuth();
   const [memories, setMemories] = useState<RawMemory[]>([]);
+  const [packages, setPackages] = useState<ContextPackage[]>([]);
   const [editingId, setEditingId] = useState<string | null>(null);
   const [editContent, setEditContent] = useState('');
-  const [editExpiration, setEditExpiration] = useState<string>('forever');
-  const [isSaving, setIsSaving] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
+  const [expandedNodes, setExpandedNodes] = useState<Set<string>>(new Set());
+  const [editingNodeId, setEditingNodeId] = useState<string | null>(null);
+  const [editNodeTitle, setEditNodeTitle] = useState('');
 
   useEffect(() => {
     if (!user || !db) return;
 
-    // Load only user-generated memories (source: 'user')
-    // We load all and filter by workspace on client-side to avoid composite indexing issues
-    const q = query(
+    const qMemories = query(
       collection(db, 'memories'),
       where('userId', '==', user.uid),
-      where('source', '==', 'user'),
       orderBy('createdAt', 'desc')
     );
 
-    const unsubscribe = onSnapshot(q, (snapshot) => {
+    const unsubMemories = onSnapshot(qMemories, (snapshot) => {
       const loaded: RawMemory[] = [];
-      snapshot.forEach((doc) => {
-        loaded.push({ id: doc.id, ...doc.data() } as RawMemory);
-      });
+      snapshot.forEach((doc) => loaded.push({ id: doc.id, ...doc.data() } as RawMemory));
       setMemories(loaded);
     });
 
-    return () => unsubscribe();
+    const qPackages = query(
+      collection(db, 'context_packages'),
+      where('userId', '==', user.uid)
+    );
+
+    const unsubPackages = onSnapshot(qPackages, (snapshot) => {
+      const loaded: ContextPackage[] = [];
+      snapshot.forEach((doc) => loaded.push({ id: doc.id, ...doc.data() } as ContextPackage));
+      setPackages(loaded);
+    });
+
+    return () => {
+      unsubMemories();
+      unsubPackages();
+    };
   }, [user]);
-
-  const handleEditStart = (memory: RawMemory) => {
-    setEditingId(memory.id);
-    setEditContent(memory.content);
-    
-    // Determine expiration select value
-    if (!memory.expiresAt) {
-      setEditExpiration('forever');
-    } else {
-      const created = memory.createdAt?.toDate ? memory.createdAt.toDate().getTime() : new Date(memory.createdAt).getTime();
-      const expires = memory.expiresAt?.toDate ? memory.expiresAt.toDate().getTime() : new Date(memory.expiresAt).getTime();
-      const diffDays = Math.round((expires - created) / (1000 * 60 * 60 * 24));
-      
-      if (diffDays <= 1) setEditExpiration('1day');
-      else if (diffDays <= 7) setEditExpiration('7days');
-      else if (diffDays <= 30) setEditExpiration('30days');
-      else setEditExpiration('1year');
-    }
-  };
-
-  const handleSave = async (id: string, originalCreatedAt: any) => {
-    if (!editContent.trim() || !user || isSaving) return;
-    setIsSaving(true);
-
-    // Calculate expiresAt date
-    const createdDate = originalCreatedAt?.toDate ? originalCreatedAt.toDate() : new Date(originalCreatedAt);
-    let expiresAtDate: Date | null = null;
-    
-    if (editExpiration === '1day') {
-      expiresAtDate = new Date(createdDate.getTime() + 24 * 60 * 60 * 1000);
-    } else if (editExpiration === '7days') {
-      expiresAtDate = new Date(createdDate.getTime() + 7 * 24 * 60 * 60 * 1000);
-    } else if (editExpiration === '30days') {
-      expiresAtDate = new Date(createdDate.getTime() + 30 * 24 * 60 * 60 * 1000);
-    } else if (editExpiration === '1year') {
-      expiresAtDate = new Date(createdDate.getTime() + 365 * 24 * 60 * 60 * 1000);
-    }
-
-    try {
-      const response = await fetch('/api/memories', {
-        method: 'PATCH',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          id,
-          uid: user.uid,
-          content: editContent.trim(),
-          expiresAt: expiresAtDate ? expiresAtDate.toISOString() : null,
-        }),
-      });
-
-      if (response.ok) {
-        setEditingId(null);
-      } else {
-        console.error('Failed to update memory');
-      }
-    } catch (error) {
-      console.error('Error updating memory:', error);
-    } finally {
-      setIsSaving(false);
-    }
-  };
 
   const handleDelete = async (id: string) => {
     if (!user || !confirm(dict.delete_confirm)) return;
-
     try {
-      const response = await fetch(`/api/memories?id=${id}&uid=${user.uid}`, {
-        method: 'DELETE',
-      });
-
-      if (!response.ok) {
-        console.error('Failed to delete memory');
-      }
+      await fetch(`/api/memories?id=${id}&uid=${user.uid}`, { method: 'DELETE' });
     } catch (error) {
       console.error('Error deleting memory:', error);
     }
   };
 
+  const handleSaveNodeTitle = async (id: string) => {
+    if (!user || !db || !editNodeTitle.trim()) return;
+    try {
+      const { doc, setDoc } = await import('firebase/firestore');
+      await setDoc(doc(db, 'context_packages', id), {
+        title: editNodeTitle.trim(),
+        userId: user.uid,
+        updatedAt: new Date()
+      }, { merge: true });
+      setEditingNodeId(null);
+    } catch (error) {
+      console.error('Error updating node title:', error);
+    }
+  };
+
+  const toggleNode = (nodeId: string) => {
+    const newSet = new Set(expandedNodes);
+    if (newSet.has(nodeId)) newSet.delete(nodeId);
+    else newSet.add(nodeId);
+    setExpandedNodes(newSet);
+  };
+
+  // 1. Filter Memories by Search and Workspace
   const filteredMemories = memories.filter((m) => {
     const matchesSearch = m.content.toLowerCase().includes(searchQuery.toLowerCase());
     const matchesWorkspace = workspaceId === 'all' || m.workspaceId === workspaceId;
     return matchesSearch && matchesWorkspace;
   });
 
+  // 2. Build the Graph Tree
+  const buildGraph = () => {
+    const nodeMap = new Map<string, GraphNode>();
+    
+    // Initialize nodes
+    packages.forEach(pkg => {
+      nodeMap.set(pkg.id, { pkg, memories: [], children: [] });
+    });
+
+    // Attach memories to nodes
+    filteredMemories.forEach(mem => {
+      const pid = mem.packageId || 'default';
+      if (!nodeMap.has(pid)) {
+        nodeMap.set(pid, {
+          pkg: { id: pid, title: pid === 'default' ? 'Genel Sohbet' : 'Silinmiş Bağlam', updatedAt: new Date() },
+          memories: [], children: []
+        });
+      }
+      nodeMap.get(pid)!.memories.push(mem);
+    });
+
+    // Attach children to parents
+    const roots: GraphNode[] = [];
+    nodeMap.forEach(node => {
+      if (node.pkg.parentId && nodeMap.has(node.pkg.parentId)) {
+        nodeMap.get(node.pkg.parentId)!.children.push(node);
+      } else {
+        roots.push(node);
+      }
+    });
+
+    // Filter out roots that have no memories and no children with memories
+    const pruneEmpty = (node: GraphNode): boolean => {
+      node.children = node.children.filter(pruneEmpty);
+      return node.memories.length > 0 || node.children.length > 0;
+    };
+
+    return roots.filter(pruneEmpty).sort((a, b) => {
+      // Sort roots by most recently updated memory
+      const aTime = a.memories[0]?.createdAt?.toMillis?.() || 0;
+      const bTime = b.memories[0]?.createdAt?.toMillis?.() || 0;
+      return bTime - aTime;
+    });
+  };
+
+  const graphRoots = buildGraph();
+
+  const renderNode = (node: GraphNode, depth: number = 0) => {
+    const isRoot = depth === 0;
+    const isExpanded = expandedNodes.has(node.pkg.id) || isRoot; // Roots are expanded by default
+
+    return (
+      <div key={node.pkg.id} className={`w-full ${isRoot ? 'mb-6' : 'mt-4 ml-6 pl-4 border-l-2 border-sand-300'}`}>
+        
+        {/* Node Header */}
+        <div 
+          onClick={() => toggleNode(node.pkg.id)}
+          className={`group flex items-center gap-2 cursor-pointer p-3 rounded-lg transition-colors ${isRoot ? 'bg-white border border-sand-300/60 shadow-sm hover:border-sage-dark/30' : 'bg-sand-50/50 hover:bg-sand-100'}`}
+        >
+          {node.children.length > 0 || node.memories.length > 0 ? (
+             isExpanded ? <ChevronDown size={18} className="text-sage-dark flex-shrink-0" /> : <ChevronRight size={18} className="text-charcoal-muted flex-shrink-0" />
+          ) : (
+             <Network size={18} className="text-sage opacity-50 flex-shrink-0" />
+          )}
+
+          {editingNodeId === node.pkg.id ? (
+            <div className="flex-1 flex items-center gap-2" onClick={(e) => e.stopPropagation()}>
+              <input 
+                autoFocus
+                value={editNodeTitle}
+                onChange={(e) => setEditNodeTitle(e.target.value)}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter') handleSaveNodeTitle(node.pkg.id);
+                  if (e.key === 'Escape') setEditingNodeId(null);
+                }}
+                className="flex-1 bg-white border border-sage rounded px-2 py-1 text-sm font-sans focus:outline-none focus:ring-1 focus:ring-sage"
+              />
+              <button 
+                onClick={() => handleSaveNodeTitle(node.pkg.id)}
+                className="text-xs bg-sage text-white px-2 py-1 rounded hover:bg-sage-dark"
+              >
+                {locale === 'tr' ? 'Kaydet' : 'Save'}
+              </button>
+            </div>
+          ) : (
+            <>
+              <h3 className={`font-sans font-semibold ${isRoot ? 'text-charcoal text-base' : 'text-charcoal-muted text-sm'}`}>
+                {node.pkg.title}
+              </h3>
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setEditingNodeId(node.pkg.id);
+                  setEditNodeTitle(node.pkg.title);
+                }}
+                className="opacity-0 group-hover:opacity-100 p-1 text-charcoal-muted hover:text-sage transition-opacity ml-1"
+                title={locale === 'tr' ? 'Başlığı Düzenle' : 'Edit Title'}
+              >
+                <Pencil size={14} />
+              </button>
+            </>
+          )}
+
+          <span className="ml-auto flex-shrink-0 text-[10px] bg-sand-200 text-charcoal-muted px-2 py-0.5 rounded-full font-medium">
+            {node.memories.length + node.children.reduce((acc, c) => acc + c.memories.length, 0)} Kavram
+          </span>
+        </div>
+
+        {/* Node Content (Expanding Contexts) */}
+        {isExpanded && (
+          <div className={`mt-2 ${isRoot ? 'ml-4' : 'ml-2'}`}>
+            {/* Memories of this Node */}
+            {node.memories.length > 0 && (
+              <div className="space-y-2 mb-4">
+                {node.memories.map(mem => (
+                  <div key={mem.id} className="flex gap-3 group items-start">
+                    <div className="w-1.5 h-1.5 rounded-full bg-sage-dark mt-2 opacity-60 flex-shrink-0" />
+                    <div className="flex-1">
+                      <p className="text-sm font-sans text-charcoal leading-relaxed">{mem.content}</p>
+                      <div className="flex items-center gap-2 mt-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                        <span className="text-[10px] text-charcoal-muted/70 flex items-center gap-1">
+                          <Calendar size={10} />
+                          {mem.createdAt?.toDate ? mem.createdAt.toDate().toLocaleDateString(locale === 'tr' ? 'tr-TR' : 'en-US') : ''}
+                        </span>
+                        {mem.source && mem.source !== 'saule-terminal' && mem.source !== 'system_auto' && (
+                          <span className="text-[10px] text-charcoal-muted/70 flex items-center gap-1 ml-2">
+                            <Globe size={10} />
+                            {mem.source}
+                          </span>
+                        )}
+                        <button onClick={() => handleDelete(mem.id)} className="text-[10px] text-clay hover:text-red-600 ml-2 flex items-center gap-1 transition-colors">
+                          <Trash2 size={10} /> {dict.delete}
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+
+            {/* Child Nodes (Hooked Contexts) */}
+            {node.children.length > 0 && (
+              <div className="space-y-2">
+                {node.children.map(child => renderNode(child, depth + 1))}
+              </div>
+            )}
+          </div>
+        )}
+      </div>
+    );
+  };
+
   return (
-    <div className="space-y-6">
+    <div className="space-y-6 pb-20">
       {/* Search Filter */}
-      <div className="relative">
+      <div className="relative mb-8">
+        <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+          <Search size={18} className="text-charcoal-muted" />
+        </div>
         <input
           type="text"
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
-          placeholder={dict.search_placeholder}
-          className="w-full bg-white border border-sand-300 rounded-lg px-4 py-2.5 text-sm font-sans text-charcoal focus:outline-none focus:ring-2 focus:ring-sage focus:border-transparent shadow-sm"
+          placeholder="Bağlamlar ağında ara..."
+          className="w-full bg-white border border-sand-300 rounded-lg pl-10 pr-4 py-3 text-sm font-sans text-charcoal focus:outline-none focus:ring-2 focus:ring-sage focus:border-transparent shadow-sm"
         />
       </div>
 
-      {/* Memory List */}
-      <div className="space-y-4">
-        {filteredMemories.length === 0 ? (
-          <div className="text-center py-12 text-charcoal-muted text-sm font-sans italic opacity-75">
-            {dict.no_memories}
+      {/* Graph Tree */}
+      <div className="space-y-2">
+        {graphRoots.length === 0 ? (
+          <div className="text-center py-16 flex flex-col items-center gap-4">
+            <Network size={48} className="text-sand-300 opacity-50" />
+            <p className="text-charcoal-muted text-sm font-sans italic opacity-75">
+              Hafıza ağında henüz bir düğüm (Node) bulunmuyor...
+            </p>
           </div>
         ) : (
-          filteredMemories.map((memory) => {
-            const date = memory.createdAt?.toDate ? memory.createdAt.toDate() : new Date(memory.createdAt);
-            const dateString = date.toLocaleDateString(locale === 'tr' ? 'tr-TR' : 'en-US', {
-              year: 'numeric',
-              month: 'long',
-              day: 'numeric',
-              hour: '2-digit',
-              minute: '2-digit',
-            });
-
-            const isEditing = editingId === memory.id;
-
-            return (
-              <div
-                key={memory.id}
-                className="bg-white border border-sand-300/60 rounded-xl p-5 shadow-sm space-y-3 hover:border-sand-300 transition-colors"
-              >
-                <div className="flex justify-between items-center text-[10px] text-charcoal-muted font-sans font-medium tracking-wide">
-                  <span>{dateString}</span>
-                  {memory.expiresAt && (
-                    <span className="text-clay font-bold">
-                      {locale === 'tr' ? 'Unutulacak' : 'Expires'}
-                    </span>
-                  )}
-                </div>
-
-                {isEditing ? (
-                  <div className="space-y-3">
-                    <textarea
-                      value={editContent}
-                      onChange={(e) => setEditContent(e.target.value)}
-                      className="w-full border border-sand-300 rounded-lg p-3 text-sm font-sans text-charcoal focus:outline-none focus:ring-2 focus:ring-sage focus:border-transparent resize-none h-20"
-                    />
-                    <div className="flex flex-wrap items-center justify-between gap-3">
-                      <div className="flex items-center space-x-2">
-                        <label className="text-xs font-sans font-semibold text-charcoal-muted">
-                          {dict.expiration}:
-                        </label>
-                        <select
-                          value={editExpiration}
-                          onChange={(e) => setEditExpiration(e.target.value)}
-                          className="bg-sand-50 border border-sand-300 rounded px-2 py-1 text-xs font-sans text-charcoal focus:outline-none focus:ring-1 focus:ring-sage"
-                        >
-                          <option value="forever">{dict.exp_forever}</option>
-                          <option value="1day">{dict.exp_1day}</option>
-                          <option value="7days">{dict.exp_7days}</option>
-                          <option value="30days">{dict.exp_30days}</option>
-                          <option value="1year">{dict.exp_1year}</option>
-                        </select>
-                      </div>
-                      <div className="flex space-x-2">
-                        <button
-                          onClick={() => setEditingId(null)}
-                          className="px-3 py-1.5 border border-sand-300 rounded text-xs font-semibold text-charcoal hover:bg-sand-50 transition-colors"
-                        >
-                          {dict.cancel}
-                        </button>
-                        <button
-                          onClick={() => handleSave(memory.id, memory.createdAt)}
-                          disabled={isSaving}
-                          className="px-3 py-1.5 bg-sage-dark text-white rounded text-xs font-semibold hover:bg-sage transition-colors disabled:opacity-50"
-                        >
-                          {isSaving ? dict.saving : dict.save}
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                ) : (
-                  <div className="space-y-3">
-                    <p className="font-sans text-sm text-charcoal leading-relaxed whitespace-pre-wrap">
-                      {memory.content}
-                    </p>
-                    <div className="flex justify-end space-x-2 pt-2 border-t border-sand-300/20">
-                      <button
-                        onClick={() => handleEditStart(memory)}
-                        className="text-xs font-semibold text-sage-dark hover:text-sage transition-colors"
-                      >
-                        {dict.edit}
-                      </button>
-                      <button
-                        onClick={() => handleDelete(memory.id)}
-                        className="text-xs font-semibold text-clay hover:text-red-600 transition-colors"
-                      >
-                        {dict.delete}
-                      </button>
-                    </div>
-                  </div>
-                )}
-              </div>
-            );
-          })
+          graphRoots.map(root => renderNode(root, 0))
         )}
       </div>
     </div>

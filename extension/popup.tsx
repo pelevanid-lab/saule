@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { useStorage } from "@plasmohq/storage/hook"
-import { Sparkles, Shield, Trash2 } from "lucide-react"
+import { Shield, Trash2 } from "lucide-react"
+import logoUrl from "url:~assets/saule-logo.webp"
 import "./style.css" // Import Tailwind styles for the popup
 
 export default function PopupUI() {
@@ -33,8 +34,8 @@ export default function PopupUI() {
 
   return (
     <div className="w-80 min-h-[400px] bg-sand-50 font-sans text-charcoal flex flex-col">
-      <div className="bg-sage-dark text-white p-4 flex items-center justify-center gap-2 shadow-md">
-        <Sparkles size={20} />
+      <div className="bg-white/90 backdrop-blur-md border-b border-sand-200 text-charcoal p-4 flex items-center justify-center gap-2 shadow-sm">
+        <img src={logoUrl} alt="Saule" className="w-6 h-6 object-contain drop-shadow-sm" onError={(e) => { e.currentTarget.style.display='none'; }} />
         <h1 className="text-lg font-bold">Saule Headquarters</h1>
       </div>
 

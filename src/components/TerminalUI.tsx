@@ -20,27 +20,10 @@ export default function TerminalUI({ dict, locale, workspaceId }: { dict: any; l
   const [input, setInput] = useState('');
   const [isSending, setIsSending] = useState(false);
   const [selectedProvider, setSelectedProvider] = useState<ProviderType>('gemini');
+  const [activePackageId, setActivePackageId] = useState<string>('');
+  const [showEmbedModal, setShowEmbedModal] = useState(false);
+  const [showExtensionModal, setShowExtensionModal] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    if (!user || !db) return;
-
-    const q = query(
-      collection(db, 'memories'),
-      where('userId', '==', user.uid),
-      orderBy('createdAt', 'asc')
-    );
-
-    const unsubscribe = onSnapshot(q, (snapshot) => {
-      const loadedMessages: Message[] = [];
-      snapshot.forEach((doc) => {
-        loadedMessages.push({ id: doc.id, ...doc.data() } as Message);
-      });
-      setMessages(loadedMessages);
-    });
-
-    return () => unsubscribe();
-  }, [user]);
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -50,25 +33,56 @@ export default function TerminalUI({ dict, locale, workspaceId }: { dict: any; l
     if (!input.trim() || !user || isSending) return;
 
     const textToSend = input.trim();
+    
+    // Add user message to local state immediately
+    const newUserMsg: Message = { id: Date.now().toString(), content: textToSend, source: 'user', createdAt: new Date() };
+    setMessages(prev => [...prev, newUserMsg]);
+    
     setInput('');
     setIsSending(true);
+
+    // Prepare history to send to backend (excluding the message we just added, as backend expects sessionHistory + current text)
+    const sessionHistory = messages.map(m => ({ role: m.source === 'user' ? 'user' : 'model', content: m.content }));
 
     try {
       const response = await fetch('/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ uid: user.uid, text: textToSend, locale, mode: 'auto', workspaceId, provider: selectedProvider }),
+        body: JSON.stringify({ 
+          uid: user.uid, 
+          text: textToSend, 
+          sessionHistory,
+          locale, 
+          mode: 'auto', 
+          workspaceId, 
+          provider: selectedProvider,
+          forcePackageId: activePackageId 
+        }),
       });
 
       if (!response.ok) {
         const errorData = await response.json().catch(() => ({}));
         console.error('Failed to send message:', errorData.message || 'Unknown server error', errorData);
+      } else {
+        const data = await response.json();
+        if (data.packageId && !activePackageId) {
+          setActivePackageId(data.packageId);
+        }
+        
+        if (data.reply) {
+          setMessages(prev => [...prev, { id: (Date.now() + 1).toString(), content: data.reply, source: 'saule', createdAt: new Date() }]);
+        }
       }
     } catch (error) {
       console.error('Error sending message:', error);
     } finally {
       setIsSending(false);
     }
+  };
+
+  const handleNewChat = () => {
+    setActivePackageId('');
+    setMessages([]);
   };
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
@@ -94,19 +108,16 @@ export default function TerminalUI({ dict, locale, workspaceId }: { dict: any; l
           )}
         </div>
         <div className="flex items-center space-x-6 text-sm text-charcoal">
-          {/* Proactivity Level */}
-          <div className="flex items-center space-x-2">
-            <label htmlFor="proactivity-level" className="font-medium text-xs text-charcoal-muted">Proactivity:</label>
-            <select 
-              id="proactivity-level"
-              className="bg-transparent border-none font-medium px-1 focus:outline-none focus:ring-0 cursor-pointer"
-              defaultValue="calm"
+          {/* CRM Integration Button (Only visible if a specific workspace is selected) */}
+          {workspaceId && workspaceId !== 'all' && (
+            <button
+              onClick={() => setShowEmbedModal(true)}
+              className="text-[10px] font-bold bg-charcoal text-white px-2 py-1.5 rounded-md hover:bg-charcoal-muted transition-colors flex items-center gap-1"
             >
-              <option value="passive">Passive (Silent)</option>
-              <option value="calm">Calm (Personal)</option>
-              <option value="active">Active (CRM Mode)</option>
-            </select>
-          </div>
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              Embed (CRM)
+            </button>
+          )}
 
           {/* AI Provider */}
           <div className="flex items-center space-x-2">
@@ -121,6 +132,21 @@ export default function TerminalUI({ dict, locale, workspaceId }: { dict: any; l
               <option value="claude">Claude 3.5 Sonnet</option>
               <option value="openai">OpenAI GPT-4o (Coming)</option>
             </select>
+            
+            <button 
+              onClick={() => setShowExtensionModal(true)}
+              className="ml-4 bg-sand-200 hover:bg-sand-300 text-charcoal text-xs font-bold px-3 py-1.5 rounded transition-colors shadow-sm flex items-center gap-1"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              Eklenti İndir
+            </button>
+
+            <button 
+              onClick={handleNewChat}
+              className="ml-2 bg-sage-dark hover:bg-sage text-white text-xs font-bold px-3 py-1.5 rounded transition-colors shadow-sm flex items-center gap-1"
+            >
+              <span className="text-lg leading-none">+</span> Yeni Sohbet
+            </button>
           </div>
         </div>
       </div>
@@ -176,6 +202,67 @@ export default function TerminalUI({ dict, locale, workspaceId }: { dict: any; l
           {dict.send}
         </button>
       </div>
+
+      {/* Embed CRM Modal */}
+      {showEmbedModal && (
+        <div className="fixed inset-0 bg-black/40 backdrop-blur-sm z-[100] flex items-center justify-center p-4">
+          <div className="bg-white rounded-xl shadow-2xl p-6 max-w-md w-full border border-sand-200">
+            <h3 className="text-lg font-bold text-charcoal mb-2">Kurumsal CRM Entegrasyonu</h3>
+            <p className="text-xs text-charcoal-muted mb-4 font-medium leading-relaxed">
+              Bu Workspace'e (Çalışma Alanı) bağlı SML Karar Motorunu kendi web sitenize entegre etmek için aşağıdaki script kodunu sitenizin <code className="bg-sand-100 text-charcoal px-1 py-0.5 rounded">&lt;head&gt;</code> etiketleri arasına yerleştirin.
+            </p>
+            <div className="bg-sand-50 border border-sand-300 rounded p-3 mb-4 font-mono text-[10px] text-sage-dark whitespace-pre-wrap break-all select-all">
+              {`<script src="https://saule.ai/sdk.js" data-workspace="${workspaceId}"></script>`}
+            </div>
+            <div className="flex justify-end">
+              <button 
+                onClick={() => setShowEmbedModal(false)}
+                className="bg-sand-200 hover:bg-sand-300 text-charcoal font-bold text-xs px-4 py-2 rounded transition-colors"
+              >
+                Kapat
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Download Extension Modal */}
+      {showExtensionModal && (
+        <div className="fixed inset-0 bg-black/40 backdrop-blur-sm z-[100] flex items-center justify-center p-4">
+          <div className="bg-white rounded-xl shadow-2xl p-6 max-w-lg w-full border border-sand-200">
+            <h3 className="text-lg font-bold text-charcoal mb-2 flex items-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              Eklentiyi İndir ve Kur (Beta)
+            </h3>
+            
+            <div className="bg-sand-50 border border-sand-200 rounded-lg p-4 mb-5 text-sm text-charcoal font-medium leading-relaxed">
+              <p className="mb-3">Bu sürüm henüz Web Mağazasına yüklenmemiştir. Eklentiyi kurmak için şu 3 basit adımı izleyin:</p>
+              <ol className="list-decimal pl-5 space-y-2 text-charcoal-muted">
+                <li><strong className="text-charcoal">Aşağıdaki butondan ZIP dosyasını indirin</strong> ve masaüstünde bir klasöre çıkartın.</li>
+                <li>Chrome adres çubuğuna <code className="bg-sand-200 px-1 py-0.5 rounded text-sage-dark select-all">chrome://extensions/</code> yazıp Enter'a basın.</li>
+                <li>Sağ üstteki <strong>"Geliştirici modunu" (Developer mode)</strong> açın, sol üstteki <strong>"Paketlenmemiş öğe yükle" (Load unpacked)</strong> butonuna tıklayıp ZIP'ten çıkardığınız klasörü seçin.</li>
+              </ol>
+            </div>
+
+            <div className="flex justify-between items-center">
+              <a 
+                href="/saule-extension.zip" 
+                download="saule-extension.zip"
+                className="bg-sage-dark hover:bg-sage text-white font-bold text-sm px-5 py-2.5 rounded shadow-md transition-colors flex items-center gap-2"
+                onClick={() => setTimeout(() => setShowExtensionModal(false), 500)}
+              >
+                📥 ZIP Olarak İndir (v1.0.0)
+              </a>
+              <button 
+                onClick={() => setShowExtensionModal(false)}
+                className="bg-sand-100 hover:bg-sand-200 text-charcoal-muted hover:text-charcoal font-bold text-sm px-4 py-2 rounded transition-colors"
+              >
+                Kapat
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

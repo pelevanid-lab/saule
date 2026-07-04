@@ -46,7 +46,7 @@ export async function GET(req: NextRequest) {
 
 export async function POST(req: NextRequest) {
   try {
-    const { uid, text, locale, workspaceId, provider = 'gemini', pageContext, forcePackageId } = await req.json();
+    const { uid, text, sessionHistory = [], locale, workspaceId, provider = 'gemini', pageContext, forcePackageId } = await req.json();
 
     if (!uid || !text) {
       return NextResponse.json({ error: "Missing data" }, { status: 400, headers: corsHeaders });
@@ -59,23 +59,34 @@ export async function POST(req: NextRequest) {
     const aiService = AIProviderService.getInstance();
     const languageStr = locale === 'tr' ? 'Turkish' : 'English';
 
-    // 1. Semantic Threading (Vector Clustering) via Saule Core
-    let packageId = forcePackageId;
-    let packageTitle = 'Genel Sohbet';
-    
-    if (!packageId) {
-       const routed = await VectorService.routeToPackage(uid, text, pageContext || '');
-       packageId = routed.packageId;
-       packageTitle = routed.title;
-    } else {
-       // Fetch existing title if forced
-       try {
-         const doc = await adminDb.collection('context_packages').doc(packageId).get();
-         if (doc.exists) packageTitle = doc.data()?.title || 'Genel Sohbet';
-       } catch (e) {}
+    // 1. Semantic Threading via Saule Core (Dynamic Context Drifting)
+    const routed = await VectorService.routeToPackage(uid, text, pageContext || '', forcePackageId);
+    let packageId = routed.packageId;
+    let packageTitle = routed.title;
+    let parentId = null;
+
+    // Fetch details of the current package (to get title and parentId)
+    try {
+      const doc = await adminDb.collection('context_packages').doc(packageId).get();
+      if (doc.exists) {
+        packageTitle = doc.data()?.title || packageTitle;
+        parentId = doc.data()?.parentId || null;
+      }
+    } catch (e) {}
+
+    // 2. Graph RAG: Fetch Parent Contexts if hooked
+    let parentMemories: string[] = [];
+    if (parentId) {
+      const parentSnap = await adminDb.collection('memories')
+        .where('userId', '==', uid)
+        .where('packageId', '==', parentId)
+        .orderBy('createdAt', 'desc')
+        .limit(5)
+        .get();
+      parentMemories = parentSnap.docs.reverse().map(doc => doc.data().content);
     }
 
-    // Fetch up to 10 previous messages from this package for context
+    // 3. Fetch Current Package's Semantic Memories (Insights/Contexts, NOT raw chat)
     const historySnap = await adminDb.collection('memories')
       .where('userId', '==', uid)
       .where('packageId', '==', packageId)
@@ -83,72 +94,101 @@ export async function POST(req: NextRequest) {
       .limit(10)
       .get();
       
-    // reverse to get chronological order
-    const chatHistory = historySnap.docs.reverse().map(doc => {
-      const data = doc.data();
-      return { role: data.source === 'saule' ? 'model' : 'user', content: data.content };
-    });
-    chatHistory.push({ role: 'user', content: text }); // Append current message
+    const semanticMemories = historySnap.docs.reverse().map(doc => doc.data().content);
 
-    // 2. Send the user message to the chosen AI Provider
+    // Build the AI System Prompt with the Semantic Knowledge Graph
     let systemPrompt = `You are Saule, an Adaptive Intelligence System.
 The user is speaking to you. Answer in a calm, helpful manner in ${languageStr}.
-If they ask a question, answer it. If they are just making a statement, acknowledge it.
-Keep your response concise.`;
+You have access to a semantic memory graph. These are the learned contexts regarding this topic:
+<CURRENT_NODE_MEMORIES>\n${semanticMemories.join('\n')}\n</CURRENT_NODE_MEMORIES>`;
 
-    if (pageContext) {
-      systemPrompt += `\n\n[CONTEXT: The user is currently browsing the following webpage. You may use this context if the user's question relates to it.]\n${pageContext}`;
+    if (parentMemories.length > 0) {
+      systemPrompt += `\n\n<PARENT_NODE_MEMORIES>\n${parentMemories.join('\n')}\n</PARENT_NODE_MEMORIES>`;
     }
 
-    const replyText = await aiService.generateChat(
+    if (pageContext) {
+      systemPrompt += `\n\n[PAGE CONTEXT: The user is currently browsing this webpage]\n${pageContext}`;
+    }
+
+    systemPrompt += `\n\nCRITICAL RULE: You MUST return your response as a valid JSON object EXACTLY like this:
+{
+  "reply": "Your conversational answer to the user",
+  "contextToRemember": "A highly dense, factual summary of the new KNOWLEDGE or FACTS discussed in this interaction. Do NOT just write 'User asked X and I answered Y'. Instead, extract the actual information. Example: 'Kullanıcının Beiwe adında, her etkileşimden öğrenen yapay zekalı bir CRM projesi var.' or 'Kullanıcı Galatasaray takımını tutuyor.'. Focus on preserving the semantic meaning, entities, and facts about the user or the current topic. Leave empty ONLY if it's a meaningless greeting like 'merhaba'.",
+  "keywords": ["klima", "inverter", "fiyat"], // Extract 2-5 core keywords from the conversation to be used as mental tags. Array of strings.
+  "structuredEvent": null // If the user mentions a meeting, booking, or actionable event, put an object here: { "type": "calendar_event", "title": "...", "date": "YYYY-MM-DD" }. Otherwise null.
+}`;
+
+    // Combine ephemeral session history with current text
+    const chatHistory = [...sessionHistory, { role: 'user', content: text }];
+
+    const rawResponse = await aiService.generateChat(
       chatHistory,
       provider,
       { systemPrompt, temperature: 0.7 }
     );
 
-    // 3. Save chat history to Firestore (tagged with packageId)
-    await adminDb.collection('memories').add({
-      userId: uid,
-      content: text,
-      source: 'user',
-      createdAt: new Date(),
-      workspaceId: workspaceId || null,
-      packageId: packageId
-    });
+    // 4. Parse JSON Response
+    let replyText = rawResponse;
+    let contextToRemember = "";
+    let structuredEvent = null;
+    let extractedKeywords: string[] = [];
+    
+    try {
+      // Çok daha güçlü JSON ayıklama algoritması (Regex ile ilk { } bloğunu bul)
+      const jsonMatch = rawResponse.match(/\{[\s\S]*\}/);
+      const cleaned = jsonMatch ? jsonMatch[0] : rawResponse.replace(/```json/g, '').replace(/```/g, '').trim();
+      const parsed = JSON.parse(cleaned);
+      
+      if (parsed.reply) replyText = parsed.reply;
+      if (parsed.contextToRemember) contextToRemember = parsed.contextToRemember;
+      if (parsed.structuredEvent) structuredEvent = parsed.structuredEvent;
+      if (parsed.keywords && Array.isArray(parsed.keywords)) extractedKeywords = parsed.keywords;
+      console.log(`[LLM_PARSED] Reply length: ${replyText.length}, ContextToRemember: "${contextToRemember}", Keywords: ${extractedKeywords.join(', ')}`);
+    } catch (err) {
+      console.warn("Failed to parse AI JSON response. Raw Response was:", rawResponse);
+    }
 
-    await adminDb.collection('memories').add({
-      userId: uid,
-      content: replyText,
-      source: 'saule',
-      createdAt: new Date(),
-      workspaceId: workspaceId || null,
-      provider: provider,
-      packageId: packageId
-    });
+    // 5. PURE CONTEXT ARCHITECTURE: NEVER save raw chat messages. ONLY save contextToRemember.
+    if (contextToRemember && contextToRemember.trim().length > 0) {
+      
+      let sourceDomain = 'saule-terminal';
+      try {
+        if (pageContext) {
+           const urlMatch = pageContext.match(/URL:\s*(https?:\/\/[^\s]+)/);
+           if (urlMatch && urlMatch[1]) {
+             sourceDomain = new URL(urlMatch[1]).hostname.replace(/^www\./, '');
+           }
+        }
+      } catch (e) {}
 
-    // 4. Proactive Memory Extraction (Silent Aha! Moment)
-    MemoryExtractor.extractContext(text).then(async (extraction) => {
-      if (extraction && extraction.type !== 'none' && extraction.title) {
-        console.log(`[SAULE_NOTICED]: Extracted ${extraction.type} - ${extraction.title}`);
-        
-        let collectionName = 'notes';
-        if (extraction.type === 'calendar_event') collectionName = 'calendar_events';
-        else if (extraction.type === 'strategic_learning') collectionName = 'strategic_learnings';
+      await adminDb.collection('memories').add({
+        userId: uid,
+        content: contextToRemember,
+        source: sourceDomain,
+        createdAt: new Date(),
+        workspaceId: workspaceId || null,
+        packageId: packageId
+      });
+      console.log(`[SAULE_MEMORY] Learned: ${contextToRemember}`);
 
-        await adminDb!.collection('workspaces')
-          .doc(workspaceId || uid)
-          .collection(collectionName)
-          .add({
-            userId: uid,
-            title: extraction.title,
-            details: extraction.details || '',
-            date: extraction.date || null,
-            createdAt: new Date().toISOString(),
-            sourceMessage: text,
-            packageId: packageId
-          });
+      // FIRE-AND-FORGET: Asynchronously update the package keywords for Hybrid Search
+      if (extractedKeywords.length > 0) {
+        VectorService.updatePackageKeywords(packageId, extractedKeywords).catch(err => {
+          console.error("Failed to update keywords asynchronously:", err);
+        });
       }
-    }).catch(err => console.error('[SAULE_NOTICED_ERROR]:', err));
+    }
+
+    // 6. Save Structured Events if any
+    if (structuredEvent && structuredEvent.type === 'calendar_event') {
+      await adminDb.collection('workspaces').doc(workspaceId || uid).collection('calendar_events')
+        .add({
+          userId: uid, title: structuredEvent.title, details: '',
+          date: structuredEvent.date || null, createdAt: new Date().toISOString(),
+          packageId: packageId
+        });
+      console.log(`[SAULE_EVENT] Saved Calendar Event: ${structuredEvent.title}`);
+    }
 
     return NextResponse.json({ success: true, reply: replyText, packageId, packageTitle }, { headers: corsHeaders });
   } catch (error: any) {
@@ -159,3 +199,4 @@ Keep your response concise.`;
     }, { status: 500, headers: corsHeaders });
   }
 }
+
