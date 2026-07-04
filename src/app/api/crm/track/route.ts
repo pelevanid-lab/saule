@@ -20,6 +20,10 @@ export async function POST(req: Request) {
 
     // 1. Verify API Key (In a real scenario, we'd look this up in the DB)
     // For now, we simulate API key validation.
+    if (!adminDb) {
+      return NextResponse.json({ success: false, error: 'Database not initialized.' }, { status: 500 });
+    }
+
     const projectRef = await adminDb.collection('api_keys').where('key', '==', apiKey).limit(1).get();
     if (projectRef.empty && apiKey !== 'test_key') {
        // Allow 'test_key' for easy prototyping
