@@ -518,17 +518,52 @@ export default function ContinuousReader({
 
                 {/* Introduction Paragraphs */}
                 {(() => {
-                  const introP1 = getTranslationValue(dictionary, `volumes.v${vol!.id}.intro_p1`) || '';
-                  const introP2 = getTranslationValue(dictionary, `volumes.v${vol!.id}.intro_p2`) || '';
-                  const introP3 = getTranslationValue(dictionary, `volumes.v${vol!.id}.intro_p3`) || '';
-
-                  if (!introP1) return null;
+                  const introParams = getTranslationObject(dictionary, `volumes.v${vol!.id}.intro_paragraphs`) as string[];
+                  if (!Array.isArray(introParams) || introParams.length === 0) {
+                    const introP1 = getTranslationValue(dictionary, `volumes.v${vol!.id}.intro_p1`) || '';
+                    const introP2 = getTranslationValue(dictionary, `volumes.v${vol!.id}.intro_p2`) || '';
+                    const introP3 = getTranslationValue(dictionary, `volumes.v${vol!.id}.intro_p3`) || '';
+                    if (!introP1) return null;
+                    return (
+                      <div className="space-y-6 font-serif text-base sm:text-lg text-charcoal-muted leading-relaxed max-w-2xl mx-auto border-l-2 border-sage/40 pl-6 py-1 italic text-left mt-8">
+                        <p>{introP1}</p>
+                        {introP2 && <p>{introP2}</p>}
+                        {introP3 && <p className="font-sans text-xs sm:text-sm text-charcoal-muted/70 not-italic pt-4">{introP3}</p>}
+                      </div>
+                    );
+                  }
 
                   return (
-                    <div className="space-y-6 font-serif text-base sm:text-lg text-charcoal-muted leading-relaxed max-w-2xl mx-auto border-l-2 border-sage/40 pl-6 py-1 italic text-left mt-8">
-                      <p>{introP1}</p>
-                      {introP2 && <p>{introP2}</p>}
-                      {introP3 && <p className="font-sans text-xs sm:text-sm text-charcoal-muted/70 not-italic pt-4">{introP3}</p>}
+                    <div className="space-y-4 text-left max-w-2xl mx-auto mt-8 font-sans">
+                      {introParams.map((p, pIdx) => {
+                        if (p.startsWith('###')) {
+                          return (
+                            <h3 key={pIdx} className="font-serif text-lg sm:text-xl font-bold text-charcoal pt-6 border-b border-sand-300/30 pb-2">
+                              {p.replace('###', '').trim()}
+                            </h3>
+                          );
+                        }
+                        if (p.startsWith('•') || p.startsWith('*')) {
+                          return (
+                            <div key={pIdx} className="pl-4 py-1 text-sm sm:text-base text-charcoal-muted leading-relaxed flex items-start space-x-2">
+                              <span className="text-clay select-none">•</span>
+                              <span>{p.substring(1).trim()}</span>
+                            </div>
+                          );
+                        }
+                        if (p.startsWith('>')) {
+                          return (
+                            <blockquote key={pIdx} className="border-l-4 border-clay pl-4 py-2 italic my-4 text-sage-dark bg-clay/5 rounded-r">
+                              {p.substring(1).trim()}
+                            </blockquote>
+                          );
+                        }
+                        return (
+                          <p key={pIdx} className="text-sm sm:text-base text-charcoal-muted leading-relaxed">
+                            {p}
+                          </p>
+                        );
+                      })}
                     </div>
                   );
                 })()}
@@ -663,12 +698,32 @@ export default function ContinuousReader({
                       {Array.isArray(draftData.sections) &&
                         draftData.sections.map((sec, sIdx) => (
                           <section key={sIdx} className="space-y-4">
-                            <h3 className="font-serif text-xl sm:text-2xl font-semibold text-charcoal">
-                              {sec.heading}
-                            </h3>
+                            {sec.heading && (
+                              <h3 className="font-serif text-xl sm:text-2xl font-semibold text-charcoal">
+                                {sec.heading}
+                              </h3>
+                            )}
                             <div className="space-y-4 font-sans text-sm sm:text-base text-charcoal-muted leading-relaxed">
                               {Array.isArray(sec.paragraphs) &&
-                                sec.paragraphs.map((p, pIdx) => <p key={pIdx}>{p}</p>)}
+                                sec.paragraphs.map((p, pIdx) => {
+                                  if (p.startsWith('```')) {
+                                    const cleanText = p.replace(/^```[a-zA-Z0-9_-]*\n?/, '').replace(/```\s*$/, '');
+                                    return (
+                                      <pre key={pIdx} className="font-mono text-xs bg-sand-100/60 border border-sand-300/40 p-4 rounded-lg overflow-x-auto whitespace-pre my-4 text-charcoal-muted shadow-sm">
+                                        {cleanText}
+                                      </pre>
+                                    );
+                                  }
+                                  if (p.startsWith('>')) {
+                                    const cleanText = p.replace(/^>\s*/, '');
+                                    return (
+                                      <blockquote key={pIdx} className="border-l-4 border-clay/60 pl-4 py-1.5 my-6 italic text-charcoal/90 font-serif text-lg sm:text-xl leading-relaxed bg-sand-100/30 rounded-r-md">
+                                        {cleanText}
+                                      </blockquote>
+                                    );
+                                  }
+                                  return <p key={pIdx}>{p}</p>;
+                                })}
                             </div>
                           </section>
                         ))}

@@ -104,9 +104,23 @@
     "v1": {
       "title": "Saule White Paper v1.0",
       "purpose": "İnsanlar, Ekipler ve Kurumlar İçin Yaşayan Bir Hafıza",
-      "intro_p1": "Yapay zekâ emtiaya (commodity) dönüşüyor. Akıl yürütme modelleri her geçen ay gelişiyor, fiyatlar düşüyor ve sağlayıcılar arası geçiş yapmak her zamankinden daha kolay hale geliyor. Ancak çok daha değerli bir şey kayboluyor. Zekâ değil. Hafıza.",
-      "intro_p2": "İnsani bilgi, kurumsal bağlam, ilişkiler, kararlar ve deneyimler onlarca dijital araç arasında parçalanıyor. Her platform hikâyenin küçük bir parçasını hatırlar, ancak hiçbiri zaman içindeki anlamı korumuyor.",
-      "intro_p3": "Saule yeni bir yazılım kategorisi sunuyor: Anlamsal Bellek Katmanı (SML - Semantic Memory Layer). Saule, yeni bir yapay zekâ modeli inşa etmek yerine; gücünü hangi yapay zekâ modelinden alırsa alsın, bireyler, ekipler ve topluluklar boyunca anlamsal bağlamı koruyan bağımsız bir hafıza katmanı inşa eder. Zekâ değişebilir. Hafıza değil."
+      "intro_paragraphs": [
+        "> Yapay zekâ çağında hafızanın kaybı sessiz bir krizdir; hafıza sahibine ait olmalıdır.",
+        "### 1. Vizyon: Zekâ Emtialaşırken Bilişsel Egemenlik",
+        "Yapay zekâ devrimi, akıl yürütme motorlarının performansını artırırken işlem maliyetlerini sıfıra yaklaştırıyor. Bu yeni çağda, kalıcı rekabet avantajı (hendek) modellerin kendisinde değil; o modelleri besleyen kişisel ve kurumsal hafızadadır. Zekâ geneldir; hafıza ise özel, taklit edilemez ve biriciktir. Saule, bu birikimi modellerin tekelinden alıp sahibine iade eden bağımsız bir Anlamsal Bellek Katmanı (SML - Semantic Memory Layer) önermektedir.",
+        "### 2. Neden Şimdi? Bilişsel Altyapı Gelişimi",
+        "Teknoloji sektörü son yıllarda bariz bir altyapı dönüşümünden geçmektedir:",
+        "* 2022-2023: Üretken Dönem (Generation) — Büyük dil modellerinin metin üretme becerileri kitlelerle buluştu.",
+        "* 2024: Bağlam Genişlemesi (Context Windows) — Geçici pencere uzunlukları milyon token sınırını aştı.",
+        "* 2025: Otonom Ajanlar (Agentic Systems) — Kendi adına karar ve aksiyon alan sistemlerin yaygınlaşması.",
+        "* 2026 ve Ötesi: Bellek Altyapısı (Memory Infrastructure) — Otonom ajanların kararlılık ve süreklilik kazanması için kalıcı anlamsal bellek katmanlarının sektör genelinde standartlaşmaya başlaması.",
+        "* Beliren Kategori: Semantic Memory Layer (SML). Saule, bu evrimin merkezinde bağımsız bir bellek motoru ve veri standardı olarak kurgulanmıştır.",
+        "### 3. Teknik Omurga ve Mimarimiz",
+        "Saule, geleneksel veritabanı veya RAG sistemlerinin sınırlarını aşan üç temel yenilik üzerine kuruludur:",
+        "* Semantic Provenance Graph (SPG): Bilgiyi düz metin olarak değil; zaman, niyet, yazar ve uygulama kaynak ilişkileriyle (provenance) birlikte yaşayan çağrışımsal bir graf üzerinde modeller.",
+        "* Üst-Düğüm Bağlamlama (Super-Node Context Composition): Modellere düz vektör aramasıyla gürültülü veri göndermek yerine, sorguyla eşleşen ilişkisel alt-grafları kronolojik bağlam bütünlüğüyle derleyerek sıfır-gürültü ile besler.",
+        "* Uçtan Uca Gizlilik (E2EE) ve Model Bağımsızlığı: Bellek yerel cihazda (local-first) işlenir ve cihazlar arası Zero-Knowledge şifrelemeyle senkronize edilir. Standartlaştırılmış Semantic Memory Interface (SMI) sayesinde, modeller geliştikçe hafıza kesintisiz olarak devredilir."
+      ]
     }
   },
   "access_page": {

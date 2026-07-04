@@ -1,18 +1,21 @@
 {
   "chapters": {
-    "summary": {
-      "title": "Prologue: A Living Memory",
-      "purpose": "To summarize the core vision of the Saule White Paper.",
-      "key_question": "Will intelligence or memory gain value in the era of artificial intelligence?",
+    "foreword": {
+      "title": "Foreword: Why Does This Document Exist?",
+      "purpose": "To summarize the memory crisis and the intent statement of this document.",
+      "key_question": "While artificial intelligence thinks of everything, what do we need to remember?",
       "draft": {
         "sections": [
           {
-            "heading": "Prologue",
+            "heading": "",
             "paragraphs": [
-              "This White Paper explores how the relationship between the human mind and digital tools can be rebuilt in the age of artificial intelligence.",
-              "Intelligence is becoming ubiquitous today. However, the human context, memories, decisions, and intentions upon which this intelligence operates are becoming increasingly fragmented.",
-              "Saule's vision is not to make technology more intelligent, but to build a layer that understands individuals, teams, and communities over time, preserving their personal and collective memory.",
-              "Intelligence is a tool. Memory is identity itself."
+              "The artificial intelligence revolution is fundamentally changing the meaning of being human, thinking, and making decisions as it commoditizes intelligence. Today, the ability to reason (reasoning) is becoming cheaper, faster, and more accessible every day. Machines analyze, synthesize, and produce on our behalf. However, in the shadow of this great mental revolution, something silent and dangerous is being lost: The context that belongs to us, namely our personal and institutional memory. The human mind bases its decisions not only on the cold rules of logic at that moment but also on the traces of the past, risks taken, alternatives discarded, and unique intentions (intentions) specific to that moment. No matter how much intelligence develops, it is destined to float in the air unless there is an original memory base to guide it.",
+              "The real dilemma we face in the digital world today is not a lack of information, but the fragmentation and loss of context. The emails, notes, messages, and instant chats we use hold parts of our minds and our work; but none of them know the complete picture. What's more, even the AI assistants that make our lives easier today offer us a temporary illusion of memory. Their memory is flat, locked to the model, destined to be erased when chat windows close. We are forced to explain ourselves, our work, and our goals to AI assistants from scratch every day. This situation constantly pushes us into a state of digital forgetfulness and continuously consumes our decision-making energy (our System 2 cognitive resources) by trying to recall yesterday's context.",
+              "This document is a radical statement of intent against this silent crisis. Far from being a product brochure or marketing material, it aims to introduce a new foundational infrastructure layer to the world of computer and cognitive sciences: The Semantic Memory Layer. Throughout this document, we will trace three fundamental questions:",
+              "• Why? When intelligence becomes ubiquitous, why do we need an independent memory layer to preserve human cognition and secure a lasting competitive advantage?",
+              "• How? How can we translate the associative, episodic, and selective operating principles of human memory into concrete, working software rules?",
+              "• What are we building? How do we technically implement a living semantic memory that is model-agnostic and based on absolute user sovereignty?",
+              "Saule was written not to replace human intelligence, but to empower the human mind and our collective intellect to be the absolute master of its own memory, beyond the confines of time and space."
             ]
           }
         ],
@@ -22,85 +25,18 @@
         "references": []
       }
     },
-    "memory-crisis": {
-      "title": "1. The Memory Crisis",
-      "purpose": "To analyze the fragmentation of information in the modern world.",
-      "key_question": "Why is context lost while information persists?",
+    "part-1-interlude": {
+      "title": "Part I Introduction: Why Memory Matters?",
+      "purpose": "Part I transition and mental preparation text.",
+      "key_question": "In the shadow of reasoning models, why is it a vital necessity for humans to preserve their own context?",
       "draft": {
         "sections": [
           {
-            "heading": "1. The Memory Crisis",
+            "heading": "Transition: Mind and Memory",
             "paragraphs": [
-              "The problem of modern humans is not a lack of information. It is a crisis of fragmented memory.",
-              "Our collective knowledge lives inside these tools:",
-              "Email | Slack | WhatsApp | Google Drive | Notion | Calendars | CRMs | AI Chatbots",
-              "Each platform remembers a small piece of the story. None knows the whole story.",
-              "Information persists. Context is lost."
-            ]
-          }
-        ],
-        "open_questions": [],
-        "design_decisions": [],
-        "future_evolution": "",
-        "references": []
-      }
-    },
-    "ai-illusion": {
-      "title": "2. The AI Illusion",
-      "purpose": "To examine AI's transient and model-locked memory.",
-      "key_question": "Who owns your accumulated context?",
-      "draft": {
-        "sections": [
-          {
-            "heading": "2. The AI Illusion",
-            "paragraphs": [
-              "Current AI systems appear intelligent because they remember conversations. However, this memory is: Platform-specific, Model-locked, Transient, Vendor-dependent.",
-              "Your accumulated context belongs to the AI provider, not to you. When you switch from one model to another, months or years of contextual understanding vanish instantly.",
-              "The world believes it is building intelligence. In reality, it is constantly rebuilding memory from scratch.",
-              "Today's AI assistants essentially start from scratch in every new dialogue they have with us. They don't know us, they don't know our past, and they don't remember the true intentions behind our decisions.",
-              "This reduces AI not to a partner, but to a fast assistant that needs to be instructed again every single time.",
-              "A true 'Living Memory' learns your way of thinking, your values, and your working style. Instead of locking context into a specific model, it must exist freely in a memory layer that belongs to you."
-            ]
-          }
-        ],
-        "open_questions": [],
-        "design_decisions": [],
-        "future_evolution": "",
-        "references": []
-      }
-    },
-    "intelligence-commodity": {
-      "title": "3. Intelligence Becomes a Commodity",
-      "purpose": "To define memory as the competitive advantage of the future.",
-      "key_question": "What will be the real competitive advantage in the future?",
-      "draft": {
-        "sections": [
-          {
-            "heading": "3. Intelligence Becomes a Commodity",
-            "paragraphs": [
-              "Reasoning models (LLMs) will soon be everywhere. Users will switch between models just like selecting a browser. OpenAI. Anthropic. Google. Brand new models of the future. All will be interchangeable.",
-              "The real future competitive advantage will not be intelligence. It will be memory."
-            ]
-          }
-        ],
-        "open_questions": [],
-        "design_decisions": [],
-        "future_evolution": "",
-        "references": []
-      }
-    },
-    "semantic-memory-layer": {
-      "title": "4. Introducing the Semantic Memory Layer",
-      "purpose": "To demonstrate the Saule SML architecture and integration scheme.",
-      "key_question": "How does Saule remember while the LLM thinks?",
-      "draft": {
-        "sections": [
-          {
-            "heading": "4. Introducing the Semantic Memory Layer",
-            "paragraphs": [
-              "Saule does not compete with AI models. Saule exists integrated with them.",
-              "Applications → Reasoning Models (LLMs) → Saule Semantic Memory Layer (SML) [Knowledge Graph | Vector Memory | Identity Graph | Timeline | Workspace Memory] → Human Digital Life",
-              "The LLM thinks. Saule remembers."
+              "> While technology accelerates our minds, it erodes our memory and identity.",
+              "The human mind grows with the traces it leaves on the outside world. From stone tablets to paper, from the printing press to digital data centers, every memory tool we created was part of our will to transcend our biological limits. However, today, for the first time in history, we are developing systems that not only store information but also actively reason upon it (reasoning). While artificial intelligence models process massive data heaps and produce answers in seconds, we, to keep pace with this speed, surrender our own context, the genesis of our decisions, and our mental footprints to them. This surrender slowly alienates us from our own minds.",
+              "Part I will anatomize the philosophical aspects of this cognitive transformation and the crisis it brings. In this section, we will explore the memory loss behind technology's promise to make us smarter; why memory is the only lasting competitive advantage in a world where intelligence becomes ubiquitous and commoditized; and why we need a completely new software layer (Semantic Memory Layer) to preserve this memory. Because remembering is not just knowing yesterday; it is the power to choose who we are and with what intention we will embark tomorrow."
             ]
           }
         ],
@@ -111,17 +47,21 @@
       }
     },
     "living-memory": {
-      "title": "5. Living Memory",
-      "purpose": "To explain the difference between traditional software and living memory.",
-      "key_question": "How does experience evolve over time?",
+      "title": "1. Living Memory",
+      "purpose": "To establish the historical evolution of memory and define the SML category.",
+      "key_question": "Will intelligence or memory determine the real competitive advantage in the age of AI?",
       "draft": {
         "sections": [
           {
-            "heading": "5. Living Memory",
+            "heading": "Introduction: A Living Memory",
             "paragraphs": [
-              "Traditional software stores information. Saule stores experience.",
-              "It understands: Why was a decision made? Who influenced it? What alternatives were available? What conditions were active? How did information evolve over time?",
-              "Memory comes alive."
+              "“Intelligence is a tool. Memory is identity itself.”",
+              "Throughout human history, every technology we have developed has been an extension of our effort to transcend cognitive limits. By inventing writing, we rescued voice from time; by building libraries, we preserved information across generations; with search engines, we made massive data volumes searchable in seconds. Today, with artificial intelligence (AI), we are carrying our reasoning and analytical capacity to the speed of machines. Yet, in the midst of this cognitive revolution, we face an invisible and deep crisis: The Memory Crisis.",
+              "The search for a solution to this crisis is not new. In 1945, scientist Vannevar Bush, in his famous essay \"As We May Think,\" envisioned a mechanical device in which an individual could store all their records and communications, and associate them with associative links: the Memex. Bush conceptualized the Memex as an enlargement of intimate memory. For 80 years, this vision remained the philosophical North Star of personal information management. However, we lacked the technological infrastructure to transfer the associative capacity of the human mind to machines. Today, thanks to large language models and semantic databases, Bush's Memex dream has the opportunity to transform into a truly applicable and living structure for the first time.",
+              "In today's modern pace of work and life, our decisions, experiences, and intentions are scattered across dozens of digital tools. Emails, messaging channels, note-taking applications, and CRM systems... Each remembers a small piece of our digital existence, but none knows the whole story. Information is produced and stored more than ever; however, the actual human context behind that information—why decisions were made, what alternatives were discarded, and the intentions at that moment—fades away in time.",
+              "As cognitive psychologist Daniel Kahneman demonstrated, the human mind operates with two systems: the fast, automatic System 1, and the slow, deep-focus analytical System 2. Digital fragmentation and constant context switching continuously consume the limited cognitive resources of System 2, reducing its available analytical capacity. When decision-makers exhaust their mental energy trying to remember what they did yesterday and why, they lose the focus required for today's complex decisions. Waking up to this \"digital amnesia\" every morning drives us into decision fatigue.",
+              "Yes, today's AI assistants have some basic recall features; they can save some preferences or personal information from past dialogues. However, this memory is: flat, model-locked, vendor-dependent, and confined to a chat box. AI remembers within its own boundaries, but it does not leave ownership and depth of memory to its owner. AI \"thinks\", but it does not \"remember\" like a human.",
+              "As a solution to this crisis, Saule does not offer a new intelligence that competes with AI models; instead, it presents an independent Semantic Memory Layer (SML) owned by the individual and organization, upon which those models can operate."
             ]
           }
         ],
@@ -131,18 +71,327 @@
         "references": []
       }
     },
-    "personal-memory": {
-      "title": "6. Personal Memory",
-      "purpose": "To explain the preservation of personal memory and mental energy.",
-      "key_question": "How does a user remember without searching?",
+    "memory-crisis": {
+      "title": "2. Memory Crisis",
+      "purpose": "To illustrate the institutional cost of fragmented context.",
+      "key_question": "When information resides everywhere, why does the context behind decisions disappear?",
       "draft": {
         "sections": [
           {
-            "heading": "6. Personal Memory",
+            "heading": "The Anatomy of Fragmentation",
             "paragraphs": [
-              "A person should not consume mental energy to remember everything. Ideas. Goals. Notes. Projects. Relationships. Habits.",
-              "Saule continuously connects these within a living semantic network.",
-              "The user no longer searches. The user remembers."
+              "> The problem of modern man is not a lack of information. It is a crisis of fragmented memory.",
+              "In the modern business world, information production and storage capacity are at their highest levels in history. In parallel, the \"semantic context\" behind the generated information is disappearing faster than ever before. Information is scattered uncontrollably across emails, instant messaging channels, project management tools, document repositories, and customer relationship management systems. Each software holds only a narrow and isolated slice of organizational reality. The true human story of why a decision was made, and which technical or financial risks were eliminated to reach that point, evaporates in the grey spaces between these tools. This situation, experienced at both individual and collective levels, condemns modern professionals to live in a perpetual state of \"contextual memory loss.\""
+            ]
+          },
+          {
+            "heading": "Concrete Scenarios: The Lost Corporate Mind",
+            "paragraphs": [
+              "This crisis is far from a theoretical abstraction; every day, it leads to direct financial and operational losses in thousands of organizations:",
+              "• Rapidly Growing Ventures (Startups): When the engineer who remembers \"why\" a database schema or architectural choice was made three months ago leaves the team, those remaining begin to accumulate technical debt, fearing they might break the working system. Decision parameters are lost; only static, silent lines remain.",
+              "• Academic and Industrial Research Teams: When failed hypotheses eliminated during months of literature reviews and experimental processes, along with their justifications, are not properly recorded, new researchers entering the team re-enter the same dead ends, wasting hundreds of hours of effort. Without institutional memory, experience does not accumulate; it only repeats.",
+              "• Senior Executives and Decision-Makers: When the summary of months of discussions, market analyses, and intuitive weightings is erased during an investment decision or a strategic shift; in a similar crisis in the next quarter, the board of directors is forced to expend mental energy again to find an answer to the question, \"Why did we make this decision yesterday?\""
+            ]
+          },
+          {
+            "heading": "A Concrete Decision and Memory Example: Before and After",
+            "paragraphs": [
+              "Let's examine the institutional cost of contextual memory loss through a concrete engineering scenario:",
+              "• Situation (Before): Three months ago, a startup team made a critical architectural decision to use Postgres JSONB columns in their database schema. The reasons for this decision (Postgres's ACID guarantees, current budget constraints, and the failure of temporary NoSQL experiments) were discussed in Slack channels and forgotten there. Three months later, a new software architect joining the team questions the decision, saying, \"Why did we put JSONB here? We should switch to MongoDB.\" The team searches old Slack channels for hours to recall previous discussions, eliminated alternatives, and technical justifications. They find nothing. Re-discussing the decision, conducting market research, and organizing meetings costs the team 6 hours of active labor loss and significant directional confusion.",
+              "• Situation with Saule (After): The team is using Saule's SML layer. The new architect types the query \"Why was Postgres JSONB used in the database?\" into the SML Terminal. Saule instantly responds by scanning relationships on the Semantic Provenance Graph (SPG): \"The decision was made 3 months ago, after discussions in the Slack dev channel, due to MongoDB's ACID shortcomings and budget constraints. Decision-maker: Ahmet, relevant meeting: Architecture Meeting #3.\" The new architect understands the context in 3 seconds, preventing 6 hours of loss and technical debate. The wheel is not reinvented."
+            ]
+          },
+          {
+            "heading": "Contextual Drift and Its Cost",
+            "paragraphs": [
+              "Contextual drift causes teams to drift semantically apart over time. Although information is stored statically, because the mental context required to access that information is broken, document repositories (libraries, wiki pages) eventually turn into \"information graveyards.\" Employees search dozens of company wiki pages to find a critical decision or background information they are looking for, but they cannot find what they are looking for because there are no associative relationships. The result is an unnecessary daily consumption of mental energy at System 2 level and the organization entering a cycle of \"reinventing the wheel.\" Saule is designed to break this recurring cycle of forgetting and ensure contextual continuity."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "ai-illusion": {
+      "title": "3. AI Memory Illusion",
+      "purpose": "To examine the temporary memory structure of artificial intelligence.",
+      "key_question": "Why can't AI models' recall features offer true memory?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "Source of the Illusion: Stateless Models",
+            "paragraphs": [
+              "> Current artificial intelligence systems appear intelligent because they remember conversations; however, this memory is an illusion.",
+              "Modern generative artificial intelligence models are essentially \"stateless\" (stateless) mathematical engines. For each query, a model estimates the next word by calculating probabilities, reading past inputs from scratch. The feeling of \"remembering\" that we observe in chat windows does not stem from a true memory mechanism; instead, it results from the past chat history (chat history) being secretly re-fed into the context window (context window) with each new message. This approach creates a temporary and finite memory illusion. However, this artificial context is completely reset when the model reaches its physical limits or when the chat session ends. AI operates within its own limits but does not make memory permanent."
+            ]
+          },
+          {
+            "heading": "Technical Limitations: Context Windows and Session Memory",
+            "paragraphs": [
+              "The main obstacles to AI memory management today are:",
+              "• Context Window Exhaustion (Context Exhaustion): No matter how large, every context window has a limit. As the window fills, the system is forced to \"forget\" (to truncate) old information. The most important decisions or intentions are pushed out of the system simply because they become old in the timeline.",
+              "• Temporary Session Memory (Session Memory): Data transfer between sessions is extremely limited. AI assistants do not know who you were yesterday or why you failed a project two weeks ago.",
+              "• Model and Provider Lock-in (Vendor Lock-in): The accumulated limited memory is locked within that AI provider's database (e.g., in OpenAI's \"Memory\" feature). When a user or company wants to switch to a better or cheaper model (e.g., Anthropic Claude or Google Gemini), they are forced to leave all their past contextual capital behind. Memory is not portable."
+            ]
+          },
+          {
+            "heading": "Lack of Ownership and Permanence",
+            "paragraphs": [
+              "Memory creates cognitive dependency when it is not owned by its proprietor. Current AI memory approaches give control of data to the giant companies behind the models. A company's or individual's digital footprint, decisions, and intentions turn into training data for an external model or the platform's closed database. However, a true memory layer should be completely independent of the model and provider, absolutely owned by the user, portable, and an associative structure accumulated over time. Saule is the will to take memory from the monopoly of models and return it to its owner."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "intelligence-commodity": {
+      "title": "4. The Commoditization of Intelligence",
+      "purpose": "To analyze the commoditization of intelligence and the competitive power of memory.",
+      "key_question": "When reasoning becomes ubiquitous, what will differentiate us?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "The Cheapening of Intelligence and Limitless Reasoning",
+            "paragraphs": [
+              "> The competitive advantage of the future lies not in reasoning, but in the memory that fuels that reasoning.",
+              "One of the fastest commoditized items in the history of computing is intelligence. Large language models and reasoning engines are rapidly democratizing with increasing processing power, the development of open-source alternatives, and the optimization of model architectures. In the very near future, complex logical reasoning capabilities will become an infrastructure service (commodity) similar to electricity or cloud storage. Companies, teams, and individuals will be able to switch between models in seconds, much like choosing an internet browser today. Performance differences between models from different providers will be minimized, and intelligence itself will lose its power to differentiate."
+            ]
+          },
+          {
+            "heading": "The New Moat: Context and Memory Sovereignty",
+            "paragraphs": [
+              "In a world where intelligence is ubiquitous and nearly free, what will determine competitive advantage is 'what' this intelligence operates on. Models are trained on open web data representing general human knowledge; however, they do not know your specific decisions, your organization's tacit knowledge, or your past collaboration context. The 'moat' that will generate real value is not the quality of the models, but the quality of the personal or institutional memory fed to them. As model performance converges, the true differentiator will no longer be reasoning itself, but the specific context that fuels that reasoning. For organizations, lasting intellectual capital is not transient reasoning engines, but the layer of semantic memory that accumulates over time and remains proprietary to the institution."
+            ]
+          },
+          {
+            "heading": "Models Change, Memory Remains",
+            "paragraphs": [
+              "It is a major source of inefficiency for developers and organizations to have to redesign all their integrations, prompt structures, and data pipelines from scratch every time a new model is released. OpenAI, Anthropic, Gemini, or future autonomous intelligent engines... No matter how often models change, the contextual engine that feeds them must remain independent, persistent, and user-sovereign. Reasoning engines are transient; the semantic memory represented by Saule is permanent. This independence is the only way to protect intellectual property by freeing individuals and institutions from model dependency."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "semantic-memory-layer": {
+      "title": "5. Semantic Memory Layer (SML)",
+      "purpose": "To distinguish the SML category from other database structures.",
+      "key_question": "Why SML is not a database, RAG pipeline, or knowledge graph?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "A New Computing Category: SML",
+            "paragraphs": [
+              "> Saule, unlike existing knowledge base approaches, does not just store documents; it is a higher-level memory layer that aims to represent relationships, time, intent, and context together.",
+              "Defining a new layer in computing architecture requires clarifying its boundaries and what it is not. Today's \"memory\" and \"knowledge base\" solutions, frequently used in AI engineering, are either temporary patches to the stateless nature of models or revamped versions of traditional data storage methods. The Semantic Memory Layer (SML) defined by Saule is not merely a static archive that stores data; it is an independent software layer positioned between intelligence models and data sources, living with the timeline of information, associative relationships, and user intents."
+            ]
+          },
+          {
+            "heading": "Why SML Is Different from Traditional Solutions?",
+            "paragraphs": [
+              "The lines distinguishing SML from existing database and memory approaches are extremely sharp:",
+              "• It is not merely a Vector Database (Vector DB): Vector databases convert plain text chunks into mathematical coordinates and perform similarity searches (cosine similarity). However, this process is entirely mechanical; it does not preserve the temporal flow of decisions, their logical priorities, or the context of intent. Saule uses vector search only as a low-level indexing tool, not as memory itself.",
+              "• It is not merely a Knowledge Graph: Knowledge graphs statically model relationships between entities (nodes and edges). However, they are insufficient for dynamically managing a living and changing context, like human memory. Instead of creating a static information taxonomy, Saule manages continuously updated semantic origins and timelines.",
+              "• It is not merely a RAG (Retrieval-Augmented Generation) or Memory Bank: Standard RAG systems are static pipelines that pull randomly matching chunks from document stores at the time of a request. Saule, on the other hand, does not merely query information silos; it is an intelligent layer that actively filters intent from incoming inputs, monitors semantic drifts (context drift), and actively constructs context.",
+              "• It is not merely a Model Context Protocol (MCP): MCP establishes a standard communication bridge between models and data sources. Saule, however, is not just a protocol or a data transport channel; it is a sovereign memory engine that organizes, filters memory itself, and presents it in a structured way to intelligence models."
+            ]
+          },
+          {
+            "heading": "Independence and Cognitive Sovereignty",
+            "paragraphs": [
+              "The Semantic Memory Layer is not dependent on any artificial intelligence model, cloud provider, or client interface. It is an independent domain of sovereignty, residing at the center of the user's or organization's digital presence, consolidating data from all tools (Slack, Notion, e-mail) into a single semantic pool. As intelligence models evolve and change, SML provides a standardized memory interface to these models, ensuring the seamless and secure transfer of cognitive accumulation. With this category definition, Saule is building the first independent memory operating layer of the AI era."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "part-2-interlude": {
+      "title": "Part II Introduction: Cognitive Foundations",
+      "purpose": "Part II mental transition page.",
+      "key_question": "Before designing remembering software, why should we understand the founding principles of human memory?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "",
+            "paragraphs": [
+              "> A memory layer that understands humans should be built not with computers' cold recording methods, but with the living biological architecture of the human mind.",
+              "Computers store data. They write bits to sectors on a disk, freezing them there even during power outages, and retrieve those bits exactly in milliseconds when called upon. This is a perfect archive; however, it is not a memory. Human memory, on the other hand, operates entirely differently. Biological memory is not a static library but a living, constantly reconstructing, selective, forgetting, and meaning-shaping associative network. If we are to build remembering software, instead of imposing computers' data storage logic on humans, we must teach the working principles of the human mind to software code.",
+              "Part II will lay the foundations of cognitive psychology and neuroscience that shape Saule's architectural and algorithmic decisions. We will examine how memory is not a storehouse, how episodic and semantic systems interact, how we construct our narrative identity, how forgetting is actually an optimization, and the transactive nature of collective memory. At each step, we will see how these human and mental principles translate into their counterparts in Saule's software architecture. Because the only way to build software that works like the mind is to understand the mind by its own rules."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "memory-not-storage": {
+      "title": "6. Memory Is Not a Store",
+      "purpose": "To demonstrate that memory is not a static archive, but a dynamic construction process.",
+      "key_question": "Why does the human brain reconstruct the past each time instead of recording it?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "Reconstructive Memory Theory (Reconstructive Memory)",
+            "paragraphs": [
+              "> Memory is not a static archive store; it is a dynamic process that reconstructs the present time and meaning based on traces of the past.",
+              "For a long time in academic psychology, memory was thought to record the past like a camera. However, the process extending from Frederic Bartlett's pioneering works in 1932 to Elizabeth Loftus's modern eyewitness testimony research has proven the reconstructive nature of human memory. When we recall an event, our brain does not pull a video recording from a dusty shelf. Instead, it reconstructs the memory at that moment by bringing together semantic cues from the past, schemas, and present expectations. Although this reconstruction process appears prone to errors, it is the greatest adaptive ability of human cognition; because it allows the mind to form limitless semantic connections with limited capacity."
+            ]
+          },
+          {
+            "heading": "Divergence of Computer Storage and Human Memory",
+            "paragraphs": [
+              "Computer architectures (Von Neumann architecture, etc.) store data in addressable memory cells (RAM or hard disk). When called, that data is recalled error-free at the bit level. The human mind, however, operates associatively. The relationship between two pieces of information arises not from their address proximity, but from their semantic similarities and simultaneous activations. Storing information by address freezes it; storing it by association turns it into a living network."
+            ]
+          },
+          {
+            "heading": "Saule Design Decision: Reconstructive Context Orchestration",
+            "paragraphs": [
+              "This cognitive principle enables the rejection of static data querying methods in Saule's architecture. Saule does not store text fragments as they are and feed them to the model as raw data. At the moment of query, it analyzes the user's intent, the current timeline, and semantic relationships to reconstruct the correct context at that moment (context composition). Just like the human mind, it constructs a dynamic semantic framework suitable for the present need, based on static data from the past."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "human-memory-systems": {
+      "title": "7. Human Memory Systems",
+      "purpose": "To address working memory, semantic, and episodic memory systems.",
+      "key_question": "How does the multi-system structure of human memory inspire software layers?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "Tulving's Multiple Memory Systems",
+            "paragraphs": [
+              "> Memory is not a single pool; it is the harmonious orchestration of systems with different durations and functions, such as episodic, semantic, and working memory.",
+              "The classification proposed by cognitive psychologist Endel Tulving in 1972 proved that memory is not homogeneous. The human mind operates with at least three fundamental memory systems:",
+              "1. Working Memory: A temporary space that processes information in seconds, with limited capacity (Miller's 7±2 rule).",
+              "2. Episodic Memory: An autobiographical archive that holds personal experiences, along with their time and spatial context (e.g., \"The meeting we had with Ahmet yesterday at 2:00 PM\").",
+              "3. Semantic Memory: A network of concepts, meanings, and general facts independent of time and space (e.g., \"Meeting rules and project goals\")."
+            ]
+          },
+          {
+            "heading": "Inter-System Transition and Cognitive Load",
+            "paragraphs": [
+              "These systems constantly interact. New information entering working memory matches with a past moment in episodic memory and, over time, becomes abstracted, becoming a permanent part of semantic memory. Disruptions in these transitions or overloading of the systems reduce decision-making quality and increase cognitive load."
+            ]
+          },
+          {
+            "heading": "Saule Design Decision: Multi-Layer Memory Orchestration",
+            "paragraphs": [
+              "Saule directly reflects Tulving's multi-memory structure into its software layers. In Saule's data model, the user's current active session represents the \"Working Memory\"; the Timeline Graph, where instant interactions and timestamped notes are kept, represents the \"Episodic Memory\"; and the network of concepts, rules, and abstracted relationships represents the \"Semantic Memory\" layer. Saule continuously filters and abstracts data between these layers to prepare a meaningful context for models."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "identity-narrative": {
+      "title": "8. Identity and Narrative",
+      "purpose": "To explain the relationship between memory and narrative identity within McAdams' framework.",
+      "key_question": "How do we avoid freezing identity while preserving memory?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "Narrative Identity Theory (Narrative Identity)",
+            "paragraphs": [
+              "> Identity is not a static sum of past data; it is a narrative process constantly rewritten over time.",
+              "The works of psychologists Dan McAdams and Martin Conway show that human identity is a living story (narrative) fed by autobiographical memories. People do not just record their past; they continuously reinterpret it in line with their current values and future goals. Identity is not static; it is a living narrative. If software systems freeze past data as absolute and immutable facts, they hinder the user's mental development and trap them in a past version of themselves."
+            ]
+          },
+          {
+            "heading": "Selectivity and Change in Memory",
+            "paragraphs": [
+              "The human mind, according to its changing intentions over time, makes some memories from its past more prominent while pushing others into the background. When we focus on a goal, our brain recalls past experiences related to that goal more quickly. This situation proves that memory is not a passive database but an active filter guided by identity."
+            ]
+          },
+          {
+            "heading": "Saule Design Decision: Dynamic Identity Layer and Context Filtering",
+            "paragraphs": [
+              "Saule does not view information in the database as immutable blocks. The \"Identity Layer\" (Identity Layer) in its architecture monitors the user's changing focus points, values, and goals over time. When recalling memories during a query, it does not only look at mathematical similarity; it prioritizes mnemonic connections most relevant to the user's current identity narrative (active narrative state). Thus, Saule offers a living, shared identity layer that grows and evolves with its user."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "forgetting-regulation": {
+      "title": "9. Forgetting and Cognitive Regulation",
+      "purpose": "To explain the noise-reducing cognitive regulation role of forgetting.",
+      "key_question": "Why is forgetting not a memory error, but an optimization of a living system?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "The Cognitive Role of Active Forgetting",
+            "paragraphs": [
+              "> Forgetting is an active regulatory mechanism that purifies the mind from noise, enables focus, and preserves cognitive capacity.",
+              "Contrary to popular belief, forgetting is not a brain malfunction or system error. Neuroscientific research shows that the brain uses active chemical and electrical mechanisms (active forgetting) to clear out unnecessary information. If we remembered everything, in every detail, our minds would be overwhelmed by endless noise, and we would be unable to make even a simple decision at the System 2 level (as in the case of Luria's famous patient, Shereshevsky). Forgetting is an optimization that clears out noise to bring what is important to the forefront."
+            ]
+          },
+          {
+            "heading": "Cognitive Regulation and Attention Management",
+            "paragraphs": [
+              "The human mind constantly regulates the accessibility of memories by considering the recency of information, the frequency of repetition, and its relation to current intentions. This cognitive regulation ensures that attention remains focused on the correct point. The biggest mistake of digital systems is attempting to store every piece of data produced with the same priority indefinitely, thereby creating information pollution."
+            ]
+          },
+          {
+            "heading": "Saule Design Decision: Algorithmic Active Forgetting",
+            "paragraphs": [
+              "Saule incorporates an algorithmic active forgetting mechanism to prevent unnecessary data noise. Each memory element (node) and relationship (edge) in the database has an accessibility score (decay rate) that decreases over time. Unused or semantically outdated information is not deleted but is pushed to the background (pruning), thereby reducing query costs and preventing model context windows from being filled with noisy data. Saule codes forgetting as a system optimization."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "cognitive-offloading": {
+      "title": "10. Cognitive Externalization",
+      "purpose": "To discuss the limits of offloading cognitive load to external tools.",
+      "key_question": "How do we prevent external tools from creating dependency while offloading the mind?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "The Extended Mind Theory",
+            "paragraphs": [
+              "> Cognitive externalization should not be a prosthesis that weakens the mind, but a leverage that expands mental capacity and increases focus.",
+              "According to the Extended Mind theory, proposed by philosophers Andy Clark and David Chalmers in 1998, the human mind is not limited to the inside of the skull. The notebooks, devices, and software we use are active parts of our cognitive processes (cognitive offloading). Writing information to a reliable external tool reduces the burden on the brain's working memory and makes room for deep thought. However, this externalization process, if done uncontrollably, can become an addiction that dulls the mind's ability to remember and analyze."
+            ]
+          },
+          {
+            "heading": "Prosthetic Memory vs. Leverage Memory",
+            "paragraphs": [
+              "Modern note-taking applications and knowledge bases often act as passive prosthetic memories. We write information there, but we never find or remember it again; this creates mental laziness. However, an ideal external memory should be an active leverage that interacts with the mind, reminds associations, and stimulates the human intellect, rather than dulling it."
+            ]
+          },
+          {
+            "heading": "Saule Design Decision: Associative Triggering and Active Recall",
+            "paragraphs": [
+              "Saule goes beyond being a passive document repository. Instead of being a prosthetic memory, it generates semantic associations (associative triggering) that constantly stimulate the user's mind. When you type something into the SML Terminal, Saule recognizes relevant past decisions, unfinished intentions, or interconnected ideas in the background and softly injects them into the context. Thus, instead of weakening your mind, it expands your cognitive capacity by making your past accumulations visible at that moment."
             ]
           }
         ],
@@ -153,20 +402,37 @@
       }
     },
     "collective-memory": {
-      "title": "7. Collective Memory",
-      "purpose": "To explain the establishment of permanent memory in teams and organizations.",
-      "key_question": "How is a permanent shared understanding created at the collective level?",
+      "title": "11. Collective Memory",
+      "purpose": "To address the formation of transactive memory and collective intelligence in groups.",
+      "key_question": "How do we prevent the loss of collective intelligence as teams grow?",
       "draft": {
         "sections": [
           {
-            "heading": "7. Collective Memory",
+            "heading": "Transactive Memory and Tacit Knowledge (Transactive Memory & Tacit Knowledge)",
             "paragraphs": [
-              "Groups forget even faster than individuals. Strategic teams. Research groups. Startups. Organizations.",
-              "Every day new information is produced, and almost all of it is lost.",
-              "Saule creates a permanent collective memory. Not a chat history. Not a stack of documents. A shared common understanding.",
-              "As teams grow, a point is reached where individual memory is no longer sufficient. Why were decisions made? What assumptions were valid? Which alternatives were rejected?",
-              "Collective memory is not just a document archive. It is a structure where decisions, discussions, and intentions are organically connected to one another.",
-              "Saule acts as an active organizational memory by capturing implicit knowledge within teams and presenting it to the right person with the right context exactly when needed."
+              "> Collective memory is not a dry sum of document archives or conversation histories; it is a living transactive structure that establishes semantic relationships between individuals.",
+              "Daniel Wegner's Transactive Memory theory, defined in 1985, explains how group memory works: In teams, not everyone knows everything; information about who knows what (meta-knowledge) is shared. Collective intelligence rises on this information-sharing network. However, modern remote work models and internal team rotations lead to the rapid erosion of corporate tacit knowledge and the context behind decisions. As document repositories grow, the team's shared understanding of what each other knows and why decisions were made weakens."
+            ]
+          },
+          {
+            "heading": "The Limitations of Wiki Pages and Slack Channels",
+            "paragraphs": [
+              "Searching Slack channels or navigating immense Notion pages does not satisfy the need for transactive memory. Information is static, fragmented, and noisy. As teams grow, communication traffic (cognitive noise) increases, but the quality of collective intelligence decreases. Teams exhausting their mental energy to remember what they did yesterday and why slows down the pace of corporate innovation."
+            ]
+          },
+          {
+            "heading": "Saule Design Decision: Collective Semantic Provenance Graph and Authorization",
+            "paragraphs": [
+              "Saule defines a collective semantic memory layer at the workspace level. It unifies inputs flowing from channels like Notion or Slack onto a semantic graph. At the time of query, it provides AI assistants not just with document texts, but with transactive relationships (provenance) showing who made that decision, in which meeting, and with what intent. This eliminates information fragmentation within the organization, building a living, portable, shared corporate mind."
+            ]
+          },
+          {
+            "heading": "Saule's Scaling Moats: Semantic Network Effect (Semantic Network Effect)",
+            "paragraphs": [
+              "Saule generates a non-linear value increase (network effect) with every new user, team, and integration added to the system. This network effect layers at the cognitive level as follows:",
+              "1. From Personal Memory to Teams (Workspace Memory): An individual's personal SML connects to their team's shared memory. Team members access corporate transactive memory via Saule without having to search for what each other knows. Every new member joining does not weaken collective intelligence; on the contrary, they enrich the network by adding their cognitive capital to the graph.",
+              "2. From Teams to Organizations (Shared Memory): Inter-departmental information transfers (e.g., Product team decisions and Sales team customer notes) are unified by semantic bridges without any meetings or manual reporting.",
+              "3. Collective Intelligence Network (Semantic Network): As the organization grows, semantic relationships (edges) in Saule's SPG data structure become denser. The system begins to identify with higher accuracy which similar decisions or problems were solved in which previous project and how. The organization is completely freed from the cost of \"reinventing the wheel.\" This transforms the organization into a living, self-learning, organic collective intelligence."
             ]
           }
         ],
@@ -176,17 +442,35 @@
         "references": []
       }
     },
-    "beyond-communication": {
-      "title": "8. Beyond Communication",
-      "purpose": "To explain divergence from other productivity and messaging tools.",
-      "key_question": "How does Saule organize memory itself?",
+    "translating-cognition": {
+      "title": "12. Translating Cognition to Software",
+      "purpose": "To translate cognitive science principles into software principles.",
+      "key_question": "How do the rules of human memory transform into working code for machines?",
       "draft": {
         "sections": [
           {
-            "heading": "8. Beyond Communication",
+            "heading": "Transition from Human Cognition to Software Principles",
             "paragraphs": [
-              "Messaging apps help people communicate. Project management tools organize tasks. Knowledge bases structure documents.",
-              "Saule organizes memory itself."
+              "> Cognitive foundations are not philosophical metaphors; they are engineering parameters that directly determine data models, query algorithms, and system architecture.",
+              "This section is the bridge connecting all cognitive science principles discussed throughout Part II to Part III, which will establish Saule's software architecture. The operating principles of the human mind are not philosophical indulgences but the justifications for direct engineering decisions in software. The dynamic nature of cognitive systems invalidates traditional database addressing, normalized tables, and static data pipelines."
+            ]
+          },
+          {
+            "heading": "Principle and Software Mappings",
+            "paragraphs": [
+              "The theoretical infrastructure we established in Part II is translated into software architecture as follows:",
+              "• Memory Is Not a Store (Reconstructive Nature) ➔ Dynamic Context Composition instead of static lookup.",
+              "• Multiple Memory Systems (Tulving) ➔ Multi-Layered Memory Architecture, a combination of active session, Timeline, and Concept Graph.",
+              "• Identity and Narrative (McAdams & Conway) ➔ Identity Layer, dynamically weighting based on user state.",
+              "• Active Forgetting (Optimization) ➔ Pruning of nodes and edges on the graph with a Decay Algorithm.",
+              "• Cognitive Externalization (Clark & Chalmers) ➔ Associative Triggering, offering semantic triggers instead of passive archiving.",
+              "• Collective Memory (Wegner) ➔ Semantic Provenance Graph, holding institutional implicit knowledge."
+            ]
+          },
+          {
+            "heading": "On the Threshold of Architecture",
+            "paragraphs": [
+              "These mappings form Saule's technical backbone. In the next section (Part III), we will examine how these theoretical bridges are built at the code level; from semantic ingestion processes, to the Semantic Provenance Graph data model, dynamic orchestration, and the paradoxes of privacy and local device execution, covering all engineering details. Saule is an architecture that combines the elegance of the human mind with the discipline of software."
             ]
           }
         ],
@@ -196,21 +480,18 @@
         "references": []
       }
     },
-    "workspace-model": {
-      "title": "9. Workspace Model",
-      "purpose": "To explain the semantic deepening of Saule workspaces.",
-      "key_question": "How do workspaces represent a living memory?",
+    "part-3-interlude": {
+      "title": "Part III Introduction: Software Architecture",
+      "purpose": "Part III technical transition page.",
+      "key_question": "How are cognitive principles translated into a concrete and working software architecture?",
       "draft": {
         "sections": [
           {
-            "heading": "9. Workspace Model",
+            "heading": "",
             "paragraphs": [
-              "Each workspace represents a living memory.",
-              "The core structures we focus on: Personal Intelligence Area | Strategic Teams | Research & Development Groups | Enterprise Shared Memory Hubs.",
-              "Each workspace develops and deepens its own unique semantic memory over time.",
-              "Current workspaces consist of static folders and pages. Information sits there waiting for you to find it.",
-              "Saule's workspace model is dynamic. It evolves with you as you work. It helps you close open loops, notices bottlenecks, and protects your attention.",
-              "This is like a brand new digital organ that keeps not just the data, but the process and the 'state of work' in memory."
+              "> Cognitive theories transform into a working software architecture only when grounded in data models and mathematical algorithms.",
+              "We have theoretically established that memory is not merely a storage unit, and that our minds operate with episodic, semantic, and transactive systems. However, software engineering cannot be satisfied with abstract concepts. Translating the living nature of memory into the deterministic world of computers requires the redesign of data structures, database schemas, query optimizations, and encryption protocols.",
+              "Part III will detail Saule's engineering core (core engine) and technical architecture. Starting with the unwavering design principles of our system architecture, we will examine our data model (Semantic Provenance Graph) which holds the lifecycle, relationships, and timestamps of a memory element, our context composition algorithms, and our end-to-end encrypted privacy layer. We will see at the code level that Saule is not just a philosophical manifesto; but a working, scalable, and secure computer system."
             ]
           }
         ],
@@ -220,17 +501,33 @@
         "references": []
       }
     },
-    "ai-as-interface": {
-      "title": "10. AI as an Interface",
-      "purpose": "To explain the relationship between the transient nature of AI and Saule's permanent memory.",
-      "key_question": "Why is AI merely an interface?",
+    "design-principles": {
+      "title": "13. Design Principles",
+      "purpose": "To declare Saule's core engineering principles.",
+      "key_question": "What are the unshakeable coding principles that govern Saule's architectural decisions?",
       "draft": {
         "sections": [
           {
-            "heading": "10. AI as an Interface",
+            "heading": "Saule's Four Unshakeable Principles",
             "paragraphs": [
-              "AI is not the product itself. It is merely the interface.",
-              "Reasoning engines (models) will change. Saule's memory is permanent."
+              "> Saule's architecture is built upon the principles of model-agnosticism, semantic sovereignty, zero-noise, and passive operation.",
+              "Saule is not designed to be tied to transient artificial intelligence trends or libraries. The system architecture is built upon four fundamental principles that guide every development step:",
+              "1. Model Agnosticism: The system cannot be inherently tied to any large language model (LLM) or artificial intelligence provider. The memory layer is a sovereign domain independent of models and is equidistant to every model via standardized APIs.",
+              "2. User Sovereignty: The user is the absolute owner of memory data. Data remains within the limits set by the user, is encrypted, and is portable.",
+              "3. Zero Cognitive Noise: The memory layer avoids sending unnecessary or irrelevant data (noise) to models. Context is optimized to provide maximum semantic depth with minimum tokens.",
+              "4. Passive Ingestion: Continuous data labeling or manual organization is not expected from the user. The system passively listens to data streams in the background, autonomously extracts semantic relationships, and operates silently."
+            ]
+          },
+          {
+            "heading": "Importance of Principles from a Developer's Perspective",
+            "paragraphs": [
+              "These principles define strict boundaries that developers must adhere to when using the Saule SDK and adding new components to the architecture. For example, due to the principle of model agnosticism, memory extraction algorithms cannot be dependent on a single provider's proprietary prompt structures; instead, abstracted protocols are used."
+            ]
+          },
+          {
+            "heading": "Architectural Bridge",
+            "paragraphs": [
+              "These design principles directly determine the lifecycle of data flows and memory objects within the system. In the next section, we will examine how these principles are applied from the raw data's entry into the system and the lifecycle of a memory item."
             ]
           }
         ],
@@ -240,18 +537,34 @@
         "references": []
       }
     },
-    "absolute-privacy": {
-      "title": "11. Absolute Privacy and Zero-Knowledge Memory",
-      "purpose": "To explain the philosophy of zero-knowledge data privacy.",
-      "key_question": "How do we prevent our external memory from becoming model training data?",
+    "memory-lifecycle": {
+      "title": "14. Memory Lifecycle",
+      "purpose": "To present the lifecycle diagram and evolution of semantic memory.",
+      "key_question": "What stages does a memory item go through from its inception to its oblivion?",
       "draft": {
         "sections": [
           {
-            "heading": "11. Absolute Privacy and Zero-Knowledge Memory",
+            "heading": "Memory Lifecycle Stages",
             "paragraphs": [
-              "Your memory is valuable only when it belongs solely to you.",
-              "Saule is an extension of the human mind and corporate intellect. Therefore, your external memory never becomes training data for a model.",
-              "Saule operates on \"Zero-Knowledge\" principles. The system that reads, processes, and merges context does not store this information for its own benefit. Individuals and organizations are the absolute sovereigns of their own memory."
+              "> Memory items are not static rows; they are dynamic entities that go through stages of ingestion, association, active retrieval, and algorithmic decay.",
+              "Every piece of information entering the Saule system follows this four-stage lifecycle:",
+              "1. Ingestion: Raw data flowing from sources such as a Browser extension, Slack integration, or terminal input is captured. This raw data is denoisified, and its semantic core is extracted.",
+              "2. Association & Graph Injection: The new memory item (node) is written into the graph data model along with timestamps, spatial context, and semantic relationships (edges) established with other nodes in the existing memory graph.",
+              "3. Retrieval & Reinforcement: When the user performs an action on a similar topic, the relevant node is retrieved. Each successful retrieval increases the accessibility score (weight) of the node and associated edges (Hebbian learning rule).",
+              "4. Decay & Pruning: Over time, the weight of nodes that are not retrieved and become outdated algorithmically decreases (forgetting). Nodes with low scores are not permanently deleted but are pushed to the background to be out of context."
+            ]
+          },
+          {
+            "heading": "Memory Flow Diagram",
+            "paragraphs": [
+              "For developers, the memory flow diagram follows this technical sequence:",
+              "Raw Input ➔ NLP Pipeline (Intent Filtering) ➔ Vector Embeddings Creation ➔ Semantic Provenance Graph Injection ➔ Time-based Decay Score Calculation."
+            ]
+          },
+          {
+            "heading": "Representation in Architecture",
+            "paragraphs": [
+              "To manage this dynamic lifecycle at the code level, an advanced data model is needed where information can be represented along with its temporal, identity, and provenance layers. In the next section, we will examine this data model (Semantic Provenance Graph) in full detail."
             ]
           }
         ],
@@ -261,18 +574,31 @@
         "references": []
       }
     },
-    "new-digital-organ": {
-      "title": "12. A New Digital Organ",
-      "purpose": "To define the place of persistent semantic memory in civilization history.",
-      "key_question": "What is the next step after the layers invented throughout history?",
+    "memory-representation": {
+      "title": "15. Representation of Memory",
+      "purpose": "Detailing the Semantic Provenance Graph data model.",
+      "key_question": "How are the layers of memory, time, and identity represented at the code level?",
       "draft": {
         "sections": [
           {
-            "heading": "12. A New Digital Organ",
+            "heading": "What is a Semantic Provenance Graph (SPG)?",
             "paragraphs": [
-              "Human civilization has invented: Writing, Libraries, Search engines, Cloud storage, Artificial Intelligence.",
-              "The next layer: Persistent semantic memory.",
-              "Not to replace human intelligence. But to extend it."
+              "> Saule's data model is the Semantic Provenance Graph architecture, which holds semantic relationships, temporal flow, and data provenance together.",
+              "Traditional knowledge graphs only statically model relationships between objects (A is B's manager). Vector databases, on the other hand, only measure text similarity. Saule has developed the Semantic Provenance Graph (SPG) model to overcome the limitations of these two approaches. SPG represents the data itself, along with metadata indicating from which source (Slack, Notion, browser), when, by whom, and with what intent (provenance) that data was produced, all within a single unified graph structure."
+            ]
+          },
+          {
+            "heading": "SPG Node and Edge Structure",
+            "paragraphs": [
+              "At the code level, an SPG node has the following schema:",
+              "```json\n{\n  \"id\": \"mem_01h8x9\",\n  \"type\": \"epizodic | semantic\",\n  \"content\": \"We decided to use Rust in project X with Ahmet.\",\n  \"embedding\": [0.012, -0.045, ...],\n  \"created_at\": 1783156054,\n  \"decay_weight\": 0.98,\n  \"provenance\": {\n    \"source\": \"slack_channel_dev\",\n    \"author\": \"user_id_45\",\n    \"session_id\": \"sess_89\"\n  }\n}\n```",
+              "Edges hold semantic (\"rust_is_used_for_x_project\"), temporal (\"created_after\"), and causal (\"rust_chosen_because_of_memory_safety\") relationships between nodes, along with their dynamic strength scores."
+            ]
+          },
+          {
+            "heading": "Impact on Design",
+            "paragraphs": [
+              "The SPG data model enables Saule to store pieces of information not merely as text, but with all their contextual roots. In the next section, we will see how dynamic context, to be fed into AI models, is built (retrieval & composition) based on this rich graph structure."
             ]
           }
         ],
@@ -282,20 +608,33 @@
         "references": []
       }
     },
-    "vision": {
-      "title": "13. Vision",
-      "purpose": "To explain the shared intellect vision for individuals, teams, and companies.",
-      "key_question": "To whom should memory belong?",
+    "retrieval-composition": {
+      "title": "16. Memory Retrieval and Context Creation",
+      "purpose": "To explain semantic retrieval and super-node contextualization.",
+      "key_question": "How does Saule feed the right context to LLMs at the right time?",
       "draft": {
         "sections": [
           {
-            "heading": "13. Vision",
+            "heading": "Inadequacy of Vector Search and Super-Node Context Composition",
             "paragraphs": [
-              "We believe that:",
-              "Every individual deserves a lifelong memory.",
-              "Every creative team deserves a shared intellect that preserves its context.",
-              "Every company deserves an indelible corporate memory.",
-              "Memory must belong to the people who create it. Not to the platforms they happen to use."
+              "> Context generation is not a simple vector search, but a dynamic orchestration built with super-node contextualization and semantic provenance tracking.",
+              "Classical RAG systems retrieve the top 5 vector texts that best match the user's query and send them to the LLM. However, these snippets often lack context. For example, in response to the query \"What was the decision in the Rust project?\", only the sentence \"We will use Rust\" might be returned; however, the reasons for that decision and the risks discussed are omitted. To overcome this problem, Saule uses the Super-Node Context Composition method. When a node matching the query is found, temporal and semantic neighbor nodes (provenance path) directly connected to that node in the SPG graph are also retrieved, creating a hierarchical and rich context block."
+            ]
+          },
+          {
+            "heading": "Context Creation Algorithm",
+            "paragraphs": [
+              "Saule's search engine follows this algorithm:",
+              "1. Convert the query into a vector and perform a semantic similarity search on the SPG.",
+              "2. Extract the relational graph (provenance sub-graph) around the nodes with the highest scores.",
+              "3. Arrange the timestamps of the nodes in chronological order to prevent temporal shift (context drift).",
+              "4. Eliminate nodes whose weight has decreased according to the active forgetting score, and package the cleanest context (context composition) in accordance with the model's limits."
+            ]
+          },
+          {
+            "heading": "Privacy Integration",
+            "paragraphs": [
+              "This rich context generation process should not jeopardize the security of user data. In the next section, we will examine how these advanced search and orchestration processes are carried out in an encrypted manner, preserving user privacy."
             ]
           }
         ],
@@ -305,19 +644,352 @@
         "references": []
       }
     },
-    "closing-manifesto": {
-      "title": "Closing Manifesto",
-      "purpose": "To declare the place of thinking and remembering in human progress.",
-      "key_question": "How do thinking and remembering unite?",
+    "isolation-privacy": {
+      "title": "17. Memory Isolation and Privacy",
+      "purpose": "Addressing the Workspace security and E2EE/local processing paradox.",
+      "key_question": "How can we run semantic searches while encrypting data end-to-end?",
       "draft": {
         "sections": [
           {
-            "heading": "Closing Manifesto",
+            "heading": "Cognitive Privacy Paradox",
             "paragraphs": [
-              "AI helps us think.",
-              "Semantic Memory allows us to remember.",
-              "Human progress requires both.",
-              "Saule is building humanity's memory layer."
+              "> Cognitive privacy must be absolutely protected with end-to-end encryption (E2EE) and local-first processing architecture.",
+              "A personal or corporate memory layer holds the user's most private decisions, intentions, and business secrets. Therefore, storing this data as plaintext on central cloud servers is unacceptable. However, when data is fully encrypted, it becomes difficult for AI models to perform semantic searches and establish relationships. Saule solves this cognitive privacy paradox with a local-first software architecture."
+            ]
+          },
+          {
+            "heading": "End-to-End Encryption (E2EE) and Local Vector Search",
+            "paragraphs": [
+              "Saule's data storage layer is built upon the following security protocols:",
+              "• Local Indexing and Embeddings: Vector embeddings generation and SPG relationships run on the user's own device (local).",
+              "• E2EE Synchronization: When synchronizing data between devices, all nodes and graph edges are end-to-end encrypted with the user's own key (Zero-Knowledge). The cloud server only carries encrypted bits; it can never see the content of the data.",
+              "• Protected Workspaces (Memory Isolation): Individual and corporate memory spaces are strictly isolated from each other; a team's corporate memory can never leak into another user's or model's training data."
+            ]
+          },
+          {
+            "heading": "Towards Model Independence",
+            "paragraphs": [
+              "The privacy layer must ensure that while keeping the user's data secure, it can also safely interact with different cloud or local AI models. In the next section, we will examine how this memory structure operates completely independently of models."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "model-agnostic": {
+      "title": "18. Model-Agnostic Artificial Intelligence",
+      "purpose": "To explain memory's persistence independent of LLMs.",
+      "key_question": "How is memory ownership and continuity preserved as models change?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "The End of Model Dependence (The Decoupled Architecture)",
+            "paragraphs": [
+              "> Artificial intelligence models are transient reasoning engines; semantic memory, on the other hand, should be a persistent, user-owned infrastructure layer beyond the models.",
+              "Today, many applications entrust memory functions to assistant APIs provided by vendors like OpenAI, Anthropic, or Google. This approach locks the user into that provider and carries the risk of the entire memory structure being corrupted when the model is updated. Saule completely decouples the memory layer from the reasoning engine (LLM). The model is like a 'processor' (CPU) called only to solve the current logical query; memory, on the other hand, is the persistent 'hard disk' (SML) on the motherboard."
+            ]
+          },
+          {
+            "heading": "Standardized Memory Interface (SMI)",
+            "paragraphs": [
+              "Saule provides a standardized interface (Semantic Memory Interface - SMI) between models and memory. SMI provides a translation layer that allows any model used (whether a local Llama model or Claude 3.5 in the cloud) to read and write the same semantic graph structure. Memory is not lost as the model changes; the new model continues to read the past contextual capital via the SMI protocol from where it left off. This enables organizations to switch between the most current and economical models in seconds, without being locked into a single AI provider."
+            ]
+          },
+          {
+            "heading": "Future Standards",
+            "paragraphs": [
+              "Saule's principle of model independence transforms it from being just an application into a common protocol for the entire artificial intelligence ecosystem. In Part IV, we will further expand on this vision, seeing how we are building open-source memory protocols, the developer ecosystem, and the future new structural layer of computation."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "part-4-interlude": {
+      "title": "Part IV Introduction: Future Vision",
+      "purpose": "Part IV transition text.",
+      "key_question": "How will the semantic memory layer shape its future at an organizational and societal level?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "",
+            "paragraphs": [
+              "> Memory is not just an individual repository; it is a collective standard that will carry humanity's common cognitive accumulation into the future in the age of artificial intelligence.",
+              "We have detailed Saule's philosophical starting points, the founding principles of human memory, and the technical code-level counterparts of the Semantic Provenance Graph architecture. However, Saule is not just an individual assistant or an institutional tool. It is a future vision with portable and open standards, allowing all software and models to communicate collaboratively.",
+              "Part IV will outline Saule's future position and its impact on societal cognition. We will discuss the vision of the Open Memory Protocol (Open Memory Protocol), which will enable different memory layers to communicate securely with each other, the ecosystem we built for developers, and 'The Cognitive Layer,' the new infrastructure layer after operating systems and the cloud. We will conclude this whitepaper by portraying the ultimate convergence of the human mind and digital memory in the new era."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "open-memory-protocol": {
+      "title": "19. Towards an Open Memory Protocol",
+      "purpose": "To introduce the vision of an open and portable memory protocol.",
+      "key_question": "How to create a common standard that allows memory systems to communicate with each other?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "Closed Platforms and Memory Silos",
+            "paragraphs": [
+              "> In the digital world of the future, memory should not be trapped in closed ecosystems; it should be liberated by an open, portable, and universal memory protocol (OMP).",
+              "All software we use today (SaaS platforms) stores data in its own databases, locking the user into its own ecosystem. When you want to switch from one platform to another, you lose not only your data but also the context and historical accumulation behind that data. In the age of artificial intelligence, this siloization creates a cognitive division. The memory of an individual or organization, which should be a single whole, is fragmented among dozens of closed applications. To solve this problem, Saule proposes the Open Memory Protocol (OMP) standard."
+            ]
+          },
+          {
+            "heading": "Structure and Protocol Rules of the OMP Standard",
+            "paragraphs": [
+              "The Open Memory Protocol is a protocol that enables the transfer of semantic memory nodes, edges, and data provenance in an encrypted, portable, and standard JSON format between devices and applications. Thanks to OMP:",
+              "• Memory Portability: The user can transfer their memory graph from one application to another or from one AI assistant to another in seconds, without any loss of data or context.",
+              "• Interoperability: Different applications (e.g., an email client and a project management tool) can add data to the user's central memory layer and read context from it within secure boundaries via OMP."
+            ]
+          },
+          {
+            "heading": "Developer Network",
+            "paragraphs": [
+              "The OMP standard paves the way for AI developers to build software on a common and free memory ecosystem, without being dependent on closed APIs. In the next section, we will examine the developer tools and SDK ecosystem that will bring this standard to life."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "developer-ecosystem": {
+      "title": "20. Developer Ecosystem",
+      "purpose": "To explain SDK, API, and autonomous agent integrations.",
+      "key_question": "How do developers integrate Saule's memory layer into their own software?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "Saule SDK and Ease of Integration",
+            "paragraphs": [
+              "> The Saule Ecosystem provides developers with a cognitive infrastructure through SDKs, standardized APIs, and autonomous memory agents.",
+              "The success of a memory layer is measured by how easily it can be adopted by the developer community. Saule offers lightweight SDKs written in TypeScript, Python, and Rust. With just a few lines of code, developers can provide their AI applications, chat interfaces, or autonomous agents with a persistent and living memory.",
+              "```typescript\nimport { SauleClient } from '@saule/sdk';\nconst client = new SauleClient({ endpoint: 'local' });\n// Yeni bir bellek girdisi ekleme\nawait client.memory.ingest({\n  content: \"Proje mimarisinde Postgres kullanılmasına karar verildi.\",\n  source: \"meeting_notes\"\n});\n```"
+            ]
+          },
+          {
+            "heading": "Autonomous Memory Agents",
+            "paragraphs": [
+              "The Saule ecosystem supports developers not only in querying data but also in developing autonomous memory agents that run in the background, detect semantic drifts (context drift detectors), algorithmically prune outdated information, and organize the graph. This allows software to have self-optimizing dynamic memory structures instead of slow, cumbersome databases that degrade over time."
+            ]
+          },
+          {
+            "heading": "The New Computing Era",
+            "paragraphs": [
+              "The growth of the developer ecosystem will fundamentally change the relationship between computers and the human mind. In the final section, we will discuss how this cognitive infrastructure will be positioned as the next major computing layer (The Next Computing Layer) after operating systems and the cloud."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "next-computing-layer": {
+      "title": "21. New Computing Layer",
+      "purpose": "To position SML as the new infrastructure layer in the computing world.",
+      "key_question": "After operating systems and the cloud, what will be the new structural layer of computing?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "Layers of Computing History and the Cognitive Revolution",
+            "paragraphs": [
+              "> The new structural layer of computing will be the independent Semantic Memory Layer (SML), rising above hardware, operating systems, and the cloud.",
+              "The history of computers is a history of abstraction layers. We first started at the hardware level (transistors and wires). Then we built the Operating Systems (OS) layer that managed this hardware. With the internet age, we added the Cloud layer, which globalized data and processes. Today, with the artificial intelligence revolution, a new layer is emerging above these three layers: The Cognitive Layer. This layer is not just storing or transmitting data; it is a living memory infrastructure that organizes meaning, time, identity, and intentions."
+            ]
+          },
+          {
+            "heading": "Saule as the Cognitive Layer",
+            "paragraphs": [
+              "Saule is the foundational engine of this cognitive layer. Hardware may change, operating systems may evolve, large language models may come and go; but the semantic memory accumulated over time by the human mind and organizations must remain constant and sovereign. Saule transforms computers from silent tools that merely execute commands literally into living mental partners that protect, expand, and carry human cognition beyond the limits of time."
+            ]
+          },
+          {
+            "heading": "Closing Declaration",
+            "paragraphs": [
+              "Saule White Paper v1.0 is not merely a document of a technology architecture; it is a commitment to preserve human sovereignty over one's digital existence, attention boundaries, and intellectual property. Intelligence is general and is rapidly being commoditized; but what makes us who we are, what makes our decisions unique, is our memory. Saule is here to return this memory to its owner and to make the human mind absolutely sovereign in the cognitive world of the future. Intelligence may change. Memory is permanent."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    }
+  },
+  "appendices": {
+    "competitor-analysis": {
+      "title": "Appendix A: Competitor Analysis & Moat",
+      "purpose": "Comparison of Saule with other AI memory systems and analysis of the cognitive moat.",
+      "key_question": "Why can't existing AI memory solutions replace an independent memory layer?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "Cognitive Memory Solutions Comparison Matrix",
+            "paragraphs": [
+              "> Saule distinguishes itself from closed model memories and simple RAG integrations through data isolation, model agnosticism, and semantic provenance tracking.",
+              "Recent memory approaches in the AI ecosystem generally attempt to bypass the stateless nature of models using temporary patches. The differences between these approaches and an independent Semantic Memory Layer (SML) are summarized below:",
+              "• OpenAI/Claude Memory: Offers flat and Key-Value based simple recall. No model independence (runs on a single model), data is in the cloud, and offers no privacy guarantee. No network effect.",
+              "• RAG / Vector Databases: Searches based on raw text vector similarity. Lacks semantic depth and chronological relations; data organization is static.",
+              "• Mem0 / Zep: Stores episodic vector memory. Partially model independent, but the data structure is rigid and does not offer local-first privacy.",
+              "• Letta / MemGPT: Manages temporary scratchpads of agents. Lacks application portability and cross-workspace network effects.",
+              "• Saule (SML): Uses the Semantic Provenance Graph (SPG) structure. Completely model-agnostic, offers Zero-Knowledge encryption and local-first storage, and generates cross-workspace network effects (Collective Intelligence)."
+            ]
+          },
+          {
+            "heading": "Why Saule Cannot Be Replaced by an LLM (Defensibility)",
+            "paragraphs": [
+              "A critical question for investors and architects is: 'Why won't Saule become obsolete when OpenAI or Anthropic perfect their own memory systems?' The answer lies in Saule's three structural moats:",
+              "1. Model Decoupling: OpenAI memory cannot be read by Claude; Claude memory cannot be utilized by a local Llama model. Memory must belong to its owner. Saule treats models as transient processing units, making memory persistent and portable.",
+              "2. Cross-Application Context: A single model provider cannot unify data across Slack, Notion, browser, and emails into a single semantic provenance graph (SPG) and transcend corporate silos.",
+              "3. Zero-Knowledge Privacy: Enterprises cannot entrust their most confidential business processes and intentions to the open databases of cloud LLM providers. Saule's local-first, encrypted architecture secures cognitive ownership legally and technically."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "roadmap-business": {
+      "title": "Appendix B: Roadmap & Business Model",
+      "purpose": "Roadmap from MVP to semantic operating system and corporate business model.",
+      "key_question": "How will Saule grow in the cognitive infrastructure market and generate network effects?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "Roadmap from MVP to Semantic OS",
+            "paragraphs": [
+              "> A roadmap extending from individual memory to collective transactive memory produces persistent market value through semantic network effects.",
+              "Saule's vision is a 4-phase growth plan extending from a single assistant interface to global internet computing infrastructure:",
+              "• Phase 1: Personal SML & Local Core — Browser extension and Terminal UI (observation), local SQLite database (storage), local embedding/tiny LLM models, and local encrypted CRDT/Yjs sync setup.",
+              "• Phase 2: Workspace SML — Setting up transactive memory infrastructure for teams with Slack, Notion, and GitHub integrations to prevent corporate amnesia.",
+              "• Phase 3: Open Memory Protocol (OMP) — Launching the protocol enabling different applications and autonomous agents to speak with Saule via standardized APIs.",
+              "• Phase 4: Semantic OS — Constructing a new generation operating system layer running directly in compatibility with human cognition, built on hardware and cloud layers."
+            ]
+          },
+          {
+            "heading": "Business Model and Revenue Streams",
+            "paragraphs": [
+              "Saule commercializes through an open-core and SaaS subscription model:",
+              "• Saule Community (Open Source): Entirely free local memory engine for individual developers and users running local devices.",
+              "• Saule Professional: Monthly subscription model for professionals seeking advanced synchronization, cloud backup, and API access.",
+              "• Saule Enterprise: Corporate licensing model offering isolated memory spaces, transactive memory graphs, advanced role permissions, and dedicated E2EE sync infrastructure. Preventing corporate amnesia to avoid reinventing the wheel is the biggest source of ROI for the enterprise segment."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "technical-roadmap": {
+      "title": "Appendix C: Technical Roadmap & Cognitive Architecture",
+      "purpose": "To detail the 6-layer technical architecture, database schema, and 4-phase roadmap of the Saule SML layer.",
+      "key_question": "How is Saule SML architecture structured technically and implemented in phases?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "Cognitive and Developmental Loops",
+            "paragraphs": [
+              "> Saule is not a static query-response engine. It operates on a continuous, self-feeding cognitive loop (Adaptive Intelligence Loop).",
+              "Architectural Status & Disclaimer: The 6-layer cognitive operating system (Cognitive OS) and local encrypted infrastructure described in this document represent Saule's long-term technical target and design blueprint. The current functional prototype operates on a cloud-based Firestore and API integration, executing hybrid context routing and similarity validation. The specified offline-first components and local tiny LLM integrations will be rolled out sequentially according to the roadmap phases below.",
+              "Memory Lifecycle: No memory unit remains static. It decays and moves through a structured lifecycle over time: Capture ➔ Episode ➔ Summarize ➔ Link ➔ Strengthen ➔ Decay ➔ Archive ➔ Delete.",
+              "Learning Loop: The system improves its context accuracy dynamically through user feedback: Execution ➔ Feedback ➔ Learning ➔ Policy Update ➔ Observe. Direct or indirect user feedback updates local Policy Engine parameters and semantic weighting algorithms."
+            ]
+          },
+          {
+            "heading": "Intelligence Orchestrator (Central Supervisor)",
+            "paragraphs": [
+              "The Orchestrator is the cognitive manager and coordinator of Saule, supervising sub-schedulers:",
+              "• Task Scheduler: Schedules when background processes (Consolidation, Forgetting, Compression) execute (e.g. when idle & charging).",
+              "• Memory Scheduler: Orchestrates which memory spaces (Personal, Workspace) are queried and how noise-free context is composed.",
+              "• Agent Router: Routes context and intent to specific autonomous agents (email agent, calendar worker).",
+              "• Resource Manager: Regulates SQLite storage size, RAM limits, and CPU usage to keep footprint minimal.",
+              "• Model Selector: Dispatches tasks to either Local Tiny LLMs or Cloud APIs based on privacy constraints, complexity, and budget."
+            ]
+          },
+          {
+            "heading": "6-Layer Cognitive OS Architecture",
+            "paragraphs": [
+              "Saule Core features a 7-layer modular architecture supervised by the central Orchestrator:",
+              "1. Observation Layer: Abstracts context gathering into Human (speech, actions), Digital (browser tab, IDE, workspace), and Physical (location, microphone, camera).",
+              "2. Context Layer: Fuses multi-modal inputs to compute Attention Score & Priority.",
+              "3. Policy Engine: Enforces privacy rules, authorization gates, and workspace separation policies.",
+              "4. Semantic Memory Layer: House-keeps the Space-Aware Knowledge Graph (Personal ➔ Workspace ➔ Community ➔ Organization), handles decoupled embeddings, and runs background jobs.",
+              "5. Reasoning Layer: Manages hybrid search, multi-step planning, and local rule inference.",
+              "6. Execution Layer: Desktop overlay UI and feedback automation loops.",
+              "7. Sync Layer: Encrypted Yjs/CRDT sync supporting Offline, P2P, Cloud, and Enterprise sync."
+            ]
+          },
+          {
+            "heading": "Hierarchical Memory Model & SQLite Schema",
+            "paragraphs": [
+              "Saule's memory nodes extend from 6 base categories (Knowledge, Experience, Action, Relationship, Identity, Resource) and branch into sub-types (decisions, tasks, facts, files). Our SQLite schema is decoupled for longevity:",
+              "• `nodes`: Basic memory units hosting id (PK), category, type, space type, content, and decay score.",
+              "• `embeddings`: Isolated vector index (node_id FK, model_name PK, dimension, vector). Decoupling allows changing embedding models without resetting nodes.",
+              "• `edges`: Relation table with source_id, target_id, relation_type, confidence score, creator (ai/user/system), and consolidation reason.",
+              "• `provenance`: Ingestion context details containing app name, active window title, URL, file path, device ID, workspace, and action."
+            ]
+          },
+          {
+            "heading": "Cognitive Privacy Paradox & Local/Collective E2EE Solution",
+            "paragraphs": [
+              "Storing memory securely on a local device and maintaining zero-leak shared workspaces is solved via the following cryptographic architecture:",
+              "• Local Device Security: The local SQLite database is encrypted at rest using AES-256-GCM (sqlcipher) with a key derived locally via PBKDF2 from the user's master password (which never leaves the device). Unauthorized local applications cannot access Saule's data files.",
+              "• Collective/Shared Workspace Sync (Zero-Knowledge P2P Key Exchange): For shared workspaces (Workspace Memory) where multiple users access a common graph, Asymmetric Cryptography (ECDH/RSA) is used. Group members exchange a Workspace Symmetric Encryption Key peer-to-peer (P2P). Every CRDT Yjs state update is encrypted locally with this key before being synced to the cloud. The central cloud server acts as a relay of encrypted bytes and has no decryption keys, preserving the Zero-Knowledge privacy model across group environments."
+            ]
+          },
+          {
+            "heading": "Autonomous Observation, Idle State Management, and I/O Optimization",
+            "paragraphs": [
+              "To avoid disk strain and consume near-zero energy while running in the background, Saule implements the following optimizations:",
+              "• RAM-Only Volatile Ring Buffer (Disk Write Consolidation): Micro-activities (keystrokes, mouse movements) are not written directly to the SSD; they are held in a volatile ring buffer in RAM. When the Attention Filter determines that an episode has ended (e.g., the user leaves a Notion page they've been typing on for 3 minutes and focuses on the browser), this data is written to SQLite in a single write transaction.",
+              "• Idle State Management and Retroactive Timestamping: When the user ceases keyboard/mouse movements for more than 3 minutes, the system enters an 'Idle' state and suspends recording. The end time of the episode is recorded not as the moment the user steps away from the computer, but as the moment they last pressed a key (retroactive timestamping), thus preventing 'ghost attention' data. When the screen saver or lock activates, listening stops entirely, and the recommendation engine is frozen for on-screen privacy.",
+              "• Two-Stage Search Filter and Batch Indexing: To avoid continuously computing heavy embeddings and straining the CPU, a fast word-based BM25 filter runs first. Only when the similarity threshold is exceeded are local ONNX embedding and cosine search triggered. Newly added raw episodes are not indexed immediately; instead, they are batch-indexed in the background when the computer is idle and charging (Dream State)."
+            ]
+          },
+          {
+            "heading": "Autonomous (Active) and Interactive (Passive) User Modes",
+            "paragraphs": [
+              "To balance user privacy sensitivity with cognitive load, the system offers two distinct operating modes:",
+              "• Autonomous Observation Mode (Autonomic Mode / Subconscious): This is the default mode. Active listening, the attention filter, and the resonance engine operate continuously in the background. Applications such as banking or incognito tabs are automatically excluded from listening by blacklist rules.",
+              "• Interactive / Manual Mode (Interactive Mode / Conscious): Background observers are completely shut down. The system does not listen to the operating system or browser. It only operates when the user directly interacts: Memory is created through consensual and explicit actions such as typing into Terminal HQ with Alt+Space, right-clicking selected text and saying 'Remind Saule', recording an audio episode on a mobile device, or saying 'Save Current Session' from the floating island.",
+              "• UI/UX Status Representation: The Floating Island on the desktop reflects the system's current mode to the user with a subtle pulsing animation (Blue/Green: Autonomous, Gray/Still: Manual) and allows switching between modes with a single click."
+            ]
+          },
+          {
+            "heading": "Tauri Desktop and Mobile Roadmap",
+            "paragraphs": [
+              "Saule's 4-quarter local integration roadmap consists of:",
+              "• Phase 1: Personal SML & Local Core — SQLite graph tables layout, implementing Cognitive API methods (`remember`, `recall`, `connect`), local nomic-embed & Llama-3-8B-Instruct integration, Browser extension & Terminal UI (observation), and Yjs/CRDT encrypted sync setup.",
+              "• Phase 2: Expanded Observation & Context Fusion — Gathering Clipboard, Selection, Git branch, and Accessibility Tree contexts, computing priority, and launching consolidation decay workers.",
+              "• Phase 3: OS Floating Island UI — Transparent desktop overlay widget, Alt+Space SML Terminal HQ interface, and active suggestion automation engine.",
+              "• Phase 4: Mobile Integration & Epizodic Voice — React Native mobile client accessing local audio recording, transcribing via local Whisper model, and syncing to the desktop graph."
+            ]
+          },
+          {
+            "heading": "Positioning Hierarchy: SML Brand & OS Analogy",
+            "paragraphs": [
+              "Semantic Memory Layer (SML) is the official software category that Saule introduces to the market. Just like RDBMS or Document Stores, SML is an independent software layer integrated between apps and models.",
+              "Cognitive Operating System (Cognitive OS) is the architectural analogy explaining how this SML layer positions itself on top of operating systems (macOS/Windows) and cloud, performing active cognitive tasks (observation, policy enforcement, consolidation, automation)."
             ]
           }
         ],

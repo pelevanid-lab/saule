@@ -235,13 +235,17 @@ export default function TerminalUI({ dict, locale, workspaceId }: { dict: any; l
               Eklentiyi İndir ve Kur (Beta)
             </h3>
             
-            <div className="bg-sand-50 border border-sand-200 rounded-lg p-4 mb-5 text-sm text-charcoal font-medium leading-relaxed">
+            <div className="bg-sand-50 border border-sand-200 rounded-lg p-4 mb-5 text-sm text-charcoal font-medium leading-relaxed overflow-y-auto max-h-[300px]">
               <p className="mb-3">Bu sürüm henüz Web Mağazasına yüklenmemiştir. Eklentiyi kurmak için şu 3 basit adımı izleyin:</p>
-              <ol className="list-decimal pl-5 space-y-2 text-charcoal-muted">
+              <ol className="list-decimal pl-5 space-y-2 text-charcoal-muted mb-4">
                 <li><strong className="text-charcoal">Aşağıdaki butondan ZIP dosyasını indirin</strong> ve masaüstünde bir klasöre çıkartın.</li>
                 <li>Chrome adres çubuğuna <code className="bg-sand-200 px-1 py-0.5 rounded text-sage-dark select-all">chrome://extensions/</code> yazıp Enter'a basın.</li>
                 <li>Sağ üstteki <strong>"Geliştirici modunu" (Developer mode)</strong> açın, sol üstteki <strong>"Paketlenmemiş öğe yükle" (Load unpacked)</strong> butonuna tıklayıp ZIP'ten çıkardığınız klasörü seçin.</li>
               </ol>
+              <div className="bg-sand-200/50 p-3 rounded border border-sand-300 text-xs text-charcoal-muted">
+                <strong className="text-sage-dark block mb-1">🔄 Güncelleme Yapacaklar İçin Not:</strong>
+                Eğer eklentiyi daha önce kurduysanız; yeni indirdiğiniz klasörü eskisinin üzerine yazdırın ve eklentiler (<code className="bg-sand-200 px-1 rounded">chrome://extensions/</code>) sayfasındaki Saule eklentisi kartından <strong>Yenile (Refresh)</strong> butonuna basın.
+              </div>
             </div>
 
             <div className="flex justify-between items-center">

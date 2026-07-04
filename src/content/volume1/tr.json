@@ -1,18 +1,21 @@
 {
   "chapters": {
-    "summary": {
-      "title": "Başlangıç: Yaşayan Bir Hafıza",
-      "purpose": "Saule White Paper'ın temel vizyonunu özetlemek.",
-      "key_question": "Yapay zekâ çağında zekâ mı yoksa hafıza mı değer kazanacak?",
+    "foreword": {
+      "title": "Önsöz: Bu Belge Neden Var?",
+      "purpose": "Hafıza krizini ve bu belgenin niyet beyanını özetlemek.",
+      "key_question": "Yapay zekâ her şeyi düşünürken, bizim neyi hatırlamamız gerekiyor?",
       "draft": {
         "sections": [
           {
-            "heading": "Başlangıç",
+            "heading": "",
             "paragraphs": [
-              "Bu White Paper, yapay zekâ çağında insan zihni ve dijital araçlar arasındaki ilişkinin nasıl yeniden kurulabileceğini araştırıyor.",
-              "Günümüzde zekâ her yerde bulunabilir hale geliyor. Ancak bu zekânın üzerinde çalışacağı asıl insani bağlam, anılar, kararlar ve niyetler günden güne daha fazla parçalanıyor.",
-              "Saule'nin vizyonu, teknolojiyi daha fazla zeki yapmak değil; insanı, ekipleri ve toplulukları zaman içinde anlayan ve onların kurumsal, kişisel hafızasını koruyan bir katman inşa etmektir.",
-              "Zekâ bir araçtır. Hafıza ise kimliğin ta kendisidir."
+              "Yapay zekâ devrimi, zekâyı emtialaştırırken insan olmanın, düşünmenin ve karar vermenin anlamını kökten değiştiriyor. Bugün akıl yürütme yeteneği (reasoning) her geçen gün daha ucuz, daha hızlı ve daha erişilebilir hale geliyor. Makineler bizim yerimize analiz ediyor, sentezliyor ve üretiyor. Ancak bu büyük zihinsel devrimin gölgesinde, sessiz ve tehlikeli bir şey yitiyor: Bize ait olan bağlam, yani kişisel ve kurumsal hafızamız. İnsan zihni, kararlarını sadece o andaki soğuk mantık kurallarıyla değil; geçmişin izleri, alınmış riskler, elenmiş alternatifler ve o ana has benzersiz niyetler (intentions) üzerine kurar. Zekâ ne kadar gelişirse gelişsin, onu yönlendiren özgün bir bellek tabanı olmadığı sürece havada asılı kalmaya mahkûmdur.",
+              "Bugün dijital dünyada karşılaştığımız asıl açmaz, bilgi eksikliği değil, bağlamın parçalanması ve yitip gitmesidir. Kullandığımız e-postalar, notlar, mesajlar ve anlık sohbetler zihnimizin ve işimizin parçalarını tutuyor; fakat hiçbiri resmin tamamını bilmiyor. Daha da vahimi, bugün hayatımızı kolaylaştıran yapay zekâ asistanları bile bize geçici bir bellek illüzyonu sunuyor. Onların hafızası düzdür, modele kilitlidir, sohbet pencereleri kapandığında silinmeye yazgılıdır. Biz yapay zekâ asistanlarına her gün kendimizi, işimizi ve hedeflerimizi sıfırdan anlatmak zorunda kalıyoruz. Bu durum bizi sürekli bir dijital unutkanlığa sürüklüyor ve karar verme enerjimizi (Sistem 2 bilişsel kaynaklarımızı) sürekli olarak dünün bağlamını hatırlamaya çalışarak tüketiyor.",
+              "Bu belge, işte bu sessiz krize karşı verilmiş radikal bir niyet beyanıdır. Bir ürünün tanıtım broşürü veya pazarlama materyali olmaktan uzaktır; bilgisayar ve bilişsel bilimler dünyasına yeni bir temel altyapı katmanı sunmayı hedefler: Anlamsal Bellek Katmanı (Semantic Memory Layer). Bu belge boyunca üç temel sorunun izini süreceğiz:",
+              "• Neden? Zekâ her yerde bulunabilir hale geldiğinde, insan bilişini korumak ve kalıcı rekabet avantajı sağlamak için neden bağımsız bir bellek katmanına ihtiyacımız var?",
+              "• Nasıl? İnsan belleğinin çağrışımsal, epizodik ve seçici çalışma prensiplerini somut ve çalışan yazılım kurallarına nasıl dönüştürebiliriz?",
+              "• Ne inşa ediyoruz? Modellerden bağımsız, mutlak kullanıcı egemenliğine dayalı ve yaşayan bir anlamsal belleği teknik olarak nasıl hayata geçiriyoruz?",
+              "Saule, insan zekâsını ikame etmek için değil; insan zihnini ve ortak aklımızı zamanın ve mekânın sınırları ötesinde kendi hafızasının mutlak egemeni kılmak için yazıldı."
             ]
           }
         ],
@@ -22,85 +25,18 @@
         "references": []
       }
     },
-    "memory-crisis": {
-      "title": "1. Bellek Krizi",
-      "purpose": "Modern dünyada bilginin parçalanmasını analiz etmek.",
-      "key_question": "Bilgi varlığını sürdürürken bağlam neden kaybolur?",
+    "part-1-interlude": {
+      "title": "Kısım I Giriş: Hafıza Neden Önemli?",
+      "purpose": "Kısım I geçiş ve zihinsel hazırlık metni.",
+      "key_question": "Akıl yürütme modellerinin gölgesinde, insanın kendi bağlamını koruması neden hayati bir zorunluluktur?",
       "draft": {
         "sections": [
           {
-            "heading": "1. Bellek Krizi",
+            "heading": "Geçiş: Akıl ve Bellek",
             "paragraphs": [
-              "Modern insanın sorunu bilgi eksikliği değildir. Parçalanmış bellek krizidir.",
-              "Bilgi birikimimiz şu araçların içinde yaşıyor:",
-              "E-posta | Slack | WhatsApp | Google Drive | Notion | Takvimler | CRM'ler | Yapay Zekâ Sohbet Botları",
-              "Her platform hikâyenin küçük bir parçasını hatırlar. Hiçbiri hikâyenin tamamını bilmez.",
-              "Bilgi varlığını sürdürür. Bağlam kaybolur."
-            ]
-          }
-        ],
-        "open_questions": [],
-        "design_decisions": [],
-        "future_evolution": "",
-        "references": []
-      }
-    },
-    "ai-illusion": {
-      "title": "2. Yapay Zekâ İllüzyonu",
-      "purpose": "Yapay zekânın geçici ve modele kilitli hafızasını incelemek.",
-      "key_question": "Biriken bağlamınız kime aittir?",
-      "draft": {
-        "sections": [
-          {
-            "heading": "2. Yapay Zekâ İllüzyonu",
-            "paragraphs": [
-              "Mevcut yapay zekâ sistemleri zeki görünür çünkü konuşmaları hatırlarlar. Ancak bu hafıza: Platforma özeldir, Modele kilitlidir, Geçicidir, Sağlayıcıya (vendor) bağımlıdır.",
-              "Biriken bağlamınız size değil, yapay zekâ sağlayıcısına aittir. Bir modelden diğerine geçtiğinizde, aylarca veya yıllarca süren bağlamsal anlayış bir anda yok olur.",
-              "Dünya, zekâ inşa ettiğine inanıyor. Gerçekte ise, durmadan hafızayı baştan inşa ediyor.",
-              "Bugünün yapay zekâ asistanları, bizimle girdikleri her yeni diyalogda aslında sıfırdan başlarlar. Bizi tanımazlar, geçmişimizi bilmezler ve kararlarımızın arkasındaki asıl niyetleri hatırlamazlar.",
-              "Bu durum, yapay zekâyı bir ortak değil, sadece her seferinde yeniden talimat verilmesi gereken hızlı bir asistan konumuna indirger.",
-              "Gerçek bir 'Yaşayan Hafıza', sizin düşünce yapınızı, değerlerinizi ve çalışma biçiminizi öğrenir. Bağlamın modele kilitlenmesi yerine, size ait bir bellek katmanında özgürce var olması gerekir."
-            ]
-          }
-        ],
-        "open_questions": [],
-        "design_decisions": [],
-        "future_evolution": "",
-        "references": []
-      }
-    },
-    "intelligence-commodity": {
-      "title": "3. Zekâ Bir Emtiaya Dönüşüyor",
-      "purpose": "Geleceğin rekabet avantajı olarak hafızayı tanımlamak.",
-      "key_question": "Gelecekte asıl rekabet avantajı ne olacaktır?",
-      "draft": {
-        "sections": [
-          {
-            "heading": "3. Zekâ Bir Emtiaya Dönüşüyor",
-            "paragraphs": [
-              "Akıl yürütme modelleri (LLM'ler) çok yakında her yerde olacak. Kullanıcılar tıpkı tarayıcı seçer gibi modeller arasında geçiş yapacak. OpenAI. Anthropic. Google. Gelecekteki yepyeni modeller. Hepsi birbirinin yerine geçebilir (interchangeable) olacak.",
-              "Geleceğin asıl rekabet avantajı zekâ olmayacak. Hafıza olacak."
-            ]
-          }
-        ],
-        "open_questions": [],
-        "design_decisions": [],
-        "future_evolution": "",
-        "references": []
-      }
-    },
-    "semantic-memory-layer": {
-      "title": "4. Anlamsal Bellek Katmanını Sunuyoruz",
-      "purpose": "Saule SML mimarisini ve entegrasyon şemasını göstermek.",
-      "key_question": "LLM düşünürken Saule nasıl hatırlar?",
-      "draft": {
-        "sections": [
-          {
-            "heading": "4. Anlamsal Bellek Katmanını Sunuyoruz",
-            "paragraphs": [
-              "Saule, yapay zekâ modelleriyle rekabet etmez. Saule onlara entegre bir şekilde var olur.",
-              "Uygulamalar → Akıl Yürütme Modelleri (LLM'ler) → Saule Anlamsal Bellek Katmanı (SML) [Bilgi Grafiği | Vektör Bellek | Kimlik Grafiği | Zaman Çizelgesi | Çalışma Alanı Belleği] → İnsan Dijital Yaşamı",
-              "LLM düşünür. Saule hatırlar."
+              "> Teknoloji aklımızı hızlandırırken, hafızamızı ve kimliğimizi eritiyor.",
+              "İnsan zihni, dış dünyaya bıraktığı izlerle büyür. Taş tabletlerden kağıda, matbaadan dijital veri merkezlerine kadar kurduğumuz her bellek aracı, biyolojik sınırlarımızı aşma irademizin bir parçasıydı. Ancak bugün, tarihte ilk kez, bilgiyi sadece depolayan değil; onun üzerinde aktif olarak akıl yürüten (reasoning) sistemler geliştiriyoruz. Yapay zekâ modelleri devasa veri yığınlarını işleyip saniyeler içinde cevaplar üretirken, bizler bu hıza ayak uydurmak için kendi bağlamımızı, kararlarımızın çıkış noktasını ve zihinsel ayak izlerimizi onlara teslim ediyoruz. Bu teslimiyet, bizi yavaş yavaş kendi zihnimize yabancılaştırıyor.",
+              "Kısım I, bu bilişsel dönüşümün ve onun getirdiği krizin felsefi anatomisini çıkaracaktır. Bu bölümde, teknolojinin bizi daha zeki yapma vaadinin ardındaki hafıza kaybını; zekânın her yerde bulunabilir hale gelerek emtialaştığı bir dünyada kalıcı olan tek rekabet avantajının neden hafıza olduğunu; ve bu hafızayı korumak için neden tamamen yeni bir yazılım katmanına (Semantic Memory Layer) ihtiyaç duyduğumuzu keşfedeceğiz. Çünkü hatırlamak, sadece dünü bilmek değil; kim olduğumuzu ve yarın ne niyetle yola çıkacağımızı seçebilme gücüdür."
             ]
           }
         ],
@@ -111,17 +47,39 @@
       }
     },
     "living-memory": {
-      "title": "5. Yaşayan Hafıza",
-      "purpose": "Geleneksel yazılım ile yaşayan hafıza arasındaki farkı açıklamak.",
-      "key_question": "Deneyim zamanla nasıl evrilir?",
+      "title": "1. Yaşayan Hafıza",
+      "purpose": "Hafızanın tarihsel evrimini kurmak ve SML kategorisini tanımlamak.",
+      "key_question": "Yapay zekâ çağında zekâ mı, yoksa hafıza mı gerçek rekabet avantajını belirleyecek?",
       "draft": {
         "sections": [
           {
-            "heading": "5. Yaşayan Hafıza",
+            "heading": "Başlangıç: Yaşayan Bir Hafıza",
             "paragraphs": [
-              "Geleneksel yazılımlar bilgiyi depolar. Saule deneyimi depolar.",
-              "Şunları anlar: Bir karar neden alındı? Onu kim etkiledi? Hangi alternatifler mevcuttu? Hangi koşullar geçerliydi? Bilgi zamanla nasıl evrildi?",
-              "Hafıza canlanır."
+              "> Her bilişsel sıçrama, insanlığın hafızasını dışsallaştırma çabasının bir sonucu oldu. Saule, bu çabanın yapay zekâ çağındaki son adımıdır.",
+              "İnsanlık tarihi boyunca geliştirdiğimiz her teknoloji, bilişsel sınırlarimizi aşma çabamızın bir uzantısı olmuştur. Yazıyı bularak sesi zamandan kurtardık; kütüphaneler kurarak bilgiyi nesiller boyu sakladık; arama motorlarıyla devasa veri yığınlarını saniyeler içinde taranabilir hale getirdik. Bugün ise yapay zekâ (YZ) ile akıl yürütme ve analiz yeteneğimizi makinelerin hızına taşıyoruz. Ancak bu bilişsel devrimin tam ortasında, görünmez ve derin bir krizle karşı karşıyayız: Hafıza Krizi.",
+              "Bu krizin aşılmasına dair arayış aslında yeni değildir. 1945 yılında bilim insanı Vannevar Bush, ünlü \"As We May Think\" makalesinde, insanın tüm kayıtlarını ve iletişimlerini içinde saklayabileceği ve bunları anlamsal çağrışımlarla birbiriyle ilişkilendirebileceği mekanik bir cihaz hayal etmişti: Memex. Bush, Memex'i insan hafızasının yapay ama son derece samimi bir uzantısı (an enlargement of intimate memory) olarak kurgulamıştı. 80 yıl boyunca bu vizyon, kişisel bilgi yönetiminin felsefi kutup yıldızı olarak kaldı. Ancak insan aklının çağrışım yeteneğini makinelere aktaracak teknolojik altyapıdan yoksunduk. Bugün, büyük dil modelleri ve anlamsal veri tabanları sayesinde, Bush’un Memex düşü ilk kez gerçekten uygulanabilir ve yaşayan bir yapıya dönüşme fırsatına sahip.",
+              "Günümüzün modern iş ve yaşam ritminde, kararlarımız, deneyimlerimiz ve niyetlerimiz düzinelerce dijital araç arasına dağılmış durumda. E-postalar, mesajlaşma kanalları, not uygulamaları ve CRM sistemleri... Her biri dijital varlığımızın küçük birer parçasını hatırlıyor, fakat hiçbiri hikâyenin tamamını bilmiyor. Bilgi her zamankinden daha fazla üretiliyor ve saklanıyor; ancak o bilginin arkasındaki asıl insani bağlam (kararların neden alındığı, hangi alternatiflerin elendiği ve o andaki niyetler) zamanın içinde silinip gidiyor.",
+              "Bilişsel psikolog Daniel Kahneman'ın ortaya koyduğu gibi, insan zihni iki sistemle çalışır: Hızlı, otomatik çalışan Sistem 1 ve yavaş, derin odaklanma gerektiren analitik Sistem 2. Dijital bilgi parçalanması ve sürekli bağlam değiştirme (context switching), sınırlı enerjiye sahip Sistem 2'nin sınırlı bilişsel kaynaklarını sürekli tüketir ve kullanılabilir analitik kapasitesini azaltır. Karar vericiler dün neyi neden yaptıklarını hatırlamak için zihinsel enerjilerini tüketip Sistem 2'yi yıprattıklarında, bugünün karmaşık kararlarını almak için gereken odaklanmayı kaybederler. Modern profesyoneller olarak her sabah bu \"dijital amnezi\" ile uyanmak, bizi karar yorgunluğuna sürükler.",
+              "Evet, bugünün yapay zekâ asistanları bazı temel hatırlama özelliklerine sahiptir; geçmiş diyaloglardaki bazı tercihlerinizi veya kişisel bilgilerinizi saklayabilirler. Ancak bu bellek: düz (flat), modele kilitli, sağlayıcıya (vendor) bağımlı ve sadece sohbet kutusuyla sınırlıdır. Yapay zekâ kendi sınırları içinde hatırlar, ancak hafızanın mülkiyetini ve derinliğini sahibine bırakmaz. Yapay zekâ \"düşünür\", fakat bir insan gibi \"hatırlamaz\"."
+            ]
+          },
+          {
+            "heading": "Kategori Kurulumu ve SML",
+            "paragraphs": [
+              "Semantic Memory Layer (SML); farklı uygulamalardan ve etkileşimlerden gelen bilgiyi yalnızca depolayan değil; zaman, ilişki, niyet ve bağlam boyutlarıyla birlikte temsil ederek yapay zekâ sistemlerine taşınabilir, kalıcı ve anlamlı bir bellek sağlayan bağımsız bir yazılım katmanıdır.",
+              "Bilişsel psikolog Endel Tulving'in 1972'de ortaya koyduğu gibi, hafıza sadece soğuk bir arşiv deposu değildir; olayların geçtiği anları koruyan epizodik bellek ile anlamları tutan semantik belleğin yaşayan bir bütünüdür.",
+              "Teknoloji tarihi boyunca veriyi saklama biçimimiz büyük evrimlerden geçti. 1970 yılında Edgar F. Codd, ilişkisel veritabanı modelini (RDBMS) geliştirerek veriyi tablolar, satırlar ve anahtarlar halinde düzenledi. Codd’un bu devrimsel modeli, finansal transaction kayıtlarını yönetmek için harikaydı. Ancak insan hafızası ve kararları normalleştirilmiş düz tablolara sığmaz. Bilgi orada statik olarak durur ve sizin onu sorgulamanızı bekler. Saule ise veri organizasyonunda yeni bir adımı temsil eder: Statik tablolardan, zihnin çağrışımsal yapısını taklit eden yaşayan bir anlamsal belleğe geçiş."
+            ]
+          },
+          {
+            "heading": "Neden Şimdi? Bilişsel Gelişim Zaman Çizgisi",
+            "paragraphs": [
+              "Yapay zekâ çağında hafıza sorununu bugün ele alıyor oluşumuz rastlantısal değildir. Teknoloji sektörü, son birkaç yılda kaçınılmaz olarak bir bilişsel altyapı evriminden geçmiştir:",
+              "• 2022: Üretken Dönem (Generation) — Büyük dil modellerinin metin, kod ve görsel üretme yetenekleri keşfedildi. Zekânın makineler tarafından taklit edilebileceği anlaşıldı.",
+              "• 2024: Bağlam Genişlemesi (Context Windows) — Model sağlayıcıları bağlam pencerelerini milyonlarca token seviyesine çıkardı. Ancak bu pencereler geçici bir bellek illüzyonundan ibaretti.",
+              "• 2025: Otonom Ajanlar (Agentic Systems) — Kendi adına kararlar alan, e-posta atan ve API'ler üzerinden eyleme geçen otonom sistemler yayıldı. Ajanların en büyük tıkanıklığı, dünün kararlarını hatırlayamamak oldu.",
+              "• 2026 ve Ötesi: Bellek Altyapısı (Memory Infrastructure) — Otonom ajanların istikrar kazanması için kalıcı bir bellek katmanına duyulan ihtiyaç belirginleşiyor.",
+              "Bu zaman çizgisinin işaret ettiği kategori, anlamsal bağlamı modellerin ötesinde koruyan Semantic Memory Layer (SML) katmanıdır. Saule, bu evrimin erken ve bağımsız bir aktörü olarak konumlanmaktadır."
             ]
           }
         ],
@@ -131,18 +89,327 @@
         "references": []
       }
     },
-    "personal-memory": {
-      "title": "6. Kişisel Hafıza",
-      "purpose": "Kişisel bellek ve zihinsel enerjinin korunmasını açıklamak.",
-      "key_question": "Kullanıcı aramadan nasıl hatırlar?",
+    "memory-crisis": {
+      "title": "2. Bellek Krizi",
+      "purpose": "Parçalanmış bağlamın kurumsal maliyetini örneklemek.",
+      "key_question": "Bilgi her yerde dururken, kararların arkasındaki bağlam neden kaybolur?",
       "draft": {
         "sections": [
           {
-            "heading": "6. Kişisel Hafıza",
+            "heading": "Parçalanmanın Anatomisi",
             "paragraphs": [
-              "Bir insan, her şeyi hatırlamak için zihinsel enerjisini tüketmemelidir. Fikirler. Hedefler. Notlar. Projeler. İlişkiler. Alışkanlıklar.",
-              "Saule, bunları sürekli olarak yaşayan bir anlamsal ağ (semantic network) içinde birbirine bağlar.",
-              "Kullanıcı artık arama yapmaz. Kullanıcı hatırlar."
+              "> Modern insanın sorunu bilgi eksikliği değildir. Parçalanmış bellek krizidir.",
+              "Modern iş dünyasında bilgi üretimi ve depolama kapasitesi tarihin en yüksek seviyesinde, buna paralel olarak, üretilen bilginin arkasındaki \"anlamsal bağlam\" (semantic context) ise hiç olmadığı kadar hızlı yok oluyor. Bilgi; e-postalar, anlık mesajlaşma kanalları, proje yönetim araçları, doküman depoları ve müşteri yönetim sistemleri arasına kontrolsüzce saçılmış durumdadır. Her yazılım, organizasyonel gerçeğin yalnızca dar ve izole bir kesitini tutar. Bir kararın neden alındığına, hangi teknik veya finansal risklerin elenerek o noktaya varıldığına dair asıl insani hikâye ise bu araçların arasındaki gri boşluklarda buharlaşır. Bireysel ve kolektif düzeyde yaşanan bu durum, modern profesyonelleri sürekli bir \"bağlamsal hafıza kaybı\" içinde yaşamaya mahkûm etmektedir."
+            ]
+          },
+          {
+            "heading": "Somut Senaryolar: Kaybolan Kurumsal Akıl",
+            "paragraphs": [
+              "Bu kriz, teorik bir soyutlama olmaktan uzaktır; her gün binlerce organizasyonda doğrudan finansal ve operasyonel kayıplara yol açar:",
+              "• Hızlı Büyüyen Girişimler (Startups): Üç ay önce tasarlanan veri tabanı şemasının veya mimari tercihin \"neden\" o şekilde yapıldığını hatırlayan mühendis ekipten ayrıldığında, geride kalanlar çalışır durumdaki sistemi bozma korkusuyla teknik borç (technical debt) biriktirmeye başlar. Karar parametreleri kaybolmuştur; geriye sadece statik, dilsiz satırlar kalmıştır.",
+              "• Akademik ve Endüstriyel Araştırma Ekipleri: Aylar süren literatür taramaları ve deney süreçlerinde elenen başarısız hipotezler ve bunların gerekçeleri düzgün kaydedilmediğinde, yeni katılan araştırmacılar aynı çıkmaz sokaklara tekrar girerek yüzlerce saatlik emeği çöpe atarlar. Kurumsal hafıza olmadığında, deneyim birikmez; sadece tekrarlanır.",
+              "• Üst Düzey Yöneticiler ve Karar Alıcılar: Bir yatırım kararı veya stratejik yön değişimi yapılırken aylar süren tartışmaların, pazar analizlerinin ve sezgisel ağırlıkların özeti silindiğinde; bir sonraki çeyrekte benzer bir kriz anında yönetim kurulu, \"Dün neden bu kararı almıştık?\" sorusuna yanıt aramak için yeniden zihinsel enerji tüketmek zorunda kalır."
+            ]
+          },
+          {
+            "heading": "Somut Bir Karar ve Hafıza Örneği: Önce ve Sonra",
+            "paragraphs": [
+              "Bağlamsal hafıza kaybının kurumsal maliyetini somut bir mühendislik senaryosu üzerinden inceleyelim:",
+              "• Durum (Before): Bir startup ekibi, üç ay önce aldıkları kritik bir mimari kararla veritabanı şemasında Postgres JSONB kolonlarını kullanmaya karar verir. Bu kararın neden alındığı (Postgres'in sunduğu ACID güvenceleri, o andaki bütçe sınırları ve geçici NoSQL denemelerinin başarısızlığı) Slack kanallarında tartışılmış ve orada unutulmuştur. Üç ay sonra ekibe katılan yeni bir yazılım mimarı, \"Neden buraya JSONB koyduk? MongoDb'ye geçmeliyiz\" diyerek kararı sorgular. Ekip, eski tartışmaları, elenen alternatifleri ve teknik gerekçeleri hatırlamak için eski Slack kanallarında saatlerce arama yapar. Bulamazlar. Kararı yeniden tartışmak, pazar araştırması yapmak ve toplantılar düzenlemek ekibe 6 saatlik aktif iş gücü kaybına ve ciddi bir yön kafa karışıklığına mal olur.",
+              "• Saule ile Durum (After): Ekip, Saule'nin SML katmanını kullanmaktadır. Yeni mimar, SML Terminal'e \"Veritabanında neden Postgres JSONB kullanıldı?\" sorgusunu yazar. Saule, Semantic Provenance Graph (SPG) üzerindeki ilişkileri tarayarak anında cevap verir: \"Karar 3 ay önce, Slack dev kanalındaki tartışmalardan sonra, MongoDb'nin ACID eksiklikleri ve bütçe sınırları nedeniyle alındı. Karar veren: Ahmet, ilgili toplantı: Mimari Toplantısı #3.\" Yeni mimar bağlamı 3 saniyede anlar, 6 saatlik kayıp ve teknik tartışma önlenir. Tekerlek yeniden icat edilmez."
+            ]
+          },
+          {
+            "heading": "Bağlamsal Bozulma ve Maliyeti",
+            "paragraphs": [
+              "Bağlamsal bozulma (context drift), ekiplerin zaman içinde anlamsal olarak birbirinden uzaklaşmasına yol açar. Bilgi statik olarak saklansa da, o bilgiye ulaşmak için gereken zihinsel bağlam koptuğu için, doküman depoları (kütüphaneler, wiki sayfaları) zamanla birer \"bilgi mezarlığına\" dönüşür. Çalışanlar aradıkları kritik bir kararı veya arka plan bilgisini bulmak için şirket içi wiki sayfalarında düzinelerce arama yapar, fakat çağrışımsal ilişkiler olmadığı için aradıklarına ulaşamazlar. Sonuç, her gün zihinsel enerjinin Sistem 2 seviyesinde gereksiz yere tüketilmesi ve organizasyonun \"tekerleği yeniden icat etme\" döngüsüne girmesidir. Saule, bu tekrarlayan unutuş döngüsünü kırmak ve bağlamsal sürekliliği sağlamak için tasarlanmıştır."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "ai-illusion": {
+      "title": "3. Yapay Zekâ Bellek İllüzyonu",
+      "purpose": "Yapay zekanın geçici bellek yapısını incelemek.",
+      "key_question": "YZ modellerinin hatırlama özellikleri neden gerçek bir hafıza sunamaz?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "İllüzyonun Kaynağı: Stateless Modeller",
+            "paragraphs": [
+              "> Mevcut yapay zekâ sistemleri zeki görünür çünkü konuşmaları hatırlar; ancak bu hafıza bir illüzyondur.",
+              "Modern üretken yapay zekâ modelleri özü itibariyle \"durumsuz\" (stateless) çalışan matematiksel motorlardır. Bir model, her sorguda geçmiş girdileri sıfırdan okuyarak bir sonraki kelimeyi olasılık hesabı ile tahmin eder. Sohbet pencerelerinde gördüğümüz \"hatırlama\" hissi, gerçek bir bellek mekanizmasından değil; her yeni mesajda geçmiş sohbet geçmişinin (chat history) gizlice bağlam penceresine (context window) yeniden beslenmesinden kaynaklanır. Bu yaklaşım, geçici ve sonlu bir bellek illüzyonu yaratır. Ancak bu yapay bağlam, modelin fiziksel sınırlarına ulaştığında veya sohbet oturumu sonlandığında tamamen sıfırlanır. YZ kendi sınırları içinde çalışır, ancak hafızayı kalıcı kılmaz."
+            ]
+          },
+          {
+            "heading": "Teknik Sınırlar: Context Windows ve Session Memory",
+            "paragraphs": [
+              "Bugün YZ bellek yönetiminin önündeki temel engeller şunlardır:",
+              "• Bağlam Penceresi Aşımı (Context Exhaustion): Ne kadar büyük olursa olsun, her bağlam penceresinin bir sınırı vardır. Pencere doldukça, sistem eski bilgileri \"unutmak\" (truncate etmek) zorunda kalır. En önemli kararlar veya niyetler, sadece zaman çizgisinde eski kaldıkları için sistem dışına itilir.",
+              "• Geçici Oturum Belleği (Session Memory): Oturumlar arasında veri taşınması son derece kısıtlıdır. YZ asistanları dün kim olduğunuzu veya iki hafta önce hangi projede neden başarısız olduğunuzu bilmez.",
+              "• Model ve Sağlayıcıya Kilitlenme (Vendor Lock-in): Biriken sınırlı hafıza, o YZ sağlayıcısının veri tabanında (örneğin OpenAI'ın \"Memory\" özelliğinde) kilitlidir. Kullanıcı veya şirket, daha iyi veya daha ucuz bir modele (örneğin Anthropic Claude veya Google Gemini) geçmek istediğinde, tüm geçmiş bağlamsal sermayesini arkasında bırakmak zorunda kalır. Hafıza taşınabilir değildir."
+            ]
+          },
+          {
+            "heading": "Mülkiyet ve Kalıcılık Eksikliği",
+            "paragraphs": [
+              "Hafıza, sahibinin mülkiyetinde olmadığında bilişsel bir bağımlılık yaratır. Mevcut YZ bellek yaklaşımları, veriyi modellerin arkasındaki dev şirketlerin kontrolüne verir. Bir şirketin veya bireyin dijital ayak izi, kararları ve niyetleri, dışarıdaki bir modelin eğitim verisine veya platformun kapalı veri tabanına dönüşür. Oysa gerçek bir bellek katmanı, modelden ve sağlayıcıdan tamamen bağımsız, mutlak olarak kullanıcıya ait, taşınabilir ve zaman içinde biriken çağrışımsal bir yapıda olmalıdır. Saule, hafızayı modellerin tekelinden alıp sahibine iade etme iradesidir."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "intelligence-commodity": {
+      "title": "4. Zekânın Emtialaşması",
+      "purpose": "Zekanın emtialaşmasını ve hafızanın rekabet gücünü analiz etmek.",
+      "key_question": "Akıl yürütme her yerde bulunabilir hale geldiğinde, bizi ne farklı kılacak?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "Zekânın Ucuzlaması ve Sınırsız Akıl Yürütme",
+            "paragraphs": [
+              "> Geleceğin rekabet avantajı akıl yürütmede değil, o akıl yürütmeyi besleyen hafızadadır.",
+              "Bilişim tarihinin en hızlı metalarından biri zekâ olmaktadır. Büyük dil modelleri ve akıl yürütme motorları (reasoning engines), işlemci güçlerinin artması, açık kaynaklı alternatiflerin gelişmesi ve model mimarilerinin optimizasyonuyla birlikte hızla demokratikleşmektedir. Çok yakın bir gelecekte, karmaşık mantıksal akıl yürütme yetenekleri elektriğe veya bulut depolamaya benzer bir altyapı hizmeti (commodity) haline gelecektir. Şirketler, ekipler ve bireyler, tıpkı bugün bir internet tarayıcısı seçer gibi modeller arasında saniyeler içinde geçiş yapabileceklerdir. Farklı sağlayıcıların modelleri arasındaki performans farkları asgari düzeye inecek ve zekânın kendisi tek başına bir fark yaratma gücünü yitirecektir."
+            ]
+          },
+          {
+            "heading": "Yeni Hendek (Moat): Bağlam ve Hafıza Egemenliği",
+            "paragraphs": [
+              "Zekânın her yerde ve neredeyse bedava olduğu bir dünyada, rekabet avantajını belirleyecek olan şey bu zekânın \"neyin üzerinde\" çalıştığıdır. Modeller genel insan bilgisini temsil eden açık web verileriyle eğitilir; fakat sizin özel kararlarınızı, organizasyonunuzun örtük bilgisini (tacit knowledge) ve geçmiş iş birliği bağlamınızı bilmezler. Gerçek değer üretecek olan \"hendek\" (moat), modellerin kalitesi değil, onlara beslenen kişisel veya kurumsal hafızanın kalitesidir. Modellerin performansı yakınsadıkça, gerçek farkı yaratan şey artık akıl yürütmenin kendisi değil, o akıl yürütmeyi besleyen özel bağlamdır. Organizasyonlar için kalıcı zihinsel sermaye, gelip geçici akıl yürütme motorları değil, zamanla biriken ve kuruma ait kalan anlamsal hafıza katmanıdır."
+            ]
+          },
+          {
+            "heading": "Model Değişir, Hafıza Kalır",
+            "paragraphs": [
+              "Geliştiricilerin ve organizasyonların her yeni model çıktığında tüm entegrasyonlarını, prompt yapılarını ve veri hatlarını baştan tasarlamak zorunda kalması büyük bir verimsizlik kaynağıdır. OpenAI, Anthropic, Gemini veya gelecekteki otonom akıllı motorlar... Modeller ne kadar sık değişirse değişsin, onları besleyen bağlamsal motorun bağımsız, kalıcı ve kullanıcı egemenliğinde kalması gerekir. Akıl yürütme motorları geçicidir; Saule'nin temsil ettiği anlamsal bellek ise kalıcıdır. Bu bağımsızlık, bireyleri ve kurumları model bağımlılığından kurtararak zihinsel mülkiyeti korumanın tek yoludur."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "semantic-memory-layer": {
+      "title": "5. Anlamsal Bellek Katmanı (SML)",
+      "purpose": "SML kategorisini diğer veritabanı yapılarından ayırmak.",
+      "key_question": "SML neden bir veritabanı, RAG hattı veya bilgi grafiği değildir?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "Yeni Bir Bilişim Kategorisi: SML",
+            "paragraphs": [
+              "> Saule, mevcut bilgi tabanı yaklaşımlarının aksine, yalnızca belge depolamaz; ilişkileri, zamanı, niyeti ve bağlamı birlikte temsil etmeyi amaçlayan daha üst düzey bir bellek katmanıdır.",
+              "Bilişim mimarisinde yeni bir katmanı tanımlamak, onun sınırlarını ve ne olmadığını netleştirmeyi gerektirir. Bugün yapay zekâ mühendisliğinde sıklıkla kullanılan \"hafıza\" ve \"bilgi tabanı\" çözümleri, ya modellerin durumsuz (stateless) yapısına yamalanmış geçici çözümler ya da geleneksel veri saklama yöntemlerinin makyajlanmış versiyonlarıdır. Saule'nin tanımladığı Anlamsal Bellek Katmanı (Semantic Memory Layer - SML), veriyi sadece depolayan statik bir arşiv değil; zekâ modelleri ile veri kaynakları arasında konumlanan, bilginin zaman çizgisi (timeline), çağrışımsal ilişkileri ve kullanıcı niyetleriyle birlikte yaşayan bağımsız bir yazılım katmanıdır."
+            ]
+          },
+          {
+            "heading": "SML Neden Geleneksel Çözümlerden Farklıdır?",
+            "paragraphs": [
+              "SML'i mevcut veri tabanı ve bellek yaklaşımlarından ayıran çizgiler son derece keskindir:",
+              "• Yalnızca bir Vektör Veritabanı (Vector DB) değildir: Vektör veri tabanları, düz metin parçalarını matematiksel koordinatlara döküp benzerlik araması (cosine similarity) yapar. Ancak bu işlem tamamen mekaniktir; kararların zamansal akışını, mantıksal önceliklerini veya niyet bağlamını korumaz. Saule, vektör aramayı sadece en alt seviyede bir indeksleme aracı olarak kullanır, hafızanın kendisini değil.",
+              "• Yalnızca bir Bilgi Grafiği (Knowledge Graph) değildir: Bilgi grafikleri, nesneler arasındaki ilişkileri (düğüm ve kenarlar) statik olarak modeller. Ancak insan hafızası gibi yaşayan ve değişen bir bağlamı dinamik olarak yönetmekte yetersiz kalır. Saule, statik bir bilgi taksonomisi oluşturmak yerine, sürekli güncellenen anlamsal kökenleri ve zaman çizgisini yönetir.",
+              "• Yalnızca bir RAG (Retrieval-Augmented Generation) veya Memory Bank değildir: Standart RAG sistemleri, talep anında doküman depolarından rastgele eşleşen parçaları çeken statik boru hatlarıdır. Saule ise bilgi yığınlarını sorgulamakla yetinmez; gelen girdilerden niyeti aktif olarak süzen, anlamsal kaymaları (context drift) izleyen ve bağlamı aktif olarak inşa eden akıllı bir katmandır.",
+              "• Yalnızca bir Model Bağlam Protokolü (MCP) değildir: MCP, modeller ile veri kaynakları arasında standart bir iletişim köprüsü kurar. Saule ise sadece bir protokol veya veri taşıyıcı kanal değil; hafızanın kendisini organize eden, filtreleyen ve zeka modellerine yapılandırılmış şekilde sunan egemen bir bellek motorudur."
+            ]
+          },
+          {
+            "heading": "Bağımsızlık ve Bilişsel Egemenlik",
+            "paragraphs": [
+              "Semantic Memory Layer, herhangi bir yapay zekâ modeline, bulut sağlayıcısına veya istemci arayüzüne bağımlı değildir. O, kullanıcının veya organizasyonun dijital varlığının merkezinde yer alan, tüm araçlardan (Slack, Notion, e-posta) gelen veriyi tek bir anlamsal havuzda birleştiren bağımsız bir egemenlik alanıdır. Zekâ modelleri geliştikçe ve değiştikçe, SML bu modellere standartlaştırılmış bir bellek arayüzü sunarak bilişsel birikimin kesintisiz ve güvenli bir şekilde devredilmesini sağlar. Saule, bu kategori tanımıyla, yapay zekâ çağının ilk bağımsız bellek işletim katmanını inşa etmektedir."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "part-2-interlude": {
+      "title": "Kısım II Giriş: Bilişsel Temeller",
+      "purpose": "Kısım II zihinsel geçiş sayfası.",
+      "key_question": "Hatırlayan bir yazılım tasarlamadan önce, insan belleğinin kurucu ilkelerini neden anlamalıyız?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "",
+            "paragraphs": [
+              "> İnsanı anlayan bir bellek katmanı, bilgisayarların soğuk kayıt yöntemleriyle değil, insan zihninin yaşayan biyolojik mimarisiyle kurulmalıdır.",
+              "Bilgisayarlar veriyi saklar. Disk üzerindeki sektörlere bitleri yazar, elektrik kesildiğinde dahi onları orada dondurur ve çağrıldığında o bitleri milisaniyeler içinde aynen geri getirir. Bu kusursuz bir arşivdir; fakat bir bellek değildir. İnsan belleği ise bundan tamamen farklı çalışır. Biyolojik hafıza statik bir kütüphane değil, yaşayan, her an yeniden kurulan, seçici, unutan ve anlama göre şekil alan çağrışımsal bir ağdır. Hatırlayan bir yazılım inşa edeceksek, bilgisayarların veriyi saklama mantığını insana dayatmak yerine, insan zihninin çalışma prensiplerini yazılım kodlarına öğretmek zorundayız.",
+              "Kısım II, Saule'nin mimari ve algoritmik kararlarını şekillendiren bilişsel psikoloji ve sinirbilim temellerini kuracaktır. Belleğin bir depo olmadığını, epizodik ve semantik sistemlerin nasıl paslaştığını, anlatısal kimliğimizi nasıl inşa ettiğimizi, unutmanın aslında nasıl bir optimizasyon olduğunu ve ortak aklın transaktif doğasını inceleyeceğiz. Her adımda, bu insani ve zihinsel ilkelerin Saule'nin yazılım mimarisindeki karşılıklarına nasıl dönüştüğünü göreceğiz. Çünkü zihin gibi çalışan bir yazılım inşa etmenin tek yolu, zihni kendi kurallarıyla anlamaktır."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "memory-not-storage": {
+      "title": "6. Bellek Bir Depo Değildir",
+      "purpose": "Belleğin statik bir arşiv değil, dinamik bir inşa süreci olduğunu göstermek.",
+      "key_question": "İnsan beyni geçmişi kaydetmek yerine neden her seferinde yeniden inşa eder?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "Rekonstrüktif Bellek Kuramı (Reconstructive Memory)",
+            "paragraphs": [
+              "> Bellek statik bir arşiv deposu değildir; geçmişin izlerinden hareketle şimdiki zamanı ve anlamı yeniden inşa eden dinamik bir süreçtir.",
+              "Akademik psikolojide uzun süre belleğin geçmişi bir kamera gibi kaydettiği düşünülmüştür. Ancak Frederic Bartlett'ın 1932'deki öncü çalışmalarından Elizabeth Loftus'un modern görgü tanıklığı araştırmalarına kadar uzanan süreç, insan belleğinin rekonstrüktif (yeniden inşa edici) doğasını kanıtlamıştır. Bir olayı hatırladığımızda, beynimiz tozlu bir raftan bir video kaydı çekmez. Bunun yerine, geçmişten kalan anlamsal ipuçlarını (cues), şemaları ve şimdiki zamana ait beklentileri bir araya getirerek anıyı o anda yeniden kurar. Bu inşa süreci hatalara açık görünse de, insan bilişinin en büyük adaptasyon yeteneğidir; çünkü zihnin sınırlı kapasiteyle sınırsız anlamsal bağlantı kurmasını sağlar."
+            ]
+          },
+          {
+            "heading": "Bilgisayar Depolaması ile İnsan Belleğinin Ayrışması",
+            "paragraphs": [
+              "Bilgisayar mimarileri (Von Neumann mimarisi vb.), veriyi adreslenebilir bellek hücrelerinde (RAM veya hard disk) saklar. Çağrıldığında o veri bit seviyesinde hatasız geri çağrılır. İnsan zihni ise çağrışımsal (associative) çalışır. İki bilgi parçası arasındaki ilişki, onların adres yakınlığından değil, anlamsal benzerliklerinden ve eş zamanlı tetiklenmelerinden doğar. Bilgiyi adresle saklamak onu dondurur; çağrışımla saklamak ise onu yaşayan bir ağ haline getirir."
+            ]
+          },
+          {
+            "heading": "Saule Tasarım Kararı: Yeniden İnşa Edici Bağlam Orkestrasyonu",
+            "paragraphs": [
+              "Bu bilişsel ilke, Saule'nin mimarisinde statik veri sorgulama yöntemlerinin reddedilmesini sağlar. Saule, metin parçalarını oldukları gibi saklayıp ham veri olarak modele beslemez. Sorgu anında, kullanıcının niyetini, güncel zaman çizgisini ve anlamsal ilişkileri analiz ederek doğru bağlamı (context) o anda yeniden oluşturur (context composition). Tıpkı insan zihni gibi, geçmişin statik verilerinden hareketle şimdinin ihtiyacına uygun dinamik bir anlamsal çerçeve inşa eder."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "human-memory-systems": {
+      "title": "7. İnsan Bellek Sistemleri",
+      "purpose": "Çalışma belleği, semantik ve epizodik bellek sistemlerini ele almak.",
+      "key_question": "İnsan belleğinin çoklu sistem yapısı yazılım katmanlarına nasıl ilham verir?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "Tulving'in Çoklu Bellek Sistemleri",
+            "paragraphs": [
+              "> Hafıza tek bir havuz değil; epizodik, semantik ve çalışma belleği gibi farklı süre ve işlevlere sahip sistemlerin uyumlu orkestrasyonudur.",
+              "Bilişsel psikolog Endel Tulving'in 1972 yılında ortaya koyduğu sınıflandırma, belleğin homojen olmadığını kanıtlamıştır. İnsan zihni en az üç temel bellek sistemiyle çalışır:",
+              "1. Çalışma Belleği (Working Memory): O andaki bilgiyi saniyeler içinde işleyen, kapasitesi sınırlı (Miller'ın 7±2 kuralı) geçici alan.",
+              "2. Epizodik Bellek (Episodic Memory): Kişisel deneyimleri, zaman ve mekân bağlamıyla birlikte tutan otobiyografik arşiv (Örn: \"Dün saat 14:00'te Ahmet ile yaptığımız toplantı\").",
+              "3. Semantik Bellek (Semantic Memory): Zaman ve mekândan bağımsız, kavramlar, anlamlar ve genel olgular ağı (Örn: \"Toplantı kuralları ve proje hedefleri\")."
+            ]
+          },
+          {
+            "heading": "Sistemler Arası Geçiş ve Bilişsel Yük",
+            "paragraphs": [
+              "Bu sistemler sürekli paslaşır. Çalışma belleğine gelen yeni bir bilgi, epizodik bellekteki geçmiş bir anıyla eşleşir ve zamanla soyutlanarak semantik belleğin kalıcı bir parçası haline gelir. Bu geçişlerin aksaması veya sistemlerin aşırı yüklenmesi, karar verme kalitesini düşürür ve bilişsel yükü artırır."
+            ]
+          },
+          {
+            "heading": "Saule Tasarım Kararı: Çok Katmanlı Bellek Orkestrasyonu",
+            "paragraphs": [
+              "Saule, Tulving'in bu çoklu bellek yapısını doğrudan yazılım katmanlarına yansıtır. Saule'nin veri modelinde, kullanıcının o anki aktif oturumu \"Çalışma Belleği\"ni; anlık etkileşimlerin ve zaman damgalı notların tutulduğu Timeline Graph \"Epizodik Bellek\"i; kavramlar, kurallar ve soyutlanmış ilişkiler ağı ise \"Semantik Bellek\" katmanını temsil eder. Saule, bu katmanlar arasında veriyi sürekli süzerek ve soyutlayarak modeller için anlamlı bir bağlam hazırlar."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "identity-narrative": {
+      "title": "8. Kimlik ve Anlatı",
+      "purpose": "Bellek ve anlatısal kimlik ilişkisini McAdams çerçevesinde açıklamak.",
+      "key_question": "Hafızayı korurken kimliği dondurmaktan nasıl kaçınırız?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "Anlatısal Kimlik Kuramı (Narrative Identity)",
+            "paragraphs": [
+              "> Kimlik, geçmiş verilerin statik bir toplamı değil; zaman içinde sürekli yeniden yazılan anlatısal bir süreçtir.",
+              "Psikolog Dan McAdams ve Martin Conway'in çalışmaları, insan kimliğinin otobiyografik anılardan beslenen yaşayan bir hikâye (narrative) olduğunu gösterir. İnsanlar geçmişlerini sadece kaydetmez, onu şimdiki değerleri ve gelecekteki hedefleri doğrultusunda sürekli olarak yeniden yorumlar. Kimlik durağan değildir; yaşayan bir anlatıdır. Yazılım sistemleri eğer geçmiş verileri mutlak ve değiştirilemez gerçekler olarak dondurursa, kullanıcının zihinsel gelişimini engeller ve onu geçmişteki bir versiyonuna hapseder."
+            ]
+          },
+          {
+            "heading": "Bellekte Seçicilik ve Değişim",
+            "paragraphs": [
+              "İnsan zihni, zaman içinde değişen niyetlerine göre geçmişindeki bazı anıları daha görünür kılar, bazılarını ise geri plana iter. Bir hedefe odaklandığımızda, beynimiz o hedefle ilgili geçmiş deneyimleri daha hızlı çağrıştırır. Bu durum, belleğin pasif bir veri tabanı değil, kimliğin yönlendirdiği aktif bir filtre olduğunu kanıtlar."
+            ]
+          },
+          {
+            "heading": "Saule Tasarım Kararı: Dinamik Kimlik Katmanı ve Bağlam Filtreleme",
+            "paragraphs": [
+              "Saule, veri tabanındaki bilgileri değişmez bloklar olarak görmez. Mimarideki \"Identity Layer\" (Kimlik Katmanı), kullanıcının zaman içindeki odak noktalarını, değişen değerlerini ve hedeflerini izler. Sorgu anında anıları çağırırken, sadece matematiksel benzerliğe bakmaz; kullanıcının güncel kimlik anlatısına (active narrative state) en uygun olan anısal bağları ön plana çıkarır. Böylece Saule, kullanıcısıyla birlikte büyüyen ve evrilen yaşayan bir ortak kimlik katmanı sunar."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "forgetting-regulation": {
+      "title": "9. Unutma ve Bilişsel Düzenleme",
+      "purpose": "Unutmanın gürültü azaltıcı bilişsel düzenleme rolünü açıklamak.",
+      "key_question": "Unutmak neden bir hafıza hatası değil, yaşayan bir sistem optimizasyonudur?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "Aktif Unutmanın Bilişsel Rolü",
+            "paragraphs": [
+              "> Unutmak, zihni gürültüden arındıran, odaklanmayı sağlayan ve bilişsel kapasiteyi koruyan aktif bir düzenleme mekanizmasıdır.",
+              "Popüler inanışın aksine, unutmak (forgetting) beynin bir arızası veya sistem hatası değildir. Sinirbilimsel araştırmalar, beynin gereksiz bilgileri temizlemek için aktif kimyasal ve elektriksel mekanizmalar (active forgetting) kullandığını göstermektedir. Eğer her şeyi, her ayrıntısıyla hatırlasaydık, zihnimiz sonsuz bir gürültüyle boğulur ve Sistem 2 seviyesinde basit bir karar dahi alamaz hale gelirdik (Luria'nın ünlü hastası Shereshevsky örneğinde olduğu gibi). Unutmak, önemli olanı ön plana çıkarmak için gürültüyü temizleyen bir optimizasyondur."
+            ]
+          },
+          {
+            "heading": "Bilişsel Düzenleme ve Dikkat Yönetimi",
+            "paragraphs": [
+              "İnsan zihni, bilginin eskiliğine, tekrarlanma sıklığına ve güncel niyetlerle ilişkisine bakarak anıların erişilebilirliğini sürekli düzenler. Bu bilişsel düzenleme (cognitive regulation), dikkatin doğru odak noktasında kalmasını sağlar. Dijital sistemlerin en büyük hatası, üretilen her veriyi sonsuza kadar aynı öncelikle saklamaya çalışarak bilgi kirliliği yaratmasıdır."
+            ]
+          },
+          {
+            "heading": "Saule Tasarım Kararı: Algoritmik Aktif Unutma (Active Forgetting)",
+            "paragraphs": [
+              "Saule, gereksiz veri gürültüsünü engellemek için algoritmik bir aktif unutma (active forgetting) mekanizması barındırır. Veri tabanındaki her bellek öğesi (node) ve ilişki (edge), zamanla azalan bir erişilebilirlik skoruna (decay rate) sahiptir. Kullanılmayan veya anlamsal olarak güncelliğini yitiren bilgiler silinmez, ancak arka plana itilerek (pruning) sorgu maliyetleri düşürülür ve model bağlam pencerelerinin gürültülü verilerle dolması engellenir. Saule, unutmayı bir sistem optimizasyonu olarak kodlar."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "cognitive-offloading": {
+      "title": "10. Bilişsel Dışsallaştırma",
+      "purpose": "Bilişsel yükü dış araçlara aktarmanın sınırlarını tartışmak.",
+      "key_question": "Zihni boşaltırken dışsal araçların bağımlılık yaratmasını nasıl engelleriz?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "Genişletilmiş Zihin Kuramı (The Extended Mind)",
+            "paragraphs": [
+              "> Bilişsel dışsallaştırma, zihni zayıflatan bir protez değil, zihinsel kapasiteyi genişleten ve odaklanmayı artıran bir kaldıraç olmalıdır.",
+              "Filozoflar Andy Clark ve David Chalmers'ın 1998'de ortaya koyduğu Genişletilmiş Zihin (Extended Mind) kuramına göre, insan zihni sadece kafatasının içiyle sınırlı değildir. Kullandığımız not defterleri, cihazlar ve yazılımlar bilişsel süreçlerimizin aktif birer parçasıdır (cognitive offloading). Bir bilgiyi dışarıdaki güvenilir bir araca yazmak, beynin çalışma belleğindeki yükü hafifletir ve derin düşünme için yer açar. Ancak bu dışsallaştırma süreci, eğer kontrolsüz yapılırsa zihnin hatırlama ve analiz yeteneklerini körelten bir bağımlılık haline gelebilir."
+            ]
+          },
+          {
+            "heading": "Protez Bellek vs. Kaldıraç Bellek",
+            "paragraphs": [
+              "Modern not uygulamaları ve bilgi tabanları genellikle pasif birer protez bellek gibi davranır. Bilgiyi oraya yazarız, fakat o bilgiyi bir daha asla bulamaz veya hatırlamayız; bu da zihinsel tembellik yaratır. Oysa ideal bir dışsal bellek, zihni köreltmek yerine onunla etkileşime giren, çağrışımları hatırlatan ve insan aklını tetikleyen aktif bir kaldıraç olmalıdır."
+            ]
+          },
+          {
+            "heading": "Saule Tasarım Kararı: Çağrışımsal Tetikleme ve Aktif Hatırlatma",
+            "paragraphs": [
+              "Saule, pasif bir doküman deposu olmanın ötesine geçer. Bir protez bellek olmak yerine, kullanıcının zihnini sürekli uyaracak anlamsal çağrışımlar üretir (associative triggering). Siz SML Terminal'e bir şey yazarken, Saule arka planda ilgili geçmiş kararları, yarım kalmış niyetleri veya birbiriyle bağlantılı fikirleri fark eder ve bunları yumuşak bir şekilde bağlama enjekte eder. Böylece zihninizi zayıflatmak yerine, geçmiş birikimlerinizi o anda görünür kılarak bilişsel kapasitenizi genişletir."
             ]
           }
         ],
@@ -153,20 +420,37 @@
       }
     },
     "collective-memory": {
-      "title": "7. Kolektif Hafıza",
-      "purpose": "Ekiplerde ve kurumlarda kalıcı hafıza kurmayı açıklamak.",
-      "key_question": "Kolektif düzeyde kalıcı bir ortak anlayış nasıl yaratılır?",
+      "title": "11. Kolektif Hafıza",
+      "purpose": "Gruplarda transaktif bellek ve ortak akıl oluşumunu ele almak.",
+      "key_question": "Ekipler büyüdükçe ortak aklın kaybolmasını nasıl engelleriz?",
       "draft": {
         "sections": [
           {
-            "heading": "7. Kolektif Hafıza",
+            "heading": "Transaktif Bellek ve Örtük Bilgi (Transactive Memory & Tacit Knowledge)",
             "paragraphs": [
-              "Gruplar, bireylerden bile daha hızlı unutur. Stratejik ekipler. Araştırma grupları. Girişimler (Startups). Kurumlar.",
-              "Her gün yeni bir bilgi üretilir ve neredeyse tamamı kaybolur.",
-              "Saule kalıcı bir kolektif hafıza yaratır. Sohbet geçmişi değil. Doküman yığını değil. Paylaşılan bir ortak anlayış.",
-              "Ekipler büyüdükçe, bireysel hafızanın yetersiz kaldığı bir noktaya ulaşılır. Kararlar neden alındı? Hangi varsayımlar geçerliydi? Hangi alternatifler reddedildi?",
-              "Kolektif bellek sadece bir doküman arşivi değildir. Kararların, tartışmaların ve niyetlerin organik bir şekilde birbirine bağlandığı bir yapıdır.",
-              "Saule, ekipler içindeki örtük bilgiyi yakalayarak, onu gerektiği anda doğru kişiye, doğru bağlamla sunan aktif bir kurumsal hafıza gibi davranır."
+              "> Kolektif bellek, doküman arşivlerinin veya konuşma geçmişlerinin kuru bir toplamı değil; bireyler arasındaki anlamsal ilişkileri kuran yaşayan bir transaktif yapıdır.",
+              "Daniel Wegner'ın 1985'te tanımladığı Transaktif Bellek (Transactive Memory) kuramı, grupların ortak hafızasının nasıl çalıştığını açıklar: Ekiplerde herkes her şeyi bilmez; kimin neyi bildiği bilgisi (meta-knowledge) paylaşılır. Ortak akıl, bu bilgi paylaşım ağı üzerinde yükselir. Ancak modern uzaktan çalışma modelleri ve ekip içi rotasyonlar, kurumsal örtük bilginin (tacit knowledge) ve kararların arkasındaki bağlamın hızla silinmesine yol açar. Doküman depoları büyürken, ekibin birbirinin ne bildiğine ve kararların neden alındığına dair ortak anlayışı zayıflar."
+            ]
+          },
+          {
+            "heading": "Wiki Sayfaları ve Slack Kanallarının Sınırları",
+            "paragraphs": [
+              "Slack kanallarında arama yapmak veya devasa Notion sayfalarında gezinmek transaktif bellek ihtiyacını karşılamaz. Bilgi statik, parçalı ve gürültülüdür. Ekipler büyüdükçe iletişim trafiği (bilişsel gürültü) artar, fakat ortak aklın kalitesi düşer. Ekiplerin dün neyi neden yaptığını hatırlamak için zihinsel enerjilerini tüketmesi, kurumsal inovasyon hızını yavaşlatır."
+            ]
+          },
+          {
+            "heading": "Saule Tasarım Kararı: Kolektif Semantic Provenance Graph ve Yetkilendirme",
+            "paragraphs": [
+              "Saule, çalışma alanları (workspaces) düzeyinde kolektif bir anlamsal bellek katmanı tanımlar. Ekiplerin Notion veya Slack gibi kanallardan akan girdilerini anlamsal bir graf üzerinde birleştirir. Sorgu anında, yapay zekâ asistanlarına sadece doküman metinlerini değil; o kararın kimin tarafından, hangi toplantıda, ne niyetle alındığını gösteren transaktif ilişkileri (provenance) sunar. Böylece organizasyon içi bilgi parçalanmasını ortadan kaldırarak yaşayan, taşınabilir bir ortak kurumsal zihin inşa eder."
+            ]
+          },
+          {
+            "heading": "Saule'nin Ölçeklenme Hendekleri: Anlamsal Ağ Etkisi (Semantic Network Effect)",
+            "paragraphs": [
+              "Saule, sisteme eklenen her yeni kullanıcı, ekip ve entegrasyonla birlikte doğrusal olmayan bir değer artışı (network effect) üretir. Bu ağ etkisi bilişsel seviyede şu şekilde katmanlaşır:",
+              "1. Kişisel Bellekten Ekiplere (Workspace Memory): Bireyin kişisel SML'i, çalıştığı ekibin ortak hafızasına bağlanır. Ekip üyeleri birbirinin ne bildiğini aramak zorunda kalmadan, Saule üzerinden kurumsal transaktif belleğe (transactive memory) erişir. Yeni katılan her üye, ortak aklı zayıflatmaz; aksine kendi bilişsel sermayesini grafa katarak ağı zenginleştirir.",
+              "2. Ekiplerden Kurumlara (Shared Memory): Departmanlar arası bilgi geçişleri (örneğin Ürün ekibinin kararları ile Satış ekibinin müşteri notları), herhangi bir toplantı veya manuel raporlama olmaksızın anlamsal köprülerle birleşir.",
+              "3. Kolektif Zekâ Ağı (Semantic Network): Kurum büyüdükçe, Saule'nin SPG veri yapısındaki anlamsal ilişkiler (edges) sıklaşır. Sistem, benzer kararların veya problemlerin daha önce hangi projede, nasıl çözüldüğünü daha yüksek doğrulukla tespit etmeye başlar. Kurum, \"tekerleği yeniden icat etme\" maliyetinden tamamen kurtulur. Bu durum, organizasyonu yaşayan ve kendi kendini eğiten organik bir kolektif zihne (collective intelligence) dönüştürür."
             ]
           }
         ],
@@ -176,17 +460,35 @@
         "references": []
       }
     },
-    "beyond-communication": {
-      "title": "8. İletişimin Ötesinde",
-      "purpose": "Diğer üretkenlik ve mesajlaşma araçlarından ayrışmayı açıklamak.",
-      "key_question": "Saule hafızanın kendisini nasıl organize eder?",
+    "translating-cognition": {
+      "title": "12. Bilişi Yazılıma Tercüme Etmek",
+      "purpose": "Bilişsel bilim ilkelerini yazılım prensiplerine tercüme etmek.",
+      "key_question": "İnsan belleğinin kuralları makineler için çalışan kodlara nasıl dönüşür?",
       "draft": {
         "sections": [
           {
-            "heading": "8. İletişimin Ötesinde",
+            "heading": "İnsan Bilişinden Yazılım Prensiplerine Geçiş",
             "paragraphs": [
-              "Mesajlaşma uygulamaları insanların iletişim kurmasına yardım eder. Proje yönetim araçları işleri organize eder. Bilgi tabanları (Knowledge bases) dokümanları düzenler.",
-              "Saule hafızanın kendisini organize eder."
+              "> Bilişsel temeller felsefi birer metafor değil; veri modellerini, sorgu algoritmalarını ve sistem mimarisini doğrudan belirleyen mühendislik parametreleridir.",
+              "Bu bölüm, Kısım II boyunca ele aldığımız tüm bilişsel bilim ilkelerini Saule'nin yazılım mimarisini kuracak olan Kısım III'e bağlayan köprüdür. İnsan zihninin çalışma prensipleri felsefi hoşgörüler değil, yazılımdaki doğrudan mühendislik kararlarının gerekçeleridir. Bilişsel sistemlerin dinamik doğası, geleneksel veritabanı adreslemelerini, normalleştirilmiş tabloları ve statik veri hatlarını geçersiz kılar."
+            ]
+          },
+          {
+            "heading": "İlke ve Yazılım Eşleşmeleri",
+            "paragraphs": [
+              "Kısım II'de kurduğumuz kuramsal altyapı, yazılım mimarisine şu şekilde tercüme edilir:",
+              "• Bellek Depo Değildir (Rekonstrüktif Doğa) ➔ Statik arama yerine Dinamik Bağlam Yapılandırması (Context Composition).",
+              "• Çoklu Bellek Sistemleri (Tulving) ➔ Aktif oturum, Zaman Çizgisi ve Kavram Grafiğinin birleşimi olan Çok Katmanlı Bellek Mimarisi.",
+              "• Kimlik ve Anlatı (McAdams & Conway) ➔ Kullanıcı durumuna göre dinamik ağırlıklandırma yapan Identity Layer.",
+              "• Aktif Unutma (Optimizasyon) ➔ Graf üzerindeki düğüm ve kenarların Decay (Eskime) Algoritmasıyla budanması.",
+              "• Bilişsel Dışsallaştırma (Clark & Chalmers) ➔ Pasif arşiv yerine anlamsal tetikleyiciler sunan Associative Triggering.",
+              "• Kolektif Bellek (Wegner) ➔ Kurumsal örtük bilgiyi tutan Semantic Provenance Graph (Anlamsal Köken Grafiği)."
+            ]
+          },
+          {
+            "heading": "Mimarinin Eşiğinde",
+            "paragraphs": [
+              "Bu eşleşmeler, Saule'nin teknik omurgasını oluşturur. Bir sonraki kısımda (Kısım III), bu kuramsal köprülerin kod seviyesinde nasıl kurulduğunu; anlamsal yutma (ingestion) süreçlerinden, Semantic Provenance Graph veri modeline, dinamik orkestrasyondan gizlilik ve lokal cihazda çalıştırma paradokslarına kadar tüm mühendislik detaylarıyla inceleyeceğiz. Saule, insan zihninin zarafetini yazılımın disipliniyle birleştiren bir mimaridir."
             ]
           }
         ],
@@ -196,21 +498,18 @@
         "references": []
       }
     },
-    "workspace-model": {
-      "title": "9. Çalışma Alanı Modeli",
-      "purpose": "Saule çalışma alanlarının anlamsal derinleşmesini açıklamak.",
-      "key_question": "Çalışma alanları yaşayan hafızayı nasıl temsil eder?",
+    "part-3-interlude": {
+      "title": "Kısım III Giriş: Yazılım Mimarisi",
+      "purpose": "Kısım III teknik geçiş sayfası.",
+      "key_question": "Bilişsel prensipler, somut ve çalışan bir yazılım mimarisine nasıl dökülür?",
       "draft": {
         "sections": [
           {
-            "heading": "9. Çalışma Alanı Modeli (Workspace)",
+            "heading": "",
             "paragraphs": [
-              "Her çalışma alanı yaşayan bir hafızayı temsil eder.",
-              "Odaklandığımız temel yapılar: Kişisel Zekâ Alanı | Stratejik Ekipler | Araştırma ve Geliştirme Grupları | Kurumsal Ortak Hafıza Merkezleri.",
-              "Her bir çalışma alanı, zamanla kendi eşsiz anlamsal belleğini geliştirir ve derinleştirir.",
-              "Mevcut çalışma alanları statik klasörler ve sayfalardan ibarettir. Bilgi orada durur ve sizin onu bulmanızı bekler.",
-              "Saule'nin çalışma alanı modeli ise dinamiktir. Siz çalışırken sizinle birlikte evrilir. Açık döngüleri kapatmanıza yardımcı olur, tıkanıklıkları fark eder ve dikkatinizi korur.",
-              "Bu, sadece veriyi değil, süreci ve çalışma halini (state of work) de hafızada tutan yepyeni bir dijital organ gibidir."
+              "> Bilişsel kuramlar, ancak veri modelleri ve matematiksel algoritmalarla temellendirildiğinde çalışan bir yazılım mimarisine dönüşür.",
+              "Belleğin yalnızca bir depolama birimi olmadığını ve zihnimizin epizodik, semantik ve transaktif sistemlerle çalıştığını kuramsal olarak temellendirdik. Ancak yazılım mühendisliği, soyut kavramlarla yetinemez. Belleğin yaşayan doğasını bilgisayarların deterministik dünyasına tercüme etmek; veri yapılarının, veri tabanı şemalarının, sorgu optimizasyonlarının ve şifreleme protokollerinin yeniden tasarlanmasını gerektirir.",
+              "Kısım III, Saule'nin mühendislik çekirdeğini (core engine) ve teknik mimarisini ayrıntılandıracaktır. Sistem mimarimizin sarsılmaz tasarım ilkelerinden başlayarak, bir bellek öğesinin yaşam döngüsünü, ilişkileri ve zaman damgalarını tutan veri modelimizi (Semantic Provenance Graph), bağlam oluşturma (context composition) algoritmalarımızı ve uçtan uca şifrelemeli gizlilik katmanımızı inceleyeceğiz. Saule'nin sadece felsefi bir manifesto değil; çalışan, ölçeklenebilir ve güvenli bir bilgisayar sistemi olduğunu kod seviyesinde göreceğiz."
             ]
           }
         ],
@@ -220,17 +519,33 @@
         "references": []
       }
     },
-    "ai-as-interface": {
-      "title": "10. Arayüz Olarak Yapay Zekâ",
-      "purpose": "Yapay zekanın geçici doğası ile Saule'nin kalıcı hafızası arasındaki ilişkiyi açıklamak.",
-      "key_question": "Yapay zekâ neden sadece bir arayüzdür?",
+    "design-principles": {
+      "title": "13. Tasarım İlkeleri",
+      "purpose": "Saule'nin temel mühendislik ilkelerini deklare etmek.",
+      "key_question": "Saule'nin mimari kararlarını yöneten sarsılmaz kodlama ilkeleri nelerdir?",
       "draft": {
         "sections": [
           {
-            "heading": "10. Arayüz Olarak Yapay Zekâ",
+            "heading": "Saule'nin Dört Sarsılmaz İlkesi",
             "paragraphs": [
-              "Yapay zekâ ürünün kendisi değildir. Sadece arayüzdür.",
-              "Akıl yürütme motorları (modeller) değişecektir. Saule'nin hafızası kalıcıdır."
+              "> Saule mimarisi; model bağımsızlığı, anlamsal egemenlik, sıfır-gürültü ve sessiz çalışma ilkeleri üzerinde yükselir.",
+              "Saule, gelip geçici yapay zekâ trendlerine veya kütüphanelerine bağlı olarak tasarlanmamıştır. Sistem mimarisi, her geliştirme adımını yönlendiren dört temel ilke üzerine kuruludur:",
+              "1. Model Bağımsızlığı (Model-Agnosticism): Sistem, hiçbir büyük dil modeli (LLM) veya yapay zekâ sağlayıcısına göbekten bağlı olamaz. Bellek katmanı, modellerden bağımsız bir egemenlik alanıdır ve standartlaştırılmış API'ler vasıtasıyla her modele eşit mesafededir.",
+              "2. Kullanıcı Egemenliği (User Sovereignty): Bellek verisinin mutlak sahibi kullanıcıdır. Veriler kullanıcının belirlediği sınırlarda kalır, şifrelenir ve taşınabilir yapıdadır.",
+              "3. Sıfır Bilişsel Gürültü (Zero Cognitive Noise): Bellek katmanı, modellere gereksiz veya alakasız veriler (noise) göndermekten kaçınır. Bağlam, minimum token ile maksimum anlamsal derinliği sunacak şekilde optimize edilir.",
+              "4. Sessiz İşleyiş (Passive Ingestion): Kullanıcıdan sürekli veri etiketlemesi veya manuel organizasyon beklenmez. Sistem, arka planda veri akışlarını pasif olarak dinler, anlamsal ilişkileri kendiliğinden çıkarır ve sessizce çalışır."
+            ]
+          },
+          {
+            "heading": "Geliştirici Perspektifinden İlkelerin Önemi",
+            "paragraphs": [
+              "Bu ilkeler, geliştiricilerin Saule SDK'sını kullanırken ve mimariye yeni bileşenler eklerken uyması gereken katı sınırları belirler. Örneğin, model bağımsızlığı ilkesi gereği, bellek çıkarma (memory extraction) algoritmaları tek bir sağlayıcının özel prompt yapılarına bağımlı kılınamaz; bunun yerine soyutlanmış protokoller kullanılır."
+            ]
+          },
+          {
+            "heading": "Mimari Köprü",
+            "paragraphs": [
+              "Bu tasarım ilkeleri, veri akışlarının ve bellek nesnelerinin sistem içindeki yaşam döngüsünü doğrudan belirler. Bir sonraki bölümde, ham verinin sisteme girişinden itibaren bu ilkelerin nasıl işletildiğini ve bir bellek öğesinin yaşam döngüsünü inceleyeceğiz."
             ]
           }
         ],
@@ -240,18 +555,34 @@
         "references": []
       }
     },
-    "absolute-privacy": {
-      "title": "11. Mutlak Gizlilik ve Sıfır-Bilgi Hafızası",
-      "purpose": "Sıfır-bilgi veri gizliliği felsefesini açıklamak.",
-      "key_question": "Dış belleğimizin eğitim verisine dönüşmesini nasıl engelleriz?",
+    "memory-lifecycle": {
+      "title": "14. Belleğin Yaşam Döngüsü",
+      "purpose": "Anlamsal belleğin yaşam döngüsü diyagramını ve evrimini sunmak.",
+      "key_question": "Bir bellek öğesi doğuşundan unutulmasına kadar hangi aşamalardan geçer?",
       "draft": {
         "sections": [
           {
-            "heading": "11. Mutlak Gizlilik ve Sıfır-Bilgi Hafızası (Zero-Knowledge Memory)",
+            "heading": "Bellek Yaşam Döngüsü Aşamaları",
             "paragraphs": [
-              "Hafızanız, sadece size ait olduğunda değerlidir.",
-              "Saule, insan zihninin ve kurumsal aklın bir uzantısıdır. Bu yüzden dış belleğiniz asla bir modelin eğitim verisine (training data) dönüşmez.",
-              "Saule, \"Sıfır-Bilgi\" prensipleriyle hareket eder. Veriyi okuyan, işleyen ve bağlamı birleştiren sistem, bu bilgiyi kendi çıkarı için saklamaz. Bireyler ve kurumlar, kendi hafızalarının mutlak egemenidir."
+              "> Bellek öğeleri statik satırlar değil; yutulma, ilişkilendirme, aktif çağrılma ve algoritmik sönümlenme aşamalarından geçen dinamik varlıklardır.",
+              "Saule sistemine giren her bilgi parçası, şu dört aşamalı yaşam döngüsünü takip eder:",
+              "1. Ingestion (Yutulma): Tarayıcı (Browser) eklentisi, Slack entegrasyonu veya terminal girdisi gibi kaynaklardan akan ham veriler yakalanır. Bu ham veriler gürültüden arındırılarak anlamsal çekirdeği çıkarılır.",
+              "2. Association & Graph Injection (İlişkilendirme ve Grafa Enjeksiyon): Yeni bellek öğesi (node), zaman damgaları, mekân bağlamı ve mevcut bellek grafındaki diğer düğümlerle kurulan anlamsal ilişkilerle (edges) birlikte graf veri modeline yazılır.",
+              "3. Retrieval & Reinforcement (Geri Çağırma ve Güçlendirme): Kullanıcı benzer bir konuda işlem yaptığında, ilgili düğüm geri çağrılır. Her başarılı çağrılma, düğümün ve ilişkili kenarların erişilebilirlik skorunu (ağırlığını) artırır (Hebbian öğrenme kuralı).",
+              "4. Decay & Pruning (Sönümlenme ve Budama): Zaman içinde çağrılmayan ve güncelliğini yitiren düğümlerin ağırlığı algoritmik olarak azalır (forgetting). Düşük skora sahip düğümler kalıcı olarak silinmez, ancak bağlam dışı bırakılmak üzere arka plana itilir."
+            ]
+          },
+          {
+            "heading": "Bellek Akış Şeması",
+            "paragraphs": [
+              "Geliştiriciler için bellek akış şeması şu teknik sırayı takip eder:",
+              "Ham Girdi ➔ NLP Pipeline (Niyet Süzme) ➔ Vektör Embeddings Oluşturma ➔ Semantic Provenance Graph Enjeksiyonu ➔ Zamanla Eskime Skoru Hesabı."
+            ]
+          },
+          {
+            "heading": "Mimaride Temsil",
+            "paragraphs": [
+              "Bu dinamik yaşam döngüsünün kod seviyesinde yönetilebilmesi için, bilginin zaman, kimlik ve köken katmanlarıyla birlikte temsil edilebileceği gelişmiş bir veri modeline ihtiyaç vardır. Sonraki bölümde, bu veri modelini (Semantic Provenance Graph) tüm detaylarıyla inceleyeceğiz."
             ]
           }
         ],
@@ -261,18 +592,31 @@
         "references": []
       }
     },
-    "new-digital-organ": {
-      "title": "12. Yeni Bir Dijital Organ",
-      "purpose": "Kalıcı anlamsal belleğin medeniyet tarihindeki yerini tanımlamak.",
-      "key_question": "Tarih boyunca icat edilen katmanlardan sonraki sıradaki adım nedir?",
+    "memory-representation": {
+      "title": "15. Belleğin Temsili",
+      "purpose": "Semantic Provenance Graph veri modelini detaylandırmak.",
+      "key_question": "Hafıza, zaman ve kimlik katmanları kod seviyesinde nasıl temsil edilir?",
       "draft": {
         "sections": [
           {
-            "heading": "12. Yeni Bir Dijital Organ",
+            "heading": "Semantic Provenance Graph (SPG) Nedir?",
             "paragraphs": [
-              "İnsan uygarlığı şunları icat etti: Yazı, Kütüphaneler, Arama motorları, Bulut depolama, Yapay Zekâ.",
-              "Sıradaki katman: Kalıcı anlamsal bellek.",
-              "İnsan zekâsının yerini almak için değil. Onu genişletmek için."
+              "> Saule'nin veri modeli; anlamsal ilişkileri, zamansal akışı ve veri kökenini bir arada tutan Semantic Provenance Graph mimarisidir.",
+              "Geleneksel bilgi grafikleri (Knowledge Graphs) sadece nesneler arasındaki ilişkileri (A, B'nin yöneticisidir) statik olarak modeller. Vektör veri tabanları ise sadece metin benzerliğini ölçer. Saule, bu iki yaklaşımın sınırlarını aşmak için Semantic Provenance Graph (SPG - Anlamsal Köken Grafiği) modelini geliştirmiştir. SPG; verinin kendisini, o verinin hangi kaynaktan (Slack, Notion, tarayıcı), ne zaman, kimin tarafından ve hangi niyetle üretildiğini (provenance) gösteren üst verilerle birlikte tek bir birleşik graf yapısında temsil eder."
+            ]
+          },
+          {
+            "heading": "SPG Düğüm ve Kenar Yapısı",
+            "paragraphs": [
+              "Kod seviyesinde bir SPG düğümü (node) şu şemaya sahiptir:",
+              "```json\n{\n  \"id\": \"mem_01h8x9\",\n  \"type\": \"epizodic | semantic\",\n  \"content\": \"Ahmet ile X projesinde Rust kullanmaya karar verdik.\",\n  \"embedding\": [0.012, -0.045, ...],\n  \"created_at\": 1783156054,\n  \"decay_weight\": 0.98,\n  \"provenance\": {\n    \"source\": \"slack_channel_dev\",\n    \"author\": \"user_id_45\",\n    \"session_id\": \"sess_89\"\n  }\n}\n```",
+              "Kenarlar (edges) ise düğümler arasındaki anlamsal (\"rust_is_used_for_x_project\"), zamansal (\"created_after\") ve nedensel (\"rust_chosen_because_of_memory_safety\") ilişkileri ve bunların dinamik güç skorlarını tutar."
+            ]
+          },
+          {
+            "heading": "Tasarıma Etkisi",
+            "paragraphs": [
+              "SPG veri modeli, Saule'nin bilgi parçalarını salt metin olarak değil, tüm bağlamsal kökleriyle birlikte saklamasını sağlar. Bir sonraki bölümde, bu zengin graf yapısından hareketle yapay zekâ modellerine beslenecek dinamik bağlamın nasıl inşa edildiğini (retrieval & composition) göreceğiz."
             ]
           }
         ],
@@ -282,20 +626,33 @@
         "references": []
       }
     },
-    "vision": {
-      "title": "13. Vizyon",
-      "purpose": "Bireyler, ekipler ve şirketler için ortak akıl vizyonunu açıklamak.",
-      "key_question": "Hafıza kime ait olmalıdır?",
+    "retrieval-composition": {
+      "title": "16. Bellek Arama ve Bağlam Oluşturma",
+      "purpose": "Semantik geri çağırma ve üst-düğüm bağlamlamayı açıklamak.",
+      "key_question": "Saule, doğru bağlamı doğru anda LLM'lere nasıl besler?",
       "draft": {
         "sections": [
           {
-            "heading": "13. Vizyon",
+            "heading": "Vektör Aramasının Yetersizliği ve Üst-Düğüm Bağlamlama",
             "paragraphs": [
-              "İnanıyoruz ki;",
-              "Her birey ömür boyu sürecek bir hafızayı hak eder.",
-              "Her yaratıcı ekip, bağlamını koruyan ortak bir aklı hak eder.",
-              "Her şirket, silinmeyen bir kurumsal hafızayı hak eder.",
-              "Hafıza, onu yaratan insanlara ait olmalıdır. Tesadüfen kullandıkları platformlara değil."
+              "> Bağlam oluşturma; düz bir vektör araması değil, üst-düğüm bağlamlama ve anlamsal köken takibi ile inşa edilen dinamik bir orkestrasyondur.",
+              "Klasik RAG sistemleri, kullanıcının sorgusuyla en çok eşleşen ilk 5 vektör metnini çekip LLM'e gönderir. Ancak bu parçalar genellikle bağlamdan yoksundur. Örneğin, \"Rust projesindeki karar neydi?\" sorgusuna karşılık sadece \"Rust kullanacağız\" cümlesi gelir; fakat o kararın neden alındığı, hangi risklerin tartışıldığı dışarıda kalır. Saule, bu sorunu aşmak için Üst-Düğüm Bağlamlama (Super-Node Context Composition) yöntemini kullanır. Sorguyla eşleşen bir düğüm bulunduğunda, SPG grafında o düğüme doğrudan bağlı olan zamansal ve anlamsal komşu düğümler de (provenance path) çekilerek hiyerarşik ve zengin bir bağlam bloku oluşturulur."
+            ]
+          },
+          {
+            "heading": "Bağlam Oluşturma Algoritması",
+            "paragraphs": [
+              "Saule'nin arama motoru şu algoritmayı takip eder:",
+              "1. Sorguyu vektöre çevir ve SPG üzerinde anlamsal benzerlik araması yap.",
+              "2. En yüksek skora sahip düğümlerin etrafındaki ilişkisel grafı (provenance sub-graph) çıkar.",
+              "3. Zamansal kaymayı (context drift) önlemek için düğümlerin zaman damgalarını kronolojik sıraya koy.",
+              "4. Aktif unutma skoruna göre ağırlığı düşmüş düğümleri eliyerek en temiz bağlamı (context composition) modelin sınırlarına uygun olarak paketle."
+            ]
+          },
+          {
+            "heading": "Gizlilik Entegrasyonu",
+            "paragraphs": [
+              "Bu zengin bağlam oluşturma süreci, kullanıcı verilerinin güvenliğini tehlikeye atmamalıdır. Bir sonraki bölümde, bu gelişmiş arama ve orkestrasyon işlemlerinin kullanıcı gizliliğini koruyarak, şifreli bir şekilde nasıl gerçekleştirildiğini inceleyeceğiz."
             ]
           }
         ],
@@ -305,19 +662,385 @@
         "references": []
       }
     },
-    "closing-manifesto": {
-      "title": "Kapanış Bildirisi",
-      "purpose": "Düşünmek ile hatırlamanın insanlık ilerlemesindeki yerini ilan etmek.",
-      "key_question": "Düşünmek ile hatırlamak nasıl birleşir?",
+    "isolation-privacy": {
+      "title": "17. Bellek İzolasyonu ve Gizlilik",
+      "purpose": "Workspace güvenliği ve E2EE/lokal işleme paradoksunu ele almak.",
+      "key_question": "Veriyi uçtan uca şifrelerken anlamsal aramaları nasıl çalıştırabiliriz?",
       "draft": {
         "sections": [
           {
-            "heading": "Kapanış Bildirisi",
+            "heading": "Bilişsel Mahremiyet Paradoksu",
             "paragraphs": [
-              "Yapay zekâ düşünmemize yardım eder.",
-              "Anlamsal Bellek hatırlamamızı sağlar.",
-              "İnsanlığın ilerlemesi her ikisini de gerektirir.",
-              "Saule, insanlığın hafıza katmanını inşa ediyor."
+              "> Bilişsel mahremiyet, uçtan uca şifreleme (E2EE) ve yerel cihazda (local-first) işleme mimarisiyle mutlak olarak korunmalıdır.",
+              "Kişisel veya kurumsal bir bellek katmanı, kullanıcının en mahrem kararlarını, niyetlerini ve iş sırlarını tutar. Dolayısıyla bu verilerin merkezi bulut sunucularında açık metin (plaintext) olarak saklanması kabul edilemez. Ancak veriler tamamen şifrelendiğinde, yapay zekâ modellerinin anlamsal arama yapması ve ilişkiler kurması zorlaşır. Saule, bu bilişsel mahremiyet paradoksunu yerel-öncelikli (local-first) yazılım mimarisiyle çözer."
+            ]
+          },
+          {
+            "heading": "Uçtan Uca Şifreleme (E2EE) ve Yerel Vektör Arama",
+            "paragraphs": [
+              "Saule'nin veri saklama katmanı şu güvenlik protokolleri üzerine inşa edilmiştir:",
+              "• Yerel İndeksleme ve Embeddings: Vektör embeddings oluşturma ve SPG ilişkileri kullanıcının kendi cihazında (local) çalışır.",
+              "• E2EE Senkronizasyon: Cihazlar arası veri senkronizasyonu yapılırken, tüm düğümler ve grafik kenarları kullanıcının kendi anahtarıyla (Zero-Knowledge) uçtan uca şifrelenir. Bulut sunucusu sadece şifreli bitleri taşır, verinin içeriğini asla göremez.",
+              "• Korumalı Çalışma Alanları (Memory Isolation): Bireysel ve kurumsal bellek alanları birbirinden kesin sınırlarla izole edilir; bir ekibin kurumsal belleği asla başka bir kullanıcının veya modelin eğitim verisine sızamaz."
+            ]
+          },
+          {
+            "heading": "Model Bağımsızlığına Doğru",
+            "paragraphs": [
+              "Gizlilik katmanı, kullanıcının verilerini güvende tutarken, farklı bulut veya yerel yapay zekâ modelleriyle güvenle konuşabilmesini de sağlamalıdır. Sonraki bölümde, bu bellek yapısının modellerden tamamen bağımsız olarak nasıl çalıştığını inceleyeceğiz."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "model-agnostic": {
+      "title": "18. Model-Bağımsız Yapay Zekâ",
+      "purpose": "Hafızanın LLM'lerden bağımsız kalıcılığını açıklamak.",
+      "key_question": "Modeller değiştikçe hafızanın mülkiyeti ve sürekliliği nasıl korunur?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "Model Bağımlılığının Sonu (The Decoupled Architecture)",
+            "paragraphs": [
+              "> Yapay zekâ modelleri geçici akıl yürütme motorlarıdır; anlamsal hafıza ise modellerin ötesinde, kullanıcıya ait kalıcı bir altyapı katmanı olmalıdır.",
+              "Bugün pek çok uygulama, bellek işlevlerini OpenAI, Anthropic veya Google gibi sağlayıcıların sunduğu asistan API'lerine emanet eder. Bu yaklaşım, kullanıcıyı o sağlayıcıya mahkûm eder ve model güncellendiğinde tüm bellek yapısının bozulması riskini taşır. Saule, bellek katmanını akıl yürütme motorundan (LLM) tamamen ayırır (decoupling). Model sadece o andaki mantıksal sorguyu çözmek için çağrılan bir \"işlemci\" (CPU) gibidir; hafıza ise anakart üzerindeki kalıcı \"sabit disk\"tir (SML)."
+            ]
+          },
+          {
+            "heading": "Standartlaştırılmış Bellek Arayüzü (SMI)",
+            "paragraphs": [
+              "Saule, modeller ile bellek arasında standartlaştırılmış bir arayüz (Semantic Memory Interface - SMI) sunar. SMI, kullanılan model ne olursa olsun (ister yerel bir Llama modeli, ister buluttaki Claude 3.5), aynı anlamsal graf yapısını okuyup yazabileceği bir çeviri katmanı sağlar. Model değiştikçe hafıza kaybolmaz; yeni model, SMI protokolü üzerinden geçmiş bağlamsal sermayeyi kaldığı yerden okumaya devam eder. Bu sayede organizasyonlar, tek bir YZ sağlayıcısına kilitlenmeden, en güncel ve en ekonomik modeller arasında saniyeler içinde geçiş yapabilirler."
+            ]
+          },
+          {
+            "heading": "Geleceğin Standartları",
+            "paragraphs": [
+              "Saule'nin model bağımsızlığı ilkesi, onu sadece bir uygulama olmaktan çıkarıp tüm yapay zekâ ekosistemi için ortak bir protokole dönüştürür. Kısım IV'te, bu vizyonu daha da genişleterek, açık kaynaklı bellek protokollerini, geliştirici ekosistemini ve bilişimin gelecekteki yeni yapısal katmanını nasıl inşa ettiğimizi göreceğiz."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "part-4-interlude": {
+      "title": "Kısım IV Giriş: Gelecek Vizyonu",
+      "purpose": "Kısım IV geçiş metni.",
+      "key_question": "Anlamsal bellek katmanı kurumsal ve toplumsal düzeyde geleceğini nasıl şekillendirecektir?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "",
+            "paragraphs": [
+              "> Bellek sadece bireysel bir depo değil; yapay zekâ çağında insanlığın ortak bilişsel birikimini yarınlara taşıyacak kolektif bir standarttır.",
+              "Saule'nin felsefi çıkış noktalarını, insan belleğinin kurucu ilkelerini ve Semantic Provenance Graph mimarisinin teknik kod seviyesindeki karşılıklarını detaylandırdık. Ancak Saule sadece bireysel bir asistan veya kurumsal bir araç değildir. O, tüm yazılımların ve modellerin ortaklaşa konuşabileceği, taşınabilir ve açık standartlara sahip bir gelecek vizyonudur.",
+              "Kısım IV, Saule'nin gelecekteki konumunu ve toplumsal biliş üzerindeki etkisini özetleyecektir. Farklı bellek katmanlarının birbiriyle güvenle konuşmasını sağlayacak Açık Bellek Protokolü (Open Memory Protocol) vizyonunu, geliştiriciler için inşa ettiğimiz ekosistemi ve işletim sistemleri ile buluttan sonraki yeni altyapı katmanı olan 'Bilişsel Katman'ı (The Cognitive Layer) ele alacağız. İnsan aklının ve dijital hafızanın yeni çağdaki nihai birleşmesini resmederek bu beyaz bülteni tamamlayacağız."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "open-memory-protocol": {
+      "title": "19. Açık Bir Bellek Protokolüne Doğru",
+      "purpose": "Açık ve taşınabilir bellek protokolü vizyonunu tanıtmak.",
+      "key_question": "Bellek sistemlerinin birbiriyle konuşabileceği ortak bir standart nasıl yaratılır?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "Kapalı Platformlar ve Hafıza Siloları",
+            "paragraphs": [
+              "> Geleceğin dijital dünyasında hafıza kapalı ekosistemlerde hapsedilmemeli; açık, taşınabilir ve evrensel bir bellek protokolü (OMP) ile özgürleşmelidir.",
+              "Bugün kullandığımız tüm yazılımlar (SaaS platformları) verileri kendi veritabanlarında saklar ve kullanıcıyı kendi ekosistemine kilitler. Bir platformdan diğerine geçmek istediğinizde, sadece verilerinizi değil, o verilerin arkasındaki bağlamı ve geçmiş birikimi de kaybedersiniz. Yapay zekâ çağında bu silolaşma bilişsel bir bölünme yaratır. Bireyin veya organizasyonun tek bir bütün olması gereken hafızası, onlarca kapalı uygulama arasında parçalanır. Saule, bu sorunu çözmek için Açık Bellek Protokolü (Open Memory Protocol - OMP) standardını önermektedir."
+            ]
+          },
+          {
+            "heading": "OMP Standardının Yapısı ve Protokol Kuralları",
+            "paragraphs": [
+              "Açık Bellek Protokolü, anlamsal bellek düğümlerinin, kenarlarının ve veri kökeninin (provenance) şifreli, taşınabilir ve standart bir JSON formatında cihazlar ve uygulamalar arasında aktarılmasını sağlayan bir protokoldür. OMP sayesinde:",
+              "• Bellek Taşınabilirliği: Kullanıcı, bellek grafını bir uygulamadan diğerine veya bir yapay zekâ asistanından diğerine hiçbir veri ve bağlam kaybı yaşamadan saniyeler içinde taşıyabilir.",
+              "• Birlikte Çalışabilirlik (Interoperability): Farklı uygulamalar (örneğin bir e-posta istemcisi ile bir proje yönetim aracı), OMP üzerinden kullanıcının merkezi bellek katmanına güvenli sınırlar dahilinde veri ekleyebilir ve oradan bağlam okuyabilir."
+            ]
+          },
+          {
+            "heading": "Geliştirici Ağı",
+            "paragraphs": [
+              "OMP standardı, yapay zekâ geliştiricilerinin kapalı API'lere bağımlı kalmadan, ortak ve özgür bir bellek ekosistemi üzerinde yazılımlar inşa etmesinin önünü açar. Sonraki bölümde, bu standardı hayata geçirecek olan geliştirici araçlarını ve SDK ekosistemini inceleyeceğiz."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "developer-ecosystem": {
+      "title": "20. Geliştirici Ekosistemi",
+      "purpose": "SDK, API ve otonom ajan entegrasyonlarını açıklamak.",
+      "key_question": "Geliştiriciler Saule'nin bellek katmanını kendi yazılımlarına nasıl entegre eder?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "Saule SDK ve Entegrasyon Kolaylığı",
+            "paragraphs": [
+              "> Saule Ekosistemi; SDK'lar, standartlaştırılmış API'ler ve otonom bellek ajanları vasıtasıyla geliştiricilere bilişsel bir altyapı sunar.",
+              "Bir bellek katmanının başarısı, geliştirici topluluğu tarafından ne kadar kolay benimsenebildiği ile ölçülür. Saule, TypeScript, Python ve Rust dillerinde yazılmış hafif SDK'lar sunar. Geliştiriciler, sadece birkaç satır kodla kendi yapay zekâ uygulamalarına, sohbet arayüzlerine veya otonom ajanlarına kalıcı ve yaşayan bir bellek kazandırabilirler.",
+              "```typescript\nimport { SauleClient } from '@saule/sdk';\nconst client = new SauleClient({ endpoint: 'local' });\n// Yeni bir bellek girdisi ekleme\nawait client.memory.ingest({\n  content: \"Proje mimarisinde Postgres kullanılmasına karar verildi.\",\n  source: \"meeting_notes\"\n});\n```"
+            ]
+          },
+          {
+            "heading": "Otonom Bellek Ajanları (Memory Agents)",
+            "paragraphs": [
+              "Saule ekosistemi, geliştiricilerin sadece veri sorgulaması yapmasını değil; arka planda çalışan, anlamsal kaymaları tespit eden (context drift detectors), eskiyen bilgileri algoritmik olarak budayan ve grafı düzenleyen otonom bellek ajanları (Memory Agents) geliştirmesini de destekler. Bu sayede yazılımlar, zaman geçtikçe yavaşlayan hantal veri tabanları yerine, kendi kendini optimize eden dinamik bellek yapılarına kavuşur."
+            ]
+          },
+          {
+            "heading": "Yeni Bilişim Çağı",
+            "paragraphs": [
+              "Geliştirici ekosisteminin büyümesi, bilgisayarlar ile insan aklı arasındaki ilişkinin de kökten değişmesini sağlayacaktır. Son bölümde, bu bilişsel altyapının işletim sistemleri ve buluttan sonraki yeni büyük bilişim katmanı (The Next Computing Layer) olarak nasıl konumlanacağını ele alacağız."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "next-computing-layer": {
+      "title": "21. Yeni Bilişim Katmanı",
+      "purpose": "SML'i bilgisayar dünyasındaki yeni altyapı katmanı olarak konumlandırmak.",
+      "key_question": "İşletim sistemleri ve buluttan sonra, bilişimin yeni yapısal katmanı ne olacaktır?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "Bilişim Tarihinin Katmanları ve Bilişsel Devrim",
+            "paragraphs": [
+              "> Bilişimin yeni yapısal katmanı; donanım, işletim sistemi ve bulutun üzerinde yükselen bağımsız Anlamsal Bellek Katmanı (SML) olacaktır.",
+              "Bilgisayar tarihi, soyutlama katmanlarının tarihidir. İlk olarak donanım seviyesinde (transistörler ve kablolar) başladık. Ardından bu donanımı yöneten İşletim Sistemleri (OS) katmanını kurduk. İnternet çağıyla birlikte veriyi ve işlemi küreselleştiren Bulut (Cloud) katmanını ekledik. Bugün yapay zekâ devrimiyle birlikte, bu üç katmanın üzerinde yeni bir katman doğuyor: Bilişsel Katman (The Cognitive Layer). Bu katman, veriyi sadece saklayan veya ileten değil; anlamı, zamanı, kimliği ve niyetleri organize eden yaşayan bir bellek altyapısıdır."
+            ]
+          },
+          {
+            "heading": "Bilişsel Katman Olarak Saule",
+            "paragraphs": [
+              "Saule, bu bilişsel katmanın kurucu motorudur. Donanımlar değişebilir, işletim sistemleri evrilebilir, büyük dil modelleri gelip geçebilir; fakat insan zihninin ve organizasyonların zaman içinde biriken anlamsal belleği sabit ve egemen kalmalıdır. Saule, bilgisayarları sadece komutları harfiyen yerine getiren dilsiz araçlar olmaktan çıkarıp insan bilişini koruyan, onu genişleten ve zamanın sınırları ötesine taşıyan yaşayan birer zihinsel ortağa dönüştürür."
+            ]
+          },
+          {
+            "heading": "Kapanış Deklarasyonu",
+            "paragraphs": [
+              "Saule White Paper v1.0, sadece bir teknoloji mimarisinin belgesi değil; insanın kendi dijital varlığı, dikkat sınırları ve zihinsel mülkiyeti üzerindeki egemenliğini koruma kararlılığıdır. Zekâ geneldir ve hızla emtialaşmaktadır; fakat bizi biz yapan, kararlarımızı biricik kılan şey hafızamızdır. Saule, bu hafızayı sahibine iade etmek ve insan zihnini geleceğin bilişsel dünyasında mutlak egemen kılmak için buradadır. Zekâ değişebilir. Hafıza kalıcıdır."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    }
+  },
+  "appendices": {
+    "competitor-analysis": {
+      "title": "Ek A: Rakip Analizi ve Savunulabilirlik",
+      "purpose": "Saule'nin diğer yapay zekâ bellek modelleriyle karşılaştırılması ve bilişsel hendeğinin analizi.",
+      "key_question": "Mevcut YZ bellek çözümleri neden bağımsız bir bellek katmanının yerini tutamaz?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "Bilişsel Hafıza Çözümleri Karşılaştırma Matrisi",
+            "paragraphs": [
+              "> Saule; veri izolasyonu, model bağımsızlığı ve anlamsal köken takibi ile kapalı model hafızalarından ve basit RAG entegrasyonlarından ayrışır.",
+              "Yapay zekâ ekosisteminde son dönemde gelişen hafıza yaklaşımları, genellikle modellerin durumsuz (stateless) yapısını geçici yamalarla aşmaya çalışır. Bu yaklaşımlar ile bağımsız bir Anlamsal Bellek Katmanı (SML) arasındaki farklar şunlardır:",
+              "• OpenAI/Claude Memory: Düz ve anahtar-değer (Key-Value) tabanlı basit hatırlama sunar. Model bağımsızlığı yoktur (yalnızca tek modelde çalışır), veri buluttadır ve gizlilik güvencesi sunmaz. Ağ etkisi (network effect) yoktur.",
+              "• RAG / Vektör Veritabanları: Ham metin benzerliği (vector similarity) üzerinden arama yapar. Anlamsal derinliği ve zaman ilişkisi yoktur, veri organizasyonu statiktir.",
+              "• Mem0 / Zep: Epizodik vektör belleği tutar. Kısmen model bağımsızdır ancak veri yapısı esnek değildir ve yerel-öncelikli gizlilik sunmaz.",
+              "• Letta / MemGPT: Ajanların geçici çalışma alanlarını (scratchpad) yönetir. Uygulamalar arası taşınabilirliği ve çapraz ağ etkisi yoktur.",
+              "• Saule (SML): Semantic Provenance Graph (SPG) yapısı kullanır. Tamamen model bağımsızdır (Model-Agnostic), Zero-Knowledge şifreleme ve yerel-öncelikli (local-first) saklama sunar. workspace'ler arası anlamsal ağ etkisi (Collective Intelligence) üretir."
+            ]
+          },
+          {
+            "heading": "Saule Neden Bir Model Tarafından İkame Edilemez (Savunulabilirlik)?",
+            "paragraphs": [
+              "Yatırımcılar ve mimarlar için en kritik soru şudur: 'OpenAI veya Anthropic kendi bellek sistemlerini mükemmelleştirdiğinde Saule neden gereksiz hale gelmez?' Bunun yanıtı Saule'nin üç kurucu korumasında (moats) yatmaktadır:",
+              "1. Model Decoupling (Bağlantısızlık): OpenAI hafızası Claude tarafından okunamaz; Claude hafızası yerel bir Llama modeli tarafından kullanılamaz. Oysa hafıza, sahibinin mülkiyetinde olmalıdır. Saule, modelleri geçici işlem birimleri olarak konumlandırarak, hafızayı kalıcı ve taşınabilir kılar.",
+              "2. Cross-Application Context (Uygulamalar Arası Bağlam): Tek bir model sağlayıcısı, kullanıcının Slack, Notion, tarayıcı ve e-postalarındaki verileri tek bir anlamsal köken grafında (SPG) birleştiremez ve kurumsal veri silolarını aşamaz.",
+              "3. Zero-Knowledge Privacy (Sıfır-Bilgi Gizliliği): Kurumlar, en mahrem iş süreçlerini ve niyetlerini bulut sağlayıcılarının açık veritabanlarına emanet edemezler. Saule'nin yerel-öncelikli, şifreli mimarisi bilişsel mülkiyeti yasal ve teknik olarak güvenceye alır."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "roadmap-business": {
+      "title": "Ek B: Yol Haritası ve İş Modeli",
+      "purpose": "MVP'den anlamsal işletim sistemine yol haritası ve kurumsal iş modeli.",
+      "key_question": "Saule bilişsel altyapı pazarında nasıl büyüyecek ve network etkisi yaratacak?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "MVP'den Bilişsel İşletim Sistemine Yol Haritası",
+            "paragraphs": [
+              "> Bireysel bellekten kurumsal transaktif belleğe uzanan yol haritası, anlamsal ağ etkileri (semantic network effects) üzerinden kalıcı bir pazar değeri üretir.",
+              "Saule'nin vizyonu, tek bir asistan arayüzünden tüm internet bilişim altyapısına uzanan 4 fazlı bir büyüme planıdır:",
+              "• Faz 1: Bireysel Bellek Motoru (Personal SML - MVP) — Tarayıcı (Browser) eklentisi ve Terminal UI ile kullanıcının anlık niyetlerini ve tarayıcı bağlamını toplayan, yerel şifrelenmiş bellek motoru.",
+              "• Faz 2: Çalışma Alanı Belleği (Workspace SML) — Ekipler için Slack, Notion, GitHub entegrasyonlarıyla transaktif bellek altyapısının kurulması ve kurumsal amnezinin engellenmesi.",
+              "• Faz 3: Açık Protokol (Open Memory Protocol - OMP) — Farklı uygulamaların ve otonom ajanların Saule ile standart API'ler üzerinden konuşmasını sağlayan protokolün yayınlanması.",
+              "• Faz 4: Anlamsal İşletim Sistemi (Semantic OS) — Donanım ve bulut katmanlarının üzerinde, doğrudan insan bilişiyle uyumlu çalışan yeni nesil bir işletim sistemi katmanının kuruluşu."
+            ]
+          },
+          {
+            "heading": "İş Modeli ve Gelir Akışları",
+            "paragraphs": [
+              "Saule, açık kaynaklı çekirdek (open-core) ve SaaS abonelik modeliyle ticarileşir:",
+              "• Saule Community (Açık Kaynak): Bireysel geliştiriciler ve lokal cihazda çalıştırmak isteyen kullanıcılar için tamamen ücretsiz, yerel bellek motoru.",
+              "• Saule Professional: Gelişmiş senkronizasyon, bulut yedekleme ve API erişimi isteyen profesyoneller için aylık abonelik modeli.",
+              "• Saule Enterprise: Şirketler için izole bellek alanları (Memory Isolation), transaktif bellek grafiği, gelişmiş rol yetkilendirmeleri ve özel E2EE senkronizasyon altyapısı sunan kurumsal lisanslama modeli. Kurumsal amneziyi engelleyerek tekerleğin yeniden icat edilmesini önlemek, enterprise segmenti için en büyük yatırım getirisi (ROI) kaynağıdır."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "roadmap-business": {
+      "title": "Ek B: Yol Haritası ve İş Modeli",
+      "purpose": "MVP'den anlamsal işletim sistemine yol haritası ve kurumsal iş modeli.",
+      "key_question": "Saule bilişsel altyapı pazarında nasıl büyüyecek ve network etkisi yaratacak?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "MVP'den Bilişsel İşletim Sistemine Yol Haritası",
+            "paragraphs": [
+              "> Bireysel bellekten kurumsal transaktif belleğe uzanan yol haritası, anlamsal ağ etkileri (semantic network effects) üzerinden kalıcı bir pazar değeri üretir.",
+              "Saule'nin vizyonu, tek bir asistan arayüzünden tüm internet bilişim altyapısına uzanan 4 fazlı bir büyüme planıdır:",
+              "• Faz 1: Bireysel Bellek Motoru ve Yerel Çekirdek (Personal SML & Local Core) — Tarayıcı (Browser) eklentisi ve Terminal UI (gözlem), yerel SQLite veritabanı (depolama) ve yerel embedding/küçük LLM (anlamsal işlem) entegrasyonu.",
+              "• Faz 2: Çalışma Alanı Belleği (Workspace SML) — Ekipler için Slack, Notion, GitHub entegrasyonlarıyla transaktif bellek altyapısının kurulması ve kurumsal amnezinin engellenmesi.",
+              "• Faz 3: Açık Protokol (Open Memory Protocol - OMP) — Farklı uygulamaların ve otonom ajanların Saule ile standart API'ler üzerinden konuşmasını sağlayan protokolün yayınlanması.",
+              "• Faz 4: Anlamsal İşletim Sistemi (Semantic OS) — Donanım ve bulut katmanlarının üzerinde, doğrudan insan bilişiyle uyumlu çalışan yeni nesil bir işletim sistemi katmanının kuruluşu."
+            ]
+          },
+          {
+            "heading": "İş Modeli ve Gelir Akışları",
+            "paragraphs": [
+              "Saule, açık kaynaklı çekirdek (open-core) ve SaaS abonelik modeliyle ticarileşir:",
+              "• Saule Community (Açık Kaynak): Bireysel geliştiriciler ve lokal cihazda çalıştırmak isteyen kullanıcılar için tamamen ücretsiz, yerel bellek motoru.",
+              "• Saule Professional: Gelişmiş senkronizasyon, bulut yedekleme ve API erişimi isteyen profesyoneller için aylık abonelik modeli.",
+              "• Saule Enterprise: Şirketler için izole bellek alanları (Memory Isolation), transaktif bellek grafiği, gelişmiş rol yetkilendirmeleri ve özel E2EE senkronizasyon altyapısı sunan kurumsal lisanslama modeli. Kurumsal amneziyi engelleyerek tekerleğin yeniden icat edilmesini önlemek, enterprise segmenti için en büyük yatırım getirisi (ROI) kaynağıdır."
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "technical-roadmap": {
+      "title": "Ek C: Teknik Yol Haritası ve Bilişsel Mimari",
+      "purpose": "Saule SML katmanının 6 seviyeli teknik mimarisini, veri şemasını ve 4 fazlı yol haritasını detaylandırmak.",
+      "key_question": "Saule SML mimarisi teknik olarak nasıl yapılandırılır ve Fazlar halinde nasıl hayata geçirilir?",
+      "draft": {
+        "sections": [
+          {
+            "heading": "Bilişsel ve Gelişimsel Döngüler",
+            "paragraphs": [
+              "> Saule, statik bir sorgu-cevap motoru değildir. Arka planda kesintisiz çalışan ve her döngüde kendini besleyen bir bilişsel döngü (Adaptive Intelligence Loop) üzerinde çalışır.",
+              "Mimari Statü ve Bildirim: Bu belgede tanımlanan 6 seviyeli bilişsel işletim sistemi (Cognitive OS) ve yerel şifrelenmiş altyapı, Saule'nin uzun vadeli teknik hedeflerini ve mimari şablonunu temsil etmektedir. Mevcut çalışan prototip (current state), bulut tabanlı bir Firestore ve API entegrasyonuyla çalışan, hibrit niyet yönlendirme (context routing) ve vektör doğrulama motorunu uygulamaktadır. Belirtilen yerel bağımsız bileşenler ve yerel küçük LLM entegrasyonu, aşağıdaki yol haritası fazları doğrultusunda sırayla devreye alınacaktır.",
+              "Bellek Yaşam Döngüsü (Memory Lifecycle): Saule'de hiçbir bellek girdisi (Memory Unit) statik kalmaz. Zaman içinde şu yaşam döngüsünden geçer: Capture ➔ Episode ➔ Summarize ➔ Link ➔ Strengthen ➔ Decay ➔ Archive ➔ Delete.",
+              "Geri Bildirim Döngüsü (Learning Engine): Sistemin kendi kararlarını ve bağlamsal doğruluğunu sürekli iyileştirmesi için şu döngü çalıştırılır: Execution ➔ Feedback ➔ Learning ➔ Policy Update ➔ Observe. Kullanıcı geri bildirimleri, yerel Policy Engine kurallarını ve anlamsal ağırlık algoritmalarını otomatik olarak günceller."
+            ]
+          },
+          {
+            "heading": "Intelligence Orchestrator (Merkezi Yönetici)",
+            "paragraphs": [
+              "Orkestratör, Saule'nin bilişsel kararlarını yöneten ve katmanlar arası koordinasyonu sağlayan beyindir. Alt bileşenleri şunlardır:",
+              "• Task Scheduler: Arka plan işlemlerinin (Consolidation, Forgetting, Compression vb.) ne zaman ve hangi öncelikle çalışacağını planlar (Örn: Cihaz şarja bağlıyken ve boştayken).",
+              "• Memory Scheduler: Hangi bellek alanlarının (Personal, Workspace vb.) sorgulanacağını ve bunlardan nasıl gürültüsüz bir bağlam sentezi (Context Composition) oluşturulacağını orkestre eder.",
+              "• Agent Router: Gelen niyet (intent) ve bağlama göre hangi otonom ajanın (e-posta ajanı, takvim ajanı) tetikleneceğini belirler.",
+              "• Resource Manager: Yerel SQLite boyutunu, RAM kullanım sınırlarını ve CPU tüketimini yöneterek cihazı yormaz.",
+              "• Model Selector: İşlemin gizlilik derecesine, karmaşıklığına ve bütçeye göre hangi LLM'in (Yerel Tiny LLM mi, yoksa buluttaki API mi) kullanılacağını belirler."
+            ]
+          },
+          {
+            "heading": "6 Katmanlı Bilişsel İşletim Sistemi Mimarisi",
+            "paragraphs": [
+              "Saule Core, merkezindeki Intelligence Orchestrator tarafından yönetilen 7 katmanlı modüler bir yapıya sahiptir:",
+              "1. Observation Layer: Gözlemi insan (ses, eylem), dijital (tarayıcı, IDE, takvim) ve fiziksel (lokasyon, mikrofon, kamera) seviyelerinde soyutlar.",
+              "2. Context Layer: Çok modlu verileri (ekran, ses, zaman, konum) birleştirip bağlamsal odak ve öncelik (Attention Score & Priority) hesaplar.",
+              "3. Policy Engine: Veri sızdırmazlık sınırları (Privacy Rules), onaysız otomasyon engelleri ve kurumsal izolasyon kurallarını işletir.",
+              "4. Semantic Memory Layer: Space-Aware Knowledge Graph (Personal ➔ Workspace ➔ Community ➔ Organization) ile çoklu model destekli ayrıştırılmış embedding dizinini barındırır ve arka plan bellek işlerini yönetir.",
+              "5. Reasoning Layer: Hibrit Arama, Çok Adımlı Planlama ve Yerel Kuralları işleten akıl yürütme katmanı.",
+              "6. Execution Layer: Yüzen masaüstü arayüzü ve onay döngülerine dayalı otomasyon akışları.",
+              "7. Sync Layer: Yerelde AES-GCM şifrelenmiş Yjs/CRDT bloklarıyla Offline, P2P, Cloud ve Enterprise senkronizasyon modları."
+            ]
+          },
+          {
+            "heading": "Genişletilebilir Bellek Üniteleri ve SQLite Şeması",
+            "paragraphs": [
+              "Saule'nin bellek düğümleri, zamanla genişleyebilen 6 temel kategori (Knowledge, Experience, Action, Relationship, Identity, Resource) ve bunlardan türeyen alt tipler (decision, goal, fact, file vb.) üzerine kuruludur. İlişkisel SQLite şemamız şu şekildedir:",
+              "• `nodes`: id (PK), unit_category, unit_type, space_type, space_id, content, decay_score, created_at alanlarını barındıran temel bellek üniteleri.",
+              "• `embeddings`: node_id (FK), model_name, dimension, vector alanlarını tutan, ana düğümlerden izole edilmiş vektör tablosu. Bu sayede model değişimlerinde tüm veri korunur.",
+              "• `edges`: source_id, target_id, relation_type, confidence (güven puanı), created_by (ai/user/system), reason alanlarını tutan zengin kenar tablosu.",
+              "• `provenance`: node_id, app_name, window_title, url, file_path, device_id, workspace_id, user_action alanlarını tutan zengin veri kökeni tablosu."
+            ]
+          },
+          {
+            "heading": "Bilişsel Mahremiyet Paradoksu ve Yerel/Kolektif E2EE Çözümü",
+            "paragraphs": [
+              "Hafızanın yerel cihazda güvenle saklanması ve ortak çalışma alanlarında sızdırmaz kalması şu teknik mimari ile çözülmüştür:",
+              "• Yerel Veri Güvenliği: Yerel cihazdaki SQLite veri tabanı, kullanıcının ana şifresinden türetilen (PBKDF2) bir anahtarla yerelde AES-256-GCM (sqlcipher) yardımıyla şifreli tutulur. Bu sayede cihazdaki diğer uygulamalar Saule'nin bellek grafına ve embedding verilerine erişemez.",
+              "• Kolektif/Ortak Çalışma Alanı Senkronizasyonu (Zero-Knowledge P2P Key Exchange): Birden fazla kullanıcının ortak bir grafı (Workspace Memory) paylaştığı durumlarda Asimetrik Şifreleme (ECDH/RSA) kullanılır. Çalışma alanına dahil olan üyeler, kendi aralarında peer-to-peer (uçtan uca) olarak bir Çalışma Alanı Simetrik Şifreleme Anahtarı paylaşırlar. Ortak grafa yazılan her Yjs/CRDT veri paketi yerelde bu ortak anahtarla şifrelenir ve buluta cipher-text (şifreli metin) olarak gönderilir. Bulut sunucusu şifre çözme anahtarına sahip değildir; sadece şifreli paketlerin eşzamanlanmasını (relay) üstlenerek Zero-Knowledge mahremiyet modelini korur."
+            ]
+          },
+          {
+            "heading": "Otonom Gözlem, Boşta Durum Yönetimi ve I/O Optimizasyonu",
+            "paragraphs": [
+              "Saule, arka planda çalışırken diski yormamak ve sıfıra yakın enerji tüketmek için şu optimizasyonları uygular:",
+              "• RAM-Only Volatile Ring Buffer (Diske Yazma Birleştirme): Mikro-etkinlikler (tuş vuruşları, fare hareketleri) doğrudan SSD'ye yazılmaz; RAM'de uçucu bir halka arabellekte tutulur. Dikkat Filtresi (Attention Filter) epizodun bittiğine karar verdiğinde (örneğin kullanıcı 3 dakika boyunca yazdığı Notion sayfasından çıkıp tarayıcıya odaklandığında), bu veriler tek bir işlemle (single write transaction) SQLite'a yazılır.",
+              "• Hareketsizlik Yönetimi (Idle State) ve Geriye Dönük Zaman Kilidi: Kullanıcı klavye/fare hareketlerini 3 dakikadan fazla kestiğinde sistem 'Idle' durumuna geçer ve kaydı askıya alır. Epizodun bitiş zamanı, kullanıcının bilgisayardan uzaklaştığı an değil, son tuşa bastığı an olarak kaydedilir (retroactive timestamping), böylece 'hayalet odaklanma' (ghost attention) verileri engellenir. Ekran koruyucu veya kilit devreye girdiğinde dinleme tamamen durur ve öneri motoru ekran başı mahremiyeti için dondurulur.",
+              "• İki Aşamalı Arama Filtresi ve Toplu İndeksleme: Sürekli ağır embedding hesaplayıp CPU'yu yormamak için önce kelime bazlı hızlı BM25 filtresi çalışır. Yalnızca benzerlik eşiği aşıldığında yerel ONNX embedding ve kosinüs araması tetiklenir. Yeni eklenen ham epizotlar ise hemen indekslenmez; bilgisayar boşta ve şarjdayken (Dream State) toplu olarak arka planda indekslenir."
+            ]
+          },
+          {
+            "heading": "Otonom (Aktif) ve Etkileşimli (Pasif) Kullanıcı Modları",
+            "paragraphs": [
+              "Kullanıcının gizlilik hassasiyeti ile bilişsel yükünü dengelemek için sistem iki ayrı çalışma modu sunar:",
+              "• Otonom Gözlem Modu (Autonomic Mode / Subconscious): Varsayılan moddur. Arka planda aktif dinleme, dikkat filtresi ve rezonans motoru kesintisiz çalışır. Bankacılık veya gizli sekmeler gibi uygulamalar kara liste (blacklist) kuralları ile otomatik olarak dinleme dışı bırakılır.",
+              "• Etkileşimli / Manuel Mod (Interactive Mode / Conscious): Arka plan gözlemcileri tamamen kapatılır. Sistem işletim sistemini veya tarayıcıyı dinlemez. Yalnızca kullanıcı doğrudan etkileşime girdiğinde çalışır: Alt+Space ile Terminal HQ'ya yazmak, seçilen bir metne sağ tıklayıp 'Saule'ye Hatırlat' demek, mobil cihazda sesli epizot kaydetmek veya yüzen adadan 'Şu Anki Oturumu Kaydet' demek gibi rızaya dayalı ve açık işlemlerle bellek oluşturulur.",
+              "• UI/UX Durum Temsili: Masaüstündeki Yüzen Ada (Floating Island), sistemin o an hangi modda olduğunu hafif bir nabız animasyonuyla (Mavi/Yeşil: Otonom, Gri/Durgun: Manuel) kullanıcıya yansıtır ve tek tıklamayla modlar arası geçiş sağlar."
+            ]
+          },
+          {
+            "heading": "Tauri Masaüstü ve Mobil Yol Haritası",
+            "paragraphs": [
+              "Saule'nin 4 çeyreklik yerel entegrasyon yol haritası şu adımlardan oluşur:",
+              "• Faz 1: Bireysel Bellek Motoru ve Yerel Çekirdek (Personal SML & Local Core) — SQLite ilişkisel graf modelinin kurulması, Cognitive API (`remember`, `recall`, `connect`, `forget`) metotlarının yazılması, yerel nomic-embed ve Llama-3-8B-Instruct local entegrasyonu, Tarayıcı (Browser) eklentisi ve Terminal UI (gözlem), Yjs/CRDT şifreli senkronizasyonunun kurulması.",
+              "• Faz 2: Genişletilmiş Gözlem ve Bağlam Eritme Engine — Clipboard, Selection, Git Branch ve ekran okuma (Accessibility Tree) toplayıcıları, Context Fusion ile öncelik hesabı, arka planda çalışan Consolidation ve algoritmik eskime (decay) motoru.",
+              "• Faz 3: OS Yüzen Ada (Floating Desktop Island UI) — Tüm pencerelerin üzerinde durabilen saydam yüzen ada widget'ı, Alt+Space SML Terminal HQ arayüzü, kullanıcı onayına dayalı eylem otomasyon motoru.",
+              "• Faz 4: Mobil Entegrasyon ve Sesli Epizodik Notlar — React Native mobil istemcisi ile yerel ses donanımına erişim, ses kayıtlarının yerel Whisper modeliyle analiz edilerek masaüstü grafıyla eşitlenmesi."
+            ]
+          },
+          {
+            "heading": "Konumlandırma Hiyerarşisi: SML Markası ve OS Analojisi",
+            "paragraphs": [
+              "Semantic Memory Layer (SML), Saule’nin pazara sunduğu resmi yazılım kategorisidir. Tıpkı RDBMS veya Document Store gibi bağımsız bir yazılım katmanını ifade eder. Bilişsel İşletim Sistemi (Cognitive OS) ise, bu SML katmanının donanım ve yazılımlar üzerinde nasıl konumlandığını gösteren teknik analojimizdir.",
+              "Kullanıcılar sisteme yeni bir işletim sistemi kurmak yerine akıllı bir bellek katmanı (SML) kurarak pazar bariyerlerini aşar. Ancak bu katman arka planda çalışırken tıpkı bir Cognitive OS gibi kaynak yönetimi ve eylem orkestrasyonu yürüterek işletim sistemi düzeyinde bir bilişsel deneyim sunar."
             ]
           }
         ],

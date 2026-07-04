@@ -321,6 +321,793 @@
         "future_evolution": "",
         "references": []
       }
+    },
+    "foreword": {
+      "title": "前言：本文档为何存在？",
+      "purpose": "概述记忆危机和本文档的意图声明。",
+      "key_question": "当人工智能思考一切时，我们需要记住什么？",
+      "draft": {
+        "sections": [
+          {
+            "heading": "",
+            "paragraphs": [
+              "人工智能革命正在将智能商品化，从根本上改变了作为人、思考和决策的意义。如今，推理能力（reasoning）日益便宜、更快、更易获得。机器正在代替我们进行分析、综合和生成。然而，在这场巨大的智力革命的阴影下，一个悄然而危险的东西正在消失：属于我们的语境，即我们的个人和组织记忆。人类思维的决策并非仅基于当下的冷酷逻辑规则；它建立在过去的痕迹、承担的风险、排除的替代方案以及特定于那一刻的独特意图（intentions）之上。无论智能如何发展，只要没有一个独特的记忆基础来指导它，它就注定会悬而未决。",
+              "今天，我们在数字世界中面临的真正困境不是信息不足，而是语境的碎片化和流失。我们使用的电子邮件、笔记、消息和即时聊天保存着我们思维和工作的碎片；但它们都不知道全貌。更糟糕的是，今天方便我们生活的人工智能助手甚至为我们提供了一种暂时的记忆幻觉。它们的记忆是扁平的、锁定在模型中，并且注定在聊天窗口关闭时被删除。我们每天都不得不从头开始向人工智能助手解释我们自己、我们的工作和我们的目标。这种情况使我们陷入持续的数字遗忘，并不断消耗我们的决策能量（系统2认知资源），试图记住昨天的语境。",
+              "本文档正是针对这场无声危机发出的激进意图声明。它远非产品宣传册或营销材料；它旨在为计算机和认知科学界提供一个新的基础架构层：语义记忆层（Semantic Memory Layer）。在本文档中，我们将追溯三个基本问题：",
+              "• 为什么？当智能无处不在时，我们为什么需要一个独立的记忆层来保护人类认知并获得持久的竞争优势？",
+              "• 如何？我们如何将人类记忆的联想、情景和选择性工作原理转化为具体且可操作的软件规则？",
+              "• 我们在构建什么？我们如何技术性地实现一个独立于模型、基于绝对用户主权并持续进化的语义记忆？",
+              "Saule 的编写目的不是为了取代人类智能；而是为了让人类思维和我们的集体智慧在超越时间和空间的限制下，成为自身记忆的绝对主宰。"
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "part-1-interlude": {
+      "title": "第一部分 引言: 记忆为何重要？",
+      "purpose": "第一部分过渡和心理准备文本。",
+      "key_question": "在推理模型的阴影下，人类保持自身语境为何是至关重要的需求？",
+      "draft": {
+        "sections": [
+          {
+            "heading": "过渡: 心智与记忆",
+            "paragraphs": [
+              "> 科技在加速我们心智的同时，也在消融我们的记忆和身份。",
+              "人类心智伴随着其留在外部世界的足迹而成长。从石板到纸张，从印刷术到数字数据中心，我们所创建的每一个记忆工具，都是我们超越生物局限性意愿的一部分。然而今天，历史上首次，我们正在开发不仅存储信息，而且能对其进行主动推理（reasoning）的系统。当人工智能模型处理海量数据并在数秒内生成答案时，为了跟上这种速度，我们将自己的语境、决策的起点和心智足迹都交给了它们。这种交付正使我们逐渐疏远自己的心智。",
+              "第一部分将剖析这种认知转变及其所带来危机的哲学内涵。在本章中，我们将探讨技术使我们更智能的承诺背后所隐藏的记忆丧失；在一个智能无处不在并已商品化的世界中，为什么记忆是唯一持久的竞争优势；以及为了保护这种记忆，我们为何需要一个全新的软件层（Semantic Memory Layer，语义记忆层）。因为记忆，不仅是了解昨天；更是选择我们是谁以及明天将以何种意图前进的力量。"
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "part-2-interlude": {
+      "title": "第二部分介绍：认知基础",
+      "purpose": "第二部分的心智过渡页。",
+      "key_question": "在设计一个能记忆的软件之前，我们为什么要理解人类记忆的构成原则？",
+      "draft": {
+        "sections": [
+          {
+            "heading": "",
+            "paragraphs": [
+              "> 一个理解人类的记忆层，不应由计算机的冷记录方式构建，而应由人类心智的活生生的生物架构构建。",
+              "计算机存储数据。它们将位写入磁盘扇区，即使在断电时也将其冻结在那里，并在需要时以毫秒级的速度精确地恢复这些位。这是一个完美的档案；但它不是记忆。人类记忆则完全不同。生物记忆不是一个静态的图书馆，而是一个活生生的、不断重建的、有选择性的、会遗忘的、并根据意义形成关联的网络。如果我们要构建一个能记忆的软件，我们必须将人类心智的工作原理教授给软件代码，而不是将计算机的数据存储逻辑强加给人类。",
+              "第二部分将建立认知心理学和神经科学的基础，这些基础塑造了Saule的架构和算法决策。我们将探讨记忆并非仓库，情景和语义系统如何相互配合，我们如何构建叙事性身份，遗忘实际上是一种优化，以及集体心智的交互性本质。每一步，我们都将看到这些人类和心智原则如何转化为Saule软件架构中的对应物。因为构建一个像心智一样运作的软件的唯一方法，就是按照心智自己的规则来理解它。"
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "memory-not-storage": {
+      "title": "6. 记忆不是仓库",
+      "purpose": "旨在展示记忆是一个动态的构建过程，而非静态的档案库。",
+      "key_question": "人脑为什么不记录过去，而是每次都重新构建它？",
+      "draft": {
+        "sections": [
+          {
+            "heading": "重构记忆理论 (Reconstructive Memory)",
+            "paragraphs": [
+              "> 记忆不是一个静态的档案库；它是一个动态的过程，从过去的痕迹出发，重新构建当下的时间和意义。",
+              "在学术心理学中，长期以来一直认为记忆像照相机一样记录过去。然而，从 Frederic Bartlett 在1932年的开创性工作到 Elizabeth Loftus 的现代目击证人研究，这一过程已经证明了人类记忆的重构（reconstructive）性质。当我们回忆起一个事件时，我们的大脑不会从一个布满灰尘的架子上取出一个视频记录。相反，它会整合过去遗留的语义线索（cues）、图式和当前的期望，从而在当下重新构建记忆。尽管这个构建过程看似容易出错，但这却是人类认知最大的适应能力；因为它使得大脑能够以有限的容量建立无限的语义连接。"
+            ]
+          },
+          {
+            "heading": "计算机存储与人类记忆的分离",
+            "paragraphs": [
+              "计算机架构（如冯·诺依曼架构等）将数据存储在可寻址的内存单元（RAM 或硬盘）中。当被调用时，数据会以位级别被无误地检索。而人类心智则以联想（associative）方式运作。两段信息之间的关系并非来源于它们的地址邻近性，而是来源于它们的语义相似性和同步触发。通过地址存储信息会将其冻结；而通过联想存储信息则会使其成为一个鲜活的网络。"
+            ]
+          },
+          {
+            "heading": "Saule 设计决策：重构性语境编排",
+            "paragraphs": [
+              "这一认知原则使得 Saule 的架构拒绝使用静态数据查询方法。Saule 不会原封不动地存储文本片段并将其作为原始数据输入模型。在查询时，它会分析用户的意图、当前时间线和语义关系，从而在当下重新创建正确的语境（context composition）。就像人类心智一样，它从过去的静态数据出发，构建一个符合当前需求的动态语义框架。"
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "human-memory-systems": {
+      "title": "7. 人类记忆系统",
+      "purpose": "探讨工作记忆、语义记忆和情景记忆系统。",
+      "key_question": "人类记忆的多系统结构如何启发软件分层？",
+      "draft": {
+        "sections": [
+          {
+            "heading": "图尔文的多重记忆系统",
+            "paragraphs": [
+              "> 记忆并非一个单一的池子；它是情景记忆、语义记忆和工作记忆等具有不同持续时间和功能的系统的协调编排。",
+              "认知心理学家恩德尔·图尔文（Endel Tulving）于1972年提出的分类证明了记忆并非同质的。人类心智至少通过三个基本记忆系统运作：",
+              "1. 工作记忆 (Working Memory): 在几秒钟内处理当前信息，容量有限（米勒的7±2法则）的临时区域。",
+              "2. 情景记忆 (Episodic Memory): 存储个人经历、带有时间与空间背景的自传式档案（例如：“昨天下午2:00与艾哈迈德的会议”）。",
+              "3. 语义记忆 (Semantic Memory): 独立于时间与空间的概念、意义和一般事实的网络（例如：“会议规则和项目目标”）。"
+            ]
+          },
+          {
+            "heading": "系统间转换与认知负荷",
+            "paragraphs": [
+              "这些系统持续互动。进入工作记忆的新信息与情景记忆中的过去瞬间匹配，并随着时间抽象化，成为语义记忆的永久组成部分。这些转换的中断或系统过载会降低决策质量并增加认知负荷。"
+            ]
+          },
+          {
+            "heading": "Saule 设计决策：多层记忆编排",
+            "paragraphs": [
+              "Saule 将图尔文的这种多重记忆结构直接映射到软件层。在 Saule 的数据模型中，用户当前的活跃会话代表“工作记忆”；存储即时互动和带时间戳笔记的时间轴图代表“情景记忆”；而概念、规则和抽象关系网络则代表“语义记忆”层。Saule 通过在这些层之间持续筛选和抽象数据，为模型准备有意义的上下文。"
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "identity-narrative": {
+      "title": "8. 身份与叙事",
+      "purpose": "解释在麦克亚当斯框架下记忆与叙事性身份的关系。",
+      "key_question": "在保留记忆的同时，我们如何避免冻结身份？",
+      "draft": {
+        "sections": [
+          {
+            "heading": "叙事性身份理论 (Narrative Identity)",
+            "paragraphs": [
+              "> 身份并非过去数据的静态总和；它是一个随时间不断重写的叙事性过程。",
+              "心理学家丹·麦克亚当斯和马丁·康威的研究表明，人类身份是一个由自传式记忆滋养的活生生的故事（叙事）。人们不仅仅是记录他们的过去，他们根据当前的价值观和未来的目标不断地重新诠释它。身份并非静止不变；它是一个活生生的叙事。如果软件系统将过去的数据冻结为绝对且不可改变的事实，它们就会阻碍用户的心理发展，并将其困在过去的某个版本中。"
+            ]
+          },
+          {
+            "heading": "记忆中的选择性与变化",
+            "paragraphs": [
+              "人类心智会根据随时间变化的意图，使其过去的一些记忆更加突出，而将另一些记忆推向背景。当我们专注于一个目标时，我们的大脑会更快地回忆起与该目标相关的过往经验。这证明记忆并非一个被动的数据存储库，而是一个由身份引导的主动过滤器。"
+            ]
+          },
+          {
+            "heading": "Saule 设计决策：动态身份层与上下文过滤",
+            "paragraphs": [
+              "Saule 不将数据库中的信息视为不变的块。架构中的“身份层”（Identity Layer）跟踪用户随时间的焦点、变化的价值观和目标。在查询时调用记忆时，它不仅仅关注数学上的相似性；它会优先突出与用户当前身份叙事（active narrative state）最相关的记忆连接。因此，Saule 提供了一个与用户共同成长和演变的活生生的共享身份层。"
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "forgetting-regulation": {
+      "title": "9. 遗忘与认知调节",
+      "purpose": "解释遗忘在降低噪音方面的认知调节作用。",
+      "key_question": "为什么遗忘不是记忆的错误，而是一个活体系统的优化？",
+      "draft": {
+        "sections": [
+          {
+            "heading": "主动遗忘的认知作用",
+            "paragraphs": [
+              "> 遗忘是一种主动的调节机制，它能清除心灵中的噪音，实现专注，并保护认知能力。",
+              "与普遍的看法相反，遗忘（forgetting）并非大脑的故障或系统错误。神经科学研究表明，大脑使用主动的化学和电学机制（active forgetting）来清除不必要的信息。如果我们将一切都记住，记住每一个细节，我们的心智将被无尽的噪音淹没，甚至无法在系统2（System 2）层面做出简单的决定（正如卢里亚（Luria）著名病人谢列舍夫斯基（Shereshevsky）的例子所示）。遗忘是一种优化，通过清除噪音来突出重要的信息。"
+            ]
+          },
+          {
+            "heading": "认知调节与注意力管理",
+            "paragraphs": [
+              "人类心智通过评估信息的旧度、重复频率以及与当前意图的关系，持续调节记忆的可访问性。这种认知调节（cognitive regulation）确保注意力保持在正确的焦点上。数字系统最大的错误在于，试图以相同的优先级无限期地存储所有生成的数据，从而造成信息污染。"
+            ]
+          },
+          {
+            "heading": "Saule 设计决策：算法主动遗忘（Active Forgetting）",
+            "paragraphs": [
+              "Saule 包含一个算法主动遗忘（active forgetting）机制，以防止不必要的数据噪音。数据库中的每个内存节点（node）和关系（edge）都具有随时间衰减的可访问性分数（decay rate）。未被使用或语义上过期的信息不会被删除，而是被推到后台（pruning），从而降低查询成本，并防止模型上下文窗口被噪声数据填满。Saule 将遗忘编码为一种系统优化。"
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "cognitive-offloading": {
+      "title": "10. 认知外化",
+      "purpose": "讨论将认知负荷转移到外部工具的局限性。",
+      "key_question": "在清空大脑的同时，如何防止外部工具产生依赖性？",
+      "draft": {
+        "sections": [
+          {
+            "heading": "扩展心智理论 (The Extended Mind)",
+            "paragraphs": [
+              "> 认知外化不应是削弱心智的假肢，而应是扩展心智能力、增强专注力的杠杆。",
+              "根据哲学家 Andy Clark 和 David Chalmers 于 1998 年提出的扩展心智（Extended Mind）理论，人类心智并不仅限于头颅内部。我们使用的笔记本、设备和软件都是我们认知过程的活跃组成部分（cognitive offloading）。将信息写入外部可靠工具可以减轻大脑工作记忆的负担，并为深度思考腾出空间。然而，如果这种外化过程不受控制，它可能会变成一种削弱心智记忆和分析能力的依赖。"
+            ]
+          },
+          {
+            "heading": "假肢记忆 vs. 杠杆记忆",
+            "paragraphs": [
+              "现代笔记应用程序和知识库通常充当被动的假肢记忆。我们把信息写在那里，但可能再也找不到或记不住这些信息；这会造成心智惰性。然而，一个理想的外部记忆应该是一个积极的杠杆，它不是削弱心智，而是与心智互动，提醒联想，并激发人类的思维。"
+            ]
+          },
+          {
+            "heading": "Saule 设计决策：联想触发与主动提醒",
+            "paragraphs": [
+              "Saule 超越了被动文档存储库的功能。它不是一个假肢记忆，而是生成能够持续刺激用户心智的语义联想（associative triggering）。当您在 SML Terminal 中输入内容时，Saule 会在后台识别相关的过去决策、未完成的意图或相互关联的想法，并以温和的方式将它们注入上下文中。因此，它不是削弱您的心智，而是通过在当下显示您过去的积累来扩展您的认知能力。"
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "translating-cognition": {
+      "title": "12. 将认知翻译为软件",
+      "purpose": "将认知科学原理翻译为软件原则。",
+      "key_question": "人类记忆的规则如何转化为机器运行的代码？",
+      "draft": {
+        "sections": [
+          {
+            "heading": "从人类认知到软件原则的转变",
+            "paragraphs": [
+              "> 认知基础并非哲学隐喻；它们是直接决定数据模型、查询算法和系统架构的工程参数。",
+              "本节是将第二部分中讨论的所有认知科学原理连接到第三部分的桥梁，第三部分将构建Saule的软件架构。人类心智的运作原理并非哲学上的宽容，而是软件中直接工程决策的依据。认知系统的动态特性使得传统的数据库寻址、规范化表和静态数据管道失效。"
+            ]
+          },
+          {
+            "heading": "原则与软件对应关系",
+            "paragraphs": [
+              "我们在第二部分建立的理论基础，翻译到软件架构中如下：",
+              "• 记忆并非仓库（重构性质）➔ 动态上下文组合（Context Composition），而非静态查找。",
+              "• 多重记忆系统（Tulving）➔ 多层记忆架构，是活跃会话、时间线和概念图的组合。",
+              "• 身份与叙事（McAdams & Conway）➔ 身份层（Identity Layer），根据用户状态进行动态加权。",
+              "• 主动遗忘（优化）➔ 通过衰减（Decay）算法修剪图上的节点和边。",
+              "• 认知外化（Clark & Chalmers）➔ 关联触发（Associative Triggering），提供语义触发器而非被动档案。",
+              "• 集体记忆（Wegner）➔ 语义溯源图（Semantic Provenance Graph），用于存储企业隐性知识。"
+            ]
+          },
+          {
+            "heading": "架构的门槛",
+            "paragraphs": [
+              "这些对应关系构成了Saule的技术骨干。在下一部分（第三部分）中，我们将详细探讨这些理论桥梁如何在代码层面建立，包括从语义摄取（ingestion）过程，到语义溯源图（Semantic Provenance Graph）数据模型，再到动态编排，以及隐私和本地设备运行的悖论等所有工程细节。Saule是一种将人类心智的优雅与软件的严谨相结合的架构。"
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "part-3-interlude": {
+      "title": "第三部分 简介：软件架构",
+      "purpose": "第三部分 技术过渡页。",
+      "key_question": "认知原则如何转化为具体且可运行的软件架构？",
+      "draft": {
+        "sections": [
+          {
+            "heading": "",
+            "paragraphs": [
+              "> 认知理论只有在以数据模型和数学算法为基础时，才能转化为可运行的软件架构。",
+              "我们从理论上阐明，记忆不仅仅是一个存储单元，我们的大脑通过情景记忆、语义记忆和交易系统运作。然而，软件工程不能仅仅满足于抽象概念。将记忆的生命本质转化为计算机的确定性世界，需要重新设计数据结构、数据库模式、查询优化和加密协议。",
+              "第三部分将详细阐述 Saule 的工程核心（core engine）和技术架构。我们将从我们系统架构的坚定设计原则开始，探讨我们用于维护记忆元素生命周期、关系和时间戳的数据模型（语义溯源图，Semantic Provenance Graph），我们的上下文组合（context composition）算法，以及我们的端到端加密隐私层。我们将在代码层面看到，Saule 不仅仅是一个哲学宣言；它是一个可运行、可扩展且安全的计算机系统。"
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "design-principles": {
+      "title": "13. 设计原则",
+      "purpose": "声明 Saule 的基本工程原则。",
+      "key_question": "管理 Saule 架构决策的不可动摇的编码原则是什么？",
+      "draft": {
+        "sections": [
+          {
+            "heading": "Saule 的四大不可动摇原则",
+            "paragraphs": [
+              "> Saule 架构基于模型独立性、语义主权、零认知噪声和被动摄取原则。",
+              "Saule 的设计不依赖于瞬息万变的人工智能趋势或库。其系统架构基于指导每个开发步骤的四个基本原则：",
+              "1. 模型独立性 (Model-Agnosticism)：系统不能与任何大型语言模型 (LLM) 或人工智能提供商紧密耦合。内存层是一个独立于模型的主权领域，并通过标准化的 API 与所有模型保持等距离。",
+              "2. 用户主权 (User Sovereignty)：用户是内存数据的绝对所有者。数据保留在用户定义的限制内，经过加密并且具有可移植性。",
+              "3. 零认知噪声 (Zero Cognitive Noise)：内存层避免向模型发送不必要或不相关的数据（噪声）。上下文经过优化，以最少的 token 提供最大的语义深度。",
+              "4. 被动摄取 (Passive Ingestion)：系统不期望用户持续进行数据标注或手动组织。系统在后台被动监听数据流，自动提取语义关系并静默运行。"
+            ]
+          },
+          {
+            "heading": "从开发者角度看原则的重要性",
+            "paragraphs": [
+              "这些原则为开发者在使用 Saule SDK 并向架构添加新组件时设定了严格的限制。例如，根据模型独立性原则，内存提取 (memory extraction) 算法不能依赖于单一提供商的特定提示结构；相反，应使用抽象协议。"
+            ]
+          },
+          {
+            "heading": "架构桥梁",
+            "paragraphs": [
+              "这些设计原则直接决定了数据流和内存对象在系统中的生命周期。在下一节中，我们将探讨从原始数据进入系统开始，这些原则如何发挥作用以及内存项的生命周期。"
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "memory-lifecycle": {
+      "title": "14. 记忆的生命周期",
+      "purpose": "介绍语义记忆的生命周期图及其演变。",
+      "key_question": "一个记忆项从诞生到遗忘会经历哪些阶段？",
+      "draft": {
+        "sections": [
+          {
+            "heading": "记忆生命周期阶段",
+            "paragraphs": [
+              "> 记忆项并非静态行；它们是动态实体，经历摄取、关联、主动检索和算法衰减的阶段。",
+              "进入Saule系统的每条信息都遵循以下四个阶段的生命周期：",
+              "1. 摄取（Ingestion）：捕获来自浏览器扩展程序、Slack集成或终端输入等来源的原始数据流。这些原始数据经过去噪处理，提取出其语义核心。",
+              "2. 关联与图注入（Association & Graph Injection）：新的记忆项（节点）连同时间戳、空间上下文以及与现有记忆图中的其他节点建立的语义关系（边）一起写入图数据模型。",
+              "3. 检索与强化（Retrieval & Reinforcement）：当用户操作类似主题时，相关的节点会被检索。每次成功的检索都会增加该节点及其关联边的可访问性分数（权重）（赫布学习法则）。",
+              "4. 衰减与修剪（Decay & Pruning）：随着时间的推移，未被检索且失去时效性的节点的权重会通过算法衰减（遗忘）。低分节点不会被永久删除，但会被推到后台以脱离上下文。"
+            ]
+          },
+          {
+            "heading": "记忆流程图",
+            "paragraphs": [
+              "针对开发人员的记忆流程图遵循以下技术顺序：",
+              "原始输入 ➔ NLP Pipeline（意图筛选）➔ 生成向量嵌入 ➔ 语义溯源图注入 ➔ 随时间推移的衰老分数计算。"
+            ]
+          },
+          {
+            "heading": "架构中的表示",
+            "paragraphs": [
+              "为了能够在代码层面管理这种动态生命周期，需要一个先进的数据模型，能够将信息与时间、身份和起源层一起表示。在下一节中，我们将详细探讨这个数据模型（语义溯源图）。"
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "memory-representation": {
+      "title": "15. 内存表示",
+      "purpose": "详细阐述语义溯源图数据模型。",
+      "key_question": "内存、时间与身份层如何在代码层面表示？",
+      "draft": {
+        "sections": [
+          {
+            "heading": "什么是语义溯源图（SPG）？",
+            "paragraphs": [
+              "> Saule 的数据模型是语义溯源图架构，它将语义关系、时间流和数据溯源整合在一起。",
+              "传统的知识图谱（Knowledge Graphs）只静态地建模对象之间的关系（A 是 B 的经理）。而向量数据库只衡量文本相似度。为了超越这两种方法的局限，Saule 开发了语义溯源图 (SPG - 语义溯源图) 模型。SPG 将数据本身，以及显示数据来源（Slack, Notion, 浏览器）、时间、由谁以及出于何种意图生成（溯源）的元数据，一起表示在一个统一的图结构中。"
+            ]
+          },
+          {
+            "heading": "SPG 节点和边结构",
+            "paragraphs": [
+              "在代码层面，一个 SPG 节点（node）具有以下架构：",
+              "```json\n{\n  \"id\": \"mem_01h8x9\",\n  \"type\": \"epizodic | semantic\",\n  \"content\": \"Ahmet ile X projesinde Rust kullanmaya karar verdik.\",\n  \"embedding\": [0.012, -0.045, ...],\n  \"created_at\": 1783156054,\n  \"decay_weight\": 0.98,\n  \"provenance\": {\n    \"source\": \"slack_channel_dev\",\n    \"author\": \"user_id_45\",\n    \"session_id\": \"sess_89\"\n  }\n}\n```",
+              "边（edges）则存储节点之间的语义关系（\"rust_is_used_for_x_project\"）、时间关系（\"created_after\"）和因果关系（\"rust_chosen_because_of_memory_safety\"），以及它们的动态强度得分。"
+            ]
+          },
+          {
+            "heading": "对设计的影响",
+            "paragraphs": [
+              "SPG 数据模型使 Saule 能够将信息片段与其所有上下文溯源一起存储，而不仅仅是纯文本。在下一节中，我们将看到如何从这个丰富的图结构出发，构建（检索与组合）用于馈送给人工智能模型的动态上下文。"
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "retrieval-composition": {
+      "title": "16. 内存搜索与上下文构建",
+      "purpose": "解释语义检索和上层节点上下文构建。",
+      "key_question": "Saule 如何在正确的时间将正确的上下文提供给 LLM？",
+      "draft": {
+        "sections": [
+          {
+            "heading": "向量搜索的不足和上层节点上下文构建",
+            "paragraphs": [
+              "> 上下文构建不是简单的向量搜索，而是一个通过上层节点上下文关联和语义溯源构建的动态编排。",
+              "经典的 RAG 系统会提取与用户查询最匹配的前 5 个向量文本并发送给 LLM。然而，这些片段通常缺乏上下文。例如，对于“Rust 项目中的决定是什么？”的查询，可能只会得到“我们将使用 Rust”这句话；但关于该决定为何做出、讨论了哪些风险等信息则会被遗漏。Saule 利用上层节点上下文关联（Super-Node Context Composition）方法来解决这个问题。当找到与查询匹配的节点时，SPG 图中与该节点直接相连的时间和语义邻近节点（provenance path）也会被提取出来，从而形成一个分层且丰富的上下文块。"
+            ]
+          },
+          {
+            "heading": "上下文构建算法",
+            "paragraphs": [
+              "Saule 的搜索引擎遵循以下算法：",
+              "1. 将查询转换为向量，并在 SPG 上进行语义相似性搜索。",
+              "2. 提取得分最高的节点周围的关系图（溯源子图）。",
+              "3. 对节点的时戳进行按时间顺序排列，以防止上下文漂移（context drift）。",
+              "4. 根据主动遗忘分数，剔除权重降低的节点，并根据模型的限制打包最清晰的上下文（上下文组合）。"
+            ]
+          },
+          {
+            "heading": "隐私集成",
+            "paragraphs": [
+              "这种丰富的上下文构建过程不应危及用户数据的安全。在下一节中，我们将探讨如何在保护用户隐私的前提下，以加密方式执行这些高级搜索和编排操作。"
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "isolation-privacy": {
+      "title": "17. 内存隔离和隐私",
+      "purpose": "解决工作区安全和 E2EE/本地处理的悖论。",
+      "key_question": "在对数据进行端到端加密时，我们如何运行语义搜索？",
+      "draft": {
+        "sections": [
+          {
+            "heading": "认知隐私悖论",
+            "paragraphs": [
+              "> 认知隐私必须通过端到端加密 (E2EE) 和本地优先处理架构来绝对保护。",
+              "个人或企业记忆层存储着用户最私密的决策、意图和商业秘密。因此，将这些数据以明文形式存储在中央云服务器中是不可接受的。然而，当数据完全加密后，人工智能模型进行语义搜索和建立关联就变得困难。Saule 通过本地优先的软件架构解决了这一认知隐私悖论。"
+            ]
+          },
+          {
+            "heading": "端到端加密 (E2EE) 和本地向量搜索",
+            "paragraphs": [
+              "Saule 的数据存储层建立在以下安全协议之上：",
+              "• 本地索引和嵌入：向量嵌入生成和 SPG 关系在用户自己的设备（本地）上运行。",
+              "• E2EE 同步：在设备间进行数据同步时，所有节点和图边缘都使用用户自己的密钥（零知识）进行端到端加密。云服务器只传输加密位，绝不能看到数据内容。",
+              "• 受保护的工作空间（内存隔离）：个人和企业内存区域通过严格的边界相互隔离；一个团队的企业内存绝不会泄露给其他用户或模型的训练数据。"
+            ]
+          },
+          {
+            "heading": "迈向模型独立性",
+            "paragraphs": [
+              "隐私层在保护用户数据安全的同时，还必须确保用户能够安全地与不同的云端或本地人工智能模型进行交互。在下一节中，我们将探讨这种内存结构如何完全独立于模型运行。"
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "model-agnostic": {
+      "title": "18. 模型无关人工智能",
+      "purpose": "解释独立于LLM的记忆持久性。",
+      "key_question": "当模型改变时，如何保持记忆的所有权和连续性？",
+      "draft": {
+        "sections": [
+          {
+            "heading": "模型依赖的终结 (解耦架构)",
+            "paragraphs": [
+              "> 人工智能模型是临时的推理引擎；而语义记忆应该超越模型，成为用户拥有的持久性基础设施层。",
+              "如今，许多应用程序将内存功能委托给OpenAI、Anthropic或Google等提供商提供的助手API。这种方法将用户锁定在特定的提供商，并带来模型更新时整个内存结构被破坏的风险。Saule将内存层与推理引擎（LLM）完全解耦。模型就像一个“处理器”（CPU），仅在需要解决当前的逻辑查询时被调用；而记忆是主板上持久的“硬盘驱动器”（SML）。"
+            ]
+          },
+          {
+            "heading": "标准化记忆接口 (SMI)",
+            "paragraphs": [
+              "Saule在模型和记忆之间提供了一个标准化接口（语义记忆接口 - SMI）。SMI提供了一个翻译层，无论使用何种模型（无论是本地的Llama模型，还是云端的Claude 3.5），都可以读写相同的语义图结构。当模型改变时，记忆不会丢失；新模型可以通过SMI协议从上次中断的地方继续读取过去的上下文资产。通过这种方式，组织可以在几秒钟内切换到最新、最经济的模型，而不会被锁定在单一的AI提供商。"
+            ]
+          },
+          {
+            "heading": "未来的标准",
+            "paragraphs": [
+              "Saule的模型无关原则使其不仅仅是一个应用程序，而是整个AI生态系统的通用协议。在第四部分，我们将进一步拓展这一愿景，探讨我们如何构建开源记忆协议、开发者生态系统以及未来计算的新结构层。"
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "part-4-interlude": {
+      "title": "第四部分介绍：未来愿景",
+      "purpose": "第四部分过渡文本。",
+      "key_question": "语义记忆层将如何在企业和社会层面塑造其未来？",
+      "draft": {
+        "sections": [
+          {
+            "heading": "",
+            "paragraphs": [
+              "> 记忆不仅仅是一个个体储存库；在人工智能时代，它是将人类共同的认知积累带向未来的集体标准。",
+              "我们详细阐述了Saule的哲学出发点、人类记忆的构成原则以及语义溯源图（Semantic Provenance Graph）架构在技术代码层面的对应关系。然而，Saule不仅仅是一个个人助手或企业工具。它是一个未来愿景，其中所有软件和模型都能共同对话，拥有可移植和开放的标准。",
+              "第四部分将概述Saule未来的定位及其对社会认知的影响。我们将探讨开放记忆协议（Open Memory Protocol）的愿景，该协议将使不同的记忆层能够安全地相互通信；我们为开发者构建的生态系统；以及继操作系统和云之后的新基础设施层——“认知层”（The Cognitive Layer）。我们将通过描绘人类心智和数字记忆在新时代中的最终融合来完成本白皮书。"
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "open-memory-protocol": {
+      "title": "19. 迈向开放内存协议",
+      "purpose": "介绍开放且可移植的内存协议愿景。",
+      "key_question": "如何创建一个通用的标准，让内存系统能够相互通信？",
+      "draft": {
+        "sections": [
+          {
+            "heading": "封闭平台与内存孤岛",
+            "paragraphs": [
+              "> 在未来的数字世界中，记忆不应被囚禁于封闭生态系统；它应该通过开放、可移植和通用的内存协议（OMP）获得自由。",
+              "我们今天使用的所有软件（SaaS 平台）都将数据存储在自己的数据库中，并将用户锁定在其生态系统中。当您想从一个平台切换到另一个平台时，您不仅会丢失数据，还会丢失数据背后的上下文和历史积累。在人工智能时代，这种孤立化会造成认知分裂。个人或组织本应统一的记忆，被分散在数十个封闭的应用程序之间。为解决此问题，Saule 提出了开放内存协议（Open Memory Protocol - OMP）标准。"
+            ]
+          },
+          {
+            "heading": "OMP 标准的结构和协议规则",
+            "paragraphs": [
+              "开放内存协议是一种协议，它允许以加密、可移植和标准的 JSON 格式在设备和应用程序之间传输语义内存节点、边缘和数据溯源（provenance）。通过 OMP，可以实现：",
+              "• 内存可移植性：用户可以在几秒钟内将内存图从一个应用程序传输到另一个应用程序，或者从一个人工智能助手传输到另一个人工智能助手，而不会丢失任何数据和上下文。",
+              "• 互操作性（Interoperability）：不同的应用程序（例如电子邮件客户端与项目管理工具）可以通过 OMP 在安全边界内向用户的中央内存层添加数据并从中读取上下文。"
+            ]
+          },
+          {
+            "heading": "开发者网络",
+            "paragraphs": [
+              "OMP 标准为人工智能开发者在共享和自由的内存生态系统上构建软件铺平了道路，而无需依赖封闭的 API。在下一节中，我们将探讨实现此标准的开发工具和 SDK 生态系统。"
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "developer-ecosystem": {
+      "title": "20. 开发者生态系统",
+      "purpose": "解释 SDK、API 和自主代理集成。",
+      "key_question": "开发者如何将 Saule 的内存层集成到他们的软件中？",
+      "draft": {
+        "sections": [
+          {
+            "heading": "Saule SDK 和集成便利性",
+            "paragraphs": [
+              "> Saule 生态系统通过 SDK、标准化 API 和自主内存代理为开发者提供认知基础设施。",
+              "内存层的成功取决于其在开发者社区中的易于采用程度。Saule 提供用 TypeScript、Python 和 Rust 编写的轻量级 SDK。开发者只需几行代码即可为他们的人工智能应用程序、聊天界面或自主代理提供持久且活跃的内存。",
+              "```typescript\nimport { SauleClient } from '@saule/sdk';\nconst client = new SauleClient({ endpoint: 'local' });\n// 添加新的内存条目\nawait client.memory.ingest({\n  content: \"项目架构中决定使用 Postgres。\",\n  source: \"meeting_notes\"\n});\n```"
+            ]
+          },
+          {
+            "heading": "自主内存代理 (Memory Agents)",
+            "paragraphs": [
+              "Saule 生态系统不仅支持开发者进行数据查询；还支持他们开发在后台运行的自主内存代理（Memory Agents），这些代理能够检测语义漂移（context drift detectors）、通过算法修剪过期信息并整理图谱。通过这种方式，软件将拥有自我优化的动态内存结构，而不是随着时间推移而变慢的笨重数据库。"
+            ]
+          },
+          {
+            "heading": "新计算时代",
+            "paragraphs": [
+              "开发者生态系统的发展将彻底改变计算机与人类思维之间的关系。在最后一部分，我们将探讨这个认知基础设施如何定位为继操作系统和云之后的新一代计算层（The Next Computing Layer）。"
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "next-computing-layer": {
+      "title": "21. 新计算层",
+      "purpose": "将 SML 定位为计算机世界中的新基础设施层。",
+      "key_question": "在操作系统和云之后，计算的下一个结构层将是什么？",
+      "draft": {
+        "sections": [
+          {
+            "heading": "计算历史的层次与认知革命",
+            "paragraphs": [
+              "> 计算的下一个结构层将是独立于硬件、操作系统和云之上的语义记忆层 (SML)。",
+              "计算机历史就是抽象层次的历史。我们最初从硬件层面（晶体管和电线）开始。然后，我们建立了管理这些硬件的操作系统 (OS) 层。随着互联网时代的到来，我们增加了将数据和操作全球化的云 (Cloud) 层。如今，随着人工智能革命的到来，在这三个层之上诞生了一个新层：认知层 (The Cognitive Layer)。这一层不仅是存储或传输数据，它还是一个组织意义、时间、身份和意图的活生生的记忆基础设施。"
+            ]
+          },
+          {
+            "heading": "Saule 作为认知层",
+            "paragraphs": [
+              "Saule 是这个认知层的创始引擎。硬件可以改变，操作系统可以演进，大型语言模型可以来来去去；但人类心智和组织随时间积累的语义记忆必须保持稳定和主导地位。Saule 将计算机从仅仅是字面执行命令的无声工具，转变为保护、扩展并超越时间界限的人类认知的活生生心智伙伴。"
+            ]
+          },
+          {
+            "heading": "结束宣言",
+            "paragraphs": [
+              "Saule 白皮书 v1.0 不仅仅是一份技术架构文档；它更是人类维护自身数字存在、注意力边界和智力财产主权的决心。智能是普遍的，并且正在迅速商品化；但使我们成为我们自己、使我们的决定独一无二的是我们的记忆。Saule 在此旨在将这份记忆归还给它的主人，并使人类心智在未来的认知世界中占据绝对主导地位。智能可以改变。记忆是永恒的。"
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    }
+  },
+  "appendices": {
+    "competitor-analysis": {
+      "title": "附录 A: 竞争对手分析和可防御性",
+      "purpose": "Saule 与其他人工智能记忆模型的比较以及其认知护城河的分析。",
+      "key_question": "为什么现有的人工智能记忆解决方案无法取代独立的记忆层？",
+      "draft": {
+        "sections": [
+          {
+            "heading": "认知记忆解决方案比较矩阵",
+            "paragraphs": [
+              "> Saule 通过数据隔离、模型独立性和语义溯源，与封闭模型记忆和简单的 RAG 集成方案区分开来。",
+              "人工智能生态系统中近期发展的记忆方法通常试图通过临时补丁来克服模型的无状态结构。这些方法与独立的语义记忆层（SML）之间的区别如下：",
+              "• OpenAI/Claude Memory: 提供扁平的、基于键值（Key-Value）的简单记忆功能。不具备模型独立性（仅限于单一模型工作），数据存储在云端，不提供隐私保障。不具备网络效应（network effect）。",
+              "• RAG / 向量数据库: 通过原始文本相似性（vector similarity）进行搜索。缺乏语义深度和时间关系，数据组织是静态的。",
+              "• Mem0 / Zep: 维护情景向量记忆。部分模型独立，但数据结构不灵活，不提供本地优先的隐私保护。",
+              "• Letta / MemGPT: 管理代理的临时工作区（scratchpad）。不具备跨应用可移植性和交叉网络效应。",
+              "• Saule (SML): 使用语义溯源图（Semantic Provenance Graph, SPG）结构。完全模型无关（Model-Agnostic），提供零知识加密和本地优先（local-first）存储。在工作区之间产生语义网络效应（Collective Intelligence）。"
+            ]
+          },
+          {
+            "heading": "为什么 Saule 无法被模型取代（可防御性）？",
+            "paragraphs": [
+              "对投资者和架构师来说，最关键的问题是：“当 OpenAI 或 Anthropic 完善自己的记忆系统时，为什么 Saule 不会变得多余？” 答案在于 Saule 的三大核心护城河：",
+              "1. 模型解耦（Model Decoupling）：OpenAI 的记忆无法被 Claude 读取；Claude 的记忆无法被本地 Llama 模型使用。然而，记忆应该归其所有者所有。Saule 将模型定位为临时处理单元，使记忆具有持久性和可移植性。",
+              "2. 跨应用上下文（Cross-Application Context）：单一模型提供商无法将用户在 Slack、Notion、浏览器 和电子邮件中的数据整合到单一语义溯源图（SPG）中，也无法打破企业数据孤岛。",
+              "3. 零知识隐私（Zero-Knowledge Privacy）：企业无法将最私密的业务流程和意图委托给云提供商的开放数据库。Saule 的本地优先、加密架构在法律和技术上保障了认知产权。"
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "roadmap-business": {
+      "title": "附录 B: 路线图和商业模式",
+      "purpose": "从 MVP 到语义操作系统路线图及企业商业模式。",
+      "key_question": "Saule 将如何在认知基础设施市场中成长并产生网络效应？",
+      "draft": {
+        "sections": [
+          {
+            "heading": "从 MVP 到认知操作系统的路线图",
+            "paragraphs": [
+              "> 从个人记忆到企业事务性记忆的路线图，通过语义网络效应（semantic network effects）产生持久的市场价值。",
+              "Saule 的愿景是一个四阶段的增长计划，从单一助理界面扩展到整个互联网认知基础设施：",
+              "• 阶段 1: 个人记忆引擎和本地核心（Personal SML & Local Core）— 浏览器扩展和终端 UI（观察），本地 SQLite 数据库（存储）以及本地嵌入/小型 LLM（语义处理）集成。",
+              "• 阶段 2: 工作区记忆（Workspace SML）— 为团队建立与 Slack、Notion、GitHub 集成的事务性记忆基础设施，并防止企业遗忘症。",
+              "• 阶段 3: 开放记忆协议（Open Memory Protocol - OMP）— 发布允许不同应用和自主代理通过标准 API 与 Saule 对话的协议。",
+              "• 阶段 4: 语义操作系统（Semantic OS）— 在硬件和云层之上，建立一个与人类认知直接兼容的新一代操作系统层。"
+            ]
+          },
+          {
+            "heading": "商业模式和收入流",
+            "paragraphs": [
+              "Saule 通过开源核心（open-core）和 SaaS 订阅模式实现商业化：",
+              "• Saule Community（开源）: 对于个人开发者和希望在本地设备上运行的用户，提供完全免费的本地记忆引擎。",
+              "• Saule Professional: 为需要高级同步、云备份和 API 访问的专业人士提供月度订阅模式。",
+              "• Saule Enterprise: 为企业提供隔离记忆空间（Memory Isolation）、事务性记忆图谱、高级角色授权和专用 E2EE 同步基础设施的企业许可模式。通过防止企业遗忘症和重复造轮子，为企业客户带来最大的投资回报（ROI）。"
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
+    },
+    "technical-roadmap": {
+      "title": "附录 C: 技术路线图和认知架构",
+      "purpose": "详细阐述 Saule SML 层的六级技术架构、数据模式和四阶段路线图。",
+      "key_question": "Saule SML 架构在技术上如何构建，并分阶段实施？",
+      "draft": {
+        "sections": [
+          {
+            "heading": "认知和发展循环",
+            "paragraphs": [
+              "> Saule 不是一个静态的问答引擎。它在一个持续在后台运行并不断自我强化的认知循环（Adaptive Intelligence Loop）上工作。",
+              "架构状态和声明：本文档中定义的六级认知操作系统（Cognitive OS）和本地加密基础设施代表了 Saule 的长期技术目标和架构模板。当前正在运行的原型（current state）实现了一个基于云的 Firestore 和 API 集成的混合意图路由（context routing）和向量验证引擎。所述的本地独立组件和本地小型 LLM 集成将根据以下路线图阶段依次部署。",
+              "记忆生命周期（Memory Lifecycle）：在 Saule 中，任何记忆单元（Memory Unit）都不会保持静态。它会经历以下生命周期：捕获（Capture）➔ 情景（Episode）➔ 总结（Summarize）➔ 链接（Link）➔ 强化（Strengthen）➔ 衰减（Decay）➔ 归档（Archive）➔ 删除（Delete）。",
+              "反馈循环（Learning Engine）：为了系统持续改进其决策和上下文准确性，运行以下循环：执行（Execution）➔ 反馈（Feedback）➔ 学习（Learning）➔ 策略更新（Policy Update）➔ 观察（Observe）。用户反馈会自动更新本地策略引擎（Policy Engine）规则和语义权重算法。"
+            ]
+          },
+          {
+            "heading": "智能编排器（Intelligence Orchestrator）",
+            "paragraphs": [
+              "编排器是管理 Saule 认知决策并实现跨层协调的大脑。其子组件包括：",
+              "• 任务调度器（Task Scheduler）: 计划后台进程（如整合 Consolidation、遗忘 Forgetting、压缩 Compression 等）何时以及以何种优先级运行（例如：当设备连接充电器且处于空闲状态时）。",
+              "• 记忆调度器（Memory Scheduler）: 编排哪些记忆空间（如个人 Personal、工作区 Workspace 等）将被查询，以及如何从它们中合成无噪音的上下文（Context Composition）。",
+              "• 代理路由器（Agent Router）: 根据传入意图（intent）和上下文，确定触发哪个自主代理（例如：电子邮件代理、日历代理）。",
+              "• 资源管理器（Resource Manager）: 管理本地 SQLite 大小、RAM 使用限制和 CPU 消耗，以避免设备过载。",
+              "• 模型选择器（Model Selector）: 根据操作的隐私级别、复杂性和预算，确定使用哪个 LLM（是本地小型 LLM 还是云端 API）。"
+            ]
+          },
+          {
+            "heading": "六层认知操作系统架构",
+            "paragraphs": [
+              "Saule Core 具有一个七层模块化结构，由其核心的智能编排器（Intelligence Orchestrator）管理：",
+              "1. 观察层（Observation Layer）: 在人类（声音、动作）、数字（浏览器、IDE、日历）和物理（位置、麦克风、摄像头）层面抽象观察结果。",
+              "2. 上下文层（Context Layer）: 结合多模态数据（屏幕、声音、时间、位置），计算上下文焦点和优先级（Attention Score & Priority）。",
+              "3. 策略引擎（Policy Engine）: 执行数据防泄漏规则（Privacy Rules）、未经授权的自动化阻止和企业隔离规则。",
+              "4. 语义记忆层（Semantic Memory Layer）: 包含空间感知知识图谱（Space-Aware Knowledge Graph）（个人 Personal ➔ 工作区 Workspace ➔ 社区 Community ➔ 组织 Organization）以及多模型支持的解耦嵌入索引，并管理后台记忆任务。",
+              "5. 推理层（Reasoning Layer）: 执行混合搜索、多步规划和本地规则的推理层。",
+              "6. 执行层（Execution Layer）: 基于浮动桌面界面和审批循环的自动化流程。",
+              "7. 同步层（Sync Layer）: 使用本地 AES-GCM 加密的 Yjs/CRDT 块实现离线（Offline）、P2P、云（Cloud）和企业（Enterprise）同步模式。"
+            ]
+          },
+          {
+            "heading": "可扩展记忆单元和 SQLite 模式",
+            "paragraphs": [
+              "Saule 的记忆节点基于 6 个可随时间扩展的基本类别（知识 Knowledge、经验 Experience、行动 Action、关系 Relationship、身份 Identity、资源 Resource）以及从中派生的子类型（决策 decision、目标 goal、事实 fact、文件 file 等）。我们的关系型 SQLite 模式如下：",
+              "• `nodes`: 包含 id (PK)、unit_category、unit_type、space_type、space_id、content、decay_score、created_at 字段的基本记忆单元。",
+              "• `embeddings`: 存储 node_id (FK)、model_name、dimension、vector 字段的向量表，与主节点隔离。这样在模型变更时所有数据都能得到保留。",
+              "• `edges`: 存储 source_id、target_id、relation_type、confidence（置信度）、created_by (ai/user/system)、reason 字段的丰富边表。",
+              "• `provenance`: 存储 node_id、app_name、window_title、url、file_path、device_id、workspace_id、user_action 字段的丰富数据溯源表。"
+            ]
+          },
+          {
+            "heading": "认知隐私悖论与本地/集体 E2EE 解决方案",
+            "paragraphs": [
+              "记忆在本地设备安全存储并在协作工作区中保持防泄漏，通过以下技术架构解决：",
+              "• 本地数据安全: 本地设备上的 SQLite 数据库使用从用户主密码派生（PBKDF2）的密钥，通过 AES-256-GCM (sqlcipher) 在本地进行加密存储。这样，设备上的其他应用程序无法访问 Saule 的记忆图谱和嵌入数据。",
+              "• 集体/协作工作区同步（零知识 P2P 密钥交换 Zero-Knowledge P2P Key Exchange）: 在多个用户共享一个图谱（工作区记忆 Workspace Memory）的情况下，使用非对称加密（ECDH/RSA）。加入工作区的成员之间通过点对点（P2P，端到端 E2EE）方式共享一个工作区对称加密密钥。写入共享图谱的每个 Yjs/CRDT 数据包在本地用此共享密钥加密，并以密文（cipher-text）形式发送到云端。云服务器不拥有解密密钥；它仅负责转发（relay）加密包，从而维护零知识隐私模型。"
+            ]
+          },
+          {
+            "heading": "自主观察、空闲状态管理和 I/O 优化",
+            "paragraphs": [
+              "Saule 在后台运行时会采用以下优化措施，以避免磁盘损耗并实现接近零的能耗：",
+              "• 纯内存易失性环形缓冲区（磁盘写入合并）：微活动（击键、鼠标移动）不会直接写入 SSD；它们保存在 RAM 的易失性环形缓冲区中。当注意力过滤器（Attention Filter）决定一个事件（episode）结束时（例如，当用户离开其已输入 3 分钟的 Notion 页面并转而专注于浏览器时），这些数据会通过单个写入事务（single write transaction）写入 SQLite。",
+              "• 空闲状态管理和追溯时间戳：当用户停止键盘/鼠标活动超过 3 分钟时，系统进入“空闲”状态并暂停记录。事件（episode）的结束时间不是用户离开电脑的瞬间，而是记录为最后一次击键的瞬间（retroactive timestamping），从而防止“幽灵注意力”（ghost attention）数据。当屏幕保护程序或锁定激活时，监听完全停止，推荐引擎会因屏幕隐私而冻结。",
+              "• 两阶段搜索过滤器和批量索引：为了避免持续进行繁重的嵌入计算并耗尽 CPU，首先会运行基于词的快速 BM25 过滤器。仅当相似度阈值被突破时，本地 ONNX 嵌入和余弦搜索才会被触发。新添加的原始事件（episode）不会立即被索引；而是在计算机空闲和充电时（梦境状态 Dream State）在后台批量索引。"
+            ]
+          },
+          {
+            "heading": "自主（主动）和交互（被动）用户模式",
+            "paragraphs": [
+              "为了平衡用户的隐私敏感度与认知负荷，系统提供两种独立的工作模式：",
+              "• 自主观察模式（Autonomic Mode / Subconscious）：这是默认模式。后台的主动监听、注意力过滤器和共鸣引擎会不间断地运行。银行或隐身标签页等应用程序会根据黑名单（blacklist）规则自动排除在监听范围之外。",
+              "• 交互/手动模式（Interactive Mode / Conscious）：后台观察器完全关闭。系统不监听操作系统或浏览器。仅当用户直接交互时才工作：例如，通过 Alt+Space 键向 Terminal HQ 输入内容，右键单击选定的文本并选择“提醒 Saule”，在移动设备上录制语音事件（episode），或从浮动岛屿选择“保存当前会话”——通过此类基于同意和明确的操作来创建记忆。",
+              "• UI/UX 状态表示：桌面上的浮动岛屿（Floating Island）以轻微的脉冲动画（蓝色/绿色：自主模式，灰色/静止：手动模式）向用户反映系统当前所处的模式，并允许通过单击进行模式切换。"
+            ]
+          },
+          {
+            "heading": "Tauri 桌面和移动路线图",
+            "paragraphs": [
+              "Saule 的四个季度本地集成路线图包括以下步骤：",
+              "• 阶段 1: 个人记忆引擎和本地核心（Personal SML & Local Core）— 建立 SQLite 关系图模型，编写认知 API（`remember`, `recall`, `connect`, `forget`）方法，本地 nomic-embed 和 Llama-3-8B-Instruct 本地集成，浏览器扩展和终端 UI（观察），建立 Yjs/CRDT 加密同步。",
+              "• 阶段 2: 扩展观察与上下文融合引擎（Extended Observation & Context Fusion Engine）— 剪贴板、选择、Git 分支和屏幕读取（辅助功能树 Accessibility Tree）收集器，通过上下文融合计算优先级，后台运行的整合（Consolidation）和算法衰减（decay）引擎。",
+              "• 阶段 3: 操作系统浮动岛（Floating Desktop Island UI）— 悬停在所有窗口之上的透明浮动岛小部件，Alt+Space SML 终端 HQ 界面，基于用户批准的行动自动化引擎。",
+              "• 阶段 4: 移动集成和语音情景笔记（Mobile Integration & Voice Episodic Notes）— 通过 React Native 移动客户端访问本地音频硬件，使用本地 Whisper 模型分析录音并与桌面图谱同步。"
+            ]
+          },
+          {
+            "heading": "定位层级: SML 品牌与操作系统类比",
+            "paragraphs": [
+              "语义记忆层（SML）是 Saule 向市场提供的官方软件类别。它代表一个独立的软件层，就像 RDBMS 或文档存储（Document Store）一样。而认知操作系统（Cognitive OS）则是我们的技术类比，展示了此 SML 层如何在硬件和软件之上进行定位。",
+              "用户通过安装智能记忆层（SML）而非新的操作系统来克服市场壁垒。然而，这个层级在后台运行时，就像一个认知操作系统（Cognitive OS）一样，执行资源管理和行动编排，提供操作系统级别的认知体验。"
+            ]
+          }
+        ],
+        "open_questions": [],
+        "design_decisions": [],
+        "future_evolution": "",
+        "references": []
+      }
     }
   }
 }

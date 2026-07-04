@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from "react"
 import { X, Plus, ExternalLink, CircleDot } from "lucide-react"
 import { useStorage } from "@plasmohq/storage/hook"
 import logoUrl from "url:~assets/saule-logo.webp"
+import { t } from "./i18n"
 
 export const config: PlasmoCSConfig = {
   matches: ["<all_urls>"],
@@ -32,7 +33,7 @@ export default function FloatingBubble() {
   const [proactiveNotification, setProactiveNotification] = useState<{message: string, type: 'info' | 'warning'} | null>(null)
   
   const [activePackageId, setActivePackageId] = useStorage("sml-active-package-id", "")
-  const [activePackageTitle, setActivePackageTitle] = useStorage("sml-active-package-title", "Yeni Sohbet")
+  const [activePackageTitle, setActivePackageTitle] = useStorage("sml-active-package-title", t("content.new_chat"))
 
   const messagesEndRef = useRef<HTMLDivElement>(null)
 
@@ -58,7 +59,7 @@ export default function FloatingBubble() {
       }
 
       if ((text && text.trim().length > 2 && text.trim().length < 80) || imageContext) {
-        setRecordedEvents(prev => [...prev, `[Tıkladı]: ${text.trim().replace(/\n/g, ' ')}${imageContext}`]);
+        setRecordedEvents(prev => [...prev, `[${t("content.click_event")}]: ${text.trim().replace(/\n/g, ' ')}${imageContext}`]);
       }
     };
 
@@ -68,7 +69,7 @@ export default function FloatingBubble() {
         setRecordedEvents(prev => {
            // Aynı metni defalarca seçmesini engellemek için
            if(prev.length > 0 && prev[prev.length - 1].includes(text.trim().substring(0, 20))) return prev;
-           return [...prev, `[Metin Seçti/Okudu]: ${text.trim().substring(0, 100)}...`];
+           return [...prev, `[${t("content.read_event")}]: ${text.trim().substring(0, 100)}...`];
         });
       }
     };
@@ -98,7 +99,7 @@ export default function FloatingBubble() {
   const handleNewChat = () => {
     setMessages([])
     setActivePackageId("")
-    setActivePackageTitle("Yeni Sohbet")
+    setActivePackageTitle(t("content.new_chat"))
   }
 
   const handleSend = async (isAutoTrigger: boolean | React.MouseEvent = false) => {
@@ -109,13 +110,13 @@ export default function FloatingBubble() {
       return;
     }
     if (!token) {
-      alert("Lütfen eklenti menüsünden (Popup) SML Token kodunuzu girerek bağlanın.");
+      alert(t("content.error_token"));
       return;
     }
     
     let userMsg = input.trim();
     if (isAutoSummary) {
-      userMsg = "Sayfada gezindim ve hareketlerim eklidir. Lütfen incelediğim/tıkladığım şeyleri dikkate alarak bana sayfadaki davranışlarımı özetleyen ve kayda değer bilgileri hafızaya alan bir cevap yaz.";
+      userMsg = t("content.auto_summary_prompt");
     }
     
     // Prepare session history excluding current message
@@ -140,7 +141,7 @@ export default function FloatingBubble() {
           uid: token, 
           text: userMsg,
           sessionHistory,
-          locale: "en",
+          locale: navigator.language.startsWith('tr') ? 'tr' : 'en',
           provider: provider,
           pageContext: pageContext,
           forcePackageId: activePackageId // Lock into current package if it exists
@@ -159,7 +160,7 @@ export default function FloatingBubble() {
       }
     } catch(e) {
       console.error("Saule Ext Error:", e)
-      setMessages(prev => [...prev, {role: 'saule', text: 'Merkez (Headquarters) ile bağlantı kurulamadı.'}])
+      setMessages(prev => [...prev, {role: 'saule', text: t("content.error_connection")}])
     }
   }
 
@@ -228,7 +229,7 @@ export default function FloatingBubble() {
         setRecordedEvents(prev => {
           const finalEvents = [...prev];
           if (maxScrollDepth > 10) {
-            finalEvents.push(`[İnceleme Derinliği]: Sayfanın %${maxScrollDepth}'lik kısmı (aşağı doğru) incelendi.`);
+            finalEvents.push(`[${t("content.scroll_event")}]: %${maxScrollDepth}`);
           }
           return finalEvents;
         });
@@ -259,7 +260,7 @@ export default function FloatingBubble() {
                 <img src={logoUrl} alt="Saule" className="w-5 h-5 shrink-0 object-contain drop-shadow-sm" onError={(e) => { e.currentTarget.style.display='none'; }} /> {activePackageTitle}
               </span>
               <a href="http://localhost:3000/tr/app" target="_blank" rel="noreferrer" className="text-[10px] text-sage-dark hover:text-sage flex items-center gap-1 w-max font-medium">
-                Terminal'i Aç <ExternalLink size={10} />
+                {t("content.open_terminal")} <ExternalLink size={10} />
               </a>
             </div>
             
@@ -272,13 +273,13 @@ export default function FloatingBubble() {
                 <option value="gemini">Gemini</option>
                 <option value="claude">Claude</option>
               </select>
-              <button onClick={toggleRecording} className={`p-1.5 rounded-md transition-colors ${isRecording ? 'text-red-500 bg-red-50 hover:bg-red-100 animate-pulse' : 'text-sage-dark hover:bg-sand-200'}`} title="Kaydı Başlat / Durdur">
+              <button onClick={toggleRecording} className={`p-1.5 rounded-md transition-colors ${isRecording ? 'text-red-500 bg-red-50 hover:bg-red-100 animate-pulse' : 'text-sage-dark hover:bg-sand-200'}`} title={t("content.record_start_stop")}>
                 <CircleDot size={14} strokeWidth={2.5} />
               </button>
-              <button onClick={handleNewChat} className="hover:bg-sand-200 text-sage-dark p-1.5 rounded-md transition-colors" title="Yeni Sohbet (Konu Değiştir)">
+              <button onClick={handleNewChat} className="hover:bg-sand-200 text-sage-dark p-1.5 rounded-md transition-colors" title={t("content.new_chat_tooltip")}>
                 <Plus size={14} strokeWidth={2.5} />
               </button>
-              <button onClick={toggleOpen} className="hover:bg-sand-200 text-charcoal-muted p-1.5 rounded-md transition-colors" title="Kapat">
+              <button onClick={toggleOpen} className="hover:bg-sand-200 text-charcoal-muted p-1.5 rounded-md transition-colors" title={t("content.close")}>
                 <X size={14} strokeWidth={2.5} />
               </button>
             </div>
@@ -287,7 +288,7 @@ export default function FloatingBubble() {
           <div className="flex-1 p-4 overflow-y-auto flex flex-col gap-3">
             {messages.length === 0 ? (
               <div className="h-full flex items-center justify-center text-xs text-charcoal-muted italic opacity-70">
-                SML is listening silently.
+                {t("content.listening")}
               </div>
             ) : (
               messages.map((m, i) => (
@@ -301,8 +302,8 @@ export default function FloatingBubble() {
 
           {recordedEvents.length > 0 && (
             <div className="px-4 py-2 bg-sand-50/90 text-[10px] text-sage-dark border-t border-sand-200 flex justify-between items-center shadow-[inset_0_2px_4px_rgba(0,0,0,0.02)]">
-               <span className="font-medium">📍 {recordedEvents.length} Sayfa Hareketi Kaydedildi</span>
-               <button onClick={() => setRecordedEvents([])} className="text-red-400 hover:text-red-600 font-medium">İptal</button>
+               <span className="font-medium">📍 {recordedEvents.length} {t("content.recorded_events")}</span>
+               <button onClick={() => setRecordedEvents([])} className="text-red-400 hover:text-red-600 font-medium">{t("content.cancel")}</button>
             </div>
           )}
 
@@ -313,7 +314,7 @@ export default function FloatingBubble() {
                 value={input}
                 onChange={e => setInput(e.target.value)}
                 onKeyDown={e => e.key === 'Enter' && handleSend()}
-                placeholder="Recall or save to memory..."
+                placeholder={t("content.placeholder")}
                 className="w-full bg-sand-50/50 border border-sand-300 rounded-full pl-4 pr-10 py-2.5 text-xs focus:outline-none focus:ring-1 focus:ring-sage focus:bg-white transition-colors"
               />
               <button onClick={handleSend} className="absolute right-2 p-1.5 transition-transform hover:scale-110 active:scale-95">
@@ -347,7 +348,7 @@ export default function FloatingBubble() {
             onPointerUp={handlePointerUp}
             onClick={handleLogoClick}
             className="p-2 transition-all duration-300 hover:scale-110 active:scale-95 flex items-center justify-center group focus:outline-none relative cursor-grab active:cursor-grabbing"
-            title={isRecording ? "Kaydı Durdur" : "Sürükle veya Tıkla"}
+            title={isRecording ? t("content.stop_recording") : t("content.drag_tooltip")}
           >
             {isRecording && <div className="absolute inset-0 border-[3px] border-red-500/60 rounded-full animate-ping pointer-events-none"></div>}
             <img src={logoUrl} alt="Saule" className={`w-12 h-12 object-contain drop-shadow-[0_4px_12px_rgba(0,0,0,0.15)] transition-transform duration-[3000ms] ease-linear pointer-events-none ${isRecording ? 'rotate-[360deg] repeat-infinite' : 'group-hover:rotate-12'}`} style={isRecording ? { animation: 'spin 3s linear infinite' } : {}} onError={(e) => { e.currentTarget.style.display='none'; }} />

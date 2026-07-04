@@ -1,36 +1,190 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+# ☀️ Saule
 
-First, run the development server:
+### The Semantic Memory Layer for the post-model world
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+**Models are commodities. Memory is the moat.**
+
+[![License: Open-Core](https://img.shields.io/badge/license-open--core-blue.svg)](#license)
+[![Status: Early Access](https://img.shields.io/badge/status-early%20access-orange.svg)](#status)
+[![Model Agnostic](https://img.shields.io/badge/models-agnostic-brightgreen.svg)](#why-saule)
+[![Local First](https://img.shields.io/badge/architecture-local--first-9cf.svg)](#architecture)
+[![Made with SPG](https://img.shields.io/badge/data%20model-Semantic%20Provenance%20Graph-purple.svg)](#the-semantic-provenance-graph)
+
+[White Paper](http://localhost:3000/en/book) · [Quick Start](#quick-start) · [Architecture](#architecture) · [Comparison](#how-is-this-different-from-x) · [Roadmap](#roadmap)
+
+</div>
+
+---
+
+## Why Saule?
+
+Every AI provider is racing to make reasoning cheaper, faster, and more accessible. That race is good for the world — and terrible as a place to build a proprietary moat.
+
+When reasoning is a commodity, the only thing that isn't is **what the model runs on**. Your decisions, your team's tacit knowledge, the alternatives you ruled out three months ago — none of that lives in any base model, and none of it should live locked inside one vendor's closed memory feature either.
+
+Saule is an independent **Semantic Memory Layer (SML)** — a piece of open infrastructure that sits between you and whatever model you're using, preserving the context that models inherently forget:
+
+- **Not a vector DB.** Vector search is treated as a low-level similarity index, not the memory structure itself.
+- **Not a static knowledge graph.** Knowledge graphs are rigid. Saule's graph decays, reinforces, and reorganizes itself asynchronously over time based on usage.
+- **Not RAG.** RAG retrieves arbitrary chunks. Saule reconstructs *context* — who decided what, when, in which environment, and why.
+- **Not MCP.** MCP is a pipe between models and data sources. Saule is the memory compiler running *through* the pipe.
+
+Models change. Providers rise and fall. Your memory should outlive all of it.
+
+---
+
+## The Problem, Concretely
+
+> Three months ago, your team chose Postgres `JSONB` over MongoDB. The detailed trade-off reasoning lived in a Slack thread that's now buried under 40,000 other messages.
+> 
+> A new engineer joins, asks "why not Mongo?", and nobody remembers the exact constraints. You waste six hours re-litigating a decision that was already made — because the *decision* survived in your schema, but the *context* around it did not.
+
+This isn't a documentation problem. It's a **memory architecture** problem. Every tool you use — Slack, Notion, Git, browser, terminal — remembers a disconnected fragment. None of them preserve the unified narrative.
+
+---
+
+## How is Saule Different?
+
+| Feature | Vector DB | Knowledge Graph | RAG Pipeline | MCP | **Saule (SML)** |
+|:---|:---:|:---:|:---:|:---:|:---:|
+| **Semantic Similarity Search** | ✅ | ❌ | ✅ | ❌ | **✅ Yes** |
+| **Temporal & Causal Graphing** | ❌ | ❌ | ❌ | ❌ | **✅ Yes** |
+| **Provenance Tracking (Who/When/Why)**| ❌ | ⚠️ Partial | ❌ | ❌ | **✅ Yes** |
+| **Hebbian Decay & Reinforcement** | ❌ | ❌ | ❌ | ❌ | **✅ Yes** |
+| **Model Independence (SMI)** | ✅ | ✅ | ✅ | ✅ | **✅ Yes** |
+| **Local-First / Zero-Knowledge Sync** | ❌ | ❌ | ❌ | ❌ | **✅ Yes** |
+| **Cross-App/Team Network Effect** | ❌ | ❌ | ❌ | ❌ | **✅ Yes** |
+
+> [!NOTE]  
+> **vs. Closed Vendor Memory (OpenAI/Claude Memory):** Those offer flat, key-value recall locked to a single model, stored on someone else's cloud, with no portability, zero local privacy, and no collective team utility. Saule is built to be the exact opposite of that on every axis.
+
+---
+
+## Architecture & Innovations
+
+Saule is built on three core pillars:
+
+### 1. The Semantic Provenance Graph (SPG)
+Instead of storing plain text chunks, every memory unit carries its full metadata lineage: **when** it was created, **who** created it, **what application** it originated from, and **why** it relates to everything around it.
+
+```json
+{
+  "id": "mem_01h8x9",
+  "type": "episodic",
+  "content": "Decided to use Postgres JSONB for flexible schema indexing.",
+  "embedding": [0.012, -0.045, "..."],
+  "created_at": 1783156054,
+  "decay_weight": 0.98,
+  "provenance": {
+    "app_name": "slack",
+    "window_title": "#architecture-discussion",
+    "url": "https://slack.com/archives/C12345",
+    "author": "dev_jane",
+    "workspace_id": "team_core"
+  }
+}
+```
+Edges between nodes carry semantic, temporal, *and causal* relationships (`postgres_chosen_because_of_jsonb_indexing`), each with its own confidence score and decay weight.
+
+### 2. Autonomic Observation & Low-Resource Passive Ingestion
+Passive memory engines usually destroy battery life and SSDs through continuous disk writes and heavy embedding models. Saule solves this via:
+* **RAM-Only Volatile Ring Buffer (Write Coalescing):** Keyboard inputs, window changes, and clipboard copies are captured in memory first. Only when the *Attention Filter* detects a focus shift or a completed episode, the data is batched and written to SQLite in a single transaction.
+* **Inactivity Handling (Idle State Transition):** If no inputs are detected for 3 minutes, the observer pauses. The episode boundary is timestamped retroactively to the last user interaction, eliminating "ghost attention" bloat.
+* **Two-Stage Retrieval (CPU Safety):** Before calling heavy embedding models, local context is evaluated via a lightning-fast keyword triage (BM25). Vector similarity (ONNX `nomic-embed`) is computed only if the triage threshold is met.
+
+### 3. Dual-Mode User Sovereignty (Psychological Safety)
+Users toggle between two modes using a single shortcut (`Ctrl+Shift+P` / Tauri UI):
+* **Autonomic Mode (Subconscious / Active Listening):** Background daemon gathers digital context passively. Sensitive apps (banking, password managers, incognito) are blacklisted automatically.
+* **Interactive Mode (Conscious / Manual Trigger Only):** The passive observer is shut down entirely. The database is updated strictly upon explicit user request: triggering the `Alt+Space` SML Terminal HQ, right-clicking text to "Remember in Saule", or recording voice notes.
+
+---
+
+## Technical Flow
+
+```mermaid
+flowchart LR
+    A[Raw Input<br/>Slack · Notion · Browser · Terminal] --> B[RAM Ring Buffer<br/>+ Inactivity Triage]
+    B --> C[Semantic Provenance Graph<br/>SQLite + VSS]
+    C --> D{Context Match}
+    D --> E[Super-Node<br/>Context Composition]
+    E --> F[Any LLM<br/>via SMI]
+    C -.asynchronous decay / dream state.-> C
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Status & Honesty Check
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+> [!IMPORTANT]  
+> **Honesty Check:** Whitepapers and developer READMEs often lie by omission. We'd rather not.
 
-## Learn More
+The 6-layer Cognitive OS architecture described in the full technical spec is the **long-term target design**, not the current build. What is running today:
 
-To learn more about Next.js, take a look at the following resources:
+* **✅ Functional Cloud Prototype:** Firebase/Firestore-backed memory engine with hybrid context routing and similarity validation.
+* **🔜 Local Core Engine:** SQLite schema tables, Cognitive API methods (`remember`, `recall`, `connect`, `forget`), and local ONNX embedding execution (Phase 1).
+* **🔜 Local Passive Observers:** Desktop Tauri hooks and cross-browser extensions for background window capture (Phase 1).
+* **🔜 Zero-Knowledge Sync:** Local P2P key exchange (ECDH/RSA) to sync workspace memory relays securely across teams (Phase 2).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+We'd rather ship smaller, functional modules than a monolithic, imaginary one.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Quick Start
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm install @saule/sdk
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```typescript
+import { SauleClient } from '@saule/sdk';
+
+const client = new SauleClient({ endpoint: 'local' });
+
+// Ingest background context
+await client.memory.ingest({
+  content: "Decided to use Postgres JSONB to avoid premature Mongo schema locks.",
+  provenance: { app: "slack", channel: "#dev-architecture" }
+});
+
+// Recall from any model, anytime
+const context = await client.memory.recall("Why didn't we choose MongoDB?");
+console.log(context.composed_prompt);
+// Prints chronological timeline of Slack discussion, Git commits, and meeting decisions.
+```
+
+SDKs available in **TypeScript**, **Python**, and **Rust**.
+
+---
+
+## Roadmap
+
+* **Phase 1: Personal SML & Local Core (Q1-Q2)**  
+  SQLite graph schema, local Cognitive API (`remember`/`recall`/`connect`), local nomic-embed / Llama-3-8B local inference, browser extension + SML Terminal UI.
+* **Phase 2: Workspace Memory & Transactive Sync (Q3)**  
+  Slack, Notion, and GitHub ingestion integrations. P2P encrypted key exchange (Zero-Knowledge) over Firestore relay to prevent corporate amnesia across teams.
+* **Phase 3: Open Memory Protocol (OMP) (Q4)**  
+  A standardized, encrypted cross-application memory protocol allowing independent agents and apps to query and plug into Saule via unified API contracts.
+* **Phase 4: Semantic OS (2027)**  
+  Building the complete cognitive operating system layer sitting directly on top of physical hardware and cloud hosting.
+
+---
+
+## Contributing
+
+Saule is open-core. If you are building autonomous agents, developer tools, or context-aware assistants that need memory extending beyond a single session chat box — we want your feedback more than your GitHub stars (though we won't say no to either).
+
+* 🐛 Found a bug in the SPG traversal algorithms? Open an issue.
+* 🧠 Built a custom decay policy agent or BM25 weight adjuster? Send a PR.
+* 📖 Read the full [White Paper](http://localhost:3000/en/book) for the cognitive-science research behind our memory architectures.
+
+---
+
+<div align="center">
+
+**Intelligence is general. Memory is yours.**
+
+© 2026 PEH · [peh.solutions](https://peh.solutions)
+
+</div>
