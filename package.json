@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "sml:start": "node scripts/manage-sml.js start",
+    "sml:stop": "node scripts/manage-sml.js stop",
+    "sml:status": "node scripts/manage-sml.js status",
+    "sml:restart": "node scripts/manage-sml.js restart"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.109.1",

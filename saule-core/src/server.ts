@@ -113,6 +113,31 @@ async function startServer() {
       }
     });
 
+    // Get All Nodes Endpoint
+    app.get('/api/smi/nodes', async (req, res) => {
+      try {
+        console.log(`[Saule SML Server] Fetching all memory nodes`);
+        const nodes = core.getAllNodes();
+        return res.json({ success: true, nodes });
+      } catch (err: any) {
+        console.error("[Saule SML Server] Fetching nodes error:", err);
+        return res.status(500).json({ error: "Internal Server Error", message: err.message });
+      }
+    });
+
+    // Delete Node Endpoint
+    app.delete('/api/smi/nodes/:id', async (req, res) => {
+      try {
+        const { id } = req.params;
+        console.log(`[Saule SML Server] Deleting node: ${id}`);
+        core.deleteNode(id);
+        return res.json({ success: true });
+      } catch (err: any) {
+        console.error("[Saule SML Server] Deleting node error:", err);
+        return res.status(500).json({ error: "Internal Server Error", message: err.message });
+      }
+    });
+
     // Boot App Listener
     app.listen(PORT, () => {
       console.log(`[Saule SML Server] Running locally on http://localhost:${PORT}`);

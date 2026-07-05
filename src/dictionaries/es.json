@@ -28,7 +28,7 @@
   },
   "header": {
     "logo": "Saule",
-    "badge": "Saule White Paper v1.0",
+    "badge": "Saule White Paper v2.0",
     "nav_home": "Inicio",
     "nav_book": "White Paper",
     "nav_access": "Acceso Temprano"
@@ -46,7 +46,7 @@
     "success_desc": "Gracias por suscribirte. Nos pondremos en contacto contigo cuando el primer entorno interactivo esté listo."
   },
   "dashboard": {
-    "title": "Saule White Paper v1.0",
+    "title": "Saule White Paper v2.0",
     "subtitle": "Capa de Memoria Semántica (SML)",
     "living_book_badge": "White Paper",
     "status_label": "Estado Actual",
@@ -102,7 +102,7 @@
   },
   "volumes": {
     "v1": {
-      "title": "Saule White Paper v1.0",
+      "title": "Saule White Paper v2.0",
       "purpose": "Una Memoria Viva para Personas, Equipos e Instituciones",
       "intro_paragraphs": [
         "> En la era de la inteligencia artificial, la pérdida de la memoria es una crisis silenciosa; la memoria debe pertenecer a su dueño.",
@@ -124,31 +124,31 @@
     }
   },
   "access_page": {
-    "title": "Saule Acceso Temprano",
-    "subtitle": "La aplicación se está desarrollando actualmente con un modelo de acceso por invitación.",
-    "why_title": "¿Por qué Acceso por Invitación?",
-    "why_text": "Saule aborda áreas sensibles como la memoria personal, la atención, las decisiones, las relaciones y la carga mental. Por esta razón, en la etapa inicial se utilizará un modelo de solicitud y invitación controlado en lugar de un registro público.",
-    "process_title": "Proceso",
-    "process_item1": "Lee el White Paper",
-    "process_item2": "Rellena el formulario de acceso temprano",
-    "process_item3": "La solicitud es evaluada",
-    "process_item4": "Si es aprobado, se envía un enlace de invitación",
-    "process_item5": "Participas en el proceso de retroalimentación",
-    "expectations_title": "Expectativas",
-    "expectations_item1": "Saule no es soporte clínico",
-    "expectations_item2": "Saule no ofrece diagnóstico ni tratamiento",
-    "expectations_item3": "Saule es un producto en etapa temprana",
-    "expectations_item4": "Se espera retroalimentación honesta de los participantes",
-    "expectations_item5": "Los datos del usuario y los límites de privacidad son prioritarios",
-    "form_name": "Nombre",
-    "form_email": "Correo electrónico",
-    "form_reason": "¿Por qué quieres probar Saule?",
-    "form_struggle": "¿En qué área te resulta más difícil?",
-    "form_takeaway": "¿Puedes escribir una conclusión o una frase que te haya quedado del White Paper?",
-    "form_feedback": "¿Estás abierto a dar retroalimentación?",
-    "form_consent": "Entiendo que Saule no es soporte clínico",
-    "form_submit": "Solicitar Acceso Temprano",
-    "form_submit_disabled": "El envío del formulario se abrirá pronto"
+    "title": "Vista Previa para Desarrolladores y Acceso Anticipado",
+    "subtitle": "Obtenga acceso anticipado al motor local de la Capa de Memoria Semántica y a la extensión de navegador Beiwe.",
+    "why_title": "¿Por qué una Vista Previa para Desarrolladores?",
+    "why_text": "Saule Core es un motor semántico local y sin interfaz (headless). Estamos limitando el acceso inicial a desarrolladores y usuarios técnicos para recopilar comentarios sobre la API de la Interfaz de Memoria Semántica (SMI) y la optimización de la base de datos antes del lanzamiento general.",
+    "process_title": "Primeros Pasos",
+    "process_item1": "Revise el White Paper v2.0 para especificaciones de arquitectura.",
+    "process_item2": "Envíe su perfil de desarrollador y correo electrónico a continuación.",
+    "process_item3": "Reciba el paquete de instalación local (npm/SQLite) y el artefacto de la extensión Beiwe.",
+    "process_item4": "Ejecute el microservicio localmente en el puerto 4000.",
+    "process_item5": "Contribuya con comentarios sobre los contratos de la API SMI y su rendimiento.",
+    "expectations_title": "Requisitos Técnicos y Contexto",
+    "expectations_item1": "Saule se ejecuta 100% localmente en su máquina.",
+    "expectations_item2": "Requiere Node.js 18+ y SQLite.",
+    "expectations_item3": "El servidor local ejecuta embeddings ONNX sin conexión.",
+    "expectations_item4": "Probará la integración con la extensión Beiwe.",
+    "expectations_item5": "La privacidad es absoluta: ninguna clave o dato sale de su disco.",
+    "form_name": "Nombre / Usuario",
+    "form_email": "Correo del Desarrollador",
+    "form_reason": "¿Cuál es su principal caso de uso para una Capa de Memoria Semántica local?",
+    "form_struggle": "¿Cuál es su entorno de desarrollo preferido (SO/versión de Node)?",
+    "form_takeaway": "¿En qué puntos finales de la API SMI (/ingest, /recall, /clarity) está más interesado?",
+    "form_feedback": "¿Está abierto a enviar registros de API o informes de errores?",
+    "form_consent": "Entiendo que Saule Core es una vista previa para desarrolladores local.",
+    "form_submit": "Solicitar Acceso al SDK",
+    "form_submit_disabled": "Formulario de acceso para desarrolladores próximamente"
   },
   "home_page": {
     "hero_title": "Saule",

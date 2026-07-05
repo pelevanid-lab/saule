@@ -243,6 +243,20 @@ export class SauleCore {
   }
 
   /**
+   * Retrieves all memory nodes from the database.
+   */
+  public getAllNodes(): MemoryNode[] {
+    return this.nodeRepo.getAll();
+  }
+
+  /**
+   * Deletes a memory node by ID.
+   */
+  public deleteNode(id: string): void {
+    this.nodeRepo.delete(id);
+  }
+
+  /**
    * Closes the database connection.
    */
   public close() {

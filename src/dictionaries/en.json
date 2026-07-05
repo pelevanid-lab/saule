@@ -28,7 +28,7 @@
   },
   "header": {
     "logo": "Saule",
-    "badge": "Saule White Paper v1.0",
+    "badge": "Saule White Paper v2.0",
     "nav_home": "Home",
     "nav_book": "White Paper",
     "nav_access": "Early Access"
@@ -46,7 +46,7 @@
     "success_desc": "Thank you for subscribing. We will reach out when the initial interactive sandbox is ready."
   },
   "dashboard": {
-    "title": "Saule White Paper v1.0",
+    "title": "Saule White Paper v2.0",
     "subtitle": "The Semantic Memory Layer (SML)",
     "living_book_badge": "White Paper",
     "status_label": "Current Status",
@@ -102,7 +102,7 @@
   },
   "volumes": {
     "v1": {
-      "title": "Saule White Paper v1.0",
+      "title": "Saule White Paper v2.0",
       "purpose": "A Living Memory for People, Teams, and Institutions",
       "intro_paragraphs": [
         "> In the age of AI, the loss of memory is a silent crisis; memory must belong to its owner.",
@@ -124,31 +124,31 @@
     }
   },
   "access_page": {
-    "title": "Saule Early Access",
-    "subtitle": "The application is currently being developed with an invitation-only access model.",
-    "why_title": "Why Invitation-Only Access?",
-    "why_text": "Saule touches sensitive areas such as personal memory, attention, decisions, relationships, and mental load. Therefore, an invitation-only access model with controlled applications will be used in the early stages instead of public registration.",
-    "process_title": "Process",
-    "process_item1": "Read the White Paper",
-    "process_item2": "Fill out the early access form",
-    "process_item3": "Application is evaluated",
-    "process_item4": "If approved, an invitation link will be sent",
-    "process_item5": "You participate in the feedback process",
-    "expectations_title": "Expectations",
-    "expectations_item1": "Saule is not clinical support",
-    "expectations_item2": "Saule does not offer diagnosis or treatment",
-    "expectations_item3": "Saule is an early-stage product",
-    "expectations_item4": "Honest feedback is expected from participants",
-    "expectations_item5": "User data and privacy boundaries are a priority",
-    "form_name": "Name",
-    "form_email": "Email",
-    "form_reason": "Why do you want to try Saule?",
-    "form_struggle": "In which area do you struggle the most?",
-    "form_takeaway": "Can you write a takeaway or a sentence that stuck with you from the White Paper?",
-    "form_feedback": "Are you open to providing feedback?",
-    "form_consent": "I understand that Saule is not clinical support",
-    "form_submit": "Request Early Access",
-    "form_submit_disabled": "Form Submission Opening Soon"
+    "title": "Saule Developer Preview & Early Access",
+    "subtitle": "Get early access to the local Semantic Memory Layer engine and the Beiwe Clarity Browser extension.",
+    "why_title": "Why Developer Preview?",
+    "why_text": "Saule Core is a local-first, headless semantic engine. We are limiting initial access to developers and technical users to gather feedback on the Semantic Memory Interface (SMI) API and database optimization before the general launch.",
+    "process_title": "Getting Started",
+    "process_item1": "Review the White Paper v2.0 for architectural specs.",
+    "process_item2": "Submit your developer profile and email below.",
+    "process_item3": "Receive the local installation bundle (npm/SQLite) and Beiwe extension artifact.",
+    "process_item4": "Run the microservice locally on port 4000.",
+    "process_item5": "Contribute feedback on SMI API contracts and performance.",
+    "expectations_title": "Technical Requirements & Context",
+    "expectations_item1": "Saule runs 100% locally on your machine.",
+    "expectations_item2": "Requires Node.js 18+ and SQLite.",
+    "expectations_item3": "The local server executes ONNX embeddings offline.",
+    "expectations_item4": "You will test integration with the Beiwe extension.",
+    "expectations_item5": "Privacy is absolute: no keys or data leave your disk.",
+    "form_name": "Name / Username",
+    "form_email": "Developer Email",
+    "form_reason": "What is your main use case for a local Semantic Memory Layer?",
+    "form_struggle": "What is your preferred development environment (OS/Node version)?",
+    "form_takeaway": "Which SMI API endpoints (/ingest, /recall, /clarity) are you most interested in?",
+    "form_feedback": "Are you open to submitting API logs or bug reports?",
+    "form_consent": "I understand that Saule Core is a local-first developer preview.",
+    "form_submit": "Request SDK Access",
+    "form_submit_disabled": "Developer Access Form Opening Soon"
   },
   "home_page": {
     "hero_title": "Saule",

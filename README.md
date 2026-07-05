@@ -99,6 +99,13 @@ Users toggle between two modes using a single shortcut (`Ctrl+Shift+P` / Tauri U
 * **Autonomic Mode (Subconscious / Active Listening):** Background daemon gathers digital context passively. Sensitive apps (banking, password managers, incognito) are blacklisted automatically.
 * **Interactive Mode (Conscious / Manual Trigger Only):** The passive observer is shut down entirely. The database is updated strictly upon explicit user request: triggering the `Alt+Space` SML Terminal HQ, right-clicking text to "Remember in Saule", or recording voice notes.
 
+### 4. Cryptographic Identity & BIP-39 Key Derivation (Roadmap Spec)
+To guarantee absolute user ownership:
+* **Mnemonic Seed Phrases**: Instead of traditional passwords, Saule will generate a standard 12 or 24-word BIP-39 mnemonic phrase.
+* **Offline Key Derivation**: The 256-bit Data Encryption Key (DEK) used for SQLite AES-GCM encryption is derived directly from this master seed offline using PBKDF2/Argon2.
+* **Zero Central Storage**: Seed phrases and keys are stored exclusively in the device's secure system keychain (Windows Credential Manager / macOS Keychain) and never touch any cloud server.
+* **Web3-Style Restoration**: If you switch devices, you restore your database sync connection simply by entering your 12/24-word phrase on the new device, reconstructing the encryption key locally.
+
 ---
 
 ## Technical Flow
@@ -122,39 +129,59 @@ flowchart LR
 
 The 6-layer Cognitive OS architecture described in the full technical spec is the **long-term target design**, not the current build. What is running today:
 
-* **✅ Functional Cloud Prototype:** Firebase/Firestore-backed memory engine with hybrid context routing and similarity validation.
-* **🔜 Local Core Engine:** SQLite schema tables, Cognitive API methods (`remember`, `recall`, `connect`, `forget`), and local ONNX embedding execution (Phase 1).
-* **🔜 Local Passive Observers:** Desktop Tauri hooks and cross-browser extensions for background window capture (Phase 1).
-* **🔜 Zero-Knowledge Sync:** Local P2P key exchange (ECDH/RSA) to sync workspace memory relays securely across teams (Phase 2).
-
-We'd rather ship smaller, functional modules than a monolithic, imaginary one.
+* **✅ Local Core SML Engine & REST Microservice (v2.0)**: Standalone headless Express server running locally on port `4000`. Fully decoupled database layer using `better-sqlite3` with AES-GCM application-level encryption. Local ONNX embedding execution (`all-MiniLM-L6-v2`) with pre-warmup compilation to eliminate cold-starts.
+* **✅ Local-First Developer Console**: The getsaule web app (`localhost:3000/app`) functions 100% offline, connecting directly to the local SML server via the SMI API proxy.
+* **🔜 Local Passive Observers**: Desktop Tauri hooks and cross-browser extensions for background window capture (Phase 1 - In Progress).
+* **🔜 Zero-Knowledge Sync**: Local P2P key exchange (ECDH/RSA) or BIP-39 seed phrase recovery to sync workspace memory relays securely across teams without cloud exposure (Phase 2 - Planned).
 
 ---
 
-## Quick Start
+## Quick Start (Local REST Microservice)
+
+To start the local SML microservice, navigate to `saule-core` and boot the server:
 
 ```bash
-npm install @saule/sdk
+cd saule-core
+npm install
+npm start
+```
+The server will warm up the local ONNX model and start listening on `http://localhost:4000`.
+
+### Ingesting Memory Context
+
+Send a POST request to the local SMI `/ingest` endpoint:
+
+```bash
+curl -X POST http://localhost:4000/api/smi/ingest \
+  -H "Content-Type: application/json" \
+  -d '{
+    "content": "Decided to use Postgres JSONB to avoid premature MongoDB schema locks.",
+    "category": "knowledge",
+    "type": "decision",
+    "spaceId": "workspace_ac_test",
+    "provenance": {
+      "appName": "slack",
+      "author": "dev_jane"
+    }
+  }'
 ```
 
-```typescript
-import { SauleClient } from '@saule/sdk';
+### Recalling Context
 
-const client = new SauleClient({ endpoint: 'local' });
+Query the SML memory graph:
 
-// Ingest background context
-await client.memory.ingest({
-  content: "Decided to use Postgres JSONB to avoid premature Mongo schema locks.",
-  provenance: { app: "slack", channel: "#dev-architecture" }
-});
-
-// Recall from any model, anytime
-const context = await client.memory.recall("Why didn't we choose MongoDB?");
-console.log(context.composed_prompt);
-// Prints chronological timeline of Slack discussion, Git commits, and meeting decisions.
+```bash
+curl -X POST http://localhost:4000/api/smi/recall \
+  -H "Content-Type: application/json" \
+  -d '{
+    "query": "Why did we choose Postgres JSONB?",
+    "spaceId": "workspace_ac_test",
+    "spaceType": "personal"
+  }'
 ```
+This returns the chronologically ordered and causally composed sub-graph context nodes from SQLite, decrypted on-the-fly.
 
-SDKs available in **TypeScript**, **Python**, and **Rust**.
+---SDKs available in **TypeScript**, **Python**, and **Rust**.
 
 ---
 

@@ -40,60 +40,55 @@ export default function MemoryHistory({ dict, locale, workspaceId }: { dict: any
   const [editingNodeId, setEditingNodeId] = useState<string | null>(null);
   const [editNodeTitle, setEditNodeTitle] = useState('');
 
+  const fetchMemories = async () => {
+    try {
+      const res = await fetch('/api/memories');
+      if (res.ok) {
+        const data = await res.json();
+        setMemories(data.memories || []);
+        
+        // Generate mock packages based on the workspaceIds/spaceIds of the loaded memories
+        const loadedPackages: ContextPackage[] = [];
+        const seenIds = new Set<string>();
+        (data.memories || []).forEach((m: RawMemory) => {
+          const pid = m.packageId || 'default';
+          if (!seenIds.has(pid)) {
+            seenIds.add(pid);
+            loadedPackages.push({
+              id: pid,
+              title: pid === 'default' ? (locale === 'tr' ? 'Genel Sohbet' : 'General Chat') : pid,
+              updatedAt: new Date(m.createdAt)
+            });
+          }
+        });
+        setPackages(loadedPackages);
+      }
+    } catch (error) {
+      console.error('Error fetching memories:', error);
+    }
+  };
+
   useEffect(() => {
-    if (!user || !db) return;
-
-    const qMemories = query(
-      collection(db, 'memories'),
-      where('userId', '==', user.uid),
-      orderBy('createdAt', 'desc')
-    );
-
-    const unsubMemories = onSnapshot(qMemories, (snapshot) => {
-      const loaded: RawMemory[] = [];
-      snapshot.forEach((doc) => loaded.push({ id: doc.id, ...doc.data() } as RawMemory));
-      setMemories(loaded);
-    });
-
-    const qPackages = query(
-      collection(db, 'context_packages'),
-      where('userId', '==', user.uid)
-    );
-
-    const unsubPackages = onSnapshot(qPackages, (snapshot) => {
-      const loaded: ContextPackage[] = [];
-      snapshot.forEach((doc) => loaded.push({ id: doc.id, ...doc.data() } as ContextPackage));
-      setPackages(loaded);
-    });
-
-    return () => {
-      unsubMemories();
-      unsubPackages();
-    };
-  }, [user]);
+    fetchMemories();
+    // Poll every 5 seconds to keep it synced with any background extension actions
+    const interval = setInterval(fetchMemories, 5000);
+    return () => clearInterval(interval);
+  }, []);
 
   const handleDelete = async (id: string) => {
-    if (!user || !confirm(dict.delete_confirm)) return;
+    if (!confirm(dict.delete_confirm)) return;
     try {
-      await fetch(`/api/memories?id=${id}&uid=${user.uid}`, { method: 'DELETE' });
+      const res = await fetch(`/api/memories?id=${id}`, { method: 'DELETE' });
+      if (res.ok) {
+        fetchMemories();
+      }
     } catch (error) {
       console.error('Error deleting memory:', error);
     }
   };
 
   const handleSaveNodeTitle = async (id: string) => {
-    if (!user || !db || !editNodeTitle.trim()) return;
-    try {
-      const { doc, setDoc } = await import('firebase/firestore');
-      await setDoc(doc(db, 'context_packages', id), {
-        title: editNodeTitle.trim(),
-        userId: user.uid,
-        updatedAt: new Date()
-      }, { merge: true });
-      setEditingNodeId(null);
-    } catch (error) {
-      console.error('Error updating node title:', error);
-    }
+    setEditingNodeId(null);
   };
 
   const toggleNode = (nodeId: string) => {
@@ -149,8 +144,12 @@ export default function MemoryHistory({ dict, locale, workspaceId }: { dict: any
 
     return roots.filter(pruneEmpty).sort((a, b) => {
       // Sort roots by most recently updated memory
-      const aTime = a.memories[0]?.createdAt?.toMillis?.() || 0;
-      const bTime = b.memories[0]?.createdAt?.toMillis?.() || 0;
+      const aTime = a.memories[0]?.createdAt && typeof a.memories[0].createdAt === 'object' && a.memories[0].createdAt.toMillis
+        ? a.memories[0].createdAt.toMillis()
+        : Number(a.memories[0]?.createdAt) || 0;
+      const bTime = b.memories[0]?.createdAt && typeof b.memories[0].createdAt === 'object' && b.memories[0].createdAt.toMillis
+        ? b.memories[0].createdAt.toMillis()
+        : Number(b.memories[0]?.createdAt) || 0;
       return bTime - aTime;
     });
   };
@@ -232,7 +231,7 @@ export default function MemoryHistory({ dict, locale, workspaceId }: { dict: any
                       <div className="flex items-center gap-2 mt-1 opacity-0 group-hover:opacity-100 transition-opacity">
                         <span className="text-[10px] text-charcoal-muted/70 flex items-center gap-1">
                           <Calendar size={10} />
-                          {mem.createdAt?.toDate ? mem.createdAt.toDate().toLocaleDateString(locale === 'tr' ? 'tr-TR' : 'en-US') : ''}
+                          {mem.createdAt?.toDate ? mem.createdAt.toDate().toLocaleDateString(locale === 'tr' ? 'tr-TR' : 'en-US') : new Date(mem.createdAt).toLocaleDateString(locale === 'tr' ? 'tr-TR' : 'en-US')}
                         </span>
                         {mem.source && mem.source !== 'saule-terminal' && mem.source !== 'system_auto' && (
                           <span className="text-[10px] text-charcoal-muted/70 flex items-center gap-1 ml-2">

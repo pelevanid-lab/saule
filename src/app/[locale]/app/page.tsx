@@ -25,8 +25,6 @@ export default async function AppPage({
   const dict = await getDictionary(locale);
 
   return (
-    <RequireAuth dict={dict.auth}>
-      <AppContainer dict={dict} locale={locale} />
-    </RequireAuth>
+    <AppContainer dict={dict} locale={locale} />
   );
 }

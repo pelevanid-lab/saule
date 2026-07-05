@@ -28,7 +28,7 @@
   },
   "header": {
     "logo": "Saule",
-    "badge": "Saule White Paper v1.0",
+    "badge": "Saule White Paper v2.0",
     "nav_home": "首页",
     "nav_book": "白皮书",
     "nav_access": "早期体验"
@@ -46,7 +46,7 @@
     "success_desc": "感谢订阅。首个交互实验区准备就绪后，我们会与你联系。"
   },
   "dashboard": {
-    "title": "Saule White Paper v1.0",
+    "title": "Saule White Paper v2.0",
     "subtitle": "语义记忆层 (SML)",
     "living_book_badge": "白皮书",
     "status_label": "当前状态",
@@ -102,7 +102,7 @@
   },
   "volumes": {
     "v1": {
-      "title": "Saule White Paper v1.0",
+      "title": "Saule White Paper v2.0",
       "purpose": "个人、团队与机构的生长记忆",
       "intro_paragraphs": [
         "> 在人工智能时代，记忆的丧失是一场无声的危机；记忆应归其所有者所有。",
@@ -124,31 +124,31 @@
     }
   },
   "access_page": {
-    "title": "Saule 早期访问",
-    "subtitle": "应用程序目前正在通过邀请访问模式开发。",
-    "why_title": "为何采用邀请访问模式？",
-    "why_text": "Saule 触及个人记忆、注意力、决策、人际关系和精神负担等敏感领域。因此，在早期阶段，将采用受控的申请和邀请模式，而不是开放注册。",
-    "process_title": "流程",
-    "process_item1": "阅读白皮书",
-    "process_item2": "填写早期访问申请表",
-    "process_item3": "申请已评估",
-    "process_item4": "如获批准，将发送邀请链接",
-    "process_item5": "您将参与反馈流程",
-    "expectations_title": "期望",
-    "expectations_item1": "Saule 并非临床支持",
-    "expectations_item2": "Saule 不提供诊断或治疗",
-    "expectations_item3": "Saule 是一个早期产品",
-    "expectations_item4": "期望参与者提供诚实反馈",
-    "expectations_item5": "用户数据和隐私边界是优先事项",
-    "form_name": "姓名",
-    "form_email": "电子邮件",
-    "form_reason": "您为何想尝试 Saule？",
-    "form_struggle": "您在哪方面遇到的困难最多？",
-    "form_takeaway": "您能写下从白皮书中获得的一个启示或一句话吗？",
-    "form_feedback": "您是否乐于提供反馈？",
-    "form_consent": "我理解 Saule 并非临床支持",
-    "form_submit": "请求早期访问",
-    "form_submit_disabled": "表单提交即将开放"
+    "title": "开发者预览与早期访问",
+    "subtitle": "获取对本地语义内存层（SML）引擎和 Beiwe Clarity 浏览器扩展的早期访问权限。",
+    "why_title": "为什么进行开发者预览？",
+    "why_text": "Saule Core 是一个本地优先、无界面的语义引擎。我们在公开推出前，首先限制访问范围为开发者和技术用户，以便收集有关语义内存接口（SMI）API 和数据库优化的反馈。",
+    "process_title": "开始使用",
+    "process_item1": "查阅 White Paper v2.0 以了解架构规格。",
+    "process_item2": "在下方提交您的开发者个人资料和电子邮件。",
+    "process_item3": "接收本地安装包（npm/SQLite）和 Beiwe 扩展工件。",
+    "process_item4": "在本地设备的 4000 端口上运行微服务。",
+    "process_item5": "对 SMI API 契约和性能提供反馈。",
+    "expectations_title": "技术要求与条件",
+    "expectations_item1": "Saule 在您的机器上 100% 本地运行。",
+    "expectations_item2": "需要 Node.js 18+ 和 SQLite 环境。",
+    "expectations_item3": "本地服务器在离线状态下执行 ONNX 向量计算。",
+    "expectations_item4": "您将测试与 Beiwe 浏览器扩展的集成。",
+    "expectations_item5": "隐私是绝对的：任何密钥或数据都不会离开您的磁盘。",
+    "form_name": "姓名 / 用户名",
+    "form_email": "开发者电子邮件",
+    "form_reason": "您使用本地语义内存层的主要场景是什么？",
+    "form_struggle": "您偏好的开发环境是什么（操作系统/Node 版本）？",
+    "form_takeaway": "您对哪个 SMI API 端点（/ingest、/recall、/clarity）最感兴趣？",
+    "form_feedback": "您愿意提交 API 日志或错误报告吗？",
+    "form_consent": "我理解 Saule Core 是一个本地优先的开发者预览版。",
+    "form_submit": "申请 SDK 访问权限",
+    "form_submit_disabled": "开发者访问表单即将开放"
   },
   "home_page": {
     "hero_title": "Saule",

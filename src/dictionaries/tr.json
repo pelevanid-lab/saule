@@ -28,7 +28,7 @@
   },
   "header": {
     "logo": "Saule",
-    "badge": "Saule White Paper v1.0",
+    "badge": "Saule White Paper v2.0",
     "nav_home": "Ana Sayfa",
     "nav_book": "White Paper",
     "nav_access": "Erken Erişim"
@@ -46,7 +46,7 @@
     "success_desc": "Abone olduğunuz için teşekkürler. İlk etkileşimli deneme sürümü hazır olduğunda sizinle iletişime geçeceğiz."
   },
   "dashboard": {
-    "title": "Saule White Paper v1.0",
+    "title": "Saule White Paper v2.0",
     "subtitle": "Anlamsal Bellek Katmanı (SML)",
     "living_book_badge": "White Paper",
     "status_label": "Mevcut Durum",
@@ -102,7 +102,7 @@
   },
   "volumes": {
     "v1": {
-      "title": "Saule White Paper v1.0",
+      "title": "Saule White Paper v2.0",
       "purpose": "İnsanlar, Ekipler ve Kurumlar İçin Yaşayan Bir Hafıza",
       "intro_paragraphs": [
         "> Yapay zekâ çağında hafızanın kaybı sessiz bir krizdir; hafıza sahibine ait olmalıdır.",
@@ -124,31 +124,31 @@
     }
   },
   "access_page": {
-    "title": "Saule Erken Erişim",
-    "subtitle": "Uygulama şu anda davetli erişim modeliyle geliştirilmektedir.",
-    "why_title": "Neden Davetli Erişim?",
-    "why_text": "Saule kişisel bellek, dikkat, kararlar, ilişkiler ve zihinsel yük gibi hassas alanlara temas eder. Bu nedenle erken aşamada herkese açık kayıt yerine kontrollü başvuru ve davet modeli kullanılacaktır.",
-    "process_title": "Süreç",
-    "process_item1": "White Paper'ı oku",
-    "process_item2": "Erken erişim formunu doldur",
-    "process_item3": "Başvuru değerlendirilir",
-    "process_item4": "Uygun görülürse davet bağlantısı gönderilir",
-    "process_item5": "Geri bildirim sürecine katılırsın",
-    "expectations_title": "Beklentiler",
-    "expectations_item1": "Saule klinik destek değildir",
-    "expectations_item2": "Saule teşhis veya tedavi sunmaz",
-    "expectations_item3": "Saule erken aşama bir üründür",
-    "expectations_item4": "Katılımcılardan dürüst geri bildirim beklenir",
-    "expectations_item5": "Kullanıcı verisi ve mahremiyet sınırları önceliklidir",
-    "form_name": "İsim",
-    "form_email": "E-posta",
-    "form_reason": "Saule’ni neden denemek istiyorsun?",
-    "form_struggle": "En çok hangi alanda zorlanıyorsun?",
-    "form_takeaway": "White Paper'dan aklınızda kalan bir çıkarım ya da bir cümle yazabilir misin?",
-    "form_feedback": "Geri bildirim vermeye açık mısın?",
-    "form_consent": "Saule’nin klinik destek olmadığını anlıyorum",
-    "form_submit": "Erken Erişim Talep Et",
-    "form_submit_disabled": "Form Gönderimi Yakında Açılacak"
+    "title": "Saule Geliştirici Ön İzleme ve Erken Erişim",
+    "subtitle": "Lokal çalışan Anlamsal Bellek Katmanı (SML) çekirdeğine ve Beiwe Bilişsel Tarayıcı eklentisine erken erişim sağlayın.",
+    "why_title": "Neden Geliştirici Ön İzlemesi?",
+    "why_text": "Saule Core, yerel-öncelikli ve arayüzsüz bir anlamsal bellek motorudur. Genel kullanıma açılmadan önce, veri tabanı optimizasyonları ve SMI API uç noktaları hakkında geri bildirim toplamak amacıyla ilk aşamada erişimi geliştiricilere ve teknik kullanıcılara sınırlandırıyoruz.",
+    "process_title": "Başlangıç Adımları",
+    "process_item1": "Mimari standartlar için White Paper v2.0 sürümünü inceleyin.",
+    "process_item2": "Geliştirici profilinizi ve e-posta adresinizi aşağıya girin.",
+    "process_item3": "Yerel kurulum paketini (npm/SQLite) ve Beiwe eklentisini edinin.",
+    "process_item4": "API sunucusunu yerel cihazınızda 4000 portunda çalıştırın.",
+    "process_item5": "SMI API sözleşmeleri ve performansı hakkında geri bildirimlerinizi iletin.",
+    "expectations_title": "Teknik Gereksinimler ve Koşullar",
+    "expectations_item1": "Saule tamamen yerel cihazınızda çalışır.",
+    "expectations_item2": "Node.js 18+ ve SQLite ortamına ihtiyaç duyar.",
+    "expectations_item3": "Yerel sunucu ONNX vektör hesaplamalarını çevrimdışı yürütür.",
+    "expectations_item4": "Beiwe tarayıcı eklentisiyle entegrasyonu test edeceksiniz.",
+    "expectations_item5": "Gizlilik mutlaktır: Verileriniz veya anahtarlarınız asla diskinizden dışarı çıkmaz.",
+    "form_name": "İsim / Kullanıcı Adı",
+    "form_email": "Geliştirici E-Postası",
+    "form_reason": "Yerel bir Anlamsal Bellek Katmanı için temel kullanım senaryonuz nedir?",
+    "form_struggle": "Tercih ettiğiniz geliştirme ortamı nedir (İşletim Sistemi / Node sürümü)?",
+    "form_takeaway": "En çok hangi SMI API uç noktasıyla (/ingest, /recall, /clarity) ilgileniyorsunuz?",
+    "form_feedback": "Hata raporları veya API geri bildirimleri paylaşmaya açık mısınız?",
+    "form_consent": "Saule Core'un yerel-öncelikli bir geliştirici ön izleme sürümü olduğunu anlıyorum.",
+    "form_submit": "SDK Erişimi Talep Et",
+    "form_submit_disabled": "Geliştirici Erişim Formu Yakında Açılacak"
   },
   "home_page": {
     "hero_title": "Saule",

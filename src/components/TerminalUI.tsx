@@ -1,9 +1,6 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
-import { useAuth } from '@/components/auth/AuthProvider';
-import { db } from '@/lib/firebase';
-import { collection, query, where, orderBy, onSnapshot } from 'firebase/firestore';
 
 interface Message {
   id: string;
@@ -15,24 +12,73 @@ interface Message {
 export type ProviderType = 'gemini' | 'claude' | 'openai';
 
 export default function TerminalUI({ dict, locale, workspaceId }: { dict: any; locale: string; workspaceId: string }) {
-  const { user } = useAuth();
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState('');
   const [isSending, setIsSending] = useState(false);
   const [selectedProvider, setSelectedProvider] = useState<ProviderType>('gemini');
   const [activePackageId, setActivePackageId] = useState<string>('');
-  const [autonomicMode, setAutonomicMode] = useState(false);
-  const [isRecording, setIsRecording] = useState(false);
   const [showEmbedModal, setShowEmbedModal] = useState(false);
   const [showExtensionModal, setShowExtensionModal] = useState(false);
+  const [serverStatus, setServerStatus] = useState<'connected' | 'offline'>('offline');
+  const [isActionPending, setIsActionPending] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
+
+  const handleStartServer = async () => {
+    setIsActionPending(true);
+    try {
+      await fetch('/api/sml', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'start' }),
+      });
+      // Wait a bit for server to spin up, status polling will catch it
+      setTimeout(() => setIsActionPending(false), 3000);
+    } catch (e) {
+      console.error(e);
+      setIsActionPending(false);
+    }
+  };
+
+  const handleStopServer = async () => {
+    setIsActionPending(true);
+    try {
+      await fetch('/api/sml', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'stop' }),
+      });
+      setIsActionPending(false);
+      setServerStatus('offline');
+    } catch (e) {
+      console.error(e);
+      setIsActionPending(false);
+    }
+  };
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [messages]);
 
+  useEffect(() => {
+    const checkServer = async () => {
+      try {
+        const res = await fetch('http://localhost:4000/api/smi/nodes', { method: 'GET' }).catch(() => null);
+        if (res && res.ok) {
+          setServerStatus('connected');
+        } else {
+          setServerStatus('offline');
+        }
+      } catch (e) {
+        setServerStatus('offline');
+      }
+    };
+    checkServer();
+    const interval = setInterval(checkServer, 5000);
+    return () => clearInterval(interval);
+  }, []);
+
   const handleSend = async () => {
-    if (!input.trim() || !user || isSending) return;
+    if (!input.trim() || isSending) return;
 
     const textToSend = input.trim();
     
@@ -51,7 +97,7 @@ export default function TerminalUI({ dict, locale, workspaceId }: { dict: any; l
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ 
-          uid: user.uid, 
+          uid: 'local-dev', 
           text: textToSend, 
           sessionHistory,
           locale, 
@@ -103,11 +149,29 @@ export default function TerminalUI({ dict, locale, workspaceId }: { dict: any; l
           <h2 className="text-lg font-semibold text-charcoal flex items-center gap-2">
             SML Headquarters
           </h2>
-          {user && (
-            <div className="text-[10px] text-charcoal-muted mt-1 flex items-center gap-1">
-              Extension Bağlantı Kodu (Token): <span className="font-mono bg-sand-200 px-1 py-0.5 rounded select-all">{user.uid}</span>
-            </div>
-          )}
+          <div className="text-[10px] text-charcoal-muted mt-1 flex items-center gap-2">
+            Yerel SML Sunucusu:
+            <span className={`inline-block w-2 h-2 rounded-full ${serverStatus === 'connected' ? 'bg-emerald-500 animate-pulse' : 'bg-rose-500'}`} />
+            <span className="font-mono bg-sand-200 px-1 py-0.5 rounded">http://localhost:4000</span>
+            
+            {serverStatus === 'offline' ? (
+              <button
+                disabled={isActionPending}
+                onClick={handleStartServer}
+                className="bg-emerald-600 hover:bg-emerald-700 text-white font-sans text-[9px] font-bold px-2 py-0.5 rounded transition-colors disabled:opacity-50 cursor-pointer"
+              >
+                {isActionPending ? 'Başlatılıyor...' : 'Başlat'}
+              </button>
+            ) : (
+              <button
+                disabled={isActionPending}
+                onClick={handleStopServer}
+                className="bg-rose-600 hover:bg-rose-700 text-white font-sans text-[9px] font-bold px-2 py-0.5 rounded transition-colors disabled:opacity-50 cursor-pointer"
+              >
+                {isActionPending ? 'Durduruluyor...' : 'Durdur'}
+              </button>
+            )}
+          </div>
         </div>
         <div className="flex items-center space-x-6 text-sm text-charcoal">
           {/* CRM Integration Button (Only visible if a specific workspace is selected) */}
@@ -128,48 +192,16 @@ export default function TerminalUI({ dict, locale, workspaceId }: { dict: any; l
               id="ai-provider"
               value={selectedProvider}
               onChange={(e) => setSelectedProvider(e.target.value as ProviderType)}
-              className="bg-white border border-sand-300 rounded px-2 py-1 focus:outline-none focus:ring-1 focus:ring-sage cursor-pointer"
+              className="bg-white border border-sand-300 rounded px-2 py-1 focus:outline-none focus:ring-1 focus:ring-sage cursor-pointer mr-2"
             >
               <option value="gemini">Gemini 2.5 Flash</option>
               <option value="claude">Claude 3.5 Sonnet</option>
               <option value="openai">OpenAI GPT-4o (Coming)</option>
             </select>
-
-            {/* SML Mode and Recording Indicator */}
-            <div className="flex items-center space-x-3 border-l border-sand-300 pl-4">
-              <span className="flex items-center gap-1.5 text-xs font-semibold text-charcoal">
-                <span className={`w-2.5 h-2.5 rounded-full ${isRecording ? 'bg-emerald-500 animate-pulse' : 'bg-gray-400'}`} />
-                {isRecording ? 'Kayıt Aktif' : 'Gözlem Standby'}
-              </span>
-
-              <select
-                value={autonomicMode ? 'autonomic' : 'interactive'}
-                onChange={(e) => {
-                  const mode = e.target.value === 'autonomic';
-                  setAutonomicMode(mode);
-                  if (!mode) setIsRecording(false); // Force stop recording if interactive selected
-                }}
-                className="bg-white border border-sand-300 rounded text-xs px-2 py-1 focus:outline-none focus:ring-1 focus:ring-sage cursor-pointer"
-              >
-                <option value="interactive">Etkileşimli Mod (Conscious)</option>
-                <option value="autonomic">Otonom Mod (Subconscious)</option>
-              </select>
-
-              <button
-                onClick={() => setIsRecording(!isRecording)}
-                className={`text-xs font-bold px-3 py-1.5 rounded transition-all shadow-sm ${
-                  isRecording 
-                    ? 'bg-red-500 hover:bg-red-600 text-white' 
-                    : 'bg-sage-dark hover:bg-sage text-white'
-                }`}
-              >
-                {isRecording ? '🛑 Kaydı Durdur' : '⏺️ Kaydı Başlat'}
-              </button>
-            </div>
             
             <button 
               onClick={() => setShowExtensionModal(true)}
-              className="ml-4 bg-sand-200 hover:bg-sand-300 text-charcoal text-xs font-bold px-3 py-1.5 rounded transition-colors shadow-sm flex items-center gap-1"
+              className="bg-sand-200 hover:bg-sand-300 text-charcoal text-xs font-bold px-3 py-1.5 rounded transition-colors shadow-sm flex items-center gap-1 ml-2"
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
               {locale === 'tr' ? "Beiwe'yi İndir" : "Download Beiwe"}

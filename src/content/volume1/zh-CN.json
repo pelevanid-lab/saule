@@ -578,6 +578,12 @@
             ]
           },
           {
+            "heading": "技术实现：关系-图混合及E2EE",
+            "paragraphs": [
+              "在实践中，Saule将该图模型转换为使用SQLite（better-sqlite3）的优化关系-图混合数据库。该数据库使用四个主要表：nodes（存储密文和衰减参数）、embeddings（映射稠密本地向量）、edges（带有置信度权重的图连接）以及provenance（捕获环境元数据）。通过应用层对称AES-256-GCM信封加密实施绝对零知识（zero-knowledge）隐私保护，在写入磁盘前在本地保护所有认知项和推理细节。"
+            ]
+          },
+          {
             "heading": "架构的门槛",
             "paragraphs": [
               "这些对应关系构成了Saule的技术骨干。在下一部分（第三部分）中，我们将详细探讨这些理论桥梁如何在代码层面建立，包括从语义摄取（ingestion）过程，到语义溯源图（Semantic Provenance Graph）数据模型，再到动态编排，以及隐私和本地设备运行的悖论等所有工程细节。Saule是一种将人类心智的优雅与软件的严谨相结合的架构。"
@@ -739,6 +745,12 @@
               "2. 提取得分最高的节点周围的关系图（溯源子图）。",
               "3. 对节点的时戳进行按时间顺序排列，以防止上下文漂移（context drift）。",
               "4. 根据主动遗忘分数，剔除权重降低的节点，并根据模型的限制打包最清晰的上下文（上下文组合）。"
+            ]
+          },
+          {
+            "heading": "零延迟预热与净度数学",
+            "paragraphs": [
+              "为了消除本地ONNX推理期间的模型冷启动，Saule在启动时执行预热阶段，将模型权重加载到内存中。然后，检索引擎利用余弦相似度来计算用户个人上下文与集体空间之间的净度得分（Clarity Score - 语义对齐指数）。形式上，净度得分定义为个人和集体向量投影的点积除以它们模的乘积：Clarity = (V_ind · V_col) / (||V_ind|| ||V_col||) * 100%，从而给出精确的共识得分。"
             ]
           },
           {
@@ -1063,7 +1075,7 @@
             "heading": "认知隐私悖论与本地/集体 E2EE 解决方案",
             "paragraphs": [
               "记忆在本地设备安全存储并在协作工作区中保持防泄漏，通过以下技术架构解决：",
-              "• 本地数据安全: 本地设备上的 SQLite 数据库使用从用户主密码派生（PBKDF2）的密钥，通过 AES-256-GCM (sqlcipher) 在本地进行加密存储。这样，设备上的其他应用程序无法访问 Saule 的记忆图谱和嵌入数据。",
+              "• 本地数据安全：本地SQLite数据库通过在应用层使用本地派生的密钥进行AES-256-GCM信封加密来保护，提供了高度可移植性和无泄漏存储。未经授权的本地应用程序无法访问Saule的数据文件。",
               "• 集体/协作工作区同步（零知识 P2P 密钥交换 Zero-Knowledge P2P Key Exchange）: 在多个用户共享一个图谱（工作区记忆 Workspace Memory）的情况下，使用非对称加密（ECDH/RSA）。加入工作区的成员之间通过点对点（P2P，端到端 E2EE）方式共享一个工作区对称加密密钥。写入共享图谱的每个 Yjs/CRDT 数据包在本地用此共享密钥加密，并以密文（cipher-text）形式发送到云端。云服务器不拥有解密密钥；它仅负责转发（relay）加密包，从而维护零知识隐私模型。"
             ]
           },
@@ -1093,6 +1105,12 @@
               "• 阶段 2: 扩展观察与上下文融合引擎（Extended Observation & Context Fusion Engine）— 剪贴板、选择、Git 分支和屏幕读取（辅助功能树 Accessibility Tree）收集器，通过上下文融合计算优先级，后台运行的整合（Consolidation）和算法衰减（decay）引擎。",
               "• 阶段 3: 操作系统浮动岛（Floating Desktop Island UI）— 悬停在所有窗口之上的透明浮动岛小部件，Alt+Space SML 终端 HQ 界面，基于用户批准的行动自动化引擎。",
               "• 阶段 4: 移动集成和语音情景笔记（Mobile Integration & Voice Episodic Notes）— 通过 React Native 移动客户端访问本地音频硬件，使用本地 Whisper 模型分析录音并与桌面图谱同步。"
+            ]
+          },
+          {
+            "heading": "标准化 REST API 接口 (SMI)",
+            "paragraphs": [
+              "Saule Core 提供了一个在端口 4000 上运行的本地 REST API 微服务，以标准化客户端集成（如 Beiwe 浏览器扩展）。它提供以下端点：/api/smi/ingest（使用本地元数据持久化内存节点）、/api/smi/recall（在个人空间和社区空间中执行细分上下文检索）、/api/smi/clarity（通过余弦相似度评估语义对齐和共识）以及 /api/smi/verified-solutions（根据上下文约束过滤品牌目录匹配）。"
             ]
           },
           {

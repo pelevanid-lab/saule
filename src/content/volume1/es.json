@@ -578,6 +578,12 @@
             ]
           },
           {
+            "heading": "Realización Técnica: Híbrido Relación-Grafo y E2EE",
+            "paragraphs": [
+              "En la práctica, Saule traduce este modelo de grafo en una base de datos híbrida de relación-grafo optimizada mediante SQLite (better-sqlite3). La base de datos utiliza cuatro tablas principales: nodes (que almacena texto cifrado y parámetros de decaimiento), embeddings (que mapea vectores locales densos), edges (conexiones de grafo con pesos de confianza) y provenance (que captura metadatos ambientales). Se aplica privacidad absoluta de conocimiento cero (zero-knowledge) mediante el cifrado de sobre simétrico AES-256-GCM a nivel de aplicación, protegiendo todos los elementos cognitivos y detalles de razonamiento de forma local antes de escribir en disco."
+            ]
+          },
+          {
             "heading": "En el Umbral de la Arquitectura",
             "paragraphs": [
               "Estos mapeos forman la columna vertebral técnica de Saule. En la próxima sección (Parte III), examinaremos cómo se establecen estos puentes teóricos a nivel de código; con todos los detalles de ingeniería, desde los procesos de ingesta semántica (ingestion), el modelo de datos del Grafo de Procedencia Semántica (Semantic Provenance Graph), la orquestación dinámica, hasta las paradojas de la privacidad y la ejecución en dispositivos locales. Saule es una arquitectura que combina la elegancia de la mente humana con la disciplina del software."
@@ -739,6 +745,12 @@
               "2. Extrae el grafo relacional (sub-grafo de procedencia) alrededor de los nodos con la puntuación más alta.",
               "3. Ordena cronológicamente las marcas de tiempo de los nodos para evitar la deriva del contexto (context drift).",
               "4. Empaqueta el contexto más limpio (context composition), eliminando los nodos cuyo peso ha disminuido según la puntuación de olvido activo, de acuerdo con los límites del modelo."
+            ]
+          },
+          {
+            "heading": "Calentamiento de Latencia Cero y Matemáticas de Claridad",
+            "paragraphs": [
+              "Para eliminar los arranques en frío (cold-starts) del modelo durante la inferencia local de ONNX, Saule ejecuta una fase de calentamiento al inicio para cargar los pesos del modelo en la memoria. El motor de recuperación utiliza la similitud de coseno para calcular la puntuación de claridad (Clarity Score - índice de alineación semántica) entre el contexto individual del usuario y el espacio colectivo. Formalmente, la puntuación de claridad se define como el producto escalar de las proyecciones vectoriales individuales y colectivas dividido por el producto de sus magnitudes: Clarity = (V_ind · V_col) / (||V_ind|| ||V_col||) * 100%, lo que proporciona una puntuación de consenso precisa."
             ]
           },
           {
@@ -931,7 +943,7 @@
           {
             "heading": "Declaración Final",
             "paragraphs": [
-              "El White Paper v1.0 de Saule no es solo un documento de arquitectura tecnológica; es la determinación de proteger la soberanía del ser humano sobre su propia existencia digital, sus límites de atención y su propiedad intelectual. La inteligencia es general y se está mercantilizando rápidamente; pero lo que nos hace quienes somos, lo que hace únicas nuestras decisiones, es nuestra memoria. Saule está aquí para devolver esa memoria a su dueño y para hacer que la mente humana sea absolutamente soberana en el mundo cognitivo del futuro. La inteligencia puede cambiar. La memoria es permanente."
+              "El White Paper v2.0 de Saule no es solo un documento de arquitectura tecnológica; es la determinación de proteger la soberanía del ser humano sobre su propia existencia digital, sus límites de atención y su propiedad intelectual. La inteligencia es general y se está mercantilizando rápidamente; pero lo que nos hace quienes somos, lo que hace únicas nuestras decisiones, es nuestra memoria. Saule está aquí para devolver esa memoria a su dueño y para hacer que la mente humana sea absolutamente soberana en el mundo cognitivo del futuro. La inteligencia puede cambiar. La memoria es permanente."
             ]
           }
         ],
@@ -1063,7 +1075,7 @@
             "heading": "Paradoja de la Privacidad Cognitiva y Solución E2EE Local/Colectiva",
             "paragraphs": [
               "El almacenamiento seguro de la memoria en el dispositivo local y su impermeabilidad en los espacios de trabajo colaborativos se ha resuelto con la siguiente arquitectura técnica:",
-              "• Seguridad de Datos Local: La base de datos SQLite en el dispositivo local se mantiene cifrada localmente con AES-256-GCM (sqlcipher) usando una clave derivada (PBKDF2) de la contraseña maestra del usuario. De esta manera, otras aplicaciones en el dispositivo no pueden acceder al grafo de memoria ni a los datos de embedding de Saule.",
+              "• Seguridad de Datos Local: La base de datos SQLite en el dispositivo local se protege mediante el cifrado de sobre AES-256-GCM a nivel de aplicación con una clave derivada localmente, proporcionando alta portabilidad y almacenamiento sin fugas. Las aplicaciones locales no autorizadas no pueden acceder a los archivos de datos de Saule.",
               "• Sincronización del Espacio de Trabajo Colaborativo/Colectivo (Intercambio de Claves P2P de Conocimiento Cero): En situaciones donde múltiples usuarios comparten un grafo común (Memoria del Espacio de Trabajo), se utiliza Cifrado Asimétrico (ECDH/RSA). Los miembros incluidos en el espacio de trabajo comparten una Clave de Cifrado Simétrica del Espacio de Trabajo entre ellos de forma peer-to-peer (de extremo a extremo). Cada paquete de datos Yjs/CRDT escrito en el grafo compartido se cifra localmente con esta clave común y se envía a la nube como texto cifrado (cipher-text). El servidor en la nube no posee la clave de descifrado; solo se encarga de la retransmisión (relay) de los paquetes cifrados, manteniendo el modelo de privacidad de Conocimiento Cero."
             ]
           },
@@ -1093,6 +1105,18 @@
               "• Fase 2: Motor de Observación Extendida y Fusión de Contexto — Recolectores de Portapapeles, Selección, Rama de Git y lectura de pantalla (Accessibility Tree), cálculo de prioridad con Fusión de Contexto, motor de Consolidación y decaimiento algorítmico (decay) ejecutándose en segundo plano.",
               "• Fase 3: Isla Flotante del Sistema Operativo (Floating Desktop Island UI) — Widget de isla flotante transparente que puede permanecer sobre todas las ventanas, interfaz Alt+Space SML Terminal HQ, motor de automatización de acciones basado en la aprobación del usuario.",
               "• Fase 4: Integración Móvil y Notas Episódicas de Voz — Acceso al hardware de audio local con el cliente móvil React Native, análisis de grabaciones de voz con el modelo Whisper local y sincronización con el grafo de escritorio."
+            ]
+          },
+          {
+            "heading": "Interfaz REST API Estandarizada (SMI)",
+            "paragraphs": [
+              "Saule Core expone un microservicio local de REST API en el puerto 4000 para estandarizar las integraciones de clientes (como la extensión de navegador Beiwe). Proporciona los siguientes puntos finales: /api/smi/ingest (guarda nodos de memoria con metadatos locales), /api/smi/recall (realiza recuperación de contexto segmentada en espacios personales y comunitarios), /api/smi/clarity (evalúa la alineación semántica y el consenso mediante similitud de coseno) y /api/smi/verified-solutions (filtra las coincidencias del catálogo de marcas según restricciones de contexto)."
+            ]
+          },
+          {
+            "heading": "Interfaz REST API Estandarizada (SMI)",
+            "paragraphs": [
+              "Saule Core expone un microservicio local de REST API en el puerto 4000 para estandarizar las integraciones de clientes (como la extensión de navegador Beiwe). Proporciona los siguientes puntos finales: /api/smi/ingest (guarda nodos de memoria con metadatos locales), /api/smi/recall (realiza recuperación de contexto segmentada en espacios personales y comunitarios), /api/smi/clarity (evalúa la alineación semántica y el consenso mediante similitud de coseno) y /api/smi/verified-solutions (filtra las coincidencias del catálogo de marcas según restricciones de contexto)."
             ]
           },
           {

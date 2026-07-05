@@ -839,7 +839,7 @@
           {
             "heading": "Kapanış Deklarasyonu",
             "paragraphs": [
-              "Saule White Paper v1.0, sadece bir teknoloji mimarisinin belgesi değil; insanın kendi dijital varlığı, dikkat sınırları ve zihinsel mülkiyeti üzerindeki egemenliğini koruma kararlılığıdır. Zekâ geneldir ve hızla emtialaşmaktadır; fakat bizi biz yapan, kararlarımızı biricik kılan şey hafızamızdır. Saule, bu hafızayı sahibine iade etmek ve insan zihnini geleceğin bilişsel dünyasında mutlak egemen kılmak için buradadır. Zekâ değişebilir. Hafıza kalıcıdır."
+              "Saule White Paper v2.0, sadece bir teknoloji mimarisinin belgesi değil; insanın kendi dijital varlığı, dikkat sınırları ve zihinsel mülkiyeti üzerindeki egemenliğini koruma kararlılığıdır. Zekâ geneldir ve hızla emtialaşmaktadır; fakat bizi biz yapan, kararlarımızı biricik kılan şey hafızamızdır. Saule, bu hafızayı sahibine iade etmek ve insan zihnini geleceğin bilişsel dünyasında mutlak egemen kılmak için buradadır. Zekâ değişebilir. Hafıza kalıcıdır."
             ]
           }
         ],
@@ -897,39 +897,6 @@
               "> Bireysel bellekten kurumsal transaktif belleğe uzanan yol haritası, anlamsal ağ etkileri (semantic network effects) üzerinden kalıcı bir pazar değeri üretir.",
               "Saule'nin vizyonu, tek bir asistan arayüzünden tüm internet bilişim altyapısına uzanan 4 fazlı bir büyüme planıdır:",
               "• Faz 1: Bireysel Bellek Motoru (Personal SML - MVP) — Beiwe Bilişsel Tarayıcısı entegrasyonu (İlk sürümde Saule'nin aktif hafıza ve arka plan gözlem yetenekleri yalnızca Beiwe tarayıcısı içinde çalışacak şekilde sınırlandırılmıştır) ve Terminal UI ile kullanıcının anlık niyetlerini ve tarayıcı bağlamını toplayan, yerel şifrelenmiş bellek motoru.",
-              "• Faz 2: Çalışma Alanı Belleği (Workspace SML) — Ekipler için Slack, Notion, GitHub entegrasyonlarıyla transaktif bellek altyapısının kurulması ve kurumsal amnezinin engellenmesi.",
-              "• Faz 3: Açık Protokol (Open Memory Protocol - OMP) — Farklı uygulamaların ve otonom ajanların Saule ile standart API'ler üzerinden konuşmasını sağlayan protokolün yayınlanması.",
-              "• Faz 4: Anlamsal İşletim Sistemi (Semantic OS) — Donanım ve bulut katmanlarının üzerinde, doğrudan insan bilişiyle uyumlu çalışan yeni nesil bir işletim sistemi katmanının kuruluşu."
-            ]
-          },
-          {
-            "heading": "İş Modeli ve Gelir Akışları",
-            "paragraphs": [
-              "Saule, açık kaynaklı çekirdek (open-core) ve SaaS abonelik modeliyle ticarileşir:",
-              "• Saule Community (Açık Kaynak): Bireysel geliştiriciler ve lokal cihazda çalıştırmak isteyen kullanıcılar için tamamen ücretsiz, yerel bellek motoru.",
-              "• Saule Professional: Gelişmiş senkronizasyon, bulut yedekleme ve API erişimi isteyen profesyoneller için aylık abonelik modeli.",
-              "• Saule Enterprise: Şirketler için izole bellek alanları (Memory Isolation), transaktif bellek grafiği, gelişmiş rol yetkilendirmeleri ve özel E2EE senkronizasyon altyapısı sunan kurumsal lisanslama modeli. Kurumsal amneziyi engelleyerek tekerleğin yeniden icat edilmesini önlemek, enterprise segmenti için en büyük yatırım getirisi (ROI) kaynağıdır."
-            ]
-          }
-        ],
-        "open_questions": [],
-        "design_decisions": [],
-        "future_evolution": "",
-        "references": []
-      }
-    },
-    "technical-roadmap": {
-      "title": "Ek C: Teknik Yol Haritası ve Bilişsel Mimari",
-      "purpose": "Saule SML katmanının 6 katmanlı teknik mimarisini, veri tabanı şemasını ve 4 fazlı yol haritasını detaylandırmak.",
-      "key_question": "Saule SML mimarisi teknik olarak nasıl yapılandırılmış ve fazlar halinde nasıl uygulanmıştır?",
-      "draft": {
-        "sections": [
-          {
-            "heading": "MVP'den Bilişsel İşletim Sistemine Yol Haritası",
-            "paragraphs": [
-              "> Bireysel bellekten kurumsal transaktif belleğe uzanan yol haritası, anlamsal ağ etkileri (semantic network effects) üzerinden kalıcı bir pazar değeri üretir.",
-              "Saule'nin vizyonu, tek bir asistan arayüzünden tüm internet bilişim altyapısına uzanan 4 fazlı bir büyüme planıdır:",
-              "• Faz 1: Bireysel Bellek Motoru ve Yerel Çekirdek (Personal SML & Local Core) — Beiwe Tarayıcısı entegrasyonu (İlk sürümde Saule'nin aktif hafıza ve arka plan gözlem yetenekleri yalnızca Beiwe Bilişsel Tarayıcı içinde çalışacak şekilde sınırlandırılmıştır) ve Terminal UI (gözlem), yerel SQLite veritabanı (depolama) ve yerel embedding/küçük LLM (anlamsal işlem) entegrasyonu.",
               "• Faz 2: Çalışma Alanı Belleği (Workspace SML) — Ekipler için Slack, Notion, GitHub entegrasyonlarıyla transaktif bellek altyapısının kurulması ve kurumsal amnezinin engellenmesi.",
               "• Faz 3: Açık Protokol (Open Memory Protocol - OMP) — Farklı uygulamaların ve otonom ajanların Saule ile standart API'ler üzerinden konuşmasını sağlayan protokolün yayınlanması.",
               "• Faz 4: Anlamsal İşletim Sistemi (Semantic OS) — Donanım ve bulut katmanlarının üzerinde, doğrudan insan bilişiyle uyumlu çalışan yeni nesil bir işletim sistemi katmanının kuruluşu."

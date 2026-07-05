@@ -468,6 +468,12 @@
             ]
           },
           {
+            "heading": "Technical Realization: Relational-Graph Hybrid and E2EE",
+            "paragraphs": [
+              "In practice, Saule translates this graph model into an optimized relational-graph hybrid database using SQLite (better-sqlite3). The database uses four primary tables: nodes (storing ciphertext and decay parameters), embeddings (mapping dense local vectors), edges (graph connections with confidence weights), and provenance (capturing environmental metadata). Absolute zero-knowledge privacy is enforced via application-level symmetric AES-256-GCM envelope encryption, securing all cognitive items and reasoning details locally before writing to disk."
+            ]
+          },
+          {
             "heading": "On the Threshold of Architecture",
             "paragraphs": [
               "These mappings form Saule's technical backbone. In the next section (Part III), we will examine how these theoretical bridges are built at the code level; from semantic ingestion processes, to the Semantic Provenance Graph data model, dynamic orchestration, and the paradoxes of privacy and local device execution, covering all engineering details. Saule is an architecture that combines the elegance of the human mind with the discipline of software."
@@ -629,6 +635,12 @@
               "2. Extract the relational graph (provenance sub-graph) around the nodes with the highest scores.",
               "3. Arrange the timestamps of the nodes in chronological order to prevent temporal shift (context drift).",
               "4. Eliminate nodes whose weight has decreased according to the active forgetting score, and package the cleanest context (context composition) in accordance with the model's limits."
+            ]
+          },
+          {
+            "heading": "Zero-Latency Warmup and Clarity Mathematics",
+            "paragraphs": [
+              "To eliminate model cold-starts during local ONNX inference, Saule executes a warmup phase on startup to load model weights into memory. The retrieval engine then utilizes cosine similarity to calculate the Clarity Score (semantic alignment index) between the user's Individual Context and the Collective Space. Formally, Clarity Score is defined as the dot product of individual and collective vector projections divided by the product of their magnitudes: Clarity = (V_ind · V_col) / (||V_ind|| ||V_col||) * 100%, giving a precise consensus score."
             ]
           },
           {
@@ -821,7 +833,7 @@
           {
             "heading": "Closing Declaration",
             "paragraphs": [
-              "Saule White Paper v1.0 is not merely a document of a technology architecture; it is a commitment to preserve human sovereignty over one's digital existence, attention boundaries, and intellectual property. Intelligence is general and is rapidly being commoditized; but what makes us who we are, what makes our decisions unique, is our memory. Saule is here to return this memory to its owner and to make the human mind absolutely sovereign in the cognitive world of the future. Intelligence may change. Memory is permanent."
+              "Saule White Paper v2.0 is not merely a document of a technology architecture; it is a commitment to preserve human sovereignty over one's digital existence, attention boundaries, and intellectual property. Intelligence is general and is rapidly being commoditized; but what makes us who we are, what makes our decisions unique, is our memory. Saule is here to return this memory to its owner and to make the human mind absolutely sovereign in the cognitive world of the future. Intelligence may change. Memory is permanent."
             ]
           }
         ],
@@ -953,7 +965,7 @@
             "heading": "Cognitive Privacy Paradox & Local/Collective E2EE Solution",
             "paragraphs": [
               "Storing memory securely on a local device and maintaining zero-leak shared workspaces is solved via the following cryptographic architecture:",
-              "• Local Device Security: The local SQLite database is encrypted at rest using AES-256-GCM (sqlcipher) with a key derived locally via PBKDF2 from the user's master password (which never leaves the device). Unauthorized local applications cannot access Saule's data files.",
+              "• Local Device Security: The local SQLite database is secured using application-level AES-256-GCM envelope encryption with a key derived locally, providing high portability and zero-leak storage. Unauthorized local applications cannot access Saule's data files.",
               "• Collective/Shared Workspace Sync (Zero-Knowledge P2P Key Exchange): For shared workspaces (Workspace Memory) where multiple users access a common graph, Asymmetric Cryptography (ECDH/RSA) is used. Group members exchange a Workspace Symmetric Encryption Key peer-to-peer (P2P). Every CRDT Yjs state update is encrypted locally with this key before being synced to the cloud. The central cloud server acts as a relay of encrypted bytes and has no decryption keys, preserving the Zero-Knowledge privacy model across group environments."
             ]
           },
@@ -983,6 +995,12 @@
               "• Phase 2: Expanded Observation & Context Fusion — Gathering Clipboard, Selection, Git branch, and Accessibility Tree contexts, computing priority, and launching consolidation decay workers.",
               "• Phase 3: OS Floating Island UI — Transparent desktop overlay widget, Alt+Space SML Terminal HQ interface, and active suggestion automation engine.",
               "• Phase 4: Mobile Integration & Epizodic Voice — React Native mobile client accessing local audio recording, transcribing via local Whisper model, and syncing to the desktop graph."
+            ]
+          },
+          {
+            "heading": "Standardized REST API Interface (SMI)",
+            "paragraphs": [
+              "Saule Core exposes a local REST API microservice running on port 4000 to standardise client integrations (like the Beiwe browser extension). It provides the following endpoints: /api/smi/ingest (persisting memory nodes with local metadata), /api/smi/recall (performing segmented context retrieval across personal and community spaces), /api/smi/clarity (evaluating semantic alignment and consensus via cosine similarity), and /api/smi/verified-solutions (filtering brand catalog matches based on context constraints)."
             ]
           },
           {

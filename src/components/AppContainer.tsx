@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { useAuth } from '@/components/auth/AuthProvider';
 import TerminalUI from './TerminalUI';
 import MemoryHistory from './MemoryHistory';
 
@@ -13,7 +12,6 @@ interface Workspace {
 }
 
 export default function AppContainer({ dict, locale }: { dict: any; locale: string }) {
-  const { user, signOut } = useAuth();
   const [activeTab, setActiveTab] = useState<'terminal' | 'history'>('terminal');
   const [workspaces, setWorkspaces] = useState<Workspace[]>([]);
   const [activeWorkspaceId, setActiveWorkspaceId] = useState<string>('all');
@@ -21,47 +19,46 @@ export default function AppContainer({ dict, locale }: { dict: any; locale: stri
   const [newWsName, setNewWsName] = useState('');
   const [isCreatingWs, setIsCreatingWs] = useState(false);
 
-  // Fetch workspaces
-  const fetchWorkspaces = async () => {
-    if (!user) return;
+  // Fetch workspaces locally
+  const fetchWorkspaces = () => {
     try {
-      const response = await fetch(`/api/workspaces?uid=${user.uid}`);
-      if (response.ok) {
-        const data = await response.json();
-        setWorkspaces(data);
+      const stored = localStorage.getItem('saule_local_workspaces');
+      if (stored) {
+        setWorkspaces(JSON.parse(stored));
+      } else {
+        const defaults = [{ id: 'default', name: 'Default Space', createdAt: Date.now() }];
+        localStorage.setItem('saule_local_workspaces', JSON.stringify(defaults));
+        setWorkspaces(defaults);
       }
     } catch (error) {
-      console.error('Error fetching workspaces:', error);
+      console.error('Error fetching local workspaces:', error);
     }
   };
 
   useEffect(() => {
     fetchWorkspaces();
-  }, [user]);
+  }, []);
 
   const handleCreateWorkspace = async () => {
-    if (!newWsName.trim() || !user || isCreatingWs) return;
+    if (!newWsName.trim() || isCreatingWs) return;
     setIsCreatingWs(true);
 
     try {
-      const response = await fetch('/api/workspaces', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          uid: user.uid,
-          name: newWsName.trim(),
-        }),
-      });
-
-      if (response.ok) {
-        const result = await response.json();
-        setNewWsName('');
-        setShowCreateWs(false);
-        await fetchWorkspaces();
-        setActiveWorkspaceId(result.id); // Switch to the newly created workspace
-      }
+      const newId = newWsName.trim().toLowerCase().replace(/[^a-z0-9]+/g, '-');
+      const newWs: Workspace = {
+        id: newId,
+        name: newWsName.trim(),
+        createdAt: Date.now(),
+      };
+      
+      const updated = [...workspaces, newWs];
+      localStorage.setItem('saule_local_workspaces', JSON.stringify(updated));
+      setWorkspaces(updated);
+      setNewWsName('');
+      setShowCreateWs(false);
+      setActiveWorkspaceId(newId);
     } catch (error) {
-      console.error('Error creating workspace:', error);
+      console.error('Error creating local workspace:', error);
     } finally {
       setIsCreatingWs(false);
     }
@@ -76,32 +73,12 @@ export default function AppContainer({ dict, locale }: { dict: any; locale: stri
           <p className="font-sans text-sm text-charcoal-muted mt-1">{dict.app.subtitle}</p>
         </div>
         
-        {user && (
-          <div className="flex items-center space-x-3 bg-white border border-sand-300/60 p-2 rounded-full shadow-sm">
-            {user.photoURL ? (
-              <img 
-                src={user.photoURL} 
-                alt={user.displayName || 'User'} 
-                className="w-8 h-8 rounded-full border border-sand-300"
-              />
-            ) : (
-              <div className="w-8 h-8 rounded-full bg-sage-dark text-white flex items-center justify-center font-bold text-xs">
-                {user.displayName?.[0] || user.email?.[0] || 'U'}
-              </div>
-            )}
-            <div className="hidden sm:block text-left text-xs font-sans">
-              <p className="font-semibold text-charcoal truncate max-w-[120px]">
-                {user.displayName || user.email?.split('@')[0]}
-              </p>
-            </div>
-            <button
-              onClick={signOut}
-              className="text-xs font-sans text-clay hover:text-red-600 font-bold px-3 py-1 rounded-full hover:bg-sand-50 transition-colors"
-            >
-              {dict.auth.sign_out || 'Çıkış Yap'}
-            </button>
+        <div className="flex items-center space-x-3 bg-white border border-sand-300/60 py-1.5 px-3 rounded-full shadow-sm">
+          <div className="w-5 h-5 rounded-full bg-sage-dark text-white flex items-center justify-center font-bold text-[10px]">
+            L
           </div>
-        )}
+          <span className="text-xs font-sans font-semibold text-charcoal-muted">Local Developer</span>
+        </div>
       </header>
 
       {/* Workspace Selector & Manager */}

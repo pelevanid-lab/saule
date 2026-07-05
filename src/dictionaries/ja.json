@@ -28,7 +28,7 @@
   },
   "header": {
     "logo": "Saule",
-    "badge": "Saule White Paper v1.0",
+    "badge": "Saule White Paper v2.0",
     "nav_home": "ホーム",
     "nav_book": "ホワイトペーパー",
     "nav_access": "早期アクセス"
@@ -46,7 +46,7 @@
     "success_desc": "ありがとうございます。最初の対話型サンドボックスが準備でき次第、ご連絡します。"
   },
   "dashboard": {
-    "title": "Saule White Paper v1.0",
+    "title": "Saule White Paper v2.0",
     "subtitle": "セマンティックメモリレイヤー (SML)",
     "living_book_badge": "ホワイトペーパー",
     "status_label": "現在の状況",
@@ -102,7 +102,7 @@
   },
   "volumes": {
     "v1": {
-      "title": "Saule White Paper v1.0",
+      "title": "Saule White Paper v2.0",
       "purpose": "個人、チーム、組織のための「生きている記憶」",
       "intro_paragraphs": [
         "> AI時代における記憶の喪失は静かなる危機である; 記憶は所有者に帰属すべきである。",
@@ -124,31 +124,31 @@
     }
   },
   "access_page": {
-    "title": "Saule 早期アクセス",
-    "subtitle": "アプリケーションは現在、招待制アクセスモデルで開発されています。",
-    "why_title": "なぜ招待制アクセスなのか？",
-    "why_text": "Sauleは、個人の記憶、注意、意思決定、人間関係、精神的負担といったデリケートな領域に触れます。そのため、初期段階では公開登録ではなく、管理された応募と招待モデルが採用されます。",
-    "process_title": "プロセス",
-    "process_item1": "ホワイトペーパーを読む",
-    "process_item2": "早期アクセスフォームに記入する",
-    "process_item3": "申請が審査されます",
-    "process_item4": "適切と判断された場合、招待リンクが送信されます",
-    "process_item5": "フィードバックプロセスに参加する",
-    "expectations_title": "期待されること",
-    "expectations_item1": "Sauleは臨床サポートではありません",
-    "expectations_item2": "Sauleは診断や治療を提供しません",
-    "expectations_item3": "Sauleは初期段階の製品です",
-    "expectations_item4": "参加者には正直なフィードバックが期待されます",
-    "expectations_item5": "ユーザーデータとプライバシーの境界が優先されます",
-    "form_name": "名前",
-    "form_email": "Eメール",
-    "form_reason": "Sauleを試してみたい理由は何ですか？",
-    "form_struggle": "最も困難を感じている分野は何ですか？",
-    "form_takeaway": "ホワイトペーパーから心に残った結論や一文を書いていただけますか？",
-    "form_feedback": "フィードバックの提供にご協力いただけますか？",
-    "form_consent": "Sauleが臨床サポートではないことを理解しています",
-    "form_submit": "早期アクセスをリクエスト",
-    "form_submit_disabled": "フォームの送信は近日中に開始されます"
+    "title": "開発者プレビュー＆早期アクセス",
+    "subtitle": "ローカルのセマンティックメモリレイヤー（SML）エンジンおよびBeiweブラウザ拡張機能への早期アクセスを取得します。",
+    "why_title": "なぜ開発者プレビューなのか？",
+    "why_text": "Saule Coreは、ローカルファーストでヘッドレスな意味的エンジンです。一般公開の前に、セマンティックメモリインターフェース（SMI）APIおよびデータベースの最適化に関するフィードバックを収集するため、初期アクセスを開発者および技術ユーザーに制限しています。",
+    "process_title": "はじめに",
+    "process_item1": "アーキテクチャ仕様については、White Paper v2.0を参照してください。",
+    "process_item2": "以下の開発者プロフィールとメールアドレスを送信してください。",
+    "process_item3": "ローカルインストールパッケージ（npm/SQLite）とBeiwe拡張機能を受け取ります。",
+    "process_item4": "ローカルマシンのポート4000でマイクロサービスを実行します。",
+    "process_item5": "SMI APIコントラクトとパフォーマンスに関するフィードバックを提供してください。",
+    "expectations_title": "技術要件とコンテキスト",
+    "expectations_item1": "Sauleはマシン上で100%ローカルに動作します。",
+    "expectations_item2": "Node.js 18+およびSQLite環境が必要です。",
+    "expectations_item3": "ローカルサーバーはオフラインでONNX埋め込みを実行します。",
+    "expectations_item4": "Beiwe拡張機能との統合をテストします。",
+    "expectations_item5": "プライバシーは絶対的です：キーやデータがディスクから外に出ることはありません。",
+    "form_name": "名前 / ユーザー名",
+    "form_email": "開発者メール",
+    "form_reason": "ローカルセマンティックメモリレイヤーの主なユースケースは何ですか？",
+    "form_struggle": "優先する開発環境（OS / Nodeのバージョン）は何ですか？",
+    "form_takeaway": "どのSMI APIエンドポイント（/ingest, /recall, /clarity）に最も関心がありますか？",
+    "form_feedback": "APIログやバグ報告を提出することに同意しますか？",
+    "form_consent": "Saule Coreがローカルファーストの開発者プレビュー版であることを理解しています。",
+    "form_submit": "SDKアクセスを要求",
+    "form_submit_disabled": "開発者アクセスフォームはまもなく公開されます"
   },
   "home_page": {
     "hero_title": "Saule",
