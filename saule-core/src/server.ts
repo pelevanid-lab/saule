@@ -67,6 +67,25 @@ async function startServer() {
       }
     });
 
+    // Connect Endpoint
+    app.post('/api/smi/connect', async (req, res) => {
+      try {
+        const { sourceId, targetId, relationType, confidence, createdBy, reason } = req.body;
+        
+        if (!sourceId || !targetId || !relationType) {
+          return res.status(400).json({ error: "Missing required fields: sourceId, targetId, or relationType" });
+        }
+
+        console.log(`[Saule SML Server] Connecting node: ${sourceId} --(${relationType})--> ${targetId}`);
+        const edge = core.connect(sourceId, targetId, relationType, confidence || 1.0, createdBy || 'system', reason);
+        
+        return res.json({ success: true, edge });
+      } catch (err: any) {
+        console.error("[Saule SML Server] Connect error:", err);
+        return res.status(500).json({ error: "Internal Server Error", message: err.message });
+      }
+    });
+
     // Clarity Endpoint
     app.post('/api/smi/clarity', async (req, res) => {
       try {
