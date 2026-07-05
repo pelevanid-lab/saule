@@ -1,27 +1,27 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { execSync, spawn } from 'child_process';
+import * as cp from 'child_process';
 import path from 'path';
 
 export async function POST(req: NextRequest) {
   try {
-    if (process.env.NODE_ENV !== 'development') {
+    if (process.env.VERCEL) {
       return NextResponse.json(
-        { error: "SML control is only available in local development mode." },
+        { error: "SML control is not available in Vercel production deployment." },
         { status: 400 }
       );
     }
 
     const { action } = await req.json();
     
-    // Construct the script path dynamically to prevent Next.js/Turbopack trace engine
-    // from trying to resolve and package 'manage-sml.js' during build/deployment time.
-    const pathParts = ['scripts', 'manage-sml.js'];
-    const scriptPath = path.join(process.cwd(), ...pathParts);
+    // We construct the path using a wrapper function to bypass static tracing of process.cwd()
+    const getRoot = () => process.cwd();
+    const scriptPath = path.join(getRoot(), 'scripts', 'manage-sml.js');
 
     if (action === 'start') {
-      // Detached spawn to let the core server run independently in the background
-      const child = spawn('node', [scriptPath, 'start'], {
-        cwd: process.cwd(),
+      // Access spawn via bracket notation to prevent Turbopack from tracing the child process targets
+      const spawnFn = cp['spawn'];
+      const child = spawnFn('node', [scriptPath, 'start'], {
+        cwd: getRoot(),
         detached: true,
         stdio: 'ignore',
         shell: true
@@ -32,8 +32,9 @@ export async function POST(req: NextRequest) {
     }
 
     if (action === 'stop') {
-      // Run stop synchronously as it completes immediately
-      execSync(`node "${scriptPath}" stop`, { cwd: process.cwd() });
+      // Access execSync via bracket notation to prevent Turbopack tracing
+      const execSyncFn = cp['execSync'];
+      execSyncFn(`node "${scriptPath}" stop`, { cwd: getRoot() });
       return NextResponse.json({ success: true, message: "SML server stopped." });
     }
 
