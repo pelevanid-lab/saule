@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
+import { useAuth } from '@/components/auth/AuthProvider';
 
 interface Message {
   id: string;
@@ -12,6 +13,7 @@ interface Message {
 export type ProviderType = 'gemini' | 'claude' | 'openai';
 
 export default function TerminalUI({ dict, locale, workspaceId }: { dict: any; locale: string; workspaceId: string }) {
+  const { user } = useAuth();
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState('');
   const [isSending, setIsSending] = useState(false);

@@ -4,8 +4,19 @@ import path from 'path';
 
 export async function POST(req: NextRequest) {
   try {
+    if (process.env.NODE_ENV !== 'development') {
+      return NextResponse.json(
+        { error: "SML control is only available in local development mode." },
+        { status: 400 }
+      );
+    }
+
     const { action } = await req.json();
-    const scriptPath = path.join(process.cwd(), 'scripts', 'manage-sml.js');
+    
+    // Construct the script path dynamically to prevent Next.js/Turbopack trace engine
+    // from trying to resolve and package 'manage-sml.js' during build/deployment time.
+    const pathParts = ['scripts', 'manage-sml.js'];
+    const scriptPath = path.join(process.cwd(), ...pathParts);
 
     if (action === 'start') {
       // Detached spawn to let the core server run independently in the background
