@@ -84,24 +84,31 @@ export default function TerminalUI({ dict, locale, workspaceId }: { dict: any; l
         }
 
         if (data.contextToRemember && user) {
-          // Write directly to Firestore, bypassing local SML!
           try {
-            const { db } = await import('@/lib/firebase');
-            if (db) {
-              const { collection, addDoc, serverTimestamp } = await import('firebase/firestore');
-              await addDoc(collection(db, 'memories'), {
-                content: data.contextToRemember,
-                category: 'Knowledge',
-                spaceId: workspaceId || 'default',
-                spaceType: 'personal',
+            const apiUrl = process.env.NEXT_PUBLIC_SAULE_API_URL;
+            if (!apiUrl) throw new Error("API URL is missing");
+            
+            const reqBody = {
+              content: data.contextToRemember,
+              category: 'knowledge',
+              type: 'fact',
+              spaceType: 'personal',
+              spaceId: user.uid,
+              provenance: {
                 source: 'saule-terminal',
-                userId: user.uid,
-                createdAt: serverTimestamp()
-              });
-              console.log("Memory saved to Firebase successfully!");
-            }
+                author: user.uid,
+                workspaceId: workspaceId || 'default'
+              }
+            };
+            
+            await fetch(`${apiUrl}/api/smi/ingest`, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify(reqBody)
+            });
+            console.log("Memory saved to Cloud API successfully!");
           } catch (err) {
-            console.error("Failed to save memory to Firebase:", err);
+            console.error("Failed to save memory to Cloud API:", err);
           }
         }
       }

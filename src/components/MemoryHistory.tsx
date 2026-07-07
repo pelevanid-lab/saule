@@ -41,61 +41,77 @@ export default function MemoryHistory({ dict, locale, workspaceId }: { dict: any
   const [editNodeTitle, setEditNodeTitle] = useState('');
 
   useEffect(() => {
-    if (!user || !db) {
+    if (!user) {
       setMemories([]);
       setPackages([]);
       return;
     }
 
-    const q = query(
-      collection(db, 'memories'),
-      where('userId', '==', user.uid),
-      orderBy('createdAt', 'desc')
-    );
+    const fetchNodes = async () => {
+      try {
+        const apiUrl = process.env.NEXT_PUBLIC_SAULE_API_URL;
+        if (!apiUrl) return;
+        
+        const res = await fetch(`${apiUrl}/api/smi/nodes`);
+        if (!res.ok) return;
+        const data = await res.json();
+        
+        const allNodes = data.nodes || [];
+        
+        // Filter nodes by user
+        const userNodes = allNodes.filter((n: any) => 
+          n.spaceId === user.uid || 
+          (n.provenance && n.provenance.author === user.uid)
+        );
+        
+        const loadedMemories: RawMemory[] = [];
+        const loadedPackages: ContextPackage[] = [];
+        const seenIds = new Set<string>();
 
-    const unsubscribe = onSnapshot(q, (snapshot) => {
-      const loadedMemories: RawMemory[] = [];
-      const loadedPackages: ContextPackage[] = [];
-      const seenIds = new Set<string>();
+        userNodes.forEach((node: any) => {
+          const m: RawMemory = {
+            id: node.id,
+            content: node.content || '',
+            source: node.provenance?.source || 'saule-terminal',
+            createdAt: node.createdAt || Date.now(),
+            expiresAt: null,
+            workspaceId: node.provenance?.workspaceId || 'default',
+            packageId: node.provenance?.workspaceId || 'default'
+          };
+          loadedMemories.push(m);
 
-      snapshot.docs.forEach(doc => {
-        const data = doc.data();
-        const m: RawMemory = {
-          id: doc.id,
-          content: data.content || '',
-          source: data.source || 'saule-terminal',
-          createdAt: (typeof data.createdAt === 'number' ? data.createdAt : data.createdAt?.toMillis?.()) || Date.now(),
-          expiresAt: data.expiresAt || null,
-          workspaceId: data.spaceId || 'default',
-          packageId: data.spaceId || 'default'
-        };
-        loadedMemories.push(m);
+          const pid = m.packageId || 'default';
+          if (!seenIds.has(pid)) {
+            seenIds.add(pid);
+            loadedPackages.push({
+              id: pid,
+              title: pid === 'default' ? (locale === 'tr' ? 'Genel Bellek Ağacı' : 'General Knowledge Graph') : pid,
+              updatedAt: new Date(m.createdAt)
+            });
+          }
+        });
 
-        const pid = m.packageId || 'default';
-        if (!seenIds.has(pid)) {
-          seenIds.add(pid);
-          loadedPackages.push({
-            id: pid,
-            title: pid === 'default' ? (locale === 'tr' ? 'Genel Sohbet' : 'General Chat') : pid,
-            updatedAt: new Date(m.createdAt)
-          });
-        }
-      });
+        loadedMemories.sort((a, b) => b.createdAt - a.createdAt);
 
-      setMemories(loadedMemories);
-      setPackages(loadedPackages);
-    }, (err) => {
-      console.error('Error fetching memories from Firestore:', err);
-    });
+        setMemories(loadedMemories);
+        setPackages(loadedPackages);
+      } catch (err) {
+        console.error('Error fetching nodes from API:', err);
+      }
+    };
 
-    return () => unsubscribe();
+    fetchNodes();
+    const interval = setInterval(fetchNodes, 5000); // refresh every 5s
+    return () => clearInterval(interval);
   }, [user, locale]);
 
   const handleDelete = async (id: string) => {
-    if (!confirm(dict.delete_confirm) || !db) return;
+    if (!confirm(dict.delete_confirm)) return;
     try {
-      const { deleteDoc, doc } = await import('firebase/firestore');
-      await deleteDoc(doc(db, 'memories', id));
+      const apiUrl = process.env.NEXT_PUBLIC_SAULE_API_URL;
+      if (!apiUrl) return;
+      await fetch(`${apiUrl}/api/smi/nodes/${id}`, { method: 'DELETE' });
+      setMemories(prev => prev.filter(m => m.id !== id));
     } catch (error) {
       console.error('Error deleting memory:', error);
     }
