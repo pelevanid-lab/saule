@@ -1,52 +1,30 @@
-import { openDB, IDBPDatabase } from 'idb';
+import { initializeApp, getApps, cert } from 'firebase-admin/app';
+import { getFirestore, Firestore } from 'firebase-admin/firestore';
 
 export class DatabaseManager {
-  private dbName: string;
-  private dek: string;
-  private db: IDBPDatabase | null = null;
+  private db: Firestore | null = null;
 
-  constructor(dbName: string, dek: string) {
-    this.dbName = dbName;
-    this.dek = dek;
-  }
+  constructor(private dbName: string, private dek: string) {}
 
   public async initialize(): Promise<void> {
-    if (this.db) return; // Already initialized
+    if (this.db) return; // Zaten başlatıldı
 
-    this.db = await openDB(this.dbName, 1, {
-      upgrade(db) {
-        // Nodes table
-        if (!db.objectStoreNames.contains('nodes')) {
-          const nodeStore = db.createObjectStore('nodes', { keyPath: 'id' });
-          nodeStore.createIndex('space', ['space_id', 'space_type']);
-          nodeStore.createIndex('created_at', 'created_at');
-          nodeStore.createIndex('synced_at', 'synced_at');
-        }
-
-        // Embeddings table
-        if (!db.objectStoreNames.contains('embeddings')) {
-          db.createObjectStore('embeddings', { keyPath: 'node_id' });
-        }
-
-        // Edges table (Using a composite key as an array is supported in IndexedDB)
-        if (!db.objectStoreNames.contains('edges')) {
-          const edgeStore = db.createObjectStore('edges', { keyPath: ['source_id', 'target_id', 'relation_type'] });
-          edgeStore.createIndex('source_id', 'source_id');
-          edgeStore.createIndex('target_id', 'target_id');
-          edgeStore.createIndex('synced_at', 'synced_at');
-        }
-
-        // Provenance table
-        if (!db.objectStoreNames.contains('provenance')) {
-          db.createObjectStore('provenance', { keyPath: 'node_id' });
-        }
-      },
-    });
+    // Firebase Admin başlatma
+    if (getApps().length === 0) {
+      // Bulut ortamında çalışırken varsayılan credential yeterlidir.
+      // process.env.GOOGLE_APPLICATION_CREDENTIALS kullanır.
+      initializeApp();
+    }
+    
+    this.db = getFirestore();
+    console.log("[DatabaseManager] Firebase Admin Firestore initialized.");
   }
 
-  public getDb(): IDBPDatabase {
+  public getDb(): Firestore {
     if (!this.db) {
-      throw new Error("Database not initialized. Call initialize() first.");
+      // Fallback in case initialize wasn't awaited properly
+      if (getApps().length === 0) initializeApp();
+      this.db = getFirestore();
     }
     return this.db;
   }
@@ -56,9 +34,8 @@ export class DatabaseManager {
   }
 
   public close() {
-    if (this.db) {
-      this.db.close();
-      this.db = null;
-    }
+    // Firestore connections are managed by the admin SDK. 
+    // We don't strictly need to close it for cloud functions.
+    this.db = null;
   }
 }

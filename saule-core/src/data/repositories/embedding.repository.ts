@@ -9,11 +9,11 @@ export class EmbeddingRepository {
   }
 
   /**
-   * Persists a dense vector embedding associated with a node.
+   * Persists a dense vector embedding associated with a node in Firestore.
    */
   public async save(nodeId: string, embedding: number[]): Promise<void> {
     const db = this.dbManager.getDb();
-    await db.put('embeddings', {
+    await db.collection('embeddings').doc(nodeId).set({
       node_id: nodeId,
       embedding_json: JSON.stringify(embedding)
     });
@@ -24,9 +24,9 @@ export class EmbeddingRepository {
    */
   public async getByNodeId(nodeId: string): Promise<number[] | null> {
     const db = this.dbManager.getDb();
-    const row = await db.get('embeddings', nodeId);
-    if (!row) return null;
-    return JSON.parse(row.embedding_json);
+    const docSnap = await db.collection('embeddings').doc(nodeId).get();
+    if (!docSnap.exists) return null;
+    return JSON.parse(docSnap.data()!.embedding_json);
   }
 
   /**
@@ -35,17 +35,23 @@ export class EmbeddingRepository {
   public async getEmbeddingsBySpace(spaceId: string, spaceType: SpaceType): Promise<{ nodeId: string; embedding: number[] }[]> {
     const db = this.dbManager.getDb();
     
-    // In IndexedDB, there are no JOINs. We first get the matching nodes, then fetch their embeddings.
-    const nodes = await db.getAllFromIndex('nodes', 'space', [spaceId, spaceType]);
-    const nodeIds = nodes.map(n => n.id);
+    // First get the matching nodes, then fetch their embeddings.
+    const nodesSnap = await db.collection('nodes')
+      .where('space_id', '==', spaceId)
+      .where('space_type', '==', spaceType)
+      .get();
+      
+    const nodeIds = nodesSnap.docs.map(doc => doc.id);
 
     const embeddings = [];
+    // Firestore allows 'in' queries up to 10 items. For large spaces, we might need chunks or batch processing.
+    // For simplicity, we fetch them individually or use a direct query.
     for (const id of nodeIds) {
-      const row = await db.get('embeddings', id);
-      if (row) {
+      const docSnap = await db.collection('embeddings').doc(id).get();
+      if (docSnap.exists) {
         embeddings.push({
-          nodeId: row.node_id,
-          embedding: JSON.parse(row.embedding_json)
+          nodeId: docSnap.data()!.node_id,
+          embedding: JSON.parse(docSnap.data()!.embedding_json)
         });
       }
     }
@@ -58,11 +64,11 @@ export class EmbeddingRepository {
    */
   public async getAll(): Promise<{ nodeId: string; embedding: number[] }[]> {
     const db = this.dbManager.getDb();
-    const rows = await db.getAll('embeddings');
+    const snapshot = await db.collection('embeddings').get();
 
-    return rows.map(row => ({
-      nodeId: row.node_id,
-      embedding: JSON.parse(row.embedding_json)
+    return snapshot.docs.map(doc => ({
+      nodeId: doc.data().node_id,
+      embedding: JSON.parse(doc.data().embedding_json)
     }));
   }
 
@@ -71,6 +77,6 @@ export class EmbeddingRepository {
    */
   public async deleteByNodeId(nodeId: string): Promise<void> {
     const db = this.dbManager.getDb();
-    await db.delete('embeddings', nodeId);
+    await db.collection('embeddings').doc(nodeId).delete();
   }
 }

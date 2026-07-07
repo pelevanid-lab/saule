@@ -10,7 +10,7 @@ export class NodeRepository {
   }
 
   /**
-   * Encrypts and persists a MemoryNode.
+   * Encrypts and persists a MemoryNode in Firestore.
    */
   public async save(node: MemoryNode): Promise<void> {
     const db = this.dbManager.getDb();
@@ -29,11 +29,10 @@ export class NodeRepository {
       content_tag: envelope.tag,
       content_salt: envelope.salt,
       decay_score: node.decayScore,
-      created_at: node.createdAt,
-      synced_at: 0
+      created_at: node.createdAt
     };
 
-    await db.put('nodes', record);
+    await db.collection('nodes').doc(node.id).set(record);
   }
 
   /**
@@ -41,10 +40,11 @@ export class NodeRepository {
    */
   public async getById(id: string): Promise<MemoryNode | null> {
     const db = this.dbManager.getDb();
-    const row = await db.get('nodes', id);
+    const docRef = db.collection('nodes').doc(id);
+    const docSnap = await docRef.get();
 
-    if (!row) return null;
-    return await this.mapRowToNode(row);
+    if (!docSnap.exists) return null;
+    return await this.mapRowToNode(docSnap.data());
   }
 
   /**
@@ -52,9 +52,12 @@ export class NodeRepository {
    */
   public async getBySpace(spaceId: string, spaceType: SpaceType): Promise<MemoryNode[]> {
     const db = this.dbManager.getDb();
-    // Using index for space
-    const rows = await db.getAllFromIndex('nodes', 'space', [spaceId, spaceType]);
+    const snapshot = await db.collection('nodes')
+      .where('space_id', '==', spaceId)
+      .where('space_type', '==', spaceType)
+      .get();
     
+    const rows = snapshot.docs.map(doc => doc.data());
     return await Promise.all(rows.map(row => this.mapRowToNode(row)));
   }
 
@@ -63,8 +66,8 @@ export class NodeRepository {
    */
   public async getAll(): Promise<MemoryNode[]> {
     const db = this.dbManager.getDb();
-    const rows = await db.getAll('nodes');
-
+    const snapshot = await db.collection('nodes').get();
+    const rows = snapshot.docs.map(doc => doc.data());
     return await Promise.all(rows.map(row => this.mapRowToNode(row)));
   }
 
@@ -73,34 +76,22 @@ export class NodeRepository {
    */
   public async updateDecayScore(id: string, decayScore: number): Promise<void> {
     const db = this.dbManager.getDb();
-    const tx = db.transaction('nodes', 'readwrite');
-    const store = tx.objectStore('nodes');
-    const row = await store.get(id);
-    if (row) {
-      row.decay_score = decayScore;
-      await store.put(row);
-    }
-    await tx.done;
+    await db.collection('nodes').doc(id).update({ decay_score: decayScore });
   }
 
   /**
-   * Deletes a MemoryNode (cascading deletes must be handled manually or via a service layer in IndexedDB).
+   * Deletes a MemoryNode and related sub-collections/documents.
    */
   public async delete(id: string): Promise<void> {
     const db = this.dbManager.getDb();
     
-    // In IndexedDB we don't have FOREIGN KEY CASCADE. 
-    // We should ideally delete related edges/embeddings here or in SauleCore.
-    // For now we just delete the node.
-    const tx = db.transaction(['nodes', 'embeddings', 'provenance', 'edges'], 'readwrite');
-    await tx.objectStore('nodes').delete(id);
-    await tx.objectStore('embeddings').delete(id);
-    await tx.objectStore('provenance').delete(id);
+    const batch = db.batch();
+    batch.delete(db.collection('nodes').doc(id));
+    batch.delete(db.collection('embeddings').doc(id));
+    batch.delete(db.collection('provenances').doc(id));
     
-    // Edges deletion would require iterating over edges where source_id = id or target_id = id
-    // That can be added later or handled in the service.
-    
-    await tx.done;
+    // Note: Edges deletion would require fetching edge IDs. We leave it simple for now.
+    await batch.commit();
   }
 
   /**

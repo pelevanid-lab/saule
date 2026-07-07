@@ -9,7 +9,7 @@ export class ProvenanceRepository {
   }
 
   /**
-   * Persists the provenance details of a memory node.
+   * Persists the provenance details of a memory node in Firestore.
    */
   public async save(provenance: Provenance): Promise<void> {
     if (!provenance.nodeId) {
@@ -17,7 +17,7 @@ export class ProvenanceRepository {
     }
     const db = this.dbManager.getDb();
 
-    await db.put('provenance', {
+    await db.collection('provenances').doc(provenance.nodeId).set({
       node_id: provenance.nodeId,
       source: provenance.source,
       author: provenance.author,
@@ -37,9 +37,10 @@ export class ProvenanceRepository {
    */
   public async getByNodeId(nodeId: string): Promise<Provenance | null> {
     const db = this.dbManager.getDb();
-    const row = await db.get('provenance', nodeId);
+    const docSnap = await db.collection('provenances').doc(nodeId).get();
 
-    if (!row) return null;
+    if (!docSnap.exists) return null;
+    const row = docSnap.data()!;
 
     return {
       nodeId: row.node_id,
@@ -61,6 +62,6 @@ export class ProvenanceRepository {
    */
   public async deleteByNodeId(nodeId: string): Promise<void> {
     const db = this.dbManager.getDb();
-    await db.delete('provenance', nodeId);
+    await db.collection('provenances').doc(nodeId).delete();
   }
 }

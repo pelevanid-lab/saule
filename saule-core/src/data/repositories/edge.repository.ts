@@ -10,7 +10,7 @@ export class EdgeRepository {
   }
 
   /**
-   * Persists a graph edge, encrypting its reasoning details.
+   * Persists a graph edge, encrypting its reasoning details, in Firestore.
    */
   public async save(edge: MemoryEdge): Promise<void> {
     const db = this.dbManager.getDb();
@@ -31,11 +31,11 @@ export class EdgeRepository {
       reason_iv: envelope ? envelope.iv : null,
       reason_tag: envelope ? envelope.tag : null,
       reason_salt: envelope ? envelope.salt : null,
-      created_at: edge.createdAt,
-      synced_at: 0
+      created_at: edge.createdAt
     };
 
-    await db.put('edges', record);
+    const docId = `${edge.sourceId}_${edge.targetId}_${edge.relationType}`;
+    await db.collection('edges').doc(docId).set(record);
   }
 
   /**
@@ -44,13 +44,16 @@ export class EdgeRepository {
   public async getConnectedEdges(nodeId: string): Promise<MemoryEdge[]> {
     const db = this.dbManager.getDb();
     
-    const [fromRows, toRows] = await Promise.all([
-      db.getAllFromIndex('edges', 'source_id', nodeId),
-      db.getAllFromIndex('edges', 'target_id', nodeId)
+    const [fromSnapshot, toSnapshot] = await Promise.all([
+      db.collection('edges').where('source_id', '==', nodeId).get(),
+      db.collection('edges').where('target_id', '==', nodeId).get()
     ]);
 
     const uniqueRowsMap = new Map();
-    for (const row of [...fromRows, ...toRows]) {
+    const docs = [...fromSnapshot.docs, ...toSnapshot.docs];
+    
+    for (const doc of docs) {
+      const row = doc.data();
       const key = `${row.source_id}_${row.target_id}_${row.relation_type}`;
       uniqueRowsMap.set(key, row);
     }
@@ -64,7 +67,8 @@ export class EdgeRepository {
    */
   public async getEdgesFrom(sourceId: string): Promise<MemoryEdge[]> {
     const db = this.dbManager.getDb();
-    const rows = await db.getAllFromIndex('edges', 'source_id', sourceId);
+    const snapshot = await db.collection('edges').where('source_id', '==', sourceId).get();
+    const rows = snapshot.docs.map(doc => doc.data());
     return await Promise.all(rows.map(row => this.mapRowToEdge(row)));
   }
 
@@ -73,7 +77,8 @@ export class EdgeRepository {
    */
   public async getEdgesTo(targetId: string): Promise<MemoryEdge[]> {
     const db = this.dbManager.getDb();
-    const rows = await db.getAllFromIndex('edges', 'target_id', targetId);
+    const snapshot = await db.collection('edges').where('target_id', '==', targetId).get();
+    const rows = snapshot.docs.map(doc => doc.data());
     return await Promise.all(rows.map(row => this.mapRowToEdge(row)));
   }
 
@@ -82,11 +87,12 @@ export class EdgeRepository {
    */
   public async delete(sourceId: string, targetId: string, relationType: string): Promise<void> {
     const db = this.dbManager.getDb();
-    await db.delete('edges', [sourceId, targetId, relationType]);
+    const docId = `${sourceId}_${targetId}_${relationType}`;
+    await db.collection('edges').doc(docId).delete();
   }
 
   /**
-   * Maps an edge row from IndexedDB.
+   * Maps an edge row from Firestore.
    */
   private async mapRowToEdge(row: any): Promise<MemoryEdge> {
     const dek = this.dbManager.getDEK();

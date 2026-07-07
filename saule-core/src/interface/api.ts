@@ -5,7 +5,7 @@ import { ProvenanceRepository } from '../data/repositories/provenance.repository
 import { EmbeddingRepository } from '../data/repositories/embedding.repository.js';
 import { IngestionPipeline } from '../ingestion/pipeline.js';
 import { ContextCompositor } from '../reasoning/compositor.js';
-import { SyncEngine } from '../sync/firebase-sync.js';
+
 import { DecayEngine } from '../memory/decay.js';
 import { 
   MemoryNode, 
@@ -24,8 +24,7 @@ export class SauleCore {
   private embeddingRepo: EmbeddingRepository;
   private pipeline: IngestionPipeline;
   private compositor: ContextCompositor;
-  private syncEngine: SyncEngine;
-  private syncInterval: any = null;
+
 
   constructor(dbPath: string, dek: string) {
     this.dbManager = new DatabaseManager(dbPath, dek);
@@ -39,7 +38,6 @@ export class SauleCore {
       this.edgeRepo,
       this.provenanceRepo
     );
-    this.syncEngine = new SyncEngine(this.dbManager);
   }
 
   public async warmup(): Promise<void> {
@@ -50,25 +48,19 @@ export class SauleCore {
     await this.pipeline.process("warmup");
     console.log("[SauleCore] ONNX pipeline pre-warmup completed successfully.");
     
-    // Start background sync polling (every 30 seconds for testing/prototype)
-    this.syncInterval = setInterval(() => {
-       this.syncEngine.pushUnsyncedNodes();
-    }, 30000);
-    console.log("[SauleCore] Firebase Sync Engine started.");
+    console.log("[SauleCore] Cloud backend ready.");
   }
 
   public setAuthUser(uid: string): void {
-    this.syncEngine.setUserId(uid);
-    console.log(`[SauleCore] Authenticated as ${uid}. Syncing directly to user bucket.`);
+    console.log(`[SauleCore] Authenticated as ${uid}. (No sync engine needed in cloud)`);
   }
 
   public close(): void {
-    if (this.syncInterval) clearInterval(this.syncInterval);
     this.dbManager.close();
   }
 
   public async forceSync(): Promise<void> {
-    await this.syncEngine.pushUnsyncedNodes();
+    // No-op: Data is written directly to Firestore
   }
 
   /**

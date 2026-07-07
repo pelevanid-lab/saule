@@ -1,9 +1,4 @@
-import './polyfill.js';
-import { pipeline, env } from '@xenova/transformers';
-
-// Configure transformers.js for browser environment
-env.allowLocalModels = false;
-env.useBrowserCache = true;
+import { GoogleGenerativeAI } from '@google/generative-ai';
 
 export class PIIFilter {
   private static PATTERNS = {
@@ -28,26 +23,24 @@ export class PIIFilter {
 }
 
 export class IngestionPipeline {
-  private extractor: any = null;
-  private modelName = 'Xenova/all-MiniLM-L6-v2';
+  private genAI: GoogleGenerativeAI | null = null;
+  private modelName = 'text-embedding-004';
 
   /**
-   * Initializes the ONNX model pipeline.
+   * Initializes the Gemini client.
    */
-  private async initExtractor() {
-    if (this.extractor) return;
-    try {
-      console.log(`[IngestionPipeline]: Loading ONNX model "${this.modelName}"...`);
-      this.extractor = await pipeline('feature-extraction', this.modelName);
-      console.log(`[IngestionPipeline]: ONNX model loaded successfully.`);
-    } catch (e: any) {
-      console.error("[IngestionPipeline] Failed to load ONNX pipeline:", e.message || e.toString());
-      throw e;
+  private initExtractor() {
+    if (this.genAI) return;
+    const apiKey = process.env.GEMINI_API_KEY;
+    if (!apiKey) {
+      throw new Error("GEMINI_API_KEY environment variable is required for embeddings.");
     }
+    this.genAI = new GoogleGenerativeAI(apiKey);
+    console.log(`[IngestionPipeline]: Gemini client initialized for model "${this.modelName}".`);
   }
 
   /**
-   * Sanitizes, normalizes, and generates a dense vector embedding for the input text.
+   * Sanitizes, normalizes, and generates a dense vector embedding for the input text using Gemini.
    */
   public async process(text: string): Promise<{ sanitizedText: string; embedding: number[] }> {
     // 1. Normalize whitespace and clean
@@ -56,14 +49,23 @@ export class IngestionPipeline {
     // 2. Filter PII
     const sanitizedText = PIIFilter.mask(normalized);
 
-    // 3. Generate Embedding locally via ONNX
+    // 3. Generate Embedding via Gemini API
     let embedding: number[] = [];
+    if (normalized === 'warmup') {
+      // Return dummy for warmup
+      return { sanitizedText, embedding: new Array(768).fill(0) };
+    }
+
     try {
-      await this.initExtractor();
-      const output = await this.extractor(sanitizedText, { pooling: 'mean', normalize: true });
-      embedding = Array.from(output.data);
+      this.initExtractor();
+      if (!this.genAI) throw new Error("Gemini client not initialized");
+      
+      const model = this.genAI.getGenerativeModel({ model: this.modelName });
+      const result = await model.embedContent(sanitizedText);
+      const generatedEmbedding = result.embedding.values;
+      embedding = Array.from(generatedEmbedding);
     } catch (err: any) {
-      console.warn(`[IngestionPipeline] Local embedding failed: ${err.message || err}. Returning empty vector.`);
+      console.warn(`[IngestionPipeline] Gemini embedding failed: ${err.message || err}. Returning empty vector.`);
     }
 
     return {
