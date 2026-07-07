@@ -58,7 +58,7 @@ This isn't a documentation problem. It's a **memory architecture** problem. Ever
 | **Cross-App/Team Network Effect** | ❌ | ❌ | ❌ | ❌ | **✅ Yes** |
 
 > [!NOTE]  
-> **vs. Closed Vendor Memory (OpenAI/Claude Memory):** Those offer flat, key-value recall locked to a single model, stored on someone else's cloud, with no portability, zero local privacy, and no collective team utility. Saule is built to be the exact opposite of that on every axis.
+> **vs. Closed Vendor Memory (OpenAI/Claude Memory):** Those offer flat, key-value recall locked to a single model, stored on someone else's cloud, with no portability, zero local privacy, and no collective team utility. Saule is built to be the exact opposite of that on every axis..
 
 ---
 
