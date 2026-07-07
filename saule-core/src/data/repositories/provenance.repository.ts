@@ -11,41 +11,33 @@ export class ProvenanceRepository {
   /**
    * Persists the provenance details of a memory node.
    */
-  public save(provenance: Provenance): void {
+  public async save(provenance: Provenance): Promise<void> {
     if (!provenance.nodeId) {
       throw new Error("Cannot save provenance without an associated nodeId.");
     }
     const db = this.dbManager.getDb();
 
-    const stmt = db.prepare(`
-      INSERT OR REPLACE INTO provenance (
-        node_id, source, author, workspace_id, device_id, 
-        user_action, window_title, url, file_path, intention, created_at
-      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-    `);
-
-    stmt.run(
-      provenance.nodeId,
-      provenance.source,
-      provenance.author,
-      provenance.workspaceId || null,
-      provenance.deviceId || null,
-      provenance.userAction || null,
-      provenance.windowTitle || null,
-      provenance.url || null,
-      provenance.filePath || null,
-      provenance.intention || null,
-      provenance.createdAt
-    );
+    await db.put('provenance', {
+      node_id: provenance.nodeId,
+      source: provenance.source,
+      author: provenance.author,
+      workspace_id: provenance.workspaceId || null,
+      device_id: provenance.deviceId || null,
+      user_action: provenance.userAction || null,
+      window_title: provenance.windowTitle || null,
+      url: provenance.url || null,
+      file_path: provenance.filePath || null,
+      intention: provenance.intention || null,
+      created_at: provenance.createdAt
+    });
   }
 
   /**
    * Retrieves the provenance details of a memory node.
    */
-  public getByNodeId(nodeId: string): Provenance | null {
+  public async getByNodeId(nodeId: string): Promise<Provenance | null> {
     const db = this.dbManager.getDb();
-    const stmt = db.prepare('SELECT * FROM provenance WHERE node_id = ?');
-    const row = stmt.get(nodeId) as any;
+    const row = await db.get('provenance', nodeId);
 
     if (!row) return null;
 
@@ -67,9 +59,8 @@ export class ProvenanceRepository {
   /**
    * Deletes the provenance details of a memory node.
    */
-  public deleteByNodeId(nodeId: string): void {
+  public async deleteByNodeId(nodeId: string): Promise<void> {
     const db = this.dbManager.getDb();
-    const stmt = db.prepare('DELETE FROM provenance WHERE node_id = ?');
-    stmt.run(nodeId);
+    await db.delete('provenance', nodeId);
   }
 }

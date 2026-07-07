@@ -40,48 +40,62 @@ export default function MemoryHistory({ dict, locale, workspaceId }: { dict: any
   const [editingNodeId, setEditingNodeId] = useState<string | null>(null);
   const [editNodeTitle, setEditNodeTitle] = useState('');
 
-  const fetchMemories = async () => {
-    try {
-      const res = await fetch('/api/memories');
-      if (res.ok) {
-        const data = await res.json();
-        setMemories(data.memories || []);
-        
-        // Generate mock packages based on the workspaceIds/spaceIds of the loaded memories
-        const loadedPackages: ContextPackage[] = [];
-        const seenIds = new Set<string>();
-        (data.memories || []).forEach((m: RawMemory) => {
-          const pid = m.packageId || 'default';
-          if (!seenIds.has(pid)) {
-            seenIds.add(pid);
-            loadedPackages.push({
-              id: pid,
-              title: pid === 'default' ? (locale === 'tr' ? 'Genel Sohbet' : 'General Chat') : pid,
-              updatedAt: new Date(m.createdAt)
-            });
-          }
-        });
-        setPackages(loadedPackages);
-      }
-    } catch (error) {
-      console.error('Error fetching memories:', error);
-    }
-  };
-
   useEffect(() => {
-    fetchMemories();
-    // Poll every 5 seconds to keep it synced with any background extension actions
-    const interval = setInterval(fetchMemories, 5000);
-    return () => clearInterval(interval);
-  }, []);
+    if (!user || !db) {
+      setMemories([]);
+      setPackages([]);
+      return;
+    }
+
+    const q = query(
+      collection(db, 'memories'),
+      where('userId', '==', user.uid),
+      orderBy('createdAt', 'desc')
+    );
+
+    const unsubscribe = onSnapshot(q, (snapshot) => {
+      const loadedMemories: RawMemory[] = [];
+      const loadedPackages: ContextPackage[] = [];
+      const seenIds = new Set<string>();
+
+      snapshot.docs.forEach(doc => {
+        const data = doc.data();
+        const m: RawMemory = {
+          id: doc.id,
+          content: data.content || '',
+          source: data.source || 'saule-terminal',
+          createdAt: (typeof data.createdAt === 'number' ? data.createdAt : data.createdAt?.toMillis?.()) || Date.now(),
+          expiresAt: data.expiresAt || null,
+          workspaceId: data.spaceId || 'default',
+          packageId: data.spaceId || 'default'
+        };
+        loadedMemories.push(m);
+
+        const pid = m.packageId || 'default';
+        if (!seenIds.has(pid)) {
+          seenIds.add(pid);
+          loadedPackages.push({
+            id: pid,
+            title: pid === 'default' ? (locale === 'tr' ? 'Genel Sohbet' : 'General Chat') : pid,
+            updatedAt: new Date(m.createdAt)
+          });
+        }
+      });
+
+      setMemories(loadedMemories);
+      setPackages(loadedPackages);
+    }, (err) => {
+      console.error('Error fetching memories from Firestore:', err);
+    });
+
+    return () => unsubscribe();
+  }, [user, locale]);
 
   const handleDelete = async (id: string) => {
-    if (!confirm(dict.delete_confirm)) return;
+    if (!confirm(dict.delete_confirm) || !db) return;
     try {
-      const res = await fetch(`/api/memories?id=${id}`, { method: 'DELETE' });
-      if (res.ok) {
-        fetchMemories();
-      }
+      const { deleteDoc, doc } = await import('firebase/firestore');
+      await deleteDoc(doc(db, 'memories', id));
     } catch (error) {
       console.error('Error deleting memory:', error);
     }
@@ -144,12 +158,8 @@ export default function MemoryHistory({ dict, locale, workspaceId }: { dict: any
 
     return roots.filter(pruneEmpty).sort((a, b) => {
       // Sort roots by most recently updated memory
-      const aTime = a.memories[0]?.createdAt && typeof a.memories[0].createdAt === 'object' && a.memories[0].createdAt.toMillis
-        ? a.memories[0].createdAt.toMillis()
-        : Number(a.memories[0]?.createdAt) || 0;
-      const bTime = b.memories[0]?.createdAt && typeof b.memories[0].createdAt === 'object' && b.memories[0].createdAt.toMillis
-        ? b.memories[0].createdAt.toMillis()
-        : Number(b.memories[0]?.createdAt) || 0;
+      const aTime = typeof a.memories[0]?.createdAt === 'number' ? a.memories[0].createdAt : (a.memories[0]?.createdAt?.toMillis?.() || 0);
+      const bTime = typeof b.memories[0]?.createdAt === 'number' ? b.memories[0].createdAt : (b.memories[0]?.createdAt?.toMillis?.() || 0);
       return bTime - aTime;
     });
   };

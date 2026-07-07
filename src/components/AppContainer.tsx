@@ -4,6 +4,8 @@ import { useState, useEffect } from 'react';
 import TerminalUI from './TerminalUI';
 import MemoryHistory from './MemoryHistory';
 
+import { useAuth } from '@/components/auth/AuthProvider';
+
 interface Workspace {
   id: string;
   name: string;
@@ -12,6 +14,7 @@ interface Workspace {
 }
 
 export default function AppContainer({ dict, locale }: { dict: any; locale: string }) {
+  const { user, signOut } = useAuth();
   const [activeTab, setActiveTab] = useState<'terminal' | 'history'>('terminal');
   const [workspaces, setWorkspaces] = useState<Workspace[]>([]);
   const [activeWorkspaceId, setActiveWorkspaceId] = useState<string>('all');
@@ -73,12 +76,26 @@ export default function AppContainer({ dict, locale }: { dict: any; locale: stri
           <p className="font-sans text-sm text-charcoal-muted mt-1">{dict.app.subtitle}</p>
         </div>
         
-        <div className="flex items-center space-x-3 bg-white border border-sand-300/60 py-1.5 px-3 rounded-full shadow-sm">
-          <div className="w-5 h-5 rounded-full bg-sage-dark text-white flex items-center justify-center font-bold text-[10px]">
-            L
+        {user && (
+          <div className="flex items-center space-x-3 bg-white border border-sand-300/60 py-1.5 pl-3 pr-1.5 rounded-full shadow-sm">
+            {user.photoURL ? (
+              <img src={user.photoURL} alt="Profile" className="w-6 h-6 rounded-full" />
+            ) : (
+              <div className="w-6 h-6 rounded-full bg-sage-dark text-white flex items-center justify-center font-bold text-[10px]">
+                {user.email?.charAt(0).toUpperCase() || 'U'}
+              </div>
+            )}
+            <span className="text-xs font-sans font-semibold text-charcoal-muted">
+              {user.displayName || user.email}
+            </span>
+            <button
+              onClick={() => signOut()}
+              className="ml-2 text-[10px] font-bold px-2 py-1 bg-red-50 text-red-500 rounded-full hover:bg-red-100 transition-colors"
+            >
+              Çıkış
+            </button>
           </div>
-          <span className="text-xs font-sans font-semibold text-charcoal-muted">Local Developer</span>
-        </div>
+        )}
       </header>
 
       {/* Workspace Selector & Manager */}

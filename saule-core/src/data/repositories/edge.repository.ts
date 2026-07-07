@@ -12,90 +12,88 @@ export class EdgeRepository {
   /**
    * Persists a graph edge, encrypting its reasoning details.
    */
-  public save(edge: MemoryEdge): void {
+  public async save(edge: MemoryEdge): Promise<void> {
     const db = this.dbManager.getDb();
     const dek = this.dbManager.getDEK();
 
     let envelope = null;
     if (edge.reason) {
-      envelope = CryptoUtils.encrypt(edge.reason, dek);
+      envelope = await CryptoUtils.encrypt(edge.reason, dek);
     }
 
-    const stmt = db.prepare(`
-      INSERT OR REPLACE INTO edges (
-        source_id, target_id, relation_type, confidence, created_by,
-        reason_ciphertext, reason_iv, reason_tag, reason_salt, created_at
-      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-    `);
+    const record = {
+      source_id: edge.sourceId,
+      target_id: edge.targetId,
+      relation_type: edge.relationType,
+      confidence: edge.confidence,
+      created_by: edge.createdBy,
+      reason_ciphertext: envelope ? envelope.ciphertext : null,
+      reason_iv: envelope ? envelope.iv : null,
+      reason_tag: envelope ? envelope.tag : null,
+      reason_salt: envelope ? envelope.salt : null,
+      created_at: edge.createdAt,
+      synced_at: 0
+    };
 
-    stmt.run(
-      edge.sourceId,
-      edge.targetId,
-      edge.relationType,
-      edge.confidence,
-      edge.createdBy,
-      envelope ? envelope.ciphertext : null,
-      envelope ? envelope.iv : null,
-      envelope ? envelope.tag : null,
-      envelope ? envelope.salt : null,
-      edge.createdAt
-    );
+    await db.put('edges', record);
   }
 
   /**
    * Retrieves all edges originating from or targeting a specific node.
    */
-  public getConnectedEdges(nodeId: string): MemoryEdge[] {
+  public async getConnectedEdges(nodeId: string): Promise<MemoryEdge[]> {
     const db = this.dbManager.getDb();
-    const stmt = db.prepare(`
-      SELECT * FROM edges 
-      WHERE source_id = ? OR target_id = ?
-    `);
-    const rows = stmt.all(nodeId, nodeId) as any[];
+    
+    const [fromRows, toRows] = await Promise.all([
+      db.getAllFromIndex('edges', 'source_id', nodeId),
+      db.getAllFromIndex('edges', 'target_id', nodeId)
+    ]);
 
-    return rows.map(row => this.mapRowToEdge(row));
+    const uniqueRowsMap = new Map();
+    for (const row of [...fromRows, ...toRows]) {
+      const key = `${row.source_id}_${row.target_id}_${row.relation_type}`;
+      uniqueRowsMap.set(key, row);
+    }
+
+    const uniqueRows = Array.from(uniqueRowsMap.values());
+    return await Promise.all(uniqueRows.map(row => this.mapRowToEdge(row)));
   }
 
   /**
    * Retrieves all edges originating from a specific node.
    */
-  public getEdgesFrom(sourceId: string): MemoryEdge[] {
+  public async getEdgesFrom(sourceId: string): Promise<MemoryEdge[]> {
     const db = this.dbManager.getDb();
-    const stmt = db.prepare('SELECT * FROM edges WHERE source_id = ?');
-    const rows = stmt.all(sourceId) as any[];
-
-    return rows.map(row => this.mapRowToEdge(row));
+    const rows = await db.getAllFromIndex('edges', 'source_id', sourceId);
+    return await Promise.all(rows.map(row => this.mapRowToEdge(row)));
   }
 
   /**
    * Retrieves all edges pointing to a specific node.
    */
-  public getEdgesTo(targetId: string): MemoryEdge[] {
+  public async getEdgesTo(targetId: string): Promise<MemoryEdge[]> {
     const db = this.dbManager.getDb();
-    const stmt = db.prepare('SELECT * FROM edges WHERE target_id = ?');
-    const rows = stmt.all(targetId) as any[];
-
-    return rows.map(row => this.mapRowToEdge(row));
+    const rows = await db.getAllFromIndex('edges', 'target_id', targetId);
+    return await Promise.all(rows.map(row => this.mapRowToEdge(row)));
   }
 
   /**
    * Deletes a specific edge.
    */
-  public delete(sourceId: string, targetId: string, relationType: string): void {
+  public async delete(sourceId: string, targetId: string, relationType: string): Promise<void> {
     const db = this.dbManager.getDb();
-    const stmt = db.prepare('DELETE FROM edges WHERE source_id = ? AND target_id = ? AND relation_type = ?');
-    stmt.run(sourceId, targetId, relationType);
+    await db.delete('edges', [sourceId, targetId, relationType]);
   }
 
   /**
-   * Maps an edge row from SQLite database.
+   * Maps an edge row from IndexedDB.
    */
-  private mapRowToEdge(row: any): MemoryEdge {
+  private async mapRowToEdge(row: any): Promise<MemoryEdge> {
     const dek = this.dbManager.getDEK();
     let reason = undefined;
 
     if (row.reason_ciphertext) {
-      reason = CryptoUtils.decrypt(
+      reason = await CryptoUtils.decrypt(
         {
           ciphertext: row.reason_ciphertext,
           iv: row.reason_iv,

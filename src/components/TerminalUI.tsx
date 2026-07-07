@@ -21,8 +21,6 @@ export default function TerminalUI({ dict, locale, workspaceId }: { dict: any; l
   const [activePackageId, setActivePackageId] = useState<string>('');
   const [showEmbedModal, setShowEmbedModal] = useState(false);
   const [showExtensionModal, setShowExtensionModal] = useState(false);
-  const [serverStatus, setServerStatus] = useState<'connected' | 'offline'>('offline');
-  const [isActionPending, setIsActionPending] = useState(false);
   const [isLocalHost, setIsLocalHost] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
@@ -33,59 +31,13 @@ export default function TerminalUI({ dict, locale, workspaceId }: { dict: any; l
     );
   }, []);
 
-  const handleStartServer = async () => {
-    setIsActionPending(true);
-    try {
-      await fetch('/api/sml', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ action: 'start' }),
-      });
-      // Wait a bit for server to spin up, status polling will catch it
-      setTimeout(() => setIsActionPending(false), 3000);
-    } catch (e) {
-      console.error(e);
-      setIsActionPending(false);
-    }
-  };
 
-  const handleStopServer = async () => {
-    setIsActionPending(true);
-    try {
-      await fetch('/api/sml', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ action: 'stop' }),
-      });
-      setIsActionPending(false);
-      setServerStatus('offline');
-    } catch (e) {
-      console.error(e);
-      setIsActionPending(false);
-    }
-  };
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [messages]);
 
-  useEffect(() => {
-    const checkServer = async () => {
-      try {
-        const res = await fetch('http://localhost:4000/api/smi/nodes', { method: 'GET' }).catch(() => null);
-        if (res && res.ok) {
-          setServerStatus('connected');
-        } else {
-          setServerStatus('offline');
-        }
-      } catch (e) {
-        setServerStatus('offline');
-      }
-    };
-    checkServer();
-    const interval = setInterval(checkServer, 5000);
-    return () => clearInterval(interval);
-  }, []);
+
 
   const handleSend = async () => {
     if (!input.trim() || isSending) return;
@@ -130,6 +82,28 @@ export default function TerminalUI({ dict, locale, workspaceId }: { dict: any; l
         if (data.reply) {
           setMessages(prev => [...prev, { id: (Date.now() + 1).toString(), content: data.reply, source: 'saule', createdAt: new Date() }]);
         }
+
+        if (data.contextToRemember && user) {
+          // Write directly to Firestore, bypassing local SML!
+          try {
+            const { db } = await import('@/lib/firebase');
+            if (db) {
+              const { collection, addDoc, serverTimestamp } = await import('firebase/firestore');
+              await addDoc(collection(db, 'memories'), {
+                content: data.contextToRemember,
+                category: 'Knowledge',
+                spaceId: workspaceId || 'default',
+                spaceType: 'personal',
+                source: 'saule-terminal',
+                userId: user.uid,
+                createdAt: serverTimestamp()
+              });
+              console.log("Memory saved to Firebase successfully!");
+            }
+          } catch (err) {
+            console.error("Failed to save memory to Firebase:", err);
+          }
+        }
       }
     } catch (error) {
       console.error('Error sending message:', error);
@@ -160,36 +134,7 @@ export default function TerminalUI({ dict, locale, workspaceId }: { dict: any; l
             SML Headquarters
           </h2>
           <div className="text-[10px] text-charcoal-muted mt-1 flex items-center gap-2">
-            Yerel SML Sunucusu:
-            <span className={`inline-block w-2 h-2 rounded-full ${serverStatus === 'connected' ? 'bg-emerald-500 animate-pulse' : 'bg-rose-500'}`} />
-            <span className="font-mono bg-sand-200 px-1 py-0.5 rounded">http://localhost:4000</span>
-            
-            {isLocalHost ? (
-              serverStatus === 'offline' ? (
-                <button
-                  disabled={isActionPending}
-                  onClick={handleStartServer}
-                  className="bg-emerald-600 hover:bg-emerald-700 text-white font-sans text-[9px] font-bold px-2 py-0.5 rounded transition-colors disabled:opacity-50 cursor-pointer"
-                >
-                  {isActionPending ? 'Başlatılıyor...' : 'Başlat'}
-                </button>
-              ) : (
-                <button
-                  disabled={isActionPending}
-                  onClick={handleStopServer}
-                  className="bg-rose-600 hover:bg-rose-700 text-white font-sans text-[9px] font-bold px-2 py-0.5 rounded transition-colors disabled:opacity-50 cursor-pointer"
-                >
-                  {isActionPending ? 'Durduruluyor...' : 'Durdur'}
-                </button>
-              )
-            ) : (
-              <span 
-                className="text-[9px] bg-sand-200 text-charcoal-muted px-2 py-0.5 rounded font-sans cursor-help"
-                title="Sunucu yönetimi sadece localhost üzerinden çalışırken kullanılabilir. Canlı site üzerinden yerel makinenizdeki sunucu tetiklenemez."
-              >
-                Yalnızca Yerel (Localhost)
-              </span>
-            )}
+            <span className="font-mono bg-sand-200 px-1 py-0.5 rounded text-sage-dark">Terminal 2.0 (Firebase Sync Enabled)</span>
           </div>
         </div>
         <div className="flex items-center space-x-6 text-sm text-charcoal">

@@ -11,23 +11,20 @@ export class EmbeddingRepository {
   /**
    * Persists a dense vector embedding associated with a node.
    */
-  public save(nodeId: string, embedding: number[]): void {
+  public async save(nodeId: string, embedding: number[]): Promise<void> {
     const db = this.dbManager.getDb();
-    const stmt = db.prepare(`
-      INSERT OR REPLACE INTO embeddings (node_id, embedding_json)
-      VALUES (?, ?)
-    `);
-    stmt.run(nodeId, JSON.stringify(embedding));
+    await db.put('embeddings', {
+      node_id: nodeId,
+      embedding_json: JSON.stringify(embedding)
+    });
   }
 
   /**
    * Retrieves the embedding vector for a node.
    */
-  public getByNodeId(nodeId: string): number[] | null {
+  public async getByNodeId(nodeId: string): Promise<number[] | null> {
     const db = this.dbManager.getDb();
-    const stmt = db.prepare('SELECT embedding_json FROM embeddings WHERE node_id = ?');
-    const row = stmt.get(nodeId) as any;
-
+    const row = await db.get('embeddings', nodeId);
     if (!row) return null;
     return JSON.parse(row.embedding_json);
   }
@@ -35,29 +32,33 @@ export class EmbeddingRepository {
   /**
    * Retrieves all node embeddings, optionally filtered by spaceId and spaceType.
    */
-  public getEmbeddingsBySpace(spaceId: string, spaceType: SpaceType): { nodeId: string; embedding: number[] }[] {
+  public async getEmbeddingsBySpace(spaceId: string, spaceType: SpaceType): Promise<{ nodeId: string; embedding: number[] }[]> {
     const db = this.dbManager.getDb();
-    const stmt = db.prepare(`
-      SELECT e.node_id, e.embedding_json 
-      FROM embeddings e
-      JOIN nodes n ON e.node_id = n.id
-      WHERE n.space_id = ? AND n.space_type = ?
-    `);
-    const rows = stmt.all(spaceId, spaceType) as any[];
+    
+    // In IndexedDB, there are no JOINs. We first get the matching nodes, then fetch their embeddings.
+    const nodes = await db.getAllFromIndex('nodes', 'space', [spaceId, spaceType]);
+    const nodeIds = nodes.map(n => n.id);
 
-    return rows.map(row => ({
-      nodeId: row.node_id,
-      embedding: JSON.parse(row.embedding_json)
-    }));
+    const embeddings = [];
+    for (const id of nodeIds) {
+      const row = await db.get('embeddings', id);
+      if (row) {
+        embeddings.push({
+          nodeId: row.node_id,
+          embedding: JSON.parse(row.embedding_json)
+        });
+      }
+    }
+
+    return embeddings;
   }
 
   /**
    * Retrieves all embeddings in the entire database.
    */
-  public getAll(): { nodeId: string; embedding: number[] }[] {
+  public async getAll(): Promise<{ nodeId: string; embedding: number[] }[]> {
     const db = this.dbManager.getDb();
-    const stmt = db.prepare('SELECT node_id, embedding_json FROM embeddings');
-    const rows = db.prepare('SELECT node_id, embedding_json FROM embeddings').all() as any[];
+    const rows = await db.getAll('embeddings');
 
     return rows.map(row => ({
       nodeId: row.node_id,
@@ -68,9 +69,8 @@ export class EmbeddingRepository {
   /**
    * Deletes the embedding associated with a node.
    */
-  public deleteByNodeId(nodeId: string): void {
+  public async deleteByNodeId(nodeId: string): Promise<void> {
     const db = this.dbManager.getDb();
-    const stmt = db.prepare('DELETE FROM embeddings WHERE node_id = ?');
-    stmt.run(nodeId);
+    await db.delete('embeddings', nodeId);
   }
 }

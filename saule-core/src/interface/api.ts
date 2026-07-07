@@ -1,4 +1,3 @@
-import * as crypto from 'crypto';
 import { DatabaseManager } from '../data/database.js';
 import { NodeRepository } from '../data/repositories/node.repository.js';
 import { EdgeRepository } from '../data/repositories/edge.repository.js';
@@ -6,6 +5,7 @@ import { ProvenanceRepository } from '../data/repositories/provenance.repository
 import { EmbeddingRepository } from '../data/repositories/embedding.repository.js';
 import { IngestionPipeline } from '../ingestion/pipeline.js';
 import { ContextCompositor } from '../reasoning/compositor.js';
+import { SyncEngine } from '../sync/firebase-sync.js';
 import { DecayEngine } from '../memory/decay.js';
 import { 
   MemoryNode, 
@@ -24,6 +24,8 @@ export class SauleCore {
   private embeddingRepo: EmbeddingRepository;
   private pipeline: IngestionPipeline;
   private compositor: ContextCompositor;
+  private syncEngine: SyncEngine;
+  private syncInterval: any = null;
 
   constructor(dbPath: string, dek: string) {
     this.dbManager = new DatabaseManager(dbPath, dek);
@@ -37,15 +39,36 @@ export class SauleCore {
       this.edgeRepo,
       this.provenanceRepo
     );
+    this.syncEngine = new SyncEngine(this.dbManager);
   }
 
-  /**
-   * Pre-warms the local ONNX embedding extractor model.
-   */
   public async warmup(): Promise<void> {
+    console.log("[SauleCore] Initializing IndexedDB...");
+    await this.dbManager.initialize();
+    
     console.log("[SauleCore] Pre-warming ONNX pipeline with dummy inference...");
     await this.pipeline.process("warmup");
     console.log("[SauleCore] ONNX pipeline pre-warmup completed successfully.");
+    
+    // Start background sync polling (every 30 seconds for testing/prototype)
+    this.syncInterval = setInterval(() => {
+       this.syncEngine.pushUnsyncedNodes();
+    }, 30000);
+    console.log("[SauleCore] Firebase Sync Engine started.");
+  }
+
+  public setAuthUser(uid: string): void {
+    this.syncEngine.setUserId(uid);
+    console.log(`[SauleCore] Authenticated as ${uid}. Syncing directly to user bucket.`);
+  }
+
+  public close(): void {
+    if (this.syncInterval) clearInterval(this.syncInterval);
+    this.dbManager.close();
+  }
+
+  public async forceSync(): Promise<void> {
+    await this.syncEngine.pushUnsyncedNodes();
   }
 
   /**
@@ -63,7 +86,7 @@ export class SauleCore {
     // 1. Run normalization, PII filtering and ONNX embedding calculation
     const { sanitizedText, embedding } = await this.pipeline.process(content);
 
-    const nodeId = crypto.randomUUID();
+    const nodeId = globalThis.crypto.randomUUID();
     const resolvedSpaceId = spaceId || provenance.workspaceId || 'default';
     const resolvedSpaceType: SpaceType = spaceType || (provenance.workspaceId ? 'workspace' : 'personal');
 
@@ -80,17 +103,17 @@ export class SauleCore {
     };
 
     // 3. Save Node, Provenance and Embedding
-    this.nodeRepo.save(node);
+    await this.nodeRepo.save(node);
 
     const fullProvenance: Provenance = {
       ...provenance,
       nodeId,
       createdAt: provenance.createdAt || Date.now()
     };
-    this.provenanceRepo.save(fullProvenance);
+    await this.provenanceRepo.save(fullProvenance);
 
     if (embedding.length > 0) {
-      this.embeddingRepo.save(nodeId, embedding);
+      await this.embeddingRepo.save(nodeId, embedding);
     }
 
     node.provenance = fullProvenance;
@@ -100,14 +123,14 @@ export class SauleCore {
   /**
    * Connects two memory nodes with a directed, weighted edge.
    */
-  public connect(
+  public async connect(
     sourceId: string,
     targetId: string,
     relationType: string,
     confidence: number = 1.0,
     createdBy: 'ai' | 'user' | 'system' = 'system',
     reason?: string
-  ): MemoryEdge {
+  ): Promise<MemoryEdge> {
     const edge: MemoryEdge = {
       sourceId,
       targetId,
@@ -118,7 +141,7 @@ export class SauleCore {
       createdAt: Date.now()
     };
 
-    this.edgeRepo.save(edge);
+    await this.edgeRepo.save(edge);
     return edge;
   }
 
@@ -146,7 +169,7 @@ export class SauleCore {
     }
 
     // 2. Fetch candidate embeddings inside the designated space partition (spaceId + spaceType)
-    const candidates = this.embeddingRepo.getEmbeddingsBySpace(spaceId, spaceType);
+    const candidates = await this.embeddingRepo.getEmbeddingsBySpace(spaceId, spaceType);
 
     // 3. Calculate Cosine Similarity & rank candidates
     const scoredCandidates = candidates
@@ -161,18 +184,18 @@ export class SauleCore {
     // 4. Fetch seed nodes and boost their retention (re-activation)
     const seedNodes: MemoryNode[] = [];
     for (const item of scoredCandidates) {
-      const node = this.nodeRepo.getById(item.nodeId);
+      const node = await this.nodeRepo.getById(item.nodeId);
       if (node) {
         // Boost memory strength on recall access
         const boostedScore = DecayEngine.boost(node.decayScore);
-        this.nodeRepo.updateDecayScore(node.id, boostedScore);
+        await this.nodeRepo.updateDecayScore(node.id, boostedScore);
         node.decayScore = boostedScore;
         seedNodes.push(node);
       }
     }
 
     // 5. Run Graph Context Compositor to fetch adjacent nodes and build the payload
-    return this.compositor.compose(seedNodes);
+    return await this.compositor.compose(seedNodes);
   }
 
   /**
@@ -245,22 +268,15 @@ export class SauleCore {
   /**
    * Retrieves all memory nodes from the database.
    */
-  public getAllNodes(): MemoryNode[] {
-    return this.nodeRepo.getAll();
+  public async getAllNodes(): Promise<MemoryNode[]> {
+    return await this.nodeRepo.getAll();
   }
 
   /**
    * Deletes a memory node by ID.
    */
-  public deleteNode(id: string): void {
-    this.nodeRepo.delete(id);
-  }
-
-  /**
-   * Closes the database connection.
-   */
-  public close() {
-    this.dbManager.close();
+  public async deleteNode(id: string): Promise<void> {
+    await this.nodeRepo.delete(id);
   }
 
   /**

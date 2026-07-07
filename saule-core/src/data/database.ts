@@ -1,40 +1,53 @@
-import Database from 'better-sqlite3';
-import { 
-  CREATE_NODES_TABLE, 
-  CREATE_EMBEDDINGS_TABLE, 
-  CREATE_EDGES_TABLE, 
-  CREATE_PROVENANCE_TABLE, 
-  CREATE_INDEXES 
-} from './schema.js';
+import { openDB, IDBPDatabase } from 'idb';
 
 export class DatabaseManager {
-  private db: Database.Database;
+  private dbName: string;
   private dek: string;
+  private db: IDBPDatabase | null = null;
 
-  constructor(dbPath: string, dek: string) {
+  constructor(dbName: string, dek: string) {
+    this.dbName = dbName;
     this.dek = dek;
-    this.db = new Database(dbPath);
-    this.enableForeignKeys();
-    this.initializeSchema();
   }
 
-  private enableForeignKeys() {
-    this.db.pragma('foreign_keys = ON');
-  }
+  public async initialize(): Promise<void> {
+    if (this.db) return; // Already initialized
 
-  private initializeSchema() {
-    // Execute initialization scripts sequentially in a transaction
-    const initialize = this.db.transaction(() => {
-      this.db.exec(CREATE_NODES_TABLE);
-      this.db.exec(CREATE_EMBEDDINGS_TABLE);
-      this.db.exec(CREATE_EDGES_TABLE);
-      this.db.exec(CREATE_PROVENANCE_TABLE);
-      this.db.exec(CREATE_INDEXES);
+    this.db = await openDB(this.dbName, 1, {
+      upgrade(db) {
+        // Nodes table
+        if (!db.objectStoreNames.contains('nodes')) {
+          const nodeStore = db.createObjectStore('nodes', { keyPath: 'id' });
+          nodeStore.createIndex('space', ['space_id', 'space_type']);
+          nodeStore.createIndex('created_at', 'created_at');
+          nodeStore.createIndex('synced_at', 'synced_at');
+        }
+
+        // Embeddings table
+        if (!db.objectStoreNames.contains('embeddings')) {
+          db.createObjectStore('embeddings', { keyPath: 'node_id' });
+        }
+
+        // Edges table (Using a composite key as an array is supported in IndexedDB)
+        if (!db.objectStoreNames.contains('edges')) {
+          const edgeStore = db.createObjectStore('edges', { keyPath: ['source_id', 'target_id', 'relation_type'] });
+          edgeStore.createIndex('source_id', 'source_id');
+          edgeStore.createIndex('target_id', 'target_id');
+          edgeStore.createIndex('synced_at', 'synced_at');
+        }
+
+        // Provenance table
+        if (!db.objectStoreNames.contains('provenance')) {
+          db.createObjectStore('provenance', { keyPath: 'node_id' });
+        }
+      },
     });
-    initialize();
   }
 
-  public getDb(): Database.Database {
+  public getDb(): IDBPDatabase {
+    if (!this.db) {
+      throw new Error("Database not initialized. Call initialize() first.");
+    }
     return this.db;
   }
 
@@ -43,6 +56,9 @@ export class DatabaseManager {
   }
 
   public close() {
-    this.db.close();
+    if (this.db) {
+      this.db.close();
+      this.db = null;
+    }
   }
 }

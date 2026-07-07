@@ -95,6 +95,8 @@ async function startServer() {
           return res.status(400).json({ error: "Missing individualContext or collectiveContext fields" });
         }
 
+        console.log(`[Saule SML Server] Evaluating Clarity Score... (Input: "${individualContext.substring(0, 40)}...")`);
+
         // Resolve vectors for individual and collective contexts
         const pipeline = (core as any).pipeline;
         const { embedding: vA } = await pipeline.process(individualContext);

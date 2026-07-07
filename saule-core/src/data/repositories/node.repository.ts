@@ -12,93 +12,103 @@ export class NodeRepository {
   /**
    * Encrypts and persists a MemoryNode.
    */
-  public save(node: MemoryNode): void {
+  public async save(node: MemoryNode): Promise<void> {
     const db = this.dbManager.getDb();
     const dek = this.dbManager.getDEK();
 
-    const envelope = CryptoUtils.encrypt(node.content, dek);
+    const envelope = await CryptoUtils.encrypt(node.content, dek);
 
-    const stmt = db.prepare(`
-      INSERT OR REPLACE INTO nodes (
-        id, category, type, space_type, space_id, 
-        content_ciphertext, content_iv, content_tag, content_salt, 
-        decay_score, created_at
-      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-    `);
+    const record = {
+      id: node.id,
+      category: node.category,
+      type: node.type,
+      space_type: node.spaceType,
+      space_id: node.spaceId,
+      content_ciphertext: envelope.ciphertext,
+      content_iv: envelope.iv,
+      content_tag: envelope.tag,
+      content_salt: envelope.salt,
+      decay_score: node.decayScore,
+      created_at: node.createdAt,
+      synced_at: 0
+    };
 
-    stmt.run(
-      node.id,
-      node.category,
-      node.type,
-      node.spaceType,
-      node.spaceId,
-      envelope.ciphertext,
-      envelope.iv,
-      envelope.tag,
-      envelope.salt,
-      node.decayScore,
-      node.createdAt
-    );
+    await db.put('nodes', record);
   }
 
   /**
    * Retrieves and decrypts a MemoryNode by ID.
    */
-  public getById(id: string): MemoryNode | null {
+  public async getById(id: string): Promise<MemoryNode | null> {
     const db = this.dbManager.getDb();
-    const stmt = db.prepare('SELECT * FROM nodes WHERE id = ?');
-    const row = stmt.get(id) as any;
+    const row = await db.get('nodes', id);
 
     if (!row) return null;
-    return this.mapRowToNode(row);
+    return await this.mapRowToNode(row);
   }
 
   /**
    * Retrieves and decrypts all MemoryNodes in a specific space.
    */
-  public getBySpace(spaceId: string, spaceType: SpaceType): MemoryNode[] {
+  public async getBySpace(spaceId: string, spaceType: SpaceType): Promise<MemoryNode[]> {
     const db = this.dbManager.getDb();
-    const stmt = db.prepare('SELECT * FROM nodes WHERE space_id = ? AND space_type = ?');
-    const rows = stmt.all(spaceId, spaceType) as any[];
-
-    return rows.map(row => this.mapRowToNode(row));
+    // Using index for space
+    const rows = await db.getAllFromIndex('nodes', 'space', [spaceId, spaceType]);
+    
+    return await Promise.all(rows.map(row => this.mapRowToNode(row)));
   }
 
   /**
    * Retrieves and decrypts all MemoryNodes across all spaces.
    */
-  public getAll(): MemoryNode[] {
+  public async getAll(): Promise<MemoryNode[]> {
     const db = this.dbManager.getDb();
-    const stmt = db.prepare('SELECT * FROM nodes');
-    const rows = stmt.all() as any[];
+    const rows = await db.getAll('nodes');
 
-    return rows.map(row => this.mapRowToNode(row));
+    return await Promise.all(rows.map(row => this.mapRowToNode(row)));
   }
 
   /**
    * Updates the decay score of a MemoryNode.
    */
-  public updateDecayScore(id: string, decayScore: number): void {
+  public async updateDecayScore(id: string, decayScore: number): Promise<void> {
     const db = this.dbManager.getDb();
-    const stmt = db.prepare('UPDATE nodes SET decay_score = ? WHERE id = ?');
-    stmt.run(decayScore, id);
+    const tx = db.transaction('nodes', 'readwrite');
+    const store = tx.objectStore('nodes');
+    const row = await store.get(id);
+    if (row) {
+      row.decay_score = decayScore;
+      await store.put(row);
+    }
+    await tx.done;
   }
 
   /**
-   * Deletes a MemoryNode (cascading deletes for edges/provenance/embeddings).
+   * Deletes a MemoryNode (cascading deletes must be handled manually or via a service layer in IndexedDB).
    */
-  public delete(id: string): void {
+  public async delete(id: string): Promise<void> {
     const db = this.dbManager.getDb();
-    const stmt = db.prepare('DELETE FROM nodes WHERE id = ?');
-    stmt.run(id);
+    
+    // In IndexedDB we don't have FOREIGN KEY CASCADE. 
+    // We should ideally delete related edges/embeddings here or in SauleCore.
+    // For now we just delete the node.
+    const tx = db.transaction(['nodes', 'embeddings', 'provenance', 'edges'], 'readwrite');
+    await tx.objectStore('nodes').delete(id);
+    await tx.objectStore('embeddings').delete(id);
+    await tx.objectStore('provenance').delete(id);
+    
+    // Edges deletion would require iterating over edges where source_id = id or target_id = id
+    // That can be added later or handled in the service.
+    
+    await tx.done;
   }
 
   /**
    * Maps a database row to a decrypted MemoryNode.
    */
-  private mapRowToNode(row: any): MemoryNode {
+  private async mapRowToNode(row: any): Promise<MemoryNode> {
     const dek = this.dbManager.getDEK();
-    const content = CryptoUtils.decrypt(
+    const content = await CryptoUtils.decrypt(
       {
         ciphertext: row.content_ciphertext,
         iv: row.content_iv,

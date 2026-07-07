@@ -28,12 +28,12 @@ export class ContextCompositor {
    * @param minConfidence Minimum edge confidence to follow.
    * @param decayThreshold Minimum node decay score to include (defaults to 0.05).
    */
-  public compose(
+  public async compose(
     seedNodes: MemoryNode[],
     maxHops: number = 1,
     minConfidence: number = 0.3,
     decayThreshold: number = 0.05
-  ): ContextCompositionResult {
+  ): Promise<ContextCompositionResult> {
     const visitedNodeIds = new Set<string>();
     const nodeMap = new Map<string, MemoryNode>();
     const edgeMap = new Map<string, MemoryEdge>();
@@ -58,7 +58,7 @@ export class ContextCompositor {
       if (currHop >= maxHops) continue;
 
       // Get edges connected to current node
-      const edges = this.edgeRepo.getConnectedEdges(currId);
+      const edges = await this.edgeRepo.getConnectedEdges(currId);
 
       for (const edge of edges) {
         if (edge.confidence < minConfidence) continue;
@@ -72,7 +72,7 @@ export class ContextCompositor {
 
         // If target node hasn't been visited, load and evaluate it
         if (!visitedNodeIds.has(targetId)) {
-          const targetNode = this.nodeRepo.getById(targetId);
+          const targetNode = await this.nodeRepo.getById(targetId);
           if (targetNode) {
             const decayedScore = DecayEngine.decayNode(targetNode);
             if (decayedScore >= decayThreshold) {
@@ -91,7 +91,7 @@ export class ContextCompositor {
 
     // 3. Load provenance metadata for each node
     for (const node of finalNodes) {
-      const provenance = this.provenanceRepo.getByNodeId(node.id);
+      const provenance = await this.provenanceRepo.getByNodeId(node.id);
       if (provenance) {
         node.provenance = provenance;
       }

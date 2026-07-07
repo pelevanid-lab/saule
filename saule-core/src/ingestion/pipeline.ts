@@ -1,3 +1,10 @@
+import './polyfill.js';
+import { pipeline, env } from '@xenova/transformers';
+
+// Configure transformers.js for browser environment
+env.allowLocalModels = false;
+env.useBrowserCache = true;
+
 export class PIIFilter {
   private static PATTERNS = {
     creditCard: /\b(?:\d[ -]*?){13,16}\b/g,
@@ -30,8 +37,6 @@ export class IngestionPipeline {
   private async initExtractor() {
     if (this.extractor) return;
     try {
-      // Dynamic import to support both CommonJS and ES Module environments
-      const { pipeline } = await import('@xenova/transformers');
       console.log(`[IngestionPipeline]: Loading ONNX model "${this.modelName}"...`);
       this.extractor = await pipeline('feature-extraction', this.modelName);
       console.log(`[IngestionPipeline]: ONNX model loaded successfully.`);

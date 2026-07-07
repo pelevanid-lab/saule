@@ -10,7 +10,8 @@ export const CREATE_NODES_TABLE = `
     content_tag TEXT NOT NULL,
     content_salt TEXT NOT NULL,
     decay_score REAL NOT NULL,
-    created_at INTEGER NOT NULL
+    created_at INTEGER NOT NULL,
+    synced_at INTEGER DEFAULT 0
   );
 `;
 
@@ -34,6 +35,7 @@ export const CREATE_EDGES_TABLE = `
     reason_tag TEXT,
     reason_salt TEXT,
     created_at INTEGER NOT NULL,
+    synced_at INTEGER DEFAULT 0,
     PRIMARY KEY (source_id, target_id, relation_type),
     FOREIGN KEY (source_id) REFERENCES nodes(id) ON DELETE CASCADE,
     FOREIGN KEY (target_id) REFERENCES nodes(id) ON DELETE CASCADE
