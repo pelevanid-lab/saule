@@ -13,28 +13,27 @@ export async function POST(req: NextRequest) {
 
     const { action } = await req.json();
     
-    // We construct the path using a wrapper function to bypass static tracing of process.cwd()
-    const getRoot = () => process.cwd();
-    const scriptPath = path.join(getRoot(), 'scripts', 'manage-sml.js');
+    // Construct path dynamically to avoid any potential static file tracing
+    const scriptPath = path.join(process.cwd(), 'scripts', 'manage-sml.js');
 
     if (action === 'start') {
-      // Access spawn via bracket notation to prevent Turbopack from tracing the child process targets
-      const spawnFn = cp['spawn'];
-      const child = spawnFn('node', [scriptPath, 'start'], {
-        cwd: getRoot(),
+      // Use Reflect.apply to hide the spawn call from Turbopack's static analyzer
+      const spawnArgs = ['node', [scriptPath, 'start'], {
+        cwd: process.cwd(),
         detached: true,
         stdio: 'ignore',
         shell: true
-      });
+      }];
+      const child = Reflect.apply(cp.spawn, cp, spawnArgs);
       child.unref();
 
       return NextResponse.json({ success: true, message: "SML server start initiated." });
     }
 
     if (action === 'stop') {
-      // Access execSync via bracket notation to prevent Turbopack tracing
-      const execSyncFn = cp['execSync'];
-      execSyncFn(`node "${scriptPath}" stop`, { cwd: getRoot() });
+      // Use Reflect.apply to hide the execSync call from Turbopack's static analyzer
+      const execArgs = [`node "${scriptPath}" stop`, { cwd: process.cwd() }];
+      Reflect.apply(cp.execSync, cp, execArgs);
       return NextResponse.json({ success: true, message: "SML server stopped." });
     }
 
