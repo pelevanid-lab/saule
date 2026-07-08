@@ -890,7 +890,7 @@
             "paragraphs": [
               "> A roadmap extending from individual memory to collective transactive memory produces persistent market value through semantic network effects.",
               "Saule's vision is a 4-phase growth plan extending from a single assistant interface to global internet computing infrastructure:",
-              "• Phase 1: Personal SML & Local Core — Beiwe Browser integration (In its first release, Saule's active memory and background observation capabilities are restricted to run exclusively inside the Beiwe Cognitive Browser) and Terminal UI (observation), local SQLite database (storage), local embedding/tiny LLM models, and local encrypted CRDT/Yjs sync setup.",
+              "• Phase 1: Personal SML & Local Core — Beiwe Workspace integration (In its first release, Saule's active memory and background observation capabilities are restricted to run exclusively inside the Beiwe Smart Workspace) and Terminal UI (observation), local SQLite database (storage), local embedding/tiny LLM models, and local encrypted CRDT/Yjs sync setup.",
               "• Phase 2: Workspace SML — Setting up transactive memory infrastructure for teams with Slack, Notion, and GitHub integrations to prevent corporate amnesia.",
               "• Phase 3: Open Memory Protocol (OMP) — Launching the protocol enabling different applications and autonomous agents to speak with Saule via standardized APIs.",
               "• Phase 4: Semantic OS — Constructing a new generation operating system layer running directly in compatibility with human cognition, built on hardware and cloud layers."
@@ -991,7 +991,7 @@
             "heading": "Tauri Desktop and Mobile Roadmap",
             "paragraphs": [
               "Saule's 4-quarter local integration roadmap consists of:",
-              "• Phase 1: Personal SML & Local Core — SQLite graph tables layout, implementing Cognitive API methods (`remember`, `recall`, `connect`), local nomic-embed & Llama-3-8B-Instruct integration, Beiwe Browser integration (In its first release, Saule's active memory and background observation capabilities are restricted to run exclusively inside the Beiwe Cognitive Browser) and Terminal UI (observation), and Yjs/CRDT encrypted sync setup.",
+              "• Phase 1: Personal SML & Local Core — SQLite graph tables layout, implementing Cognitive API methods (`remember`, `recall`, `connect`), local nomic-embed & Llama-3-8B-Instruct integration, Beiwe Workspace integration (In its first release, Saule's active memory and background observation capabilities are restricted to run exclusively inside the Beiwe Smart Workspace) and Terminal UI (observation), and Yjs/CRDT encrypted sync setup.",
               "• Phase 2: Expanded Observation & Context Fusion — Gathering Clipboard, Selection, Git branch, and Accessibility Tree contexts, computing priority, and launching consolidation decay workers.",
               "• Phase 3: OS Floating Island UI — Transparent desktop overlay widget, Alt+Space SML Terminal HQ interface, and active suggestion automation engine.",
               "• Phase 4: Mobile Integration & Epizodic Voice — React Native mobile client accessing local audio recording, transcribing via local Whisper model, and syncing to the desktop graph."
@@ -1000,7 +1000,7 @@
           {
             "heading": "Standardized REST API Interface (SMI)",
             "paragraphs": [
-              "Saule Core exposes a local REST API microservice running on port 4000 to standardise client integrations (like the Beiwe browser extension). It provides the following endpoints: /api/smi/ingest (persisting memory nodes with local metadata), /api/smi/recall (performing segmented context retrieval across personal and community spaces), /api/smi/clarity (evaluating semantic alignment and consensus via cosine similarity), and /api/smi/verified-solutions (filtering brand catalog matches based on context constraints)."
+              "Saule Core exposes a local REST API microservice running on port 4000 to standardise client integrations (like the Beiwe workspace extension). It provides the following endpoints: /api/smi/ingest (persisting memory nodes with local metadata), /api/smi/recall (performing segmented context retrieval across personal and community spaces), /api/smi/clarity (evaluating semantic alignment and consensus via cosine similarity), and /api/smi/verified-solutions (filtering brand catalog matches based on context constraints)."
             ]
           },
           {

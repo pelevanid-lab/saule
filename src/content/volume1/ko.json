@@ -1000,7 +1000,7 @@
             "paragraphs": [
               "> 개별 메모리에서 기업 트랜잭티브 메모리로 확장되는 로드맵은 의미론적 네트워크 효과(semantic network effects)를 통해 지속적인 시장 가치를 창출합니다.",
               "Saule의 비전은 단일 비서 인터페이스에서 전체 인터넷 컴퓨팅 인프라로 확장되는 4단계 성장 계획입니다:",
-              "• 1단계: 개인 메모리 엔진 및 로컬 코어 (Personal SML & Local Core) — 브라우저 확장 프로그램 및 터미널 UI (관찰), 로컬 SQLite 데이터베이스 (저장) 및 로컬 임베딩/작은 LLM (의미론적 처리) 통합.",
+              "• 1단계: 개인 메모리 엔진 및 로컬 코어 (Personal SML & Local Core) — Beiwe Workspace 통합 (첫 번째 릴리스에서는 Saule의 활성 메모리 및 백그라운드 관찰 기능이 Beiwe Smart Workspace 내에서만 실행되도록 제한됩니다) 및 터미널 UI (관찰), 로컬 SQLite 데이터베이스 (저장) 및 로컬 임베딩/작은 LLM (의미론적 처리) 통합.",
               "• 2단계: 작업 공간 메모리 (Workspace SML) — 팀을 위한 Slack, Notion, GitHub 통합을 통해 트랜잭티브 메모리 인프라 구축 및 기업 망각 방지.",
               "• 3단계: 개방형 메모리 프로토콜 (Open Memory Protocol - OMP) — 다양한 애플리케이션과 자율 에이전트가 표준 API를 통해 Saule와 통신할 수 있도록 하는 프로토콜 출시.",
               "• 4단계: 의미론적 운영 체제 (Semantic OS) — 하드웨어 및 클라우드 계층 위에 직접 인간 인지와 호환되는 차세대 운영 체제 계층 구축."
@@ -1101,7 +1101,7 @@
             "heading": "Tauri 데스크톱 및 모바일 로드맵",
             "paragraphs": [
               "Saule의 4분기 로컬 통합 로드맵은 다음 단계로 구성됩니다:",
-              "• 1단계: 개인 메모리 엔진 및 로컬 코어 (Personal SML & Local Core) — SQLite 관계형 그래프 모델 구축, 인지 API (`remember`, `recall`, `connect`, `forget`) 메서드 작성, 로컬 nomic-embed 및 Llama-3-8B-Instruct 로컬 통합, 브라우저 확장 프로그램 및 터미널 UI (관찰), Yjs/CRDT 암호화된 동기화 구축.",
+              "• 1단계: 개인 메모리 엔진 및 로컬 코어 (Personal SML & Local Core) — SQLite 관계형 그래프 모델 구축, 인지 API (`remember`, `recall`, `connect`, `forget`) 메서드 작성, 로컬 nomic-embed 및 Llama-3-8B-Instruct 로컬 통합, Beiwe Workspace 통합 (첫 번째 릴리스에서는 Saule의 활성 메모리 및 백그라운드 관찰 기능이 Beiwe Smart Workspace 내에서만 실행되도록 제한됩니다) 및 터미널 UI (관찰), Yjs/CRDT 암호화된 동기화 구축.",
               "• 2단계: 확장된 관찰 및 컨텍스트 융합 엔진 — 클립보드, 선택, Git Branch 및 화면 읽기(Accessibility Tree) 수집기, 컨텍스트 융합을 통한 우선순위 계산, 백그라운드에서 실행되는 통합(Consolidation) 및 알고리즘적 노화(decay) 엔진.",
               "• 3단계: OS 플로팅 아일랜드 (Floating Desktop Island UI) — 모든 창 위에 떠 있을 수 있는 투명 플로팅 아일랜드 위젯, Alt+Space SML 터미널 HQ 인터페이스, 사용자 승인을 기반으로 하는 액션 자동화 엔진.",
               "• 4단계: 모바일 통합 및 음성 일화적 노트 — React Native 모바일 클라이언트를 통한 로컬 오디오 하드웨어 접근, 로컬 Whisper 모델을 통해 음성 기록 분석 및 데스크톱 그래프와 동기화."
@@ -1110,7 +1110,7 @@
           {
             "heading": "표준화된 REST API 인터페이스 (SMI)",
             "paragraphs": [
-              "Saule Core는 클라이언트 통합(Beiwe 브라우저 확장 프로그램 등)을 표준화하기 위해 포트 4000에서 실행되는 로컬 REST API 마이크로서비스를 노출합니다. 이 서비스는 다음 끝점을 제공합니다: /api/smi/ingest (로컬 메타데이터와 함께 메모리 노드 유지), /api/smi/recall (개인 및 커뮤니티 공간에서 세그먼트화된 컨텍스트 검색 수행), /api/smi/clarity (코사인 유사성을 통해 의미론적 일치 및 합의 평가), /api/smi/verified-solutions (컨텍스트 제약 조건에 따라 브랜드 카탈로그 일치 항목 필터링)."
+              "Saule Core는 클라이언트 통합(Beiwe Workspace 확장 프로그램 등)을 표준화하기 위해 포트 4000에서 실행되는 로컬 REST API 마이크로서비스를 노출합니다. 이 서비스는 다음 끝점을 제공합니다: /api/smi/ingest (로컬 메타데이터와 함께 메모리 노드 유지), /api/smi/recall (개인 및 커뮤니티 공간에서 세그먼트화된 컨텍스트 검색 수행), /api/smi/clarity (코사인 유사성을 통해 의미론적 일치 및 합의 평가), /api/smi/verified-solutions (컨텍스트 제약 조건에 따라 브랜드 카탈로그 일치 항목 필터링)."
             ]
           },
           {

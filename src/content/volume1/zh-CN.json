@@ -1000,7 +1000,7 @@
             "paragraphs": [
               "> 从个人记忆到企业事务性记忆的路线图，通过语义网络效应（semantic network effects）产生持久的市场价值。",
               "Saule 的愿景是一个四阶段的增长计划，从单一助理界面扩展到整个互联网认知基础设施：",
-              "• 阶段 1: 个人记忆引擎和本地核心（Personal SML & Local Core）— 浏览器扩展和终端 UI（观察），本地 SQLite 数据库（存储）以及本地嵌入/小型 LLM（语义处理）集成。",
+              "• 阶段 1: 个人记忆引擎和本地核心（Personal SML & Local Core）— Beiwe Workspace 集成（在第一个版本中，Saule 的主动记忆和后台观察功能被限制为仅在 Beiwe Smart Workspace 内运行）和终端 UI（观察），本地 SQLite 数据库（存储）以及本地嵌入/小型 LLM（语义处理）集成。",
               "• 阶段 2: 工作区记忆（Workspace SML）— 为团队建立与 Slack、Notion、GitHub 集成的事务性记忆基础设施，并防止企业遗忘症。",
               "• 阶段 3: 开放记忆协议（Open Memory Protocol - OMP）— 发布允许不同应用和自主代理通过标准 API 与 Saule 对话的协议。",
               "• 阶段 4: 语义操作系统（Semantic OS）— 在硬件和云层之上，建立一个与人类认知直接兼容的新一代操作系统层。"
@@ -1101,7 +1101,7 @@
             "heading": "Tauri 桌面和移动路线图",
             "paragraphs": [
               "Saule 的四个季度本地集成路线图包括以下步骤：",
-              "• 阶段 1: 个人记忆引擎和本地核心（Personal SML & Local Core）— 建立 SQLite 关系图模型，编写认知 API（`remember`, `recall`, `connect`, `forget`）方法，本地 nomic-embed 和 Llama-3-8B-Instruct 本地集成，浏览器扩展和终端 UI（观察），建立 Yjs/CRDT 加密同步。",
+              "• 阶段 1: 个人记忆引擎和本地核心（Personal SML & Local Core）— 建立 SQLite 关系图模型，编写认知 API（`remember`, `recall`, `connect`, `forget`）方法，本地 nomic-embed 和 Llama-3-8B-Instruct 本地集成，Beiwe Workspace 集成（在第一个版本中，Saule 的主动记忆和后台观察功能被限制为仅在 Beiwe Smart Workspace 内运行）和终端 UI（观察），建立 Yjs/CRDT 加密同步。",
               "• 阶段 2: 扩展观察与上下文融合引擎（Extended Observation & Context Fusion Engine）— 剪贴板、选择、Git 分支和屏幕读取（辅助功能树 Accessibility Tree）收集器，通过上下文融合计算优先级，后台运行的整合（Consolidation）和算法衰减（decay）引擎。",
               "• 阶段 3: 操作系统浮动岛（Floating Desktop Island UI）— 悬停在所有窗口之上的透明浮动岛小部件，Alt+Space SML 终端 HQ 界面，基于用户批准的行动自动化引擎。",
               "• 阶段 4: 移动集成和语音情景笔记（Mobile Integration & Voice Episodic Notes）— 通过 React Native 移动客户端访问本地音频硬件，使用本地 Whisper 模型分析录音并与桌面图谱同步。"
@@ -1110,7 +1110,7 @@
           {
             "heading": "标准化 REST API 接口 (SMI)",
             "paragraphs": [
-              "Saule Core 提供了一个在端口 4000 上运行的本地 REST API 微服务，以标准化客户端集成（如 Beiwe 浏览器扩展）。它提供以下端点：/api/smi/ingest（使用本地元数据持久化内存节点）、/api/smi/recall（在个人空间和社区空间中执行细分上下文检索）、/api/smi/clarity（通过余弦相似度评估语义对齐和共识）以及 /api/smi/verified-solutions（根据上下文约束过滤品牌目录匹配）。"
+              "Saule Core 提供了一个在端口 4000 上运行的本地 REST API 微服务，以标准化客户端集成（如 Beiwe Workspace 扩展）。它提供以下端点：/api/smi/ingest（使用本地元数据持久化内存节点）、/api/smi/recall（在个人空间和社区空间中执行细分上下文检索）、/api/smi/clarity（通过余弦相似度评估语义对齐和共识）以及 /api/smi/verified-solutions（根据上下文约束过滤品牌目录匹配）。"
             ]
           },
           {

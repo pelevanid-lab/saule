@@ -1000,7 +1000,7 @@
             "paragraphs": [
               "> La hoja de ruta, que se extiende desde la memoria individual hasta la memoria transaccional corporativa, genera un valor de mercado duradero a través de efectos de red semánticos.",
               "La visión de Saule es un plan de crecimiento de 4 fases que se extiende desde una única interfaz de asistente hasta toda la infraestructura de computación de internet:",
-              "• Fase 1: Motor de Memoria Individual y Núcleo Local (Personal SML & Local Core) — extensión de navegador y UI de Terminal (observación), base de datos SQLite local (almacenamiento) e integración local de embedding/pequeño LLM (procesamiento semántico).",
+              "• Fase 1: Motor de Memoria Individual y Núcleo Local (Personal SML & Local Core) — integración de Beiwe Workspace (En su primer lanzamiento, las capacidades de memoria activa y observación en segundo plano de Saule están restringidas a ejecutarse exclusivamente dentro de Beiwe Smart Workspace) y UI de Terminal (observación), base de datos SQLite local (almacenamiento) e integración local de embedding/pequeño LLM (procesamiento semántico).",
               "• Fase 2: Memoria del Espacio de Trabajo (Workspace SML) — Establecimiento de la infraestructura de memoria transaccional con integraciones de Slack, Notion, GitHub para equipos y prevención de la amnesia corporativa.",
               "• Fase 3: Protocolo de Memoria Abierta (Open Memory Protocol - OMP) — Publicación del protocolo que permite a diferentes aplicaciones y agentes autónomos comunicarse con Saule a través de APIs estándar.",
               "• Fase 4: Sistema Operativo Semántico (Semantic OS) — Establecimiento de una capa de sistema operativo de próxima generación que funcione sobre las capas de hardware y nube, directamente compatible con la cognición humana."
@@ -1101,7 +1101,7 @@
             "heading": "Hoja de Ruta para Escritorio y Móvil con Tauri",
             "paragraphs": [
               "La hoja de ruta de integración local de 4 trimestres de Saule consta de los siguientes pasos:",
-              "• Fase 1: Motor de Memoria Individual y Núcleo Local (Personal SML & Local Core) — Establecimiento del modelo de grafo relacional SQLite, escritura de los métodos de la API Cognitiva (`remember`, `recall`, `connect`, `forget`), integración local de nomic-embed y Llama-3-8B-Instruct, extensión de navegador y UI de Terminal (observación), establecimiento de la sincronización cifrada Yjs/CRDT.",
+              "• Fase 1: Motor de Memoria Individual y Núcleo Local (Personal SML & Local Core) — Establecimiento del modelo de grafo relacional SQLite, escritura de los métodos de la API Cognitiva (`remember`, `recall`, `connect`, `forget`), integración local de nomic-embed y Llama-3-8B-Instruct, integración de Beiwe Workspace (En su primer lanzamiento, las capacidades de memoria activa y observación en segundo plano de Saule están restringidas a ejecutarse exclusivamente dentro de Beiwe Smart Workspace) y UI de Terminal (observación), establecimiento de la sincronización cifrada Yjs/CRDT.",
               "• Fase 2: Motor de Observación Extendida y Fusión de Contexto — Recolectores de Portapapeles, Selección, Rama de Git y lectura de pantalla (Accessibility Tree), cálculo de prioridad con Fusión de Contexto, motor de Consolidación y decaimiento algorítmico (decay) ejecutándose en segundo plano.",
               "• Fase 3: Isla Flotante del Sistema Operativo (Floating Desktop Island UI) — Widget de isla flotante transparente que puede permanecer sobre todas las ventanas, interfaz Alt+Space SML Terminal HQ, motor de automatización de acciones basado en la aprobación del usuario.",
               "• Fase 4: Integración Móvil y Notas Episódicas de Voz — Acceso al hardware de audio local con el cliente móvil React Native, análisis de grabaciones de voz con el modelo Whisper local y sincronización con el grafo de escritorio."
@@ -1110,13 +1110,13 @@
           {
             "heading": "Interfaz REST API Estandarizada (SMI)",
             "paragraphs": [
-              "Saule Core expone un microservicio local de REST API en el puerto 4000 para estandarizar las integraciones de clientes (como la extensión de navegador Beiwe). Proporciona los siguientes puntos finales: /api/smi/ingest (guarda nodos de memoria con metadatos locales), /api/smi/recall (realiza recuperación de contexto segmentada en espacios personales y comunitarios), /api/smi/clarity (evalúa la alineación semántica y el consenso mediante similitud de coseno) y /api/smi/verified-solutions (filtra las coincidencias del catálogo de marcas según restricciones de contexto)."
+              "Saule Core expone un microservicio local de REST API en el puerto 4000 para estandarizar las integraciones de clientes (como la extensión de Beiwe Workspace). Proporciona los siguientes puntos finales: /api/smi/ingest (guarda nodos de memoria con metadatos locales), /api/smi/recall (realiza recuperación de contexto segmentada en espacios personales y comunitarios), /api/smi/clarity (evalúa la alineación semántica y el consenso mediante similitud de coseno) y /api/smi/verified-solutions (filtra las coincidencias del catálogo de marcas según restricciones de contexto)."
             ]
           },
           {
             "heading": "Interfaz REST API Estandarizada (SMI)",
             "paragraphs": [
-              "Saule Core expone un microservicio local de REST API en el puerto 4000 para estandarizar las integraciones de clientes (como la extensión de navegador Beiwe). Proporciona los siguientes puntos finales: /api/smi/ingest (guarda nodos de memoria con metadatos locales), /api/smi/recall (realiza recuperación de contexto segmentada en espacios personales y comunitarios), /api/smi/clarity (evalúa la alineación semántica y el consenso mediante similitud de coseno) y /api/smi/verified-solutions (filtra las coincidencias del catálogo de marcas según restricciones de contexto)."
+              "Saule Core expone un microservicio local de REST API en el puerto 4000 para estandarizar las integraciones de clientes (como la extensión de Beiwe Workspace). Proporciona los siguientes puntos finales: /api/smi/ingest (guarda nodos de memoria con metadatos locales), /api/smi/recall (realiza recuperación de contexto segmentada en espacios personales y comunitarios), /api/smi/clarity (evalúa la alineación semántica y el consenso mediante similitud de coseno) y /api/smi/verified-solutions (filtra las coincidencias del catálogo de marcas según restricciones de contexto)."
             ]
           },
           {
