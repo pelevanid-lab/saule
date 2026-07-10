@@ -31,7 +31,8 @@
     "badge": "Saule White Paper v2.0",
     "nav_home": "ホーム",
     "nav_book": "ホワイトペーパー",
-    "nav_access": "早期アクセス"
+    "nav_access": "早期アクセス",
+    "nav_dashboard": "サポートパネル"
   },
   "footer": {
     "owner": "PEH",

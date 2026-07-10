@@ -29,7 +29,8 @@
     "badge": "Saule White Paper v2.0",
     "nav_home": "Главная",
     "nav_book": "White Paper",
-    "nav_access": "Ранний Доступ"
+    "nav_access": "Ранний Доступ",
+    "nav_dashboard": "Панель поддержки"
   },
   "footer": {
     "owner": "PEH",

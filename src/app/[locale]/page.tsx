@@ -47,10 +47,10 @@ export default async function Page({
               {dict.home_page?.cta_book || dict.header.nav_book}
             </Link>
             <Link
-              href={`/${locale}/access`}
+              href={`/${locale}/app`}
               className="w-full sm:w-auto px-8 py-4 bg-white/60 backdrop-blur-sm border border-clay/30 text-clay hover:bg-clay/10 font-sans font-bold text-xs uppercase tracking-widest rounded-lg transition-all duration-300 cursor-pointer text-center shadow-sm hover:shadow"
             >
-              {dict.header.nav_access || 'Erken Erişim'}
+              {dict.header.nav_dashboard || 'Destek Paneli'}
             </Link>
           </div>
         </div>

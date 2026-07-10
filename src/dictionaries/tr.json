@@ -31,7 +31,7 @@
     "badge": "Saule White Paper v2.0",
     "nav_home": "Ana Sayfa",
     "nav_book": "White Paper",
-    "nav_access": "Erken Erişim"
+    "nav_dashboard": "Destek Paneli"
   },
   "footer": {
     "owner": "PEH",
@@ -152,8 +152,8 @@
   },
   "home_page": {
     "hero_title": "Saule",
-    "hero_subtitle": "Anlamsal Bellek Katmanı (SML)",
-    "hero_desc": "Yapay zekâ modelleri sürekli gelişebilir, ancak hafıza sabittir. Saule; zihinsel yükünüzü, kararlarınızı ve niyetlerinizi koruyarak sizi zaman içinde anlayan bağımsız bir Anlamsal Bellek Katmanı'dır (SML). Saule, ilk sürümünde yalnızca Beiwe Bilişsel Tarayıcı ile tam entegre çalışacak şekilde tasarlanmıştır.",
+    "hero_subtitle": "Yapay Zeka ve Canlı Destek Altyapısı",
+    "hero_desc": "Saule; Beiwe'nin arkasındaki akıllı veri ve canlı destek omurgasıdır. Yapay zekanın yetersiz kaldığı yerde insanın kusursuzca devreye girmesini (Human-in-the-loop) sağlayan güçlü bir Müşteri Destek Kontrol Merkezidir.",
     "cta_book": "White Paper'ı Oku ↗",
     "section_saule_title": "Tek Saule",
     "section_saule_desc": "Saule ayrı ürün evrenlerine bölünmez. İş, yaratıcılık, ilişki, karar ve gündelik yaşam aynı insanın farklı bağlamlarıdır; Saule bu bağlamları tek bir etik ve tasarım omurgasıyla anlamaya çalışır.",
@@ -174,8 +174,8 @@
     "footer_cta": "Zekâ değişebilir. Hafıza değil."
   },
   "app": {
-    "title": "SML Terminal",
-    "subtitle": "Saule Anlamsal Bellek Katmanı",
+    "title": "Saule Destek Paneli",
+    "subtitle": "Canlı Destek ve Kontrol Merkezi",
     "input_placeholder": "Bir anı ekleyin veya soru sorun...",
     "send": "Gönder",
     "empty_state": "SML Terminal'e hoş geldiniz. Hafızaya bir şeyler ekleyerek veya soru sorarak başlayın.",

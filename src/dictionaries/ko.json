@@ -31,7 +31,8 @@
     "badge": "Saule White Paper v2.0",
     "nav_home": "홈",
     "nav_book": "백서",
-    "nav_access": "얼리 액세스"
+    "nav_access": "얼리 액세스",
+    "nav_dashboard": "지원 패널"
   },
   "footer": {
     "owner": "PEH",

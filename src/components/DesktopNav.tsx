@@ -13,7 +13,7 @@ export default function DesktopNav({ locale, dict }: { locale: string; dict: any
     pathname.includes('/appendix/') ||
     pathname.includes('/volume/');
 
-  const isAccess = pathname === `/${locale}/access`;
+  const isAccess = pathname === `/${locale}/app`;
 
   return (
     <nav className="hidden md:flex flex-1 items-center justify-end ml-8 mr-6">
@@ -32,10 +32,10 @@ export default function DesktopNav({ locale, dict }: { locale: string; dict: any
         </Link>
 
         <Link
-          href={`/${locale}/access`}
+          href={`/${locale}/app`}
           className={`transition-colors ${isAccess ? 'text-sage-dark font-bold' : 'hover:text-sage-dark'}`}
         >
-          {dict.header.nav_access || 'Erken Erişim'}
+          {dict.header.nav_dashboard || 'Destek Paneli'}
         </Link>
       </div>
     </nav>

@@ -78,9 +78,9 @@ export default function MobileNav({
     },
 
     {
-      href: `/${locale}/access`,
-      label: dict.header.nav_access || 'Erken Erişim',
-      active: pathname === `/${locale}/access`,
+      href: `/${locale}/app`,
+      label: dict.header.nav_dashboard || 'Destek Paneli',
+      active: pathname === `/${locale}/app`,
     },
   ];
 

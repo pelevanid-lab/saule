@@ -19,7 +19,7 @@ const app =
       ? getApp() 
       : null;
 
-const db = app ? getFirestore(app) : null;
-const auth = app ? getAuth(app) : null;
+const db = (app ? getFirestore(app) : null) as ReturnType<typeof getFirestore>;
+const auth = (app ? getAuth(app) : null) as ReturnType<typeof getAuth>;
 
 export { app, db, auth };
